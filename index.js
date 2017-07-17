@@ -5,10 +5,10 @@ var permalinks  = require('metalsmith-permalinks');
 
 Metalsmith(__dirname)
   .metadata({
-    title: "My Static Site & Blog",
-    description: "It's about saying »Hello« to the World.",
+    title: "James Tharpe: Software, etc.",
+    description: "Things I've learned",
     generator: "Metalsmith",
-    url: "http://www.metalsmith.io/"
+    url: "https://www.jamestharpe.com/"
   })
   .source('./src')
   .destination('./build')
