@@ -1,3 +1,49 @@
 baseURL = "https://www.jamestharpe.com/"
 languageCode = "en-us"
-title = "James Tharpe: What I'm Learning"
+title = "James Tharpe"
+theme = "minimal"
+
+[taxonomies]
+    language = "languages"
+    framework = "frameworks"
+    tool = "tools"
+    technique = "techniques"
+
+[params]
+    author = "James Tharpe"
+    description = "Things I'm Learning"
+    githubUsername = "jamestharpe"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "c#", "kotlin", "css", "http", "ruby", "bash", "javascript", "groovy", "java", "json", "markdown"] # https://highlightjs.org/static/demo/
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/languages/"
+    name = "Programming Languages"
+    weight = 2
+
+[[menu.main]]
+    url = "/frameworks/"
+    name = "Frameworks"
+    weight = 3
+
+[[menu.main]]
+    url = "/tools/"
+    name = "Tools"
+    weight = 3
+
+[[menu.main]]
+    url = "/techniques/"
+    name = "Techniques"
+    weight = 4
+
+# Cloud 

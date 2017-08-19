@@ -1,5 +1,8 @@
 ---
 title: "Setting up my Hugo Website"
+languages: [ "markdown", "toml" ]
+tools: [ "hugo" ]
+technique: [ "static site generation" ]
 date: 2017-08-19T06:44:00-04:00
 draft: true
 ---
@@ -33,22 +36,18 @@ Following the [Hugo Quick Start Guide](https://gohugo.io/getting-started/quick-s
 ```bash
 # Install Hugo
 choco install hugo --yes
-...
 
 # Scaffold my website
 hugo new site jamestharpe.com && cd jamestharpe.com
-...
 
 # Add my first post
 hugo new post/setting-up-hugo.md
 
 # Install a theme to test with
-git clone https://github.com/dim0627/hugo_theme_robust.git && cd hugo_theme_robust && git checkout 3baae29 && cd ../..
-...
+git clone https://github.com/dim0627/hugo_theme_robust.git && cd hugo_theme_robust && git checkout 3baae29 && cd ../
 
 # Preview the site
 hugo server --buildDrafts
-...
 ```
 
 The result:
@@ -81,6 +80,68 @@ Finally, remove the offending code and save:
 
 Voilà!
 
+### Changing Themes: Minimal
+
+After browsing the [Hugo Themes site](https://themes.gohugo.io/) I settled on [Minimal](https://themes.gohugo.io/theme/minimal/) as my starter theme (sorry, Robust). Switching themes is pretty easy:
+
+```bash
+git submodule add git@github.com:calintat/minimal.git themes/minimal
+git submodule init
+git submodule update
+```
+
+Note that this time I opted to use add a [git submodule](https://git-scm.com/docs/git-submodule) rather than a clone, which allows me to easily update to the latest version of the theme automatically:
+
+```bash
+git submodule update --remote themes/minimal
+```
+
+### Taxonomy
+
+Hugo comes with [tags and categories](https://gohugo.io/content-management/taxonomies/) by default. I plan to blog about software development and related topics, and I tend to use a lot of technologies which makes it difficult to organize my planned posts into simple tags and categories. Instead, I've decided to go with a more custom approach:
+
+* **Languages** will cover the programming languages used in each article, in this article I'm using [markdown](/languages/markdown/)
+* **Frameworks** will cover the frameworks used in each article, for example ASP.NET
+* **Tools** will cover the tools used in each article, in this article I'm using [hugo](/tools/hugo/)
+* **Techniques** will cover the techniques used in each article, in this article I'm using static site generation
+
+Setting up this custom taxonomy is easy. Just open the site's `config.toml` file and add your custom taxonomies in `single = "plural"` format:
+
+```toml
+[taxonomies]
+    framework = "frameworks"
+    language = "languages"
+    technique = "techniques"
+    tool = "tools"
+```
+
+Then simply assign them in each article's frontmatter:
+
+```markdown
+---
+title: "Setting up my Hugo Website"
+languages: [ "markdown", "toml" ]
+tools: [ "hugo" ]
+technique: [ "static site generation" ]
+# ...
+---
+```
+
+To make
+
 ### Finishing Touches
 
 TODO: IA, Better Theme, Publish
+
+Architecture: Docker, Infrastructure as Code, Microservices
+
+Programming: Groovy, ASP.NET Core, SLF4J
+
+Web Dev: Hugo
+
+Project Management: Agile, Scrum
+
+Soft Skills: 
+
+
+Tags... languages, frameworks, tools, techniques
