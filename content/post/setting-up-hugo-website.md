@@ -1,11 +1,11 @@
 ---
 title: "Setting up my Hugo Website"
-date: 2017-07-28T06:44:00-04:00
+date: 2017-08-19T06:44:00-04:00
 draft: true
 ---
 # Moving my Website to Hugo
 
-I've decided to move [my website](https://www.jamestharpe.com/) off of [WordPress](https://wordpress.org/) and on to a static site generator. After building sites for several clients sites using [Jekyll](https://jekyllrb.com/), I thought it would be nice to try something new.
+I've decided to move [my website](https://www.jamestharpe.com/) off of [WordPress](https://wordpress.org/) and on to a static site generator. After building sites for several clients using [Jekyll](https://jekyllrb.com/), I thought it would be nice to try something new.
 
 Since my website has been very neglected, most of the content is outdated so I'm not going to bother moving much of it over. If I were, I might try the [wordpress-to-hugo-exporter exporter](https://github.com/SchumacherFM/wordpress-to-hugo-exporter).
 
