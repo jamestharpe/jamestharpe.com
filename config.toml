@@ -46,4 +46,27 @@ theme = "minimal"
     name = "Techniques"
     weight = 4
 
-# Cloud 
+[[menu.icon]]
+    url = "mailto:jimmy.tharpe@gmail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/jamestharpe/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/jamestharpe/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/jamestharpe/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://stackoverflow.com/users/104763/james"
+    name = "stack-overflow"
+    weight = 5
