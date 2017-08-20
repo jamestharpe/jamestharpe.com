@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.jamestharpe.com/setting-up-hugo-website/</loc>
+    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/frameworks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/tools/hugo/</loc>
+    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/</loc>
+    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/languages/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/languages/markdown/</loc>
+    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/techniques/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/languages/toml/</loc>
+    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/tools/</loc>
+    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

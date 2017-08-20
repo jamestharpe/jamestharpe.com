@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Languages on James Tharpe</title>
+    <link>https://www.jamestharpe.com/languages/</link>
+    <description>Recent content in Languages on James Tharpe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; James Tharpe; All rights reserved.</copyright>
+    
+	<atom:link href="https://www.jamestharpe.com/languages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://www.jamestharpe.com/languages/markdown/</link>
+      <pubDate>Sun, 20 Aug 2017 06:24:00 -0400</pubDate>
+      
+      <guid>https://www.jamestharpe.com/languages/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Toml</title>
+      <link>https://www.jamestharpe.com/languages/toml/</link>
+      <pubDate>Sun, 20 Aug 2017 06:24:00 -0400</pubDate>
+      
+      <guid>https://www.jamestharpe.com/languages/toml/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
