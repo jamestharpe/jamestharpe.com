@@ -3,8 +3,7 @@ title: "Setting up my Hugo Website"
 languages: [ "markdown", "toml" ]
 tools: [ "hugo" ]
 technique: [ "static site generation" ]
-date: 2017-08-19T06:44:00-04:00
-draft: true
+date: 2017-08-20T06:24:00-04:00
 ---
 # Moving my Website to Hugo
 
@@ -127,7 +126,11 @@ technique: [ "static site generation" ]
 ---
 ```
 
-To make
+Hugo will now generate [list pages](https://gohugo.io/templates/lists/) for each taxonomy.
+
+### Publishing My Hugo Site to GitHub Pages
+
+[GitHub Pages](https://pages.github.com/) allows static website hosting from a GitHub repository by publishing your website to a `/docs` folder or to a `gh-pages` branch.
 
 ### Finishing Touches
 
