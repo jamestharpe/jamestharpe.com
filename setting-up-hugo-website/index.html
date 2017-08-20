@@ -290,21 +290,15 @@ git worktree add -B gh-pages public origin/gh-pages
 
 <h4 id="script-to-publish-hugo-site-to-github-pages">Script to Publish Hugo Site to GitHub Pages</h4>
 
-<h3 id="finishing-touches">Finishing Touches</h3>
+<pre><code class="language-bash">hugo
+pushd public
+git add --all
+git commit -m &quot;Publishing to gh-pages as of $(date)&quot;
+git push
+popd
+</code></pre>
 
-<p>TODO: IA, Better Theme, Publish</p>
-
-<p>Architecture: Docker, Infrastructure as Code, Microservices</p>
-
-<p>Programming: Groovy, ASP.NET Core, SLF4J</p>
-
-<p>Web Dev: Hugo</p>
-
-<p>Project Management: Agile, Scrum</p>
-
-<p>Soft Skills:</p>
-
-<p>Tags&hellip; languages, frameworks, tools, techniques</p>
+<p>This generates the Hugo site, commits the generated files to the <code>gh-pages</code> branch, then pushes them to GitHub, which makes it live!</p>
 </div>
 
     
