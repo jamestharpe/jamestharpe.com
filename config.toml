@@ -12,6 +12,7 @@ theme = "minimal"
 [params]
     author = "James Tharpe"
     description = "Things I'm Learning"
+    copyright = "Copyright &copy; James Tharpe; All rights reserved."
     githubUsername = "jamestharpe"
     accent = "red"
     showBorder = true
@@ -28,7 +29,7 @@ theme = "minimal"
 
 [[menu.main]]
     url = "/languages/"
-    name = "Programming Languages"
+    name = "Languages"
     weight = 2
 
 [[menu.main]]
@@ -45,6 +46,10 @@ theme = "minimal"
     url = "/techniques/"
     name = "Techniques"
     weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
     url = "mailto:jimmy.tharpe@gmail.com"
