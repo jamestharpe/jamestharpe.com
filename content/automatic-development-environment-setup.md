@@ -16,13 +16,13 @@ Most of the software I write is developed on Windows, so I decided to write the 
 
 The goal of the script is to start from a base OS installation and finish with a complete development environment. To write the script, it's easiest to use a write-test-tweak approach:
 
-1. Write a command in the PowerShell ISE (run elevated)
+1. Write a command in the PowerShell ISE (running elevated)
 1. Copypasta the command from the script into the shell panel and execute it
 1. Tweak the command if needed
 
 Once your script is completed, you can easily maintain it by following the same process every time you install a new tool or adjust a setting. I prefer to store my script in OneDrive for easy access from a base Windows installation (which includes OneDrive).
 
-One note of warning: If you're development environment is already setup manually, installing software via Chocolatey can sometimes mess things up. It's best to start from scratch and maintain everything with Chocolatey.
+One note of warning: If you're development environment is already setup manually, installing software via Chocolatey can sometimes mess things up. It's best to uninstall any applications you'll be managing with Chocolatey, or simply start from scratch.
 
 ## Basic Script Structure
 
@@ -32,5 +32,19 @@ I've broken [my script](https://github.com/jamestharpe/windows-development-envir
 1. Chocolatey install
 1. Configure Windows settings
 1. Install and configure tools
+
+## Utility Methods
+
+TODO: RefreshEnvPath
+
+## Script to Install Chocolatey
+
+TODO: Installation
+
+## Script to Configure Windows Settings
+
+## Script to Install Developer Tools
+
+### Script to Customize VS Code
 
 You can view [the script](https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1) on [my GitHub page](https://github.com/jamestharpe/) (MIT License).

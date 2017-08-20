@@ -164,3 +164,5 @@ popd
 ```
 
 This generates the Hugo site, commits the generated files to the `gh-pages` branch, then pushes them to GitHub, which makes it live!
+
+## Conclusions
