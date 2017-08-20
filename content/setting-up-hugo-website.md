@@ -130,21 +130,37 @@ Hugo will now generate [list pages](https://gohugo.io/templates/lists/) for each
 
 ### Publishing My Hugo Site to GitHub Pages
 
-[GitHub Pages](https://pages.github.com/) allows static website hosting from a GitHub repository by publishing your website to a `/docs` folder or to a `gh-pages` branch.
+[GitHub Pages](https://pages.github.com/) allows static website hosting from a GitHub repository by publishing your website to a `/docs` folder or to a `gh-pages` branch. Though publishing to the `/docs` folder requires less setup, the `gh-pages` branch approach seems cleaner and the setup is easily automated.
 
-### Finishing Touches
+#### Script to Setup Hugo Site Publishing to `gh-pages` Branch
 
-TODO: IA, Better Theme, Publish
+This script only needs to be run once. It was modified from the [Hosting on GitHub Hugo documentation](https://gohugo.io/hosting-and-deployment/hosting-on-github/):
 
-Architecture: Docker, Infrastructure as Code, Microservices
+```bash
+# Create branch
 
-Programming: Groovy, ASP.NET Core, SLF4J
+git checkout --orphan gh-pages
+git reset --hard
+git commit --allow-empty -m "Initializing gh-pages branch"
+git push -u origin gh-pages
+git checkout master
 
-Web Dev: Hugo
+# Add worktree
+rm -rf public
+git worktree add -B gh-pages public origin/gh-pages
+```
 
-Project Management: Agile, Scrum
+This creates the `gh-pages` branch with a new history, independent from `master` (read more about [orphan branches](https://git-scm.com/docs/git-checkout/#git-checkout---orphanltnewbranchgt) in the Git docs). It then checks out the `gh-pages` branch into the `public` folder (which is ignored in `.gitignore`), which is where Hugo will statically generate the site by default.
 
-Soft Skills: 
+#### Script to Publish Hugo Site to GitHub Pages
 
+```bash
+hugo
+pushd public
+git add --all
+git commit -m "Publishing to gh-pages as of $(date)"
+git push
+popd
+```
 
-Tags... languages, frameworks, tools, techniques
+This generates the Hugo site, commits the generated files to the `gh-pages` branch, then pushes them to GitHub, which makes it live!
