@@ -2,7 +2,7 @@
 title: "Setting up my Hugo Website"
 languages: [ "markdown", "toml" ]
 tools: [ "hugo" ]
-technique: [ "static site generation" ]
+techniques: [ "static site generation" ]
 date: 2017-08-20T06:24:00-04:00
 ---
 # Moving my Website to Hugo
