@@ -22,10 +22,10 @@ theme = "minimal"
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "c#", "kotlin", "css", "http", "ruby", "bash", "javascript", "groovy", "java", "json", "markdown", "powershell"] # https://highlightjs.org/static/demo/
 
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+# [[menu.main]]
+#     url = "/"
+#     name = "Home"
+#     weight = 1
 
 [[menu.main]]
     url = "/languages/"
@@ -46,6 +46,11 @@ theme = "minimal"
     url = "/techniques/"
     name = "Techniques"
     weight = 4
+
+[[menu.main]]
+    url = "/hire-me/"
+    name = "Hire Me"
+    weight = 5
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used

@@ -2,7 +2,7 @@
 title: "Hire Me"
 date: 2017-08-24T05:51:57-04:00
 technique: "outsource"
-draft: true
+draft: false
 ---
 # Nerd for Hire
 
@@ -20,9 +20,9 @@ Whether you're starting from scratch, have a long-neglected website that needs r
 
 Building your website consists of three basic steps:
 
-1. **Design:** I'll work with you to ensure brand consistency, broad device compatability (responsive), and low-friction conversions are all baked in to the design. If you have an existing website, I'll audit it to identify specific opportunities to improve user experience and conversions.
-1. **Build:** I'll provide you with a user-friendly back-end to make maintaining your site surprisingly easy, and an SEO-friendly front-end to make your site easy to find.
-1. **Launch:** I'll thoroughly test your website for functionality, browser compataibility, and device compataibility. You'll also get free support for 30 days, just in case.
+1. **Design**: I'll work with you to ensure brand consistency, broad device compatability (responsive), and low-friction conversions are all baked in to the design. If you have an existing website, I'll audit it to identify specific opportunities to improve user experience and conversions.
+1. **Build**: I'll provide you with a user-friendly back-end to make maintaining your site surprisingly easy, and an SEO-friendly front-end to make your site easy to find.
+1. **Launch**: I'll thoroughly test your website for functionality, browser compataibility, and device compataibility. You'll also get free support for 30 days, just in case.
 
 You're welcome to host your website anywhere, but if you host with Onlinico you'll get:
 
@@ -33,9 +33,9 @@ You're welcome to host your website anywhere, but if you host with Onlinico you'
 
 Finally, I can help keep your website in tip-top shape with a maintenance plan. Maintenance plans can be customized to include any or all of the following:
 
-* Pro-active monitoring and support for site outages, hacks, and accidental changes
-* Regular maintenance to keep software, plug-ins, javascript libraries, and other compoents up to date
-* Ad-hoc requests, from simple content changes to major new features
+* **Pro-active monitoring and support**: Your site will be restored quickly in the event of an outage, hack, or accidental change
+* **Regular maintenance**: Keep software, plug-ins, javascript libraries, and other components up to date and secure
+* **Ad-hoc requests**: You think it, I build it. From simple content changes to major new features
 
 ### Website Quick Wins
 
@@ -45,11 +45,11 @@ Need to get something done on your website quickly, without a rebuild? Here are 
 * Google Analytics installation
 * Google Search console setup and configuration
 * Social meda (Facebook, Twitter, etc) integration
-* Transfer to a new host
+* Transfer your site to a new host
 * Install an SSL certificate
 * Implement a Content Delivery Network (CDN)
 * Improve site speed through minification and compression
-* Plug-in and Theme upgrades
+* Plug-in and Theme upgrades for your CMS
 * Scan for broken links and common SEO issues
 * Test for browser compatability
 
@@ -59,12 +59,32 @@ Mobile apps are a great way to increase engagement with your business or monetiz
 
 ### Software Development
 
-TODO
+From line-of-business applications, to product ideas for start-ups, I've got decades of experience writing great software, and an [amazing team of engineers](https://www.onlini.co/) that know how to deliver Windows, MacOS, Web, and Cloud based applications to back me up.
+
+### Business Analysis
+
+Have a need, but having trouble finding the time to define and communicate it clearly? I'll dig in to your business, define the need clearly, identify multiple solutions, and document everything. You'll have a clear vision of the each solution, and a plan to get there that includes the steps, phases, timelines, and budgets required to get there.
+
+### Technical Interviewing
+
+Need to hire someone with great technical skills, but aren't sure how to identify real talent? I'll rigorously interview candidates to ensure they have strong technical skills.
 
 ## Services for Individuals
 
-TODO
+I love to help people with their careers and education.
+
+### Career Help
+
+* Resume review and writing
+* Interview practice and coaching
+
+### Tutoring
+
+* Math tutoring (K - 12)
+* Computer science tutoring: Algorithms, data structures, binary math
+* Programming language tutoring: C#, Java, Groovy, JavaScript, Ruby
+* Web development tutoring: HTML, CSS, jQuery
 
 ## How to Get Started
 
-Just [email me](mailto:james.tharpe@onlini.co) with a description of what you'd like to accomplish
+Just [email me](mailto:james.tharpe@onlini.co) with a description of what you'd like to accomplish. I'll get back to you quickly, with a totally reasonable scope, cost, and timeline.
