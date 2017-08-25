@@ -1,7 +1,7 @@
 ---
 title: "Hire Me"
 date: 2017-08-24T05:51:57-04:00
-techniques: "outsource"
+techniques: "Outsourcing"
 draft: false
 ---
 # Nerd for Hire
