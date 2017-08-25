@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Outsource on James Tharpe</title>
+    <link>https://www.jamestharpe.com/techniques/outsource/</link>
+    <description>Recent content in Outsource on James Tharpe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; James Tharpe; All rights reserved.</copyright>
+    <lastBuildDate>Thu, 24 Aug 2017 05:51:57 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.jamestharpe.com/techniques/outsource/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hire Me</title>
+      <link>https://www.jamestharpe.com/hire-me/</link>
+      <pubDate>Thu, 24 Aug 2017 05:51:57 -0400</pubDate>
+      
+      <guid>https://www.jamestharpe.com/hire-me/</guid>
+      <description>Nerd for Hire Wouldn’t it be great if you had an extra brain to handle complex projects that you don’t have time for? Well, you can’t! So go with the next best thing: me.
+I can help with virtually any project related to software development, web development, cloud management, marketing automation, and agile project management. Through my company, Onlinico, I can take on projects of virtually any size.
+Services for Businesses Here are some things I can do for your business:</description>
+    </item>
+    
+  </channel>
+</rss>
