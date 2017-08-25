@@ -290,7 +290,19 @@ git worktree add -B gh-pages public origin/gh-pages
 
 <h4 id="script-to-publish-hugo-site-to-github-pages">Script to Publish Hugo Site to GitHub Pages</h4>
 
-<pre><code class="language-bash">hugo
+<pre><code class="language-bash">echo &quot;Deleting old publication&quot;
+rm -rf public
+mkdir public
+git worktree prune
+rm -rf .git/worktrees/public/
+
+echo &quot;Checking out gh-pages branch into public&quot;
+git worktree add -B gh-pages public origin/gh-pages
+
+echo &quot;Removing existing files&quot;
+rm -rf public/*
+
+hugo
 pushd public
 git add --all
 git commit -m &quot;Publishing to gh-pages as of $(date)&quot;
