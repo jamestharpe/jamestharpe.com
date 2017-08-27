@@ -123,3 +123,9 @@ TODO: Screen shot of getting extension name
 You can view [the script](https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1) on [my GitHub page](https://github.com/jamestharpe/) (MIT License).
 
 ## Advanced Options
+
+TODO: Accepting args
+
+## Need Help with a Similar Project?
+
+Consider [hiring me]({{< relref "hire-me.md" >}}).
