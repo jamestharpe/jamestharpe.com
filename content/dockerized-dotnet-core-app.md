@@ -12,7 +12,7 @@ draft: true
 
 When we initially subbitted [Jibr](http://jibr.us/) to the [Apple App Store](https://itunes.apple.com/us/app/jibr/id1107405091?ls=1&mt=8) it was rejected because it lacked the ability to report spam. "No problem," we thought, "surely there's an existing open source soution used by social media startups everywhere!" but after multiple Google searches, we found nothing but email solutions.
 
-We have therefore set out to create an open source anti-spam microservice for RESTful applications: SpamREST.
+We have therefore set out to create an [open source anti-spam microservice for RESTful applications: **SpamREST**](https://github.com/jamestharpe/SpamREST).
 
 ## What I'll be building: The SpamREST MVP
 
