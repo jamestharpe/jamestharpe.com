@@ -8,6 +8,7 @@ theme = "minimal"
     framework = "frameworks"
     tool = "tools"
     technique = "techniques"
+    project = "projects"
 
 [params]
     author = "James Tharpe"
