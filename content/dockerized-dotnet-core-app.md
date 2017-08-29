@@ -120,18 +120,34 @@ The result is a bit hard to read, but a quick install of the [JSON Formatter Chr
 
 ![SpamREST hardcoded result, formatted](/img/spamrest-spams-endpoint-hardcoded_formatted_567x343.png)
 
+To complete our scaffold, we'll define a repository interface but save the implementation for later:
+
+```C#
+public interface ISpamRESTRepository
+{
+  IQueryable<Spam> Spams { get; }
+  ISpamRESTRepository Add(Spam spam);
+  ISpamRESTRepository Update(Spam spam);
+  ISpamRESTRepository Delete(Spam spam);
+}
+```
+
 ### Adding Controller Tests with xUnit
 
 Now that we have a basic model and controller, let's follow[Test Driven Development (TDD)](/techniques/test-driven-development) to write some failing controller tests.
 
-We'll start by making a new directory and initializing an xUnit project, referencing the SpamREST project in the SpamREST.Test project, then installing the SpamREST.Test dependencies:
+> Quick note: While the [Red-Green-Refactor approach to TDD](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html) is useful when writing code, it makes for a choppy article. I'm therefore presenting the tests in this article together, followed by the implementations, rather than demonstrating Red-Green-Refactor.
+
+We'll start by making a new directory and initializing an xUnit project, referencing the SpamREST project in the SpamREST.Test project, then installing the SpamREST.Test dependencies [xUnit](https://xunit.github.io/) and [Moq](https://github.com/moq/moq4):
 
 ```bash
 mkdir SpamREST.Tests
 cd SpamREST.Tests
 dotnet new xunit
 dotnet add reference ../SpamREST/SpamREST.csproj
+dotnet add package Moq
 dotnet restore
 ```
 
-If you'd like to learn more about xUnit, I recommend the article [Unit testing in .NET Core using dotnet test and xUnit](https://docs.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test).
+Now we can write some tests! The `SpamsController` just needs to maintain some simple CRUD operations for now, so let's test GET, PUT, POST, and DELETE:
+
