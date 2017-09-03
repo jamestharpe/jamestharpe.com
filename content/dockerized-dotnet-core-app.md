@@ -29,19 +29,29 @@ Of course, to be production ready, I'll need to add:
 
 However, for this article I'm only going to focus on building the reporting and deletion functions so that I have something to get up and running in [Docker](/tools/docker/). I'll follow-up on adding storage, authentication, and registration to a ASP [Dotnet Core](/frameworks/dotnet-core/) Web API in a future article.
 
-## Technology Selection
+## Technology Selections
 
 While I anticipate the finished product will use additional technolgies, I'm just getting started so I'm keeping the selections to a minium.
-
-### Dotnet Core 2.0
-
-The Jibr back-end is a mix of technologies (including Node and Python), but the core REST API is written in .NET. Since Dotnet core came out, I've been eager to try it. Dotnet Core is much more "open source friendly" (not to mention Docker friendly) than classic .NET, so I've decided to go all-out with a Dotnet Core 2.0 back end.
 
 ### Docker
 
 I started using Docker to create a [local WordPress development environment](https://github.com/jamestharpe/docker-compose-wordpress) and found it rediculously easy to use. I've since used it "here and there" in various experiments and I'm with SpamREST I'm looking to do my first Docker-based app deployment at scale.
 
 [//]: # (Write-up article about using Docker to run local WP Install)
+
+We'll use Docker to:
+
+* Build a containerized development environment
+* Containerize the SpamREST production environment
+
+### Dotnet Core 2.0
+
+The Jibr back-end is a mix of technologies (including Node and Python), but the core REST API is written in .NET. Since Dotnet core came out, I've been eager to try it. Dotnet Core is much more "open source friendly" (not to mention Docker friendly) than classic .NET, so I've decided to go all-out with a Dotnet Core 2.0 back end.
+
+We'll use .NET core to:
+
+* Build a RESTful API for SpamREST
+* Automate testing
 
 ## Scaffold the ASP.NET Core Web API project
 
@@ -298,3 +308,61 @@ Test execution time: 2.3348 Seconds
 ## Dockerize the ASP Dotnet REST API
 
 Though our application isn't finished, it has working end-points and is functional enough to "dockerize".
+
+## Setup a Containerized Development Environment
+
+This application will be "containerized" from the ground up, starting with the devleopment environment. Docker images are created from [Dockerfiles](https://docs.docker.com/engine/reference/builder/) which define a set of [layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/), starting with a base image and then "layering" in the components (files, volumes, commands) that make up the image.
+
+Fortunarly for us, Microsoft provides an [ASP Dotnet Core Build image](https://hub.docker.com/r/microsoft/aspnetcore-build/) we can use as our base image. The `microsoft/aspnetcore-build` image can be used to complie and publish ASP Dotnet Core applications, which is exactly what we want to do in our development environment. 
+
+To get started, let's create a new Dockerfile called `Dockerfile.dev`:
+
+```Dockerfile
+# Stage One: Compile & Publish
+FROM microsoft/aspnetcore-build AS builder
+WORKDIR /SpamREST
+COPY ./SpamREST/*.csproj .
+RUN dotnet restore
+COPY ./SpamREST/ .
+RUN dotnet publish --output /app/ --configuration Release
+
+# Stage Two: Run
+FROM microsoft/aspnetcore
+WORKDIR /app
+COPY --from=builder /app .
+ENTRYPOINT ["dotnet", "SpamREST.dll"]
+```
+
+We don't want local build artifacts copied over, so let's also create a `.dockerignore` file:
+
+```dockerfile
+ bin/
+ obj/
+```
+
+[//]: # (Might also need `node_modules/` in above snippet if npm packages get installed)
+
+Now let's build, run, and test the image:
+
+```bash
+# Build
+docker build -f Dockerfile.dev -t spamrest .
+# Run
+docker run -it -p 5000:80 spamrest
+# Test
+start http://localhost:5000/api/spams
+```
+
+Our initial dockerized development environment is now setup!
+
+> **Quick note on testing Dockerfiles**: If `Dockerfile.dev` fails to build, copy the last container ID that was output and run `docker run --rm -it THE_ID sh` to connect to the container created just before the failed step. You can then attempt to run the failed step manually in the container to diagnose the issue.
+
+TODO: Remaining steps
+
+This produces some errors:
+
+```bash
+SpamREST/obj/Debug/netcoreapp2.0/SpamREST.AssemblyInfo.cs(14,12): error CS0579: Duplicate 'System.Reflection.AssemblyCompanyAttribute' attribute [/SpamREST/SpamREST.csproj]
+...
+The command '/bin/sh -c dotnet publish --output /app/ --configuration Release' returned a non-zero code: 1
+```
