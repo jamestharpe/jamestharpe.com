@@ -116,9 +116,9 @@ code --install-extension johnpapa.Angular2
 code --install-extension PeterJausovec.vscode-docker
 ```
 
-The commands to install VS Code extensions from PowerShell are slightly different compared to what you would put directly into the VS Code command pallet.
+The commands to install VS Code extensions from PowerShell are slightly different compared to what you would put directly into the VS Code command pallet. To know what to pass into the `--install-extension` command, you can grab the fully qualified extension name from the Visual Studio Marketplace, like so:
 
-TODO: Screen shot of getting extension name
+![Fully qualified VS code extension name example](/img/vs-code-extension-fully-qualified-name_600x357.png)
 
 You can view [the script](https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1) on [my GitHub page](https://github.com/jamestharpe/) (MIT License).
 
