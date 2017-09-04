@@ -30,6 +30,12 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/projects/jamestharpe.com/</loc>
+    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/languages/</loc>
     <priority>0</priority>
   </url>
@@ -41,8 +47,14 @@
   </url>
   
   <url>
-    <loc>https://www.jamestharpe.com/techniques/outsource/</loc>
+    <loc>https://www.jamestharpe.com/techniques/outsourcing/</loc>
     <lastmod>2017-08-24T05:51:57-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/projects/</loc>
+    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
