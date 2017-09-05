@@ -169,6 +169,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 hugo
+cp CNAME public
 pushd public
 git add --all
 git commit -m "Publishing to gh-pages as of $(date)"
