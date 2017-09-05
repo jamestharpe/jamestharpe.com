@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on James Tharpe</title>
+    <link>https://www.jamestharpe.com/tools/docker/</link>
+    <description>Recent content in Docker on James Tharpe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright &amp;copy; James Tharpe; All rights reserved.</copyright>
+    <lastBuildDate>Mon, 04 Sep 2017 06:24:27 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.jamestharpe.com/tools/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Useful Docker Shortcut Commands</title>
+      <link>https://www.jamestharpe.com/useful-docker-shortcut-commands/</link>
+      <pubDate>Mon, 04 Sep 2017 06:24:27 -0400</pubDate>
+      
+      <guid>https://www.jamestharpe.com/useful-docker-shortcut-commands/</guid>
+      <description>Docker Shell Command &amp;ldquo;Shortcuts&amp;rdquo; I&amp;rsquo;ve been working with Docker a lot lately and have found it useful to note down a few &amp;ldquo;shortcut&amp;rdquo; commands to maintain my local images and containers, until I have them memorized. Here they are.
+Start/Stop All Docker Containers This example starts then stops all containers:
+$ docker start $(docker ps -aq) a12b34c5d678 b23c46d6e789 c34d57e7f790 $ docker stop $(docker ps -q) a12b34c5d678 b23c46d6e789 c34d57e7f790  Remove All Docker Images This example removes all Docker images:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Languages</title>
+        <title>Useful Docker Shortcut Commands</title>
         <style>
 
     html body {
@@ -59,9 +59,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.25.1" />
         
-        <link href="https://www.jamestharpe.com/languages/index.xml" rel="alternate" type="application/rss+xml" title="James Tharpe" />
-        <link href="https://www.jamestharpe.com/languages/index.xml" rel="feed" type="application/rss+xml" title="James Tharpe" />
-        
     </head>
 
     <body>
@@ -81,7 +78,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Languages</a>
+                    <a class="navbar-brand visible-xs" href="#">Useful Docker Shortcut Commands</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -134,9 +131,7 @@
 
 <main>
 
-    <h2>Languages</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -145,44 +140,87 @@
     
     
 
-    <h4><a href="/languages/markdown/">Markdown</a></h4>
-    <h5>August 20, 2017</h5>
-    
-
-</div>
-  <div class="item">
-
-    
-    
-    
-
-    
-    
-
-    <h4><a href="/languages/shell/">Shell</a></h4>
+    <h4><a href="/useful-docker-shortcut-commands/">Useful Docker Shortcut Commands</a></h4>
     <h5>September 4, 2017</h5>
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/languages/toml/">Toml</a></h4>
-    <h5>August 20, 2017</h5>
-    
+<h1 id="docker-shell-command-shortcuts">Docker Shell Command &ldquo;Shortcuts&rdquo;</h1>
 
+<p>I&rsquo;ve been working with <a href="/tools/docker/">Docker</a> a lot lately and have found it useful to note down a few &ldquo;shortcut&rdquo; commands to maintain my local images and containers, until I have them memorized. Here they are.</p>
+
+<h2 id="start-stop-all-docker-containers">Start/Stop All Docker Containers</h2>
+
+<p>This example starts then stops all containers:</p>
+
+<pre><code class="language-bash">$ docker start $(docker ps -aq)
+a12b34c5d678
+b23c46d6e789
+c34d57e7f790
+
+$ docker stop $(docker ps -q)
+a12b34c5d678
+b23c46d6e789
+c34d57e7f790
+
+</code></pre>
+
+<h2 id="remove-all-docker-images">Remove All Docker Images</h2>
+
+<p>This example removes all Docker images:</p>
+
+<pre><code class="language-bash">$ docker rmi $(docker image ls -q)
+Deleted: sha256:4314bd051463a3bbd0debc5f4c94455582187a969b710e99bd425ad0b01d6e75
+Deleted: sha256:b51d913d9cc8529e31119787300e3858fb8e275b0fd763c3fc1e8346dc25bb2a
+Deleted: sha256:46510f51a25eeb15c9bdf3a1cc52561d88e35f3d59809260da1b1f6499babcb4
+Deleted: sha256:4b962de5545cfdec0724c35d5711060b1620bd22ec2d9cc4ed5589fd7beb178a
+
+</code></pre>
+
+<blockquote>
+<p>Note: This will fail on images with running containers</p>
+</blockquote>
+
+<h2 id="remove-all-docker-containers">Remove all Docker Containers</h2>
+
+<pre><code class="language-bash">$ docker rm -f $(docker ps -aq)
+a12b34c5d678
+b23c46d6e789
+c34d57e7f790
+
+</code></pre>
+
+<h2 id="remove-all-docker-networks">Remove all Docker Networks</h2>
+
+<pre><code class="language-bash">$ docker network rm $(docker network ls -q)
+4f0ae26eba78
+3a0bd36fab79
+3f1ad27eaa88
+
+</code></pre>
+
+<h2 id="remove-all-docker-volumes">Remove all Docker Volumes</h2>
+
+<pre><code class="language-bash">$ docker volume rm $(docker volume ls -q)
+MyVolume1
+MyVolume2
+MyVolume3
+
+</code></pre>
 </div>
- 
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jamestharpe.com/useful-docker-shortcut-commands/</loc>
+    <lastmod>2017-09-04T06:24:27-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/hire-me/</loc>
     <lastmod>2017-08-24T05:51:57-04:00</lastmod>
   </url>
@@ -10,6 +15,12 @@
   <url>
     <loc>https://www.jamestharpe.com/setting-up-hugo-website/</loc>
     <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/tools/docker/</loc>
+    <lastmod>2017-09-04T06:24:27-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -25,7 +36,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/</loc>
-    <lastmod>2017-08-24T05:51:57-04:00</lastmod>
+    <lastmod>2017-09-04T06:24:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,6 +70,12 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/languages/shell/</loc>
+    <lastmod>2017-09-04T06:24:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/techniques/static-site-generation/</loc>
     <lastmod>2017-08-20T06:24:00-04:00</lastmod>
     <priority>0</priority>
@@ -78,7 +95,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/tools/</loc>
-    <lastmod>2017-08-20T06:24:00-04:00</lastmod>
+    <lastmod>2017-09-04T06:24:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
