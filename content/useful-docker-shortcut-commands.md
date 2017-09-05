@@ -3,7 +3,7 @@ title: "Useful Docker Shortcut Commands"
 date: 2017-09-04T06:24:27-04:00
 tools: [ "Docker" ]
 languages: [ "Shell" ]
-draft: true
+draft: false
 ---
 # Docker Shell Command "Shortcuts"
 
