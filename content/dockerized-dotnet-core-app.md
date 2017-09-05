@@ -309,11 +309,11 @@ Test execution time: 2.3348 Seconds
 
 Though our application isn't finished, it has working end-points and is functional enough to "dockerize". We'll setup containers to be used during development and production.
 
-### Containerize the Development Environment
+### Compile and Publish the App Using Docker
 
-This application will be "containerized" from the ground up, starting with the devleopment environment. Docker images are created from [Dockerfiles](https://docs.docker.com/engine/reference/builder/) which define a set of [layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/), starting with a base image and then "layering" in the components (files, volumes, commands) that make up the image.
+Docker images are created from [Dockerfiles](https://docs.docker.com/engine/reference/builder/) which define a set of [layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/), starting with a base image and then "layering" in the components (files, volumes, commands) that make up the image.
 
-Fortunarly for us, Microsoft provides an [ASP Dotnet Core Build image](https://hub.docker.com/r/microsoft/aspnetcore-build/) we can use as our base image. The `microsoft/aspnetcore-build` image can be used to complie and publish ASP Dotnet Core applications, which is exactly what we want to do in our development environment. 
+Fortunarly for us, Microsoft provides an [ASP Dotnet Core Build image](https://hub.docker.com/r/microsoft/aspnetcore-build/) we can use as our base image. The `microsoft/aspnetcore-build` image can be used to complie and publish ASP Dotnet Core applications, which is exactly what we want to do in our development environment.
 
 To get started, let's create a new Dockerfile called `Dockerfile.dev`:
 
@@ -353,8 +353,10 @@ docker run -it -p 5000:80 spamrest
 start http://localhost:5000/api/spams
 ```
 
-Our initial dockerized development environment is now setup!
+Our initial dockerized environment is now setup!
 
 > **Quick note on testing Dockerfiles**: If `Dockerfile.dev` fails to build, copy the last container ID that was output and run `docker run --rm -it THE_ID sh` to connect to the container created just before the failed step. You can then attempt to run the failed step manually in the container to diagnose the issue.
+
+#### Monitoring for Code Changes
 
 #### Connect the Debugger
