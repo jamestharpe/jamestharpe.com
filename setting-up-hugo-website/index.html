@@ -311,6 +311,7 @@ echo &quot;Removing existing files&quot;
 rm -rf public/*
 
 hugo
+cp CNAME public
 pushd public
 git add --all
 git commit -m &quot;Publishing to gh-pages as of $(date)&quot;
