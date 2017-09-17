@@ -309,36 +309,40 @@ Test execution time: 2.3348 Seconds
 
 Though our application isn't finished, it has working end-points and is functional enough to "dockerize". We'll setup containers to be used during development and production.
 
-### Compile and Publish the App Using Docker
+### Dockerize the Development Environment
 
 Docker images are created from [Dockerfiles](https://docs.docker.com/engine/reference/builder/) which define a set of [layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/), starting with a base image and then "layering" in the components (files, volumes, commands) that make up the image.
 
-Fortunarly for us, Microsoft provides an [ASP Dotnet Core Build image](https://hub.docker.com/r/microsoft/aspnetcore-build/) we can use as our base image. The `microsoft/aspnetcore-build` image can be used to complie and publish ASP Dotnet Core applications, which is exactly what we want to do in our development environment.
+Fortunarly for us, Microsoft provides an [ASP Dotnet Core Build image](https://hub.docker.com/r/microsoft/aspnetcore-build/) we can use as our base image. The `microsoft/aspnetcore-build` image can be used to build and run an ASP Dotnet Core application, which is exactly what we want to do in our development environment.
 
 To get started, let's create a new Dockerfile called `Dockerfile.dev`:
 
 ```Dockerfile
 # Stage One: Compile & Publish
-FROM microsoft/aspnetcore-build AS builder
+FROM microsoft/aspnetcore-build
+VOLUME /SpamREST
 WORKDIR /SpamREST
-COPY ./SpamREST/*.csproj .
-RUN dotnet restore
-COPY ./SpamREST/ .
-RUN dotnet publish --output /app/ --configuration Release
-
-# Stage Two: Run
-FROM microsoft/aspnetcore
-WORKDIR /app
-COPY --from=builder /app .
-ENTRYPOINT ["dotnet", "SpamREST.dll"]
+EXPOSE 80/tcp
+ENTRYPOINT dotnet restore \
+  && dotnet run --environment=Development
 ```
 
-We don't want local build artifacts copied over, so let's also create a `.dockerignore` file:
+Here's a step-by-step breakdown of what the Dockerfile is doing:
+
+1. Start with `microsoft/aspnetcore-build` as the base image
+1. Create a volumecalled `/SpamREST`
+1. Set the working directory to `/SpamREST` within the container
+1. Expose port 80
+1. Run 'dotnet restore && dotnet run --environment=Development` when the container starts to build and run our application
+
+If you're developing locally outside of docker, you don't want local build artifacts copied over, so let's also create a `.dockerignore` file:
 
 ```dockerfile
  bin/
  obj/
 ```
+
+> **Testing Dockerfiles**: If `Dockerfile.dev` fails to build, copy the last container ID that was output and run `docker run --rm -it THE_ID sh` (replacing `THE_ID` with the container ID) to connect to the container created just before the failed step. You can then attempt to run the failed step manually in the container to diagnose the issue.
 
 [//]: # (Might also need `node_modules/` in above snippet if npm packages get installed)
 
@@ -348,15 +352,57 @@ Now let's build, run, and test the image:
 # Build
 docker build -f Dockerfile.dev -t spamrest .
 # Run
-docker run -it -p 5000:80 spamrest
+docker run -it -v /$(pwd)/SpamREST:/SpamREST -p 5000:80 spamrest
 # Test
 start http://localhost:5000/api/spams
 ```
 
+> **Specifying volumes on Windows**: Note in the above code snippet, the `/` proceeding the `-v` (volume) argument. This is a necessary escape character if you're running Git Bash on Windows.
+
 Our initial dockerized environment is now setup!
 
-> **Quick note on testing Dockerfiles**: If `Dockerfile.dev` fails to build, copy the last container ID that was output and run `docker run --rm -it THE_ID sh` to connect to the container created just before the failed step. You can then attempt to run the failed step manually in the container to diagnose the issue.
+#### Monitor for Code Changes
 
-#### Monitoring for Code Changes
+If you've gotten this far, you've probably noticed that when you make changes to your local file system, they aren't reflected in the container until you re-run it. That's not very useful for development, so let's fix that using [dotnet-watch](https://github.com/aspnet/DotNetTools/tree/dev/src/Microsoft.DotNet.Watcher.Tools). The dotnet-watch tool monitors source code and restarts the application whenever changes are detected.
+
+To install, add `Microsoft.DotNet.Watcher.Tools` to the `csproj` under `Project/ItemGroup`:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  ...
+  <ItemGroup>
+    ...
+    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+  </ItemGroup>
+</Project>
+```
+
+With that, we can now run `dotnet watch [command]` instead of `dotnet [command]` and dotnet-watch will re-run the command whenever it detects a change in source code. Let's update our Dockerfile.dev to support dotnet-watch:
+
+```Dockerfile
+  # Stage One: Compile & Publish
+FROM microsoft/aspnetcore-build
+# RUN echo "hello world" | tee greeting.txt
+VOLUME /SpamREST
+WORKDIR /SpamREST
+EXPOSE 80/tcp
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
+ENTRYPOINT dotnet restore \
+  && dotnet watch run --environment=Development
+```
+
+Note the addition of `ENV DOTNET_USE_POLLING_FILE_WATCHER=true` to enable the file watcher and the change of `dotnet run` to `dotnet watch run`.
+
+Next, rebuild and rerun the container:
+
+```bash
+docker build -f Dockerfile.dev -t spamrest .
+docker run -it -v /$(pwd)/SpamREST:/SpamREST -p 5000:80 spamrest
+```
+
+We can now make changes to the ASP Dotnet Core project and quickly see them reflected in our container:
+
+
 
 #### Connect the Debugger
+Hi
