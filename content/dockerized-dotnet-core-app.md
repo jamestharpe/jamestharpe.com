@@ -3,70 +3,59 @@ title: "Create a Dockerized REST API with ASP.NET Core"
 date: 2017-08-26T11:37:56-04:00
 languages: [ "CSharp", "Dockerfile" ]
 tools: [ "Docker", "VS Code" ]
-techniques: [ "Containerization", "Microservices", "Test Driven Development" ]
-frameworks: [ "Dotnet Core"]
+techniques: [ "Containerization", "Microservices" ]
+frameworks: [ "ASP.NET Core"]
 projects: [ "SpamREST" ]
 draft: true
 ---
-# Build a Dockerized ASP.NET REST API
+# Build a Dockerized ASP.NET Core Application
 
-When we initially subbitted [Jibr](http://jibr.us/) to the [Apple App Store](https://itunes.apple.com/us/app/jibr/id1107405091?ls=1&mt=8) it was rejected because it lacked the ability to report spam. "No problem," we thought, "surely there's an existing open source soution used by social media startups everywhere!" but after multiple Google searches, we found nothing but email solutions.
+[//]: # (TODO: Write-up article about using Docker to run local WP Install)
 
-We have therefore set out to create an [open source anti-spam microservice for RESTful applications: **SpamREST**](https://github.com/jamestharpe/SpamREST).
+Using [SpamREST](/projects/spamrest/) as an example, this article will focus on how to:
 
-## What We'll Build: The SpamREST Prototype
+* Scaffold an [ASP Dotnet Core](/frameworks/asp.net-core/) REST API
+* Build, run, and debug the application in [Docker](/tools/docker/) using [VS Code](/tools/vs-code/)
+* Publish the application to [Docker Hub](https://hub.docker.com/)
+* Deploy the application to [AWS](https://aws.amazon.com/) and [Azure](https://azure.microsoft.com/)
 
-This article will focus on the minimum viable product (MVP) for SpamREST. The only features will be:
+## What We'll Build: SpamREST Prototype
 
-* Report Spam posted to a REST API
-* Delete that Spam by issuing an HTTP DELETE
+When we initially submitted [Jibr](http://jibr.us/) to the [Apple App Store](https://itunes.apple.com/us/app/jibr/id1107405091?ls=1&mt=8) it was rejected because it lacked the ability to report spam. "No problem," we thought, "surely there's an existing open source soution used by social media startups everywhere!" but after multiple Google searches, we found nothing but email solutions.
 
-Of course, to be production ready, I'll need to add:
+We have therefore set out to create an [open source anti-spam microservice for RESTful applications: **SpamREST**](https://github.com/jamestharpe/SpamREST). The "MVP" of SpamREST consists of just two simple features:
 
-* Storage
-* Authentication
-* Client app registration
+* Report Spam that was posted to a REST API to the SpamREST REST API
+* Delete that Spam by issuing an HTTP DELETE to the reported end-point
 
-However, for this article I'm only going to focus on building the reporting and deletion functions so that I have something to get up and running in [Docker](/tools/docker/). I'll follow-up on adding storage, authentication, and registration to a ASP [Dotnet Core](/frameworks/dotnet-core/) Web API in a future article.
+Since this project will be open source, we didn't want to tie it to Azure or AWS as we've done for our proprietary code bases. We've therefore based the application on Linux containers to allow it to run virtually anywhere.
 
-## Technology Selections
+## Scaffold the ASP.NET Core Application
 
-While I anticipate the finished product will use additional technolgies, I'm just getting started so I'm keeping the selections to a minium.
-
-### Docker
-
-I started using Docker to create a [local WordPress development environment](https://github.com/jamestharpe/docker-compose-wordpress) and found it rediculously easy to use. I've since used it "here and there" in various experiments and I'm with SpamREST I'm looking to do my first Docker-based app deployment at scale.
-
-[//]: # (Write-up article about using Docker to run local WP Install)
-
-We'll use Docker to:
-
-* Build a containerized development environment
-* Containerize the SpamREST production environment
-
-### Dotnet Core 2.0
-
-The Jibr back-end is a mix of technologies (including Node and Python), but the core REST API is written in .NET. Since Dotnet core came out, I've been eager to try it. Dotnet Core is much more "open source friendly" (not to mention Docker friendly) than classic .NET, so I've decided to go all-out with a Dotnet Core 2.0 back end.
-
-We'll use .NET core to:
-
-* Build a RESTful API for SpamREST
-* Automate testing
-
-## Scaffold the ASP.NET Core Web API project
+The Jibr back-end is a mix of technologies (mostly Node and Python), but the core REST API is written in .NET. Since Dotnet Core came out, we've wanted to migrate to it but version 1.0 just wasn't mature enough. Given that Dotnet Core is much more "open source friendly" (and Docker friendly) than classic .NET, and with the release of 2.0 we're optimistic that we can begin migrating the .NET back-end of Jibber to Dotnet Core. SpamREST will be our first microservice built on Dotnet Core.
 
 To get started creating the ASP.NET Core Web API project, I simply make a new directory and run the `dotnet new webapi` command:
 
 ```bash
-mkdir SpamREST 
-cd SpamREST
-dotnet new webapi
+$ dotnet new webapi
+The template "ASP.NET Core Web API" was created successfully.
+This template contains technologies from parties other than Microsoft, see https://aka.ms/template-3pn for details.
+
+Processing post-creation actions...
+Running 'dotnet restore' on ~/SpamREST/SpamREST.csproj...
+  Restoring packages for ~/SpamREST/SpamREST.csproj...
+  Restore completed in 301.18 ms for ~/SpamREST/SpamREST.csproj.
+  Generating MSBuild file ~/SpamREST/SpamREST.csproj.nuget.g.props.
+  Generating MSBuild file ~/SpamREST/obj\SpamREST.csproj.nuget.g.targets.
+  Restore completed in 7.42 sec for ~/SpamREST/SpamREST.csproj.
+
+Restore succeeded.
 ```
 
 A quick call to `dotnet run` makes sure everything is working:
 
 ```bash
-dotnet run
+$ dotnet run
 Hosting environment: Production
 Content root path: ~/code/SpamREST
 Now listening on: http://localhost:5000
@@ -77,107 +66,9 @@ Then navigate to localhost:5000/api/values and see the results:
 
 ![ASP.NET Core Web API First Run](/img/asp-dotnet-core-web-api-first-run_300x77.png)
 
-### Add Tests with xUnit
+We can now create the basic classes and placeholders needed to complete the scaffold.
 
-Let's follow[Test Driven Development (TDD)](/techniques/test-driven-development) to write some failing controller tests before we start writing the actual REST API.
-
-> Quick note: While the [Red-Green-Refactor approach to TDD](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html) is useful when writing code, it makes for a choppy article. I'm therefore presenting the tests in this article together, followed by the passing controller implementation, rather than the back-and-forth of Red-Green-Refactor.
-
-We'll start by making a new directory and initializing an xUnit project, referencing the SpamREST project in the SpamREST.Test project, then installing the SpamREST.Test dependencies [xUnit](https://xunit.github.io/) and [Moq](https://github.com/moq/moq4):
-
-```bash
-mkdir SpamREST.Tests
-cd SpamREST.Tests
-dotnet new xunit
-dotnet add reference ../SpamREST/SpamREST.csproj
-dotnet add package Moq
-dotnet restore
-```
-
-Now we can write some tests! The `SpamsController` just needs to maintain some simple CRUD operations for now, so let's test GET, PUT, POST, and DELETE happy-paths:
-
-```C#
-public class SpamsControllerTests : IDisposable {
-    #region Plumbing
-    private readonly SpamsController sut;
-    private readonly ISpamRESTRepository repo;
-
-    private static IEnumerable<Spam> SpamsList(int count) {
-        for(int i = 0; i < count; i++) {
-            yield return new Spam(){
-                EndPointUri = $"https://localhost/spam-example{i}",
-                ReporterId = $"spamrest{i}",
-                ReporteeId = $"spammer{i}",
-                Content = $"Spam Content {i}",
-                Created = DateTime.UtcNow,
-            };
-        }
-    }
-
-    public SpamsControllerTests(){
-        sut = new SpamsController(
-            repo = new SpamRESTRepositoryMock());
-    }
-
-    public void Dispose(){
-        sut.Dispose();
-    }
-    #endregion Plumbing
-
-    [Fact]
-    public async Task Get_ReturnsSpams_FromRepository(){
-        repo.Add(SpamsList(2).ToArray());
-        var response = Assert.IsType<OkObjectResult>(await sut.Get());
-        var actual = Assert.IsType<EnumerableQuery<Spam>>(response.Value);
-        Assert.Equal(actual.Count(), 2);
-    }
-
-    [Fact]
-    public async Task Get_ReturnsSpam_ById(){
-        repo.Add(SpamsList(2).ToArray());
-        var response = Assert.IsType<OkObjectResult>(await sut.Get("https://localhost/spam-example1"));
-        var actual = Assert.IsType<Spam>(response.Value);
-        Assert.Equal(actual.Content, "Spam Content 1");
-    }
-
-    [Fact]
-    public async Task Post_AddsNewSpam(){
-        await sut.Post(SpamsList(1).First());
-        var response = Assert.IsType<OkObjectResult>(await sut.Get());
-        var actual = Assert.IsType<EnumerableQuery<Spam>>(response.Value);
-        Assert.Equal(1, actual.Count());
-    }
-
-    [Fact]
-    public async Task Put_UpsertsSpam(){
-        var spamToCreateViaPUT = SpamsList(1).Single();
-        await sut.Put(spamToCreateViaPUT.EndPointUri, spamToCreateViaPUT);
-        var response = Assert.IsType<OkObjectResult>(await sut.Get());
-        var actual = Assert.IsType<EnumerableQuery<Spam>>(response.Value);
-        Assert.Equal("Spam Content 0", actual.Single().Content);
-
-        var spamToUpdateViaPUT = SpamsList(1).Single();
-        spamToUpdateViaPUT.Content = "Spam Modified Content 0";
-        await sut.Put(spamToUpdateViaPUT.EndPointUri, spamToUpdateViaPUT);
-        response = Assert.IsType<OkObjectResult>(await sut.Get());
-        actual = Assert.IsType<EnumerableQuery<Spam>>(response.Value);
-        Assert.Equal("Spam Modified Content 0", actual.Single().Content);
-    }
-
-    [Fact]
-    public async Task Delete_DeletesSpamById(){
-        repo.Add(SpamsList(1).Single());
-        var actual = Assert.IsType<NoContentResult>(await sut.Delete("https://localhost/spam-example0"));
-        Assert.False(repo.Spams.Any());
-    }
-}
-```
-
-### Adding the `Spam` Model and `SpamsController`
-
-Our tests require a model and controller to pass, so let's create them.
-
-To add a model for spam objects, just create a `Models` folder in the `SpamREST` project with a file called `Spam.cs` and add code:
+To add a model for `Spam` objects, just create a `Models` folder in the `SpamREST` project with a file called `Spam.cs` and add code:
 
 ```C#
 using System;
@@ -193,7 +84,7 @@ namespace SpamREST.Models {
 }
 ```
 
-Next, let's rename `ValuesController.cs` to `SpamsController.cs` and add enough code to make the tests pass:
+Next, let's rename `ValuesController.cs` to `SpamsController.cs` and add CRUD code:
 
 ```C#
 [Route("api/[controller]")]
@@ -290,20 +181,7 @@ public void ConfigureServices(IServiceCollection services) {
 }
 ```
 
-The call to `dotnet test` now produces the following output:
-
-```bash
-...
-Starting test execution, please wait...
-[xUnit.net 00:00:01.1323893]   Discovering: SpamREST.Tests
-[xUnit.net 00:00:01.2409641]   Discovered:  SpamREST.Tests
-[xUnit.net 00:00:01.3330373]   Starting:    SpamREST.Tests
-[xUnit.net 00:00:01.5901650]   Finished:    SpamREST.Tests
-
-Total tests: 5. Passed: 5. Failed: 0. Skipped: 0.
-Test Run Successful.
-Test execution time: 2.3348 Seconds
-```
+We now have a "functional" application. It's time to start dockerizing.
 
 ## Dockerize the ASP Dotnet REST API
 
@@ -318,7 +196,6 @@ Fortunarly for us, Microsoft provides an [ASP Dotnet Core Build image](https://h
 To get started, let's create a new Dockerfile called `Dockerfile.dev`:
 
 ```Dockerfile
-# Stage One: Compile & Publish
 FROM microsoft/aspnetcore-build
 VOLUME /SpamREST
 WORKDIR /SpamREST
@@ -327,39 +204,63 @@ ENTRYPOINT dotnet restore \
   && dotnet run --environment=Development
 ```
 
-Here's a step-by-step breakdown of what the Dockerfile is doing:
+Here's a step-by-step breakdown of what the `Dockerfile.dev` code is doing:
 
-1. Start with `microsoft/aspnetcore-build` as the base image
-1. Create a volumecalled `/SpamREST`
+1. Start with `microsoft/aspnetcore-build` as the base Docker image
+1. Create a volume called `/SpamREST`
 1. Set the working directory to `/SpamREST` within the container
 1. Expose port 80
 1. Run 'dotnet restore && dotnet run --environment=Development` when the container starts to build and run our application
 
-If you're developing locally outside of docker, you don't want local build artifacts copied over, so let's also create a `.dockerignore` file:
+You can now build the Docker image we'll be using:
 
-```dockerfile
- bin/
- obj/
+```bash
+$ docker build -f Dockerfile.dev -t spamrest .
+Sending build context to Docker daemon  890.9kB
+Step 1/5 : FROM microsoft/aspnetcore-build
+latest: Pulling from microsoft/aspnetcore-build
+# ... Output omitted for brevity ...
+Successfully built 6c9375fef63b
+Successfully tagged spamrest:latest
 ```
 
-> **Testing Dockerfiles**: If `Dockerfile.dev` fails to build, copy the last container ID that was output and run `docker run --rm -it THE_ID sh` (replacing `THE_ID` with the container ID) to connect to the container created just before the failed step. You can then attempt to run the failed step manually in the container to diagnose the issue.
+Here's how the `docker build -f Dockerfile.dev -t spamrest .` command works:
+
+* `docker build` tells docker to build an image from a Dockerfile
+* `-f` specifies the Dockerfile
+* `-t` specfies how to tag the created image
+* `.` specifies the PATH, which defines the context of the build, as the current working directory
+
+> **Testing Dockerfiles**: If a Dockerfile fails to finish building, copy the last container ID that was output and run `docker run --rm -it THE_ID sh` (replacing `THE_ID` with the container ID), for example `docker run --rm -it be316a24db3e sh`, to connect to the container created just before the failed step. You can then attempt to run the failed step manually in the container to diagnose the issue.
 
 [//]: # (Might also need `node_modules/` in above snippet if npm packages get installed)
 
-Now let's build, run, and test the image:
+With the image built, we can now run it:
 
 ```bash
-# Build
-docker build -f Dockerfile.dev -t spamrest .
-# Run
-docker run -it -v /$(pwd)/SpamREST:/SpamREST -p 5000:80 spamrest
-# Test
-start http://localhost:5000/api/spams
+$ docker run -it -v /$(pwd):/SpamREST -p 5000:80 spamrest
+  Restoring packages for /SpamREST/SpamREST.csproj...
+# ... Output omitted for brevity ...
+Hosting environment: Production
+Content root path: /SpamREST
+Now listening on: http://[::]:80
+Application started. Press Ctrl+C to shut down.
+
 ```
 
-> **Specifying volumes on Windows**: Note in the above code snippet, the `/` proceeding the `-v` (volume) argument. This is a necessary escape character if you're running Git Bash on Windows.
+Here's how the `docker run -it -v /$(pwd):/SpamREST -p 5000:80 spamrest` command works:
 
-Our initial dockerized environment is now setup!
+* `docker run` tells Docker to run a container
+* `-it` allows interactive processes (namely, shell) to work on the container
+  * `i` keeps STDIN open
+  * `t` allocates a pseudo tty
+* `-v /$(pwd):/SpamREST` tells Docker to mount the `/SpamREST` volume to the current working directory (`/$(pwd)`)
+* `-p` argument maps our host computer's port 5000 to the container's port 80
+* `spamrest`specifies the image to base the container on
+
+> **Specifying volumes on Windows**: Note in the above code snippet, the `/` proceeding the `$(pwd)` is a necessary escape character if you're running Git Bash on Windows.
+
+With the image built and container running, we can now visit localhost:5000/api/spams to see our application runnning in Docker!
 
 #### Monitor for Code Changes
 
@@ -380,9 +281,7 @@ To install, add `Microsoft.DotNet.Watcher.Tools` to the `csproj` under `Project/
 With that, we can now run `dotnet watch [command]` instead of `dotnet [command]` and dotnet-watch will re-run the command whenever it detects a change in source code. Let's update our Dockerfile.dev to support dotnet-watch:
 
 ```Dockerfile
-  # Stage One: Compile & Publish
 FROM microsoft/aspnetcore-build
-# RUN echo "hello world" | tee greeting.txt
 VOLUME /SpamREST
 WORKDIR /SpamREST
 EXPOSE 80/tcp
@@ -402,7 +301,22 @@ docker run -it -v /$(pwd)/SpamREST:/SpamREST -p 5000:80 spamrest
 
 We can now make changes to the ASP Dotnet Core project and quickly see them reflected in our container:
 
-
+![Hugo override template demo](/img/dotnet-watch-auto-rerun_600x633.gif)
 
 #### Connect the Debugger
-Hi
+We now have a Docker container that automatically builds and runs an ASP Dotnet Core project on our local machine, automatically rebuilding and rerunning the project whenever there's a code change. The last step to a dockerized development environment is to enable debugging.
+
+To enable debugging, first we'll need to install [CLRDBG](https://github.com/Microsoft/MIEngine/wiki/What-is-CLRDBG)
+
+
+
+
+
+If you're developing locally outside of Docker, you don't want local build artifacts copied over, so let's also create a `.dockerignore` file:
+
+```dockerfile
+ bin/
+ obj/
+```
+
+This prevents our local `bin` and `obj` directories
