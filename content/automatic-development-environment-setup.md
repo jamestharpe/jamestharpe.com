@@ -1,10 +1,10 @@
 ---
 title: "Automatic Development Environment Setup"
-date: 2017-08-19T11:42:46-04:00
+date: 2017-09-18T11:42:46-04:00
 languages: [ "PowerShell" ]
 tools: [ "Chocolatey" ]
 techniques: [ "Everything in Version Control", "GROWS" ]
-draft: true
+draft: false
 ---
 # How to Automate Your Development Environment Setup
 
@@ -22,7 +22,7 @@ The goal of the script is to start from a base OS installation and finish with a
 
 Once your script is completed, you can easily maintain it by following the same process every time you install a new tool or adjust a setting. I prefer to store my script in OneDrive for easy access from a base Windows installation (which includes OneDrive), but I also check it in to GitHub to share with the world.
 
-One note of warning: If you're development environment is already setup manually, installing software via Chocolatey can sometimes mess things up. It's best to uninstall any applications you'll be managing with Chocolatey, or simply start from scratch.
+> **Warning**: If you're development environment is already setup manually, installing software via Chocolatey can sometimes cause conflicts. It's best to uninstall any applications you'll be managing with Chocolatey, then reinstall with Choclatey (or just start from scratch).
 
 ## Basic Script Structure
 
@@ -35,7 +35,7 @@ I've broken [my script](https://github.com/jamestharpe/windows-development-envir
 
 ## Utility Method: Refresh the PATH environment variable in PowerShell
 
-Many of the tools you'll instal will have dependencies, which need to be available via the windows PATH environment variable for the script to succeed. As you probably know, PowerShell does not automatically pick up changes to the PATH. To do that, this simple utility function will help:
+Many of the tools you'll instal will have dependencies, which need to be available via the Windows PATH environment variable for the script to succeed. PowerShell does not automatically pick up changes to the PATH. To do that, this simple utility function will help:
 
 ```PowerShell
 function RefreshEnvPath
@@ -45,7 +45,7 @@ function RefreshEnvPath
 }
 ```
 
-This method simply re-reads the Machine and User PATH environment variables, concatenates them, and stores them in the variable PowerShell uses to read the PATH.
+This method simply re-reads the Machine and User `Path` environment variables, concatenates them, and stores them in the variable PowerShell uses to read the PATH.
 
 ## Script to Install Chocolatey
 
@@ -69,12 +69,12 @@ Set-Location HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 
 # Show file extensions
 Set-ItemProperty . HideFileExt "0"
-
 # Show hidden files
 Set-ItemProperty . Hidden "1"
 
-# Force Windows Explorer restart
 Pop-Location
+
+# Force Windows Explorer restart so settings take effect
 Stop-Process -processName: Explorer -force
 ```
 
@@ -116,16 +116,40 @@ code --install-extension johnpapa.Angular2
 code --install-extension PeterJausovec.vscode-docker
 ```
 
-The commands to install VS Code extensions from PowerShell are slightly different compared to what you would put directly into the VS Code command pallet. To know what to pass into the `--install-extension` command, you can grab the fully qualified extension name from the Visual Studio Marketplace, like so:
+The commands to install VS Code extensions from PowerShell are slightly different compared to what you would put directly into the VS Code command pallet. To know what value to pass into the `--install-extension` command, you can grab the fully qualified extension name from the Visual Studio Marketplace URL, like so:
 
 ![Fully qualified VS code extension name example](/img/vs-code-extension-fully-qualified-name_600x357.png)
 
-You can view [the script](https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1) on [my GitHub page](https://github.com/jamestharpe/) (MIT License).
-
 ## Advanced Options
 
-TODO: Accepting args
+I recently configured a similar script for a large development team. Though the team uses a lot of required tools, they also have a lot options that boil down to personal preference. For example, some of the developers prefer IntelliJ while others prefer Eclipse.
 
-## Need Help with a Similar Project?
+This can be easily handled by accepting arguments and choosing wise defaults. As an example, let's install both by default but allow the user to specify the IDE as a command-line argument. Start by using `params` at the top of the script:
 
-Consider [hiring me]({{< relref "hire-me.md" >}}).
+```PowerShell
+params(
+    [string[]]
+    $ide=@("intellij","eclipse")
+)
+```
+
+Later on, we can read the argument:
+
+```PowerShell
+if($ide -contains "intellij"){
+    choco install intellijidea-ultimate --yes
+}
+if($ide -contains "eclipse"){
+    choco install eclipse --yes
+}
+```
+
+Finally, the script can be called with the `-ide` argument. Here's an example to install only Eclipse:
+
+```PowerShell
+env-windows.ps1 -ide eclipse
+```
+
+## A Full Example
+
+You can view [the script](https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1) I use personally on [my GitHub page](https://github.com/jamestharpe/) (MIT License). Contributions welcome!
