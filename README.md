@@ -14,11 +14,12 @@ With drafts:
 hugo server --buildDrafts
 ```
 
+Or just use `preview.sh`.
+
 Then navigate to [http://localhost:1313](http://localhost:1313).
 
 ## Creating a new Post
 
 ```bash
-hugo new post/creating-a-hugo-static-site.md
+hugo new your-post-name.md
 ```
-
