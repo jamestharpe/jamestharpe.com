@@ -306,7 +306,7 @@ We can now make changes to the ASP Dotnet Core project and quickly see them refl
 #### Connect the Debugger
 We now have a Docker container that automatically builds and runs an ASP Dotnet Core project on our local machine, automatically rebuilding and rerunning the project whenever there's a code change. The last step to a dockerized development environment is to enable debugging.
 
-To enable debugging, first we'll need to install [CLRDBG](https://github.com/Microsoft/MIEngine/wiki/What-is-CLRDBG)
+To enable debugging, first we'll need to include [CLRDBG](https://github.com/Microsoft/MIEngine/wiki/What-is-CLRDBG) in our Docker image by modifying and rebuilding `Dockerfile.dev`:
 
 
 
