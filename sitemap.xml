@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jamestharpe.com/automatic-development-environment-setup/</loc>
+    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/useful-docker-shortcut-commands/</loc>
     <lastmod>2017-09-04T06:24:27-04:00</lastmod>
   </url>
@@ -18,13 +23,31 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/tools/chocolatey/</loc>
+    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/tools/docker/</loc>
     <lastmod>2017-09-04T06:24:27-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/techniques/everything-in-version-control/</loc>
+    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/frameworks/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/techniques/grows/</loc>
+    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,7 +59,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/</loc>
-    <lastmod>2017-09-04T06:24:27-04:00</lastmod>
+    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,6 +87,12 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/languages/powershell/</loc>
+    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/projects/</loc>
     <lastmod>2017-08-20T06:24:00-04:00</lastmod>
     <priority>0</priority>
@@ -83,7 +112,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/techniques/</loc>
-    <lastmod>2017-08-24T05:51:57-04:00</lastmod>
+    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -95,7 +124,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/tools/</loc>
-    <lastmod>2017-09-04T06:24:27-04:00</lastmod>
+    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   

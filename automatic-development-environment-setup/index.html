@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-961598-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-961598-2');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Automatic Development Environment Setup</title>
+        <style>
+
+    html body {
+        font-family: Raleway, sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.25.1" />
+        
+         
+    </head>
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Automatic Development Environment Setup</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/languages/">Languages</a></li>
+                            
+                                <li><a href="/frameworks/">Frameworks</a></li>
+                            
+                                <li><a href="/tools/">Tools</a></li>
+                            
+                                <li><a href="/techniques/">Techniques</a></li>
+                            
+                                <li><a href="/hire-me/">Hire Me</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:jimmy.tharpe@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jamestharpe/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/jamestharpe/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jamestharpe/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/104763/james"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/automatic-development-environment-setup/">Automatic Development Environment Setup</a></h4>
+    <h5>September 18, 2017</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="how-to-automate-your-development-environment-setup">How to Automate Your Development Environment Setup</h1>
+
+<p>Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it&rsquo;s easy to forget some bit of configuration or to install some critical software. By following the GROWS <a href="http://growsmethod.com/practices/EverythingInVC.html">everything in version control</a> practice, it&rsquo;s easy to save a ton of time and minimize disruption by automating the process.</p>
+
+<p>Most of the software I write is developed on Windows, so I decided to write the script using PowerShell and <a href="https://chocolatey.org/">Chocolatey</a>. MacOS users can follow a similar pattern using <a href="https://brew.sh/">Homebrew</a>.</p>
+
+<h2 id="overview-of-the-automation-process">Overview of the Automation Process</h2>
+
+<p>The goal of the script is to start from a base OS installation and finish with a complete development environment. To write the script, it&rsquo;s easiest to use a write-test-tweak approach:</p>
+
+<ol>
+<li>Write a command in the PowerShell ISE (running elevated)</li>
+<li>Copypasta the command from the script into the shell panel and execute it</li>
+<li>Tweak the command if needed</li>
+</ol>
+
+<p>Once your script is completed, you can easily maintain it by following the same process every time you install a new tool or adjust a setting. I prefer to store my script in OneDrive for easy access from a base Windows installation (which includes OneDrive), but I also check it in to GitHub to share with the world.</p>
+
+<blockquote>
+<p><strong>Warning</strong>: If you&rsquo;re development environment is already setup manually, installing software via Chocolatey can sometimes cause conflicts. It&rsquo;s best to uninstall any applications you&rsquo;ll be managing with Chocolatey, then reinstall with Choclatey (or just start from scratch).</p>
+</blockquote>
+
+<h2 id="basic-script-structure">Basic Script Structure</h2>
+
+<p>I&rsquo;ve broken <a href="https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1">my script</a> into four sections:</p>
+
+<ol>
+<li>Utility methods</li>
+<li>Chocolatey install</li>
+<li>Configure Windows settings</li>
+<li>Install and configure tools</li>
+</ol>
+
+<h2 id="utility-method-refresh-the-path-environment-variable-in-powershell">Utility Method: Refresh the PATH environment variable in PowerShell</h2>
+
+<p>Many of the tools you&rsquo;ll instal will have dependencies, which need to be available via the Windows PATH environment variable for the script to succeed. PowerShell does not automatically pick up changes to the PATH. To do that, this simple utility function will help:</p>
+
+<pre><code class="language-PowerShell">function RefreshEnvPath
+{
+    $env:Path = [System.Environment]::GetEnvironmentVariable(&quot;Path&quot;,&quot;Machine&quot;) `
+        + &quot;;&quot; + [System.Environment]::GetEnvironmentVariable(&quot;Path&quot;,&quot;User&quot;)
+}
+</code></pre>
+
+<p>This method simply re-reads the Machine and User <code>Path</code> environment variables, concatenates them, and stores them in the variable PowerShell uses to read the PATH.</p>
+
+<h2 id="script-to-install-chocolatey">Script to Install Chocolatey</h2>
+
+<p>The next addition to the script is to install Chocolatey (choco, for short):</p>
+
+<pre><code class="language-PowerShell">iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+RefreshEnvPath
+</code></pre>
+
+<p>Note the call to <code>RefreshEnvPath</code>: That ensures the <code>choco</code> command will run without having to start a new PowerShell window.</p>
+
+<h2 id="script-to-configure-windows-settings">Script to Configure Windows Settings</h2>
+
+<p>The Windows Explorer default settings don&rsquo;t work well for most developers. The following script will show file extensions and hidden files:</p>
+
+<pre><code class="language-PowerShell"># Navigate registry
+Push-Location
+Set-Location HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
+
+# Show file extensions
+Set-ItemProperty . HideFileExt &quot;0&quot;
+# Show hidden files
+Set-ItemProperty . Hidden &quot;1&quot;
+
+Pop-Location
+
+# Force Windows Explorer restart so settings take effect
+Stop-Process -processName: Explorer -force
+</code></pre>
+
+<h2 id="script-to-install-developer-tools">Script to Install Developer Tools</h2>
+
+<p>With Chocolaty installed, to install development tools requires a simple call to <code>choco install [tool name] --yes</code>. The <code>--yes</code> flag is required so that the script doesn&rsquo;t prompt you to approve each installation before proceeding. For example, to install Visual Studio Code, simply run:</p>
+
+<pre><code class="language-PowerShell">choco install vscode --yes
+</code></pre>
+
+<p>When installing a tool that needs to be configured or is a prerequisite of another tool, remember to call <code>RefreshEnvPath</code> before proceeding, or your script will error out.</p>
+
+<h3 id="script-to-customize-vs-code">Script to Customize VS Code</h3>
+
+<p>Vanilla Visual Studio Code isn&rsquo;t very interesting, so let&rsquo;s customize it by installing some common plug-ins. Here&rsquo;s what I install by default:</p>
+
+<pre><code class="language-PowerShell">RefreshEnvPath
+
+# Pretty icons
+code --install-extension robertohuertasm.vscode-icons
+
+# PowerShell
+code --install-extension ms-vscode.PowerShell
+
+# HTML, CSS, JS
+code --install-extension Zignd.html-css-class-completion
+code --install-extension lonefy.vscode-JS-CSS-HTML-formatter
+code --install-extension robinbentley.sass-indented
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension steoates.autoimport
+
+# TypeScript
+code --install-extension eg2.tslint
+code --install-extension johnpapa.Angular2
+
+# Docker
+code --install-extension PeterJausovec.vscode-docker
+</code></pre>
+
+<p>The commands to install VS Code extensions from PowerShell are slightly different compared to what you would put directly into the VS Code command pallet. To know what value to pass into the <code>--install-extension</code> command, you can grab the fully qualified extension name from the Visual Studio Marketplace URL, like so:</p>
+
+<p><img src="/img/vs-code-extension-fully-qualified-name_600x357.png" alt="Fully qualified VS code extension name example" /></p>
+
+<h2 id="advanced-options">Advanced Options</h2>
+
+<p>I recently configured a similar script for a large development team. Though the team uses a lot of required tools, they also have a lot options that boil down to personal preference. For example, some of the developers prefer IntelliJ while others prefer Eclipse.</p>
+
+<p>This can be easily handled by accepting arguments and choosing wise defaults. As an example, let&rsquo;s install both by default but allow the user to specify the IDE as a command-line argument. Start by using <code>params</code> at the top of the script:</p>
+
+<pre><code class="language-PowerShell">params(
+    [string[]]
+    $ide=@(&quot;intellij&quot;,&quot;eclipse&quot;)
+)
+</code></pre>
+
+<p>Later on, we can read the argument:</p>
+
+<pre><code class="language-PowerShell">if($ide -contains &quot;intellij&quot;){
+    choco install intellijidea-ultimate --yes
+}
+if($ide -contains &quot;eclipse&quot;){
+    choco install eclipse --yes
+}
+</code></pre>
+
+<p>Finally, the script can be called with the <code>-ide</code> argument. Here&rsquo;s an example to install only Eclipse:</p>
+
+<pre><code class="language-PowerShell">env-windows.ps1 -ide eclipse
+</code></pre>
+
+<h2 id="a-full-example">A Full Example</h2>
+
+<p>You can view <a href="https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1">the script</a> I use personally on <a href="https://github.com/jamestharpe/">my GitHub page</a> (MIT License). Contributions welcome!</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright &copy; James Tharpe; All rights reserved.</p>
+
+        </footer>
+
+    </body>
+
+</html>
+
