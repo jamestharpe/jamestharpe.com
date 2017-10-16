@@ -2,7 +2,7 @@
 title: "Create a Dockerized REST API with ASP.NET Core"
 date: 2017-08-26T11:37:56-04:00
 languages: [ "CSharp", "Dockerfile" ]
-tools: [ "Docker", "VS Code" ]
+tools: [ "Docker", "VS Code", "Yeoman" ]
 techniques: [ "Containerization", "Microservices" ]
 frameworks: [ "ASP.NET Core"]
 projects: [ "SpamREST" ]
@@ -15,7 +15,7 @@ draft: true
 Using [SpamREST](/projects/spamrest/) as an example, this article will focus on how to:
 
 * Scaffold an [ASP Dotnet Core](/frameworks/asp.net-core/) REST API
-* Build, run, and debug the application in [Docker](/tools/docker/) using [VS Code](/tools/vs-code/)
+* Build, run, and debug the application in [Docker](/tools/docker/) containers using [VS Code](/tools/vs-code/)
 * Publish the application to [Docker Hub](https://hub.docker.com/)
 * Deploy the application to [AWS](https://aws.amazon.com/) and [Azure](https://azure.microsoft.com/)
 
@@ -29,6 +29,14 @@ We have therefore set out to create an [open source anti-spam microservice for R
 * Delete that Spam by issuing an HTTP DELETE to the reported end-point
 
 Since this project will be open source, we didn't want to tie it to Azure or AWS as we've done for our proprietary code bases. We've therefore based the application on Linux containers to allow it to run virtually anywhere.
+
+In this article, I'll walk through how to build:
+
+* A development container that automatically re-builds the application upon code changes, for fast previewing
+* A debugging container that makes it easy to debug using VS Code in a production-like environment
+* A production container, suitable for deployment
+
+First, however, let's scaffold our ASP Dotnet Core REST API.
 
 ## Scaffold the ASP.NET Core Application
 
@@ -183,15 +191,17 @@ public void ConfigureServices(IServiceCollection services) {
 
 We now have a "functional" application. It's time to start dockerizing.
 
-## Dockerize the ASP Dotnet REST API
+## Adding Docker Support Using Yeoman and generator-docker
 
-Though our application isn't finished, it has working end-points and is functional enough to "dockerize". We'll setup containers to be used during development and production.
+Though our application isn't finished, it has working end-points and is functional enough to "dockerize". We'll setup containers for production, as well as running and debugging the app locally using [Yeoman](http://yeoman.io/) and [generator-docker](https://github.com/Microsoft/generator-docker#readme). Yeoman and generator-docker allow us to quickly add Docker support to an ASP Dotnet Core application:
+
+
 
 ### Dockerize the Development Environment
 
 Docker images are created from [Dockerfiles](https://docs.docker.com/engine/reference/builder/) which define a set of [layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/), starting with a base image and then "layering" in the components (files, volumes, commands) that make up the image.
 
-Fortunarly for us, Microsoft provides an [ASP Dotnet Core Build image](https://hub.docker.com/r/microsoft/aspnetcore-build/) we can use as our base image. The `microsoft/aspnetcore-build` image can be used to build and run an ASP Dotnet Core application, which is exactly what we want to do in our development environment.
+Fortunarly for us, Microsoft provides the first few layers in the [ASP Dotnet Core Build image](https://hub.docker.com/r/microsoft/aspnetcore-build/). The `microsoft/aspnetcore-build` image can be used to build and run an ASP Dotnet Core application, which is exactly what we want to do in our development environment.
 
 To get started, let's create a new Dockerfile called `Dockerfile.dev`:
 
@@ -256,11 +266,11 @@ Here's how the `docker run -it -v /$(pwd):/SpamREST -p 5000:80 spamrest` command
   * `t` allocates a pseudo tty
 * `-v /$(pwd):/SpamREST` tells Docker to mount the `/SpamREST` volume to the current working directory (`/$(pwd)`)
 * `-p` argument maps our host computer's port 5000 to the container's port 80
-* `spamrest`specifies the image to base the container on
+* `spamrest` specifies the image to base the container on
 
 > **Specifying volumes on Windows**: Note in the above code snippet, the `/` proceeding the `$(pwd)` is a necessary escape character if you're running Git Bash on Windows.
 
-With the image built and container running, we can now visit localhost:5000/api/spams to see our application runnning in Docker!
+With the image built and container running, we can now visit localhost:5000/api/spams to see our application runnning in the Docker container!
 
 #### Monitor for Code Changes
 
@@ -301,14 +311,32 @@ docker run -it -v /$(pwd)/SpamREST:/SpamREST -p 5000:80 spamrest
 
 We can now make changes to the ASP Dotnet Core project and quickly see them reflected in our container:
 
-![Hugo override template demo](/img/dotnet-watch-auto-rerun_600x633.gif)
+![dotnet watch automatic rebuild](/img/dotnet-watch-auto-rerun_600x633.gif)
 
-#### Connect the Debugger
-We now have a Docker container that automatically builds and runs an ASP Dotnet Core project on our local machine, automatically rebuilding and rerunning the project whenever there's a code change. The last step to a dockerized development environment is to enable debugging.
+### Dockerize the Debugging Environment
 
-To enable debugging, first we'll need to include [CLRDBG](https://github.com/Microsoft/MIEngine/wiki/What-is-CLRDBG) in our Docker image by modifying and rebuilding `Dockerfile.dev`:
+We now have a Docker container that automatically builds and runs an ASP Dotnet Core project on our local machine, automatically rebuilding and rerunning the project whenever there's a code change. To complete our dockerized development environment, we'll create a debugging container using [CLRDBG](https://github.com/Microsoft/MIEngine/wiki/What-is-CLRDBG).
 
+Let's start by creating a new Dockerfile called `Dockerfile.debug`:
 
+To enable debugging, first we'll need to include CLRDBG in our Docker image by modifying and rebuilding `Dockerfile.dev`:
+
+```Dockerfile
+FROM microsoft/aspnetcore-build
+WORKDIR /clrdbg
+RUN curl -SL \
+       https://raw.githubusercontent.com/Microsoft/MIEngine/getclrdbg-release/scripts/GetClrDbg.sh \
+        --output GetClrDbg.sh \
+    && chmod 700 GetClrDbg.sh \
+    && ./GetClrDbg.sh -v latest -l . \
+    && rm GetClrDbg.sh 
+VOLUME /SpamREST
+WORKDIR /SpamREST
+EXPOSE 80/tcp
+ENV DOTNET_USE_POLLING_FILE_WATCHER=true
+ENTRYPOINT dotnet restore \
+  && dotnet watch run --environment=Development
+```
 
 
 
