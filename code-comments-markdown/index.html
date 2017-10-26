@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Projects</title>
+        <title>How to Make Code Comments in Markdown</title>
         <style>
 
     html body {
@@ -59,9 +59,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.25.1" />
         
-        <link href="https://www.jamestharpe.com/projects/index.xml" rel="alternate" type="application/rss+xml" title="James Tharpe" />
-        <link href="https://www.jamestharpe.com/projects/index.xml" rel="feed" type="application/rss+xml" title="James Tharpe" />
-        
         
         <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
         <script>
@@ -81,7 +78,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Projects</a>
+                    <a class="navbar-brand visible-xs" href="#">How to Make Code Comments in Markdown</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -132,9 +129,7 @@
 
 <main>
 
-    <h2>Projects</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -143,16 +138,60 @@
     
     
 
-    <h4><a href="/projects/jamestharpe.com/">Jamestharpe.Com</a></h4>
-    <h5>August 20, 2017</h5>
+    <h4><a href="/code-comments-markdown/">How to Make Code Comments in Markdown</a></h4>
+    <h5>October 26, 2017</h5>
     
 
 </div>
- 
+
+
+    <br> <div class="text-justify">
+
+<h1 id="how-to-comment-a-markdown-file">How to Comment a Markdown File</h1>
+
+<p>Markdown doesn&rsquo;t include specific syntax for comments, but there is a workaround using the <a href="https://daringfireball.net/projects/markdown/syntax#link">reference style links</a> syntax. Using this syntax, the <strong>comments will not be output to the resulting HTML</strong>.</p>
+
+<p>Here are a few examples:</p>
+
+<pre><code class="language-markdown">    []: # (This is a comment)
+    []: # &quot;And this is a comment&quot;
+    []: # 'Also this is a comment'
+    [//]: # (Yet another comment)
+    [comment]: # (Still another comment)
+</code></pre>
+
+<p>Each of these lines works the same way:</p>
+
+<ul>
+<li><code>[...]:</code> identifies a reference link (that won&rsquo;t be used in the article)</li>
+<li><code>#</code> defines the destination, in this case <code>#</code> is the shortest valid value for a URL</li>
+<li><code>(...)</code>, <code>&quot;...&quot;</code>, and <code>'...'</code>define the reference title, which we repurpose to make a comment</li>
+</ul>
+
+<p>While this is the best approach that I&rsquo;m aware of, it doesn&rsquo;t allow multi-line comments and each comment must appear on it&rsquo;s own line.</p>
+
+<p>I personally prefer to use <code>[//]: #</code> since, as a software developer, I tend to associate <code>//</code> with comment syntax.</p>
+
+<h2 id="adding-html-comments-in-markdown">Adding HTML Comments in Markdown</h2>
+
+<p>If you&rsquo;d like for your comments to show up in the HTML output, a simple modified HTML comment syntaxt will work:</p>
+
+<pre><code class="language-markdown">&lt;!--- This is an HTML comment in Markdown --&gt;
+</code></pre>
+
+<p>Unlike a &ldquo;normal&rdquo; HTML comment which opens with <code>&lt;!--</code> (two dashes), an HTML comment in Markdown opens with <code>&lt;!---</code> (three dashes). Some Markdown parsers support two-dash HTML comments, but the three-dash version is more universally compatible.</p>
+
+<!--- This is an HTML comment in Markdown -->
+</div>
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 

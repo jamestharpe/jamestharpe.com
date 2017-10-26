@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; James Tharpe; All rights reserved.</copyright>
-    <lastBuildDate>Thu, 26 Oct 2017 17:33:25 -0400</lastBuildDate>
+    <lastBuildDate>Thu, 26 Oct 2017 18:17:11 -0400</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to Make Code Comments in Markdown</title>
+      <link>https://www.jamestharpe.com/code-comments-markdown/</link>
+      <pubDate>Thu, 26 Oct 2017 18:17:11 -0400</pubDate>
+      
+      <guid>https://www.jamestharpe.com/code-comments-markdown/</guid>
+      <description>How to Comment a Markdown File Markdown doesn&amp;rsquo;t include specific syntax for comments, but there is a workaround using the reference style links syntax. Using this syntax, the comments will not be output to the resulting HTML.
+Here are a few examples:
+[]: # (This is a comment) []: # &amp;quot;And this is a comment&amp;quot; []: # &#39;Also this is a comment&#39; [//]: # (Yet another comment) [comment]: # (Still another comment)  Each of these lines works the same way:</description>
+    </item>
     
     <item>
       <title>Include Files Outside Docker Build Context</title>
