@@ -113,5 +113,28 @@ The [Serverless YouTube channel](https://www.youtube.com/channel/UCFYG383lawh9Hr
 
 {{< youtube HSd9uYj2LJA >}}
 
+---
+
 For those of us who prefer to read, here's a walk-through of the steps to configure AWS credentials for Serverless:
+
+1. Login to AWS and navigate to IAM
+1. Create a new user called `serverless-admin`
+1. Give `serverless-admin` **Programatic access**
+1. Attach the `AdministratorAccess` policy
+
+![Create account for Serverless Framework](/img/aws-server-less-account-create_600x317.gif)
+
+You can copy the **Access key ID** and **Secret access key** to your clipboard for use in your Serverless Framework configuration.
+
+To configure the Serverless Framework with your access keys, use the `serverless config credentials` command:
+
+```bash
+serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret --profile crawlity-serverless-admin
+wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Serverless: Setting up AWS...
+Serverless: Saving your AWS profile in "~/.aws/credentials"...
+Serverless: Success! Your AWS access keys were stored under the "crawlity-serverless-admin" profile.
+```
+
+It's important to pass the `--profile` argument here so that you do not override your `[default]` AWS credentials. Unless you chose to use the `[default]` profile for your access keys, you'll need to remember the profile name later when you deploy your Serverless application.
 
