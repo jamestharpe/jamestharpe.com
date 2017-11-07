@@ -1,5 +1,5 @@
 ---
-title: "Docker: Fix Invalid Bind Mount Spec Git Bash"
+title: "Docker: Fix Invalid Bind Mount Spec in Git Bash"
 date: 2017-11-07T13:44:06-05:00
 tools: [ "Docker", "Git Bash" ]
 draft: false
