@@ -195,8 +195,6 @@ We now have a "functional" application. It's time to start dockerizing.
 
 Though our application isn't finished, it has working end-points and is functional enough to "dockerize". We'll setup containers for production, as well as running and debugging the app locally using [Yeoman](http://yeoman.io/) and [generator-docker](https://github.com/Microsoft/generator-docker#readme). Yeoman and generator-docker allow us to quickly add Docker support to an ASP Dotnet Core application:
 
-
-
 ### Dockerize the Development Environment
 
 Docker images are created from [Dockerfiles](https://docs.docker.com/engine/reference/builder/) which define a set of [layers](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/), starting with a base image and then "layering" in the components (files, volumes, commands) that make up the image.
@@ -268,7 +266,7 @@ Here's how the `docker run -it -v /$(pwd):/SpamREST -p 5000:80 spamrest` command
 * `-p` argument maps our host computer's port 5000 to the container's port 80
 * `spamrest` specifies the image to base the container on
 
-> **Specifying volumes on Windows**: Note in the above code snippet, the `/` proceeding the `$(pwd)` is a necessary escape character if you're running Git Bash on Windows.
+> **Specifying volumes on Windows**: Note in the above code snippet, the `/` proceeding the `$(pwd)` is a necessary escape character if you're running Git Bash on Windows, otherwise you will get an [invalid bind mount spec](/docker-fix-invalid-bind-mount-spec-gitbash) error.
 
 With the image built and container running, we can now visit localhost:5000/api/spams to see our application runnning in the Docker container!
 
