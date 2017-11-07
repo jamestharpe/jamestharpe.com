@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright &amp;copy; James Tharpe; All rights reserved.</copyright>
-    <lastBuildDate>Thu, 26 Oct 2017 18:17:11 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 07 Nov 2017 13:44:06 -0500</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker: Fix Invalid Bind Mount Spec Git Bash</title>
+      <link>https://www.jamestharpe.com/docker-fix-invalid-bind-mount-spec-gitbash/</link>
+      <pubDate>Tue, 07 Nov 2017 13:44:06 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/docker-fix-invalid-bind-mount-spec-gitbash/</guid>
+      <description>Error response from daemon: invalid bind mount spec The call to docker run using Git Bash on Windows was recently frustrating me when I tried to specify a volume using -v:
+$ docker run -it -v /c/Users/james/Code/my-application:/app james/testcontainer sh C:\Program Files\Docker\Docker\Resources\bin\docker.exe: Error response from daemon: invalid bind mount spec &amp;quot;/C/Users/james/Code/my-application;C:\\Program Files\\Git\\app&amp;quot;: invalid volume specification: &#39;/C/Users/james/Code/my-app;C:\Program Files\Git\app&#39;: invalid mount config for type &amp;quot;bind&amp;quot;: invalid mount path: &#39;\Program Files\Git\app&#39; mount path must be absolute.</description>
+    </item>
     
     <item>
       <title>How to Make Code Comments in Markdown</title>

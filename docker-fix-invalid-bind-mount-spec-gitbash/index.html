@@ -12,7 +12,7 @@
 </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Static Site Generation</title>
+        <title>Docker: Fix Invalid Bind Mount Spec Git Bash</title>
         <style>
 
     html body {
@@ -68,9 +68,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.25.1" />
         
-        <link href="https://www.jamestharpe.com/techniques/static-site-generation/index.xml" rel="alternate" type="application/rss+xml" title="James Tharpe" />
-        <link href="https://www.jamestharpe.com/techniques/static-site-generation/index.xml" rel="feed" type="application/rss+xml" title="James Tharpe" />
-        
         
         
     </head>
@@ -83,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Static Site Generation</a>
+                    <a class="navbar-brand visible-xs" href="#">Docker: Fix Invalid Bind Mount Spec Git Bash</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -134,9 +131,7 @@
 
 <main>
 
-    <h2>Static Site Generation</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -145,16 +140,48 @@
     
     
 
-    <h4><a href="/setting-up-hugo-website/">Setting up my Hugo Website</a></h4>
-    <h5>August 20, 2017</h5>
+    <h4><a href="/docker-fix-invalid-bind-mount-spec-gitbash/">Docker: Fix Invalid Bind Mount Spec Git Bash</a></h4>
+    <h5>November 7, 2017</h5>
     
 
 </div>
- 
+
+
+    <br> <div class="text-justify">
+
+<h1 id="error-response-from-daemon-invalid-bind-mount-spec">Error response from daemon: invalid bind mount spec</h1>
+
+<p>The call to <code>docker run</code> using Git Bash on Windows was recently frustrating me when I tried to specify a volume using <code>-v</code>:</p>
+
+<pre><code class="language-bash">$ docker run -it -v /c/Users/james/Code/my-application:/app james/testcontainer sh
+C:\Program Files\Docker\Docker\Resources\bin\docker.exe: Error response from daemon: invalid bind mount spec &quot;/C/Users/james/Code/my-application;C:\\Program Files\\Git\\app&quot;: invalid volume specification: '/C/Users/james/Code/my-app;C:\Program Files\Git\app': invalid mount config for type &quot;bind&quot;: invalid mount path: '\Program Files\Git\app' mount path must be absolute.
+See 'C:\Program Files\Docker\Docker\Resources\bin\docker.exe run --help'.
+</code></pre>
+
+<p>I tried multiple formats for the path, but ultimatly discovered that it is necessary to prefect the path with an extra slash (<code>/</code>), like so:</p>
+
+<pre><code class="language-bash">$ docker run -it -v //c/Users/james/Code/my-application:/app james/testcontainer sh
+</code></pre>
+
+<p>This is necessary when using <code>pwd</code> as well, for example:</p>
+
+<pre><code class="language-bash">$ docker run -it -v /$(pwd):/app james/testcontainer sh
+</code></pre>
+
+<p>The syntax to mount a docker volume to the current parent directory turned out to be quite interesting as well:</p>
+
+<pre><code class="language-bash">$ docker run -it -v /$(pwd)/..:/app james/testcontainer sh
+</code></pre>
+</div>
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 
