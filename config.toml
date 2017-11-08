@@ -33,10 +33,10 @@ theme = "minimal"
     name = "Languages"
     weight = 2
 
-[[menu.main]]
-    url = "/frameworks/"
-    name = "Frameworks"
-    weight = 3
+#[[menu.main]]
+#    url = "/frameworks/"
+#    name = "Frameworks"
+#    weight = 3
 
 [[menu.main]]
     url = "/tools/"
