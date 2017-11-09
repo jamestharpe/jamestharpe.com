@@ -217,7 +217,7 @@ END RequestId: fa46779b-c4e0-11e7-9ea2-b52cf5c00eff
 REPORT RequestId: fa46779b-c4e0-11e7-9ea2-b52cf5c00eff  Duration: 2.48 ms       Billed Duration: 100 ms         Memory Size: 256 MB     Max Memory Used: 20 MB
 ```
 
-It worked! 
+It worked!
 
 Of course, "hello world" is not the most useful service, so let's delete it:
 
@@ -235,7 +235,56 @@ Now, on to something useful.
 
 ## Defining the Form Submission Service
 
+Let's start by running `npm init` to scaffold our `package.json` file:
+
+```bash
+$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (www.crawlity.com-backend)
+version: (1.0.0)
+description: Backend functions for the Crawlity website
+entry point: (handler.js)
+test command: mocha
+git repository: (https://github.com/Crawlity/www.crawlity.com-backend.git)
+keywords:
+author: James Tharpe <jimmy.tharpe@gmail.com>
+license: (ISC)
+About to write to C:\Users\james\code\www.crawlity.com-backend\package.json:
+
+{
+  "name": "www.crawlity.com-backend",
+  "version": "1.0.0",
+  "description": "Backend functions for the Crawlity website",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crawlity/www.crawlity.com-backend.git"
+  },
+  "author": "James Tharpe",
+  "bugs": {
+    "url": "https://github.com/Crawlity/www.crawlity.com-backend/issues"
+  },
+  "homepage": "https://github.com/Crawlity/www.crawlity.com-backend#readme"
+}
+
+
+Is this ok? (yes)
+```
+
+With that out of the way, let's start by writing some tests. I'll be using Mocha and Chai:
+
 TODO:
+
 * Add tests using Mocha
 * Make it work
 * Deploy it
@@ -249,6 +298,6 @@ The Serverless Framework comes with several defaults that may not be right for y
 provider:
   name: aws
   runtime: nodejs6.10
-  memorySize: 256 # default is 1024MB
+  memorySize: 128 # default is 1024MB
   timeout: 3 # default is 6 seconds
 ```
