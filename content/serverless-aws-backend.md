@@ -11,6 +11,12 @@ draft: true
 
 We recently launched the [Crawlity](http://www.crawlity.com/) website which, like this website, uses [Hugo](/tools/hugo/) to generate the site. However, unlike this website, Crawlity.com needs a back-end to accept contact form submissions. So how does one create a dynamic back-end for a static, "serverless" front-end?
 
+Let's use the Serverless Framework to create a form submission service that:
+
+* Accepts form submissions via HTTP POST
+* Formats the submission data into HTML
+* Emails the submitted values
+
 ## Introducing Serverless Framework
 
 <img alt="Serverless Framework logo" src="/img/serverless-framework-logo_300x87.png" style="float: right; padding:8px" /> [Serverless Framework](https://serverless.com/), or simply "Serverless", is a provider-agnostic framework for defining the *functions* and *events* that make up your application. Once defined, Serverless deploys your application to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.
@@ -105,6 +111,8 @@ functions:
 
 Here we have our service (the Serverless Framework's unit of organization) defined as  `www.crawlity.com-backend` and the provider set to AWS with the `nodejs6.10` runtime.
 
+> Note, Serverless Framework does not allow dots (`.`) in service names, so let's change that to hyphens: `www-crawlity-com-backend`.
+
 Technically speaking, we have a functioning, deployable Serverless service. However, before we can deploy we must configure our AWS credentials.
 
 ### Configuer Serverless Framework AWS Credentials
@@ -138,3 +146,109 @@ Serverless: Success! Your AWS access keys were stored under the "crawlity-server
 
 It's important to pass the `--profile` argument here so that you do not override your `[default]` AWS credentials. Unless you chose to use the `[default]` profile for your access keys, you'll need to remember the profile name later when you deploy your Serverless application.
 
+### Deploying the Serverless Framework App for the First Time
+
+We now have a "Hello World" application ready to be deployed on AWS with a single command, including the `-v` flag for "verbose" output:
+
+```bash
+$ serverless deploy -v
+Serverless: Packaging service...
+Serverless: Excluding development dependencies...
+Serverless: Creating Stack...
+Serverless: Checking Stack create progress...
+CloudFormation - CREATE_IN_PROGRESS - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+CloudFormation - CREATE_IN_PROGRESS - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - CREATE_IN_PROGRESS - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - CREATE_COMPLETE - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - CREATE_COMPLETE - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+Serverless: Stack create finished...
+Serverless: Uploading CloudFormation file to S3...
+Serverless: Uploading artifacts...
+Serverless: Uploading service .zip file to S3 (553 B)...
+Serverless: Validating template...
+Serverless: Updating Stack...
+Serverless: Checking Stack update progress...
+CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - CREATE_COMPLETE - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - CREATE_COMPLETE - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - HelloLambdaVersionkcNChWaTbIn998Pe433DMjmV1V50VoifikA7I6PJ7aA
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - HelloLambdaVersionkcNChWaTbIn998Pe433DMjmV1V50VoifikA7I6PJ7aA
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Version - HelloLambdaVersionkcNChWaTbIn998Pe433DMjmV1V50VoifikA7I6PJ7aA
+CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+Serverless: Stack update finished...
+Service Information
+service: www-crawlity-com-backend
+stage: dev
+region: us-east-1
+stack: www-crawlity-com-backend-dev
+api keys:
+  None
+endpoints:
+  None
+functions:
+  hello: www-crawlity-com-backend-dev-hello
+
+Stack Outputs
+HelloLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:735108174705:function:www-crawlity-com-backend-dev-hello:1
+ServerlessDeploymentBucketName: www-crawlity-com-backend-serverlessdeploymentbuck-z6xzdj2ohyif
+```
+
+That was awesome! As can be seen in the output, the Serverless Framework packaged up the app then create and deployed a CloudFormation script.
+
+Now, let's test the function:
+
+```bash
+$ serverless invoke -f hello -l
+{
+    "statusCode": 200,
+    "body": "{\"message\":\"Go Serverless v1.0! Your function executed successfully!\",\"input\":{}}"
+}
+--------------------------------------------------------------------
+START RequestId: fa46779b-c4e0-11e7-9ea2-b52cf5c00eff Version: $LATEST
+END RequestId: fa46779b-c4e0-11e7-9ea2-b52cf5c00eff
+REPORT RequestId: fa46779b-c4e0-11e7-9ea2-b52cf5c00eff  Duration: 2.48 ms       Billed Duration: 100 ms         Memory Size: 256 MB     Max Memory Used: 20 MB
+```
+
+It worked! 
+
+Of course, "hello world" is not the most useful service, so let's delete it:
+
+```bash
+$ serverless remove
+Serverless: Getting all objects in S3 bucket...
+Serverless: Removing objects in S3 bucket...
+Serverless: Removing Stack...
+Serverless: Checking Stack removal progress...
+..........
+Serverless: Stack removal finished...
+```
+
+Now, on to something useful.
+
+## Defining the Form Submission Service
+
+TODO:
+* Add tests using Mocha
+* Make it work
+* Deploy it
+* Check logs / adjust provider settings (see below)
+
+## Adjusting Provider Settings
+
+The Serverless Framework comes with several defaults that may not be right for your application. For the Form Submission Service, not very much memory is required nor is a long timeout. We can adjust those in the `serverless.yml` file in the `provider:` section:
+
+```yaml
+provider:
+  name: aws
+  runtime: nodejs6.10
+  memorySize: 256 # default is 1024MB
+  timeout: 3 # default is 6 seconds
+```
