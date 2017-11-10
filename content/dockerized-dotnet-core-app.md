@@ -336,7 +336,7 @@ ENTRYPOINT dotnet restore \
   && dotnet watch run --environment=Development
 ```
 
-
+[//]: # (todo: Setup remote debugging https://github.com/OmniSharp/omnisharp-vscode/wiki/Attaching-to-remote-processes)
 
 If you're developing locally outside of Docker, you don't want local build artifacts copied over, so let's also create a `.dockerignore` file:
 
