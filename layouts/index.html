@@ -1,0 +1,23 @@
+{{ partial "header" . }}
+
+<main>
+
+    <div class="intro">
+
+        <h1>{{ .Site.Title }}</h1>
+
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
+
+        <hr />
+
+        {{- range first 3 .Data.Pages }}
+        <a href="{{ .RelPermalink }}">
+            <h3>{{ .Title }}</h3>
+            <hr/>
+        </a>
+        {{- end }}
+    </div>
+
+</main>
+
+{{ partial "footer" . }}
