@@ -21,7 +21,7 @@ theme = "minimal"
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "c#", "kotlin", "css", "http", "ruby", "bash", "javascript", "groovy", "java", "json", "markdown", "powershell", "dockerfile", "yaml"] # https://highlightjs.org/static/demo/
+    highlightLanguages = ["go", "c#", "kotlin", "css", "http", "ruby", "bash", "javascript", "groovy", "java", "json", "markdown", "powershell", "typescript", "dockerfile", "yaml"] # https://highlightjs.org/static/demo/
 
 # [[menu.main]]
 #     url = "/"

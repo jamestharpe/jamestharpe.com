@@ -1,34 +1,32 @@
 ---
-title: "Serverless Framework: Contact form with Node on AWS"
+title: "Serverless Framework: Contact form with TypeScript on AWS"
 date: 2017-11-23T12:10:14-04:00
 tools: [ "Hugo" ]
-techniques: [ "Serverless Architecture" ]
+techniques: [ "Serverless Architecture", "Static Site Generation" ]
 projects: [ "Crawlity" ]
 frameworks: [ "Serverless Framework" ]
 languages: [ "TypeScript" ]
 draft: true
 ---
-# Use Serverless Framework to Create a Contact Form with Node on AWS
+# How to Create a Backend for a Static Frontend
 
-We recently launched the [Crawlity](http://www.crawlity.com/) website which, like this website, uses [Hugo](/tools/hugo/) to generate the site. However, unlike this website, Crawlity.com needs a back-end to accept contact form submissions. So how does one create a dynamic back-end for a static, "serverless" front-end?
+<img alt="Serverless Framework logo" src="/img/serverless-framework-logo_150x150.png" style="float: right; padding:8px" /> We recently launched the [Crawlity](http://www.crawlity.com/) website which, like jamestharpe.com, uses [Hugo](/tools/hugo/) to generate a static site. There's no database or template engine running on the server - just static files. Unlike jamestharpe.com, crawlity.com needs a back-end to accept contact form submissions. So how does one create a dynamic back-end for a static, "serverless" front-end?
 
-Let's use the Serverless Framework to create **Form2Email**, a microservice that:
+Short answer: With the **Serverless Framework**!
+
+[Serverless Framework](https://serverless.com/), or simply "Serverless", is a provider-agnostic framework for defining the **functions** and **events** that make up your application. Once defined, Serverless deploys your application to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.
+
+In this article, I'll create **Form2Email**, a microservice based on Serverless Framework that:
 
 * Accepts form submissions via HTTP POST
 * Formats the submission data into HTML
 * Emails the submitted values
 
-Unlike similar articles and examples on the web, I'm going to take extra care with the design so that it is cloud agnostic by using simple dependency injection. That said, I'll only be filling in the AWS implementation; readers are encouraged to contribute additional provider implementations on the [Form2Email GitHub repository](https://github.com/Crawlity/svc-form2email)!
+Unlike similar articles and examples of Serverless Framework on the web which throw everything into one function that's tightly-coupled to the cloud platform provider, I'm going to take extra care with the design so that it is cloud agnostic. That said, I'll only be filling in the AWS implementation; feel free to contribute additional provider implementations on the [Form2Email GitHub repository](https://github.com/Crawlity/svc-form2email)!
 
 ## Get Started with Serverless Framework
 
-<img alt="Serverless Framework logo" src="/img/serverless-framework-logo_150x150.png" style="float: right; padding:8px" /> [Serverless Framework](https://serverless.com/), or simply "Serverless", is a provider-agnostic framework for defining the **functions** and **events** that make up your application. Once defined, Serverless deploys your application to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.
-
-## Get Started with Serverless Framework and AWS
-
-For the Crawlity website, all I need is to send an email with the contact form data. On AWS that means setting up a Lambda function, triggered by an HTTP POST to API Gateway, that sends an email via Simple Email Service (SES). However, with Serverless, we shouldn't have to worry about most of those details.
-
-### Install Serverless
+To get started, let's install Serverless and create a new project using TypeScript and targeted at AWS:
 
 Installing Serverless is a simple call to `npm install`:
 
@@ -36,70 +34,66 @@ Installing Serverless is a simple call to `npm install`:
 npm install -g serverless
 ```
 
-### Create a Node JS Serverless Project for AWS
-
-To create our project, we'll use the `serverless create` command, specifying the `aws-nodejs` template and the desired project directory name:
+Next, let's create a new project using the `aws-nodejs-typescript` template:
 
 ```bash
-$ serverless create --template aws-nodejs --path www.crawlity.com-backend
+$ serverless create --template aws-nodejs-typescript && npm install
 Serverless: Generating boilerplate...
-Serverless: Generating boilerplate in "~/code/www.crawlity.com-backend"
  _______                             __
 |   _   .-----.----.--.--.-----.----|  .-----.-----.-----.
 |   |___|  -__|   _|  |  |  -__|   _|  |  -__|__ --|__ --|
 |____   |_____|__|  \___/|_____|__| |__|_____|_____|_____|
 |   |   |             The Serverless Application Framework
-|       |                           serverless.com, v1.23.0
+|       |                           serverless.com, v1.24.1
  -------'
 
-Serverless: Successfully generated boilerplate for template: "aws-nodejs"
+Serverless: Successfully generated boilerplate for template: "aws-nodejs-typescript"
+Serverless: NOTE: Please update the "service" property in serverless.yml with your service name
 ```
 
-Though I chose Node on AWS, a broad set of [`serverless create` templates](https://github.com/serverless/serverless/tree/master/lib/plugins/create/templates) are available for AWS, including C#, Groovy, Python, and others.
+> Note: I chose to use [TypeScript](http://www.typescriptlang.org/) rather than JavaScript because strong typing makes dependincy injection a lot safer, if not easier. A broad set of [`serverless create` templates](https://github.com/serverless/serverless/tree/master/lib/plugins/create/templates) are available for AWS, including C#, Groovy, Python, and others.
 
-We can now `cd` into the project directory and list the contents:
+We now have a boilerplate Serverless application, ready to be deployed! Let's explore the created project:
 
 ```bash
-~/code
-$ cd www.crawlity.com-backend/
-
-~/code/www.crawlity.com-backend
 $ ls
-handler.js  serverless.yml
-$
+handler.ts    package-lock.json  webpack.config.js
+node_modules  serverless.yml
+package.json  tsconfig.json
+
 ```
 
-That's it, just those two files! The contents of both files are relativly simple and easy to understand.
+That's it, just a few files! The contents of each file is relativly simple and easy to understand. Let's explore the files specific to Serverless Framework: `handler.ts` and `serverless.yml`.
 
-#### handler.js
+### `handler.ts` 
 
-```bash
-'use strict';
+The `handler.ts` file exports a single function called `hello` that creates a simple `HTTP 200` response with a hard-coded message:
 
-module.exports.hello = (event, context, callback) => {
+```typescript
+export const hello = (event, context, cb) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Go Serverless v1.0! Your function executed successfully!',
+      message: 'Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!',
       input: event,
     }),
   };
 
-  callback(null, response);
-};
+  cb(null, response);
+}
 ```
 
-(comments omitted for brevity)
+### `serverless.yml` 
 
-As you can see, the application currently consists of only one module explorted from `handler.js`, which defines a "Hello World" function that should look familiar to anyone that works with AWS Lambda.
+The `serverless.yml` file defines the service name as `aws-nodejs-typescript`, configures Serverless Framework to target Node on AWS, and defines the `hello` function as responding to an `HTTP GET` event:
 
-#### serverless.yml
+```yaml
+service:
+  name: aws-nodejs-typescript
 
-```YAML
-# Welcome to Serverless!
-# ...
-
-service: www.crawlity.com-backend
+# Add the serverless-webpack plugin
+plugins:
+  - serverless-webpack
 
 provider:
   name: aws
@@ -108,17 +102,18 @@ provider:
 functions:
   hello:
     handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+
 ```
 
-(comments omitted for brevity)
-
-Here we have our service (the Serverless Framework's unit of organization) defined as  `www.crawlity.com-backend` and the provider set to AWS with the `nodejs6.10` runtime.
-
-> Note, Serverless Framework does not allow dots (`.`) in service names, so let's change that to hyphens: `www-crawlity-com-backend`.
-
-Technically speaking, we have a functioning, deployable Serverless service. However, before we can deploy we must configure our AWS credentials.
+This also adds the `serverless-webpack` Serverless Framework plugin FOR REASONS (todo).
 
 ### Configuer Serverless Framework AWS Credentials
+
+Technically speaking, we have a functioning, deployable Serverless service. However, before we can deploy we must configure our AWS credentials.
 
 The [Serverless YouTube channel](https://www.youtube.com/channel/UCFYG383lawh9Hrs_DEKTtdg) has a great video walk-through to setup AWS credentials:
 
@@ -148,6 +143,29 @@ Serverless: Success! Your AWS access keys were stored under the "crawlity-server
 ```
 
 It's important to pass the `--profile` argument here so that you do not override your `[default]` AWS credentials. Unless you chose to use the `[default]` profile for your access keys, you'll need to remember the profile name later when you deploy your Serverless application.
+
+
+
+
+
+-----------------
+
+
+
+### Create a Serverless Framework with TypeScript AWS
+
+For the Crawlity website, all I need is to send an email with the contact form data. On AWS that means setting up a Lambda function, triggered by an HTTP POST to API Gateway, that sends an email via Simple Email Service (SES). However, with Serverless, we shouldn't have to worry about most of those details.
+
+```bash
+$ ls
+handler.js  serverless.yml
+```
+
+
+
+
+
+
 
 ### Deploying the Serverless Framework App for the First Time
 
