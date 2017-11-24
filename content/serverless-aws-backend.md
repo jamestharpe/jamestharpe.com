@@ -1,25 +1,28 @@
 ---
-title: "Serverless Framework: Create a contact form on AWS"
-date: 2017-10-31T12:10:14-04:00
+title: "Serverless Framework: Contact form with Node on AWS"
+date: 2017-11-23T12:10:14-04:00
 tools: [ "Hugo" ]
 techniques: [ "Serverless Architecture" ]
 projects: [ "Crawlity" ]
 frameworks: [ "Serverless Framework" ]
+languages: [ "TypeScript" ]
 draft: true
 ---
-# Use Serverless Framework to Create a Contact Form on AWS
+# Use Serverless Framework to Create a Contact Form with Node on AWS
 
 We recently launched the [Crawlity](http://www.crawlity.com/) website which, like this website, uses [Hugo](/tools/hugo/) to generate the site. However, unlike this website, Crawlity.com needs a back-end to accept contact form submissions. So how does one create a dynamic back-end for a static, "serverless" front-end?
 
-Let's use the Serverless Framework to create a form submission service that:
+Let's use the Serverless Framework to create **Form2Email**, a microservice that:
 
 * Accepts form submissions via HTTP POST
 * Formats the submission data into HTML
 * Emails the submitted values
 
-## Introducing Serverless Framework
+Unlike similar articles and examples on the web, I'm going to take extra care with the design so that it is cloud agnostic by using simple dependency injection. That said, I'll only be filling in the AWS implementation; readers are encouraged to contribute additional provider implementations on the [Form2Email GitHub repository](https://github.com/Crawlity/svc-form2email)!
 
-<img alt="Serverless Framework logo" src="/img/serverless-framework-logo_300x87.png" style="float: right; padding:8px" /> [Serverless Framework](https://serverless.com/), or simply "Serverless", is a provider-agnostic framework for defining the *functions* and *events* that make up your application. Once defined, Serverless deploys your application to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.
+## Get Started with Serverless Framework
+
+<img alt="Serverless Framework logo" src="/img/serverless-framework-logo_150x150.png" style="float: right; padding:8px" /> [Serverless Framework](https://serverless.com/), or simply "Serverless", is a provider-agnostic framework for defining the **functions** and **events** that make up your application. Once defined, Serverless deploys your application to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.
 
 ## Get Started with Serverless Framework and AWS
 
