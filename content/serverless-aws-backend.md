@@ -8,7 +8,7 @@ frameworks: [ "Serverless Framework" ]
 languages: [ "TypeScript" ]
 draft: true
 ---
-# How to Create a Backend for a Static Frontend
+# Create a Backends for Static Frontends
 
 <img alt="Serverless Framework logo" src="/img/serverless-framework-logo_150x150.png" style="float: right; padding:8px" /> We recently launched the [Crawlity](http://www.crawlity.com/) website which, like jamestharpe.com, uses [Hugo](/tools/hugo/) to generate a static site. There's no database or template engine running on the server - just static files. Unlike jamestharpe.com, crawlity.com needs a back-end to accept contact form submissions. So how does one create a dynamic back-end for a static, "serverless" front-end?
 
@@ -18,9 +18,8 @@ Short answer: With the **Serverless Framework**!
 
 In this article, I'll create **Form2Email**, a microservice based on Serverless Framework that:
 
-* Accepts form submissions via HTTP POST
-* Formats the submission data into HTML
-* Emails the submitted values
+* Accepts form submissions via HTTP POST (the event)
+* Emails the submitted values as HTML (the function)
 
 Unlike similar articles and examples of Serverless Framework on the web which throw everything into one function that's tightly-coupled to the cloud platform provider, I'm going to take extra care with the design so that it is cloud agnostic. That said, I'll only be filling in the AWS implementation; feel free to contribute additional provider implementations on the [Form2Email GitHub repository](https://github.com/Crawlity/svc-form2email)!
 
@@ -83,6 +82,12 @@ export const hello = (event, context, cb) => {
 }
 ```
 
+Let's go ahead and change the exported function name to `submitForm`:
+
+```typescript
+export const submitForm = (event, context, cb) => {
+```
+
 ### `serverless.yml` 
 
 The `serverless.yml` file defines the service name as `aws-nodejs-typescript`, configures Serverless Framework to target Node on AWS, and defines the `hello` function as responding to an `HTTP GET` event:
@@ -109,11 +114,51 @@ functions:
 
 ```
 
-This also adds the `serverless-webpack` Serverless Framework plugin FOR REASONS (todo).
+The `service.name` property defines the name of our service. As suggested by the Serverless CLI, let's give it the right name:
+
+```yaml
+service:
+  name: form2email
+```
+
+The `plugins` section defines any Serverless plugins our service uses. In this case, the `aws-nodejs-typescript` template included the [`serverless-webpack` plugin](https://github.com/serverless-heaven/serverless-webpack) for us. This plugin helps package and optimize the service using [Webpack](https://webpack.js.org/).
+
+The `functions` section defines the functions for our service. Let's update the `hello` function to reflect the function name change we made in `handler.ts`:
+
+```yaml
+functions:
+  submitForm:
+    handler: handler.submitForm
+```
+
+Finally, the `functions.submitForm.events` section defines the events that will trigger our function. Let's update that so that we accept HTTP POST events (the default is HTTP GET) to the `/forms` path:
+
+```yaml
+    events:
+      - http:
+          method: post
+          path: forms
+```
+
+Now that we undertsand the basic structure, let's try invoking the function locally:
+
+```bash
+$ serverless invoke local -f submitForm
+Serverless: Bundling with Webpack...
+ts-loader: Using typescript@2.6.1 and ~/code/svc-form2email/tsconfig.json
+Time: 1421ms
+     Asset     Size  Chunks             Chunk Names
+handler.js  2.91 kB       0  [emitted]  handler
+   [0] ./handler.ts 355 bytes {0} [built]
+{
+    "statusCode": 200,
+    "body": "{\"message\":\"Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!\",\"input\":\"\"}"
+}
+```
+
+It works! Technically speaking, we have a functioning, deployable Serverless service. However, before we can deploy we must configure our AWS credentials.
 
 ### Configuer Serverless Framework AWS Credentials
-
-Technically speaking, we have a functioning, deployable Serverless service. However, before we can deploy we must configure our AWS credentials.
 
 The [Serverless YouTube channel](https://www.youtube.com/channel/UCFYG383lawh9Hrs_DEKTtdg) has a great video walk-through to setup AWS credentials:
 
@@ -135,112 +180,115 @@ You can copy the **Access key ID** and **Secret access key** to your clipboard f
 To configure the Serverless Framework with your access keys, use the `serverless config credentials` command:
 
 ```bash
-serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret --profile crawlity-serverless-admin
+$ serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret --profile crawlity-serverless-admin
 wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Serverless: Setting up AWS...
 Serverless: Saving your AWS profile in "~/.aws/credentials"...
 Serverless: Success! Your AWS access keys were stored under the "crawlity-serverless-admin" profile.
 ```
 
-It's important to pass the `--profile` argument here so that you do not override your `[default]` AWS credentials. Unless you chose to use the `[default]` profile for your access keys, you'll need to remember the profile name later when you deploy your Serverless application.
+It's important to pass the `--profile` argument here so that you do not override your `[default]` AWS credentials. To ensure Serverless uses this profile, update the `provider.profile` in `serverless.yml` with the profile name:
 
-
-
-
-
------------------
-
-
-
-### Create a Serverless Framework with TypeScript AWS
-
-For the Crawlity website, all I need is to send an email with the contact form data. On AWS that means setting up a Lambda function, triggered by an HTTP POST to API Gateway, that sends an email via Simple Email Service (SES). However, with Serverless, we shouldn't have to worry about most of those details.
-
-```bash
-$ ls
-handler.js  serverless.yml
+```yaml
+profile: crawlity-serverless-admin
 ```
-
-
-
-
-
-
 
 ### Deploying the Serverless Framework App for the First Time
 
-We now have a "Hello World" application ready to be deployed on AWS with a single command, including the `-v` flag for "verbose" output:
+Though it doesn't do much yet, our application is scaffolded, configured, and ready for deployment. So let's deploy it using `serverless deploy -v` to see what happens (`-v` enables verbose output):
 
 ```bash
 $ serverless deploy -v
+Serverless: Bundling with Webpack...
+ts-loader: Using typescript@2.6.1 and ~/code/svc-form2email/tsconfig.json
+Time: 2126ms
+     Asset     Size  Chunks             Chunk Names
+handler.js  2.91 kB       0  [emitted]  handler
+   [0] ./handler.ts 355 bytes {0} [built]
+Serverless: Zip service: ~/code/svc-form2email/.webpack/service [44 ms]
 Serverless: Packaging service...
-Serverless: Excluding development dependencies...
+Serverless: Remove ~/code/svc-form2email/.webpack
 Serverless: Creating Stack...
 Serverless: Checking Stack create progress...
-CloudFormation - CREATE_IN_PROGRESS - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+CloudFormation - CREATE_IN_PROGRESS - AWS::CloudFormation::Stack - form2email-dev
 CloudFormation - CREATE_IN_PROGRESS - AWS::S3::Bucket - ServerlessDeploymentBucket
 CloudFormation - CREATE_IN_PROGRESS - AWS::S3::Bucket - ServerlessDeploymentBucket
 CloudFormation - CREATE_COMPLETE - AWS::S3::Bucket - ServerlessDeploymentBucket
-CloudFormation - CREATE_COMPLETE - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+CloudFormation - CREATE_COMPLETE - AWS::CloudFormation::Stack - form2email-dev
 Serverless: Stack create finished...
 Serverless: Uploading CloudFormation file to S3...
 Serverless: Uploading artifacts...
-Serverless: Uploading service .zip file to S3 (553 B)...
 Serverless: Validating template...
 Serverless: Updating Stack...
 Serverless: Checking Stack update progress...
-CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - form2email-dev
 CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
-CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - HelloLogGroup
-CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - SubmitFormLogGroup
 CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
-CloudFormation - CREATE_COMPLETE - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - SubmitFormLogGroup
+CloudFormation - CREATE_COMPLETE - AWS::Logs::LogGroup - SubmitFormLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::RestApi - ApiGatewayRestApi
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::RestApi - ApiGatewayRestApi
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::RestApi - ApiGatewayRestApi
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Resource - ApiGatewayResourceForms
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Resource - ApiGatewayResourceForms
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Resource - ApiGatewayResourceForms
 CloudFormation - CREATE_COMPLETE - AWS::IAM::Role - IamRoleLambdaExecution
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - HelloLambdaFunction
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - HelloLambdaFunction
-CloudFormation - CREATE_COMPLETE - AWS::Lambda::Function - HelloLambdaFunction
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - HelloLambdaVersionkcNChWaTbIn998Pe433DMjmV1V50VoifikA7I6PJ7aA
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - HelloLambdaVersionkcNChWaTbIn998Pe433DMjmV1V50VoifikA7I6PJ7aA
-CloudFormation - CREATE_COMPLETE - AWS::Lambda::Version - HelloLambdaVersionkcNChWaTbIn998Pe433DMjmV1V50VoifikA7I6PJ7aA
-CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
-CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - www-crawlity-com-backend-dev
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - SubmitFormLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - SubmitFormLambdaFunction
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Function - SubmitFormLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
+CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - form2email-dev
+CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - form2email-dev
 Serverless: Stack update finished...
 Service Information
-service: www-crawlity-com-backend
+service: form2email
 stage: dev
 region: us-east-1
-stack: www-crawlity-com-backend-dev
+stack: form2email-dev
 api keys:
   None
 endpoints:
-  None
+  POST - https://a12b3cdef4.execute-api.us-east-1.amazonaws.com/dev/forms
 functions:
-  hello: www-crawlity-com-backend-dev-hello
+  submitForm: form2email-dev-submitForm
 
 Stack Outputs
-HelloLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:735108174705:function:www-crawlity-com-backend-dev-hello:1
-ServerlessDeploymentBucketName: www-crawlity-com-backend-serverlessdeploymentbuck-z6xzdj2ohyif
+ServiceEndpoint: https://a12b3cdef4.execute-api.us-east-1.amazonaws.com/dev
+ServerlessDeploymentBucketName: form2email-dev-serverlessdeploymentbucket-12abcdefg3hij
+SubmitFormLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:123456789012:function:form2email-dev-submitForm:1
 ```
 
-That was awesome! As can be seen in the output, the Serverless Framework packaged up the app then create and deployed a CloudFormation script.
+As you can see from the output, Serverless packeges up the application then creates a CloudFormation stack and uploads a generated CloudFormation script to a specially provisioned S3 bucket. The CloudFormation script then provisions the IAM Roles, Log Groups, ApiGateway end points, and Lambda function needed to run the `form2email` service. By default, the `dev` stage is used.
 
-Now, let's test the function:
+Let's test the live service using `serverless invoke`:
 
 ```bash
-$ serverless invoke -f hello -l
+$ serverless invoke -f submitForm -l
 {
     "statusCode": 200,
-    "body": "{\"message\":\"Go Serverless v1.0! Your function executed successfully!\",\"input\":{}}"
+    "body": "{\"message\":\"Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!\",\"input\":{}}"
 }
 --------------------------------------------------------------------
-START RequestId: fa46779b-c4e0-11e7-9ea2-b52cf5c00eff Version: $LATEST
-END RequestId: fa46779b-c4e0-11e7-9ea2-b52cf5c00eff
-REPORT RequestId: fa46779b-c4e0-11e7-9ea2-b52cf5c00eff  Duration: 2.48 ms       Billed Duration: 100 ms         Memory Size: 256 MB     Max Memory Used: 20 MB
+START RequestId: 123456a7-bcd8-90e1-f234-56g7890hi123 Version: $LATEST
+END RequestId: 123456a7-bcd8-90e1-f234-56g7890hi123
+REPORT RequestId: 123456a7-bcd8-90e1-f234-56g7890hi123  Duration: 0.42 ms       Billed Duration: 100 ms         Memory Size: 1024 MB    Max Memory Used: 21 MB
 ```
 
-It worked!
+It works, we're live! The `-f` argument specifies the function to invoke and the `-l` flag tells serverless to output the logs to the console.
 
-Of course, "hello world" is not the most useful service, so let's delete it:
+Of course, our service is not yet useful, so let's delete it using `serverless remove`:
 
 ```bash
 $ serverless remove
@@ -248,9 +296,14 @@ Serverless: Getting all objects in S3 bucket...
 Serverless: Removing objects in S3 bucket...
 Serverless: Removing Stack...
 Serverless: Checking Stack removal progress...
-..........
+..............
 Serverless: Stack removal finished...
 ```
+
+## Defining the `submitForm` Function
+
+---
+
 
 Now, on to something useful.
 
