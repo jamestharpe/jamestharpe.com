@@ -23,7 +23,6 @@ $ docker stop $(docker ps -q)
 a12b34c5d678
 b23c46d6e789
 c34d57e7f790
-
 ```
 
 ## Remove All Docker Images
@@ -48,7 +47,18 @@ $ docker rm -f $(docker ps -aq)
 a12b34c5d678
 b23c46d6e789
 c34d57e7f790
+```
 
+### Stop All Running Containers
+
+```bash
+docker stop $(docker ps -aq)
+```
+
+### Remove all Stopped Containers
+
+```bash
+docker rm $(docker ps -aq)
 ```
 
 ## Remove all Docker Networks
