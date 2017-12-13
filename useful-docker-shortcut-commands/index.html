@@ -49,7 +49,7 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 
-     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/typescript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
 
     <script>hljs.initHighlightingOnLoad();</script>
 
@@ -166,7 +166,6 @@ $ docker stop $(docker ps -q)
 a12b34c5d678
 b23c46d6e789
 c34d57e7f790
-
 </code></pre>
 
 <h2 id="remove-all-docker-images">Remove All Docker Images</h2>
@@ -191,7 +190,16 @@ Deleted: sha256:4b962de5545cfdec0724c35d5711060b1620bd22ec2d9cc4ed5589fd7beb178a
 a12b34c5d678
 b23c46d6e789
 c34d57e7f790
+</code></pre>
 
+<h3 id="stop-all-running-containers">Stop All Running Containers</h3>
+
+<pre><code class="language-bash">docker stop $(docker ps -aq)
+</code></pre>
+
+<h3 id="remove-all-stopped-containers">Remove all Stopped Containers</h3>
+
+<pre><code class="language-bash">docker rm $(docker ps -aq)
 </code></pre>
 
 <h2 id="remove-all-docker-networks">Remove all Docker Networks</h2>
