@@ -61,16 +61,18 @@ functions:
 
 ```
 
-Next, let's rename the handler function to something more relevant than `hello`:
+Next, let's reflect the name `submitForm` in `handler.ts`:
 
 **`handler.ts`:**
 
 ```typescript
-export const submitForm = (event, context, cb) => {
+import { Handler, Callback, Context } from 'aws-lambda';
+
+export const submitForm : Handler = (event, context : Context, cb : Callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!',
+      message: 'Go Serverless Webpack (TypeScript) v1.0! Your function executed successfully!',
       input: event,
     }),
   };

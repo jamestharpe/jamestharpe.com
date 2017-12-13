@@ -45,14 +45,13 @@ Serverless: NOTE: Please update the "service" property in serverless.yml with yo
 
 > Note: A broad set of [`serverless create` templates](https://github.com/serverless/serverless/tree/master/lib/plugins/create/templates) are available for AWS, including C#, Groovy, Python, and others.
 
-We now have a boilerplate Serverless application that is *almost* ready to be deployed! Let's explore the created project:
+We now have a boilerplate Serverless application that is *technically* ready to be deployed! Let's explore the created project:
 
 ```bash
 $ ls
 handler.ts    package-lock.json  webpack.config.js
 node_modules  serverless.yml
 package.json  tsconfig.json
-
 ```
 
 That's it, just a few files! The contents of each file is relativly simple and easy to understand. Let's explore the files specific to Serverless Framework: `handler.ts` and `serverless.yml`.
@@ -62,6 +61,7 @@ That's it, just a few files! The contents of each file is relativly simple and e
 The `handler.ts` file exports a single function called `hello` that creates a simple `HTTP 200` response with a hard-coded message:
 
 ```typescript
+// handler.ts
 export const hello = (event, context, cb) => {
   const response = {
     statusCode: 200,
@@ -80,10 +80,10 @@ export const hello = (event, context, cb) => {
 The `serverless.yml` file defines the service name as `aws-nodejs-typescript`, configures Serverless Framework to target Node on AWS, and defines the `hello` function as responding to an `HTTP GET` event:
 
 ```yaml
+# serverless.yml
 service:
   name: aws-nodejs-typescript
 
-# Add the serverless-webpack plugin
 plugins:
   - serverless-webpack
 
@@ -107,9 +107,9 @@ The `functions` section defines the functions for the service. In this case, the
 Now that we undertsand the basic structure, let's invoke the function locally:
 
 ```bash
-$ serverless invoke local -f submitForm
+$ serverless invoke local -f hello
 Serverless: Bundling with Webpack...
-ts-loader: Using typescript@2.6.1 and ~/code/svc-form2email/tsconfig.json
+ts-loader: Using typescript@2.6.1 and ~/code/aws-nodejs-typescript/tsconfig.json
 Time: 1421ms
      Asset     Size  Chunks             Chunk Names
 handler.js  2.91 kB       0  [emitted]  handler
@@ -120,7 +120,7 @@ handler.js  2.91 kB       0  [emitted]  handler
 }
 ```
 
-It works! Technically speaking, we have a functioning, deployable Serverless service. However, before we can deploy we must configure our AWS credentials.
+It works! Technically speaking, we have a functioning, deployable Serverless Framework service. However, before we can deploy we must configure our AWS credentials.
 
 ### Configuer Serverless Framework AWS Credentials
 
@@ -144,14 +144,13 @@ You can copy the **Access key ID** and **Secret access key** to your clipboard f
 To configure the Serverless Framework with your access keys, use the `serverless config credentials` command:
 
 ```bash
-$ serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret --profile serverless-admin
-wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+$ serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY --profile serverless-admin
 Serverless: Setting up AWS...
 Serverless: Saving your AWS profile in "~/.aws/credentials"...
 Serverless: Success! Your AWS access keys were stored under the "serverless-admin" profile.
 ```
 
-It's important to pass the `--profile` argument here so that you do not override your `[default]` AWS credentials. To ensure Serverless uses this profile, update the `provider.profile` in `serverless.yml` with the profile name:
+It's important to pass the `--profile` argument here so that you do not override your `[default]` AWS credentials. To ensure Serverless uses this profile for deployment, update the `provider.profile` in `serverless.yml` with the profile name:
 
 ```yaml
 profile: serverless-admin
@@ -166,28 +165,28 @@ Though it doesn't do much, our application is scaffolded, configured, and ready 
 ```bash
 $ serverless deploy -v
 Serverless: Bundling with Webpack...
-ts-loader: Using typescript@2.6.1 and ~/code/svc-form2email/tsconfig.json
+ts-loader: Using typescript@2.6.1 and ~/code/aws-nodejs-typescript/tsconfig.json
 Time: 2126ms
      Asset     Size  Chunks             Chunk Names
 handler.js  2.91 kB       0  [emitted]  handler
    [0] ./handler.ts 355 bytes {0} [built]
-Serverless: Zip service: ~/code/svc-form2email/.webpack/service [44 ms]
+Serverless: Zip service: ~/code/aws-nodejs-typescript/.webpack/service [44 ms]
 Serverless: Packaging service...
-Serverless: Remove ~/code/svc-form2email/.webpack
+Serverless: Remove ~/code/aws-nodejs-typescript/.webpack
 Serverless: Creating Stack...
 Serverless: Checking Stack create progress...
-CloudFormation - CREATE_IN_PROGRESS - AWS::CloudFormation::Stack - form2email-dev
+CloudFormation - CREATE_IN_PROGRESS - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
 CloudFormation - CREATE_IN_PROGRESS - AWS::S3::Bucket - ServerlessDeploymentBucket
 CloudFormation - CREATE_IN_PROGRESS - AWS::S3::Bucket - ServerlessDeploymentBucket
 CloudFormation - CREATE_COMPLETE - AWS::S3::Bucket - ServerlessDeploymentBucket
-CloudFormation - CREATE_COMPLETE - AWS::CloudFormation::Stack - form2email-dev
+CloudFormation - CREATE_COMPLETE - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
 Serverless: Stack create finished...
 Serverless: Uploading CloudFormation file to S3...
 Serverless: Uploading artifacts...
 Serverless: Validating template...
 Serverless: Updating Stack...
 Serverless: Checking Stack update progress...
-CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - form2email-dev
+CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
 CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
 CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - SubmitFormLogGroup
 CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
@@ -215,28 +214,28 @@ CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDe
 CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
 CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
 CloudFormation - CREATE_COMPLETE - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
-CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - form2email-dev
-CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - form2email-dev
+CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
+CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
 Serverless: Stack update finished...
 Service Information
-service: form2email
+service: aws-nodejs-typescript
 stage: dev
 region: us-east-1
-stack: form2email-dev
+stack: aws-nodejs-typescript-dev
 api keys:
   None
 endpoints:
   POST - https://a12b3cdef4.execute-api.us-east-1.amazonaws.com/dev/forms
 functions:
-  submitForm: form2email-dev-submitForm
+  submitForm: aws-nodejs-typescript-dev-submitForm
 
 Stack Outputs
 ServiceEndpoint: https://a12b3cdef4.execute-api.us-east-1.amazonaws.com/dev
-ServerlessDeploymentBucketName: form2email-dev-serverlessdeploymentbucket-12abcdefg3hij
-SubmitFormLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:123456789012:function:form2email-dev-submitForm:1
+ServerlessDeploymentBucketName: aws-nodejs-typescript-dev-serverlessdeploymentbucket-12abcdefg3hij
+SubmitFormLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:123456789012:function:aws-nodejs-typescript-dev-submitForm:1
 ```
 
-As you can see from the output, Serverless packages up the application, creates a CloudFormation stack, and uploads a generated CloudFormation script to a specially provisioned S3 bucket. The CloudFormation script then provisions the IAM Roles, Log Groups, ApiGateway end points, and Lambda function needed to run the `form2email` service. By default, the `dev` stage is assumed.
+As you can see from the output, Serverless packages up the application, creates a [CloudFormation](https://aws.amazon.com/documentation/cloudformation/) stack, and uploads a generated CloudFormation script to a specially provisioned S3 bucket. The CloudFormation script then provisions the IAM Roles, Log Groups, ApiGateway end points, and Lambda function needed to run the `aws-nodejs-typescript` service. By default, the `dev` stage is assumed.
 
 The live service can now be invoked using `serverless invoke`:
 
@@ -266,14 +265,18 @@ Serverless: Checking Stack removal progress...
 Serverless: Stack removal finished...
 ```
 
-## Take Advantage of TypeScript
+## Take Advantage of TypeScript with Node and AWS Lambda Types
 
-The `package.json` file of the service already includes `@types/node` as a development dependency. This causes types associated with node to be automatically included by the compiler.
+> **Note:** At the time of this writing, the `aws-nodejs-typescript` did not include type definitions for Node or AWS Lambda. I submitted pull requests to [include `@types/node`](https://github.com/serverless/serverless/pull/4547) and to [include `@types/aws-lambda`](https://github.com/serverless/serverless/pull/4552). Hopefully by the time you're reading this, they will have been accepted!
 
-When writing a service for AWS, it's handy to include type definitions for the AWS services you'll consume, for instance:
+When writing a service for AWS, it's handy to include type definitions for the AWS services you'll consume. At a minimum you should include:
 
+* [`@types/node`](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node) for any Node based applicaiton.
 * [`@types/aws-lambda`](https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-lambda) for writing AWS Lambda functions.
-* [`a@types/ws-serverless-express`](https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-serverless-express) for writing Serverless Express applications
+
+Depending on the type of service you're writing, you might also consider these type definitions:
+
+* [`@types/ws-serverless-express`](https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-serverless-express) for writing Serverless Express applications
 * [`@types/aws-iot-device-sdk`](https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-iot-device-sdk) for integrating with AWS's IoT SDK.
 
 ### Installing and Using `@types/aws-lambda`
@@ -282,4 +285,60 @@ Let's improve the generated `handler.ts` code by installing and using `@types/aw
 
 ```bash
 npm install --save-dev @types/aws-lambda
+```
+
+We can now make the handler a little "safer" by importing AWS Lambda types into the handler:
+
+```typescript
+// handler.ts
+import { Handler, Callback, Context } from 'aws-lambda';
+
+export const submitForm : Handler = (event, context : Context, cb : Callback) => {
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!',
+      input: event,
+    }),
+  };
+
+  cb(null, response);
+}
+```
+
+In addition to type safety, this also gets us better tooling such as code completion in VS Code and other editors:
+
+![AWS Lambda TypeScript code completion in VS Code](/img/aws-lambda-typescript-vscode_600x371.png)
+
+## Test with Mocha and Chai
+
+Getting started with Mocha and Chain in TypeScript is easy: Just install them and add type definitions using `npm install`:
+
+```bash
+npm install mocha @types/mocha chai @types/chai --save-dev
+```
+
+It is now easy to write a unit test for the handler:
+
+```typescript
+// handler.spec.ts
+import * as mocha from 'mocha';
+import * as chai from 'chai';
+import { Handler, Callback, Context } from 'aws-lambda';
+import { hello } from '../handler';
+
+const expect = chai.expect;
+const should = chai.should();
+
+describe("handler", () => {
+  describe("hello", () => {
+    it("should return Serverless boilerplate message", () => {
+      submitForm(null, null, (error : Error, result : any) => {
+        expect(error).to.be.null;
+        result.body.should.equal('{"message":"Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!","input":null}');
+      })
+    });
+  });
+});
+
 ```
