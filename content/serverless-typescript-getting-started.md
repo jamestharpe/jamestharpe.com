@@ -14,7 +14,7 @@ draft: true
 
 While getting started with Serverless, I found that most examples are in JavaScript. However, I prefer the strong-typing and smarter tooling of TypeScript so I made it my mission to write a simple Serverless microservice using Serverless and TypeScript.
 
-In this article, I'll explain how to scaffold a Serverless Framework service with TypeScript and unit tests (using Mocha).
+In this article, I'll explain how to scaffold a Serverless Framework service with TypeScript and unit tests (using Mocha). In a later article, I'll actually code something useful.
 
 ## Starting a Serverless TypeScript Project
 
@@ -120,17 +120,11 @@ handler.js  2.91 kB       0  [emitted]  handler
 }
 ```
 
-It works! Technically speaking, we have a functioning, deployable Serverless Framework service. However, before we can deploy we must configure our AWS credentials.
+It works!
 
 ### Configuer Serverless Framework AWS Credentials
 
-The [Serverless YouTube channel](https://www.youtube.com/channel/UCFYG383lawh9Hrs_DEKTtdg) has a great video walk-through to setup AWS credentials:
-
-{{< youtube HSd9uYj2LJA >}}
-
----
-
-Here's a walk-through of the steps, for those that don't want to watch the video:
+Technically speaking, we have a functioning, deployable Serverless Framework service. However, before we can deploy we must configure our AWS credentials.
 
 1. Login to AWS and navigate to IAM
 1. Create a new user called `serverless-admin`
@@ -253,6 +247,8 @@ REPORT RequestId: 123456a7-bcd8-90e1-f234-56g7890hi123  Duration: 0.42 ms       
 
 It works, we're live! The `-f` argument specifies the function to invoke and the `-l` flag tells serverless to output the logs to the console.
 
+> Note: You can also test the service directly in API Gateway
+
 Of course, our service is not yet useful, so let's delete it using `serverless remove`:
 
 ```bash
@@ -291,9 +287,9 @@ We can now make the handler a little "safer" by importing AWS Lambda types into 
 
 ```typescript
 // handler.ts
-import { Handler, Callback, Context } from 'aws-lambda';
+import { APIGatewayEvent, Context, Handler, Callback } from 'aws-lambda';
 
-export const submitForm : Handler = (event, context : Context, cb : Callback) => {
+export const submitForm : Handler = (event : APIGatewayEvent, context : Context, cb : Callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
@@ -308,7 +304,7 @@ export const submitForm : Handler = (event, context : Context, cb : Callback) =>
 
 In addition to type safety, this also gets us better tooling such as code completion in VS Code and other editors:
 
-![AWS Lambda TypeScript code completion in VS Code](/img/aws-lambda-typescript-vscode_600x371.png)
+![AWS Lambda TypeScript code completion in VS Code](/img/aws-lambda-typescript-vscode_600x230.png) 
 
 ## Test with Mocha and Chai
 
@@ -317,6 +313,14 @@ Getting started with Mocha and Chain in TypeScript is easy: Just install them an
 ```bash
 npm install mocha @types/mocha chai @types/chai --save-dev
 ```
+
+To run tests directly, without having to manually compile the TypeScript first, it also helps to have `ts-node` installed:
+
+```bash
+npm install ts-node --save-dev
+```
+
+`ts-node` provides TypeScript execution in one step for Node apps.
 
 It is now easy to write a unit test for the handler:
 
@@ -340,5 +344,16 @@ describe("handler", () => {
     });
   });
 });
-
 ```
+
+The easiest way to run the test is to edit the `test` script in `package.json:
+
+```json
+"test": "mocha -r ts-node/register ./**/*.spec.ts"
+```
+
+This tells `npm` to alias `npm test` to `mocha -r ts-node/register ./**/*.spec.ts` which in turn runs `mocha` with the `-r` flag to require the `ts-node/register` module which registers the TypeScript compiler for `.ts` (and other) files. The final argument of `./**/*.spec.ts` tells Mocha files ending with `.spec.ts` contain the tests to be run.
+
+## What's Next?
+
+That's everything you need to know to start a Serverless Framework project with TypeScript. In an up-coming article, I'll apply this knowledge to write a simple service for accepting form submissions from a static [Hugo](/tools/hugo/) website.
