@@ -6,7 +6,7 @@ languages: ["TypeScript"]
 techniques: [ "Serverless Architecture" ]
 frameworks: [ "Serverless Framework" ]
 projects: [ "Form2Email" ]
-draft: true
+draft: false
 ---
 # Serverless and TypeScript
 
