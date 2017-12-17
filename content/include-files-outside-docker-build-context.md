@@ -7,7 +7,7 @@ draft: false
 ---
 # "Forbidden path outside the build context"
 
-I was recently attempting to use Dockerize a Node project, so I added a `docker` folder to the project and created a simple `Dockerfile` to get started:
+I was recently attempting to Dockerize a Node project, so I added a `docker` folder to the project and created a simple `Dockerfile` to get started:
 
 ```dockerfile
 FROM  node:alpine
@@ -70,5 +70,4 @@ Sending build context to Docker daemon  263.7MB
 Successfully built d296bf765369
 Successfully tagged nodeapp:latest
 ```
-
 Success!
