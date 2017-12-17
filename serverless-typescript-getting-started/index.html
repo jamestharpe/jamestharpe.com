@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-961598-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-961598-2');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Serverless Framework with TypeScript and AWS: Getting Started</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/typescript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.30.2" />
+        
+        
+        
+    </head>
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Serverless Framework with TypeScript and AWS: Getting Started</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/languages/">Languages</a></li>
+                            
+                                <li><a href="/tools/">Tools</a></li>
+                            
+                                <li><a href="/techniques/">Techniques</a></li>
+                            
+                                <li><a href="/hire-me/">Hire Me</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:jimmy.tharpe@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jamestharpe/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/jamestharpe/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jamestharpe/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/104763/james"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/serverless-typescript-getting-started/">Serverless Framework with TypeScript and AWS: Getting Started</a></h4>
+    <h5>December 10, 2017</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="serverless-and-typescript">Serverless and TypeScript</h1>
+
+<p><img alt="Serverless Framework logo" src="/img/serverless-framework-logo_150x150.png" style="float: right; padding:8px" /> <a href="https://serverless.com/">Serverless Framework</a>, or simply &ldquo;Serverless&rdquo;, is an excellent provider-agnostic framework for defining the <strong>functions</strong> and <strong>events</strong> that make up your service. Once defined your events and functions are defined, Serverless deploys your service to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.</p>
+
+<p>While getting started with Serverless, I found that most examples are in JavaScript. However, I prefer the strong-typing and smarter tooling of TypeScript so I made it my mission to write a simple Serverless microservice using Serverless and TypeScript.</p>
+
+<p>In this article, I&rsquo;ll explain how to scaffold a Serverless Framework service with TypeScript and unit tests (using Mocha). In a later article, I&rsquo;ll actually code something useful.</p>
+
+<h2 id="starting-a-serverless-typescript-project">Starting a Serverless TypeScript Project</h2>
+
+<p>To get started, let&rsquo;s install Serverless and create a new project using TypeScript and targeted at AWS:</p>
+
+<p>Installing Serverless is a simple call to <code>npm install</code>:</p>
+
+<pre><code class="language-bash">npm install -g serverless
+</code></pre>
+
+<p>Next, let&rsquo;s create a new project using the <code>aws-nodejs-typescript</code> template:</p>
+
+<pre><code class="language-bash">$ serverless create --template aws-nodejs-typescript &amp;&amp; npm install
+Serverless: Generating boilerplate...
+ _______                             __
+|   _   .-----.----.--.--.-----.----|  .-----.-----.-----.
+|   |___|  -__|   _|  |  |  -__|   _|  |  -__|__ --|__ --|
+|____   |_____|__|  \___/|_____|__| |__|_____|_____|_____|
+|   |   |             The Serverless Application Framework
+|       |                           serverless.com, v1.24.1
+ -------'
+
+Serverless: Successfully generated boilerplate for template: &quot;aws-nodejs-typescript&quot;
+Serverless: NOTE: Please update the &quot;service&quot; property in serverless.yml with your service name
+</code></pre>
+
+<blockquote>
+<p>Note: A broad set of <a href="https://github.com/serverless/serverless/tree/master/lib/plugins/create/templates"><code>serverless create</code> templates</a> are available for AWS, including C#, Groovy, Python, and others.</p>
+</blockquote>
+
+<p>We now have a boilerplate Serverless application that is <em>technically</em> ready to be deployed! Let&rsquo;s explore the created project:</p>
+
+<pre><code class="language-bash">$ ls
+handler.ts    package-lock.json  webpack.config.js
+node_modules  serverless.yml
+package.json  tsconfig.json
+</code></pre>
+
+<p>That&rsquo;s it, just a few files! The contents of each file is relativly simple and easy to understand. Let&rsquo;s explore the files specific to Serverless Framework: <code>handler.ts</code> and <code>serverless.yml</code>.</p>
+
+<h4 id="handler-ts"><code>handler.ts</code></h4>
+
+<p>The <code>handler.ts</code> file exports a single function called <code>hello</code> that creates a simple <code>HTTP 200</code> response with a hard-coded message:</p>
+
+<pre><code class="language-typescript">// handler.ts
+export const hello = (event, context, cb) =&gt; {
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!',
+      input: event,
+    }),
+  };
+
+  cb(null, response);
+}
+</code></pre>
+
+<h4 id="serverless-yml"><code>serverless.yml</code></h4>
+
+<p>The <code>serverless.yml</code> file defines the service name as <code>aws-nodejs-typescript</code>, configures Serverless Framework to target Node on AWS, and defines the <code>hello</code> function as responding to an <code>HTTP GET</code> event:</p>
+
+<pre><code class="language-yaml"># serverless.yml
+service:
+  name: aws-nodejs-typescript
+
+plugins:
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          method: get
+          path: hello
+</code></pre>
+
+<p>The <code>plugins</code> section defines any Serverless plugins the service uses. In this case, the <code>aws-nodejs-typescript</code> template includes the <a href="https://github.com/serverless-heaven/serverless-webpack"><code>serverless-webpack</code> plugin</a> to package and optimize the service using <a href="https://webpack.js.org/">Webpack</a>.</p>
+
+<p>The <code>functions</code> section defines the functions for the service. In this case, there&rsquo;s just one function, called <code>hello</code>, and it&rsquo;s handled by <code>handler.hello</code> (the <code>hello</code> function exported by <code>handler.ts</code>). The function is set to be triggered on an HTTP GET event to <code>/hello</code>.</p>
+
+<p>Now that we undertsand the basic structure, let&rsquo;s invoke the function locally:</p>
+
+<pre><code class="language-bash">$ serverless invoke local -f hello
+Serverless: Bundling with Webpack...
+ts-loader: Using typescript@2.6.1 and ~/code/aws-nodejs-typescript/tsconfig.json
+Time: 1421ms
+     Asset     Size  Chunks             Chunk Names
+handler.js  2.91 kB       0  [emitted]  handler
+   [0] ./handler.ts 355 bytes {0} [built]
+{
+    &quot;statusCode&quot;: 200,
+    &quot;body&quot;: &quot;{\&quot;message\&quot;:\&quot;Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!\&quot;,\&quot;input\&quot;:\&quot;\&quot;}&quot;
+}
+</code></pre>
+
+<p>It works!</p>
+
+<h3 id="configuer-serverless-framework-aws-credentials">Configuer Serverless Framework AWS Credentials</h3>
+
+<p>Technically speaking, we have a functioning, deployable Serverless Framework service. However, before we can deploy we must configure our AWS credentials.</p>
+
+<ol>
+<li>Login to AWS and navigate to IAM</li>
+<li>Create a new user called <code>serverless-admin</code></li>
+<li>Give <code>serverless-admin</code> <strong>Programatic access</strong></li>
+<li>Attach the <code>AdministratorAccess</code> policy</li>
+</ol>
+
+<p><img src="/img/aws-server-less-account-create_600x317.gif" alt="Create account for Serverless Framework" /></p>
+
+<p>You can copy the <strong>Access key ID</strong> and <strong>Secret access key</strong> to your clipboard for use in your Serverless Framework configuration.</p>
+
+<p>To configure the Serverless Framework with your access keys, use the <code>serverless config credentials</code> command:</p>
+
+<pre><code class="language-bash">$ serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY --profile serverless-admin
+Serverless: Setting up AWS...
+Serverless: Saving your AWS profile in &quot;~/.aws/credentials&quot;...
+Serverless: Success! Your AWS access keys were stored under the &quot;serverless-admin&quot; profile.
+</code></pre>
+
+<p>It&rsquo;s important to pass the <code>--profile</code> argument here so that you do not override your <code>[default]</code> AWS credentials. To ensure Serverless uses this profile for deployment, update the <code>provider.profile</code> in <code>serverless.yml</code> with the profile name:</p>
+
+<pre><code class="language-yaml">profile: serverless-admin
+</code></pre>
+
+<p>Of course, you can name the profile anything you want but generally speaking you probably do <strong>not</strong> want the serverless profile to be the default, since that is what is used for the AWS CLI.</p>
+
+<h3 id="deploy-the-serverless-framework-service-for-the-first-time">Deploy the Serverless Framework Service for the First Time</h3>
+
+<p>Though it doesn&rsquo;t do much, our application is scaffolded, configured, and ready for deployment. So let&rsquo;s deploy it using <code>serverless deploy -v</code> to see what happens (<code>-v</code> enables verbose output):</p>
+
+<pre><code class="language-bash">$ serverless deploy -v
+Serverless: Bundling with Webpack...
+ts-loader: Using typescript@2.6.1 and ~/code/aws-nodejs-typescript/tsconfig.json
+Time: 2126ms
+     Asset     Size  Chunks             Chunk Names
+handler.js  2.91 kB       0  [emitted]  handler
+   [0] ./handler.ts 355 bytes {0} [built]
+Serverless: Zip service: ~/code/aws-nodejs-typescript/.webpack/service [44 ms]
+Serverless: Packaging service...
+Serverless: Remove ~/code/aws-nodejs-typescript/.webpack
+Serverless: Creating Stack...
+Serverless: Checking Stack create progress...
+CloudFormation - CREATE_IN_PROGRESS - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
+CloudFormation - CREATE_IN_PROGRESS - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - CREATE_IN_PROGRESS - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - CREATE_COMPLETE - AWS::S3::Bucket - ServerlessDeploymentBucket
+CloudFormation - CREATE_COMPLETE - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
+Serverless: Stack create finished...
+Serverless: Uploading CloudFormation file to S3...
+Serverless: Uploading artifacts...
+Serverless: Validating template...
+Serverless: Updating Stack...
+Serverless: Checking Stack update progress...
+CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
+CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - SubmitFormLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - SubmitFormLogGroup
+CloudFormation - CREATE_COMPLETE - AWS::Logs::LogGroup - SubmitFormLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::RestApi - ApiGatewayRestApi
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::RestApi - ApiGatewayRestApi
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::RestApi - ApiGatewayRestApi
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Resource - ApiGatewayResourceForms
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Resource - ApiGatewayResourceForms
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Resource - ApiGatewayResourceForms
+CloudFormation - CREATE_COMPLETE - AWS::IAM::Role - IamRoleLambdaExecution
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - SubmitFormLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - SubmitFormLambdaFunction
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Function - SubmitFormLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
+CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
+CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
+CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
+CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
+Serverless: Stack update finished...
+Service Information
+service: aws-nodejs-typescript
+stage: dev
+region: us-east-1
+stack: aws-nodejs-typescript-dev
+api keys:
+  None
+endpoints:
+  POST - https://a12b3cdef4.execute-api.us-east-1.amazonaws.com/dev/forms
+functions:
+  submitForm: aws-nodejs-typescript-dev-submitForm
+
+Stack Outputs
+ServiceEndpoint: https://a12b3cdef4.execute-api.us-east-1.amazonaws.com/dev
+ServerlessDeploymentBucketName: aws-nodejs-typescript-dev-serverlessdeploymentbucket-12abcdefg3hij
+SubmitFormLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:123456789012:function:aws-nodejs-typescript-dev-submitForm:1
+</code></pre>
+
+<p>As you can see from the output, Serverless packages up the application, creates a <a href="https://aws.amazon.com/documentation/cloudformation/">CloudFormation</a> stack, and uploads a generated CloudFormation script to a specially provisioned S3 bucket. The CloudFormation script then provisions the IAM Roles, Log Groups, ApiGateway end points, and Lambda function needed to run the <code>aws-nodejs-typescript</code> service. By default, the <code>dev</code> stage is assumed.</p>
+
+<p>The live service can now be invoked using <code>serverless invoke</code>:</p>
+
+<pre><code class="language-bash">$ serverless invoke -f submitForm -l
+{
+    &quot;statusCode&quot;: 200,
+    &quot;body&quot;: &quot;{\&quot;message\&quot;:\&quot;Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!\&quot;,\&quot;input\&quot;:{}}&quot;
+}
+--------------------------------------------------------------------
+START RequestId: 123456a7-bcd8-90e1-f234-56g7890hi123 Version: $LATEST
+END RequestId: 123456a7-bcd8-90e1-f234-56g7890hi123
+REPORT RequestId: 123456a7-bcd8-90e1-f234-56g7890hi123  Duration: 0.42 ms       Billed Duration: 100 ms         Memory Size: 1024 MB    Max Memory Used: 21 MB
+</code></pre>
+
+<p>It works, we&rsquo;re live! The <code>-f</code> argument specifies the function to invoke and the <code>-l</code> flag tells serverless to output the logs to the console.</p>
+
+<blockquote>
+<p>Note: You can also test the service directly in API Gateway</p>
+</blockquote>
+
+<p>Of course, our service is not yet useful, so let&rsquo;s delete it using <code>serverless remove</code>:</p>
+
+<pre><code class="language-bash">$ serverless remove
+Serverless: Getting all objects in S3 bucket...
+Serverless: Removing objects in S3 bucket...
+Serverless: Removing Stack...
+Serverless: Checking Stack removal progress...
+..............
+Serverless: Stack removal finished...
+</code></pre>
+
+<h2 id="take-advantage-of-typescript-with-node-and-aws-lambda-types">Take Advantage of TypeScript with Node and AWS Lambda Types</h2>
+
+<blockquote>
+<p><strong>Note:</strong> At the time of this writing, the <code>aws-nodejs-typescript</code> did not include type definitions for Node or AWS Lambda. I submitted pull requests to <a href="https://github.com/serverless/serverless/pull/4547">include <code>@types/node</code></a> and to <a href="https://github.com/serverless/serverless/pull/4552">include <code>@types/aws-lambda</code></a>. Hopefully by the time you&rsquo;re reading this, they will have been accepted!</p>
+</blockquote>
+
+<p>When writing a service for AWS, it&rsquo;s handy to include type definitions for the AWS services you&rsquo;ll consume. At a minimum you should include:</p>
+
+<ul>
+<li><a href="https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node"><code>@types/node</code></a> for any Node based applicaiton.</li>
+<li><a href="https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-lambda"><code>@types/aws-lambda</code></a> for writing AWS Lambda functions.</li>
+</ul>
+
+<p>Depending on the type of service you&rsquo;re writing, you might also consider these type definitions:</p>
+
+<ul>
+<li><a href="https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-serverless-express"><code>@types/ws-serverless-express</code></a> for writing Serverless Express applications</li>
+<li><a href="https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-iot-device-sdk"><code>@types/aws-iot-device-sdk</code></a> for integrating with AWS&rsquo;s IoT SDK.</li>
+</ul>
+
+<h3 id="installing-and-using-types-aws-lambda">Installing and Using <code>@types/aws-lambda</code></h3>
+
+<p>Let&rsquo;s improve the generated <code>handler.ts</code> code by installing and using <code>@types/aws-lambda</code>:</p>
+
+<pre><code class="language-bash">npm install --save-dev @types/aws-lambda
+</code></pre>
+
+<p>We can now make the handler a little &ldquo;safer&rdquo; by importing AWS Lambda types into the handler:</p>
+
+<pre><code class="language-typescript">// handler.ts
+import { APIGatewayEvent, Context, Handler, Callback } from 'aws-lambda';
+
+export const submitForm : Handler = (event : APIGatewayEvent, context : Context, cb : Callback) =&gt; {
+  const response = {
+    statusCode: 200,
+    body: JSON.stringify({
+      message: 'Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!',
+      input: event,
+    }),
+  };
+
+  cb(null, response);
+}
+</code></pre>
+
+<p>In addition to type safety, this also gets us better tooling such as code completion in VS Code and other editors:</p>
+
+<p><img src="/img/aws-lambda-typescript-vscode_600x230.png" alt="AWS Lambda TypeScript code completion in VS Code" /></p>
+
+<h2 id="test-with-mocha-and-chai">Test with Mocha and Chai</h2>
+
+<p>Getting started with Mocha and Chain in TypeScript is easy: Just install them and add type definitions using <code>npm install</code>:</p>
+
+<pre><code class="language-bash">npm install mocha @types/mocha chai @types/chai --save-dev
+</code></pre>
+
+<p>To run tests directly, without having to manually compile the TypeScript first, it also helps to have <code>ts-node</code> installed:</p>
+
+<pre><code class="language-bash">npm install ts-node --save-dev
+</code></pre>
+
+<p><code>ts-node</code> provides TypeScript execution in one step for Node apps.</p>
+
+<p>It is now easy to write a unit test for the handler:</p>
+
+<pre><code class="language-typescript">// handler.spec.ts
+import * as mocha from 'mocha';
+import * as chai from 'chai';
+import { Handler, Callback, Context } from 'aws-lambda';
+import { hello } from '../handler';
+
+const expect = chai.expect;
+const should = chai.should();
+
+describe(&quot;handler&quot;, () =&gt; {
+  describe(&quot;hello&quot;, () =&gt; {
+    it(&quot;should return Serverless boilerplate message&quot;, () =&gt; {
+      submitForm(null, null, (error : Error, result : any) =&gt; {
+        expect(error).to.be.null;
+        result.body.should.equal('{&quot;message&quot;:&quot;Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!&quot;,&quot;input&quot;:null}');
+      })
+    });
+  });
+});
+</code></pre>
+
+<p>The easiest way to run the test is to edit the <code>test</code> script in `package.json:</p>
+
+<pre><code class="language-json">&quot;test&quot;: &quot;mocha -r ts-node/register ./**/*.spec.ts&quot;
+</code></pre>
+
+<p>This tells <code>npm</code> to alias <code>npm test</code> to <code>mocha -r ts-node/register ./**/*.spec.ts</code> which in turn runs <code>mocha</code> with the <code>-r</code> flag to require the <code>ts-node/register</code> module which registers the TypeScript compiler for <code>.ts</code> (and other) files. The final argument of <code>./**/*.spec.ts</code> tells Mocha files ending with <code>.spec.ts</code> contain the tests to be run.</p>
+
+<h2 id="what-s-next">What&rsquo;s Next?</h2>
+
+<p>That&rsquo;s everything you need to know to start a Serverless Framework project with TypeScript. In an up-coming article, I&rsquo;ll apply this knowledge to write a simple service for accepting form submissions from a static <a href="/tools/hugo/">Hugo</a> website.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright &copy; James Tharpe; All rights reserved.</p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
