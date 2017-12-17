@@ -66,9 +66,9 @@ Next, let's reflect the name `submitForm` in `handler.ts`:
 **`handler.ts`:**
 
 ```typescript
-import { Handler, Callback, Context } from 'aws-lambda';
+import { APIGatewayEvent, Handler, Callback, Context } from 'aws-lambda';
 
-export const submitForm : Handler = (event, context : Context, cb : Callback) => {
+export const submitForm : Handler = (event : APIGatewayEvent, context : Context, cb : Callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
