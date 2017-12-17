@@ -279,7 +279,7 @@ Let's improve the generated `handler.ts` code by installing and using `@types/aw
 npm install --save-dev @types/aws-lambda
 ```
 
-We can now make the handler a little "safer" by importing AWS Lambda types into the handler:
+We can now add type checking via TypeScript by importing AWS Lambda types into the handler:
 
 ```typescript
 // handler.ts
@@ -298,13 +298,13 @@ export const hello : Handler = (event : APIGatewayEvent, context : Context, cb :
 }
 ```
 
-In addition to type safety, this also gets us better tooling such as code completion in VS Code and other editors:
+In addition to type safety, this also improves tooling such as code completion in VS Code and other editors:
 
 ![AWS Lambda TypeScript code completion in VS Code](/img/aws-lambda-typescript-vscode_600x230.png)
 
 ## Test with Mocha and Chai
 
-Getting started with Mocha and Chain in TypeScript is easy: Just install them and add type definitions using `npm install`:
+Getting started with Mocha and Chai in TypeScript is easy: Just install them and add type definitions using `npm install`:
 
 ```bash
 npm install mocha @types/mocha chai @types/chai --save-dev
@@ -348,8 +348,8 @@ The easiest way to run the test is to edit the `test` script in `package.json:
 "test": "mocha -r ts-node/register ./**/*.spec.ts"
 ```
 
-This tells `npm` to alias `npm test` to `mocha -r ts-node/register ./**/*.spec.ts` which in turn runs `mocha` with the `-r` flag to require the `ts-node/register` module which registers the TypeScript compiler for `.ts` (and other) files. The final argument of `./**/*.spec.ts` tells Mocha files ending with `.spec.ts` contain the tests to be run.
+This tells `npm` to alias `npm test` to `mocha -r ts-node/register ./**/*.spec.ts` which in turn runs `mocha` with the `-r` flag to require the `ts-node/register` module which registers the TypeScript compiler for `.ts` (and other) files. The final argument of `./**/*.spec.ts` tells Mocha that files ending with `.spec.ts` contain the tests to be run.
 
-## What's Next?
+## What's Next
 
-That's everything you need to know to start a Serverless Framework project with TypeScript. In an up-coming article, I'll apply this knowledge to write a simple service for accepting form submissions from a static [Hugo](/tools/hugo/) website.
+That's everything you need to know to start a basic Serverless Framework project with TypeScript. In an up-coming article, I'll apply this knowledge to write a simple service for accepting form submissions from a static [Hugo](/tools/hugo/) website.
