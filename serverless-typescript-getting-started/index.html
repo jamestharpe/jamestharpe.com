@@ -153,20 +153,18 @@
 
 <p><img alt="Serverless Framework logo" src="/img/serverless-framework-logo_150x150.png" style="float: right; padding:8px" /> <a href="https://serverless.com/">Serverless Framework</a>, or simply &ldquo;Serverless&rdquo;, is an excellent provider-agnostic framework for defining the <strong>functions</strong> and <strong>events</strong> that make up your service. Once defined your events and functions are defined, Serverless deploys your service to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.</p>
 
-<p>While getting started with Serverless, I found that most examples are in JavaScript. However, I prefer the strong-typing and smarter tooling of TypeScript so I made it my mission to write a simple Serverless microservice using Serverless and TypeScript.</p>
+<p>While getting started, I found that most <a href="http://www.jamestharpe.com/frameworks/serverless-framework/">Serverless Framework examples</a> are in JavaScript. However, I prefer the strong-typing and smarter tooling of TypeScript so I made it my mission to write a simple Serverless microservice using Serverless and TypeScript.</p>
 
 <p>In this article, I&rsquo;ll explain how to scaffold a Serverless Framework service with TypeScript and unit tests (using Mocha). In a later article, I&rsquo;ll actually code something useful.</p>
 
 <h2 id="starting-a-serverless-typescript-project">Starting a Serverless TypeScript Project</h2>
 
-<p>To get started, let&rsquo;s install Serverless and create a new project using TypeScript and targeted at AWS:</p>
-
-<p>Installing Serverless is a simple call to <code>npm install</code>:</p>
+<p>To get started, install Serverless and create a new project using TypeScript targeted at AWS:</p>
 
 <pre><code class="language-bash">npm install -g serverless
 </code></pre>
 
-<p>Next, let&rsquo;s create a new project using the <code>aws-nodejs-typescript</code> template:</p>
+<p>Next, create a new project using the <code>aws-nodejs-typescript</code> template:</p>
 
 <pre><code class="language-bash">$ serverless create --template aws-nodejs-typescript &amp;&amp; npm install
 Serverless: Generating boilerplate...
@@ -186,7 +184,7 @@ Serverless: NOTE: Please update the &quot;service&quot; property in serverless.y
 <p>Note: A broad set of <a href="https://github.com/serverless/serverless/tree/master/lib/plugins/create/templates"><code>serverless create</code> templates</a> are available for AWS, including C#, Groovy, Python, and others.</p>
 </blockquote>
 
-<p>We now have a boilerplate Serverless application that is <em>technically</em> ready to be deployed! Let&rsquo;s explore the created project:</p>
+<p>This creates a boilerplate Serverless application that is <em>technically</em> ready to be deployed. Let&rsquo;s explore the created project:</p>
 
 <pre><code class="language-bash">$ ls
 handler.ts    package-lock.json  webpack.config.js
@@ -216,7 +214,7 @@ export const hello = (event, context, cb) =&gt; {
 
 <h4 id="serverless-yml"><code>serverless.yml</code></h4>
 
-<p>The <code>serverless.yml</code> file defines the service name as <code>aws-nodejs-typescript</code>, configures Serverless Framework to target Node on AWS, and defines the <code>hello</code> function as responding to an <code>HTTP GET</code> event:</p>
+<p>The <code>serverless.yml</code> file defines the service name as <code>aws-nodejs-typescript</code> (which you&rsquo;ll probably want to change), configures Serverless Framework to target the Node 6.10 runtime on AWS, and defines the <code>hello</code> function as responding to an <code>HTTP GET</code> event:</p>
 
 <pre><code class="language-yaml"># serverless.yml
 service:
@@ -240,9 +238,9 @@ functions:
 
 <p>The <code>plugins</code> section defines any Serverless plugins the service uses. In this case, the <code>aws-nodejs-typescript</code> template includes the <a href="https://github.com/serverless-heaven/serverless-webpack"><code>serverless-webpack</code> plugin</a> to package and optimize the service using <a href="https://webpack.js.org/">Webpack</a>.</p>
 
-<p>The <code>functions</code> section defines the functions for the service. In this case, there&rsquo;s just one function, called <code>hello</code>, and it&rsquo;s handled by <code>handler.hello</code> (the <code>hello</code> function exported by <code>handler.ts</code>). The function is set to be triggered on an HTTP GET event to <code>/hello</code>.</p>
+<p>The <code>functions</code> section defines the functions for the service. In this case, there&rsquo;s just one function, called <code>hello</code>, and it&rsquo;s handled by the <code>hello</code> function exported by <code>handler.ts</code>. The function is set to be triggered on an HTTP GET event to <code>/hello</code>.</p>
 
-<p>Now that we undertsand the basic structure, let&rsquo;s invoke the function locally:</p>
+<p>With the basic structure in mind, invoke the function locally to see the service in action:</p>
 
 <pre><code class="language-bash">$ serverless invoke local -f hello
 Serverless: Bundling with Webpack...
@@ -261,7 +259,7 @@ handler.js  2.91 kB       0  [emitted]  handler
 
 <h3 id="configuer-serverless-framework-aws-credentials">Configuer Serverless Framework AWS Credentials</h3>
 
-<p>Technically speaking, we have a functioning, deployable Serverless Framework service. However, before we can deploy we must configure our AWS credentials.</p>
+<p>Technically speaking, the service is fully functional and deployable. However, before deploying the service, AWS credentials must be configured. To configure AWS credentials for Serverless, start by creating an IAM user for Serverless to use:</p>
 
 <ol>
 <li>Login to AWS and navigate to IAM</li>
@@ -272,9 +270,7 @@ handler.js  2.91 kB       0  [emitted]  handler
 
 <p><img src="/img/aws-server-less-account-create_600x317.gif" alt="Create account for Serverless Framework" /></p>
 
-<p>You can copy the <strong>Access key ID</strong> and <strong>Secret access key</strong> to your clipboard for use in your Serverless Framework configuration.</p>
-
-<p>To configure the Serverless Framework with your access keys, use the <code>serverless config credentials</code> command:</p>
+<p>Next, copy the <strong>Access key ID</strong> and <strong>Secret access key</strong> to your clipboard for use in your Serverless Framework configuration. Configure the Serverless Framework with your access keys using the <code>serverless config credentials</code> command:</p>
 
 <pre><code class="language-bash">$ serverless config credentials --provider aws --key AKIAIOSFODNN7EXAMPLE --secret wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY --profile serverless-admin
 Serverless: Setting up AWS...
@@ -318,10 +314,10 @@ Serverless: Updating Stack...
 Serverless: Checking Stack update progress...
 CloudFormation - UPDATE_IN_PROGRESS - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
 CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
-CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - SubmitFormLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - HelloLogGroup
 CloudFormation - CREATE_IN_PROGRESS - AWS::IAM::Role - IamRoleLambdaExecution
-CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - SubmitFormLogGroup
-CloudFormation - CREATE_COMPLETE - AWS::Logs::LogGroup - SubmitFormLogGroup
+CloudFormation - CREATE_IN_PROGRESS - AWS::Logs::LogGroup - HelloLogGroup
+CloudFormation - CREATE_COMPLETE - AWS::Logs::LogGroup - HelloLogGroup
 CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::RestApi - ApiGatewayRestApi
 CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::RestApi - ApiGatewayRestApi
 CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::RestApi - ApiGatewayRestApi
@@ -329,21 +325,21 @@ CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Resource - ApiGatewayReso
 CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Resource - ApiGatewayResourceForms
 CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Resource - ApiGatewayResourceForms
 CloudFormation - CREATE_COMPLETE - AWS::IAM::Role - IamRoleLambdaExecution
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - SubmitFormLambdaFunction
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - SubmitFormLambdaFunction
-CloudFormation - CREATE_COMPLETE - AWS::Lambda::Function - SubmitFormLambdaFunction
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Function - HelloLambdaFunction
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Permission - HelloLambdaPermissionApiGateway
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Permission - HelloLambdaPermissionApiGateway
 CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
-CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - HelloLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_IN_PROGRESS - AWS::Lambda::Version - HelloLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
 CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
-CloudFormation - CREATE_COMPLETE - AWS::Lambda::Version - SubmitFormLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Version - HelloLambdaVersionwABCde12fGH3lJKlm4nOpqrSt56uvwxYZa7bcdEFg
 CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Method - ApiGatewayMethodFormsPost
 CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
 CloudFormation - CREATE_IN_PROGRESS - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
 CloudFormation - CREATE_COMPLETE - AWS::ApiGateway::Deployment - ApiGatewayDeployment1234567890123
-CloudFormation - CREATE_COMPLETE - AWS::Lambda::Permission - SubmitFormLambdaPermissionApiGateway
+CloudFormation - CREATE_COMPLETE - AWS::Lambda::Permission - HelloLambdaPermissionApiGateway
 CloudFormation - UPDATE_COMPLETE_CLEANUP_IN_PROGRESS - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
 CloudFormation - UPDATE_COMPLETE - AWS::CloudFormation::Stack - aws-nodejs-typescript-dev
 Serverless: Stack update finished...
@@ -357,19 +353,19 @@ api keys:
 endpoints:
   POST - https://a12b3cdef4.execute-api.us-east-1.amazonaws.com/dev/forms
 functions:
-  submitForm: aws-nodejs-typescript-dev-submitForm
+  hello: aws-nodejs-typescript-dev-hello
 
 Stack Outputs
 ServiceEndpoint: https://a12b3cdef4.execute-api.us-east-1.amazonaws.com/dev
 ServerlessDeploymentBucketName: aws-nodejs-typescript-dev-serverlessdeploymentbucket-12abcdefg3hij
-SubmitFormLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:123456789012:function:aws-nodejs-typescript-dev-submitForm:1
+HelloLambdaFunctionQualifiedArn: arn:aws:lambda:us-east-1:123456789012:function:aws-nodejs-typescript-dev-hello:1
 </code></pre>
 
-<p>As you can see from the output, Serverless packages up the application, creates a <a href="https://aws.amazon.com/documentation/cloudformation/">CloudFormation</a> stack, and uploads a generated CloudFormation script to a specially provisioned S3 bucket. The CloudFormation script then provisions the IAM Roles, Log Groups, ApiGateway end points, and Lambda function needed to run the <code>aws-nodejs-typescript</code> service. By default, the <code>dev</code> stage is assumed.</p>
+<p>As you can see from the output, Serverless packages up the application, creates a <a href="https://aws.amazon.com/documentation/cloudformation/">CloudFormation</a> stack, and uploads it to a specially provisioned S3 bucket. The CloudFormation script then provisions the IAM Roles, Log Groups, ApiGateway end points, and Lambda function needed to run the <code>aws-nodejs-typescript</code> service. By default, the <code>dev</code> stage is assumed.</p>
 
 <p>The live service can now be invoked using <code>serverless invoke</code>:</p>
 
-<pre><code class="language-bash">$ serverless invoke -f submitForm -l
+<pre><code class="language-bash">$ serverless invoke -f hello -l
 {
     &quot;statusCode&quot;: 200,
     &quot;body&quot;: &quot;{\&quot;message\&quot;:\&quot;Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!\&quot;,\&quot;input\&quot;:{}}&quot;
@@ -386,7 +382,7 @@ REPORT RequestId: 123456a7-bcd8-90e1-f234-56g7890hi123  Duration: 0.42 ms       
 <p>Note: You can also test the service directly in API Gateway</p>
 </blockquote>
 
-<p>Of course, our service is not yet useful, so let&rsquo;s delete it using <code>serverless remove</code>:</p>
+<p>Of course, the service is not yet useful, so let&rsquo;s delete it using <code>serverless remove</code>:</p>
 
 <pre><code class="language-bash">$ serverless remove
 Serverless: Getting all objects in S3 bucket...
@@ -429,7 +425,7 @@ Serverless: Stack removal finished...
 <pre><code class="language-typescript">// handler.ts
 import { APIGatewayEvent, Context, Handler, Callback } from 'aws-lambda';
 
-export const submitForm : Handler = (event : APIGatewayEvent, context : Context, cb : Callback) =&gt; {
+export const hello : Handler = (event : APIGatewayEvent, context : Context, cb : Callback) =&gt; {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
@@ -460,12 +456,12 @@ export const submitForm : Handler = (event : APIGatewayEvent, context : Context,
 
 <p><code>ts-node</code> provides TypeScript execution in one step for Node apps.</p>
 
-<p>It is now easy to write a unit test for the handler:</p>
+<p>It is now straight-forward to write unit tests for the handler:</p>
 
 <pre><code class="language-typescript">// handler.spec.ts
 import * as mocha from 'mocha';
 import * as chai from 'chai';
-import { Handler, Callback, Context } from 'aws-lambda';
+import { APIGatewayEvent, Handler, Callback, Context } from 'aws-lambda';
 import { hello } from '../handler';
 
 const expect = chai.expect;
@@ -474,7 +470,7 @@ const should = chai.should();
 describe(&quot;handler&quot;, () =&gt; {
   describe(&quot;hello&quot;, () =&gt; {
     it(&quot;should return Serverless boilerplate message&quot;, () =&gt; {
-      submitForm(null, null, (error : Error, result : any) =&gt; {
+      hello(null, null, (error : Error, result : any) =&gt; {
         expect(error).to.be.null;
         result.body.should.equal('{&quot;message&quot;:&quot;Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!&quot;,&quot;input&quot;:null}');
       })

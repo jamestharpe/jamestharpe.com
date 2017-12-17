@@ -19,7 +19,7 @@
       
       <guid>https://www.jamestharpe.com/serverless-typescript-getting-started/</guid>
       <description>Serverless and TypeScript Serverless Framework, or simply &amp;ldquo;Serverless&amp;rdquo;, is an excellent provider-agnostic framework for defining the functions and events that make up your service. Once defined your events and functions are defined, Serverless deploys your service to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.
-While getting started with Serverless, I found that most examples are in JavaScript. However, I prefer the strong-typing and smarter tooling of TypeScript so I made it my mission to write a simple Serverless microservice using Serverless and TypeScript.</description>
+While getting started, I found that most Serverless Framework examples are in JavaScript. However, I prefer the strong-typing and smarter tooling of TypeScript so I made it my mission to write a simple Serverless microservice using Serverless and TypeScript.</description>
     </item>
     
   </channel>
