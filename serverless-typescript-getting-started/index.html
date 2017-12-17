@@ -420,7 +420,7 @@ Serverless: Stack removal finished...
 <pre><code class="language-bash">npm install --save-dev @types/aws-lambda
 </code></pre>
 
-<p>We can now make the handler a little &ldquo;safer&rdquo; by importing AWS Lambda types into the handler:</p>
+<p>We can now add type checking via TypeScript by importing AWS Lambda types into the handler:</p>
 
 <pre><code class="language-typescript">// handler.ts
 import { APIGatewayEvent, Context, Handler, Callback } from 'aws-lambda';
@@ -438,13 +438,13 @@ export const hello : Handler = (event : APIGatewayEvent, context : Context, cb :
 }
 </code></pre>
 
-<p>In addition to type safety, this also gets us better tooling such as code completion in VS Code and other editors:</p>
+<p>In addition to type safety, this also improves tooling such as code completion in VS Code and other editors:</p>
 
 <p><img src="/img/aws-lambda-typescript-vscode_600x230.png" alt="AWS Lambda TypeScript code completion in VS Code" /></p>
 
 <h2 id="test-with-mocha-and-chai">Test with Mocha and Chai</h2>
 
-<p>Getting started with Mocha and Chain in TypeScript is easy: Just install them and add type definitions using <code>npm install</code>:</p>
+<p>Getting started with Mocha and Chai in TypeScript is easy: Just install them and add type definitions using <code>npm install</code>:</p>
 
 <pre><code class="language-bash">npm install mocha @types/mocha chai @types/chai --save-dev
 </code></pre>
@@ -484,11 +484,11 @@ describe(&quot;handler&quot;, () =&gt; {
 <pre><code class="language-json">&quot;test&quot;: &quot;mocha -r ts-node/register ./**/*.spec.ts&quot;
 </code></pre>
 
-<p>This tells <code>npm</code> to alias <code>npm test</code> to <code>mocha -r ts-node/register ./**/*.spec.ts</code> which in turn runs <code>mocha</code> with the <code>-r</code> flag to require the <code>ts-node/register</code> module which registers the TypeScript compiler for <code>.ts</code> (and other) files. The final argument of <code>./**/*.spec.ts</code> tells Mocha files ending with <code>.spec.ts</code> contain the tests to be run.</p>
+<p>This tells <code>npm</code> to alias <code>npm test</code> to <code>mocha -r ts-node/register ./**/*.spec.ts</code> which in turn runs <code>mocha</code> with the <code>-r</code> flag to require the <code>ts-node/register</code> module which registers the TypeScript compiler for <code>.ts</code> (and other) files. The final argument of <code>./**/*.spec.ts</code> tells Mocha that files ending with <code>.spec.ts</code> contain the tests to be run.</p>
 
-<h2 id="what-s-next">What&rsquo;s Next?</h2>
+<h2 id="what-s-next">What&rsquo;s Next</h2>
 
-<p>That&rsquo;s everything you need to know to start a Serverless Framework project with TypeScript. In an up-coming article, I&rsquo;ll apply this knowledge to write a simple service for accepting form submissions from a static <a href="/tools/hugo/">Hugo</a> website.</p>
+<p>That&rsquo;s everything you need to know to start a basic Serverless Framework project with TypeScript. In an up-coming article, I&rsquo;ll apply this knowledge to write a simple service for accepting form submissions from a static <a href="/tools/hugo/">Hugo</a> website.</p>
 </div>
 
     
