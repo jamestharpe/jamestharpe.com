@@ -41,17 +41,17 @@ theme = "minimal"
 [[menu.main]]
     url = "/tools/"
     name = "Tools"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     url = "/techniques/"
     name = "Techniques"
-    weight = 4
+    weight = 5
 
 [[menu.main]]
     url = "/hire-me/"
     name = "Hire Me"
-    weight = 5
+    weight = 6
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
