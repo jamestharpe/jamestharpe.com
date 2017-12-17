@@ -4,7 +4,7 @@ date: 2017-12-10T18:08:22-05:00
 languages: ["TypeScript"]
 # tools: []
 techniques: [ "Serverless Architecture" ]
-frameworks: [ "Serverless Framework" ]
+frameworks: [ "Serverless Framework", "Mocha", "Chai" ]
 projects: [ "Form2Email" ]
 draft: false
 ---
