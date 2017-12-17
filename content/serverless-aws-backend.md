@@ -1,9 +1,9 @@
 ---
 title: "Serverless Framework: Contact form with TypeScript on AWS"
-date: 2017-11-23T12:10:14-04:00
+date: 2017-12-17T12:10:14-04:00
 tools: [ "Hugo" ]
 techniques: [ "Serverless Architecture", "Static Site Generation" ]
-projects: [ "Crawlity" ]
+projects: [ "Form2Email" ]
 frameworks: [ "Serverless Framework" ]
 languages: [ "TypeScript" ]
 draft: true
@@ -16,29 +16,29 @@ Short answer: With the **Serverless Framework**!
 
 [Serverless Framework](https://serverless.com/), or simply "Serverless", is a provider-agnostic framework for defining the **functions** and **events** that make up your application. Once defined, Serverless deploys your application to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.
 
-In this article, I'll create **Form2Email**, a microservice based on Serverless Framework and written in TypeScript that:
+In this article, I'll create **Form2Email**, a microservice based on Serverless Framework and written in [TypeScript](https://www.jamestharpe.com/languages/typescript/) that:
 
 * Accepts form submissions via HTTP POST (the event)
 * Emails the submitted values as HTML (the function)
 
 Unlike similar articles and examples of Serverless Framework on the web which throw everything into one function that's tightly-coupled to the cloud platform provider, I'm going to take extra care with the design so that it is cloud agnostic. That said, I'll only be filling in the AWS implementation; feel free to contribute additional provider implementations on the [Form2Email GitHub repository](https://github.com/Crawlity/svc-form2email)!
 
-## Get Started with Serverless Framework
+## Scaffolding the Service with Serverless Framework
 
-If you're not sure how to install Serverless Framework, read [Serverless with TypeScript and AWS: Getting Started](/serverless-typescript-getting-started/) to learn how to setup a basic project, with unit tests. For the abbreviated version, just type in these commands:
+If you're not sure how to install Serverless Framework or get started using Serverless with TypeScript, read [Serverless with TypeScript and AWS: Getting Started](/serverless-typescript-getting-started/) to learn how to setup a basic project with unit tests. For the abbreviated version, just type in these commands:
 
 ```bash
 mkdir svc-form2email
 cd svc-form2email
 npm install -g serverless
-serverless create --template aws-nodejs-typescript && npm install
+serverless create --template aws-nodejs-typescript
+npm install
 ```
 
 With the service created, we can rename our service and our handler function. Let's update `severless.yaml` and `handler.ts` with sensical names:
 
-**`serverless.yaml`:**
-
 ```yaml
+# serverless.yaml
 service:
   name: form2email
 
@@ -63,16 +63,15 @@ functions:
 
 Next, let's reflect the name `submitForm` in `handler.ts`:
 
-**`handler.ts`:**
-
 ```typescript
-import { APIGatewayEvent, Handler, Callback, Context } from 'aws-lambda';
+// handler.ts
+import { APIGatewayEvent, Context, Handler, Callback } from 'aws-lambda';
 
 export const submitForm : Handler = (event : APIGatewayEvent, context : Context, cb : Callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'Go Serverless Webpack (TypeScript) v1.0! Your function executed successfully!',
+      message: 'Go Serverless Webpack (Typescript) v1.0! Your function executed successfully!',
       input: event,
     }),
   };
@@ -81,28 +80,11 @@ export const submitForm : Handler = (event : APIGatewayEvent, context : Context,
 }
 ```
 
-## Writing the Service
+## Structure the Service
 
-Let's start by getting the [typescript types for AWS Lambda](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-lambda) and AWS libraries installed:
+Though I'm only targeting deployment on AWS, it seems wise to structure the project so that it can be deployed to other platforms without too much fuss should the need arise. I therefore prefer to create a `Service` class that carries out the functions of the service and keep the wiring of platform-specific services in `handler.ts`. Future implementations can then confidently use the `Service` class while wiring up dependencies from the other platform.
 
-```bash
-npm install @types/aws-lambda --save-dev
-npm install aws-sdk --save
-```
-
-> **Warning:** When I first installed `@types/aws-lambda` I got the following error when testing using `severless invoke local`:
->
-> > `ERROR in ~/codesvc-form2email/node_modules/aws-sdk/lib/config.d.ts
-> (39,37): error TS2693: 'Promise' only refers to a type, but is being used as a value here.`
->
-> The fix was to follow the [`aws-sdk-js` TypeScript documentation](https://github.com/aws/aws-sdk-js#usage-with-typescript) documentation and add the following to `compilerOptions` in `tsconfig.json`:
-> ```json
- "lib": [
-     "es5",
-     "es2015.promise"]
-```
-
-Next, let's plan to break the service into it's core responsabilities:
+Form2Email will have four basic components:
 
 * **`service`** will contain the abstract service functionality
 * **`handler`** will interface between AWS and the service
@@ -128,6 +110,29 @@ service.submitForm(
   formatter.html      // How to format it
 );
 ```
+
+## Write the Service
+
+Let's start by getting the [typescript types for AWS Lambda](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-lambda) and AWS libraries installed:
+
+```bash
+npm install @types/aws-lambda --save-dev
+npm install aws-sdk --save
+```
+
+> **Warning:** When I first installed `@types/aws-lambda` I got the following error when testing using `severless invoke local`:
+>
+> > `ERROR in ~/codesvc-form2email/node_modules/aws-sdk/lib/config.d.ts
+> (39,37): error TS2693: 'Promise' only refers to a type, but is being used as a value here.`
+>
+> The fix was to follow the [`aws-sdk-js` TypeScript documentation](https://github.com/aws/aws-sdk-js#usage-with-typescript) documentation and add the following to `compilerOptions` in `tsconfig.json`:
+> ```json
+ "lib": [
+     "es5",
+     "es2015.promise"]
+```
+
+
 
 ### Writing `sender`
 
