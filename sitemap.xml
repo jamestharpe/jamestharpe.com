@@ -43,6 +43,12 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/frameworks/chai/</loc>
+    <lastmod>2017-12-10T18:08:22-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/tools/chocolatey/</loc>
     <lastmod>2017-09-18T11:42:46-04:00</lastmod>
     <priority>0</priority>
@@ -74,6 +80,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/frameworks/</loc>
+    <lastmod>2017-12-10T18:08:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -116,6 +123,12 @@
   <url>
     <loc>https://www.jamestharpe.com/languages/markdown/</loc>
     <lastmod>2017-10-26T18:17:11-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/frameworks/mocha/</loc>
+    <lastmod>2017-12-10T18:08:22-05:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -49,9 +49,9 @@ Here are a few examples:
       <pubDate>Thu, 26 Oct 2017 17:33:25 -0400</pubDate>
       
       <guid>https://www.jamestharpe.com/include-files-outside-docker-build-context/</guid>
-      <description>&amp;ldquo;Forbidden path outside the build context&amp;rdquo; I was recently attempting to use Dockerize a Node project, so I added a docker folder to the project and created a simple Dockerfile to get started:
+      <description>&amp;ldquo;Forbidden path outside the build context&amp;rdquo; I was recently attempting to Dockerize a Node project, so I added a docker folder to the project and created a simple Dockerfile to get started:
 FROM node:alpine WORKDIR /app COPY ../ ./ RUN npm install EXPOSE 80 ENTRYPOINT [ &amp;quot;npm&amp;quot;, &amp;quot;start&amp;quot; ]  However, when I tried to build the image, I got the following output:
-$ docker build -t nodeapp .</description>
+$ docker build -t nodeapp . Sending build context to Docker daemon 53.</description>
     </item>
     
     <item>
