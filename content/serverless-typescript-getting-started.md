@@ -271,7 +271,7 @@ Depending on the type of service you're writing, you might also consider these t
 * [`@types/ws-serverless-express`](https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-serverless-express) for writing Serverless Express applications
 * [`@types/aws-iot-device-sdk`](https://www.github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/aws-iot-device-sdk) for integrating with AWS's IoT SDK.
 
-### Installing and Using `@types/aws-lambda`
+### Install and Use `@types/aws-lambda`
 
 Let's improve the generated `handler.ts` code by installing and using `@types/aws-lambda`:
 
