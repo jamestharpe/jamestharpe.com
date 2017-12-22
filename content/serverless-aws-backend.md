@@ -6,7 +6,7 @@ techniques: [ "Serverless Architecture", "Static Site Generation" ]
 projects: [ "Form2Email" ]
 frameworks: [ "Serverless Framework" ]
 languages: [ "TypeScript" ]
-draft: true
+draft: false
 ---
 # Create a Backend for a Static Frontend
 
