@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-961598-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-961598-2');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Serverless Framework: Contact form with TypeScript on AWS</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/typescript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.30.2" />
+        
+        
+        
+    </head>
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Serverless Framework: Contact form with TypeScript on AWS</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/languages/">Languages</a></li>
+                            
+                                <li><a href="/tools/">Tools</a></li>
+                            
+                                <li><a href="/techniques/">Techniques</a></li>
+                            
+                                <li><a href="/hire-me/">Hire Me</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:jimmy.tharpe@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jamestharpe/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/jamestharpe/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jamestharpe/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/104763/james"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/serverless-aws-backend/">Serverless Framework: Contact form with TypeScript on AWS</a></h4>
+    <h5>December 17, 2017</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="create-a-backend-for-a-static-frontend">Create a Backend for a Static Frontend</h1>
+
+<p><img alt="Serverless Framework logo" src="/img/serverless-framework-logo_150x150.png" style="float: right; padding:8px" /> We recently launched the <a href="http://www.crawlity.com/">Crawlity</a> website which, like jamestharpe.com, uses <a href="/tools/hugo/">Hugo</a> to generate a static site. There&rsquo;s no database or template engine running on the server - just static files. Unlike jamestharpe.com, crawlity.com needs a back-end to accept contact form submissions. So how does one create a dynamic back-end for a static, &ldquo;serverless&rdquo; front-end?</p>
+
+<p>Short answer: With the <strong>Serverless Framework</strong>!</p>
+
+<p><a href="/frameworks/serverless-framework/">Serverless Framework</a>, or simply &ldquo;Serverless&rdquo;, is a provider-agnostic framework for defining the <strong>functions</strong> and <strong>events</strong> that make up your application. Once defined, Serverless deploys your application to the target cloud provider by automatically provisioning the required infrastructure and deploying the application to it.</p>
+
+<p>In this article, I&rsquo;ll create <a href="https://github.com/Crawlity/svc-form2email"><strong>Form2Email</strong></a>, a microservice based on Serverless Framework and written in <a href="https://www.jamestharpe.com/languages/typescript/">TypeScript</a> that:</p>
+
+<ul>
+<li>Accepts form submissions via HTTP POST (the event)</li>
+<li>Emails the submitted values as HTML (the function)</li>
+</ul>
+
+<p>Unlike similar articles and examples of Serverless Framework on the web which throw everything into one function that&rsquo;s tightly-coupled to the cloud platform provider, I&rsquo;m going to take extra care with the design so that it is cloud agnostic. That said, I&rsquo;ll only be filling in the AWS implementation; feel free to contribute additional provider implementations on the <a href="https://github.com/Crawlity/svc-form2email">Form2Email GitHub repository</a>!</p>
+
+<h2 id="scaffold-the-service-with-serverless-framework">Scaffold the Service with Serverless Framework</h2>
+
+<p>If you&rsquo;re not sure how to install Serverless Framework or get started using Serverless with TypeScript, read <a href="/serverless-typescript-getting-started/">Serverless with TypeScript and AWS: Getting Started</a> to learn how to setup a basic project with unit tests. For the abbreviated version, just type in these commands:</p>
+
+<pre><code class="language-bash">mkdir svc-form2email
+cd svc-form2email
+npm install -g serverless
+serverless create --template aws-nodejs-typescript
+npm install
+</code></pre>
+
+<p>With the service created, we can rename our service and our handler function, add required permissions to send emails, and set some basic settings:</p>
+
+<pre><code class="language-yaml"># serverless.yaml
+service:
+  name: form2email
+
+plugins:
+  - serverless-webpack
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  memorySize: 128 # default is 1024MB, 128MB is minimum
+  timeout: 5 # default is 6s, cold start takes about 4.5s, hot is about 0.5s
+  iamRoleStatements: # permissions for ALL of your functions can be set here
+    - Effect: &quot;Allow&quot;
+      Action:
+        - &quot;ses:SendEmail&quot;
+        - &quot;ses:SendRawEmail&quot;
+      Resource: &quot;*&quot;
+
+functions:
+  submitForm:
+    handler: handler.submitForm
+    events:
+      - http:
+          method: post
+          path: forms
+          cors: true
+</code></pre>
+
+<p>Next, let&rsquo;s outline the <code>submitForm</code> function in <code>handler.ts</code>:</p>
+
+<pre><code class="language-typescript">// handler.ts
+import { APIGatewayEvent, Context, Handler, Callback } from 'aws-lambda';
+import * as qs from 'querystring';
+
+export const submitForm : Handler = async (event : APIGatewayEvent, context : Context, cb : Callback) =&gt; {
+  const headers = { &quot;Access-Control-Allow-Origin&quot; : &quot;*&quot; }; // Required for CORS support to work
+  try{
+    console.log(&quot;Received event:&quot;, JSON.stringify(event, null, 2));
+    // todo: await Service.submitForm(qs.parse(event.body), ses, html);
+    cb(null, {
+      statusCode: 200,
+      headers: headers,
+      body: JSON.stringify({
+        message: &quot;Success&quot;
+      })
+    });
+  }
+  catch(err){
+    cb(null, {
+      statusCode: 500,
+      headers: headers,
+      body: JSON.stringify({ error: err })
+    });
+  }
+}
+</code></pre>
+
+<p>Scaffolding complete!</p>
+
+<h2 id="structure-the-service">Structure the Service</h2>
+
+<p>Though only targeting deployment on AWS for now, it seems wise to structure the project to be deployed to other platforms with minimal tinkering.</p>
+
+<p>To accomplish this, I&rsquo;ll put the application code in the <code>src/</code> folder with AWS-specific code in <code>src/aws/</code>. After moving the files, the <code>serverless.yml</code> file needs to reflect the new handler path:</p>
+
+<pre><code class="language-yaml">functions:
+  submitForm:
+    handler: src/aws/handler.submitForm
+</code></pre>
+
+<p>The actual service will be implemented in a <code>Service</code> class and the wiring of platform-specific services will be kept in <code>handler.ts</code>. Later implementations can then confidently use the <code>Service</code> class while wiring up dependencies from the other platform.</p>
+
+<p>Form2Email will have four basic components:</p>
+
+<ul>
+<li><strong><code>service</code></strong> will contain the abstract service functionality</li>
+<li><strong><code>handler</code></strong> will interface between AWS and the <code>service</code></li>
+<li><strong><code>formatter</code></strong> will format submitted data</li>
+<li><strong><code>sender</code></strong> will send the email</li>
+</ul>
+
+<p>The aim is that a call to <code>Service.submitForm(..)</code> will inject the dependencies needed to succesfully execute the action. For example, the final code should look something like this for AWS:</p>
+
+<pre><code class="language-typescript">service.submitForm(
+  qs.parse(event.body), // The form data
+  ses,                  // How to send it
+  html                  // How to format it
+);
+</code></pre>
+
+<p>Later, if we want to support a different cloud provider, we&rsquo;ll just need to develop the provider-specific implementations and inject them. Here&rsquo;s what the equivelant code for Azure might look like:</p>
+
+<pre><code class="language-typescript">service.submitForm(
+  qs.parse(req.body), // The form data
+  sendGrid,           // How to send it
+  html                // How to format it
+);
+</code></pre>
+
+<h2 id="write-the-service-class">Write the <code>Service</code> Class</h2>
+
+<p>Let&rsquo;s start with the core of our service by defining the <code>Service</code> class:</p>
+
+<pre><code class="language-typescript">// src/service.ts
+
+const validate = (form : object) =&gt;
+    form &amp;&amp;
+    Object.keys(form).length &gt; 0;
+
+export type Sender = (toAndFromEmail : string, subject : string, text: string) =&gt; Promise&lt;void&gt;;
+export type Formatter = (form : object) =&gt; string;
+
+export class Service {
+  static submitForm(form : object, send : Sender, format : Formatter) : Promise&lt;void&gt;{
+    const subjectFieldKey = process.env.SUBJECT_FIELD_KEY || &quot;subject&quot;
+    const toAndFrom = process.env.TO_FROM_EMAIL || 'noreply@default.com';
+    return validate(form)
+      ? send(
+          toAndFrom,
+          form[subjectFieldKey] || process.env.DEFAULT_SUBJECT || &quot;New message from Form2Email&quot;,
+          format(form))
+      : Promise.reject(
+          &quot;Validation error: No input or invalid input received&quot;);
+  }
+}
+</code></pre>
+
+<p>This code defines the <code>Sender</code> and <code>Formatter</code> dependencies to be injected into the <code>Service.submitForm</code> static function. If the <code>form</code> object is valid, the <code>submitForm</code> function determines the to and from email address and email subject, then formats the message using the injected <code>format</code> function. Finally it calls the injected <code>send</code> function to generate the email.</p>
+
+<h3 id="implement-an-ses-sender">Implement an SES <code>Sender</code></h3>
+
+<p>With the <code>Service</code> class defined, the next logical step is to write a <code>Sender</code> function for <a href="/tools/aws-ses/">SES</a>:</p>
+
+<pre><code class="language-typescript">// src/aws/sender.ts
+
+import * as aws from 'aws-sdk';
+import { Sender } from '../service';
+const awsSes = new aws.SES();
+
+export const ses : Sender = (toAndFromEmail : string, subject : string, contents : string) : Promise&lt;any&gt; =&gt; {
+  const charset = 'UTF-8';
+  var params = {
+    Destination: { ToAddresses: [toAndFromEmail] },
+    Message: {
+      Body: {
+        Html: { Charset: charset, Data: contents },
+        Text: { Charset: charset, Data: contents }
+      },
+      Subject: { Charset: charset, Data: subject }
+    },
+    ReplyToAddresses: [toAndFromEmail],
+    Source: toAndFromEmail
+  };
+
+  return awsSes.sendEmail(params, null).promise();
+};
+</code></pre>
+
+<p>This code uses the AWS SDK to invoke SES and send a message.</p>
+
+<h3 id="implement-an-html-formatter">Implement an HTML <code>Formatter</code></h3>
+
+<p>The other function to be injected into <code>Service.submitForm</code> is <code>Formatter</code>, so let&rsquo;s implement that next:</p>
+
+<pre><code class="language-typescript">// src/formatter.ts
+import { Formatter } from &quot;./service&quot;;
+
+const htmlFormatter = {
+  null:   (n : any) =&gt; &quot;&quot;,
+  string: (s : String) =&gt; &quot;&lt;p&gt;&quot; + s.replace(&quot;\n&quot;, &quot;&lt;/p&gt;\n&lt;p&gt;&quot;) + &quot;&lt;/p&gt;&quot;,
+  array:  (a : Array&lt;any&gt;) =&gt; a.reduce((result, item) =&gt; result + this.format(item) + &quot;\n&quot;, &quot;&quot;),
+  object: (o : object) =&gt;
+    Object.keys(o).reduce(
+      (result, key) =&gt;
+        result +
+        &quot;  &lt;tr&gt;\n&quot; +
+        `    &lt;td&gt;${key}&lt;/td&gt;\n` +
+        `    &lt;td&gt;${o[key]}&lt;/td&gt;\n` +
+        &quot;  &lt;/tr&gt;\n&quot;,
+      &quot;&lt;table&gt;\n&quot;
+    ) + &quot;&lt;/table&gt;&quot;,
+  format: (form : object) =&gt;
+    (form === null
+      ? htmlFormatter.null
+      : Array.isArray(form)
+        ? htmlFormatter.array
+        : htmlFormatter[typeof form])(form)
+};
+
+export const html : Formatter = htmlFormatter.format;
+</code></pre>
+
+<p>This works by specifying functions for each type of object that may be in a submitted form, looking up the appropriate function to convert it to HTML, then calling that function to build the result.</p>
+
+<h3 id="completing-the-handler">Completing the Handler</h3>
+
+<p>To finish wiring everything up, all we need to do is call <code>Service.submitForm</code> from <code>handler.ts</code> and add the appropriate <code>import</code> statements. The completed <code>handler.ts</code> file now looks like this:</p>
+
+<pre><code class="language-typescript">// src/aws/handler.ts
+
+import { APIGatewayEvent, Context, Handler, Callback } from 'aws-lambda';
+import * as qs from 'querystring';
+import { Service } from '../service';
+import { ses } from './sender';
+import { html } from '../formatter';
+
+export const submitForm : Handler = async (event : APIGatewayEvent, context : Context, cb : Callback) =&gt; {
+  const headers = { &quot;Access-Control-Allow-Origin&quot; : &quot;*&quot; }; // Required for CORS support to work
+  try{
+    console.log(&quot;Received event:&quot;, JSON.stringify(event, null, 2));
+    await Service.submitForm(qs.parse(event.body), ses, html);
+    cb(null, {
+      statusCode: 200,
+      headers: headers,
+      body: JSON.stringify({ message: &quot;Success&quot; })
+    });
+  }
+  catch(err){
+    cb(null, {
+      statusCode: 500,
+      headers: headers,
+      body: JSON.stringify({ error: err })
+    });
+  }
+}
+</code></pre>
+
+<h2 id="test-and-deploy-form2email">Test and Deploy Form2Email</h2>
+
+<p>The Form2Email service is complete! Let&rsquo;s try it out locally using <code>serverless invoke local</code>:</p>
+
+<pre><code class="language-bash">$ serverless invoke local -f submitForm -d '{&quot;body&quot;:&quot;hello=world&amp;hola=mundo&quot;}'
+Serverless: Bundling with Webpack...
+ts-loader: Using typescript@2.6.2 and ~/code/svc-form2email/tsconfig.json
+Time: 13200ms
+             Asset     Size  Chunks                    Chunk Names
+src/aws/handler.js  3.01 MB       0  [emitted]  [big]  src/aws/handler
+   [0] ./node_modules/aws-sdk/lib/core.js 2.2 kB {0} [built]
+   [1] ./node_modules/aws-sdk/lib/node_loader.js 3.08 kB {0} [built]
+   [9] ./node_modules/aws-sdk/clients/sts.js 573 bytes {0} [built]
+  [14] ./node_modules/aws-sdk/lib/model/shape.js 9.51 kB {0} [built]
+  [15] ./node_modules/aws-sdk/lib/protocol/rest.js 4.39 kB {0} [built]
+  [41] external &quot;querystring&quot; 42 bytes {0} [not cacheable]
+  [89] ./src/aws/handler.ts 3.71 kB {0} [built]
+  [90] ./src/service.ts 858 bytes {0} [built]
+  [91] ./src/aws/sender.ts 675 bytes {0} [built]
+  [92] ./node_modules/aws-sdk/lib/aws.js 134 bytes {0} [built]
+ [225] ./node_modules/aws-sdk/lib/credentials/temporary_credentials.js 4.63 kB {0} [built] [253] ./node_modules/aws-sdk/clients/all.js 5.1 kB {0} [built]
+ [684] ./node_modules/aws-sdk/clients/cloud9.js 562 bytes {0} [built]
+ [687] ./node_modules/aws-sdk/clients/serverlessapplicationrepository.js 607 bytes {0} [built]
+ [692] ./src/formatter.ts 941 bytes {0} [built]
+    + 678 hidden modules
+Received event: {
+  &quot;body&quot;: &quot;hello=world&amp;hola=mundo&quot;
+}
+{
+    &quot;statusCode&quot;: 200,
+    &quot;headers&quot;: {
+        &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;
+    },
+    &quot;body&quot;: &quot;{\&quot;message\&quot;:\&quot;Success\&quot;}&quot;
+}
+</code></pre>
+
+<p>It worked! In fact, I got the email in my inbox:</p>
+
+<p><img src="/img/form2email-ses-example_575x168.png" alt="Form2Email SES Message Example" /></p>
+
+<p>Next, let&rsquo;s deploy:</p>
+
+<pre><code class="language-bash">$ serverless deploy
+Serverless: Bundling with Webpack...
+ts-loader: Using typescript@2.6.2 and ~/code/svc-form2email/tsconfig.json
+Time: 12387ms
+             Asset     Size  Chunks                    Chunk Names
+src/aws/handler.js  3.01 MB       0  [emitted]  [big]  src/aws/handler
+   [0] ./node_modules/aws-sdk/lib/core.js 2.2 kB {0} [built]
+   [1] ./node_modules/aws-sdk/lib/node_loader.js 3.08 kB {0} [built]
+   [9] ./node_modules/aws-sdk/clients/sts.js 573 bytes {0} [built]
+  [14] ./node_modules/aws-sdk/lib/model/shape.js 9.51 kB {0} [built]
+  [15] ./node_modules/aws-sdk/lib/protocol/rest.js 4.39 kB {0} [built]
+  [41] external &quot;querystring&quot; 42 bytes {0} [not cacheable]
+  [89] ./src/aws/handler.ts 3.71 kB {0} [built]
+  [90] ./src/service.ts 858 bytes {0} [built]
+  [91] ./src/aws/sender.ts 675 bytes {0} [built]
+  [92] ./node_modules/aws-sdk/lib/aws.js 134 bytes {0} [built]
+ [225] ./node_modules/aws-sdk/lib/credentials/temporary_credentials.js 4.63 kB {0} [built] [253] ./node_modules/aws-sdk/clients/all.js 5.1 kB {0} [built]
+ [684] ./node_modules/aws-sdk/clients/cloud9.js 562 bytes {0} [built]
+ [687] ./node_modules/aws-sdk/clients/serverlessapplicationrepository.js 607 bytes {0} [built]
+ [692] ./src/formatter.ts 941 bytes {0} [built]
+    + 678 hidden modules
+Serverless: Packaging service...
+Serverless: Creating Stack...
+Serverless: Checking Stack create progress...
+.....
+Serverless: Stack create finished...
+Serverless: Uploading CloudFormation file to S3...
+Serverless: Uploading artifacts...
+Serverless: Validating template...
+Serverless: Updating Stack...
+Serverless: Checking Stack update progress...
+.................................
+Serverless: Stack update finished...
+Service Information
+service: form2email
+stage: dev
+region: us-east-1
+stack: form2email-dev
+api keys:
+  None
+endpoints:
+  POST - https://g3ayzx0iqf.execute-api.us-east-1.amazonaws.com/dev/forms
+functions:
+  submitForm: form2email-dev-submitForm
+</code></pre>
+
+<p>Note that near the end of the output is endpoint needed to integrate Form2Email with our website. Save that for later.</p>
+
+<p>However, before integrating the service, let&rsquo;s try it out <em>live</em> using <code>serverless invoke</code>:</p>
+
+<pre><code class="language-bash">$ serverless invoke -f submitForm -d '{&quot;body&quot;:&quot;hello=world&amp;hola=mundo&quot;}'
+{
+    &quot;statusCode&quot;: 200,
+    &quot;headers&quot;: {
+        &quot;Access-Control-Allow-Origin&quot;: &quot;*&quot;
+    },
+    &quot;body&quot;: &quot;{\&quot;message\&quot;:\&quot;Success\&quot;}&quot;
+}
+</code></pre>
+
+<p>Finally, we can integrate it with an HTML form. Here&rsquo;s a simple example:</p>
+
+<pre><code class="language-html">&lt;form id=&quot;form2email&quot; action=&quot;https://g3ayzx0iqf.execute-api.us-east-1.amazonaws.com/dev/forms&quot; method=&quot;POST&quot;&gt;
+  &lt;input type=&quot;text&quot; id=&quot;Name&quot; name=&quot;Name&quot; placeholder=&quot;First and Last Name&quot;&gt; &lt;br/&gt;
+  &lt;input type=&quot;text&quot; id=&quot;Email&quot; name=&quot;Email&quot; placeholder=&quot;Email Address&quot;&gt; &lt;br/&gt;
+  &lt;button type=&quot;submit&quot;&gt;Submit&lt;/button&gt;
+&lt;/form&gt;
+</code></pre>
+
+<p>Of course, when the form is submitted we&rsquo;ll get back the JSON response which is not the most user-friendly experience. Rather than adding a Thank You redirect, let&rsquo;s update the form to submit via AJAX and jQuery magic. Just add the following JavaScript to the page:</p>
+
+<pre><code class="language-javascript">let $form = $('#form2email');
+$form.submit(function(e) {
+  e.preventDefault();
+  $.ajax({
+      type: $form.attr('method'),
+      url: $form.attr('action'),
+      data: $form.serialize(),
+      success: function (data) {
+          console.log('Submission was successful.');
+          console.log(data);
+          $form.html(&quot;&lt;h1&gt;Thank you!&lt;/h1&gt;&quot;);
+      },
+      error: function (data) {
+          console.log('An error occurred.');
+          console.error(data);
+          alert(&quot;Something went wrong! Try emailing us.&quot;);
+      },
+  });
+});
+</code></pre>
+
+<p>Now the form will be replaced with &ldquo;Thank you!&rdquo; upon succesful submission.</p>
+
+<p>See it in action and learn about my upcoming product launch by filling out the <a href="http://www.crawlity.com/#fh5co-contact">Contact Us form on Crawlity.com</a>.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright &copy; James Tharpe; All rights reserved.</p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
