@@ -3,7 +3,7 @@ title: "Useful Git Aliases"
 date: 2018-04-28T08:03:28-04:00
 tools: ["Git"]
 techniques: ["Shortcuts"]
-draft: true
+draft: false
 ---
 # Useful Git Aliases
 
@@ -44,7 +44,7 @@ cd058e2 2017-12-17 WIP: Form2Email [James Tharpe]
 
 ## Pick Up Where You Left Off With `git last`
 
-If you're absent minded like I am then, an interruption can cause you to forget what you just committed. Rather than using `git ls` to check the logs, `git last` can be useful to quickly see only the most recent commit.
+If you're absent-minded like I am then an interruption can cause you to forget what you just committed. Rather than using `git ls` to check the logs, `git last` can be useful to quickly see only the most recent commit.
 
 ```bash
 $ git config --global alias.last 'log -1 HEAD'
@@ -60,4 +60,61 @@ Date:   Sat Apr 28 08:19:33 2018 -0400
 
 ## Prepare for the Daily Standup with `git standup`
 
-...
+A quick way to remember what you were working on recently for your team's daily standup is to view the Git log since yesterday. A nice alias for this is `git standup`:
+
+```bash
+$ git config --global alias.standup "log --since yesterday --author $(git config user.email) --pretty=short"
+
+$ git standup
+commit 0d686aeef569e6762abab8e16cd2118a791be600 (HEAD -> master)
+Author: James Tharpe <jimmy.tharpe@gmail.com>
+
+    Outlines git aliases article
+
+commit 6ded0e6b249b28984127f1221a713f69b74830e5
+Author: James Tharpe <jimmy.tharpe@gmail.com>
+
+    Starts useful git aliases article
+```
+
+## Get _Everything_ with `git everything`
+
+Working with Git submodules can be prone to error, since subodules don't update like the rest of your codebase does when you run `git pom` or similar commands. To avoid forgetting to update or initialize submodules in your repository, configure `git everything`:
+
+```bash
+$ git config --global alias.everything "! git pull && git submodule update --init --recursive"
+
+$ git everything
+remote: Counting objects: 8, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 8 (delta 5), reused 8 (delta 5), pack-reused 0
+Unpacking objects: 100% (8/8), done.
+From github.com:jamestharpe/jamestharpe.com
+   44b55a0..0d686ae  master     -> origin/master
+Updating 44b55a0..0d686ae
+Fast-forward
+ content/useful-git-aliases.md | 63 +++++++++++++++++++++++++++++++++++++++++++
+ themes/minimal                |  2 +-
+ 2 files changed, 64 insertions(+), 1 deletion(-)
+ create mode 100644 content/useful-git-aliases.md
+Submodule 'themes/minimal' (git@github.com:calintat/minimal.git) registered for path 'themes/minimal'
+Cloning into 'C:/Users/james/code/me/temp/jamestharpe.com/themes/minimal'...
+Submodule path 'themes/minimal': checked out '2ac9acc008de52f61cc79fe2f93e61ba62e17d3b'
+```
+
+## Remember Git Aliases with Yet Another Alias
+
+So you've setup all these aliases but can't remember them. One more alias to help remmeber all your aliases:
+
+```bash
+$ git config --global alias.aliases "config --get-regexp alias"
+
+$ git aliases
+alias.pom pull origin master
+alias.last log -1 HEAD
+alias.ls log --pretty=format:'%C(yellow)%h %ad%Cred%d %Creset%s%Cblue [%cn]' --decorate --date=short
+alias.ammend commit -a --amend
+alias.standup log --since yesterday --author jimmy.tharpe@gmail.com --pretty=short
+alias.everything ! git pull && git submodule update --init --recursive
+alias.aliases config --get-regexp alias
+```
