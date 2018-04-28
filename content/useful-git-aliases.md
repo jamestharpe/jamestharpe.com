@@ -58,4 +58,6 @@ Date:   Sat Apr 28 08:19:33 2018 -0400
 
 ```
 
-## Fix the Last Commit with `git ammend`
+## Prepare for the Daily Standup with `git standup`
+
+...
