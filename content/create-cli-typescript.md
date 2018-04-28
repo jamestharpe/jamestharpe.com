@@ -84,9 +84,8 @@ Finally! An app that... does nothing.
 Create the entry point and first test:
 
 ```bash
-$ mkdir src && mkdir test
-
-$ touch index.ts && touch test/index.spec.js
+mkdir src && mkdir test
+touch index.ts && touch test/index.spec.js
 ```
 
 ### Add the Boilerplate Code
