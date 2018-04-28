@@ -6,7 +6,6 @@
     <description>Recent content in Tools on James Tharpe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright &amp;copy; James Tharpe; All rights reserved.</copyright>
     <lastBuildDate>Sun, 17 Dec 2017 12:10:14 -0400</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/tools/index.xml" rel="self" type="application/rss+xml" />
@@ -36,6 +35,15 @@
       <pubDate>Tue, 07 Nov 2017 13:44:06 -0500</pubDate>
       
       <guid>https://www.jamestharpe.com/tools/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://www.jamestharpe.com/tools/git/</link>
+      <pubDate>Sat, 28 Apr 2018 08:03:28 -0400</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/git/</guid>
       <description></description>
     </item>
     

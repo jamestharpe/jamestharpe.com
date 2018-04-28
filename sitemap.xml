@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jamestharpe.com/useful-git-aliases/</loc>
+    <lastmod>2018-04-28T08:03:28-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/serverless-aws-backend/</loc>
     <lastmod>2017-12-17T12:10:14-04:00</lastmod>
   </url>
@@ -96,6 +101,12 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/tools/git/</loc>
+    <lastmod>2018-04-28T08:03:28-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/tools/git-bash/</loc>
     <lastmod>2017-11-07T13:44:06-05:00</lastmod>
     <priority>0</priority>
@@ -115,7 +126,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/</loc>
-    <lastmod>2017-12-17T12:10:14-04:00</lastmod>
+    <lastmod>2018-04-28T08:03:28-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,6 +187,12 @@
   <url>
     <loc>https://www.jamestharpe.com/languages/shell/</loc>
     <lastmod>2017-09-04T06:24:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/techniques/shortcuts/</loc>
+    <lastmod>2018-04-28T08:03:28-04:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on James Tharpe</title>
+    <link>https://www.jamestharpe.com/tools/git/</link>
+    <description>Recent content in Git on James Tharpe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Apr 2018 08:03:28 -0400</lastBuildDate>
+    
+	<atom:link href="https://www.jamestharpe.com/tools/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Useful Git Aliases</title>
+      <link>https://www.jamestharpe.com/useful-git-aliases/</link>
+      <pubDate>Sat, 28 Apr 2018 08:03:28 -0400</pubDate>
+      
+      <guid>https://www.jamestharpe.com/useful-git-aliases/</guid>
+      <description>Useful Git Aliases A recent addition to by Automatic Development Environment Setup script were several Git aliases that help to speed things up. Here is how and why I set them up.
+Start the Day with git pom The first step in most developer workflows is to run git pull origin master to ensure your local work is current with the main line of development. Shave a few seconds off this routine step by shortening the command to git pom:</description>
+    </item>
+    
+  </channel>
+</rss>
