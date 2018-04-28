@@ -118,3 +118,7 @@ alias.standup log --since yesterday --author jimmy.tharpe@gmail.com --pretty=sho
 alias.everything ! git pull && git submodule update --init --recursive
 alias.aliases config --get-regexp alias
 ```
+
+## Learn More About Git Aliases
+
+Check out the [Git Basics - Git Aliases](https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases) chapter of Pro Git to learn more about Git aliases.
