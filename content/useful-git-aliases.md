@@ -5,7 +5,7 @@ tools: ["Git"]
 techniques: ["Shortcuts"]
 draft: false
 ---
-# Useful Git Aliases
+# Git Aliases for Productivity
 
 A recent addition to by [Automatic Development Environment Setup](/automatic-development-environment-setup) script were several [Git](/tools/git/) aliases that help to speed things up. Here is how and why I set them up.
 
