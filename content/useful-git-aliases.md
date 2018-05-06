@@ -110,7 +110,6 @@ Branches help keep track of incompleted or undelivered work, but once the work i
 $ git config --global alias.branch-clean "! git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d"
 
 $ git branch-clean
-$ git branch-clean
 Deleted branch article/useful-git-aliases (was da41448).
 Deleted branch article/hire-me (was 23841b8).
 ```
