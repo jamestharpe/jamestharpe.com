@@ -70,4 +70,5 @@ Sending build context to Docker daemon  263.7MB
 Successfully built d296bf765369
 Successfully tagged nodeapp:latest
 ```
+
 Success!
