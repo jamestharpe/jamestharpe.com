@@ -20,9 +20,9 @@ Whether you're starting from scratch, have a long-neglected website that needs r
 
 Building your website consists of three basic steps:
 
-1. **Design**: I'll work with you to ensure brand consistency, broad device compatability (responsive), and low-friction conversions are all baked in to the design. If you have an existing website, I'll audit it to identify specific opportunities to improve user experience and conversions.
+1. **Design**: I'll work with you to ensure brand consistency, broad device compatibility (responsive), and low-friction conversions are all baked in to the design. If you have an existing website, I'll audit it to identify specific opportunities to improve user experience and conversions.
 1. **Build**: I'll provide you with a user-friendly back-end to make maintaining your site surprisingly easy, and an SEO-friendly front-end to make your site easy to find.
-1. **Launch**: I'll thoroughly test your website for functionality, browser compataibility, and device compataibility. You'll also get free support for 30 days, just in case.
+1. **Launch**: I'll thoroughly test your website for functionality, browser compatibility, and device compatibility. You'll also get free support for 30 days, just in case.
 
 You're welcome to host your website anywhere, but if you host with Onlinico you'll get:
 
@@ -44,14 +44,14 @@ Need to get something done on your website quickly, without a rebuild? Here are 
 * Google Tag Manager installation
 * Google Analytics installation
 * Google Search console setup and configuration
-* Social meda (Facebook, Twitter, etc) integration
+* Social media (Facebook, Twitter, etc) integration
 * Transfer your site to a new host
 * Install an SSL certificate
 * Implement a Content Delivery Network (CDN)
 * Improve site speed through minification and compression
 * Plug-in and Theme upgrades for your CMS
 * Scan for broken links and common SEO issues
-* Test for browser compatability
+* Test for browser compatibility
 
 ### Mobile App Development
 
