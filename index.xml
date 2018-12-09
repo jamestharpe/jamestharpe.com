@@ -116,14 +116,5 @@ Services for Businesses Here are some things I can do for your business:</descri
 Since my website has been very neglected, most of the content is outdated so I&amp;rsquo;m not going to bother moving much of it over. If I were, I might try the wordpress-to-hugo-exporter exporter.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://www.jamestharpe.com/serverless-expressjs/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.jamestharpe.com/serverless-expressjs/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
