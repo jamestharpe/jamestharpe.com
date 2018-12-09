@@ -65,5 +65,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://www.jamestharpe.com/tools/raspberry-pi/</link>
+      <pubDate>Sun, 09 Dec 2018 11:51:09 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rc Car</title>
+      <link>https://www.jamestharpe.com/tools/rc-car/</link>
+      <pubDate>Sun, 09 Dec 2018 11:51:09 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/rc-car/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

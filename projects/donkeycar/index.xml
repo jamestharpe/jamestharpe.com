@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Donkeycar on James Tharpe</title>
+    <link>https://www.jamestharpe.com/projects/donkeycar/</link>
+    <description>Recent content in Donkeycar on James Tharpe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Dec 2018 11:51:09 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.jamestharpe.com/projects/donkeycar/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Build a Donkey Car (Part 1 of 2)</title>
+      <link>https://www.jamestharpe.com/donkeycar-build/</link>
+      <pubDate>Sun, 09 Dec 2018 11:51:09 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/donkeycar-build/</guid>
+      <description>Building our First Donkey Car Donkey Car is an opensource project for developing self-driving small scale cars. Over the weekend, my daughter and I built one!
+We found the Donkey Car docs a bit difficult to follow, and just plain wrong, in a few places. Yet we managed to muddle our way through, despite a few mistakes along the way. Here&amp;rsquo;s what we ended up doing.
+The Parts Here are the parts we ordered to build the car (prices as-of 2018-12-09:</description>
+    </item>
+    
+  </channel>
+</rss>
