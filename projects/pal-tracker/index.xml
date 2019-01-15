@@ -6,10 +6,20 @@
     <description>Recent content in Pal Tracker on James Tharpe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jan 2019 20:25:15 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jan 2019 06:18:03 -0500</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/projects/pal-tracker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spring MVC CRUD Operations</title>
+      <link>https://www.jamestharpe.com/spring-mvc-crud-operations/</link>
+      <pubDate>Tue, 15 Jan 2019 06:18:03 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/spring-mvc-crud-operations/</guid>
+      <description>Create, Retrieve, Update, and Delete with Spring MVC I took the PCF Cloud Native Developer four day course to prepare for the Pivotal Certified Java Developer exam. This was my first in-depth exposure to PCF and Spring (Boot, MVC, Cloud), so there was a lot to learn with little experience. I learned a lot and enjoyed the course.
+In my last article, I shared my notes on Spring Boot PCF environment basics.</description>
+    </item>
     
     <item>
       <title>PCF Spring Boot Environment Basics</title>

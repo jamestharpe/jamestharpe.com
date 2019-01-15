@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-961598-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-961598-2');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Spring MVC CRUD Operations</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/typescript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.48" />
+        
+        
+        
+    </head>
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Spring MVC CRUD Operations</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/languages/">Languages</a></li>
+                            
+                                <li><a href="/tools/">Tools</a></li>
+                            
+                                <li><a href="/techniques/">Techniques</a></li>
+                            
+                                <li><a href="/hire-me/">Hire Me</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:jimmy.tharpe@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jamestharpe/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/jamestharpe/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jamestharpe/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/104763/james"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/spring-mvc-crud-operations/">Spring MVC CRUD Operations</a></h4>
+    <h5>January 15, 2019</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="create-retrieve-update-and-delete-with-spring-mvc">Create, Retrieve, Update, and Delete with Spring MVC</h1>
+
+<p>I took the <a href="https://courses.education.pivotal.io/c/349802825/">PCF Cloud Native Developer four day course</a> to prepare for the <a href="https://pivotal.io/training/certification/pivotal-developer-certification">Pivotal Certified Java Developer</a> exam. This was my first in-depth exposure to PCF and Spring (Boot, MVC, Cloud), so there was a lot to learn with little experience. I learned a lot and enjoyed the course.</p>
+
+<p>In my last article, I shared my notes on <a href="https://www.jamestharpe.com/pcf-spring-boot-environment-basics/">Spring Boot PCF environment basics</a>. In this article we&rsquo;ll go over CRUD operations using Spring MVC.</p>
+
+<h2 id="create-the-model">Create the Model</h2>
+
+<p>We&rsquo;ll stick with the <a href="https://github.com/jamestharpe/pal-tracker">PAL Tracker</a> example and create a simple <code>TimeEntry</code> class to be serialized for CRUD operations:</p>
+
+<pre><code class="language-java">package io.pivotal.pal.tracker;
+
+import java.time.LocalDate;
+
+public class TimeEntry {
+    private long id;
+    private long projectId;
+    private long userId;
+    private int hours;
+    private LocalDate date;
+
+    public TimeEntry() {
+    }
+
+    public TimeEntry(long projectId, long userId, LocalDate date, int hours) {
+        this.projectId = projectId;
+        this.userId = userId;
+        this.date = date;
+        this.hours = hours;
+    }
+
+    public TimeEntry(long id, long projectId, long userId, LocalDate date, int hours) {
+        this.id = id;
+        this.projectId = projectId;
+        this.userId = userId;
+        this.date = date;
+        this.hours = hours;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public long getProjectId() {
+        return projectId;
+    }
+
+    public long getUserId() {
+        return userId;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public int getHours() {
+        return hours;
+    }
+
+    // Required for equality comparisons
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        TimeEntry timeEntry = (TimeEntry) o;
+
+        if (id != timeEntry.id) return false;
+        if (projectId != timeEntry.projectId) return false;
+        if (userId != timeEntry.userId) return false;
+        if (hours != timeEntry.hours) return false;
+        return date != null ? date.equals(timeEntry.date) : timeEntry.date == null;
+    }
+
+    // Required for equality comparisons
+    @Override
+    public int hashCode() {
+        int result = (int) (id ^ (id &gt;&gt;&gt; 32));
+        result = 31 * result + (int) (projectId ^ (projectId &gt;&gt;&gt; 32));
+        result = 31 * result + (int) (userId ^ (userId &gt;&gt;&gt; 32));
+        result = 31 * result + (date != null ? date.hashCode() : 0);
+        result = 31 * result + hours;
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        return &quot;TimeEntry{&quot; +
+            &quot;id=&quot; + id +
+            &quot;, projectId=&quot; + projectId +
+            &quot;, userId=&quot; + userId +
+            &quot;, date='&quot; + date + '\'' +
+            &quot;, hours=&quot; + hours +
+            '}';
+    }
+}
+</code></pre>
+
+<h2 id="create-an-in-memory-repository">Create an in-memory Repository</h2>
+
+<p>I&rsquo;ll cover using JDBC in my next article. For now, create an in-memory repository for time entries by implementing a <code>TimeEntryRepository</code> interface. Using an interface will make it easy to swap out later.</p>
+
+<p>First, create the <code>TimeEntryRepository</code> interface:</p>
+
+<pre><code class="language-java">package io.pivotal.pal.tracker;
+
+import java.util.List;
+
+public interface TimeEntryRepository {
+    TimeEntry create(TimeEntry timeEntry);
+    TimeEntry find(Long id);
+    List&lt;TimeEntry&gt; list();
+    TimeEntry update(Long id, TimeEntry timeEntry);
+    void delete(Long id);
+}
+</code></pre>
+
+<p>Next, implement it by storing <code>TimeEntry</code> objects in a <code>HashMap</code>:</p>
+
+<pre><code class="language-java">package io.pivotal.pal.tracker;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class InMemoryTimeEntryRepository implements TimeEntryRepository {
+    // Store entries in a HashMap for onw
+    private HashMap&lt;Long, TimeEntry&gt; timeEntries = new HashMap&lt;&gt;();
+
+    private long currentId = 1L;
+
+    @Override
+    public TimeEntry create(TimeEntry timeEntry) {
+        Long id = currentId++;
+
+        TimeEntry newTimeEntry = new TimeEntry(
+            id,
+            timeEntry.getProjectId(),
+            timeEntry.getUserId(),
+            timeEntry.getDate(),
+            timeEntry.getHours()
+        );
+
+        timeEntries.put(id, newTimeEntry);
+        return newTimeEntry;
+    }
+
+    @Override
+    public TimeEntry find(Long id) {
+        return timeEntries.get(id);
+    }
+
+    @Override
+    public List&lt;TimeEntry&gt; list() {
+        return new ArrayList&lt;&gt;(timeEntries.values());
+    }
+
+    @Override
+    public TimeEntry update(Long id, TimeEntry timeEntry) {
+        TimeEntry updatedEntry = new TimeEntry(
+            id,
+            timeEntry.getProjectId(),
+            timeEntry.getUserId(),
+            timeEntry.getDate(),
+            timeEntry.getHours()
+        );
+
+        timeEntries.replace(id, updatedEntry);
+        return updatedEntry;
+    }
+
+    @Override
+    public void delete(Long id) {
+        timeEntries.remove(id);
+    }
+}
+</code></pre>
+
+<h2 id="wire-up-the-timeentryrepository-bean">Wire up the <code>TimeEntryRepository</code> Bean</h2>
+
+<p>The <code>@Bean</code> annotation allows an application to provide an implementation of a class or interface at run-time. To supply a <code>TimeEntryRepository</code>, update the <code>PalTrackerApplication</code> class:</p>
+
+<pre><code class="language-java">    @Bean
+    TimeEntryRepository timeEntryRepository() {
+        return new InMemoryTimeEntryRepository();
+    }
+</code></pre>
+
+<p>Since the <code>TimeEntry</code> class contains a <code>LocalDate</code>, we also need to supply an <code>ObjectMapper</code> which can properly serialize dates into <code>LocalDate</code> objects, so add another <code>@Bean</code> to supply a <code>Jackson2ObjectMapperBuilder</code> instance:</p>
+
+<pre><code class="language-java">    @Bean
+    public ObjectMapper jsonObjectMapper() {
+        return Jackson2ObjectMapperBuilder.json()
+            .serializationInclusion(JsonInclude.Include.NON_NULL) // Don’t include null values
+            .featuresToDisable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS) //ISODate
+            .modules(new JavaTimeModule())
+            .build();
+    }
+</code></pre>
+
+<p>For this to build, the Jackson dependency must be added to the <code>dependencies</code> closure in <strong>build.gradle</strong>:</p>
+
+<pre><code class="language-groovy">compile(&quot;com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.7&quot;)
+</code></pre>
+
+<h2 id="create-a-controller-for-crud-operations">Create a Controller for CRUD Operations</h2>
+
+<p>The controller is a simple Java class with the appropriate annotations: <code>@PostMapping</code> for POST requests that will handle Create operation, <code>@GetMapping</code> for GET requests to handle Retrieve operations, <code>@PutMapping</code> for PUT requests that will handle Update operations, and <code>@DeleteMapping</code> for DELETE requests to handle Delete operations.</p>
+
+<pre><code class="language-java">package io.pivotal.pal.tracker;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+
+@RestController
+// Sets the &quot;root&quot; for all TimeEntryController end-points
+@RequestMapping(&quot;/time-entries&quot;)
+public class TimeEntryController {
+
+    private TimeEntryRepository timeEntriesRepo;
+
+    public TimeEntryController(TimeEntryRepository timeEntriesRepo) {
+        this.timeEntriesRepo = timeEntriesRepo;
+    }
+
+    // Create
+    @PostMapping
+    public ResponseEntity&lt;TimeEntry&gt; create(@RequestBody TimeEntry timeEntry) {
+        TimeEntry createdTimeEntry = timeEntriesRepo.create(timeEntry);
+
+        // Returning a ResponseEntity allows us to control the resulting HTTP status code
+        return new ResponseEntity&lt;&gt;(createdTimeEntry, HttpStatus.CREATED);
+    }
+
+    // Retrieve a single record
+    @GetMapping(&quot;{id}&quot;)
+    public ResponseEntity&lt;TimeEntry&gt; read(@PathVariable Long id) {
+        TimeEntry timeEntry = timeEntriesRepo.find(id);
+        if (timeEntry != null) {
+            return new ResponseEntity&lt;&gt;(timeEntry, HttpStatus.OK);
+        } else {
+            return new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    // Retrieve all records
+    @GetMapping
+    public ResponseEntity&lt;List&lt;TimeEntry&gt;&gt; list() {
+        return new ResponseEntity&lt;&gt;(timeEntriesRepo.list(), HttpStatus.OK);
+    }
+
+    // Update
+    @PutMapping(&quot;{id}&quot;)
+    public ResponseEntity&lt;TimeEntry&gt; update(@PathVariable Long id, @RequestBody TimeEntry timeEntry) {
+        TimeEntry updatedTimeEntry = timeEntriesRepo.update(id, timeEntry);
+        if (updatedTimeEntry != null) {
+            return new ResponseEntity&lt;&gt;(updatedTimeEntry, HttpStatus.OK);
+        } else {
+            return new ResponseEntity&lt;&gt;(HttpStatus.NOT_FOUND);
+        }
+    }
+
+    // Delete
+    @DeleteMapping(&quot;{id}&quot;)
+    public ResponseEntity&lt;TimeEntry&gt; delete(@PathVariable Long id) {
+        timeEntriesRepo.delete(id);
+
+        return new ResponseEntity&lt;&gt;(HttpStatus.NO_CONTENT);
+    }
+}
+</code></pre>
+
+<p>Returning a <code>ResponseEntity</code> allows us to control the resulting HTTP status code.</p>
+
+<h2 id="test-and-deploy-the-changes">Test and Deploy the Changes</h2>
+
+<p>Use PostMan, curl, or unit tests to test the end-points. Here&rsquo;s a sample set of end-to-end tests for the TimeEntryController:</p>
+
+<pre><code class="language-java">package test.pivotal.pal.trackerapi;
+
+import com.jayway.jsonpath.DocumentContext;
+import io.pivotal.pal.tracker.PalTrackerApplication;
+import io.pivotal.pal.tracker.TimeEntry;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.web.client.TestRestTemplate;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import java.time.LocalDate;
+import java.util.Collection;
+
+import static com.jayway.jsonpath.JsonPath.parse;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
+
+// Wire up the Spring application
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = PalTrackerApplication.class, webEnvironment = RANDOM_PORT)
+public class TimeEntryApiTest {
+
+    // Use to call the TimeEntryController end-points
+    @Autowired
+    private TestRestTemplate restTemplate;
+
+    // Sample/test data
+    private final long projectId = 123L;
+    private final long userId = 456L;
+    private TimeEntry timeEntry = new TimeEntry(projectId, userId, LocalDate.parse(&quot;2017-01-08&quot;), 8);
+
+    @Test
+    public void testCreate() throws Exception {
+        ResponseEntity&lt;String&gt; createResponse = restTemplate.postForEntity(&quot;/time-entries&quot;, timeEntry, String.class);
+
+        assertThat(createResponse.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+
+        // com.jayway.jsonpath.JsonPath.parse makes it easy to read JSON
+        DocumentContext createJson = parse(createResponse.getBody());
+        assertThat(createJson.read(&quot;$.id&quot;, Long.class)).isGreaterThan(0);
+        assertThat(createJson.read(&quot;$.projectId&quot;, Long.class)).isEqualTo(projectId);
+        assertThat(createJson.read(&quot;$.userId&quot;, Long.class)).isEqualTo(userId);
+        assertThat(createJson.read(&quot;$.date&quot;, String.class)).isEqualTo(&quot;2017-01-08&quot;);
+        assertThat(createJson.read(&quot;$.hours&quot;, Long.class)).isEqualTo(8);
+    }
+
+    @Test
+    public void testList() throws Exception {
+        Long id = createTimeEntry();
+
+        ResponseEntity&lt;String&gt; listResponse = restTemplate.getForEntity(&quot;/time-entries&quot;, String.class);
+
+        assertThat(listResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+
+        DocumentContext listJson = parse(listResponse.getBody());
+
+        Collection timeEntries = listJson.read(&quot;$[*]&quot;, Collection.class);
+        assertThat(timeEntries.size()).isEqualTo(1);
+
+        Long readId = listJson.read(&quot;$[0].id&quot;, Long.class);
+        assertThat(readId).isEqualTo(id);
+    }
+
+    @Test
+    public void testRead() throws Exception {
+        Long id = createTimeEntry();
+
+
+        ResponseEntity&lt;String&gt; readResponse = this.restTemplate.getForEntity(&quot;/time-entries/&quot; + id, String.class);
+
+
+        assertThat(readResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+        DocumentContext readJson = parse(readResponse.getBody());
+        assertThat(readJson.read(&quot;$.id&quot;, Long.class)).isEqualTo(id);
+        assertThat(readJson.read(&quot;$.projectId&quot;, Long.class)).isEqualTo(projectId);
+        assertThat(readJson.read(&quot;$.userId&quot;, Long.class)).isEqualTo(userId);
+        assertThat(readJson.read(&quot;$.date&quot;, String.class)).isEqualTo(&quot;2017-01-08&quot;);
+        assertThat(readJson.read(&quot;$.hours&quot;, Long.class)).isEqualTo(8);
+    }
+
+    @Test
+    public void testUpdate() throws Exception {
+        Long id = createTimeEntry();
+        long projectId = 2L;
+        long userId = 3L;
+        TimeEntry updatedTimeEntry = new TimeEntry(projectId, userId, LocalDate.parse(&quot;2017-01-09&quot;), 9);
+
+
+        ResponseEntity&lt;String&gt; updateResponse = restTemplate.exchange(&quot;/time-entries/&quot; + id, HttpMethod.PUT, new HttpEntity&lt;&gt;(updatedTimeEntry, null), String.class);
+
+
+        assertThat(updateResponse.getStatusCode()).isEqualTo(HttpStatus.OK);
+
+        DocumentContext updateJson = parse(updateResponse.getBody());
+        assertThat(updateJson.read(&quot;$.id&quot;, Long.class)).isEqualTo(id);
+        assertThat(updateJson.read(&quot;$.projectId&quot;, Long.class)).isEqualTo(projectId);
+        assertThat(updateJson.read(&quot;$.userId&quot;, Long.class)).isEqualTo(userId);
+        assertThat(updateJson.read(&quot;$.date&quot;, String.class)).isEqualTo(&quot;2017-01-09&quot;);
+        assertThat(updateJson.read(&quot;$.hours&quot;, Long.class)).isEqualTo(9);
+    }
+
+    @Test
+    public void testDelete() throws Exception {
+        Long id = createTimeEntry();
+
+
+        ResponseEntity&lt;String&gt; deleteResponse = restTemplate.exchange(&quot;/time-entries/&quot; + id, HttpMethod.DELETE, null, String.class);
+
+
+        assertThat(deleteResponse.getStatusCode()).isEqualTo(HttpStatus.NO_CONTENT);
+
+        ResponseEntity&lt;String&gt; deletedReadResponse = this.restTemplate.getForEntity(&quot;/time-entries/&quot; + id, String.class);
+        assertThat(deletedReadResponse.getStatusCode()).isEqualTo(HttpStatus.NOT_FOUND);
+    }
+
+    private Long createTimeEntry() {
+        HttpEntity&lt;TimeEntry&gt; entity = new HttpEntity&lt;&gt;(timeEntry);
+
+        ResponseEntity&lt;TimeEntry&gt; response = restTemplate.exchange(&quot;/time-entries&quot;, HttpMethod.POST, entity, TimeEntry.class);
+
+        assertThat(response.getStatusCode()).isEqualTo(HttpStatus.CREATED);
+
+        return response.getBody().getId();
+    }
+}
+</code></pre>
+
+<p>Now that basic CRUD operations are complete, they can be deployed to Cloud Foundry:</p>
+
+<pre><code class="language-bash">./gradlew build # build the JAR
+cf push -p build/libs/pal-tracker.jar # deploy to CF
+</code></pre>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright &copy; James Tharpe; All rights reserved.</p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
