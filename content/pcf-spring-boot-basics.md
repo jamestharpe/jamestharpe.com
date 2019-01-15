@@ -4,7 +4,7 @@ date: 2019-01-14T17:06:34-05:00
 languages: ["Java"]
 tools: ["IntelliJ", "Gradle"]
 techniques: ["Microservices"]
-frameworks: ["Spring", "Pivotal Application Services (PAS)"]
+frameworks: ["Spring", "Cloud Foundry"]
 projects: ["PAL Tracker"]
 draft: false
 ---
