@@ -166,3 +166,5 @@ applications:
   env:
     WELCOME_MESSAGE: Hello from the Manifest
 ```
+
+Run `cf push` again to see the updated `WELCOME_MESSAGE` value in the CF environment.
