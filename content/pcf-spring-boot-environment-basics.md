@@ -168,3 +168,7 @@ applications:
 ```
 
 Run `cf push` again to see the updated `WELCOME_MESSAGE` value in the CF environment.
+
+## Next: Spring MVC CRUD Operations
+
+Now that the PAL Tracker application can be configured externally and easily scaled, let's take a look at performing [create, retrieve, update, and delete operations in Spring MVC]({{< ref "spring-mvc-crud-operations.md" >}}).
