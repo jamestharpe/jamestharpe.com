@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pivotal Application Services Pas on James Tharpe</title>
-    <link>https://www.jamestharpe.com/frameworks/pivotal-application-services-pas/</link>
-    <description>Recent content in Pivotal Application Services Pas on James Tharpe</description>
+    <title>Cloud Foundry on James Tharpe</title>
+    <link>https://www.jamestharpe.com/frameworks/cloud-foundry/</link>
+    <description>Recent content in Cloud Foundry on James Tharpe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Jan 2019 06:18:03 -0500</lastBuildDate>
     
-	<atom:link href="https://www.jamestharpe.com/frameworks/pivotal-application-services-pas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.jamestharpe.com/frameworks/cloud-foundry/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jamestharpe.com/database-as-code-flyway/</loc>
+    <lastmod>2019-01-15T07:09:18-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/spring-mvc-crud-operations/</loc>
     <lastmod>2019-01-15T06:18:03-05:00</lastmod>
   </url>
@@ -86,6 +91,18 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/frameworks/cloud-foundry/</loc>
+    <lastmod>2019-01-15T06:18:03-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/techniques/database-as-code/</loc>
+    <lastmod>2019-01-15T07:09:18-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/tools/docker/</loc>
     <lastmod>2017-11-07T13:44:06-05:00</lastmod>
     <priority>0</priority>
@@ -100,6 +117,12 @@
   <url>
     <loc>https://www.jamestharpe.com/techniques/everything-in-version-control/</loc>
     <lastmod>2017-09-18T11:42:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/tools/flyway/</loc>
+    <lastmod>2019-01-15T07:09:18-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -153,7 +176,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/</loc>
-    <lastmod>2019-01-15T06:18:03-05:00</lastmod>
+    <lastmod>2019-01-15T07:09:18-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,6 +217,12 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/tools/mysql/</loc>
+    <lastmod>2019-01-15T07:09:18-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/techniques/outsourcing/</loc>
     <lastmod>2017-08-24T05:51:57-04:00</lastmod>
     <priority>0</priority>
@@ -201,13 +230,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/projects/pal-tracker/</loc>
-    <lastmod>2019-01-15T06:18:03-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.jamestharpe.com/frameworks/pivotal-application-services-pas/</loc>
-    <lastmod>2019-01-15T06:18:03-05:00</lastmod>
+    <lastmod>2019-01-15T07:09:18-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -254,6 +277,12 @@
   </url>
   
   <url>
+    <loc>https://www.jamestharpe.com/languages/sql/</loc>
+    <lastmod>2019-01-15T07:09:18-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/techniques/static-site-generation/</loc>
     <lastmod>2017-12-17T12:10:14-04:00</lastmod>
     <priority>0</priority>
@@ -261,7 +290,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/techniques/</loc>
-    <lastmod>2017-09-18T11:42:46-04:00</lastmod>
+    <lastmod>2019-01-15T07:09:18-05:00</lastmod>
     <priority>0</priority>
   </url>
   
