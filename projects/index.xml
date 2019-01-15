@@ -6,19 +6,10 @@
     <description>Recent content in Projects on James Tharpe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Dec 2018 11:51:09 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 17 Dec 2017 12:10:14 -0400</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Donkeycar</title>
-      <link>https://www.jamestharpe.com/projects/donkeycar/</link>
-      <pubDate>Sun, 09 Dec 2018 11:51:09 -0500</pubDate>
-      
-      <guid>https://www.jamestharpe.com/projects/donkeycar/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Form2email</title>
@@ -35,6 +26,15 @@
       <pubDate>Sun, 20 Aug 2017 06:24:00 -0400</pubDate>
       
       <guid>https://www.jamestharpe.com/projects/jamestharpe.com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pal Tracker</title>
+      <link>https://www.jamestharpe.com/projects/pal-tracker/</link>
+      <pubDate>Mon, 14 Jan 2019 17:06:34 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/projects/pal-tracker/</guid>
       <description></description>
     </item>
     

@@ -66,7 +66,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.38.2" />
+ <meta name="generator" content="Hugo 0.48" />
         
         
         
@@ -239,6 +239,17 @@ Fast-forward
 Submodule 'themes/minimal' (git@github.com:calintat/minimal.git) registered for path 'themes/minimal'
 Cloning into 'C:/Users/james/code/me/temp/jamestharpe.com/themes/minimal'...
 Submodule path 'themes/minimal': checked out '2ac9acc008de52f61cc79fe2f93e61ba62e17d3b'
+</code></pre>
+
+<h2 id="prune-branches-merged-with-master-with-git-branch-clean">Prune Branches Merged with <code>master</code> with <code>git branch-clean</code></h2>
+
+<p>Branches help keep track of incompleted or undelivered work, but once the work is complete we sometimes forget to remove the branches we no longer need. To clean up branches that are already merged with master in one swoop, configure <code>git branch-clean</code>:</p>
+
+<pre><code class="language-bash">$ git config --global alias.branch-clean &quot;! git branch --merged master | grep -v '^[ *]*master$' | xargs git branch -d&quot;
+
+$ git branch-clean
+Deleted branch article/useful-git-aliases (was da41448).
+Deleted branch article/hire-me (was 23841b8).
 </code></pre>
 
 <h2 id="remember-git-aliases-with-yet-another-alias">Remember Git Aliases with Yet Another Alias</h2>

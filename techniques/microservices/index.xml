@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microservices on James Tharpe</title>
+    <link>https://www.jamestharpe.com/techniques/microservices/</link>
+    <description>Recent content in Microservices on James Tharpe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Jan 2019 17:06:34 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.jamestharpe.com/techniques/microservices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pivotal Cloud Foundry (PCF) with Spring Boot Basics</title>
+      <link>https://www.jamestharpe.com/pcf-spring-boot-basics/</link>
+      <pubDate>Mon, 14 Jan 2019 17:06:34 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/pcf-spring-boot-basics/</guid>
+      <description>PCF Cloud Native Developer I took the PCF Cloud Native Developer four day course to prepare for the Pivotal Certified Java Developer exam. This was my first in-depth exposure to PCF and Spring (Boot, MVC, Cloud), so there was a lot to learn with little experience. I learned a lot and enjoyed the course.
+The course is very hands-on: The instructors introduce a concept at a high level, then you and a pairing partner must implement it in a real application.</description>
+    </item>
+    
+  </channel>
+</rss>

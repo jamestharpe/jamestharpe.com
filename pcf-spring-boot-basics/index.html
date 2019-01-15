@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-961598-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-961598-2');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Pivotal Cloud Foundry (PCF) with Spring Boot Basics</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/typescript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.48" />
+        
+        
+        
+    </head>
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Pivotal Cloud Foundry (PCF) with Spring Boot Basics</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/languages/">Languages</a></li>
+                            
+                                <li><a href="/tools/">Tools</a></li>
+                            
+                                <li><a href="/techniques/">Techniques</a></li>
+                            
+                                <li><a href="/hire-me/">Hire Me</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:jimmy.tharpe@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jamestharpe/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/jamestharpe/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jamestharpe/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/104763/james"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/pcf-spring-boot-basics/">Pivotal Cloud Foundry (PCF) with Spring Boot Basics</a></h4>
+    <h5>January 14, 2019</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="pcf-cloud-native-developer">PCF Cloud Native Developer</h1>
+
+<p>I took the <a href="https://courses.education.pivotal.io/c/349802825/">PCF Cloud Native Developer four day course</a> to prepare for the <a href="https://pivotal.io/training/certification/pivotal-developer-certification">Pivotal Certified Java Developer</a> exam. This was my first in-depth exposure to PCF and Spring (Boot, MVC, Cloud), so there was a lot to learn with little experience. I learned a lot and enjoyed the course.</p>
+
+<p>The course is very hands-on: The instructors introduce a concept at a high level, then you and a pairing partner must implement it in a real application. At the end of each lab, the instructors give an in-depth debriefing and go over the questions and challenges that arose for students. It&rsquo;s a great format and I highly recommend it for anyone working with Pivotal&rsquo;s cloud tools.</p>
+
+<p>The example project is called PAL Tracker and the <a href="https://github.com/jamestharpe/pal-tracker">code is available on my GitHub</a>.</p>
+
+<p>The following are my notes, which I&rsquo;m using as my study guide for the certification exam.</p>
+
+<h2 id="the-pcf-developer-environment">The PCF Developer Environment</h2>
+
+<p>Developing Spring apps for PAL &ldquo;the Pivotal way&rdquo; requires <a href="https://git-scm.com/">Git</a>, Java 8 or above, <a href="https://www.jetbrains.com/idea/">IntelliJ</a>, the <a href="https://github.com/cloudfoundry/cli/releases">Cloud Foundry CLI</a>, <a href="https://gradle.org/">Gradle</a>, <a href="https://www.mysql.com/downloads/">MySQL</a>, and <a href="https://flywaydb.org/">Flyway</a>.</p>
+
+<p>Once the tools are installed, log in to Cloud Foundry (CF):</p>
+
+<pre><code class="language-bash">cf login -a ${CF_API_ENDPOINT}
+# ... follow prompts ...
+</code></pre>
+
+<p>From there, the CLI can be used to explore the Cloud Foundry environment. Here are a few useful commands:</p>
+
+<pre><code class="language-bash">cf target # View the targeted organiziation or space
+cf apps # List applications in the target CF space
+cf services # List services in the target CF space
+cf marketplace # List services that can added to the target CF space
+</code></pre>
+
+<p>Additional information: <a href="https://prerequisites.pal.pivotal.io/">Platform Acceleration Lab</a></p>
+
+<h2 id="create-a-spring-boot-application">Create a Spring Boot Application</h2>
+
+<p>Start with Gradle:</p>
+
+<pre><code class="language-bash">gradle wrapper
+touch build.gradle
+</code></pre>
+
+<p>Open the project in IntelliJ using <strong>File &gt; Open</strong> rather than the import feature.</p>
+
+<p>In IntelliJ, update the <strong>build.gradle</strong> file to use the Java plug-in, reference the Maven Central repository, and apply the latest <a href="https://docs.spring.io/spring-boot/docs/2.1.2.RELEASE/gradle-plugin/reference/html/">Spring Boot Gradle plug-in</a>:</p>
+
+<pre><code class="language-groovy">
+// Gradle Configuration
+
+buildscript {
+    ext {
+        // Set Spring Boot version as variable
+        springBootVersion = &quot;2.0.6.RELEASE&quot;
+    }
+
+    repositories {
+        // Use Maven Central to get required packages
+        mavenCentral()
+    }
+
+    dependencies {
+        // Add specified version of Spring Boot to class path
+        classpath &quot;org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion&quot;
+    }
+}
+
+
+// PAL Tracker Configuration
+
+plugins {
+    // It's a Java Project!
+    id &quot;java&quot;
+}
+
+// Apply the Spring Framework plug-in
+apply plugin: 'org.springframework.boot'
+
+repositories {
+    // Use Maven Central to get required packages
+    mavenCentral()
+}
+
+dependencies {
+    // Add specified version of Spring Boot to class path
+    compile(&quot;org.springframework.boot:spring-boot-starter-web:$springBootVersion&quot;)
+}
+
+</code></pre>
+
+<p>Next, create a file <strong>settings.gradle</strong> to set the name of the Gradle project. This determines the name of the JAR file when the application is built:</p>
+
+<pre><code class="language-groovy">rootProject.name = &quot;pal-tracker&quot;
+</code></pre>
+
+<h3 id="gradle-project-structure">Gradle Project Structure</h3>
+
+<p>Create a minimal <a href="https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html">standard Maven directory layout</a>:</p>
+
+<pre><code class="language-bash">mkdir -p src/main/java
+</code></pre>
+
+<p>Use IntelliJ to create a new package called <code>io.pivotal.pal.tracker</code>. This might require setting &lsquo;src/main/java` as the &ldquo;Sources Root&rdquo; first:</p>
+
+<p><img src="/img/intellij-sources-root.png" alt="Set IntelliJ sources root" /></p>
+
+<p>With the basic project structure established, we can create a class for our application called <code>PalTrackerApplication</code>:</p>
+
+<pre><code class="language-java">package io.pivotal.pal.tracker;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+// Tell Spring Boot that this is our main entry point
+@SpringBootApplication
+public class PalTrackerApplication {
+
+    public static void main(String[] args) {
+        // Start the app
+        SpringApplication.run(PalTrackerApplication.class, args);
+    }
+
+    // Later: Register beans with @Bean
+}
+</code></pre>
+
+<p>The <code>@SpringBootApplication</code> annotation tells Spring Boot that this class contains the main entrypoint of the application. The call to <code>SpringApplication.run(...)</code> is boiler-plate to tell Spring to scan for the necessary components that will be <a href="https://martinfowler.com/articles/injection.html">injected</a> into the controllers and other classes that make up the applicaiton.</p>
+
+<p>It&rsquo;s now possible to run the application, though you&rsquo;ll receive the generic Spring Boot Whitelabel Error Page.</p>
+
+<p>To make running the application, and later tests, easier you can delegate these actions to Gradle in IntelliJ under <strong>File &gt; Settings &gt; Build, Execution, Deployment &gt; Gradle &gt; Runner</strong>:</p>
+
+<p><img src="/img/intellij-delegate-buid-run-gradle.png" alt="Delegate build run and test actions to Gradle in IntelliJ" /></p>
+
+<h3 id="create-a-rest-controller">Create a REST Controller</h3>
+
+<p>With the basic project structure in place, we can create a simple REST controller by generating a new Java class and annotating it:</p>
+
+<pre><code class="language-java">package io.pivotal.pal.tracker;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+// Tells spring that this controller provides REST end-points
+@RestController
+public class WelcomeController {
+
+    // Maps &quot;GET&quot; requests to the application root
+    @GetMapping(&quot;/&quot;)
+    public String sayHello() {
+        return &quot;hello&quot;;
+    }
+}
+</code></pre>
+
+<p>When the application is run and launched in the browser, the &ldquo;hello&rdquo; string is returned.</p>
+
+<h2 id="push-to-cloud-foundry">Push to Cloud Foundry</h2>
+
+<p>Build and deploy the application to Cloud Foundry:</p>
+
+<pre><code class="language-bash">./gradlew build # build the JAR
+cf push -p build/libs/pal-tracker.jar # deploy to CF
+</code></pre>
+
+<p>Get the application status:</p>
+
+<pre><code class="language-bash">cf app pal-tracker # Get application status
+</code></pre>
+
+<p>Get recent log output from the app:</p>
+
+<pre><code class="language-bash">cf logs --recent
+</code></pre>
+
+<p>The output of <code>cf push</code> will include a URL. Opening the URL in a web browser should bring up the application.</p>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright &copy; James Tharpe; All rights reserved.</p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
