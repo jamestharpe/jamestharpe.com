@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-961598-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-961598-2');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PCF Spring Boot Environment Basics</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/typescript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.48" />
+        
+        
+        
+    </head>
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">PCF Spring Boot Environment Basics</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/languages/">Languages</a></li>
+                            
+                                <li><a href="/tools/">Tools</a></li>
+                            
+                                <li><a href="/techniques/">Techniques</a></li>
+                            
+                                <li><a href="/hire-me/">Hire Me</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:jimmy.tharpe@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jamestharpe/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/jamestharpe/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jamestharpe/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/104763/james"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/pcf-spring-boot-environment-basics/">PCF Spring Boot Environment Basics</a></h4>
+    <h5>January 14, 2019</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="spring-boot-configuration-on-cloud-foundry">Spring Boot Configuration on Cloud Foundry</h1>
+
+<p>I took the <a href="https://courses.education.pivotal.io/c/349802825/">PCF Cloud Native Developer four day course</a> to prepare for the <a href="https://pivotal.io/training/certification/pivotal-developer-certification">Pivotal Certified Java Developer</a> exam. This was my first in-depth exposure to PCF and Spring (Boot, MVC, Cloud), so there was a lot to learn with little experience. I learned a lot and enjoyed the course.</p>
+
+<p>In my last article, I shared my notes on <a href="https://www.jamestharpe.com/pcf-spring-boot-basics/">Spring Boot and PCF basics</a>. In this article we&rsquo;ll go over <a href="https://12factor.net/config">externalizing configuration</a> and scaling the Cloud Foundry environment.</p>
+
+<h2 id="inject-environment-variables-into-a-controller">Inject Environment Variables into a Controller</h2>
+
+<p>Update the <code>WelcomeController</code> so that the <code>sayHello()</code> method returns a <code>message</code> field set by the constructor. Use the <code>@Value</code> annotation to inject the value from the environment:</p>
+
+<pre><code class="language-java">package io.pivotal.pal.tracker;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class WelcomeController {
+
+    private String message;
+
+    public WelcomeController(
+        // Injects the WELCOME_MESSAGE environment variable
+        @Value(&quot;${welcome.message}&quot;) String message
+    ) {
+        this.message = message;
+    }
+
+    @GetMapping(&quot;/&quot;)
+    public String sayHello() {
+        return message;
+    }
+}
+</code></pre>
+
+<p>Running the app now will result in a failure: <code>Could not resolve placeholder 'welcome.message' in value &quot;${welcome.message}&quot;</code>.</p>
+
+<p>To resolve this, update the <strong>build.gradle</strong> to set the <code>WELCOME_MESSAGE</code> environment variable in the <code>bootRun</code> configuration:</p>
+
+<pre><code class="language-groovy">bootRun.environment([
+     &quot;WELCOME_MESSAGE&quot;: &quot;hello&quot;,
+])
+</code></pre>
+
+<h2 id="built-in-cloud-foundry-environment-variables">Built-in Cloud Foundry Environment Variables</h2>
+
+<p>Cloud Foundry comes with several <a href="https://docs.run.pivotal.io/devguide/deploy-apps/environment-variable.html">built-in environment variables</a> accessible to your application. To show this, let&rsquo;s create a new controller called <code>EnvController</code>:</p>
+
+<pre><code class="language-java">package io.pivotal.pal.tracker;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import java.util.HashMap;
+import java.util.Map;
+
+@RestController
+public class EnvController {
+
+    private final String port;
+    private final String memoryLimit;
+    private final String cfInstanceIndex;
+    private final String cfInstanceAddress;
+
+    public EnvController(
+        // Injects the PORT environment variable, defaults to NOT SET
+        @Value(&quot;${port:NOT SET}&quot;) String port,
+        // Injects the MEMORY_LIMIT environment variable, defaults to NOT SET
+        @Value(&quot;${memory.limit:NOT SET}&quot;) String memoryLimit,
+        // Injects the CF_INSTANCE_INDEX environment variable, defaults to NOT SET
+        @Value(&quot;${cf.instance.index:NOT SET}&quot;) String cfInstanceIndex,
+        // Injects the CF_INSTANCE_ADDR environment variable, defaults to NOT SET
+        @Value(&quot;${cf.instance.addr:NOT SET}&quot;) String cfInstanceAddress
+    ) {
+        this.port = port;
+        this.memoryLimit = memoryLimit;
+        this.cfInstanceIndex = cfInstanceIndex;
+        this.cfInstanceAddress = cfInstanceAddress;
+    }
+
+    // Maps GET requests to /env
+    @GetMapping(&quot;/env&quot;)
+    public Map&lt;String, String&gt; getEnv() {
+        Map&lt;String, String&gt; result = new HashMap&lt;&gt;();
+        result.put(&quot;PORT&quot;, port);
+        result.put(&quot;MEMORY_LIMIT&quot;, memoryLimit);
+        result.put(&quot;CF_INSTANCE_INDEX&quot;, cfInstanceIndex);
+        result.put(&quot;CF_INSTANCE_ADDR&quot;, cfInstanceAddress);
+        return result;
+    }
+}
+</code></pre>
+
+<p>Run the app and visit the <code>/env</code> end-point to see the output in your local environment:</p>
+
+<pre><code class="language-json">{
+    &quot;PORT&quot;: &quot;NOT SET&quot;,
+    &quot;CF_INSTANCE_ADDR&quot;: &quot;NOT SET&quot;,
+    &quot;CF_INSTANCE_INDEX&quot;: &quot;NOT SET&quot;,
+    &quot;MEMORY_LIMIT&quot;: &quot;NOT SET&quot;
+}
+</code></pre>
+
+<h3 id="set-environment-variables-in-cloud-foundry">Set Environment Variables in Cloud Foundry</h3>
+
+<p>Deploy the app to see what happens in production:</p>
+
+<pre><code class="language-bash">cf push -p build/libs/pal-tracker.jar
+</code></pre>
+
+<p>The app will crash because the <code>WELCOME_MESSAGE</code> environment variable isn&rsquo;t set. The environment variable can be set using <code>cf set-env</code> then restaging:</p>
+
+<pre><code class="language-bash">cf set-env pal-tracker WELCOME_MESSAGE hi
+cf restage pal-tracker # no need to re-push
+</code></pre>
+
+<p>Now when you check the Cloud Foundry endpoint, it will have the actual values:</p>
+
+<pre><code class="language-json">{
+    &quot;PORT&quot;: &quot;80&quot;,
+    &quot;CF_INSTANCE_ADDR&quot;: &quot;1.2.3.4:80&quot;,
+    &quot;CF_INSTANCE_INDEX&quot;: &quot;1&quot;,
+    &quot;MEMORY_LIMIT&quot;: &quot;1GB&quot;
+}
+</code></pre>
+
+<h2 id="scale-your-cloud-foundry-app">Scale your Cloud Foundry App</h2>
+
+<p>Scaling can be done horizontally, vertically, or both using the <code>cf scale</code> command:</p>
+
+<pre><code class="language-bash"># Scale to 3 instances, 2GB storage, 1024M memory and force a restart
+cf scale APP -i 3 -k 2G -m 1024M -f
+</code></pre>
+
+<p>Check on the process by running <code>cf app pal-tracker</code>.</p>
+
+<h2 id="use-a-manifest-file">Use a Manifest File</h2>
+
+<p>The <a href="https://docs.cloudfoundry.org/devguide/deploy-apps/manifest.html">manifest.yml</a> specified an application&rsquo;s environment defaults, so they only need to be managed with the CLI if they need to be overridden. Rather than setting the <code>WELCOME_MESSAGE</code> value using <code>cf set-env</code>, the value can be specified in the <strong>manifest.yml</strong>:</p>
+
+<pre><code class="language-yaml">---
+applications:
+- name: pal-tracker
+  path: build/libs/pal-tracker.jar
+  env:
+    WELCOME_MESSAGE: Hello from the Manifest
+</code></pre>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright &copy; James Tharpe; All rights reserved.</p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

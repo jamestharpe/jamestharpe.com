@@ -6,10 +6,20 @@
     <description>Recent content in Pal Tracker on James Tharpe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Jan 2019 17:06:34 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 14 Jan 2019 20:25:15 -0500</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/projects/pal-tracker/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PCF Spring Boot Environment Basics</title>
+      <link>https://www.jamestharpe.com/pcf-spring-boot-environment-basics/</link>
+      <pubDate>Mon, 14 Jan 2019 20:25:15 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/pcf-spring-boot-environment-basics/</guid>
+      <description>Spring Boot Configuration on Cloud Foundry I took the PCF Cloud Native Developer four day course to prepare for the Pivotal Certified Java Developer exam. This was my first in-depth exposure to PCF and Spring (Boot, MVC, Cloud), so there was a lot to learn with little experience. I learned a lot and enjoyed the course.
+In my last article, I shared my notes on Spring Boot and PCF basics.</description>
+    </item>
     
     <item>
       <title>Pivotal Cloud Foundry (PCF) with Spring Boot Basics</title>

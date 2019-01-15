@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jamestharpe.com/pcf-spring-boot-environment-basics/</loc>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/pcf-spring-boot-basics/</loc>
     <lastmod>2019-01-14T17:06:34-05:00</lastmod>
   </url>
@@ -119,7 +124,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/tools/gradle/</loc>
-    <lastmod>2019-01-14T17:06:34-05:00</lastmod>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -137,13 +142,13 @@
   
   <url>
     <loc>https://www.jamestharpe.com/tools/intellij/</loc>
-    <lastmod>2019-01-14T17:06:34-05:00</lastmod>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.jamestharpe.com/</loc>
-    <lastmod>2019-01-14T17:06:34-05:00</lastmod>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -155,7 +160,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/languages/java/</loc>
-    <lastmod>2019-01-14T17:06:34-05:00</lastmod>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -173,7 +178,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/techniques/microservices/</loc>
-    <lastmod>2019-01-14T17:06:34-05:00</lastmod>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -191,13 +196,13 @@
   
   <url>
     <loc>https://www.jamestharpe.com/projects/pal-tracker/</loc>
-    <lastmod>2019-01-14T17:06:34-05:00</lastmod>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.jamestharpe.com/frameworks/pivotal-application-services-pas/</loc>
-    <lastmod>2019-01-14T17:06:34-05:00</lastmod>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -239,7 +244,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/frameworks/spring/</loc>
-    <lastmod>2019-01-14T17:06:34-05:00</lastmod>
+    <lastmod>2019-01-14T20:25:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
