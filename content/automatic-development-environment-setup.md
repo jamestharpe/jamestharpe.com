@@ -6,9 +6,9 @@ tools: [ "Chocolatey" ]
 techniques: [ "Everything in Version Control", "GROWS" ]
 draft: false
 ---
-# How to Automate Your Development Environment Setup
+# How to Automate Development Environment Setup
 
-Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it's easy to forget some bit of configuration or to install some critical software. By following the GROWS [everything in version control](http://growsmethod.com/practices/EverythingInVC.html) practice, it's easy to save a ton of time and minimize disruption by automating the process.
+Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it's easy to forget some bit of configuration or forget to install some critical software. By following the GROWS [everything in version control](http://growsmethod.com/practices/EverythingInVC.html) practice, it's easy to save a ton of time and minimize disruption by automating the process.
 
 Most of the software I write is developed on Windows, so I decided to write the script using PowerShell and [Chocolatey](https://chocolatey.org/). MacOS users can follow a similar pattern using [Homebrew](https://brew.sh/).
 
