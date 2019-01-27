@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bash on James Tharpe</title>
+    <link>https://www.jamestharpe.com/languages/bash/</link>
+    <description>Recent content in Bash on James Tharpe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 27 Jan 2019 09:05:47 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.jamestharpe.com/languages/bash/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DynamoDB &amp; CloudFormation: Add a Local Secondary Index to Existing Table</title>
+      <link>https://www.jamestharpe.com/dynamodb-local-secondary-index-existing-table-cloudformation/</link>
+      <pubDate>Sun, 27 Jan 2019 09:05:47 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/dynamodb-local-secondary-index-existing-table-cloudformation/</guid>
+      <description>DynamoDB Local Secondary Index A local secondary index essentially gives DynamoDB tables an additional sort key by which to query data. I recently needed to add a local secondary index to an existing DynamoDB table through CloudFormation so that I could query objects by the modified column value without scanning. Unfortunatly, this isn&amp;rsquo;t as easy as simply adding the LocalSecondaryIndexes element to the CloudFormation script.
+Adding a local secondary index requires replacing the table, which creates the challenge of preserving the table data during the upgrade.</description>
+    </item>
+    
+  </channel>
+</rss>

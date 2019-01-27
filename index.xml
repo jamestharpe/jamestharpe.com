@@ -6,10 +6,20 @@
     <description>Recent content on James Tharpe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Jan 2019 07:09:18 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 09:05:47 -0500</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DynamoDB &amp; CloudFormation: Add a Local Secondary Index to Existing Table</title>
+      <link>https://www.jamestharpe.com/dynamodb-local-secondary-index-existing-table-cloudformation/</link>
+      <pubDate>Sun, 27 Jan 2019 09:05:47 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/dynamodb-local-secondary-index-existing-table-cloudformation/</guid>
+      <description>DynamoDB Local Secondary Index A local secondary index essentially gives DynamoDB tables an additional sort key by which to query data. I recently needed to add a local secondary index to an existing DynamoDB table through CloudFormation so that I could query objects by the modified column value without scanning. Unfortunatly, this isn&amp;rsquo;t as easy as simply adding the LocalSecondaryIndexes element to the CloudFormation script.
+Adding a local secondary index requires replacing the table, which creates the challenge of preserving the table data during the upgrade.</description>
+    </item>
     
     <item>
       <title>Database as Code on Cloud Foundry with Flyway</title>
@@ -49,6 +59,17 @@ In my last article, I shared my notes on Spring Boot and PCF basics.</descriptio
       <guid>https://www.jamestharpe.com/pcf-spring-boot-basics/</guid>
       <description>PCF Cloud Native Developer I took the PCF Cloud Native Developer four day course to prepare for the Pivotal Certified Java Developer exam. This was my first in-depth exposure to PCF and Spring (Boot, MVC, Cloud), so there was a lot to learn with little experience. I learned a lot and enjoyed the course.
 The course is very hands-on: The instructors introduce a concept at a high level, then you and a pairing partner must implement it in a real application.</description>
+    </item>
+    
+    <item>
+      <title>Build a Donkey Car (Part 1 of 2)</title>
+      <link>https://www.jamestharpe.com/donkeycar-build/</link>
+      <pubDate>Sun, 09 Dec 2018 11:51:09 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/donkeycar-build/</guid>
+      <description>Building our First Donkey Car Donkey Car is an opensource project for developing self-driving small scale cars. Over the weekend, my daughter and I built one!
+We found the Donkey Car docs a bit difficult to follow, and just plain wrong, in a few places. Yet we managed to muddle our way through, despite a few mistakes along the way. Here&amp;rsquo;s what we ended up doing.
+The Parts Here are the parts we ordered to build the car (prices as-of 2018-12-09:</description>
     </item>
     
     <item>
@@ -120,7 +141,7 @@ $ docker build -t nodeapp . Sending build context to Docker daemon 53.</descript
       <pubDate>Mon, 18 Sep 2017 11:42:46 -0400</pubDate>
       
       <guid>https://www.jamestharpe.com/automatic-development-environment-setup/</guid>
-      <description>How to Automate Your Development Environment Setup Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it&amp;rsquo;s easy to forget some bit of configuration or to install some critical software. By following the GROWS everything in version control practice, it&amp;rsquo;s easy to save a ton of time and minimize disruption by automating the process.
+      <description>How to Automate Development Environment Setup Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it&amp;rsquo;s easy to forget some bit of configuration or forget to install some critical software. By following the GROWS everything in version control practice, it&amp;rsquo;s easy to save a ton of time and minimize disruption by automating the process.
 Most of the software I write is developed on Windows, so I decided to write the script using PowerShell and Chocolatey.</description>
     </item>
     

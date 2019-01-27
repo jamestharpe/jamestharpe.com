@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-961598-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-961598-2');
+</script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Build a Donkey Car (Part 1 of 2)</title>
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/c#.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/css.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/http.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/ruby.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/bash.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/javascript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/groovy.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/json.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/markdown.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/powershell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/typescript.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.48" />
+        
+        
+        
+    </head>
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Build a Donkey Car (Part 1 of 2)</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/languages/">Languages</a></li>
+                            
+                                <li><a href="/tools/">Tools</a></li>
+                            
+                                <li><a href="/techniques/">Techniques</a></li>
+                            
+                                <li><a href="/hire-me/">Hire Me</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:jimmy.tharpe@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/jamestharpe/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/jamestharpe/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/jamestharpe/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://stackoverflow.com/users/104763/james"><i class="fa fa-stack-overflow"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/donkeycar-build/">Build a Donkey Car (Part 1 of 2)</a></h4>
+    <h5>December 9, 2018</h5>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+<h1 id="building-our-first-donkey-car">Building our First Donkey Car</h1>
+
+<p><a href="http://www.donkeycar.com/">Donkey Car</a> is an opensource project for developing self-driving small scale cars. Over the weekend, my daughter and I built one!</p>
+
+<p>We found the <a href="http://docs.donkeycar.com/">Donkey Car docs</a> a bit difficult to follow, and just plain wrong, in a few places. Yet we managed to muddle our way through, despite a few mistakes along the way. Here&rsquo;s what we ended up doing.</p>
+
+<h2 id="the-parts">The Parts</h2>
+
+<p>Here are the parts we ordered to build the car (prices as-of 2018-12-09:</p>
+
+<table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Price</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><a href="https://squareup.com/store/donkeycar/item/magnet-partial-kit">Magnet Partial Kit</a></td>
+<td>$85.00</td>
+<td>Includes the chassis, screws, camera, jumper wires, and servo driver</td>
+</tr>
+
+<tr>
+<td><a href="https://amzn.to/2L65HJP"><sup>1</sup>&frasl;<sub>16</sub> 2.4Ghz Exceed RC Magnet EP Electric RTR Off Road Truck</a></td>
+<td>$89.95</td>
+<td>Hobby-level RC car</td>
+</tr>
+
+<tr>
+<td><a href="https://amzn.to/2QH5e61">Raspberry Pi 3 B+</a></td>
+<td>$38.50</td>
+<td>A very, very small computer. About the size of a credit card!</td>
+</tr>
+
+<tr>
+<td><a href="https://amzn.to/2Qk54SR">Anker Astro E1 External Battery Power Bank</a></td>
+<td>$23.99</td>
+<td>Power supply for the Raspberry Pi</td>
+</tr>
+
+<tr>
+<td><strong>Total:</strong></td>
+<td><strong>$237.44</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="why-the-exceed-magnet">Why the Exceed Magnet</h3>
+
+<p>We chose the Exceed Magnet RC Truck because it&rsquo;s the easiest and cheapest build for Donkey Car. Using the Magnet Partial Kit, no additional adapters are needed. However, it&rsquo;s worth noting that the jumper wires that came with the kit were too short! We ended up using longer jumper wires we purchased from Amazon.</p>
+
+<h3 id="tools-required">Tools Required</h3>
+
+<p>We also ended up needing a small phillips-head screwdriver and some <a href="https://amzn.to/2PteshQ">zip ties</a>, both of which we happend to have already.</p>
+
+<h2 id="building-the-car">Building The Car</h2>
+
+<p>As mentioned, the documents were sometimes confusing and wrong. A complete list of corrections we found are at the bottom of this article. These build instructions might be more helpful until the main Donkey Car documentation is updated.</p>
+
+<h3 id="assemble-the-top-plate-and-roll-cage">Assemble the Top Plate and Roll Cage</h3>
+
+<p>The Magnet Partial Kit came with a 3D printed top plate and roll cage. To assemble them, simply screw them together with the provided screws. We ended up attaching the top plate upside down!</p>
+
+<p><img src="/img/donkey-car-top-plate-roll-cage.jpg" alt="Donkey Car Top Plate and Roll Cage" /></p>
+
+<p>We&rsquo;ll fix ours later, but if you&rsquo;re following along at home note that the nubs should face the roll cage!</p>
+
+<h3 id="connect-the-servo-driver-to-the-raspberry-pi">Connect the Servo Driver to the Raspberry Pi</h3>
+
+<p>Connecting the servo driver to the Raspberry Pi was straight forward using the jumperwires from the Magnet Partial Kit:</p>
+
+<p><img src="/img/connect-servo-driver-raspberry-pi.jpg" alt="Connect servo driver to Raspberry Pi" /></p>
+
+<p>Unfortunatly, we found out quickly that the provided jumper wires were too short! Luckily, we had some extras laying around from the <a href="https://github.com/tmobile/pi-alarm">Pi Alarm</a> project I participated in with T-Mobile.</p>
+
+<h3 id="mount-the-raspberry-pi-and-servo-driver-to-the-top-plate">Mount the Raspberry Pi and Servo Driver to the Top Plate</h3>
+
+<p>In this step, we ran into two already mentioned problems:</p>
+
+<ol>
+<li>We had mounted the top plate upside down</li>
+<li>The jumper wires were too short</li>
+</ol>
+
+<p>For the top-plate, we left it as-is. For the jumper-wires, we just got longer ones then <a href="https://twitter.com/jamestharpe/status/1071844187073593344">tweeted</a> <a href="https://twitter.com/acb0t">Adam Conway</a> (from Donkey Car) to let him know of the issue.</p>
+
+<p><img src="/img/mount-raspberry-pi-donkey-car-top-plate.jpg" alt="Mount Raspberry Pi to Top Plate" /></p>
+
+<p>With the new jumper wires:</p>
+
+<p><img src="/img/donkey-car-longer-jumper-wires.jpg" alt="Replaced jumper wires" /></p>
+
+<p>Alternativly, we could have rotated the servo driver 180° and that would have worked. In this case, however, our servo driver orientation is the same as the official build instructions suggest.</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/acb0t?ref_src=twsrc%5Etfw">@acb0t</a> ! Just successfully completed my first <a href="https://twitter.com/donkey_car?ref_src=twsrc%5Etfw">@donkey_car</a> build - thanks for the great work and the kit! Thought you should know: I had to replace the jumper wires because the ones provided were too short. My daughter and I are super pleased, nonetheless, thanks again!</p>&mdash; James Tharpe (@jamestharpe) <a href="https://twitter.com/jamestharpe/status/1071844187073593344?ref_src=twsrc%5Etfw">December 9, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<h3 id="attach-the-usb-battery">Attach the USB Battery</h3>
+
+<p>The build instructions for Donky Car only stated:</p>
+
+<blockquote>
+<p>Attach the USB battery to the underside of the printed bottom plate using cable ties or velcro.</p>
+</blockquote>
+
+<p>We interpreted the instructions according to this picture:</p>
+
+<p><img src="/img/donkey-car-usb-battery-attached-wrong.jpg" alt="Incorrectly attached USB Battery" /></p>
+
+<p>When we tried to attach the top plate and roll cage to the RC Car, it wouldn&rsquo;t fit. We instead ended up attaching it to the back of the roll cage.</p>
+
+<p><img src="/img/donkey-car-usb-battery-attached-correct.jpg" alt="Correctly attached USB Battery" /></p>
+
+<h3 id="attach-the-camera">Attach the Camera</h3>
+
+<p>Finally, something that went exactly as anticipated! Attaching the camera was as easy as sliding it into the provided slot.</p>
+
+<p><img src="/img/donkey-car-mounted-camera.jpg" alt="Camera mounted to Donkey Car" /></p>
+
+<p>Connecting the camera ribbon to the Raspberry Pi was a bit tricky, but this video cleared things up:</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/T8T6S5eFpqE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<p>(Skip to <a href="https://youtu.be/T8T6S5eFpqE?t=117">1:57</a> for how to attach the ribbon)</p>
+
+<p>We had to put a twist in the ribbon to face the connector the right way.</p>
+
+<p><img src="/img/donkey-car-connect-camera-raspberry-pi.jpg" alt="Camera connected to Raspberry Pi" /></p>
+
+<h3 id="mounting-the-car">Mounting the Car</h3>
+
+<p>The top plate has holes designed to accomodate the Exceed Magnet RC Car, but the fit was so tight that we could not push the top plate far enough down so that the pins could be put in as suggested by the instructions. It seems secure enough without the pins, but I might try re-drilling the holes later to prevent it from coming apart.</p>
+
+<p>Once attached, our Donkey Car is starting to look nearly complete!</p>
+
+<p><img src="/img/donkey-car-mounted-to-rc-car-base.jpg" alt="Donkey Car Mounted to RC Car Base" /></p>
+
+<h3 id="connecting-the-servo-cables">Connecting the Servo Cables</h3>
+
+<p>The last step of the physical build is to connect the RC car&rsquo;s servo cables to the mounted servo driver. Except that we weren&rsquo;t sure which cables were the servo cables, this was drivial.</p>
+
+<p>First, we did some Googling and found that these are the servo cables:</p>
+
+<p><img src="/img/exceed-magnet-servo-cables.jpg" alt="Exceed Magnet Servo Cables" /></p>
+
+<p>One cable is left-right, the other is forward-reverse. We unplugged them from the RC car and ran them up through the bottom plate then connected them to channles 0 and 1 on the servo driver:</p>
+
+<p><img src="/img/servo-driver-cables-connected.jpg" alt="Servo Cables connected to servo driver" /></p>
+
+<h3 id="build-complete">Build Complete</h3>
+
+<p>With everything connected, we just need to install the Donkey Car software and do some calibration to start driving!</p>
+
+<h2 id="donkey-car-documentation-updates-and-corrections">Donkey Car Documentation Updates and Corrections</h2>
+
+<p>During the build, we submitted the following pull requests to correct the official Donky Car documentation:</p>
+
+<ol>
+<li><a href="https://github.com/autorope/donkeycar/pull/359">Remove unneeded nut reference</a></li>
+<li><a href="https://github.com/autorope/donkeycar/pull/361">Clarify top plate orientation to roll cage</a></li>
+<li><a href="https://github.com/autorope/donkeycar/pull/362">USB Battery does not fit on plate underside</a></li>
+</ol>
+</div>
+
+    
+    
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Copyright &copy; James Tharpe; All rights reserved.</p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

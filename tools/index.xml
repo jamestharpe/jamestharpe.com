@@ -6,10 +6,19 @@
     <description>Recent content in Tools on James Tharpe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Dec 2017 12:10:14 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 09:05:47 -0500</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/tools/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aws Cli</title>
+      <link>https://www.jamestharpe.com/tools/aws-cli/</link>
+      <pubDate>Sun, 27 Jan 2019 09:05:47 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/aws-cli/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aws Ses</title>
@@ -30,11 +39,29 @@
     </item>
     
     <item>
+      <title>Cloudformation</title>
+      <link>https://www.jamestharpe.com/tools/cloudformation/</link>
+      <pubDate>Sun, 27 Jan 2019 09:05:47 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/cloudformation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Docker</title>
       <link>https://www.jamestharpe.com/tools/docker/</link>
       <pubDate>Tue, 07 Nov 2017 13:44:06 -0500</pubDate>
       
       <guid>https://www.jamestharpe.com/tools/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamodb</title>
+      <link>https://www.jamestharpe.com/tools/dynamodb/</link>
+      <pubDate>Sun, 27 Jan 2019 09:05:47 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/dynamodb/</guid>
       <description></description>
     </item>
     
@@ -93,11 +120,38 @@
     </item>
     
     <item>
+      <title>Jq</title>
+      <link>https://www.jamestharpe.com/tools/jq/</link>
+      <pubDate>Sun, 27 Jan 2019 09:05:47 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/jq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Mysql</title>
       <link>https://www.jamestharpe.com/tools/mysql/</link>
       <pubDate>Tue, 15 Jan 2019 07:09:18 -0500</pubDate>
       
       <guid>https://www.jamestharpe.com/tools/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://www.jamestharpe.com/tools/raspberry-pi/</link>
+      <pubDate>Sun, 09 Dec 2018 11:51:09 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rc Car</title>
+      <link>https://www.jamestharpe.com/tools/rc-car/</link>
+      <pubDate>Sun, 09 Dec 2018 11:51:09 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/tools/rc-car/</guid>
       <description></description>
     </item>
     

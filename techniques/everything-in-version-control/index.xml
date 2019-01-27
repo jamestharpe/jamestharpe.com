@@ -17,7 +17,7 @@
       <pubDate>Mon, 18 Sep 2017 11:42:46 -0400</pubDate>
       
       <guid>https://www.jamestharpe.com/automatic-development-environment-setup/</guid>
-      <description>How to Automate Your Development Environment Setup Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it&amp;rsquo;s easy to forget some bit of configuration or to install some critical software. By following the GROWS everything in version control practice, it&amp;rsquo;s easy to save a ton of time and minimize disruption by automating the process.
+      <description>How to Automate Development Environment Setup Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it&amp;rsquo;s easy to forget some bit of configuration or forget to install some critical software. By following the GROWS everything in version control practice, it&amp;rsquo;s easy to save a ton of time and minimize disruption by automating the process.
 Most of the software I write is developed on Windows, so I decided to write the script using PowerShell and Chocolatey.</description>
     </item>
     

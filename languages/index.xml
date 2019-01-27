@@ -6,10 +6,19 @@
     <description>Recent content in Languages on James Tharpe</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Oct 2017 17:33:25 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 27 Jan 2019 09:05:47 -0500</lastBuildDate>
     
 	<atom:link href="https://www.jamestharpe.com/languages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bash</title>
+      <link>https://www.jamestharpe.com/languages/bash/</link>
+      <pubDate>Sun, 27 Jan 2019 09:05:47 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/languages/bash/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dockerfile</title>
@@ -48,6 +57,15 @@
     </item>
     
     <item>
+      <title>Python</title>
+      <link>https://www.jamestharpe.com/languages/python/</link>
+      <pubDate>Sun, 09 Dec 2018 11:51:09 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/languages/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Shell</title>
       <link>https://www.jamestharpe.com/languages/shell/</link>
       <pubDate>Mon, 04 Sep 2017 06:24:27 -0400</pubDate>
@@ -80,6 +98,15 @@
       <pubDate>Sun, 17 Dec 2017 12:10:14 -0400</pubDate>
       
       <guid>https://www.jamestharpe.com/languages/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yaml</title>
+      <link>https://www.jamestharpe.com/languages/yaml/</link>
+      <pubDate>Sun, 27 Jan 2019 09:05:47 -0500</pubDate>
+      
+      <guid>https://www.jamestharpe.com/languages/yaml/</guid>
       <description></description>
     </item>
     
