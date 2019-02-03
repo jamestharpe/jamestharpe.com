@@ -288,15 +288,15 @@
 </tr>
 
 <tr>
-<td>`</td>
-<td></td>
-<td>`</td>
+<td><code>&#124;&#124;</code></td>
+<td>Chain commands, if failure</td>
+<td><code>mkdir a &#124;&#124; mkdir b</code> will call <code>mkdir b</code> only if <code>mkdir a</code> fails</td>
 </tr>
 
 <tr>
-<td>`</td>
-<td>`</td>
+<td><code>&#124;</code></td>
 <td>Pass command output as input to next command</td>
+<td><code>ps -ef &#124; less</code> will use <code>less</code> to scroll through output of <code>pf -es</code></td>
 </tr>
 </tbody>
 </table>
