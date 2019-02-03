@@ -50,3 +50,4 @@ Here's what I learned.
 
 * [Terminal Cheetsheet for Mac](https://github.com/0nn0/terminal-mac-cheatsheet)
 * [Git Bash Shortcuts for Windows](https://gist.github.com/tuxfight3r/60051ac67c5f0445efee)
+* [Julia Evans's Twitter Feed](https://twitter.com/b0rk)
