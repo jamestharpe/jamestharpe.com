@@ -12,7 +12,7 @@
 </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Serverless Architecture</title>
+        <title>Terminal Shortcuts</title>
         <style>
 
     html body {
@@ -68,9 +68,6 @@
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
  <meta name="generator" content="Hugo 0.54.0" />
         
-        <link href="https://www.jamestharpe.com/techniques/serverless-architecture/index.xml" rel="alternate" type="application/rss+xml" title="James Tharpe" />
-        <link href="https://www.jamestharpe.com/techniques/serverless-architecture/index.xml" rel="feed" type="application/rss+xml" title="James Tharpe" />
-        
         
         
     </head>
@@ -83,7 +80,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Serverless Architecture</a>
+                    <a class="navbar-brand visible-xs" href="#">Terminal Shortcuts</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -134,9 +131,7 @@
 
 <main>
 
-    <h2>Serverless Architecture</h2>
-
-     <div class="item">
+    <div class="item">
 
     
     
@@ -145,30 +140,175 @@
     
     
 
-    <h4><a href="/serverless-aws-backend/">Serverless Framework: Contact form with TypeScript on AWS</a></h4>
-    <h5>December 17, 2017</h5>
+    <h4><a href="/terminal-shortcuts/">Terminal Shortcuts</a></h4>
+    <h5>February 2, 2019</h5>
     
 
 </div>
-  <div class="item">
 
-    
-    
-    
 
-    
-    
+    <br> <div class="text-justify">
 
-    <h4><a href="/serverless-typescript-getting-started/">Serverless Framework with TypeScript and AWS: Getting Started</a></h4>
-    <h5>December 10, 2017</h5>
-    
+<h1 id="use-the-terminal-faster">Use the Terminal <em>Faster</em></h1>
 
+<p>I&rsquo;ve always been a fan of working faster with <a href="/techniques/shortcuts/">shortcuts</a> and the terminal is no exception. I recently took some time to learn some terminal shortcuts to make working with CLIs faster.</p>
+
+<p>Here&rsquo;s what I learned.</p>
+
+<h2 id="terminal-keyboard-shortcuts">Terminal Keyboard Shortcuts</h2>
+
+<table>
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Use</th>
+<th>Notes</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>⬆</code></td>
+<td>Scroll up through previous commands</td>
+<td></td>
+</tr>
+
+<tr>
+<td><code>⬇</code></td>
+<td>Scroll down through previous commands</td>
+<td></td>
+</tr>
+
+<tr>
+<td><code>Ctrl</code>+<code>a</code></td>
+<td>Jump to beginning of line</td>
+<td>Works in most text editors</td>
+</tr>
+
+<tr>
+<td><code>Ctrl</code>+<code>e</code></td>
+<td>Jump to end of line</td>
+<td>Works in most text editors</td>
+</tr>
+
+<tr>
+<td><code>Ctrl</code>+<code>l</code></td>
+<td>Clear screen</td>
+<td>Similar to the <code>clear</code> command</td>
+</tr>
+
+<tr>
+<td><code>Ctrl</code>+<code>r</code></td>
+<td>Search &amp; execute previous command</td>
+<td></td>
+</tr>
+
+<tr>
+<td><code>Ctrl</code>+<code>u</code></td>
+<td>Delete everything to the left of the cursor</td>
+<td>Works in VS Code</td>
+</tr>
+
+<tr>
+<td><code>Ctrl</code>+<code>k</code></td>
+<td>Delete everything to the right of the cursor</td>
+<td>Works in VS Code</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="terminal-command-shortcuts">Terminal Command Shortcuts</h2>
+
+<table>
+<thead>
+<tr>
+<th>Command</th>
+<th>Use</th>
+<th>Example</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>history</code></td>
+<td>Show list of previous commands</td>
+<td><code>history 5</code> will show last five commands executed</td>
+</tr>
+
+<tr>
+<td><code>!123</code></td>
+<td>Execute command <code>123</code> from history</td>
+<td><code>sudo !123</code> will execute command 123 from history with <code>sudo</code></td>
+</tr>
+
+<tr>
+<td><code>!!</code></td>
+<td>Execute previous command</td>
+<td><code>sudo !!</code> will execute the last command with sudo</td>
+</tr>
+
+<tr>
+<td><code>&amp;</code></td>
+<td>Run command in background</td>
+<td><code>hugo serve &amp;</code> will run <a href="/tools/hugo/"><code>hugo serve</code></a> in the background</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="terminal-command-chains">Terminal Command Chains</h2>
+
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Use</th>
+<th>Example</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>;</code></td>
+<td>Chain commands, despite failure</td>
+<td><code>mkdir a; mkdir b</code> will call <code>mkdir b</code> whether <code>mkdir a</code> suceeds or not</td>
+</tr>
+
+<tr>
+<td><code>&amp;&amp;</code></td>
+<td>Chain commands, if succesful</td>
+<td><code>mkdir a &amp;&amp; mkdir b</code> will call <code>mkdir b</code> only if <code>mkdir a</code> succeeds</td>
+</tr>
+
+<tr>
+<td>`</td>
+<td></td>
+<td>`</td>
+</tr>
+
+<tr>
+<td>`</td>
+<td>`</td>
+<td>Pass command output as input to next command</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="more-resources">More Resources</h2>
+
+<ul>
+<li><a href="https://github.com/0nn0/terminal-mac-cheatsheet">Terminal Cheetsheet for Mac</a></li>
+<li><a href="https://gist.github.com/tuxfight3r/60051ac67c5f0445efee">Git Bash Shortcuts for Windows</a></li>
+</ul>
 </div>
- 
+
+    
+    
+
+    
+
+    
 
 </main>
-
-
 
         <footer>
 

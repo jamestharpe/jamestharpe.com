@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.jamestharpe.com/terminal-shortcuts/</loc>
+    <lastmod>2019-02-02T18:11:15-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.jamestharpe.com/dynamodb-local-secondary-index-existing-table-cloudformation/</loc>
     <lastmod>2019-01-27T09:05:47-05:00</lastmod>
   </url>
@@ -228,7 +233,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/</loc>
-    <lastmod>2019-01-27T09:05:47-05:00</lastmod>
+    <lastmod>2019-02-02T18:11:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -342,7 +347,7 @@
   
   <url>
     <loc>https://www.jamestharpe.com/techniques/shortcuts/</loc>
-    <lastmod>2018-04-28T08:03:28-04:00</lastmod>
+    <lastmod>2019-02-02T18:11:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -367,6 +372,12 @@
   <url>
     <loc>https://www.jamestharpe.com/techniques/</loc>
     <lastmod>2019-01-27T09:05:47-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.jamestharpe.com/tools/terminal/</loc>
+    <lastmod>2019-02-02T18:11:15-05:00</lastmod>
     <priority>0</priority>
   </url>
   
