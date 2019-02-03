@@ -12,7 +12,7 @@ theme = "minimal"
 
 [params]
     author = "James Tharpe"
-    description = "Things I'm Learning"
+    description = "Things I've Learned"
     copyright = "Copyright &copy; James Tharpe; All rights reserved."
     css = ["/css/styles.css"]
     githubUsername = "jamestharpe"
