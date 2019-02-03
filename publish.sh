@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 echo "Deleting old publication"
 rm -rf public
 mkdir public
