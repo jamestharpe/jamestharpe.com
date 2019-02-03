@@ -32,19 +32,19 @@ Here's what I learned.
 
 | Command   | Use                                | Example                                                                |
 | --------- | ---------------------------------- | ---------------------------------------------------------------------- |
-| `history`  | Show list of previous commands     | `history 5` will show last five commands executed                      |
+| `history` | Show list of previous commands     | `history 5` will show last five commands executed                      |
 | `!123`    | Execute command `123` from history | `sudo !123` will execute command 123 from history with `sudo`          |
 | `!!`      | Execute previous command           | `sudo !!` will execute the last command with sudo                      |
 | `&`       | Run command in background          | `hugo serve &` will run [`hugo serve`](/tools/hugo/) in the background |
 
 ## Terminal Command Chains
 
-| Operator | Use                                          | Example                                                                 |
-| -------- | -------------------------------------------- | ----------------------------------------------------------------------- |
-| `;`      | Chain commands, despite failure              | `mkdir a; mkdir b` will call `mkdir b` whether `mkdir a` suceeds or not |
-| `&&`     | Chain commands, if succesful                 | `mkdir a && mkdir b` will call `mkdir b` only if `mkdir a` succeeds     |
-| `||`     | Chain commands, if failure                   | `mkdir a || mkdir b` will call `mkdir b` only of `mkdir a` fails        |
-| `|`      | Pass command output as input to next command | `ps -ef | less` will use `less` to scroll through output of `pf -es`    |
+| Operator                  | Use                                          | Example                                                                               |
+| ------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------- |
+| `;`                       | Chain commands, despite failure              | `mkdir a; mkdir b` will call `mkdir b` whether `mkdir a` suceeds or not               |
+| `&&`                      | Chain commands, if succesful                 | `mkdir a && mkdir b` will call `mkdir b` only if `mkdir a` succeeds                   |
+| <code>&#124;&#124;</code> | Chain commands, if failure                   | <code>mkdir a &#124;&#124; mkdir b</code> will call `mkdir b` only if `mkdir a` fails |
+| <code>&#124;</code>       | Pass command output as input to next command | <code>ps -ef &#124; less</code> will use `less` to scroll through output of `pf -es`             |
 
 ## More Resources
 
