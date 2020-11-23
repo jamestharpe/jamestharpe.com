@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 module.exports = {
 	siteMetadata: {
-		title: `James's Learn Book`,
+		title: `James's Learn Graph`,
 		description: `This website captures knowledge so I can refer to it later.`,
 		author: `@jamestharpe`
 	},
@@ -66,12 +66,6 @@ module.exports = {
 			}
 		},
 		{
-			resolve: `gatsby-transformer-remark`,
-			options: {
-				plugins: [`gatsby-remark-prismjs`]
-			}
-		},
-		{
 			resolve: `gatsby-plugin-lunr`,
 			options: {
 				languages: [
@@ -116,6 +110,14 @@ module.exports = {
 			resolve: `gatsby-transformer-remark`,
 			options: {
 				plugins: [
+					{
+						resolve: "gatsby-remark-graph",
+						options: {
+							// this is the language in your code-block that triggers mermaid parsing
+							language: "mermaid", // default
+							theme: "forest" // default, dark, forest, or neutral
+						}
+					},
 					{
 						resolve: `gatsby-remark-prismjs`,
 						options: {

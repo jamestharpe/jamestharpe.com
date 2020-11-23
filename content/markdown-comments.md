@@ -1,9 +1,8 @@
 ---
-title: "Markdown Code Comments"
 date: 2017-10-26T18:17:11-04:00
-tags: ["markdown"]
 redirect_from: ["/code-comments-markdown/"]
-draft: false
+tags: ["markdown"]
+title: "Markdown Code Comments"
 ---
 
 # How to Comment a Markdown File

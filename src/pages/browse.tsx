@@ -21,10 +21,10 @@ type BrowsePageData = {
 const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => (
 	<Layout location={location}>
 		<SEO
-			title="Browse James's Learn Book"
-			description="Browse James Tharpe's Learn Book"
+			title="Browse James's Learn Graph: Topics"
+			description="Browse James Tharpe's Learn Graph"
 		/>
-		<h1>Browse the Learn Book</h1>
+		<h1>Browse the Learn Graph</h1>
 		<ul>
 			{data.allMarkdownRemark.group
 				.sort((g1, g2) => g1.tag.localeCompare(g2.tag))

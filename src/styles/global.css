@@ -122,6 +122,10 @@ table tfoot {
   font-weight: bold;
 }
 
+.mermaid {
+	max-width: 50em;
+}
+
 
 /* Medium Screens */
 
