@@ -1,0 +1,67 @@
+import { graphql, Link, PageProps } from "gatsby";
+import React, { FC } from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { forHumans } from "../tags";
+
+type BrowsePageData = {
+	allMarkdownRemark: {
+		totalCount: number;
+		group: {
+			tag: string;
+			totalCount: number;
+		}[];
+		nodes: {
+			fields: { slug: string };
+			frontmatter: { title: string };
+		}[];
+	};
+};
+
+const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => (
+	<Layout location={location}>
+		<SEO
+			title="Browse James's Learn Book"
+			description="Browse James Tharpe's Learn Book"
+		/>
+		<h1>Browse the Learn Book</h1>
+		<ul>
+			{data.allMarkdownRemark.group
+				.sort((g1, g2) => g1.tag.localeCompare(g2.tag))
+				.map((group) => (
+					<li>
+						<Link
+							to={`/${group.tag}`}
+							style={{ fontSize: `${1 + group.totalCount / 100 - 0.01}em` }}
+						>
+							{data.allMarkdownRemark.nodes.find(
+								(node) => node.fields.slug === `/${group.tag}/`
+							)?.frontmatter.title || forHumans(group.tag)}
+						</Link>
+					</li>
+				))}
+		</ul>
+	</Layout>
+);
+
+export const query = graphql`
+	query Browse {
+		allMarkdownRemark {
+			totalCount
+			group(field: frontmatter___tags) {
+				tag: fieldValue
+				totalCount
+			}
+			nodes {
+				fields {
+					slug
+				}
+				frontmatter {
+					title
+				}
+			}
+		}
+	}
+`;
+
+export default BrowsePage;

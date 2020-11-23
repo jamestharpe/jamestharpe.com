@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+set -e
+
+npm install
+
 echo "Deleting old publication"
 rm -rf public
 mkdir public
@@ -12,7 +16,7 @@ git worktree add -B gh-pages public origin/gh-pages
 echo "Removing existing files"
 rm -rf public/*
 
-hugo
+npm run build
 cp CNAME public
 pushd public
 git add --all
