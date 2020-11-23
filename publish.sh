@@ -16,6 +16,7 @@ git worktree add -B gh-pages public origin/gh-pages
 echo "Removing existing files"
 rm -rf public/*
 
+npm run clean
 npm run build
 cp CNAME public
 pushd public
