@@ -1,0 +1,44 @@
+.clearfix:after {
+    /* Restore background styles */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    clear: both;
+}
+
+.column {
+    float: left;
+    padding: 1rem;
+}
+
+.small-6 {
+    width: 50%;
+}
+
+.small-12 {
+    width: 100%;
+}
+
+
+/* Medium Screens */
+
+@media only screen and (min-width: 768px) {
+    .medium-6 {
+        width: 50%;
+    }
+}
+
+
+/* Large Screens */
+
+@media only screen and (min-width: 1024px) {
+    .large-3 {
+        width: calc(100% / 3);
+    }
+    .large-6 {
+        width: 50%;
+    }
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+/* Small Screens (Default) */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    background-color: #F1F5F8;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #141414;
+}
+
+a {
+    color: #314A5E;
+}
+
+a:hover {
+    color: #547EA0;
+}
+
+strong {
+    font-weight: 450;
+}
+
+header {
+    background-color: #411811;
+    color: #E4EBF1;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+    padding: .5rem 0 0 0;
+    font-size: 1.8rem;
+}
+
+nav {
+    background-color: #FAB84C;
+}
+
+nav div section {
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+footer {
+    background-color: #411811;
+    color: #E4EBF1;
+    font-size: 1.2em;
+}
+
+footer a {
+    color: #7CCB7D;
+}
+
+footer a:hover {
+    color: #B6E2B7;
+}
+
+footer h2 {
+    color: #FAB84C;
+    font-style: italic;
+    margin: 1rem 0 .3rem 0;
+}
+
+header div,
+nav div,
+main,
+footer div {
+    max-width: 1024px;
+    margin: 0 2vw 0em 2vw;
+}
+
+main {
+    margin-bottom: 1em;
+    min-height: 66vh;
+}
+
+table {
+	background: #F1F5F8;
+	border-collapse: collapse;
+}
+
+table td, table th {
+	padding: 0.5em;
+	border: 1px dotted;
+}
+
+table thead {
+	background: #411811;
+	color: #E4EBF1;
+}
+
+table thead tr th:empty {
+	display: none;
+} 
+
+table thead th {
+	font-weight: normal;
+}
+
+table tr:nth-child(even) {
+  background: #E4EBF1;
+}
+
+table tfoot {
+  font-weight: bold;
+}
+
+
+/* Medium Screens */
+
+@media only screen and (min-width: 720px) {
+    header h1 {
+        margin: 0;
+        padding: .5rem 0 0 0;
+        font-size: 2.85rem;
+    }
+}
+
+
+/* Large Screens */
+
+@media only screen and (min-width: 1280px) {
+    header div,
+    nav div,
+    main,
+    footer div {
+        max-width: 1024px;
+        margin: auto;
+    }
+    main {
+        margin-bottom: 1em;
+    }
+}
