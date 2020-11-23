@@ -1,10 +1,9 @@
 ---
-title: "Automatically Build a Developer Environment on Windows"
 date: 2017-09-18T11:42:46-04:00
 description: "A step-by-step guide to automate tool and framework installation for developers that use Windows"
 redirect_from: ["/automatic-development-environment-setup/", "/techniques/everything-in-version-control/", "/techniques/grows/"]
 tags: [ "powershell", "chocolatey" ]
-draft: false
+title: "Automatically Build a Developer Environment on Windows"
 ---
 
 # Automate Your Development Environment Setup
