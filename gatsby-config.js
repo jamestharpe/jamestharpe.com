@@ -10,32 +10,32 @@ module.exports = {
 	},
 	plugins: [
 		{
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        // You can add multiple tracking ids and a page view event will be fired for all of them.
-        trackingIds: [
-          "UA-961598-2", // Google Analytics / GA
-          // "AW-CONVERSION_ID", // Google Ads / AdWords / AW
-          // "DC-FLOODLIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+			resolve: `gatsby-plugin-google-gtag`,
+			options: {
+				// You can add multiple tracking ids and a page view event will be fired for all of them.
+				trackingIds: [
+					"UA-961598-2" // Google Analytics / GA
+					// "AW-CONVERSION_ID", // Google Ads / AdWords / AW
+					// "DC-FLOODLIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
 				],
 				// This object gets passed directly to the gtag config command
-        // This config will be shared across all trackingIds
-        // gtagConfig: {
-        //   optimize_id: "OPT_CONTAINER_ID",
-        //   anonymize_ip: true,
+				// This config will be shared across all trackingIds
+				// gtagConfig: {
+				//   optimize_id: "OPT_CONTAINER_ID",
+				//   anonymize_ip: true,
 				//   cookie_expires: 0,
 				//   send_page_view: true
-        // },
+				// },
 				pluginConfig: {
-          // Puts tracking script in the head instead of the body
-          head: true,
-          // Setting this parameter is also optional
-          respectDNT: true,
-          // Avoids sending hits from custom paths
-          // exclude: ["/preview/**", "/do-not-track/me/too/"],
-        },
-      },
-    },
+					// Puts tracking script in the head instead of the body
+					head: true,
+					// Setting this parameter is also optional
+					respectDNT: true
+					// Avoids sending hits from custom paths
+					// exclude: ["/preview/**", "/do-not-track/me/too/"],
+				}
+			}
+		},
 		`gatsby-plugin-react-helmet`,
 		{
 			resolve: `gatsby-source-filesystem`,
@@ -55,7 +55,7 @@ module.exports = {
 				background_color: `#663399`,
 				theme_color: `#663399`,
 				display: `minimal-ui`,
-				icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
+				icon: `static/favicon.ico` // This path is relative to the root of the site.
 			}
 		},
 		{
@@ -184,7 +184,7 @@ module.exports = {
 				]
 			}
 		},
-		'gatsby-redirect-from',
-  	'gatsby-plugin-meta-redirect' // make sure this is always the last one
+		"gatsby-redirect-from",
+		"gatsby-plugin-meta-redirect" // make sure this is always the last one
 	]
 };
