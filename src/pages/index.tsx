@@ -1,8 +1,8 @@
-import React, { FC } from "react";
 import { graphql, Link, PageProps } from "gatsby";
-
+import React, { FC } from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+
 
 type IndexPageData = {
 	allMarkdownRemark: {
@@ -45,14 +45,7 @@ const IndexPage: FC<PageProps<IndexPageData>> = ({ data, location }) => (
 			search this site or <Link to="/browse/">browse topics I've learned</Link>.
 			You might find more complete information there. Then again, you might not.
 		</p>
-		<h3>Learn List</h3>
-		{/* TODO: Query items tagged as "to-do" or "draft" */}
-		<ul>
-			<li>CSS</li>
-			<li>Bullet Journal</li>
-			<li>Go Language</li>
-			<li>3D Printing</li>
-		</ul>
+
 		<h2>Knowledge List ({data.allMarkdownRemark.totalCount} Posts)</h2>
 		{data.allMarkdownRemark.nodes.map((node) => (
 			<div key={node.id}>
