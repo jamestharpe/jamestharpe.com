@@ -5,6 +5,7 @@
  *
  * See: https://www.gatsbyjs.com/docs/browser-apis/
  */
+import "katex/dist/katex.min.css";
 import "prismjs/themes/prism-coy.css";
 import "./src/styles/a.css";
 import "./src/styles/global.css";
