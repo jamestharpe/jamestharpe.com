@@ -75,7 +75,7 @@ The `/tmp` folder contains temporary files. Unlike the `/run` folder, files stor
 
 The `/usr` folder contains "non essential" apps and files used by users (as opposed to the system).
 
-## `/var` - Variable
+### `/var` - Variable
 
 The `/var` folder contains files that are expected to grow over time (e.g. logs and caches).
 
