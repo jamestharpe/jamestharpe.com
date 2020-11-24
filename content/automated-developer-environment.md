@@ -8,7 +8,7 @@ title: "Automatically Build a Developer Environment on Windows"
 
 # Automate Your Development Environment Setup
 
-Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it's easy to forget some bit of configuration or forget to install some critical software. By following the GROWS [everything in version control](http://growsmethod.com/practices/EverythingInVC.html) practice, it's easy to save a ton of time and minimize disruption by automating the process.
+Starting from a fresh OS installation, manually installing and configuring a full development environment can take several days. Even then, it's easy to forget some bit of configuration or forget to install some critical software. Automation makes it easy to save a ton of time and minimize disruption.
 
 Most of the software I write is developed on Windows, so I decided to write the script using PowerShell and [Chocolatey](https://chocolatey.org/). MacOS users can follow a similar pattern using [Homebrew](https://brew.sh/).
 
