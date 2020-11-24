@@ -3,7 +3,6 @@ import React, { FC } from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
-
 type IndexPageData = {
 	allMarkdownRemark: {
 		totalCount: number;
@@ -31,22 +30,7 @@ const IndexPage: FC<PageProps<IndexPageData>> = ({ data, location }) => (
 			folks other than myself find it useful, that's great! If it's not useful,
 			that's fine too.
 		</p>
-		<h2>My Learn List</h2>
-		<p>
-			<strong>Here's how the Learn List works:</strong> When I want to learn
-			something, I add it to the list. Sometimes to "learn something", you have to
-			break it down into smaller things, so the items on the list are nested. I try
-			to keep each topic small, so that I can learn it in about a day.
-		</p>
-		<p>
-			Items that are linked are things that I'm currently learning. When I'm done
-			learning, I remove the item from the list. That means that the list below
-			will probably seem incomplete if you aren't me. To see things I've learned,
-			search this site or <Link to="/browse/">browse topics I've learned</Link>.
-			You might find more complete information there. Then again, you might not.
-		</p>
-
-		<h2>Knowledge List ({data.allMarkdownRemark.totalCount} Posts)</h2>
+		<h2>Ten Most Recent Posts (of {data.allMarkdownRemark.totalCount} Total)</h2>
 		{data.allMarkdownRemark.nodes.map((node) => (
 			<div key={node.id}>
 				<h3>
