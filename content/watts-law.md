@@ -26,4 +26,5 @@ $I=\frac{P}{V}$
 ### Video: Power, Work, and Energy
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RpbxIG5HTf4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-(Full course on Khan Academy: [Power](https://www.khanacademy.org/science/high-school-physics/work-and-energy-2/power-2/v/power))
+
+> Full course on Khan Academy: [Power](https://www.khanacademy.org/science/high-school-physics/work-and-energy-2/power-2/v/power))
