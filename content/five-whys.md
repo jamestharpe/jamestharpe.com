@@ -15,6 +15,6 @@ Five Whys is a heuristic approach for root-cause analysis. When faced with an op
 
 1. **Why do you want a promotion?** To increase my income and influence.
 1. **Why do you want to increase your influence?** To build & be part of a culture that I will find fulfilling.
-1. **Why build a culture]?** I'm going to be here for a long time.
+1. **Why build a culture?** I'm going to be here for a long time.
 1. **Why will you be here for a long time?** I'm motivated to influence the culture because believe I can find a balance between my need to take risks and my need for financial security.
 1. **Why do you need to balance risk and security?** Family makes risk too scary without security, but I get bored without risk and start to fail. To feel successful, I need to take risks that pay off but realistically I need security to take those risks.
