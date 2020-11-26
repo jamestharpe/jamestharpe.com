@@ -6,7 +6,8 @@ module.exports = {
 	siteMetadata: {
 		title: `James's Knowledge Graph`,
 		description: `This website captures knowledge so I can refer to it later.`,
-		author: `@jamestharpe`
+		author: `@jamestharpe`,
+		siteUrl: `https://www.jamestharpe.com/`
 	},
 	plugins: [
 		{
