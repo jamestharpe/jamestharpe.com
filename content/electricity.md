@@ -1,6 +1,6 @@
 ---
 date: 2020-11-24T12:40:46-04:00
-description: "A formula to define the relationship between power, voltage, and current (P=IV)"
+description: "Energy that results from charged particles"
 tags: [ "physics" ]
 title: "Electricity"
 ---
