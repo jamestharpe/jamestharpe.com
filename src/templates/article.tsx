@@ -11,8 +11,9 @@ type ArticleTemplateData = {
 			slug: string;
 		};
 		frontmatter: {
-			title: string;
+			description?: string;
 			tags?: string[];
+			title?: string;
 		};
 	};
 	allMarkdownRemark?: {
@@ -22,8 +23,8 @@ type ArticleTemplateData = {
 				slug: string;
 			};
 			frontmatter: {
-				description: string;
-				title: string;
+				description?: string;
+				title?: string;
 				tags?: string[];
 			};
 		}[];
@@ -63,7 +64,10 @@ const ArticleTemplate: FC<PageProps<ArticleTemplateData>> = ({
 	}
 	return (
 		<Layout location={location}>
-			<SEO title={markdownRemark.frontmatter.title} />
+			<SEO
+				title={markdownRemark.frontmatter.title}
+				description={markdownRemark.frontmatter.description || ""}
+			/>
 			<div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
 			{/* Related - Articles */}
 			{!!related.articles?.length && (
