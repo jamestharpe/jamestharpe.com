@@ -1,6 +1,5 @@
 ---
 date: 2019-01-27T09:05:47-05:00
-draft: false
 redirect_from: ["/dynamodb-local-secondary-index-existing-table-cloudformation/"]
 tags: ["aws-cloudformation", "aws-dynamodb", "aws-cli", "jq", "database-as-code", "infrastructure-as-code"]
 title: "DynamoDB & CloudFormation: Add a Local Secondary Index to Existing Table"
