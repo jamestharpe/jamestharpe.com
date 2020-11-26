@@ -24,7 +24,7 @@ popd
 echo "Generating website"
 npm run build
 cp CNAME public
-cp CNAME public/rss.xml public/index.xml
+cp public/rss.xml public/index.xml
 
 pushd "$PUBLISH_DIR"
 	git add --all

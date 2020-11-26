@@ -1,8 +1,8 @@
 ---
 date: 2020-05-26T09:13:11-04:00
-description: "How to 3D print"
+description: "Learn to 3D print"
 tags: [ ]
-title: "Learn 3D printing"
+title: "3D printing"
 ---
 
 # Notes on 3D Printing
