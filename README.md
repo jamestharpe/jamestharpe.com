@@ -1,6 +1,6 @@
 # jamestharpe.com
 
-The code for [James Tharpe's website](https://www.jamestharpe.com). It's built using [Gatsby](http://gatsbyjs.com/).
+The code and content for [James Tharpe's website](https://www.jamestharpe.com), built using [Gatsby](http://gatsbyjs.com/).
 
 ## 🚀 Quick start
 
