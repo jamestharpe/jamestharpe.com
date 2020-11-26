@@ -21,7 +21,7 @@ The `/boot` folder contains the files necessary to load the operating system whe
 
 The `/dev` folder contains files that represent devices. In Unix-like systems like Linux, disks and just about everything else are represented as files. 
 
-For example: `sda` is a disk. Originally `sd` stood for `SCSI device` but became a catch-all for any [block storage](https://en.wikipedia.org/wiki/Block_(data_storage) device). The letter that follows `sd`, `a` in this case, represents the order in which the device was found.
+For example: `sda` is a disk. Originally `sd` stood for `SCSI device` but became a catch-all for any [block storage](https://en.wikipedia.org/wiki/Block_(data_storage)) device. The letter that follows `sd`, `a` in this case, represents the order in which the device was found.
 
 ### `/etc` - Etcetera (and so on)
 
