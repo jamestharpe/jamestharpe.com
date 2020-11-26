@@ -22,7 +22,7 @@ The goal of the script is to start from a base OS installation and finish with a
 
 Once your script is completed, you can easily maintain it by following the same process every time you install a new tool or adjust a setting. I prefer to store my script in OneDrive for easy access from a base Windows installation (which includes OneDrive), but I also check it in to GitHub to share with the world.
 
-> **Warning**: If you're development environment is already setup manually, installing software via Chocolatey can sometimes cause conflicts. It's best to uninstall any applications you'll be managing with Chocolatey, then reinstall with Chocolatey (or just start from scratch).
+> **Warning**: If your development environment is already setup manually, installing software via Chocolatey can sometimes cause conflicts. It's best to uninstall any applications you'll be managing with Chocolatey, then reinstall with Chocolatey (or just start from scratch).
 
 ## Basic Script Structure
 

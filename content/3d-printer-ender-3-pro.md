@@ -2,7 +2,7 @@
 date: 2020-11-24T09:13:11-04:00
 description: "A small, reliable 3D printer appropriate for home use"
 tags: [ "3d-printing" ]
-title: "Learn 3D printing"
+title: "Ender 3 Pro 3D Printer"
 ---
 
 # Ender 3 Pro 3D Printer Notes

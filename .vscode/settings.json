@@ -6,7 +6,7 @@
     "**/.factorypath": true,
     "node_modules": true
 	},
-  "cSpell.words": [
+	"cSpell.words": [
 		"Autowired",
 		"Berardi",
 		"Bootloaders",
@@ -68,12 +68,12 @@
 		"xargs"
 	],
 	"editor.insertSpaces": false,
-  "editor.detectIndentation": false,
-  "editor.codeActionsOnSave": {
+	"editor.detectIndentation": false,
+	"editor.codeActionsOnSave": {
 		"source.organizeImports": true,
-    "source.fixAll": true,
+		"source.fixAll": true,
 	},
-  "eslint.validate": [
+	"eslint.validate": [
 		"javascript",
 		"javascriptreact",
 		"typescript",

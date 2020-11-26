@@ -1,12 +1,12 @@
 {
 	"author": "James Tharpe",
 	"description": "James Tharpe's Website",
-	"license": "Apache 2.0",
+	"license": "MIT",
 	"name": "jamestharpe.com",
 	"private": true,
 	"version": "0.1.0",
 	"bugs": {
-		"url": "https://github.com/gatsbyjs/gatsby/issues"
+		"url": "https://github.com/jamestharpe/jamestharpe.com/issues"
 	},
 	"dependencies": {
 		"gatsby": "^2.24.85",
@@ -27,6 +27,7 @@
 		"react-helmet": "^6.1.0"
 	},
 	"devDependencies": {
+		"@tmus/gatsby-remark-links-normalizer": "git+https://github.com/tmobile/gatsby-remark-links-normalizer.git",
 		"@types/lunr": "^2.3.3",
 		"@types/react-helmet": "^6.1.0",
 		"@typescript-eslint/eslint-plugin": "^4.7.0",
@@ -35,6 +36,8 @@
 		"eslint-config-prettier": "^6.15.0",
 		"eslint-plugin-prettier": "^3.1.4",
 		"eslint-plugin-react": "^7.21.5",
+		"gatsby-plugin-catch-links": "^2.5.0",
+		"gatsby-plugin-feed": "^2.8.0",
 		"gatsby-plugin-google-gtag": "^2.3.0",
 		"gatsby-remark-graph": "^0.2.3",
 		"gatsby-remark-katex": "^3.5.0",

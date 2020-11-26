@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 module.exports = {
 	siteMetadata: {
-		title: `James's Learn Graph`,
+		title: `James's Knowledge Graph`,
 		description: `This website captures knowledge so I can refer to it later.`,
 		author: `@jamestharpe`
 	},
@@ -110,6 +110,7 @@ module.exports = {
 			resolve: `gatsby-transformer-remark`,
 			options: {
 				plugins: [
+					"@tmus/gatsby-remark-links-normalizer",
 					{
 						resolve: "gatsby-remark-graph",
 						options: {
@@ -193,6 +194,11 @@ module.exports = {
 				]
 			}
 		},
+		{
+			resolve: "gatsby-plugin-feed",
+			output: "index.xml"
+		},
+		"gatsby-plugin-catch-links",
 		"gatsby-redirect-from",
 		"gatsby-plugin-meta-redirect" // make sure this is always the last one
 	]
