@@ -1,7 +1,7 @@
 ---
 date: 2020-11-23T13:13:11-04:00
 description: "A book by Chris Voss, Never Split the Difference describes various strategies and tactics for successful negotiation"
-tags: [ "chris-voss ", "negotiation" ]
+tags: [ "chris-voss", "negotiation" ]
 title: "Never Split the Difference by Chris Voss"
 ---
 

@@ -1,9 +1,8 @@
 ---
-title: "jq"
 date: 2020-11-23T10:03:11-04:00
-tags: ["cli"]
 description: "A portable CLI to slice, filter, and map JSON data"
-draft: false
+tags: ["cli"]
+title: "jq"
 ---
 
 # jq
