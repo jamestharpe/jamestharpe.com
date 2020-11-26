@@ -26,7 +26,7 @@ Once your script is completed, you can easily maintain it by following the same 
 
 ## Basic Script Structure
 
-I've broken [my script](https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1) into four sections:
+I've broken [my script](https://github.com/jamestharpe/windows-development-environment/blob/main/env-windows.ps1) into four sections:
 
 1. Utility methods
 1. Chocolatey install
@@ -152,4 +152,4 @@ env-windows.ps1 -ide eclipse
 
 ## A Full Example
 
-You can view [the script](https://github.com/jamestharpe/windows-development-environment/blob/master/env-windows.ps1) I use personally on [my GitHub page](https://github.com/jamestharpe/) (MIT License). Contributions welcome!
+You can view [the script](https://github.com/jamestharpe/windows-development-environment/blob/main/env-windows.ps1) I use personally on [my GitHub page](https://github.com/jamestharpe/) (MIT License). Contributions welcome!

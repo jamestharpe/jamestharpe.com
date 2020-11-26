@@ -17,12 +17,13 @@ type LayoutProps = {
 
 const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 	const data: {
-		site: { siteMetadata: { title: string } };
+		site: { siteMetadata: { title: string; siteUrl: string } };
 	} = useStaticQuery(graphql`
 		query SiteTitleQuery {
 			site {
 				siteMetadata {
 					title
+					siteUrl
 				}
 			}
 		}
@@ -68,7 +69,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 					{/* Social */}
 					<section className="column small-12 medium-6 large-3">
 						<h2>Social</h2>
-						<a href="https://www.jamestharpe.com/">
+						<a href={data.site.siteMetadata.siteUrl}>
 							<img
 								alt="James Tharpe's Website"
 								width="22px"
@@ -124,7 +125,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 							<a
 								rel="cc:attributionURL dct:creator"
 								property="cc:attributionName"
-								href="https://www.jamestharpe.com"
+								href={data.site.siteMetadata.siteUrl}
 							>
 								James Tharpe
 							</a>{" "}
