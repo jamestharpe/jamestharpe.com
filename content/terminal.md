@@ -8,7 +8,7 @@ title: "Terminals"
 
 # Terminals
 
-Terminals are text-based applications read and write to a shell. A "shell" and a "terminal" may be the same application (such as PowerShell) or they may be different applications (such as [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/)).
+Terminals are text-based applications read and write to a [shell](shell.md). A "shell" and a "terminal" may be the same application (such as [PowerShell](powershell.md)) or they may be different applications (such as [Windows Terminal](https://docs.microsoft.com/en-us/windows/terminal/)).
 
 ## Common Terminal Shortcuts
 

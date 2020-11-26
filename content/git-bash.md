@@ -7,7 +7,7 @@ title: "Git Bash"
 
 # Git Bash
 
-Git Bash is a Bash emulator and terminal for Windows that includes common Unix utilities. It is packaged with [Git for Windows](https://git-scm.com/download/win).
+Git Bash is a [Bash](bash.md) emulator and terminal for Windows that includes common Unix utilities. It is packaged with [Git for Windows](https://git-scm.com/download/win).
 
 ## Resources
 

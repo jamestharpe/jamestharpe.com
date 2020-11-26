@@ -6,7 +6,7 @@ tags: [ "docker", "git-bash" ]
 
 # Error response from daemon: invalid bind mount spec
 
-The call to `docker run` using Git Bash on Windows was recently frustrating me when I tried to specify a volume using `-v`:
+The call to `docker run` using [Git Bash](git-bash.md) on Windows was recently frustrating me when I tried to specify a volume using `-v`:
 
 ```bash
 $ docker run -it -v /c/Users/james/Code/my-application:/app james/test-container sh

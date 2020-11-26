@@ -7,7 +7,7 @@ title: "Cloud Foundry Spring Boot Environment Basics"
 
 # Recipe: Configure Spring Boot on Cloud Foundry
 
-This recipe is illustrated in the [PAL Tracker](https://github.com/jamestharpe/pal-tracker) example project.
+This recipe is illustrated in the [PAL Tracker](pal-tracker.md) example project.
 
 ## 1. Inject Environment Variables into a Controller
 

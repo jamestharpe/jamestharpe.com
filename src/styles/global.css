@@ -20,6 +20,18 @@ body {
     color: #141414;
 }
 
+blockquote {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+	padding-left: 1em;
+	/* margin-right: 1em;
+  padding-right: 1em; */
+	border-left: 0.30em solid #411811;
+	/* border-right: 3px solid #ccc; */
+	background-color: #f8e6cb;
+}
+
 a {
     color: #314A5E;
 }

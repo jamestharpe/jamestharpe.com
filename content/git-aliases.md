@@ -1,6 +1,6 @@
 ---
 date: 2020-11-15T20:04:30-04:00
-description: "A Bash emulator and terminal for Windows"
+description: "Command-line shortcuts for Git"
 redirect_from: ["/useful-git-aliases/"]
 tags: ["git", "shell"]
 title: "Git Aliases"
@@ -8,7 +8,7 @@ title: "Git Aliases"
 
 # Useful Git Aliases for Productivity
 
-A recent addition to my [Automatic Development Environment Setup](/automatic-development-environment-setup) script were several Git aliases that help to speed up development. Here is how and why I set them up.
+A recent addition to my [Automatic Development Environment Setup](automatic-development-environment-setup.md) script were several Git aliases that help to speed up development. Here is how and why I set them up.
 
 ## Start the Day with `git pom`
 

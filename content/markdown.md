@@ -6,4 +6,6 @@ tags: ["computer-language"]
 title: "Markdown"
 ---
 
+# Markdown
+
 [Markdown](https://www.markdownguide.org/) is a simple language for writing rich-text documents using plain text.

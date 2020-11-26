@@ -7,6 +7,6 @@ title: "Serenity Prayer"
 
 # Serenity Prayer
 
-> God grant me the serenity to accept the things I cannot change,
-> Courage to change the things I can,
+> God grant me the serenity to accept the things I cannot change, <br />
+> Courage to change the things I can, <br />
 > And the wisdom to know the difference.

@@ -6,4 +6,4 @@ title: "IntelliJ IDE"
 
 # IntelliJ IDEA
 
-[IntelliJ IDEA](https://www.jetbrains.com/idea/) is a Java IDE, developed by [JetBrains](https://www.jetbrains.com/).
+[IntelliJ IDEA](https://www.jetbrains.com/idea/) is a [Java](java.md) IDE, developed by [JetBrains](https://www.jetbrains.com/).

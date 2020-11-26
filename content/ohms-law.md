@@ -7,7 +7,7 @@ title: "Ohm's Law"
 
 # Ohm's Law
 
-**Ohm's Law** describes the relationship between current ($I$), voltage ($V$), and resistance ($R$):
+**Ohm's Law** describes the relationship between [current](electricity.md) ($I$), [voltage](electricity.md) ($V$), and resistance ($R$):
 
 $I = V/R$
 

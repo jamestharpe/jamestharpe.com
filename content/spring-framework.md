@@ -6,4 +6,4 @@ tags: ["java"]
 
 # Spring Framework 
 
-[Spring Framework](https://spring.io/projects/spring-framework) is an application framework and inversion of control container for Java.
+[Spring Framework](https://spring.io/projects/spring-framework) is an application framework and inversion of control container for [Java](java.md).

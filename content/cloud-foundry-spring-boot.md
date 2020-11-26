@@ -7,7 +7,7 @@ title: "Pivotal Cloud Foundry (PCF) with Spring Boot Basics"
 
 # Recipe: PCF Cloud Native App
 
-This recipe is based on the [PAL Tracker](https://github.com/jamestharpe/pal-tracker) example project.
+This recipe is based on the [PAL Tracker](pal-tracker.md) example project.
 
 ## 1. Create the PCF Developer Environment
 

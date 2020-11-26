@@ -7,4 +7,4 @@ title: "Command-line Interface (CLI)"
 
 # Command Line Interfaces
 
-Command-line Interfaces (CLIs) are applications that to process text-based commands, typically entered into a terminal or executed via a shell script.
+Command-line Interfaces (CLIs) are applications that to process text-based commands, typically entered into a terminal or executed via a [shell](shell.md) script.

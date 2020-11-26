@@ -7,7 +7,7 @@ title: "Watt's Law (Power Law)"
 
 # Watt's Law
 
-**Watt's Law**, sometimes called the **Power Law**, describes the relationship between power ($P$), current ($I$), and voltage ($V$):
+**Watt's Law**, sometimes called the **Power Law**, describes the relationship between power ($P$), [current](electricity.md) ($I$), and [voltage](electricity.md) ($V$):
 
 $P=IV$
 
@@ -21,7 +21,7 @@ $I=\frac{P}{V}$
 
 ## Power and Watts
 
-**Power** is measured in watts. One **watt** ($W$) is equal to one joule ($J$) per second ($s$), or $W = \frac{J}{s}$. Another way to put it is, a watt is the amount of electricity required to accelerate 1kg by 1 meter per second squared (a joule) over 1 second. In other words, a watt is "how much work can be done per second".
+**Power** is measured in watts. One **watt** ($W$) is equal to one [joule](physics.md) ($J$) per second ($s$), or $W = \frac{J}{s}$. Another way to put it is, a watt is the amount of electricity required to accelerate 1kg by 1 meter per second squared (a joule) over 1 second. In other words, a watt is "how much work can be done per second".
 
 ### Video: Power, Work, and Energy
 

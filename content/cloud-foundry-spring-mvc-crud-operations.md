@@ -7,7 +7,7 @@ tags: ["java", "intellij", "gradle", "cloud-foundry", "pal-tracker", "spring-boo
 
 # Recipe: Create, Retrieve, Update, and Delete with Spring MVC
 
-This recipe is based on the [PAL Tracker](https://github.com/jamestharpe/pal-tracker) example project.
+This recipe is based on the [PAL Tracker](pal-tracker.md) example project.
 
 ## 1. Create the Model
 

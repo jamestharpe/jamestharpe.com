@@ -7,4 +7,4 @@ title: "Reinhold Niebuhr Quotes"
 
 # Reinhold Niebuhr Quotes
 
-"Father, give us the courage to change what must be altered, serenity to accept what cannot be helped, and insight to know one from another"
+* "Father, give us the courage to change what must be altered, serenity to accept what cannot be helped, and insight to know one from another"

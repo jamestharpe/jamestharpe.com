@@ -7,4 +7,4 @@ title: "Flyway"
 
 # Flyway
 
-Flyway is a tool to help version database schemas with plain SQL.
+Flyway is a tool to help [version database schemas](database-as-code.md) with plain SQL.
