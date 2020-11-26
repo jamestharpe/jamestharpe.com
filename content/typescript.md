@@ -1,9 +1,8 @@
 ---
-title: "TypeScript"
 date: 2020-11-15T17:20:11-04:00
-tags: ["computer-language"]
 description: "TypeScript: A programming language that adds optional static typing to JavaScript"
-draft: false
+tags: ["computer-language"]
+title: "TypeScript"
 ---
 
 # TypeScript

@@ -1,8 +1,7 @@
 ---
-title: "Spring Boot"
 date: 2020-11-15T19:57:18-05:00
 tags: ["java", "spring-framework"]
-draft: false
+title: "Spring Boot"
 ---
 
 # Spring Boot

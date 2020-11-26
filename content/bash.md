@@ -17,7 +17,7 @@ Bash is a Unix shell
 | `history` | Show list of previous commands     | `history 5` will show last five commands executed                      |
 | `!123`    | Execute command `123` from history | `sudo !123` will execute command 123 from history with `sudo`          |
 | `!!`      | Execute previous command           | `sudo !!` will execute the last command with sudo                      |
-| `&`       | Run command in background          | `hugo serve &` will run [`hugo serve`](/tools/hugo/) in the background |
+| `&`       | Run command in background          | `hugo serve &` will run `hugo serve` in the background |
 
 ## Bash Command Chains
 

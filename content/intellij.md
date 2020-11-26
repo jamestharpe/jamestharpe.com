@@ -1,8 +1,7 @@
 ---
-title: "IntelliJ IDE"
 date: 2020-11-16T07:48:34-05:00
 tags: ["java"]
-draft: false
+title: "IntelliJ IDE"
 ---
 
 # IntelliJ IDEA
