@@ -196,8 +196,7 @@ module.exports = {
 			}
 		},
 		{
-			resolve: "gatsby-plugin-feed",
-			output: "index.xml"
+			resolve: "gatsby-plugin-feed"
 		},
 		"gatsby-plugin-catch-links",
 		"gatsby-redirect-from",
