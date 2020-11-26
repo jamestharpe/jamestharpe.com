@@ -3,7 +3,6 @@ title: "TypeScript: Extend the Window (globalThis) Object"
 date: 2020-11-15T14:37:11-04:00
 tags: ["typescript"]
 description: "Add custom properties to the Window interface with TypeScript"
-draft: false
 ---
 
 # Example: Add a Property to the Window type in TypeScript

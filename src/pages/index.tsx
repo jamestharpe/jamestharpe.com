@@ -48,6 +48,7 @@ export const query = graphql`
 		allMarkdownRemark(
 			limit: 10
 			sort: { fields: frontmatter___date, order: DESC }
+			filter: { frontmatter: { draft: { ne: false } } }
 		) {
 			totalCount
 			nodes {

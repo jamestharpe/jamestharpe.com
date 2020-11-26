@@ -1,9 +1,8 @@
 ---
-title: "Easy Upper Body Exercise Routine"
 date: 2020-11-17T10:00:30-04:00
 tags:
  [
-  "exercise",
+	 "exercise",
   "exercise-routine",
 	"exercise-rotational-overhead-press",
   "exercise-dumbbell-wood-chop",
@@ -11,7 +10,7 @@ tags:
 	"exercise-yoga-ball-roll",
 	"exercise-pike-walk"
  ]
-draft: false
+title: "Easy Upper Body Exercise Routine"
 description: "A simple 20-30 minute upper body exercise routine"
 ---
 

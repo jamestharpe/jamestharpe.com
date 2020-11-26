@@ -2,7 +2,6 @@
 title: "Docker: Fix Invalid Bind Mount Spec in Git Bash"
 date: 2017-11-07T13:44:06-05:00
 tags: [ "docker", "git-bash" ]
-draft: false
 ---
 
 # Error response from daemon: invalid bind mount spec

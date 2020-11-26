@@ -11,7 +11,6 @@ tags:
 	"exercise-hip-walk",
 	"exercise-frankenstein"
  ]
-draft: false
 description: "A simple 20-30 minute full body exercise routine"
 ---
 
