@@ -1,9 +1,8 @@
 ---
-title: "Command-line Interface (CLI)"
 date: 2020-11-23T10:12:11-04:00
-tags: ["terminal", "shell"]
 description: "Programs that take commands through terminals and shells"
-draft: false
+tags: ["terminal", "shell"]
+title: "Command-line Interface (CLI)"
 ---
 
 # Command Line Interfaces

@@ -1,8 +1,7 @@
 ---
+tags: []
 title: "Gradle Build Tool"
 date: 2020-11-16T07:45:34-05:00
-tags: []
-draft: false
 ---
 
 # Gradle Build Tool

@@ -1,9 +1,8 @@
 ---
-title: "Git Bash"
 date: 2020-11-15T20:04:30-04:00
-tags: ["bash", "git", "shell", "terminal"]
-draft: false
 description: "A Bash emulator and terminal for Windows"
+tags: ["bash", "git", "shell", "terminal"]
+title: "Git Bash"
 ---
 
 # Git Bash

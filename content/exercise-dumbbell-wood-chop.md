@@ -1,9 +1,8 @@
 ---
-title: "Dumbbell Wood Chop"
 date: 2020-11-17T09:21:30-04:00
-tags: ["exercise"]
-draft: false
 description: "A core and full-body dumbbell exercise"
+tags: ["exercise"]
+title: "Dumbbell Wood Chop"
 ---
 
 # How to do a Dumbbell Wood Chop

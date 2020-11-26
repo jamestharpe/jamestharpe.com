@@ -1,9 +1,8 @@
 ---
 date: 2019-01-15T07:09:18-05:00
-draft: false
 redirect_from: ["/database-as-code-flyway/"]
-title: "Database as Code: Flyway & MySQL on Cloud Foundry"
 tags: ["cloud-foundry", "database-as-code", "flyway", "mysql", "pal-tracker"]
+title: "Database as Code: Flyway & MySQL on Cloud Foundry"
 ---
 
 # Recipe: Database as Code with Flyway & MySQL on Cloud Foundry

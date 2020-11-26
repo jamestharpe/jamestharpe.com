@@ -1,9 +1,8 @@
 ---
-title: "Rotational Overhead Press"
 date: 2020-11-17T08:06:30-04:00
-tags: ["exercise"]
-draft: false
 description: "A core and shoulders dumbbell exercise"
+tags: ["exercise"]
+title: "Rotational Overhead Press"
 ---
 
 # How to do a Rotational Overhead Press
