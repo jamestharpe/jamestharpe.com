@@ -76,7 +76,7 @@ The following steps are a simple example using standard deviation, but interquar
 
 1. Calculate the mean and standard deviation (alternatively, interquartile range) of the data collection
 2. Set a cutoff ($c$) of three standard deviations ($\sigma$), or $c = 3\sigma$
-3. Set a lower-bound ($l$) of the mean minus the cutoff ($l = \overline{x} - c$) and an upper-bound ($u$) of the mean plus the cutoff ($u = \overline{x} + c$) ($\overline{x}$)
+3. Set a lower-bound ($l$) of the mean minus the cutoff ($l = \overline{x} - c$) and an upper-bound ($u$) of the mean plus the cutoff ($u = \overline{x} + c$)
 
 All data points less than the lower-bound or greater than the upper-bound can be considered outliers.
 
