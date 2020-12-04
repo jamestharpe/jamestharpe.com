@@ -14,7 +14,7 @@ type SEOProps = {
 	description?: string;
 	lang?: string;
 	meta?: { name: string; content: string }[];
-	title: string;
+	title?: string;
 };
 
 const SEO: React.FC<SEOProps> = ({
