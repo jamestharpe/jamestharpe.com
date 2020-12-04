@@ -1,7 +1,8 @@
 ---
 date: 2019-01-27T09:05:47-05:00
+description: "Steps to add a local secondary index to an existing DynamoDB table"
 redirect_from: ["/dynamodb-local-secondary-index-existing-table-cloudformation/"]
-tags: ["aws-cloudformation", "aws-dynamodb", "aws-cli", "jq", "database-as-code", "infrastructure-as-code"]
+tags: ["aws-cloudformation", "aws-dynamodb", "aws-cli", "database-as-code", "infrastructure-as-code"]
 title: "DynamoDB & CloudFormation: Add a Local Secondary Index to Existing Table"
 ---
 
@@ -17,7 +18,7 @@ Adding a local secondary index requires replacing the table, which creates the c
 * How to troubleshoot the error `Property AttributeDefinitions is inconsistent with the KeySchema of the table and the secondary indexes`.
 * How to take DynamoDB table backups with the AWS CLI
 * A work-around to prevent the error `CloudFormation cannot update a stack when a custom-named resource requires replacing...`.
-* Basic JSON parsing with [`jq`](https://stedolan.github.io/jq/)
+* Basic JSON parsing with [`jq`](jq.md)
 
 ## Initial Table Schema: `Jobs` Table
 
