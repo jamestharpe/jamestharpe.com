@@ -94,4 +94,6 @@ I'm still learning! This section will be updated as I learn. If you have a good 
 
 ## Tools for Machine Learning
 
+* [Apache Spark](https://spark.apache.org/)
 * [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
+* [Pandas](https://pandas.pydata.org/)
