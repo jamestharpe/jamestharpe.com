@@ -2,14 +2,14 @@
 date: 2020-12-03T09:18:46-04:00
 description: "Machine learning terms, processes, and methods"
 tags: [ "statistics", "data-analysis" ]
-title: "Machine Learning"
+title: "Machine Learning (ML)"
 ---
 
-# Machine Learning
+# Machine Learning (ML)
 
-Machine Learning is the science and practice of creating algorithms that improve through experience.
+Machine Learning (ML) is the science and practice of creating algorithms that improve through experience.
 
-## Terminology
+## Machine Learning Terminology
 
 | Word              | Definition                                                                                                                                                                                                           |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
