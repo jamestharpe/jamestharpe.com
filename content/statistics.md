@@ -1,7 +1,7 @@
 ---
 date: 2020-12-02T16:54:46-04:00
 description: "The analysis of numerical data"
-tags: [ "math", "data-analysis" ]
+tags: [ "math" ]
 title: "Statistics"
 ---
 

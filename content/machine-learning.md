@@ -1,7 +1,7 @@
 ---
 date: 2020-12-03T09:18:46-04:00
 description: "Machine learning terms, processes, and methods"
-tags: [ "statistics", "data-analysis" ]
+tags: [ "statistics" ]
 title: "Machine Learning (ML)"
 ---
 
