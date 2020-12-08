@@ -1,7 +1,7 @@
 ---
 date: 2020-12-08T09:40:11-04:00
 description: "Track predictions, see if they come true!"
-tags: [ ]
+tags: []
 title: "Predictions for the Future"
 ---
 
