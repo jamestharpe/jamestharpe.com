@@ -115,7 +115,7 @@ export const pageQuery = graphql`
 				tags
 			}
 		}
-		allMarkdownRemark(filter: { frontmatter: { draft: { ne: false } } }) {
+		allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
 			nodes {
 				excerpt
 				frontmatter {

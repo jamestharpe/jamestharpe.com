@@ -46,7 +46,7 @@ const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => (
 
 export const query = graphql`
 	query Browse {
-		allMarkdownRemark(filter: { frontmatter: { draft: { ne: false } } }) {
+		allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
 			totalCount
 			group(field: frontmatter___tags) {
 				tag: fieldValue

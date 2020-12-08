@@ -9,7 +9,7 @@ export async function createPages(args: CreatePagesArgs) {
 
 	const { data, errors } = (await graphql(`
 		query {
-			allMarkdownRemark(filter: { frontmatter: { draft: { ne: false } } }) {
+			allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
 				nodes {
 					fields {
 						slug
