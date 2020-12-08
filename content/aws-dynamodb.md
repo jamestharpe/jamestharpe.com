@@ -5,3 +5,5 @@ redirect_from: ["/tools/dynamodb/"]
 tags: ["aws", "database"]
 title: "AWS DynamoDB"
 ---
+
+# AWS DynamoDB

@@ -72,7 +72,7 @@ const ArticleTemplate: FC<PageProps<ArticleTemplateData>> = ({
 			{/* Related - Articles */}
 			{!!related.articles?.length && (
 				<article>
-					<h2>Knowledge About {markdownRemark.frontmatter.title}</h2>
+					<h2>More Knowledge on {markdownRemark.frontmatter.title}</h2>
 					{related.articles.map((article) => (
 						<section>
 							<Link to={article.fields.slug}>
