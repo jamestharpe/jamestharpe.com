@@ -14,6 +14,7 @@ type IndexPageData = {
 			};
 			frontmatter: {
 				date: string;
+				description: string;
 				title: string;
 			};
 		}[];
@@ -37,7 +38,7 @@ const IndexPage: FC<PageProps<IndexPageData>> = ({ data, location }) => (
 					<Link to={node.fields.slug}>{node.frontmatter.title} </Link>—{" "}
 					{node.frontmatter.date}
 				</h3>
-				<p>{node.excerpt}</p>
+				<p>{node.frontmatter.description || node.excerpt}</p>
 			</div>
 		))}
 	</Layout>
