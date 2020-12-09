@@ -1,7 +1,8 @@
 ---
+date: 2020-12-08T08:49:30-04:00
+description: "Information and resources about open source"
 tags: [ ]
 title: "Open Source"
-date: 2020-12-08T08:49:30-04:00
 ---
 
 # Open Source

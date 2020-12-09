@@ -43,6 +43,7 @@
 		"gatsby-remark-katex": "^3.5.0",
 		"gatsby-remark-prismjs": "^3.7.0",
 		"katex": "^0.12.0",
+		"markdown-link-check": "^3.8.5",
 		"prettier": "2.1.2",
 		"prismjs": "^1.22.0",
 		"ts-node": "^9.0.0",
@@ -60,6 +61,7 @@
 	"scripts": {
 		"build": "gatsby build",
 		"build:clean": "npm run clean && npm run build",
+		"test:links": "for file in $(find . -path ./node_modules -prune -false -o -name \"*.md\"); do markdown-link-check --verbose --config .markdown-link-check.config.json \"$file\" || exit 1; done;",
 		"start": "gatsby develop",
 		"serve": "gatsby serve",
 		"clean": "gatsby clean",

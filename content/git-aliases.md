@@ -8,7 +8,7 @@ title: "Git Aliases"
 
 # Useful Git Aliases for Productivity
 
-A recent addition to my [Automatic Development Environment Setup](automatic-development-environment-setup.md) script were several Git aliases that help to speed up development. Here is how and why I set them up.
+A recent addition to my [Automatic Development Environment Setup](automated-developer-environment.md) script were several Git aliases that help to speed up development. Here is how and why I set them up.
 
 ## Start the Day with `git pom`
 

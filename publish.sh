@@ -7,6 +7,7 @@ PUBLISH_DIR="public"
 # npm install
 # npm audit fix
 npm run clean
+npm run test:links
 
 echo "Deleting old publication from $PUBLISH_DIR"
 rm -rf "$PUBLISH_DIR"
