@@ -1,7 +1,7 @@
 ---
 date: 2020-12-09T15:29:03-04:00
 description: "Use markdown-link-check and Bash to detect broken links"
-tags: [ "markdown", "bash" ]
+tags: [ "markdown", "cli", "bash" ]
 title: "Markdown: Detect Broken links"
 ---
 
@@ -47,6 +47,8 @@ Create a file called `.markdown-link-check.config.json` in your project root to 
 ```
 
 ### 3. Add a `test:links` script to `package.json`
+
+The `markdown-link-check` CLI only checks one file at a time, we need to loop through all markdown files and ignore the contents of the `node_modules` folder in our script:
 
 ```json
 {
