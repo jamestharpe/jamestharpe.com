@@ -2,7 +2,7 @@
 date: 2020-12-13T07:46:11-04:00
 description: "A fancy term for hoarding"
 tags: [ "economics" ]
-title: ""
+title: "Gresham's Law"
 ---
 
 # Gresham's Law
