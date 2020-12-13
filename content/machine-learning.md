@@ -29,7 +29,7 @@ graph TD
     subgraph 1. Source the Data
       DB1[(Data)] --> Gather
       DB2[(Data)] --> Gather
-      DB3[(Data)] --> 
+      DB3[(Data)] -->
       Gather --> Raw[(Raw Data)]
     end
 		subgraph 2. Wrangle the Data
@@ -37,7 +37,7 @@ graph TD
       Understand -->|Work with SMEs| Summarize
       Understand --> Visualize
 			Summarize --> Cleanse
-      Visualize --> 
+      Visualize -->
       Cleanse -->|Imputation, Outlier Detection...| Cleansed[(Cleansed Data)]
       Cleansed -->
       Select -.->|Gather identified missing data| Gather
@@ -57,11 +57,12 @@ graph TD
       Model --> Use[Use the Model]
     end
 ```
+
 ### 1. Source the Data
 
 Work with Subject Matter Experts (SMEs) to identify and gather the relevant data sources.
 
-### 2. Wrangle the Data:
+### 2. Wrangle the Data
 
 1. **Understand:** Defining the meaning and relationships for each field. Summary statistics, data visualizations, and guidance from SMEs are used to scrutinize the data.
 2. **Cleanse:** Detect and address corrupt and missing data. Outlier detection and imputation are used to cleanse the data.

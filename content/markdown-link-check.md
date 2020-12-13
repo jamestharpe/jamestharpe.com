@@ -14,8 +14,8 @@ This simple Bash script will scan all markdown links:
 ```bash
 #!/usr/bin/env bash
 for file in $(find . -name \"*.md\")
-do 
-	markdown-link-check --verbose --config .markdown-link-check.config.json \"$file\" || exit 1; 
+do
+	markdown-link-check --verbose --config .markdown-link-check.config.json \"$file\" || exit 1;
 done
 ```
 

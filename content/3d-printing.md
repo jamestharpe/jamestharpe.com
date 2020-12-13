@@ -23,7 +23,7 @@ Tips:
 
 * **G-code file:** A file that contains the step-by-step instructions
 * **Raft:** A horizontal mesh printed before the first layer to improve bed adhesion or strengthen an otherwise weak base structure. Causes a rough finish on the bottom layer. Often used with ABS filament to prevent warping.
-* **Slicer:** Software that converts a 3D model into layer-by-layer print instructions. 
+* **Slicer:** Software that converts a 3D model into layer-by-layer print instructions.
 * **STL file:** A "stereolithography" file that defines a set of 3-dimensional design in a layer-by-layer fashion.
 
 * Each filament will specify temperatures and other conditions required for successful prints

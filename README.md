@@ -4,7 +4,7 @@ The code and content for [James Tharpe's website](https://www.jamestharpe.com), 
 
 ## 🚀 Quick start
 
-1.  **Clone the site & install dependencies.**
+1. **Clone the site & install dependencies.**
 
     ```shell
     # create a new Gatsby site using the default starter
@@ -13,13 +13,13 @@ The code and content for [James Tharpe's website](https://www.jamestharpe.com), 
     npm install
     ```
 
-1.  **Start developing.**
+1. **Start developing.**
 
     ```shell
     npm start
     ```
 
-1.  **Open the source code and start editing!**
+1. **Open the source code and start editing!**
 
     The site is now running at `http://localhost:8000`!
 
@@ -31,40 +31,42 @@ The code and content for [James Tharpe's website](https://www.jamestharpe.com), 
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
-    .
-    ├── content
-		├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── .prettierrc
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package-lock.json
-    ├── package.json
-    └── README.md
+```text
+	.
+	├── content
+	├── node_modules
+	├── src
+	├── .gitignore
+	├── .prettierrc
+	├── gatsby-browser.js
+	├── gatsby-config.js
+	├── gatsby-node.js
+	├── gatsby-ssr.js
+	├── LICENSE
+	├── package-lock.json
+	├── package.json
+	└── README.md
+```
 
-1.  **`/content`**: This directory contains all of the content for [jamestharpe.com](https://www.jamestharpe.com).
+1. **`/content`**: This directory contains all of the content for [jamestharpe.com](https://www.jamestharpe.com).
 
-2.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+2. **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
 
-3.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+3. **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
 
-4.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+4. **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
 
-5.  **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
+5. **`.prettierrc`**: This is a configuration file for [Prettier](https://prettier.io/). Prettier is a tool to help keep the formatting of your code consistent.
 
-6.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
+6. **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/browser-apis/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
 
-7.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
+7. **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/gatsby-config/) for more detail).
 
-8.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
+8. **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-9.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+9. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-10.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+10. **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
 11. **`package-lock.json`** (See `package.json` below, first). This is an automatically generated file based on the exact versions of your npm dependencies that were installed for your project. **(You won’t change this file directly).**
 

@@ -1,7 +1,8 @@
 ---
 date: 2020-11-23T13:13:11-04:00
 description: "A book by Chris Voss, Never Split the Difference describes various strategies and tactics for successful negotiation"
-tags: [ "chris-voss", "negotiation" ]
+redirect_from: ["/book-never-split-the-difference/"]
+tags: [ "books", "chris-voss", "negotiation" ]
 title: "Never Split the Difference by Chris Voss"
 ---
 
@@ -13,9 +14,9 @@ In **Never Split the Difference**, former FBI negotiator [Chris Voss](chris-voss
 
 ### Be a Mirror
 
-> "[Effective negotiation] starts with the universally applicable premise that people want to be understood and accepted. Listening is the cheapest, yet most effective concession we can make to get there. By listening intensely, a negotiator demonstrates empathy and shows a sincere desire to better understand what the other side is experiencing." 
+> "[Effective negotiation] starts with the universally applicable premise that people want to be understood and accepted. Listening is the cheapest, yet most effective concession we can make to get there. By listening intensely, a negotiator demonstrates empathy and shows a sincere desire to better understand what the other side is experiencing."
 
-Mirroring is one of the most effective ways to build trust, gather information, and make your negotiation opponent feel understood. 
+Mirroring is one of the most effective ways to build trust, gather information, and make your negotiation opponent feel understood.
 
 Ths basics of mirroring are simple: Repeat the last few critical words of what someone has just said. Mirroring is best done with a calm and confident voice, which Voss refers to as "the late-night FM DJ voice" - the negotiator should be focused on _verbal communication_, not body language. This encourages the person being mirrored to elaborate.
 

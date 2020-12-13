@@ -1,7 +1,8 @@
 ---
 date: 2020-06-06T09:40:11-04:00
 description: "A business graphic novel to introduce the theory of constraints"
-tags: [ "book" ]
+redirect_from: ["/book-goal-business-graphic-novel/"]
+tags: [ "books" ]
 title: "The Goal: A Business Graphic Novel by Eliyahu Goldratt"
 ---
 
@@ -40,7 +41,7 @@ Bottleneck cost ($c$) is the system's total expenses ($\$$), divided by the bott
 * Prioritize only what contributes to _throughput_, not to _inventory_
 * Distribute or reduce the load through alternative processes
 
-It's okay to slow down steps that proceed the bottleneck to reduce defects sent to the bottleneck or to "get around" the bottleneck, as long as those steps do not become slower than the bottleneck (thus becoming the bottleneck). 
+It's okay to slow down steps that proceed the bottleneck to reduce defects sent to the bottleneck or to "get around" the bottleneck, as long as those steps do not become slower than the bottleneck (thus becoming the bottleneck).
 
 When a bottleneck's predecessor exceeds throughput, inventory is created; inventory increases tend to increase operational expenses as well. Running a non-bottleneck at maximum capacity is therefore a waste. Only bottlenecks should be utilized to full capacity. To "subordinate non-bottleneck resources to bottlenecks" is to run non-bottleneck resources at the rate of throughput as constrained by the bottleneck.
 

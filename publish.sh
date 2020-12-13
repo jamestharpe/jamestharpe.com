@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-set -ex
+set -e
 
+git pull
 PUBLISH_DIR="public"
 
 # npm install
 # npm audit fix
 npm run clean
-npm run test:links
+npm run lint
+npm run test:links # TODO: npm test
 
 echo "Deleting old publication from $PUBLISH_DIR"
 rm -rf "$PUBLISH_DIR"
@@ -32,3 +34,5 @@ pushd "$PUBLISH_DIR"
 	git commit -m "Publishing to gh-pages as of $(date)"
 	git push
 popd
+
+git push

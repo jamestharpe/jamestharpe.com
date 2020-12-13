@@ -17,17 +17,17 @@ See 'C:\Program Files\Docker\Docker\Resources\bin\docker.exe run --help'.
 I tried multiple formats for the path, but ultimately discovered that it is necessary to prefix the path with an extra slash (`/`), like so:
 
 ```bash
-$ docker run -it -v //c/Users/james/Code/my-application:/app james/test-container sh
+docker run -it -v //c/Users/james/Code/my-application:/app james/test-container sh
 ```
 
 This is necessary when using `pwd` as well, for example:
 
 ```bash
-$ docker run -it -v /$(pwd):/app james/test-container sh
+docker run -it -v /$(pwd):/app james/test-container sh
 ```
 
-The syntax to mount a docker volume to the current parent directory turned out to be quite interesting as well: 
+The syntax to mount a docker volume to the current parent directory turned out to be quite interesting as well:
 
 ```bash
-$ docker run -it -v /$(pwd)/..:/app james/test-container sh
+docker run -it -v /$(pwd)/..:/app james/test-container sh
 ```

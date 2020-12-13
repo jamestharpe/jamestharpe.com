@@ -60,7 +60,7 @@ The Bullet Journal website contains a [complete introduction to core bullet jour
 
 ## Bullet Journal Practices
 
-Bullet journal practices are intended to maintain focus on what matters through daily and monthly reviews intended to refine task lists and reflect on what matters. 
+Bullet journal practices are intended to maintain focus on what matters through daily and monthly reviews intended to refine task lists and reflect on what matters.
 
 ### Daily Review
 

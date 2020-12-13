@@ -7,3 +7,7 @@ title: "AWS CloudFormation"
 ---
 
 # AWS CloudFormation
+
+## Resources
+
+* [CloudFormation templates from Cloudonaut](https://templates.cloudonaut.io/)

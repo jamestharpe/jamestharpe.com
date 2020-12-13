@@ -6,4 +6,3 @@ title: "Linux"
 ---
 
 # Linux
-

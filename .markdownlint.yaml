@@ -1,0 +1,10 @@
+default: true
+no-hard-tabs: false
+no-inline-html: false
+single-h1:
+  front_matter_title: ""
+line-length: false
+no-trailing-punctuation: 
+  punctuation: ".,;:!。，；：！"
+
+# MD013: { "line_length": 128 }

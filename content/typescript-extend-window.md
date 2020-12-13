@@ -16,7 +16,7 @@ export declare global {
 }
 ```
 
-## Explanation 
+## Explanation
 
 ```typescript
 // <any-name>.d.ts

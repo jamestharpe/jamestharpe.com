@@ -23,7 +23,7 @@ IAM _does not_ include Security Groups. **Security Groups** are part of EC2 and 
 ## IAM Best Practices
 
 * Never us root account
-* Follow the Principle of Least Privilege 
+* Follow the Principle of Least Privilege
 * One user per person - Don't share
 * On role per application - don't reuse
 * Never put credentials in code

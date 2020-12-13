@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 
 const HireMePage: FC<PageProps> = ({ location }) => (
 	<Layout location={location}>
-		<SEO title="404: Not found" />
+		<SEO title="Nerd for Hire" />
 		<h1>Nerd for Hire</h1>
 		<p>
 			Wouldn’t it be great if you had an extra brain to handle complex projects
@@ -14,7 +14,7 @@ const HireMePage: FC<PageProps> = ({ location }) => (
 		</p>
 
 		<h2>Services</h2>
-		
+
 		<h3>Career Coaching for Software Engineers & Managers</h3>
 		<p>
 			<ul>
@@ -22,16 +22,20 @@ const HireMePage: FC<PageProps> = ({ location }) => (
 				<li>Interview practice and coaching</li>
 				<li>Raise/promotion Justification</li>
 			</ul>
-
 		</p>
 		<h3>Technical Interviewing</h3>
-		<p>Need to hire someone with great technical skills, but aren't sure how to identify real talent? I'll rigorously interview candidates to ensure they have strong technical skills.</p>
+		<p>
+			Need to hire someone with great technical skills, but aren't sure how to
+			identify real talent? I'll rigorously interview candidates to ensure they
+			have strong technical skills.
+		</p>
 
 		<h3>Skills Development and Tutoring</h3>
 		<p>
 			<ul>
 				<li>K-12 Math & Science</li>
-				<li>Software Development:
+				<li>
+					Software Development:
 					<ul>
 						<li>Gatsby</li>
 						<li>NodeJS</li>

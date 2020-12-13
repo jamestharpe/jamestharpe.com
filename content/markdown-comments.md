@@ -7,7 +7,7 @@ title: "Markdown Code Comments"
 
 # How to Comment a Markdown File
 
-Markdown doesn't include specific syntax for comments, but there is a workaround using the [reference style links](https://daringfireball.net/projects/markdown/syntax#link) syntax. Using this syntax, the **comments will not be output to the resulting HTML**. 
+Markdown doesn't include specific syntax for comments, but there is a workaround using the [reference style links](https://daringfireball.net/projects/markdown/syntax#link) syntax. Using this syntax, the **comments will not be output to the resulting HTML**.
 
 Here are a few examples:
 

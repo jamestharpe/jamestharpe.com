@@ -157,7 +157,7 @@ $ aws dynamodb create-backup \
 }
 ```
 
-It's important to let the backup finish before proceeding with further changes, but the `aws dynamodb backup` command returns almost instantly because the backup operation is asynchronous. 
+It's important to let the backup finish before proceeding with further changes, but the `aws dynamodb backup` command returns almost instantly because the backup operation is asynchronous.
 
 Waiting on the backup to complete can be done with a simple script and a little help from the `jq` utility.
 
@@ -235,7 +235,7 @@ JobsDynamoDBTableV1: # Renamed
 					-
 						AttributeName: modified
 						KeyType: RANGE
-				Projection: 
+				Projection:
 					ProjectionType: ALL
 		ProvisionedThroughput:
 			ReadCapacityUnits: 1

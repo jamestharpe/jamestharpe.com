@@ -11,7 +11,7 @@ Unit tests are tests that run in isolation from other tests. Unit tests are typi
 
 ## Semantics: The "Unit" in Unit Tests
 
-The "unit" of isolation for a unit test _is the test its self_. Some developers _wrongly_ consider the unit of isolation to be the system under test (the class, module, or function). This semantic difference of understanding can sometimes overwhelm otherwise productive discussions, especially when the difference is not explicitly stated. 
+The "unit" of isolation for a unit test _is the test its self_. Some developers _wrongly_ consider the unit of isolation to be the system under test (the class, module, or function). This semantic difference of understanding can sometimes overwhelm otherwise productive discussions, especially when the difference is not explicitly stated.
 
 ### Why is it Wrong to Consider the System Under Test the Unit of Isolation?
 

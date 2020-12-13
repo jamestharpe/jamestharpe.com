@@ -1,7 +1,8 @@
 ---
 date: 2020-11-23T13:13:11-04:00
 description: "A book by Ryder Carroll, the Bullet Journal Method describes an approach to life management through journals"
-tags: [ "ryder-carroll", "bullet-journaling", "book" ]
+redirect_from: ["/book-bullet-journal-method/"]
+tags: [ "books", "ryder-carroll", "bullet-journaling" ]
 title: "The Bullet Journal Method by Ryder Carroll"
 ---
 

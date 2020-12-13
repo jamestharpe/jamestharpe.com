@@ -36,7 +36,7 @@ This routine can be an easy stand-alone routine, or serve as a warmup for a more
 
 ## Instructions
 
-Perform each exercise in rotation for two or three rotations. 
+Perform each exercise in rotation for two or three rotations.
 
 For exercises requiring weights, start light (≤ 10lbs) and work your way up slowly.
 

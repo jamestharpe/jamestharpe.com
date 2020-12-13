@@ -17,7 +17,7 @@ $V = IR$
 
 And:
 
-$R = V/I$ 
+$R = V/I$
 
 Resistance is how much the flow of electricity is impeded, measured in ohms ($Ω$).
 

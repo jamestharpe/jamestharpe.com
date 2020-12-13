@@ -21,6 +21,6 @@ Another way to put it is, a volt is the amount of electricity required to accele
 
 ### Flowing Electricity: Current and Amperes (amps)
 
-**Current** ($I$) is the "flow" of electricity, measured in amperes or "amps" ($A$). One amp is equal to one coulomb ($C$) passing a given point in a circuit over one second ($s$), or $A = \frac{C}{s}$. 
+**Current** ($I$) is the "flow" of electricity, measured in amperes or "amps" ($A$). One amp is equal to one coulomb ($C$) passing a given point in a circuit over one second ($s$), or $A = \frac{C}{s}$.
 
 Solving for $C$, we can get a mathematical definition of coulomb: $C=As$.
