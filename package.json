@@ -63,7 +63,7 @@
 		"build": "gatsby build",
 		"build:clean": "npm run clean && npm run build",
 		"clean": "gatsby clean",
-		"deploy": "./publish.sh",
+		"deploy": "./deploy.sh",
 		"lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
 		"lint:react": "eslint .",
 		"lint": "npm run lint:react && npm run lint:markdown",
