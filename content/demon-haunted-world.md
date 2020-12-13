@@ -151,4 +151,5 @@ Highlights and discussion available [on Goodreads](https://www.goodreads.com/not
 > --Carl Sagan
 
 > "... a union of government and religion tends to destroy government and degrade religion."
+> 
 > -- Justice Black, Supreme Court, [Engel v. Vitale](https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-engel-v-vitale), 1962
