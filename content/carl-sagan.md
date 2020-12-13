@@ -8,4 +8,4 @@ title: "Carl Sagan"
 # Carl Sagan
 
 * [Official website](https://carlsagan.com/)
-* [Radiolab: Carl Sagan And Ann Druyan's Ultimate Mix Tape](https://www.npr.org/2010/02/12/123534818/carl-sagan-and-ann-druyans-ultimate-mix-tape)
+* [Radiolab Valentine: Carl Sagan and Ann Druyan](https://soundcloud.com/radiolab/radiolab-valentine-carl-sagane)
