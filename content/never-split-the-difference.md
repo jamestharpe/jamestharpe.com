@@ -24,7 +24,7 @@ Mirroring can seem awkward at first, and takes practice, but can eventually seem
 
 ### Label Emotions
 
-> "Empathy is not about being nice or agreeing with the other side. It's about understanding them. Empathy helps us learn the position the enemy is in, why their actions make sense (to tehm), and what might move them.
+> "Empathy is not about being nice or agreeing with the other side. It's about understanding them. Empathy helps us learn the position the enemy is in, why their actions make sense (to them), and what might move them.
 
 Empathy helps to understand why someone's actions make sense _to them_. Labeling is a simple way to show empathy because it acknowledges and validates emotion and shows you know how a person feels. Labeling also helps to build rapport.
 
