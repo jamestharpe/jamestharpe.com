@@ -63,13 +63,13 @@
 		"build": "gatsby build",
 		"build:clean": "npm run clean && npm run build",
 		"clean": "gatsby clean",
-		"publish": "./publish.sh",
-		"start": "gatsby develop",
-		"serve": "gatsby serve",
-		"test:links": "for file in $(find . -path ./node_modules -prune -false -o -name \"*.md\"); do markdown-link-check --verbose --config .markdown-link-check.config.json \"$file\" || exit 1; done;",
-		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+		"deploy": "./publish.sh",
 		"lint:markdown": "markdownlint '**/*.md' --ignore node_modules",
 		"lint:react": "eslint .",
-		"lint": "npm run lint:react && npm run lint:markdown"
+		"lint": "npm run lint:react && npm run lint:markdown",
+		"serve": "gatsby serve",
+		"start": "gatsby develop",
+		"test:links": "for file in $(find . -path ./node_modules -prune -false -o -name \"*.md\"); do markdown-link-check --verbose --config .markdown-link-check.config.json \"$file\" || exit 1; done;",
+		"test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
 	}
 }
