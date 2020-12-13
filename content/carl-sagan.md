@@ -7,7 +7,3 @@ title: "Carl Sagan"
 # Carl Sagan
 
 * [Official website](https://carlsagan.com/)
-
-## Quotes
-
-"Every question is a cry to understand the world" --Carl Sagan, The Demon-Haunted World: Science as a Candle in the Dark
