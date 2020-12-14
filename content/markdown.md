@@ -2,7 +2,7 @@
 date: 2020-11-15T18:18:11-04:00
 description: "Knowledge about Markdown"
 redirect_from: ["/languages/markdown/"]
-tags: ["computer-language"]
+tags: ["computer-languages"]
 title: "Markdown"
 ---
 

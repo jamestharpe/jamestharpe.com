@@ -1,7 +1,7 @@
 ---
 date: 2020-11-23T14:01:11-04:00
 description: "A software architecture in which applications are made up of loosely coupled services"
-tags: [ "computer-language" ]
+tags: [ "computer-languages" ]
 title: "Mermaid (JavaScript Library)"
 ---
 

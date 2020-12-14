@@ -3,7 +3,7 @@ date: 2020-11-15T18:31:11-04:00
 description: "Computer Languages: How humans tell computers what to do"
 tags: []
 title: "Computer Languages"
-redirect_from: ["/languages/", "/languages/page/2/"]
+redirect_from: ["/languages/", "/languages/page/2/", "/computer-language/"]
 ---
 
 # Computer Languages
