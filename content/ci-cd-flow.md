@@ -1,6 +1,6 @@
 ---
 date: 2020-12-14T14:28:11-04:00
-# draft: true
+draft: true
 description: "Learn about CI/CD \"flow\": What it is and how it's useful"
 tags: [ "ci-cd" ]
 title: "CI/CD Flow"
