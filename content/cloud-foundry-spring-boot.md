@@ -29,7 +29,7 @@ cf services # List services in the target CF space
 cf marketplace # List services that can added to the target CF space
 ```
 
-Additional information: [Platform Acceleration Lab](https://prerequisites.pal.pivotal.io/)
+Additional information: [Platform Acceleration Lab](https://github.com/platform-acceleration-lab/prerequisite-code)
 
 ## 2. Create a Spring Boot Application
 

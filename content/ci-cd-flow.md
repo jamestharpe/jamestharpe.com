@@ -75,7 +75,7 @@ If we replace the 4-step manual approval process with a single automated step, o
 
 #### Quality Gates
 
-Another example is in adding quality gates, such as linting. While this decreases ideal flow, it may increase effective flow by catching issues that would have decreased the deployment success rate. 
+Another example is in adding quality gates, such as linting. While this decreases ideal flow, it may increase effective flow by catching issues that would have decreased the deployment success rate.
 
 ## Limitations and Responses
 
