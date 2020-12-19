@@ -8,6 +8,7 @@ PUBLISH_DIR="public"
 # npm install
 # npm audit fix
 npm run clean
+npm run lint:fix
 npm run lint
 npm run test:links # TODO: npm test
 
