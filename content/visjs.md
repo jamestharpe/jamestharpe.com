@@ -9,7 +9,7 @@ title: "vis.js (JavaScript Library)"
 
 `vis.js` is a set of data-visualization libraries for [JavaScript](javascript.md).
 
-# `vis.js` Resources
+## `vis.js` Resources
 
 * [Official Website](https://visjs.org/)
 * [`vis.js` code on GitHub](https://github.com/visjs)

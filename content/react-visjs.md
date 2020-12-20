@@ -7,7 +7,6 @@ title: "Use vis.js in a React Application"
 
 # Use `vis.js` in a React App
 
-
 Vis visualizations can be added to React applications without any React-specific 3rd-party packages. For this recipe we'll use [`vis-network`](https://github.com/visjs/vis-network), though any `vis.js` package should easily substitute. These instructions assume you are starting with an existing React application. To get started from scratch, check out the [Intro to React Tutorial](https://reactjs.org/tutorial/tutorial.html).
 
 ## 1. Install Dependencies
@@ -20,7 +19,7 @@ npm install --save vis-data vis-network
 
 ## 2. Hook Into the DOM
 
-Visualizations drawn by Vis libraries require direct access to the DOM. We can set that up in React with a combination of `useRef` and `useEffect`: 
+Visualizations drawn by Vis libraries require direct access to the DOM. We can set that up in React with a combination of `useRef` and `useEffect`:
 
 JavaScript (JSX) Example:
 
@@ -81,7 +80,7 @@ const VisNetwork = () => {
 
 	const visJsRef = useRef(null);
 	useEffect(() => {
-		const network = 
+		const network =
 			visJsRef.current &&
 			new Network(visJsRef.current, { nodes, edges } );
 		// Use `network` here to configure events, etc
@@ -115,7 +114,7 @@ const VisNetwork: React.FC = () => {
 
 	const visJsRef = useRef<HTMLDivElement>(null);
 	useEffect(() => {
-		const network = 
+		const network =
 			visJsRef.current &&
 			new Network(visJsRef.current, { nodes, edges } );
 		// Use `network` here to configure events, etc

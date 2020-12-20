@@ -15,4 +15,4 @@ On a day-to-day basis, the impact is that GitLab is more convenient than GitHub.
 
 However, there's also a more human reason: Having a single identity makes coding social. On GitHub, you get all the "credit" for your contribution. It's rewarding to see the [contribution graph](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-profile/managing-contribution-graphs-on-your-profile) get darker and darker green on GitHub, but on GitLab those contributions can get split across accounts.
 
-If GitLab wants to get serious about attracting open-source to its platform, they need to allow their users to have a single identity on that platform. 
+If GitLab wants to get serious about attracting open-source to its platform, they need to allow their users to have a single identity on that platform.

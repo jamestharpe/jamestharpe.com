@@ -2,7 +2,7 @@
 date: 2020-08-19T16:02:11-04:00
 description: "An open-source, statically typed, compiled programming language"
 tags: ["computer-languages"]
-title: "Go (Programming Language)"
+title: "Go"
 ---
 
 # Go

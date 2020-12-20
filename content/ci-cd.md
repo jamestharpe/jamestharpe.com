@@ -16,4 +16,3 @@ Continuous Integration is a set of processes and practices designed to improve d
 ## What is Continuous Delivery and Deployment
 
 Continuous Delivery is the practice of improving time-to-value by continuously deploying to non-production environments for testing. Continuous Deployment extends Continuous Delivery all the way through to production. The two terms are often used interchangeably because Continuous Deployment is an extension of Continuous Delivery, though it frequently does have special considerations.
-
