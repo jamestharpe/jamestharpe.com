@@ -1,6 +1,5 @@
 import { WindowLocation } from "@reach/router";
 import React from "react";
-import Graph from "react-graph-vis";
 import { tagFromSlug, useKnowledgeNetworkQuery } from "../tags";
 
 type RelatedNetworkProps = {
@@ -107,7 +106,7 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 
 	return (
 		<article>
-			<h2>{title} Knowledge Graph</h2>
+			{/* <h2>{title} Knowledge Graph</h2>
 			<div
 				style={{
 					height: `${2 * (approxLinesOfText + edges.length)}em`,
@@ -118,7 +117,7 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 				}}
 			>
 				<Graph graph={{ nodes, edges }} options={options} events={events} />
-			</div>
+			</div> */}
 		</article>
 	);
 };
