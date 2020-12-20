@@ -2,7 +2,7 @@
 date: 2019-01-15T06:18:03-05:00
 redirect_from: ["/spring-mvc-crud-operations/"]
 title: "Spring MVC CRUD Operations"
-tags: ["java", "intellij", "gradle", "cloud-foundry", "pal-tracker", "spring-boot", "microservices"]
+tags: [ "java", "gradle", "cloud-foundry", "pal-tracker", "spring-boot" ]
 ---
 
 # Recipe: Create, Retrieve, Update, and Delete with Spring MVC

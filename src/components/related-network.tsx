@@ -1,15 +1,15 @@
-import { WindowLocation } from "@reach/router";
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { Network } from "vis-network";
 import { tagFromSlug, useKnowledgeNetworkQuery } from "../tags";
 
 type RelatedNetworkProps = {
-	location: WindowLocation;
+	locationPathname: string;
 	title?: string;
 	tags?: string[];
 };
 
 const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
-	location,
+	locationPathname,
 	title,
 	tags
 }) => {
@@ -17,15 +17,15 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 		maximum: 150
 	};
 	const color = {
-		border: "#FAB84C",
+		border: "#411811",
 		background: "#7CCB7D",
 		highlight: { border: "#314A5E", background: "#B6E2B7" },
-		hover: { border: "#314A5E", background: "#B6E2B7" },
-		font: {
-			color: "#411811"
-		}
+		hover: { border: "#314A5E", background: "#FFFFFF" }
 	};
-	const related = useKnowledgeNetworkQuery(location, tags);
+	const font = {
+		color: "#411811"
+	};
+	const related = useKnowledgeNetworkQuery(locationPathname, tags);
 	const nodes = (
 		related.articles?.map((a) => {
 			return {
@@ -37,7 +37,8 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 				tags: a.frontmatter.tags,
 				shape: "box",
 				widthConstraint,
-				color
+				color,
+				font
 			};
 		}) || []
 	)
@@ -52,21 +53,28 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 					tags: t.frontmatter.tags,
 					shape: "ellipse",
 					widthConstraint,
-					color
+					color,
+					font
 				};
 			}) || []
 		)
 		.concat([
 			{
-				id: location.pathname,
+				id: locationPathname,
 				label: title,
 				title: "This article",
-				slug: location.pathname,
-				tag: tagFromSlug(location.pathname),
+				slug: locationPathname,
+				tag: tagFromSlug(locationPathname),
 				tags,
 				shape: "circle",
 				widthConstraint,
-				color
+				color: {
+					...color,
+					background: "#411811"
+				},
+				font: {
+					color: "#7CCB7D"
+				}
 			}
 		]);
 
@@ -79,46 +87,44 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 			nodes
 				.filter((n) => current.tags?.includes(n.tag))
 				.map((n) => {
-					return { from: n.id, to: current.id, length: 175 };
+					return { from: n.id, to: current.id, length: 175, arrows: { to: true } };
 				}) || []
 		);
 	}, []);
 
-	const options = {
-		autoResize: true,
-		layout: {
-			hierarchical: false
-		},
-		edges: {
-			color: "#411811"
-		}
-		// height: `${100 * nodes.length}px`,
-		// width: `100%`
-	};
-	const events = {
-		select: function (event: { nodes: string[] }) {
+	const visJsRef = useRef<HTMLDivElement>(null);
+
+	useEffect(() => {
+		const network =
+			visJsRef.current &&
+			new Network(
+				visJsRef.current,
+				{ nodes, edges },
+				{
+					autoResize: true,
+					edges: {
+						color: "#411811"
+					}
+				}
+			);
+		network?.on("selectNode", (event: { nodes: string[] }) => {
 			if (event.nodes?.length === 1) {
 				window.location.href = event.nodes[0];
 			}
-			// console.log("event", event);
-		}
-	};
+		});
+	}, [visJsRef, nodes, edges]);
 
 	return (
-		<article>
-			{/* <h2>{title} Knowledge Graph</h2>
-			<div
-				style={{
-					height: `${2 * (approxLinesOfText + edges.length)}em`,
-					width: `${8 * nodes.length + 8}em`,
-					maxWidth: "100%",
-					minWidth: "30%",
-					maxHeight: "512px"
-				}}
-			>
-				<Graph graph={{ nodes, edges }} options={options} events={events} />
-			</div> */}
-		</article>
+		<div
+			ref={visJsRef}
+			style={{
+				height: `${2 * (approxLinesOfText + edges.length)}em`,
+				width: `${8 * nodes.length + 8}em`,
+				maxWidth: "100%",
+				minWidth: "30%",
+				maxHeight: "512px"
+			}}
+		/>
 	);
 };
 

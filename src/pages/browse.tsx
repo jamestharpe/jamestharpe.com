@@ -29,18 +29,22 @@ const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => {
 			<ul>
 				{data.allMarkdownRemark.group
 					.sort((g1, g2) => g1.tag.localeCompare(g2.tag))
-					.map((group, index) => (
-						<li key={index}>
-							<Link
-								to={`/${group.tag}`}
-								style={{ fontSize: `${1 + group.totalCount / 100 - 0.01}em` }}
-							>
-								{data.allMarkdownRemark.nodes.find(
-									(node) => node.fields.slug === `/${group.tag}/`
-								)?.frontmatter.title || forHumans(group.tag)}
-							</Link>
-						</li>
-					))}
+					.map((group, index) => {
+						const article = data.allMarkdownRemark.nodes.find(
+							(node) => node.fields.slug === `/${group.tag}/`
+						);
+						console.log("article.tags", article?.frontmatter);
+						return (
+							<li key={index}>
+								<Link
+									to={`/${group.tag}`}
+									style={{ fontSize: `${1 + group.totalCount / 100 - 0.01}em` }}
+								>
+									{article?.frontmatter.title || forHumans(group.tag)}
+								</Link>
+							</li>
+						);
+					})}
 			</ul>
 		</Layout>
 	);

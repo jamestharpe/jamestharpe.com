@@ -1,8 +1,8 @@
 ---
 date: 2019-01-14T17:06:34-05:00
 redirect_from: ["/pcf-spring-boot-basics/"]
-tags: ["java", "spring-boot", "microservices", "cloud-foundry", "pal-tracker", "intellij"]
-title: "Pivotal Cloud Foundry (PCF) with Spring Boot Basics"
+tags: ["java", "spring-boot", "cloud-foundry", "pal-tracker", "intellij"]
+title: "Deploy Spring Boot Apps to Pivotal Cloud Foundry (PCF)"
 ---
 
 # Recipe: PCF Cloud Native App

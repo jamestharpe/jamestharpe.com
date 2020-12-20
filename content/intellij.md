@@ -1,7 +1,7 @@
 ---
 date: 2020-11-16T07:48:34-05:00
 tags: ["java"]
-title: "IntelliJ IDE"
+title: "IntelliJ IDEA"
 ---
 
 # IntelliJ IDEA

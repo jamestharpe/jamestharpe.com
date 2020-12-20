@@ -10,13 +10,13 @@ type RelatedListProps = {
 };
 
 const RelatedList: React.FC<RelatedListProps> = ({ location, title, tags }) => {
-	const related = useKnowledgeNetworkQuery(location, tags);
+	const related = useKnowledgeNetworkQuery(location.pathname, tags);
 	return (
 		<>
 			{/* Related - Articles */}
 			{!!related.articles?.length && (
-				<article>
-					<h2>More Knowledge on {title}</h2>
+				<section>
+					<h2>Deeper Knowledge on {title}</h2>
 					{related.articles.map((article) => (
 						<section key={article.fields.slug}>
 							<Link to={article.fields.slug}>
@@ -25,12 +25,12 @@ const RelatedList: React.FC<RelatedListProps> = ({ location, title, tags }) => {
 							<p>{article.frontmatter.description || article.excerpt}</p>
 						</section>
 					))}
-				</article>
+				</section>
 			)}
 			{/* Related - Tags */}
 			{!!related.tags?.length && (
-				<article>
-					<h2>Topics related to {title}</h2>
+				<section>
+					<h2>Broader Topics Related to {title}</h2>
 					{related.tags.map((article) => (
 						<section key={article.fields.slug}>
 							<Link to={article.fields.slug}>
@@ -39,7 +39,7 @@ const RelatedList: React.FC<RelatedListProps> = ({ location, title, tags }) => {
 							<p>{article.frontmatter.description || article.excerpt}</p>
 						</section>
 					))}
-				</article>
+				</section>
 			)}
 		</>
 	);

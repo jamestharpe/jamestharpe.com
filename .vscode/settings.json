@@ -39,6 +39,7 @@
 		"VCAP",
 		"Vitale",
 		"Voss",
+		"WASM",
 		"WORKDIR",
 		"Whitelabel",
 		"allowfullscreen",
@@ -82,6 +83,7 @@
 		"textfield",
 		"trackerapi",
 		"uroot",
+		"visjs",
 		"xargs"
 	],
 	"editor.insertSpaces": false,

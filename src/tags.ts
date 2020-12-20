@@ -1,4 +1,3 @@
-import { WindowLocation } from "@reach/router";
 import { graphql, useStaticQuery } from "gatsby";
 
 export function forHumans(tag: string) {
@@ -35,7 +34,7 @@ type KnowledgeNetworkQueryResult = {
 };
 
 export function useKnowledgeNetworkQuery(
-	location: WindowLocation,
+	locationPathname: string,
 	tags?: string[]
 ) {
 	const {
@@ -58,7 +57,7 @@ export function useKnowledgeNetworkQuery(
 		}
 	`);
 
-	const slug = tagFromSlug(location.pathname);
+	const slug = tagFromSlug(locationPathname);
 
 	const result = {
 		// Tagged with this article's slug

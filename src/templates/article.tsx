@@ -30,17 +30,24 @@ const ArticleTemplate: FC<PageProps<ArticleTemplateData>> = ({
 				title={markdownRemark.frontmatter.title}
 				description={markdownRemark.frontmatter.description || ""}
 			/>
-			<div dangerouslySetInnerHTML={{ __html: markdownRemark.html }} />
-			<RelatedList
-				location={location}
-				tags={markdownRemark.frontmatter.tags}
-				title={markdownRemark.frontmatter.title}
-			/>
-			<RelatedNetwork
-				location={location}
-				tags={markdownRemark.frontmatter.tags}
-				title={markdownRemark.frontmatter.title}
-			/>
+			<article>
+				<section
+					dangerouslySetInnerHTML={{ __html: markdownRemark.html }}
+				></section>
+				<RelatedList
+					location={location}
+					tags={markdownRemark.frontmatter.tags}
+					title={markdownRemark.frontmatter.title}
+				/>
+				<section>
+					<h2>{markdownRemark.frontmatter.title} Knowledge Graph</h2>
+					<RelatedNetwork
+						locationPathname={location.pathname}
+						tags={markdownRemark.frontmatter.tags}
+						title={markdownRemark.frontmatter.title}
+					/>
+				</section>
+			</article>
 		</Layout>
 	);
 };

@@ -1,8 +1,8 @@
 ---
 date: 2019-01-14T20:25:15-05:00
 redirect_from: ["/pcf-spring-boot-environment-basics/"]
-tags: ["cloud-foundry", "gradle", "intellij", "java", "microservices", "pal-tracker"]
-title: "Cloud Foundry Spring Boot Environment Basics"
+tags: ["cloud-foundry", "java", "pal-tracker"]
+title: "Spring Boot Environment Configuration on Cloud Foundry"
 ---
 
 # Recipe: Configure Spring Boot on Cloud Foundry
