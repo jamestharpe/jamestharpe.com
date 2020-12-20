@@ -13,36 +13,38 @@ type BrowsePageData = {
 		}[];
 		nodes: {
 			fields: { slug: string };
-			frontmatter: { title: string };
+			frontmatter: { title: string; tags: string[] };
 		}[];
 	};
 };
 
-const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => (
-	<Layout location={location}>
-		<SEO
-			title="Browse James's Knowledge Graph: Topics"
-			description="Browse James Tharpe's Knowledge Graph"
-		/>
-		<h1>Browse the Knowledge Graph</h1>
-		<ul>
-			{data.allMarkdownRemark.group
-				.sort((g1, g2) => g1.tag.localeCompare(g2.tag))
-				.map((group) => (
-					<li>
-						<Link
-							to={`/${group.tag}`}
-							style={{ fontSize: `${1 + group.totalCount / 100 - 0.01}em` }}
-						>
-							{data.allMarkdownRemark.nodes.find(
-								(node) => node.fields.slug === `/${group.tag}/`
-							)?.frontmatter.title || forHumans(group.tag)}
-						</Link>
-					</li>
-				))}
-		</ul>
-	</Layout>
-);
+const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => {
+	return (
+		<Layout location={location}>
+			<SEO
+				title="Browse James's Knowledge Graph: Topics"
+				description="Browse James Tharpe's Knowledge Graph"
+			/>
+			<h1>Browse the Knowledge Graph</h1>
+			<ul>
+				{data.allMarkdownRemark.group
+					.sort((g1, g2) => g1.tag.localeCompare(g2.tag))
+					.map((group, index) => (
+						<li key={index}>
+							<Link
+								to={`/${group.tag}`}
+								style={{ fontSize: `${1 + group.totalCount / 100 - 0.01}em` }}
+							>
+								{data.allMarkdownRemark.nodes.find(
+									(node) => node.fields.slug === `/${group.tag}/`
+								)?.frontmatter.title || forHumans(group.tag)}
+							</Link>
+						</li>
+					))}
+			</ul>
+		</Layout>
+	);
+};
 
 export const query = graphql`
 	query Browse {
@@ -58,6 +60,7 @@ export const query = graphql`
 				}
 				frontmatter {
 					title
+					tags
 				}
 			}
 		}

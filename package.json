@@ -24,12 +24,14 @@
 		"prop-types": "^15.7.2",
 		"react": "^16.12.0",
 		"react-dom": "^16.12.0",
-		"react-helmet": "^6.1.0"
+		"react-helmet": "^6.1.0",
+		"vis-react": "^0.5.1"
 	},
 	"devDependencies": {
 		"@tmus/gatsby-remark-links-normalizer": "git+https://github.com/tmobile/gatsby-remark-links-normalizer.git",
 		"@types/lunr": "^2.3.3",
 		"@types/react-helmet": "^6.1.0",
+		"@types/vis": "^4.21.21",
 		"@typescript-eslint/eslint-plugin": "^4.7.0",
 		"@typescript-eslint/parser": "^4.7.0",
 		"eslint": "^7.13.0",
