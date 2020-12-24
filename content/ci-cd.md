@@ -1,7 +1,7 @@
 ---
 date: 2020-12-14T14:20:11-04:00
 description: "Continuous Integration and Continuous Deployment (CI/CD)"
-tags: [ ]
+tags: [ "software-engineering" ]
 title: "Software Pipelines (CI/CD)"
 ---
 
