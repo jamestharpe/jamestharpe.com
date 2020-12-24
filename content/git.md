@@ -41,12 +41,12 @@ The `.git/HEAD` file contains a reference to a tag or SHA, which identifies a sp
 
 ```mermaid
 graph TD
-  HEAD[".git/HEAD"] --> Ref[".git/<tag or SHA>"]
-  Ref --> Commit["<Commit SHA>"]
+  HEAD[".git/HEAD"] --> Ref[".git/&lt;tag or SHA&gt;"]
+  Ref --> Commit["&lt;Commit SHA&gt;"]
   Commit --> Tree
 	Commit --> Author
   Commit --> Comment["Commit Comment"]
-  Tree --> Parent["<Parent Commit SHA(s)>"]
+  Tree --> Parent["&lt;Parent Commit SHA(s)&gt;"]
 	Tree --> Blob["Blob(s)"]
 ```
 
