@@ -1,5 +1,5 @@
 ---
-date: 2020-11-17T10:21:30-04:00
+date: 2020-12-24T10:41:30-04:00
 description: "How Git works internally"
 tags: [ "git" ]
 title: "Git Internals"
