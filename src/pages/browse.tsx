@@ -33,7 +33,6 @@ const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => {
 						const article = data.allMarkdownRemark.nodes.find(
 							(node) => node.fields.slug === `/${group.tag}/`
 						);
-						console.log("article.tags", article?.frontmatter);
 						return (
 							<li key={index}>
 								<Link
