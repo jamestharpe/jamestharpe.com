@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 type IndexPageData = {
-	allMarkdownRemark: {
+	allMdx: {
 		totalCount: number;
 		nodes: {
 			id: number;
@@ -31,8 +31,8 @@ const IndexPage: FC<PageProps<IndexPageData>> = ({ data, location }) => (
 			folks other than myself find it useful, that's great! If it's not useful,
 			that's fine too.
 		</p>
-		<h2>Ten Most Recent Posts (of {data.allMarkdownRemark.totalCount} Total)</h2>
-		{data.allMarkdownRemark.nodes.map((node) => (
+		<h2>Ten Most Recent Posts (of {data.allMdx.totalCount} Total)</h2>
+		{data.allMdx.nodes.map((node) => (
 			<div key={node.id}>
 				<h3>
 					<Link to={node.fields.slug}>{node.frontmatter.title} </Link>—{" "}
@@ -46,7 +46,7 @@ const IndexPage: FC<PageProps<IndexPageData>> = ({ data, location }) => (
 
 export const query = graphql`
 	query {
-		allMarkdownRemark(
+		allMdx(
 			limit: 10
 			sort: { fields: frontmatter___date, order: DESC }
 			filter: { frontmatter: { draft: { ne: true } } }

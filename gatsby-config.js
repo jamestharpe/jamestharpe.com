@@ -91,8 +91,8 @@ module.exports = {
 				],
 				// How to resolve each field's value for a supported node type
 				resolvers: {
-					// For any node of type MarkdownRemark, list how to resolve the fields' values
-					MarkdownRemark: {
+					// For any node of type Mdx, list how to resolve the fields' values
+					Mdx: {
 						title: (node) => node.frontmatter.title,
 						content: (node) => node.rawMarkdownBody,
 						tags: (node) => node.frontmatter.tags,
@@ -108,9 +108,10 @@ module.exports = {
 			}
 		},
 		{
-			resolve: `gatsby-transformer-remark`,
+			resolve: `gatsby-plugin-mdx`,
 			options: {
-				plugins: [
+				extensions: [`.md`, `.mdx`],
+				gatsbyRemarkPlugins: [
 					"@tmus/gatsby-remark-links-normalizer",
 					{
 						resolve: "gatsby-remark-graph",
@@ -196,10 +197,10 @@ module.exports = {
 			}
 		},
 		{
-			resolve: "gatsby-plugin-feed"
+			resolve: "gatsby-plugin-feed-mdx"
 		},
 		"gatsby-plugin-catch-links",
-		"gatsby-redirect-from",
+		{ resolve: "gatsby-redirect-from", options: { query: "allMdx" } },
 		"gatsby-plugin-meta-redirect" // make sure this is always the last one
 	]
 };

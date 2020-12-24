@@ -18,7 +18,7 @@ export function tagFromSlug(path: string) {
 }
 
 type KnowledgeNetworkQueryResult = {
-	allMarkdownRemark?: {
+	allMdx?: {
 		nodes: {
 			excerpt: string;
 			fields: {
@@ -37,11 +37,9 @@ export function useKnowledgeNetworkQuery(
 	locationPathname: string,
 	tags?: string[]
 ) {
-	const {
-		allMarkdownRemark
-	}: KnowledgeNetworkQueryResult = useStaticQuery(graphql`
+	const { allMdx }: KnowledgeNetworkQueryResult = useStaticQuery(graphql`
 		query KnowledgeNetworkQuery {
-			allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
+			allMdx(filter: { frontmatter: { draft: { ne: true } } }) {
 				nodes {
 					excerpt
 					frontmatter {
@@ -61,11 +59,11 @@ export function useKnowledgeNetworkQuery(
 
 	const result = {
 		// Tagged with this article's slug
-		articles: allMarkdownRemark?.nodes.filter((article) =>
+		articles: allMdx?.nodes.filter((article) =>
 			article.frontmatter?.tags?.includes(slug)
 		),
 		// Tagged by this article
-		tags: allMarkdownRemark?.nodes.filter((article) =>
+		tags: allMdx?.nodes.filter((article) =>
 			tags?.includes(article.fields.slug.slice(1, -1))
 		)
 	};

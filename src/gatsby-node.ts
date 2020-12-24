@@ -9,7 +9,7 @@ export async function createPages(args: CreatePagesArgs) {
 
 	const { data, errors } = (await graphql(`
 		query {
-			allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
+			allMdx(filter: { frontmatter: { draft: { ne: true } } }) {
 				nodes {
 					fields {
 						slug
@@ -18,7 +18,7 @@ export async function createPages(args: CreatePagesArgs) {
 			}
 		}
 	`)) as {
-		data?: { allMarkdownRemark: { nodes: { fields: { slug: string } }[] } };
+		data?: { allMdx: { nodes: { fields: { slug: string } }[] } };
 		errors?: never;
 	};
 
@@ -27,7 +27,7 @@ export async function createPages(args: CreatePagesArgs) {
 		throw new Error("Failed to create pages");
 	}
 
-	data?.allMarkdownRemark.nodes.forEach((node) => {
+	data?.allMdx.nodes.forEach((node) => {
 		const { slug } = node.fields;
 		console.log("Create page", { slug });
 		createPage({
@@ -46,7 +46,7 @@ export /* async */ function onCreateNode(args: CreateNodeArgs<Node>) {
 	const { node, getNode } = args;
 	const { createNodeField } = args.actions;
 
-	if (node.internal.type === `MarkdownRemark`) {
+	if (node.internal.type === `Mdx`) {
 		// Slug for path
 		const slug = createFilePath({ node, getNode, basePath: `content` });
 		createNodeField({

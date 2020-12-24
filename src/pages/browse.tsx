@@ -5,7 +5,7 @@ import SEO from "../components/seo";
 import { forHumans } from "../tags";
 
 type BrowsePageData = {
-	allMarkdownRemark: {
+	allMdx: {
 		totalCount: number;
 		group: {
 			tag: string;
@@ -27,10 +27,10 @@ const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => {
 			/>
 			<h1>Browse the Knowledge Graph</h1>
 			<ul>
-				{data.allMarkdownRemark.group
+				{data.allMdx.group
 					.sort((g1, g2) => g1.tag.localeCompare(g2.tag))
 					.map((group, index) => {
-						const article = data.allMarkdownRemark.nodes.find(
+						const article = data.allMdx.nodes.find(
 							(node) => node.fields.slug === `/${group.tag}/`
 						);
 						return (
@@ -51,7 +51,7 @@ const BrowsePage: FC<PageProps<BrowsePageData>> = ({ data, location }) => {
 
 export const query = graphql`
 	query Browse {
-		allMarkdownRemark(filter: { frontmatter: { draft: { ne: true } } }) {
+		allMdx(filter: { frontmatter: { draft: { ne: true } } }) {
 			totalCount
 			group(field: frontmatter___tags) {
 				tag: fieldValue
