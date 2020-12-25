@@ -2,7 +2,7 @@
 draft: true
 date: 2020-11-24T17:30:11-04:00
 description: "A guide to making small, habitual changes to improve your life"
-tags: [ "books" ]
+tags: [ "books", "personal-productivity" ]
 title: "Atomic Habits by James Clear"
 ---
 

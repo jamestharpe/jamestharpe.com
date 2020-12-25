@@ -1,0 +1,32 @@
+---
+date: 2020-12-24T10:46:11-04:00
+description: "A time management method for short-bursts of focus"
+tags: [ "personal-productivity" ]
+title: "The Pomodoro Technique"
+---
+
+# The Pomodoro Technique
+
+The **Pomodoro Technique** is a simple but effective technique for time management. It is an especially useful way to get through drudgery and reduce procrastination.
+
+Here's how it works:
+
+1. Decide on a task
+2. Set a timer for 25 minutes
+3. Work on the task until the time goes off
+4. Take a break for 5 minutes
+5. Go back to step one
+
+After four cycles (about two hours), take a longer break of about 15 to 30 minutes.
+
+## Tips for Effective Pomodoros
+
+* Avoid distractions: Silence your phone, close your door, and so on
+* Keep a notepad to record other tasks that come to mind
+* Adjust the times to suit your needs and tasks
+* If you're "in the zone" when it's break time, keep going!
+* Move your body during breaks: Do a quick stretch, go for a walk, etc.
+
+## Animated Video: The Pomodoro Technique - A Study and Productivity Technique
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1l4w7uHdNaQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

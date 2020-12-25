@@ -1,7 +1,7 @@
 ---
 date: 2020-11-23T15:00:11-04:00
 description: "A method of to organize schedules, reminders, task lists, and brainstorming with into a single notebook"
-tags: []
+tags: [ "personal-productivity" ]
 title: "Bullet Journaling"
 ---
 
