@@ -29,7 +29,7 @@ graph TD
 ```
 
 > "Progress is made by lazy men looking for easier ways to do things."
-> 
+>
 > -- Robert A. Heinlein
 
 ## Triage at the Point of Collection
@@ -51,8 +51,7 @@ It can sometimes be hard to drop a task, even though it's not important. It some
 
 ## Have a Planning & Prioritization Cycle
 
-Use daily, weekly, monthly, and annual cycles to make small, medium, and large adjustments to your plans and 
-priorities. In each cycle, eliminate non-critical work and break-down large tasks into smaller ones. Not much gets done while you're sleeping, so generally try break large tasks down into tasks that can be done in less than one day.
+Use daily, weekly, monthly, and annual cycles to make small, medium, and large adjustments to your plans and priorities. In each cycle, eliminate non-critical work and break-down large tasks into smaller ones. Not much gets done while you're sleeping, so generally try break large tasks down into tasks that can be done in less than one day.
 
 * On a **daily** basis, take 5-10 minutes to list the few most important tasks you'd like to accomplish that day. At the end of the day, do a 5-10 minute review to cross-off anything that's been completed or has become irrelevant.
 * On a **weekly** or **monthly** basis, take an hour or two to set some medium-sized goals that will get you "one step closer" to your long-term aspirations. Break the bigger tasks into smaller tasks, or schedule time to plan them out more thoroughly. [Triage](4d-time-management.md) left-over tasks from the previous week or month.
@@ -66,7 +65,7 @@ Another common cycle is "Monday vision, Friday reflection" where you set out a l
 
 Satisfaction comes from progress and recognition, so measure what you can and share your journey. Keep a journal, a blog, a spreadsheet - whatever will help you see that your system is working.
 
-It's natural to feel guilty when you fail to meet a commitment, fall short of a goal, or resume a habit you were trying to break. Yet you can own your failures without guilt. Define your mistake, forgive yourself for it, and adjust your plans to reality. 
+It's natural to feel guilty when you fail to meet a commitment, fall short of a goal, or resume a habit you were trying to break. Yet you can own your failures without guilt. Define your mistake, forgive yourself for it, and adjust your plans to reality.
 
 Ways to avoid guilt:
 
@@ -105,7 +104,7 @@ Here's my list of data streams, with the best signal-to-noise ratio at the top:
 * Slack
 * Text messages
 
-_--- Way too much on my plate, drop everything below this line ---_
+--- Way too much on my plate, drop everything below this line ---
 
 * Feedly
 * Google Hangouts
@@ -113,7 +112,7 @@ _--- Way too much on my plate, drop everything below this line ---_
 * Phone Calls
 * Personal Email
 
-_--- Starting to get stressed, drop everything below this line ---_
+--- Starting to get stressed, drop everything below this line ---
 
 * TikTok
 * Reddit
