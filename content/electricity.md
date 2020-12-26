@@ -17,7 +17,7 @@ Stored electricity is called voltage and is measured in volts. More precisely, *
 
 One **volt** is equal to 1 joule ($J$, see [physics](physics.md)) per 1 coulomb ($C$), or $V = \frac{J}{C}$. A **coulomb** is a quantity of electrical charge, approximately equal to $6.2415090744 \cdot 10^{18}$ elementary charges (i.e. electrons).
 
-Another way to put it is, a volt is the amount of electricity required to accelerate 1kg by 1 meter per second squared (a joule) for 1 second (resulting in a displacement of $1m$), divided by the quantity of electrical charges (coulombs). In other words, a volt is "how much work can be done per coulomb". 
+Another way to put it is, a volt is the amount of electricity required to accelerate 1kg by 1 meter per second squared (a joule) for 1 second (resulting in a displacement of $1m$), divided by the quantity of electrical charges (coulombs). In other words, a volt is "how much work can be done per coulomb".
 
 ### Flowing Electricity: Current and Amperes (amps)
 
