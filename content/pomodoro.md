@@ -1,13 +1,13 @@
 ---
 date: 2020-12-24T10:46:11-04:00
 description: "A time management method for short-bursts of focus"
-tags: [ "personal-productivity" ]
+tags: [ "personal-productivity", "timeboxing" ]
 title: "The Pomodoro Technique"
 ---
 
 # The Pomodoro Technique
 
-The **Pomodoro Technique** is a simple but effective technique for time management. It is an especially useful way to get through drudgery and reduce procrastination.
+The **Pomodoro Technique** is a simple but effective technique for time management that uses short [timeboxes](timeboxing.md) and frequent breaks. It is an especially useful way to get through drudgery, reduce procrastination, and increase focus.
 
 Here's how it works:
 
@@ -18,6 +18,17 @@ Here's how it works:
 5. Go back to step one
 
 After four cycles (about two hours), take a longer break of about 15 to 30 minutes.
+
+```mermaid
+graph TD
+  Decide["Decide on a<br/>Task"] -->
+  Work["Work the task<br/>for 25 Minutes"] --> 
+  Count{"Has it been<br/>4 iterations?"} --> 
+  |No| Break5["Take a 5 minute<br/>break"]
+  Count --> |Yes| Break15["Take a 15<br/>minute break"]
+  Break5 --> Decide
+  Break15 --> Decide
+```
 
 ## Tips for Effective Pomodoros
 

@@ -56,11 +56,11 @@ Once you're able to stick with a small change consistently for a month, go back 
 
 ## 5. Revisit
 
-Every 3 - 6 months, or at least once per year, re-visit your "ideal" day. Ensure it still truly represents your ideal day based on the person you want to be and the goals you want to achieve. Change it as needed, and keep going through the steps. Slow and steady wins the race.
+Every 3 - 6 months, or at least once per year, re-visit your "ideal" day. Even if you've only made a few changes, noting the progress will help supply motivation for a few more moths. Now may be the time to map out a new "ideal day" based new insights and goals. Change it as needed, and keep going through the steps. Slow and steady wins the race.
 
 ## Additional Tips for Building a Daily Routine
 
-Not every waking moment must be dedicated to some maniacal vision of success as we often see in "productivity porn" and "hustle culture". It's okay to take breaks and it's okay to recharge. Willpower is a reservoir that has to be replenished.
+Not every waking moment must be dedicated to some maniacal vision of success as we often see in "productivity porn" and "hustle culture". It's okay to take breaks and it's okay to recharge. Willpower is a reservoir that has to be replenished. When your routine is disrupted or you fall back into old routines that don't serve you well, go back to step one and take things one day at a time.
 
 ## Example Deviations: Problems and Solutions
 

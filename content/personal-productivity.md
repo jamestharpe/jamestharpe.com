@@ -17,7 +17,7 @@ Each person has goals and aspirations. These are your starting point, write them
 
 ## Have a Collection Point
 
-Tasks collect in many places - email, notepads, to-do apps, and so on. Settle on a single collection point to collect all tasks. The collection point can be an app, a spreadsheet, a notepad, whatever. For me, it's my [bullet journal](bullet-journal-method.md).
+Tasks collect in many places - email, notepads, to-do apps, and so on. Settle on a single collection point to collect all tasks. The collection point can be an app, a spreadsheet, a notepad, whatever. For me, it's my [bullet journal](bullet-journaling.md).
 
 ```mermaid
 graph TD
@@ -119,18 +119,6 @@ Here's my list of data streams, with the best signal-to-noise ratio at the top:
 * Facebook
 * Postal Mail
 * Voicemail
-
-## Email Productivity Tips and Tricks
-
-> "Email is where keystrokes go to Die"
->
-> --Scott Hanselman
-
-* Create an email rule to put emails where you're on the "CC" line into a separate folder
-* Don't check respond too email too early, they'll trigger disruptions to the day
-  * Check email after noon
-  * Schedule emails to be automatically sent at a later time
-* Don't write emails, email links. Rather than responding to emails with more email, write your response in any sharable location. A blog post, a shared document, a wiki, a knowledge base, whatever. Then respond with a link to that location. If that link is shared only once, it saved you from sending another email.
 
 ## Additional Productivity Tips and Tricks
 
