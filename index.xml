@@ -1,4 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James's Knowledge Graph]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Dec 2020 02:13:41 GMT</lastBuildDate><item><title><![CDATA[Productive Daily Routines]]></title><description><![CDATA[How to Build a Productive Daily Routine An effective daily routine is the cornerstone of personal productivity that allows us to stay…]]></description><link>https://www.jamestharpe.com/daily-routine/</link><guid isPermaLink="false">https://www.jamestharpe.com/daily-routine/</guid><pubDate>Fri, 25 Dec 2020 00:01:11 GMT</pubDate><content:encoded>&lt;h1&gt;How to Build a Productive Daily Routine&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James's Knowledge Graph]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Dec 2020 18:01:46 GMT</lastBuildDate><item><title><![CDATA[Timeboxing]]></title><description><![CDATA[Timeboxing A timebox is a fixed amount of time dedicated exclusively to a particular goal. At the end of that time, the work is evaluated…]]></description><link>https://www.jamestharpe.com/timeboxing/</link><guid isPermaLink="false">https://www.jamestharpe.com/timeboxing/</guid><pubDate>Sat, 26 Dec 2020 16:30:11 GMT</pubDate><content:encoded>&lt;h1&gt;Timeboxing&lt;/h1&gt;
+&lt;p&gt;A &lt;strong&gt;timebox&lt;/strong&gt; is a fixed amount of time dedicated exclusively to a particular goal. At the end of that time, the work is evaluated even if it&apos;s incomplete. The idea is to create focus on the goal by eliminating other goals from focus that may be important, but can also create distraction. The timebox ends with a &quot;hard stop&quot; to provide an opportunity to assess the progress and decide what to do next.&lt;/p&gt;
+&lt;p&gt;At the end of a timebox, the options generally are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keep going&lt;/li&gt;
+&lt;li&gt;Keep going, but change something first&lt;/li&gt;
+&lt;li&gt;Do something else&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The basic structure of a timebox is to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Decide on the goal and set aside a fixed amount of time&lt;/li&gt;
+&lt;li&gt;Work toward the goal for the fixed amount of time&lt;/li&gt;
+&lt;li&gt;Stop work and evaluate what to do next&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[Email Productivity]]></title><description><![CDATA[Email Productivity Tips & Tricks Here are some quick "hacks" that help manage email. Reduce Distractions from Email Email notifications can…]]></description><link>https://www.jamestharpe.com/email-productivity/</link><guid isPermaLink="false">https://www.jamestharpe.com/email-productivity/</guid><pubDate>Sat, 26 Dec 2020 15:29:11 GMT</pubDate><content:encoded>&lt;h1&gt;Email Productivity Tips &amp;#x26; Tricks&lt;/h1&gt;
+&lt;p&gt;Here are some quick &quot;hacks&quot; that help manage email.&lt;/p&gt;
+&lt;h2&gt;Reduce Distractions from Email&lt;/h2&gt;
+&lt;p&gt;Email notifications can take you out of your &quot;flow&quot;. Even when you&apos;re intentionally checking email, new emails coming in can distract you from the email you&apos;re currently reading or responding to. Yet it&apos;s often impractical to close your inbox even when you&apos;re not checking email, because &lt;em&gt;something important might happen&lt;/em&gt; or your email is integrated with your calendar and you rely on the reminders.&lt;/p&gt;
+&lt;p&gt;What you &lt;em&gt;can&lt;/em&gt; do is &lt;em&gt;customize your notifications&lt;/em&gt;. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Only allow email notifications when the email is from your boss or a client&lt;/li&gt;
+&lt;li&gt;Schedule &quot;do not disturb&quot; mode times&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you want to try disabling notifications, but are worried you&apos;ll miss something: Setup an auto-responder with an alternative contact method. For example:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I&apos;m working on a big project right now and not checking email. If this is urgent, please call ...&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Raise Important Emails to the Top&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Filter out &quot;FYI&quot; emails&lt;/strong&gt; with a rule to put emails where you&apos;re not on the &lt;code class=&quot;language-text&quot;&gt;To:&lt;/code&gt; line into a separate folder. Your inbox will instantly be more focused on emails that require action.&lt;/p&gt;
+&lt;p&gt;Other rules might also be useful to raise the visibility of important emails, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Mark emails from specific people as high/low priority&lt;/li&gt;
+&lt;li&gt;Move mailing lists and newsletters to a lower-priority folder&lt;/li&gt;
+&lt;li&gt;Ignore specific threads where the use of &quot;Reply All&quot; has gotten out of hand&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Schedule Email Timeboxes&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Limit time spent in email&lt;/strong&gt; to one or two &lt;a href=&quot;../timeboxing/&quot;&gt;timeboxes&lt;/a&gt; per &lt;a href=&quot;../daily-routine/&quot;&gt;day&lt;/a&gt;. Prefer scheduling this time for the second half of the day so that responses to your email don&apos;t trigger disruptions throughout the day. If you &lt;em&gt;must&lt;/em&gt; check email at the beginning of your day, consider the &quot;send later&quot; feature as another means of preventing disruptions.&lt;/p&gt;
+&lt;p&gt;During each timebox, focus on getting through as many emails as possible using the &lt;a href=&quot;../4d-time-management/&quot;&gt;4D time management technique&lt;/a&gt;: For each email that require action:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Do it.&lt;/strong&gt; Respond right away if it will take less than five minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delegate it.&lt;/strong&gt; Respond right away and make it clear who&apos;s responsible.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Defer it.&lt;/strong&gt; Schedule a time to respond to that email specifically.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Delete everything else.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Replace Emails with Links&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Don&apos;t write emails, email links.&lt;/strong&gt; Rather than responding to emails with more email, write your response in any sharable location. A blog post, a shared document, a wiki, a knowledge base, whatever. Then respond with a link to that location. If that link is shared only once, it saved you from responding to another email.&lt;/p&gt;
+&lt;h2&gt;Declare Email Bankruptcy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Delete all unread emails&lt;/strong&gt; older than six months (or one year, if that&apos;s too scary). You were never going to respond anyway.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Productive Daily Routines]]></title><description><![CDATA[How to Build a Productive Daily Routine An effective daily routine is the cornerstone of personal productivity that allows us to stay…]]></description><link>https://www.jamestharpe.com/daily-routine/</link><guid isPermaLink="false">https://www.jamestharpe.com/daily-routine/</guid><pubDate>Fri, 25 Dec 2020 00:01:11 GMT</pubDate><content:encoded>&lt;h1&gt;How to Build a Productive Daily Routine&lt;/h1&gt;
 &lt;p&gt;An effective daily routine is the cornerstone of &lt;a href=&quot;../personal-productivity/&quot;&gt;personal productivity&lt;/a&gt; that allows us to stay focused on achieving our larger goals. How do we get from our current daily routine to a more effective one?&lt;/p&gt;
 &lt;p&gt;Changes in routine are best done in small increments. We start where we are, make small adjustments, then once those adjustments become routine we can make more adjustments.&lt;/p&gt;
 &lt;h2&gt;1. Design and &quot;Ideal&quot; Daily Routine&lt;/h2&gt;
@@ -81,9 +127,9 @@
 &lt;h2&gt;4. Repeat&lt;/h2&gt;
 &lt;p&gt;Once you&apos;re able to stick with a small change consistently for a month, go back to step three and make another change. If you&apos;re feeling motivated and a monthly pace seems too slow, go with it! Make more small changes, or a few bigger ones. When your motivation wanes, cut back, reset, and start again at step 1.&lt;/p&gt;
 &lt;h2&gt;5. Revisit&lt;/h2&gt;
-&lt;p&gt;Every 3 - 6 months, or at least once per year, re-visit your &quot;ideal&quot; day. Ensure it still truly represents your ideal day based on the person you want to be and the goals you want to achieve. Change it as needed, and keep going through the steps. Slow and steady wins the race.&lt;/p&gt;
+&lt;p&gt;Every 3 - 6 months, or at least once per year, re-visit your &quot;ideal&quot; day. Even if you&apos;ve only made a few changes, noting the progress will help supply motivation for a few more moths. Now may be the time to map out a new &quot;ideal day&quot; based new insights and goals. Change it as needed, and keep going through the steps. Slow and steady wins the race.&lt;/p&gt;
 &lt;h2&gt;Additional Tips for Building a Daily Routine&lt;/h2&gt;
-&lt;p&gt;Not every waking moment must be dedicated to some maniacal vision of success as we often see in &quot;productivity porn&quot; and &quot;hustle culture&quot;. It&apos;s okay to take breaks and it&apos;s okay to recharge. Willpower is a reservoir that has to be replenished.&lt;/p&gt;
+&lt;p&gt;Not every waking moment must be dedicated to some maniacal vision of success as we often see in &quot;productivity porn&quot; and &quot;hustle culture&quot;. It&apos;s okay to take breaks and it&apos;s okay to recharge. Willpower is a reservoir that has to be replenished. When your routine is disrupted or you fall back into old routines that don&apos;t serve you well, go back to step one and take things one day at a time.&lt;/p&gt;
 &lt;h2&gt;Example Deviations: Problems and Solutions&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -203,26 +249,21 @@
 	&lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;The basic idea is that one should try to maximize time spent on activities that fall in Quadrant 2 and minimize time spent on activities in Quadrants 3 and 4.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Stephen Covey]]></title><description><![CDATA[Stephen Covey]]></description><link>https://www.jamestharpe.com/stephen-covey/</link><guid isPermaLink="false">https://www.jamestharpe.com/stephen-covey/</guid><pubDate>Thu, 24 Dec 2020 16:23:11 GMT</pubDate><content:encoded>&lt;h1&gt;Stephen Covey&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[4D Time Management]]></title><description><![CDATA[Delegate, Do, Defer, Drop 4D Time Management is a decision framework to triage incoming tasks from "Getting Things Done: The Art of Stress…]]></description><link>https://www.jamestharpe.com/4d-time-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/4d-time-management/</guid><pubDate>Thu, 24 Dec 2020 16:04:11 GMT</pubDate><content:encoded>&lt;h1&gt;Delegate, Do, Defer, Drop&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;4D Time Management&lt;/strong&gt; is a decision framework to triage incoming tasks from &quot;Getting Things Done: The Art of Stress-Free Productivity&quot; by David Allen. Tasks might come from email, chat, phone calls, and other places. Handling the task quickly can help keep focus on priorities and help reduce distractions.&lt;/p&gt;
-&lt;p&gt;The following flow-chart combines 4D Time Management with &lt;a href=&quot;../covey-time-management-matrix/&quot;&gt;Stephen Covey&apos;s Time Management Matrix&lt;/a&gt; from his &lt;a href=&quot;../7-habits/&quot;&gt;Seven Habits&lt;/a&gt; book.&lt;/p&gt;
-&lt;div class=&quot;mermaid&quot;&gt;graph TD
-  Task[&quot;New Task&quot;] --&gt; Important{Important?}
-  Important --&gt; |No| Drop[&quot;Drop It&quot;]
-  Important --&gt; |Yes| Urgent{Urgent?}
-  Urgent --&gt; |No| SomeoneNotUrgent{&quot;Can Someone &lt;br/&gt; Else Do It?&quot;}
-  Urgent --&gt; |Yes| SomeoneUrgent{&quot;Should Someone &lt;br/&gt; Else Do It?&quot;}
-  SomeoneNotUrgent --&gt; |Yes| DelegateAsync[&quot;Delegate Asynchronously&quot;]
-  SomeoneNotUrgent --&gt; |No| Time{&quot;Time bound?&quot;}
-  SomeoneUrgent --&gt; |Yes| DelegateSync[&quot;Delegate Synchronously&quot;]
-  SomeoneUrgent --&gt; |No| Do[&quot;Do It&quot;]
-  Time --&gt;|No| Tasks[(&quot;Task List&quot;)]
-  Time --&gt;|Yes| Calendar[&quot;Schedule it&quot;]&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Personal Productivity]]></title><description><![CDATA[Personal Productivity Personal productivity is the practice of doing the right things and doing things right. Identifying the right things…]]></description><link>https://www.jamestharpe.com/personal-productivity/</link><guid isPermaLink="false">https://www.jamestharpe.com/personal-productivity/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>&lt;h1&gt;Personal Productivity&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;4D Time Management&lt;/strong&gt; is a decision framework to triage incoming tasks from &quot;Getting Things Done: The Art of Stress-Free Productivity&quot; by David Allen. Tasks might come from email, chat, phone calls, and other places. Handling the task quickly can help keep focus on priorities and help reduce distractions. They key to effectively handling tasks as they come in is to do, delegate, defer, or drop them.&lt;/p&gt;
+&lt;h2&gt;Do&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Do&lt;/strong&gt; the task right away, then and there, so you no longer have to worry about it. Knocking a task out completely helps minimize cognitive burden.&lt;/p&gt;
+&lt;h2&gt;Delegate&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Delegate&lt;/strong&gt; tasks that are best left to someone else. If you&apos;re worried about the task getting done, you can also &lt;em&gt;defer&lt;/em&gt; a task to follow-up later. When delegating, I find it best to delegate urgent tasks synchronously (for example, via a meeting or phone call) and non-urgent tasks asynchronously (for example, via email).&lt;/p&gt;
+&lt;h2&gt;Defer&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Defer&lt;/strong&gt; tasks that you need to do, but can wait. If they&apos;re time sensitive, schedule them. If they&apos;re not time sensitive, then keep them in a running task list. I like to use a &lt;a href=&quot;../bullet-journaling/&quot;&gt;bullet journal&lt;/a&gt; for this since it handles both.&lt;/p&gt;
+&lt;h2&gt;Drop&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Drop&lt;/strong&gt; everything else. This is easier said than done. Dropping tasks often comes with the anxiety of not having enough time, or working on the wrong things. Remember that important tasks tend to  persist until they&apos;ve found their way to you; and when you have too much to do, all  you can do is less.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Personal Productivity]]></title><description><![CDATA[Personal Productivity Personal productivity is the practice of doing the right things and doing things right. Identifying the right things…]]></description><link>https://www.jamestharpe.com/personal-productivity/</link><guid isPermaLink="false">https://www.jamestharpe.com/personal-productivity/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>&lt;h1&gt;Personal Productivity&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Personal productivity&lt;/strong&gt; is the practice of doing the right things and doing things right. Identifying the right things and knowing how to do things right requires motivation; when motivation fails, it requires discipline; when discipline fails, it require forgiveness.&lt;/p&gt;
 &lt;h2&gt;Start with the Person&lt;/h2&gt;
 &lt;p&gt;Personal productivity starts with the person. To be productive: Eat well, sleep well, be mindful, and and exercise. Maintain these fundamentals in your everyday routine.&lt;/p&gt;
 &lt;p&gt;Each person has goals and aspirations. These are your starting point, write them down.&lt;/p&gt;
 &lt;h2&gt;Have a Collection Point&lt;/h2&gt;
-&lt;p&gt;Tasks collect in many places - email, notepads, to-do apps, and so on. Settle on a single collection point to collect all tasks. The collection point can be an app, a spreadsheet, a notepad, whatever. For me, it&apos;s my &lt;a href=&quot;../bullet-journal-method/&quot;&gt;bullet journal&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Tasks collect in many places - email, notepads, to-do apps, and so on. Settle on a single collection point to collect all tasks. The collection point can be an app, a spreadsheet, a notepad, whatever. For me, it&apos;s my &lt;a href=&quot;../bullet-journaling/&quot;&gt;bullet journal&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&quot;mermaid&quot;&gt;graph TD
 	Bujo[\Collection Point/]
 	Goals[(&quot;Goals &amp;&lt;br/&gt;Aspirations&quot;)] --&gt; Bujo
@@ -306,22 +347,6 @@
 &lt;li&gt;Postal Mail&lt;/li&gt;
 &lt;li&gt;Voicemail&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;Email Productivity Tips and Tricks&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&quot;Email is where keystrokes go to Die&quot;&lt;/p&gt;
-&lt;p&gt;--Scott Hanselman&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Create an email rule to put emails where you&apos;re on the &quot;CC&quot; line into a separate folder&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Don&apos;t check respond too email too early, they&apos;ll trigger disruptions to the day&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Check email after noon&lt;/li&gt;
-&lt;li&gt;Schedule emails to be automatically sent at a later time&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Don&apos;t write emails, email links. Rather than responding to emails with more email, write your response in any sharable location. A blog post, a shared document, a wiki, a knowledge base, whatever. Then respond with a link to that location. If that link is shared only once, it saved you from sending another email.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;h2&gt;Additional Productivity Tips and Tricks&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Combine TV, audio books, podcasts, and other passive forms of entertainment with working out&lt;/li&gt;
@@ -333,8 +358,8 @@
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=RpH6IPhyh7I&amp;#x26;list=WL&amp;#x26;index=3&quot;&gt;Scott Hanselman - Personal Productivity&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://officedynamics.com/43-folders-method-paper-system/&quot;&gt;43 Folders System&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.43folders.com/2004/09/03/introducing-the-hipster-pda&quot;&gt;Hipster PDA&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[The Pomodoro Technique]]></title><description><![CDATA[The Pomodoro Technique The Pomodoro Technique is a simple but effective technique for time management. It is an especially useful way to get…]]></description><link>https://www.jamestharpe.com/pomodoro/</link><guid isPermaLink="false">https://www.jamestharpe.com/pomodoro/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>&lt;h1&gt;The Pomodoro Technique&lt;/h1&gt;
-&lt;p&gt;The &lt;strong&gt;Pomodoro Technique&lt;/strong&gt; is a simple but effective technique for time management. It is an especially useful way to get through drudgery and reduce procrastination.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[The Pomodoro Technique]]></title><description><![CDATA[The Pomodoro Technique The Pomodoro Technique is a simple but effective technique for time management that uses short timeboxes and frequent…]]></description><link>https://www.jamestharpe.com/pomodoro/</link><guid isPermaLink="false">https://www.jamestharpe.com/pomodoro/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>&lt;h1&gt;The Pomodoro Technique&lt;/h1&gt;
+&lt;p&gt;The &lt;strong&gt;Pomodoro Technique&lt;/strong&gt; is a simple but effective technique for time management that uses short &lt;a href=&quot;../timeboxing/&quot;&gt;timeboxes&lt;/a&gt; and frequent breaks. It is an especially useful way to get through drudgery, reduce procrastination, and increase focus.&lt;/p&gt;
 &lt;p&gt;Here&apos;s how it works:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Decide on a task&lt;/li&gt;
@@ -344,6 +369,14 @@
 &lt;li&gt;Go back to step one&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;After four cycles (about two hours), take a longer break of about 15 to 30 minutes.&lt;/p&gt;
+&lt;div class=&quot;mermaid&quot;&gt;graph TD
+  Decide[&quot;Decide on a&lt;br/&gt;Task&quot;] --&gt;
+  Work[&quot;Work the task&lt;br/&gt;for 25 Minutes&quot;] --&gt;
+  Count{&quot;Has it been&lt;br/&gt;4 iterations?&quot;} --&gt;
+  |No| Break5[&quot;Take a 5 minute&lt;br/&gt;break&quot;]
+  Count --&gt; |Yes| Break15[&quot;Take a 15&lt;br/&gt;minute break&quot;]
+  Break5 --&gt; Decide
+  Break15 --&gt; Decide&lt;/div&gt;
 &lt;h2&gt;Tips for Effective Pomodoros&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Avoid distractions: Silence your phone, close your door, and so on&lt;/li&gt;
@@ -1108,7 +1141,7 @@ M834 80h400000v40h-400000z&apos;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/RpbxIG5HTf4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Full course on Khan Academy: &lt;a href=&quot;https://www.khanacademy.org/science/high-school-physics/work-and-energy-2/power-2/v/power&quot;&gt;Power&lt;/a&gt;)&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[Linux]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;h1&gt;Linux&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[The Linux File System  - Binaries The  folder contains the basic set of binaries available to every user. It contains the binaries for basic…]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;h1&gt;The Linux File System&lt;/h1&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[The Linux File System  - Binaries The  folder contains the basic set of binaries available to every user. It contains the binaries for basic…]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;h1&gt;The Linux File System&lt;/h1&gt;
 &lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;/bin&lt;/code&gt; - Binaries&lt;/h2&gt;
 &lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;/bin&lt;/code&gt; folder contains the basic set of binaries available to every user. It contains the binaries for basic commands such as &lt;code class=&quot;language-text&quot;&gt;ls&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;cat&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;chmod&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;mv&lt;/code&gt;, and more.&lt;/p&gt;
 &lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;/boot&lt;/code&gt; - Bootloaders&lt;/h2&gt;
@@ -1143,13 +1176,13 @@ M834 80h400000v40h-400000z&apos;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
 &lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;/usr&lt;/code&gt; - Users&lt;/h2&gt;
 &lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;/usr&lt;/code&gt; folder contains &quot;non essential&quot; apps and files used by users (as opposed to the system).&lt;/p&gt;
 &lt;h2&gt;&lt;code class=&quot;language-text&quot;&gt;/var&lt;/code&gt; - Variable&lt;/h2&gt;
-&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;/var&lt;/code&gt; folder contains files that are expected to grow over time (e.g. logs and caches).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[Ender 3 Pro 3D Printer Notes The Ender 3 Pro 3D Printer is a great first 3D printer. Filament size: 1.75mm]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>&lt;h1&gt;Ender 3 Pro 3D Printer Notes&lt;/h1&gt;
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;/var&lt;/code&gt; folder contains files that are expected to grow over time (e.g. logs and caches).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[Linux]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;h1&gt;Linux&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[Ender 3 Pro 3D Printer Notes The Ender 3 Pro 3D Printer is a great first 3D printer. Filament size: 1.75mm]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>&lt;h1&gt;Ender 3 Pro 3D Printer Notes&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.creality.com/goods-detail/ender-3-pro-3d-printer&quot;&gt;The Ender 3 Pro 3D Printer&lt;/a&gt; is a great first 3D printer.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Filament size: 1.75mm&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Bullet Journaling Tips & Advice]]></title><description><![CDATA[Bullet Journaling Tips Start new custom collections with a mission statement to stay focused on what's important. Five whys is a great…]]></description><link>https://www.jamestharpe.com/bullet-journaling-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/bullet-journaling-tips/</guid><pubDate>Mon, 23 Nov 2020 20:38:11 GMT</pubDate><content:encoded>&lt;h1&gt;Bullet Journaling Tips&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Start new custom collections with a mission statement&lt;/strong&gt; to stay focused on what&apos;s important. Five whys is a great exercise to help get to the root of what &lt;em&gt;really&lt;/em&gt; needs to be accomplished. It also helps avoid &quot;junk drawer&quot; collections that ultimately serve no purpose.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Start new custom collections with a mission statement&lt;/strong&gt; to stay focused on what&apos;s important. &lt;a href=&quot;../five-whys/&quot;&gt;Five whys&lt;/a&gt; is a great exercise to help get to the root of what &lt;em&gt;really&lt;/em&gt; needs to be accomplished. It also helps avoid &quot;junk drawer&quot; collections that ultimately serve no purpose.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Don&apos;t depend on colors or fancy artwork&lt;/strong&gt; lest your system fall apart when you can&apos;t find the right color pens or left your stencils in the office.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&quot;Word wrap&quot; at two blocks&lt;/strong&gt; (when using a dot journal) to prevent words running off of the page and to provide a little extra margin for later addendum/correction.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Write-out your schedule each day&lt;/strong&gt; to see it at-a-glance.&lt;/li&gt;
@@ -1414,8 +1447,8 @@ And the wisdom to know the difference.&lt;/p&gt;
 &lt;h2&gt;Credits&lt;/h2&gt;
 &lt;p&gt;Based on the warm-ups described in Scrawny to Brawny by Michael Mejia and John Berardi.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Frankensteins (Exercise)]]></title><link>https://www.jamestharpe.com/exercise-frankenstein/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise-frankenstein/</guid><pubDate>Tue, 17 Nov 2020 13:59:30 GMT</pubDate><content:encoded>&lt;!-- TODO: Instructions and video --&gt;</content:encoded></item><item><title><![CDATA[Hip Walks (Exercise)]]></title><description><![CDATA[Hip Walk]]></description><link>https://www.jamestharpe.com/exercise-hip-walk/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise-hip-walk/</guid><pubDate>Tue, 17 Nov 2020 13:55:30 GMT</pubDate><content:encoded>&lt;h1&gt;Hip Walk&lt;/h1&gt;
 &lt;!-- TODO: Instructions and video --&gt;</content:encoded></item><item><title><![CDATA[Spider-Mans (Exercise)]]></title><description><![CDATA[Spider-Mans]]></description><link>https://www.jamestharpe.com/exercise-spider-man/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise-spider-man/</guid><pubDate>Tue, 17 Nov 2020 13:51:30 GMT</pubDate><content:encoded>&lt;h1&gt;Spider-Mans&lt;/h1&gt;
-&lt;!-- TODO: Instructions &amp; video --&gt;</content:encoded></item><item><title><![CDATA[Yoga Ball Rolls]]></title><description><![CDATA[Yoga Ball Rolls]]></description><link>https://www.jamestharpe.com/exercise-yoga-ball-roll/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise-yoga-ball-roll/</guid><pubDate>Tue, 17 Nov 2020 13:51:30 GMT</pubDate><content:encoded>&lt;h1&gt;Yoga Ball Rolls&lt;/h1&gt;
 &lt;!-- TODO: Instructions &amp; video --&gt;</content:encoded></item><item><title><![CDATA[Traffic Cops (Exercise)]]></title><description><![CDATA[Traffic Cops]]></description><link>https://www.jamestharpe.com/exercise-traffic-cop/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise-traffic-cop/</guid><pubDate>Tue, 17 Nov 2020 13:51:30 GMT</pubDate><content:encoded>&lt;h1&gt;Traffic Cops&lt;/h1&gt;
+&lt;!-- TODO: Instructions &amp; video --&gt;</content:encoded></item><item><title><![CDATA[Yoga Ball Rolls]]></title><description><![CDATA[Yoga Ball Rolls]]></description><link>https://www.jamestharpe.com/exercise-yoga-ball-roll/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise-yoga-ball-roll/</guid><pubDate>Tue, 17 Nov 2020 13:51:30 GMT</pubDate><content:encoded>&lt;h1&gt;Yoga Ball Rolls&lt;/h1&gt;
 &lt;!-- TODO: Instructions &amp; video --&gt;</content:encoded></item><item><title><![CDATA[Dumbbell Wood Chop]]></title><description><![CDATA[How to do a Dumbbell Wood Chop]]></description><link>https://www.jamestharpe.com/exercise-dumbbell-wood-chop/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise-dumbbell-wood-chop/</guid><pubDate>Tue, 17 Nov 2020 13:21:30 GMT</pubDate><content:encoded>&lt;h1&gt;How to do a Dumbbell Wood Chop&lt;/h1&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GDfpveO8zK4&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;!-- TODO: Make my own video --&gt;</content:encoded></item><item><title><![CDATA[Easy Full Body Exercise Routine]]></title><description><![CDATA[Easy Full Body Exercise Routine   Time 20 to 30 minutes Difficulty Easy Equipment Dumbbells This routine can be an easy stand-alone routine…]]></description><link>https://www.jamestharpe.com/exercise-routine-full-body-easy/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise-routine-full-body-easy/</guid><pubDate>Tue, 17 Nov 2020 12:14:30 GMT</pubDate><content:encoded>&lt;h1&gt;Easy Full Body Exercise Routine&lt;/h1&gt;
