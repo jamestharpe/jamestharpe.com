@@ -22,8 +22,8 @@ After four cycles (about two hours), take a longer break of about 15 to 30 minut
 ```mermaid
 graph TD
   Decide["Decide on a<br/>Task"] -->
-  Work["Work the task<br/>for 25 Minutes"] --> 
-  Count{"Has it been<br/>4 iterations?"} --> 
+  Work["Work the task<br/>for 25 Minutes"] -->
+  Count{"Has it been<br/>4 iterations?"} -->
   |No| Break5["Take a 5 minute<br/>break"]
   Count --> |Yes| Break15["Take a 15<br/>minute break"]
   Break5 --> Decide

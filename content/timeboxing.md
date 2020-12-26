@@ -7,7 +7,7 @@ title: "Timeboxing"
 
 # Timeboxing
 
-A **timebox** is a fixed amount of time dedicated exclusively to a particular goal. At the end of that time, the work is evaluated even if it's incomplete. The idea is to create focus on the goal by eliminating other goals from focus that may be important, but can also create distraction. The timebox ends with a "hard stop" to provide an opportunity to assess the progress and decide what to do next. 
+A **timebox** is a fixed amount of time dedicated exclusively to a particular goal. At the end of that time, the work is evaluated even if it's incomplete. The idea is to create focus on the goal by eliminating other goals from focus that may be important, but can also create distraction. The timebox ends with a "hard stop" to provide an opportunity to assess the progress and decide what to do next.
 
 At the end of a timebox, the options generally are:
 
