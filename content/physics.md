@@ -15,7 +15,7 @@ title: "Physics"
 
 ## Joules, Force, and Newtons
 
-Work is most commonly measured in joules ($J$). One **joule** is equal to the energy required for one newton ($N$) of force to perform a displacement of one meter ($m$), or $J=Nm$.
+Energy and work are most commonly measured in joules ($J$). One **joule** is equal to the energy required for one newton ($N$) of force to perform a displacement of one meter ($m$), or $J=Nm$.
 
 **Force** is energy transferred to an object (a "push" or a "pull") that will change the motion of an object, if unopposed by another force. Force is measured in Newtons. One **newton** is the force required to accelerate one kilogram ($kg$) one meter per second squared, or $1N = \frac{1kg*1m}{1s^2}$. The equation for force can also be written as the product of mass ($M$) and acceleration ($A$), or $F=MA$.
 
