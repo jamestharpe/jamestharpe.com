@@ -11,7 +11,7 @@ Here are some quick "hacks" that help manage email.
 
 ## Reduce Distractions from Email
 
-Email notifications can take you out of your "flow". Even when you're intentionally checking email, new emails coming in can distract you from the email you're currently reading or responding to. Yet it's often impractical to close your inbox even when you're not checking email, because _something important might happen_ or your email is integrated with your calendar and you rely on the reminders.
+Email notifications can take you out of your "flow". Even when you're intentionally checking email, new emails coming in can distract you from the email you're currently reading or responding to. Yet it's often impractical to close your inbox even when you're not checking email, because _something important might happen_ or your email is integrated with your calendar and you rely on the meeting reminders.
 
 What you _can_ do is _customize your notifications_. For example:
 
