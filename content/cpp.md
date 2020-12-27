@@ -20,7 +20,7 @@ int main()
 }
 ```
 
-# C++ Resources
+## C++ Resources
 
 * [A Tour of C++](https://isocpp.org/tour)
 * [C++ Reference](https://en.cppreference.com/w/)
