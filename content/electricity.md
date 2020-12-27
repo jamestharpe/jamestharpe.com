@@ -27,7 +27,7 @@ Solving for $C$, we can get a mathematical definition of coulomb: $C=As$.
 
 ### Working Electricity: Power and Watts
 
-**Power** ($P$) is amount of work (energy transfer), measured in watts. One watt is equal to 1 joule per second, or $W=J/s$. Power can be derived from current and voltage through [watts law](watts-law.md), which states $P=IV$.
+[**Power** ($P$)](power.md) is amount of work (energy transfer), measured in watts. One **watt** is equal to 1 joule per second, or $W=J/s$. Power can be derived from current and voltage through [watts law](watts-law.md), which states $P=IV$.
 
 ### Relationships between Volts, Amps, Ohms, and Watts
 
