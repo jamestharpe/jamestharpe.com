@@ -16,7 +16,7 @@ Email notifications can take you out of your "flow". Even when you're intentiona
 What you _can_ do is _customize your notifications_. For example:
 
 * Only allow email notifications when the email is from your boss or a client
-* Schedule "do not disturb" mode times
+* Automatically schedule times for "do not disturb" mode
 
 If you want to try disabling notifications, but are worried you'll miss something: Setup an auto-responder with an alternative contact method. For example:
 
