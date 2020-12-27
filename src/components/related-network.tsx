@@ -120,7 +120,7 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 		<div
 			ref={visJsRef}
 			style={{
-				height: `${height < 150 ? 200 : height}em`,
+				height: `${height < 150 ? 150 : height}em`,
 				width: `${8 * nodes.length + 8}em`,
 				maxWidth: "100%",
 				minWidth: "30%",
