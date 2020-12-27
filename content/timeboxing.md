@@ -11,8 +11,8 @@ A **timebox** is a fixed amount of time dedicated exclusively to a particular go
 
 At the end of a timebox, the options generally are:
 
-* Keep going
-* Keep going, but change something first
+* Keep working on the goal
+* Keep working on the goal, but change how the work is done
 * Do something else
 
 The basic structure of a timebox is to:

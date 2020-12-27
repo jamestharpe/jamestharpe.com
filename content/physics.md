@@ -27,7 +27,7 @@ Energy and work are most commonly measured in joules ($J$). One **joule** is equ
 
 **Mass** is the amount of matter that makes up an object. Mass is measured in kilograms ($kg$). A **kilogram** was originally defined to equal to the mass of one litre of water, or 1,000 cubic centimeters of water (thus $1g$ is the mass of $1cm^3$ of water). It's still useful to think of kilogram as defined this way; however the [formal definition](https://www.bipm.org/utils/en/pdf/CGPM/Draft-Resolution-A-EN.pdf) of kilogram is more complicated.
 
-**Velocity** is the distance ($d$) traveled in a given direction over time ($t$), or $V=d/t$ and is often expressed as meters per second ($m/s$). 
+**Velocity** is the distance ($d$) traveled in a given direction over time ($t$), or $V=d/t$ and is often expressed as meters per second ($m/s$).
 
 **Acceleration** is the rate of change in velocity ($V$) over time ($T$), or $A=\Delta{V}/\Delta{T}$, in other words acceleration is how much an object is speeding up, slowing down, or changing direction.
 
