@@ -7,7 +7,7 @@ title: "The 7 Habits of Highly Effective People (Book)"
 
 # The 7 Habits of Highly Effective People
 
-> "Principles are the territory. Values are maps.
+> "Principles are the territory. Values are maps."
 >
 > -- Stephen Covey
 
