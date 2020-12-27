@@ -114,11 +114,13 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 		});
 	}, [visJsRef, nodes, edges]);
 
+	const height = 2 * (approxLinesOfText + edges.length);
+
 	return (
 		<div
 			ref={visJsRef}
 			style={{
-				height: `${2 * (approxLinesOfText + edges.length)}em`,
+				height: `${height < 150 ? 200 : height}em`,
 				width: `${8 * nodes.length + 8}em`,
 				maxWidth: "100%",
 				minWidth: "30%",
