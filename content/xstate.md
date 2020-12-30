@@ -13,6 +13,15 @@ title: "XState (JavaScript Library)"
 
 The [**gas pump example project**](https://codesandbox.io/s/fervent-noyce-yhnrc) uses XState to implement a basic gas pump as if it were an integration of three separate applications, each using a statechart unknown to the other applications, but potentially dependent on them. This was important to prove conceptually for potential use in a multi-team enterprise setting.
 
+This was accomplished by using two separate registries: 
+
+1. A Statechart Registry for each application's statecharts
+2. A UI Component Registry to map UI Components (plain HTML & JS - no framework) to available actions
+
+The Statechart Registry is used to assemble a "Super Statechart" to manage shared context and cross-statechart communication. This was easily achieved by virtue of each application's statechart being subjugated to the Super Statechart, which gave each app's statechart a shared context and enabled communication via the [`send` action](https://xstate.js.org/docs/guides/actions.html#send-action).
+
+It was also necessary to merge the configuration options, which also provided a rudimentary opportunity to detect conflicts. For example, if two independent statecharts defined a `hasCredit` [guard](https://xstate.js.org/docs/guides/guards.html#guarded-transitions), the conflict needed to be detected to fail the formation of the Super Statechart.
+
 ## XState Resources
 
 * [XState Documentation](https://xstate.js.org/docs/)
