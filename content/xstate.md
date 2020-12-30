@@ -13,7 +13,7 @@ title: "XState (JavaScript Library)"
 
 The [**gas pump example project**](https://codesandbox.io/s/fervent-noyce-yhnrc) uses XState to implement a basic gas pump as if it were an integration of three separate applications, each using a statechart unknown to the other applications, but potentially dependent on them. This was important to prove conceptually for potential use in a multi-team enterprise setting.
 
-This was accomplished by using two separate registries: 
+This was accomplished by using two separate registries:
 
 1. A Statechart Registry for each application's statecharts
 2. A UI Component Registry to map UI Components (plain HTML & JS - no framework) to available actions
