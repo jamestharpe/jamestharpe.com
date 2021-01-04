@@ -36,7 +36,7 @@ This pattern usually goes by either of two mnemonics:
 * Arrange, Act, Assert
 * Given, When, Then
 
-In both cases we define an initial state, perform an action, and confirm the result. I personally prefer the declarative "Given, When, Then" over the imperative "Arrange, Act, Assert" because it more easily forms a sentence: _Given a bank balance of $100, when I withdraw $20, then the bank balance is $80_.
+In both cases we define an initial state, perform an action, and confirm the result. I personally prefer the declarative "Given, When, Then" over the imperative "Arrange, Act, Assert" because it more easily forms a sentence: _Given a bank balance of \$100, when I withdraw \$20, then the bank balance is \$80_.
 
 ## Effective Unit Tests
 

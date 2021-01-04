@@ -7,9 +7,9 @@ title: "GitLab"
 
 # GitLab
 
-## Why GitLab isn't as Popular as GitHub for Open Source
+## Why GitLab isn't as Popular as GitHub for Open-Source
 
-GitLab is open source, GitHub is closed source. So why does GitHub attract more open source projects? Obviously, the network effect of GitHub is one reason but I think there's another: On GitHub I can contribute to multiple organizations _with a single identity_, on GitLab I need separate identities to contribute to multiple organizations.
+GitLab is open-source, GitHub is closed source. So why does GitHub attract more open-source projects? Obviously, the network effect of GitHub is one reason but I think there's another: On GitHub I can contribute to multiple organizations _with a single identity_, on GitLab I need separate identities to contribute to multiple organizations.
 
 On a day-to-day basis, the impact is that GitLab is more convenient than GitHub. Contributors that belong to multiple organizations do not need to log out and back in on GitHub as they do on GitLab. There's just one "to-do list" for everything, rather than for each individual account.
 
