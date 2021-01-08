@@ -7,4 +7,4 @@ title: "Science"
 
 # Science
 
-* Science means "knowledge" in Latin.
+Science means "knowledge" in Latin.

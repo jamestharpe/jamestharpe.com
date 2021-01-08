@@ -14,11 +14,11 @@ The [**Arduino Uno**](https://store.arduino.cc/usa/arduino-uno-rev3) is the most
 * USB Type B connector provides data and power in
 * DC Barrel Connector provides power in
 * 14 Digital I/O Pins
-	* Pulse Width Modulation on pins 3, 5, 6, 9, 10, and 11
-	* Serial Communication on pins 0 and 1
-	* Serial Peripheral Interface (SPI) communication on pins 10, 11, 12, and 13
+  * Pulse Width Modulation on pins 3, 5, 6, 9, 10, and 11
+  * Serial Communication on pins 0 and 1
+  * Serial Peripheral Interface (SPI) communication on pins 10, 11, 12, and 13
 * 6 Analog Input Pins
-	* Two Wire Interface (TWI) support on pins A4 and A5
+  * Two Wire Interface (TWI) support on pins A4 and A5
 * Can be powered by a 9V battery
 * "Power pins" can power the board, external devices, and shields
 
