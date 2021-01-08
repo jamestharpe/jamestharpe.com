@@ -18,10 +18,10 @@ The **engineering process** consists of four stages: **Brainstorm**, **research*
 
 ```mermaid
 graph TD
-  Brainstorm --> 
-	Research --> 
-	Prototype --> 
-	Build --> 
+  Brainstorm -->
+	Research -->
+	Prototype -->
+	Build -->
 	Deploy -.-> |Refine| Brainstorm
 	Build -.-> |Refine| Brainstorm
 	Prototype -.-> |Refine| Brainstorm
@@ -44,7 +44,7 @@ The result of the brainstorm stage is a general vision of what problem is being 
 
 The **research** stage is where scope is defined. **Scope** is the refined set of requirements and constraints for the build. **Requirements** are what the build _must_ or _should_ do, and **constraints** are what the build _must not_ or _should not_ do.
 
-1. What must/should the build do? 
+1. What must/should the build do?
 2. What must/should the parts of the build be?
 3. What must/should the limitations of the build be?
 
@@ -53,7 +53,6 @@ As requirements and constraints are identified, conduct research by learning how
 * On search engines
 * In patents
 * From colleagues
-
 
 Result: Specifications = Requirements + Constraints + Experimental Results
 
@@ -71,9 +70,8 @@ Constraints may be properties of the process or materials used, such as size, co
 
 #### Experimentation
 
-Some questions can't be answered by looking up information. These questions tend to be highly contextual to the product you're building and require experimentation to find answers. 
+Some questions can't be answered by looking up information. These questions tend to be highly contextual to the product you're building and require experimentation to find answers.
 
 1. Define the question and variables. **Independent variables** do not depend on other variables, whereas **dependent variables** will change when other variables change (for example, the height of a platform can be set independently but the time it takes an object to fall from that platform will _depend_ on the platform height). A well-designed experiment will keep all variables the same, except for a single independent variable.
 2. Setup the experiment. Use the same materials you plan to use in the final product.
 3. Run the experiment. Measure the outcome. Outcomes can be quantitative or qualitative. Quantitative outcomes are measurable by a discrete number (e.g. the amount of time it takes an object to fall from a platform). Qualitative outcomes are subjective or opinion based (e.g. which color is best?).
-
