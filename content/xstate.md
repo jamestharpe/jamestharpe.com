@@ -27,3 +27,8 @@ It was also necessary to merge the configuration options, which also provided a 
 * [XState Documentation](https://xstate.js.org/docs/)
 * [XState Visualizer](https://xstate.js.org/viz/)
 * [XState Statecharts Tools](https://statecharts.io/)
+
+### XState Tutorials and Presentations
+
+* [Working with State Machines in Angular](https://medium.com/angular-athens/working-with-state-machines-in-angular-2817441e26bf)
+* [Formal Forms with State Machines by David Khourshid | React Next 2019](https://www.youtube.com/watch?v=hiT4Q1ntvzg&list=WL&index=8)
