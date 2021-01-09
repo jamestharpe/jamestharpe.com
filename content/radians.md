@@ -7,7 +7,7 @@ title: "Radian"
 
 # Radian
 
-A radian ($rad$) is the angle ($\theta$) which subtends an arc equal to the length of the radius of a [circle](circles.md). The angle of a circle is $2\pi$ radians.
+A radian ($rad$) is the angle ($\theta$) which subtends an arc equal to the length of the radius of a [circle](circles.md) and the SI unit of angles. The angle of a circle is $2\pi$ radians.
 
 ## Convert Between Radians and Degrees
 
