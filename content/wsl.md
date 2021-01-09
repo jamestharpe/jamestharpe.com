@@ -23,6 +23,5 @@ Retype new UNIX password:
 passwd: updated successfully
 root@COMPUTER:/mnt/c/Users/current_user/# exit
 logout
-
 PS C:\>
 ```

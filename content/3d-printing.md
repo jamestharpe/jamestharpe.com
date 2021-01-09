@@ -18,6 +18,8 @@ Tips:
 * Closely monitor the print as it begins and check on it periodically
 * Clean the printer bed between prints with a small amount of rubbing alcohol and a microfiber cloth
 * A light dusting of cheap hairspray can improve adhesion, especially for glass beds
+* Each filament will specify temperatures and other conditions required for successful prints
+* Clean the printer bed between uses with a small amount of alcohol and a microfiber cloth
 
 ## 3D Printing Terminology
 
@@ -26,8 +28,6 @@ Tips:
 * **Slicer:** Software that converts a 3D model into layer-by-layer print instructions.
 * **STL file:** A "stereolithography" file that defines a set of 3-dimensional design in a layer-by-layer fashion.
 
-* Each filament will specify temperatures and other conditions required for successful prints
-* Clean the printer bed between uses with a small amount of alcohol and a microfiber cloth
 
 ## Online Resources
 

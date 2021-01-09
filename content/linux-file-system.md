@@ -1,7 +1,7 @@
 ---
 date: 2020-11-24T11:33:11-04:00
 description: "Overview of folders in the root of most Linux distributions"
-tags: [ ]
+tags: [ "linux" ]
 title: "Linux File System"
 ---
 
