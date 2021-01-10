@@ -1,7 +1,7 @@
 ---
 date: 2020-01-09T11:21:47-04:00
 description: "Learn about torque: Force that causes an object to rotate around an axis."
-tags: [ "physics" ]
+tags: [ "physics", "angular-motion" ]
 title: "Torque"
 ---
 

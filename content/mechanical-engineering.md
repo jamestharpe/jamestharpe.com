@@ -8,3 +8,9 @@ title: "Mechanical Engineering"
 <!-- TODO: Tag "engineering" -->
 
 # Mechanical Engineering
+
+## Mechanical Engineering Terminology
+
+| Term      | Definition                                    |
+| --------- | --------------------------------------------- |
+| Mechanism | A machine that transforms direction and force |

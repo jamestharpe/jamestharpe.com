@@ -1,7 +1,7 @@
 ---
 date: 2021-01-09T10:51:28-04:00
 description: "Learn about gears and cogs"
-tags: [ "mechanical-engineering", "torque", "mechanical-advantage" ]
+tags: [ "mechanical-engineering", "torque", "mechanical-advantage", "angular-motion" ]
 title: "Gears"
 ---
 
@@ -10,8 +10,6 @@ title: "Gears"
 **Gears** are toothed wheels that, when combined in different configurations, can change the speed, direction, and/or [torque](torque.md) of a power source.
 
 Gear sizes are typically expressed by number of teeth, circumference, diameter, or radius. Gears can be used to create [mechanical advantage](mechanical-advantage.md) equal to the ratio of the driver gear over the driven gear; this ratio is also referred to as the **gear ratio**.
-
-A **gear train** is the combination of three or more gears
 
 ## Gear Terminology
 
@@ -23,6 +21,7 @@ A **gear train** is the combination of three or more gears
 | Driver Gear  | A gear rotated by a power source                                                        |
 | Driven Gear  | A gear rotated by a driver gear                                                         |
 | Gear ratio   | The ratio of the sizes of two gears, typically the driver gear over the driven gear     |
+| Gear train   | The combination of two or more gears                                                    |
 | Pitch Circle | The circumference the the gear, measured at the point of force between two meshed gears |
 | Tooth        | The lever protruding from the cylinder or cone                                          |
 
