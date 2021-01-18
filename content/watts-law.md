@@ -1,7 +1,7 @@
 ---
 date: 2020-11-24T12:39:46-04:00
 description: "A formula to define the relationship between power, voltage, and current (P=IV)"
-tags: [ "electricity" ]
+tags: [ "electricity", "power" ]
 title: "Watt's Law (Power Law)"
 ---
 

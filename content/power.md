@@ -9,7 +9,7 @@ title: "Power (Physics)"
 
 In [physics](physics.md), **Power** ($P$) is the rate at which work is done (or energy is transferred) over time ($t$). Recall that work is a change in energy, therefore Power is the change in energy ($E$) over the change in time, or $P=\Delta{E}/\Delta{t}$.
 
-Power is measured in watts. One **watt** is equal to 1 joule per second, or $W=J/s$.
+Power is measured in [watts](watts-law.md). One **watt** is equal to 1 joule per second, or $W=J/s$.
 
 Power can also be expressed as as the product of force ($F$) and velocity ($V$), or $P=FV$, because force is energy transferred to an object (a change in energy) and velocity is the change in position over time (a change in time).
 
