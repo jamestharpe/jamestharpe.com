@@ -23,7 +23,7 @@ Angular displacement is the basis for angular motion because it allows all point
 
 ## Angular Velocity
 
-**Angular velocity** ($\omega$) is the change in angular displacement over the change in time ($t$), or $\omega = \Delta\theta/\Delta t$ (again, the $\Delta$ is often omitted). Essentially, "radians per second". 
+**Angular velocity** ($\omega$) is the change in angular displacement over the change in time ($t$), or $\omega = \Delta\theta/\Delta t$ (again, the $\Delta$ is often omitted). Essentially, "radians per second".
 
 Angular velocity can be converted to speed (note that speed is not the same as velocity) by substituting arc length for angular displacement. Given $S = r\theta$ and $\omega = \theta/t$, therefore $r\omega = r\theta/ t$ which equals $S/t$ and $S/t$ is distance over time, which is speed.
 

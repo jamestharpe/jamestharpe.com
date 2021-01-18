@@ -23,7 +23,6 @@ $180\degree = \pi\ rad$
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EnwWxMZVBeg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ## Resources to Learn About Radians
 
 * [Intro to Radians on Khan Academy](https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:radians/v/introduction-to-radians)

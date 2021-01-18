@@ -28,7 +28,6 @@ Tips:
 * **Slicer:** Software that converts a 3D model into layer-by-layer print instructions.
 * **STL file:** A "stereolithography" file that defines a set of 3-dimensional design in a layer-by-layer fashion.
 
-
 ## Online Resources
 
 * [Make Anything YouTube Channel](https://www.youtube.com/channel/UCVc6AHfGw9b2zOE_ZGfmsnw) has a lot of fun experiments and projects, plus a great community of helpful enthusiasts.

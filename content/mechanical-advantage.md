@@ -14,4 +14,3 @@ A mechanical advantage less than one will increase the output speed, whereas a m
 ## Resources to Learn About Mechanical Advantage
 
 * [Khan Academy: Introduction to Mechanical Advantage](https://www.khanacademy.org/science/physics/work-and-energy/mechanical-advantage/v/introduction-to-mechanical-advantage)
-

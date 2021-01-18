@@ -58,7 +58,7 @@ As requirements and constraints are identified, conduct research by learning how
 
 Result: Specifications = Requirements + Constraints + Experimental Results
 
-#### 📝 Requirements 
+#### 📝 Requirements
 
 When listing requirements, it can help to sort them into "essential" and "non essential" groups. Within each group, each requirement can be ranked to help focus on problem solving and later changes to the scope. Requirements only state what the build must or should do; they do not state _how_ it must be done. This is important because it leaves the final solution open to creative problem solving and optimization.
 
@@ -90,4 +90,4 @@ When the prototype doesn't work or come together as expected, it's necessary to 
 2. Make a hypothesis about how to fix the failure.
 3. Test the hypothesis.
 
-This process is repeated until the issue is successfully resolved. 
+This process is repeated until the issue is successfully resolved.
