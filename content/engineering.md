@@ -8,6 +8,8 @@ title: "Engineering"
 
 <!-- TODO: Tag engineering articles before removing draft: true -->
 
+<!-- TODO: https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps -->
+
 # Engineering
 
 **Engineering** is the application of science to create machines, processes, and tools that serve some intention.
@@ -44,9 +46,9 @@ The result of the brainstorm stage is a general vision of what problem is being 
 
 The **research** stage is where scope is defined. **Scope** is the refined set of requirements and constraints for the build. **Requirements** are what the build _must_ or _should_ do, and **constraints** are what the build _must not_ or _should not_ do.
 
-1. What must/should the build do?
-2. What must/should the parts of the build be?
-3. What must/should the limitations of the build be?
+1. What must/should the product do?
+2. What must/should the parts/components of the product be?
+3. What must/should the limitations of the product be?
 
 As requirements and constraints are identified, conduct research by learning how others have solved similar requirements or dealt with similar constraints:
 
@@ -56,7 +58,7 @@ As requirements and constraints are identified, conduct research by learning how
 
 Result: Specifications = Requirements + Constraints + Experimental Results
 
-#### Requirements
+#### 📝 Requirements 
 
 When listing requirements, it can help to sort them into "essential" and "non essential" groups. Within each group, each requirement can be ranked to help focus on problem solving and later changes to the scope. Requirements only state what the build must or should do; they do not state _how_ it must be done. This is important because it leaves the final solution open to creative problem solving and optimization.
 
@@ -75,3 +77,17 @@ Some questions can't be answered by looking up information. These questions tend
 1. Define the question and variables. **Independent variables** do not depend on other variables, whereas **dependent variables** will change when other variables change (for example, the height of a platform can be set independently but the time it takes an object to fall from that platform will _depend_ on the platform height). A well-designed experiment will keep all variables the same, except for a single independent variable.
 2. Setup the experiment. Use the same materials you plan to use in the final product.
 3. Run the experiment. Measure the outcome. Outcomes can be quantitative or qualitative. Quantitative outcomes are measurable by a discrete number (e.g. the amount of time it takes an object to fall from a platform). Qualitative outcomes are subjective or opinion based (e.g. which color is best?).
+
+### Prototype
+
+The **prototype** stage is a series of quick experiments designed to validate assumptions. A good prototype is cheap to build, easy to adjust one variable at a time, and as similar to the final product as possible.
+
+#### Troubleshooting
+
+When the prototype doesn't work or come together as expected, it's necessary to troubleshoot what went wrong. The steps to troubleshooting are:
+
+1. Observe where the failure occurred. Sometimes this can be obvious, other times elements of the product need to be broken down into smaller and smaller parts.
+2. Make a hypothesis about how to fix the failure.
+3. Test the hypothesis.
+
+This process is repeated until the issue is successfully resolved. 

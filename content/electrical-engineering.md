@@ -24,3 +24,9 @@ title: "Electrical Engineering"
 | Pin                               | A type of electrical contact in which the connection is designed to be pressed together (i.e. a plug) to form a reliable, low-resistance connection.                              |
 | Power Supply                      | Av electrical device that supplies [power](watts-law.md) to a circuit                                                                                                             |
 | Two Wire Interface (TWI)          | A communication protocol consisting of a data line and a clock line.                                                                                                              |
+
+## Conventions
+
+* Red wires are typically used for power and connect to positive terminals
+* Black wires are typically used for ground and connect to negative terminals
+* Other colors are typically used for electrical signals
