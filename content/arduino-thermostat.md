@@ -221,6 +221,10 @@ Connect the Arduino to you computer and click the **Upload** button to deploye t
 
 You should be able to view the current temperature, adjust the target temperature up and down, switch between celsius and fahrenheit, adjust the brightness of the LED, and see the heating and cooling functions come on based on the difference between the current and target temperatures.
 
+Here's a video of the thermostat in action:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IbFVXAm5U0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Credit
 
 This project is adapted from the [Arduino Thermostat by Micah Beeler](https://www.instructables.com/Arduino-Thermostat/).
