@@ -103,34 +103,34 @@ Here is the full, annotated code for the thermostat:
 
 // Sensor Configuration: Should map to temperature & humidity
 // sensor connections to the Arduino
-const int 
-  DHT_PIN = A0, 
+const int
+  DHT_PIN = A0,
 	DHT_TYPE = DHT11;
 
 DHT sensor(DHT_PIN, DHT_TYPE);
 
 // LCD Configuration: Should map to temperature & humidity
 // sensor connections to the Arduino
-const int 
-	LCD_PIN_RS = 11, 
-	LCD_PIN_EN = 12, 
-	LCD_PIN_D4 = 2, 
-	LCD_PIN_D5 = 3, 
-	LCD_PIN_D6 = 4, 
+const int
+	LCD_PIN_RS = 11,
+	LCD_PIN_EN = 12,
+	LCD_PIN_D4 = 2,
+	LCD_PIN_D5 = 3,
+	LCD_PIN_D6 = 4,
 	LCD_PIN_D7 = 5;
 
 LiquidCrystal lcd(
-	LCD_PIN_RS, 
-	LCD_PIN_EN, 
-	LCD_PIN_D4, 
-	LCD_PIN_D5, 
-	LCD_PIN_D6, 
+	LCD_PIN_RS,
+	LCD_PIN_EN,
+	LCD_PIN_D4,
+	LCD_PIN_D5,
+	LCD_PIN_D6,
 	LCD_PIN_D7);
 
 // Button configuration
-const int 
-	DECREMENT_BTN_PIN = 7, 
-	TOGGLE_BTN_PIN = 8, 
+const int
+	DECREMENT_BTN_PIN = 7,
+	TOGGLE_BTN_PIN = 8,
 	INCREMENT_BTN_PIN = 9;
 
 // "Heater" and "cooler" configuration
@@ -168,7 +168,7 @@ void setup() {
   
   Serial.print("setup() DONE\n");
 }
- 
+
 void loop() {
   Serial.print("loop()\n");
 
@@ -189,8 +189,8 @@ void loop() {
   float temperature = sensor.readTemperature(useFahrenheit);
   float humidity = sensor.readHumidity();
   Serial.print(
-		"\t" + String(temperature) + "°" + symbol + 
-		", Relative Humidity " + String(humidity) + 
+		"\t" + String(temperature) + "°" + symbol +
+		", Relative Humidity " + String(humidity) +
 		"% \n");
   
   // Write out to LCD
@@ -203,7 +203,7 @@ void loop() {
 
   if(round(target) < round(temperature)) digitalWrite(COOLER_PIN, HIGH);
   else digitalWrite(COOLER_PIN, LOW);
- 
+
   // Pause to allow finger to lift from button(s)
   if(wait) delay(500);
 }
@@ -221,6 +221,6 @@ Connect the Arduino to you computer and click the **Upload** button to deploye t
 
 You should be able to view the current temperature, adjust the target temperature up and down, switch between celsius and fahrenheit, adjust the brightness of the LED, and see the heating and cooling functions come on based on the difference between the current and target temperatures.
 
-## Credit 
+## Credit
 
 This project is adapted from the [Arduino Thermostat by Micah Beeler](https://www.instructables.com/Arduino-Thermostat/).
