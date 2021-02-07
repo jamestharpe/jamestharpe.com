@@ -87,7 +87,7 @@ Ensure each connection is secure. The final build should look something like thi
 
 ### 1. Import the DHT library
 
-The DHT library is not available by default. To install it, navigate in the Arduino IDE to **Tools** ➡ **Manage Libraries...** the search for "DHT sensor library" and install it.
+The DHT library is not available by default. To install it, navigate in the Arduino IDE to **Tools** ➡ **Manage Libraries...** then search for "DHT sensor library" and install it.
 
 ### 2. Write (or copy & paste) the code
 
