@@ -134,7 +134,7 @@ const int
 	INCREMENT_BTN_PIN = 9;
 
 // "Heater" and "cooler" configuration
-const int 
+const int
 	HEATER_PIN = 13,
 	COOLER_PIN = 10;
 
