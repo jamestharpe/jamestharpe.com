@@ -229,3 +229,8 @@ Here's a video of the thermostat in action:
 ## Credit
 
 This project is adapted from the [Arduino Thermostat by Micah Beeler](https://www.instructables.com/Arduino-Thermostat/).
+
+## Articles that Helped
+
+* [How to set up the DHT11 Humidity Sensor on an Arduino](https://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-an-arduino/)
+* [Arduino LCD tutorial](https://arduinogetstarted.com/tutorials/arduino-lcd)
