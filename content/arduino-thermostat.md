@@ -104,7 +104,7 @@ Here is the full, annotated code for the thermostat:
 // Sensor Configuration: Should map to temperature & humidity
 // sensor connections to the Arduino
 const int
-  DHT_PIN = A0,
+	DHT_PIN = A0,
 	DHT_TYPE = DHT11;
 
 DHT sensor(DHT_PIN, DHT_TYPE);
@@ -134,8 +134,9 @@ const int
 	INCREMENT_BTN_PIN = 9;
 
 // "Heater" and "cooler" configuration
-const int HEATER_PIN = 13;
-const int COOLER_PIN = 10;
+const int 
+	HEATER_PIN = 13,
+	COOLER_PIN = 10;
 
 // Controls
 bool useFahrenheit = true;
