@@ -41,17 +41,22 @@ a:hover {
 }
 
 strong {
-    font-weight: 450;
+	font-weight: 450;
 }
 
 header {
-    background-color: #411811;
-    color: #E4EBF1;
+	background-color: #411811;
+	color: #E4EBF1;
 }
 
 header a {
-    color: #ffffff;
-    text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: auto;
 }
 
 header h1 {
