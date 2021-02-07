@@ -11,7 +11,7 @@ title: "C++"
 
 ## Hello World in C++
 
-```c++
+```cpp
 #include <iostream>
 
 int main()

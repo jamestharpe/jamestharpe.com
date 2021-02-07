@@ -1,7 +1,7 @@
 ---
 date: 2020-12-30T14:07:46-04:00
 description: "Abstract representations of system state at a given point in time"
-tags: [ "math" ]
+tags: [ "math", "computer-science" ]
 title: "State Machines"
 ---
 

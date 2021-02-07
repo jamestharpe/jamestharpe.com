@@ -15,7 +15,7 @@ The web editor is preferred over the IDE because it is always current and makes 
 
 Serial logging is useful for debugging. To start serial logging, call the [`Serial.begin()` function](https://www.arduino.cc/reference/en/language/functions/communication/serial/begin/) in the `setup` function:
 
-```c++
+```cpp
 void setup() {
   Serial.begin(9600);
 }
