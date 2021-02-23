@@ -30,21 +30,21 @@ PS C:\>
 
 Based on [this comment](https://github.com/microsoft/WSL/issues/4285#issuecomment-522201021), the following instructions worked for me on Ubuntu Linux:
 
-Create or edit `/etc/wsl.conf` to look like this:
+In your WSL Linux instance, create or edit `/etc/wsl.conf` to look like this:
 
 ```ini
 [network]
 generateResolvConf = false
 ```
 
-In PowerShell, restart WSL:
+Back in Windows, restart WSL using [PowerShell](power-shell.md):
 
 ```powersehll
 wsl --shutdown
 wsl
 ```
 
-Create or edit `/etc/resolv.conf` to have the following entry (you may or may not have to delete other entries to get it working):
+In your WSL Linux, create or edit `/etc/resolv.conf` to have the following entry (you may or may not have to delete other entries to get it working):
 
 ```text
 nameserver 8.8.8.8
@@ -56,3 +56,5 @@ Restart WSL again:
 wsl --shutdown
 wsl
 ```
+
+The connection should now work while on VPN.
