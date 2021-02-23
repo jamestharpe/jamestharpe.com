@@ -39,7 +39,7 @@ generateResolvConf = false
 
 Back in Windows, restart WSL using [PowerShell](power-shell.md):
 
-```powersehll
+```PowerShell
 wsl --shutdown
 wsl
 ```
@@ -52,9 +52,13 @@ nameserver 8.8.8.8
 
 Restart WSL again:
 
-```powersehll
+```PowerShell
 wsl --shutdown
 wsl
 ```
 
-The connection should now work while on VPN.
+Finally, once connected to the VPN, run the following command in Windows PowerShell:
+
+```PowerShell
+Get-NetAdapter | Where-Object {$_.InterfaceDescription -Match "Cisco AnyConnect"} | Set-NetIPInterface -InterfaceMetric 6000
+```
