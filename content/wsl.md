@@ -25,3 +25,34 @@ root@COMPUTER:/mnt/c/Users/current_user/# exit
 logout
 PS C:\>
 ```
+
+## Fix connection issues while on VPN
+
+Based on [this comment](https://github.com/microsoft/WSL/issues/4285#issuecomment-522201021), the following instructions worked for me on Ubuntu Linux:
+
+Create or edit `/etc/wsl.conf` to look like this:
+
+```ini
+[network]
+generateResolvConf = false
+```
+
+In PowerShell, restart WSL:
+
+```powersehll
+wsl --shutdown
+wsl
+```
+
+Create or edit `/etc/resolv.conf` to have the following entry (you may or may not have to delete other entries to get it working):
+
+```text
+nameserver 8.8.8.8
+```
+
+Restart WSL again:
+
+```powersehll
+wsl --shutdown
+wsl
+```
