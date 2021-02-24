@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James's Knowledge Graph]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 07 Feb 2021 18:52:38 GMT</lastBuildDate><item><title><![CDATA[Arduino 16x2 LCD]]></title><description><![CDATA[Arduino 16x2 LCD The official Arduino Starter Kit includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show…]]></description><link>https://www.jamestharpe.com/arduino-lcd-16x2/</link><guid isPermaLink="false">https://www.jamestharpe.com/arduino-lcd-16x2/</guid><pubDate>Sat, 06 Feb 2021 23:26:12 GMT</pubDate><content:encoded>&lt;h1&gt;Arduino 16x2 LCD&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James's Knowledge Graph]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Feb 2021 20:03:54 GMT</lastBuildDate><item><title><![CDATA[Arduino 16x2 LCD]]></title><description><![CDATA[Arduino 16x2 LCD The official Arduino Starter Kit includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show…]]></description><link>https://www.jamestharpe.com/arduino-lcd-16x2/</link><guid isPermaLink="false">https://www.jamestharpe.com/arduino-lcd-16x2/</guid><pubDate>Sat, 06 Feb 2021 23:26:12 GMT</pubDate><content:encoded>&lt;h1&gt;Arduino 16x2 LCD&lt;/h1&gt;
 &lt;p&gt;The &lt;a href=&quot;https://store.arduino.cc/usa/arduino-starter-kit&quot;&gt;official Arduino Starter Kit&lt;/a&gt; includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show simple text output. Other kits, such as the &lt;a href=&quot;https://www.elegoo.com/collections/uno-r3-starter-kits/products/elegoo-uno-project-super-starter-kit&quot;&gt;Elegoo UNO R3 Super Starter  Kit&lt;/a&gt;, come with compatible versions.&lt;/p&gt;
 &lt;h2&gt;Wiring the Arduino 16x2 LCD&lt;/h2&gt;
 &lt;p&gt;The Contrast pin (labeled &lt;code class=&quot;language-text&quot;&gt;VO&lt;/code&gt;) can be wired into a &lt;a href=&quot;https://en.wikipedia.org/wiki/Potentiometer&quot;&gt;potentiometer&lt;/a&gt; for contrast control, or directly into the 5V rail which will maximize the contrast and may make the display difficult to read.&lt;/p&gt;
@@ -521,7 +521,8 @@ LiquidCrystal &lt;span class=&quot;token function&quot;&gt;lcd&lt;/span&gt;&lt;s
 &lt;h2&gt;Resources for Learning About Gears&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.instructables.com/Basic-Gear-Mechanisms/&quot;&gt;Basic Gear Mechanisms&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Microsoft Windows]]></title><description><![CDATA[Windows]]></description><link>https://www.jamestharpe.com/windows/</link><guid isPermaLink="false">https://www.jamestharpe.com/windows/</guid><pubDate>Thu, 07 Jan 2021 16:10:11 GMT</pubDate><content:encoded>&lt;h1&gt;Windows&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[Windows Subsystem for Linux (WSL)]]></title><description><![CDATA[WSL Tips and Tricks Reset Root User's Password Open PowerShell, then use the  command to change the password. At the prompt, enter  where…]]></description><link>https://www.jamestharpe.com/wsl/</link><guid isPermaLink="false">https://www.jamestharpe.com/wsl/</guid><pubDate>Thu, 07 Jan 2021 13:28:11 GMT</pubDate><content:encoded>&lt;h1&gt;WSL Tips and Tricks&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Microsoft Windows]]></title><description><![CDATA[Windows]]></description><link>https://www.jamestharpe.com/windows/</link><guid isPermaLink="false">https://www.jamestharpe.com/windows/</guid><pubDate>Thu, 07 Jan 2021 16:10:11 GMT</pubDate><content:encoded>&lt;h1&gt;Windows&lt;/h1&gt;</content:encoded></item><item><title><![CDATA[MakerBot Thingiverse]]></title><description><![CDATA[MakerBot Thingiverse MakerBot Thingiverse has thousands of freely downloadable (under creative commons) designs.]]></description><link>https://www.jamestharpe.com/thingiverse/</link><guid isPermaLink="false">https://www.jamestharpe.com/thingiverse/</guid><pubDate>Thu, 07 Jan 2021 13:28:11 GMT</pubDate><content:encoded>&lt;h1&gt;MakerBot Thingiverse&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.thingiverse.com/&quot;&gt;MakerBot Thingiverse&lt;/a&gt; has thousands of freely downloadable (under creative commons) designs.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Windows Subsystem for Linux (WSL)]]></title><description><![CDATA[WSL Tips and Tricks Reset Root User's Password Open PowerShell, then use the  command to change the password. At the prompt, enter  where…]]></description><link>https://www.jamestharpe.com/wsl/</link><guid isPermaLink="false">https://www.jamestharpe.com/wsl/</guid><pubDate>Thu, 07 Jan 2021 13:28:11 GMT</pubDate><content:encoded>&lt;h1&gt;WSL Tips and Tricks&lt;/h1&gt;
 &lt;h2&gt;Reset Root User&apos;s Password&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;Open &lt;a href=&quot;../powershell/&quot;&gt;PowerShell&lt;/a&gt;, then use the &lt;code class=&quot;language-text&quot;&gt;wsl -u root&lt;/code&gt; command to change the password.&lt;/li&gt;
@@ -536,8 +537,22 @@ Retype new UNIX password:
 passwd: updated successfully
 root@COMPUTER:&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;mnt&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;c&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Users&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;current_user&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# exit&lt;/span&gt;
 logout
-&lt;span class=&quot;token function&quot;&gt;PS&lt;/span&gt; C:\&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[MakerBot Thingiverse]]></title><description><![CDATA[MakerBot Thingiverse MakerBot Thingiverse has thousands of freely downloadable (under creative commons) designs.]]></description><link>https://www.jamestharpe.com/thingiverse/</link><guid isPermaLink="false">https://www.jamestharpe.com/thingiverse/</guid><pubDate>Thu, 07 Jan 2021 13:28:11 GMT</pubDate><content:encoded>&lt;h1&gt;MakerBot Thingiverse&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.thingiverse.com/&quot;&gt;MakerBot Thingiverse&lt;/a&gt; has thousands of freely downloadable (under creative commons) designs.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Mechanical Engineering]]></title><description><![CDATA[Mechanical Engineering Mechanical Engineering Terminology Term Definition Mechanism A machine that transforms direction and force]]></description><link>https://www.jamestharpe.com/mechanical-engineering/</link><guid isPermaLink="false">https://www.jamestharpe.com/mechanical-engineering/</guid><pubDate>Wed, 06 Jan 2021 02:02:11 GMT</pubDate><content:encoded>&lt;!-- TODO: Tag &quot;engineering&quot; --&gt;
+&lt;span class=&quot;token function&quot;&gt;PS&lt;/span&gt; C:\&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Fix connection issues while on VPN&lt;/h2&gt;
+&lt;p&gt;Based on &lt;a href=&quot;https://github.com/microsoft/WSL/issues/4285#issuecomment-522201021&quot;&gt;this comment&lt;/a&gt;, the following instructions worked for me on Ubuntu Linux:&lt;/p&gt;
+&lt;p&gt;In your WSL Linux instance, create or edit &lt;code class=&quot;language-text&quot;&gt;/etc/wsl.conf&lt;/code&gt; to look like this:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;ini&quot;&gt;&lt;pre class=&quot;language-ini&quot;&gt;&lt;code class=&quot;language-ini&quot;&gt;&lt;span class=&quot;token selector&quot;&gt;[network]&lt;/span&gt;
+&lt;span class=&quot;token constant&quot;&gt;generateResolvConf&lt;/span&gt; &lt;span class=&quot;token attr-value&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;=&lt;/span&gt; false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Back in Windows, restart WSL using &lt;a href=&quot;../powershell/&quot;&gt;PowerShell&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;wsl &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;shutdown
+wsl&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;In your WSL Linux, create or edit &lt;code class=&quot;language-text&quot;&gt;/etc/resolv.conf&lt;/code&gt; to have the following entry (you may or may not have to delete other entries to get it working):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;nameserver 8.8.8.8&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Restart WSL again:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;wsl &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;shutdown
+wsl&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Finally, once connected to the VPN, run the following command in Windows PowerShell:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;powershell&quot;&gt;&lt;pre class=&quot;language-powershell&quot;&gt;&lt;code class=&quot;language-powershell&quot;&gt;&lt;span class=&quot;token function&quot;&gt;Get-NetAdapter&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Where-Object&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;$_&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;InterfaceDescription &lt;span class=&quot;token operator&quot;&gt;-Match&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Cisco AnyConnect&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;Set-NetIPInterface&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;InterfaceMetric 6000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Mechanical Engineering]]></title><description><![CDATA[Mechanical Engineering Mechanical Engineering Terminology Term Definition Mechanism A machine that transforms direction and force]]></description><link>https://www.jamestharpe.com/mechanical-engineering/</link><guid isPermaLink="false">https://www.jamestharpe.com/mechanical-engineering/</guid><pubDate>Wed, 06 Jan 2021 02:02:11 GMT</pubDate><content:encoded>&lt;!-- TODO: Tag &quot;engineering&quot; --&gt;
 &lt;h1&gt;Mechanical Engineering&lt;/h1&gt;
 &lt;h2&gt;Mechanical Engineering Terminology&lt;/h2&gt;
 &lt;table&gt;
@@ -1071,7 +1086,35 @@ logout
 &lt;h2&gt;Defer&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Defer&lt;/strong&gt; tasks that you need to do, but can wait. If they&apos;re time sensitive, schedule them. If they&apos;re not time sensitive, then keep them in a running task list. I like to use a &lt;a href=&quot;../bullet-journaling/&quot;&gt;bullet journal&lt;/a&gt; for this since it handles both.&lt;/p&gt;
 &lt;h2&gt;Drop&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Drop&lt;/strong&gt; everything else. This is easier said than done. Dropping tasks often comes with the anxiety of not having enough time, or working on the wrong things. Remember that important tasks tend to  persist until they&apos;ve found their way to you; and when you have too much to do, all  you can do is less.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Personal Productivity]]></title><description><![CDATA[Personal Productivity Personal productivity is the practice of doing the right things and doing things right. Identifying the right things…]]></description><link>https://www.jamestharpe.com/personal-productivity/</link><guid isPermaLink="false">https://www.jamestharpe.com/personal-productivity/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>&lt;h1&gt;Personal Productivity&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Drop&lt;/strong&gt; everything else. This is easier said than done. Dropping tasks often comes with the anxiety of not having enough time, or working on the wrong things. Remember that important tasks tend to  persist until they&apos;ve found their way to you; and when you have too much to do, all  you can do is less.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Pomodoro Technique]]></title><description><![CDATA[The Pomodoro Technique The Pomodoro Technique is a simple but effective technique for time management that uses short timeboxes and frequent…]]></description><link>https://www.jamestharpe.com/pomodoro/</link><guid isPermaLink="false">https://www.jamestharpe.com/pomodoro/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>&lt;h1&gt;The Pomodoro Technique&lt;/h1&gt;
+&lt;p&gt;The &lt;strong&gt;Pomodoro Technique&lt;/strong&gt; is a simple but effective technique for time management that uses short &lt;a href=&quot;../timeboxing/&quot;&gt;timeboxes&lt;/a&gt; and frequent breaks. It is an especially useful way to get through drudgery, reduce procrastination, and increase focus.&lt;/p&gt;
+&lt;p&gt;Here&apos;s how it works:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Decide on a task&lt;/li&gt;
+&lt;li&gt;Set a timer for 25 minutes&lt;/li&gt;
+&lt;li&gt;Work on the task until the time goes off&lt;/li&gt;
+&lt;li&gt;Take a break for 5 minutes&lt;/li&gt;
+&lt;li&gt;Go back to step one&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After four cycles (about two hours), take a longer break of about 15 to 30 minutes.&lt;/p&gt;
+&lt;div class=&quot;mermaid&quot;&gt;graph TD
+  Decide[&quot;Decide on a&lt;br/&gt;Task&quot;] --&gt;
+  Work[&quot;Work the task&lt;br/&gt;for 25 Minutes&quot;] --&gt;
+  Count{&quot;Has it been&lt;br/&gt;4 iterations?&quot;} --&gt;
+  |No| Break5[&quot;Take a 5 minute&lt;br/&gt;break&quot;]
+  Count --&gt; |Yes| Break15[&quot;Take a 15&lt;br/&gt;minute break&quot;]
+  Break5 --&gt; Decide
+  Break15 --&gt; Decide&lt;/div&gt;
+&lt;h2&gt;Tips for Effective Pomodoros&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Avoid distractions: Silence your phone, close your door, and so on&lt;/li&gt;
+&lt;li&gt;Keep a notepad to record other tasks that come to mind&lt;/li&gt;
+&lt;li&gt;Adjust the times to suit your needs and tasks&lt;/li&gt;
+&lt;li&gt;If you&apos;re &quot;in the zone&quot; when it&apos;s break time, keep going!&lt;/li&gt;
+&lt;li&gt;Move your body during breaks: Do a quick stretch, go for a walk, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Animated Video: The Pomodoro Technique - A Study and Productivity Technique&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1l4w7uHdNaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Personal Productivity]]></title><description><![CDATA[Personal Productivity Personal productivity is the practice of doing the right things and doing things right. Identifying the right things…]]></description><link>https://www.jamestharpe.com/personal-productivity/</link><guid isPermaLink="false">https://www.jamestharpe.com/personal-productivity/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>&lt;h1&gt;Personal Productivity&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Personal productivity&lt;/strong&gt; is the practice of doing the right things and doing things right. Identifying the right things and knowing how to do things right requires motivation; when motivation fails, it requires discipline; when discipline fails, it require forgiveness.&lt;/p&gt;
 &lt;h2&gt;Start with the Person&lt;/h2&gt;
 &lt;p&gt;Personal productivity starts with the person. To be productive: Eat well, sleep well, be mindful, and and exercise. Maintain these fundamentals in your everyday routine.&lt;/p&gt;
@@ -1172,35 +1215,7 @@ logout
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=RpH6IPhyh7I&amp;#x26;list=WL&amp;#x26;index=3&quot;&gt;Scott Hanselman - Personal Productivity&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://officedynamics.com/43-folders-method-paper-system/&quot;&gt;43 Folders System&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.43folders.com/2004/09/03/introducing-the-hipster-pda&quot;&gt;Hipster PDA&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[The Pomodoro Technique]]></title><description><![CDATA[The Pomodoro Technique The Pomodoro Technique is a simple but effective technique for time management that uses short timeboxes and frequent…]]></description><link>https://www.jamestharpe.com/pomodoro/</link><guid isPermaLink="false">https://www.jamestharpe.com/pomodoro/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>&lt;h1&gt;The Pomodoro Technique&lt;/h1&gt;
-&lt;p&gt;The &lt;strong&gt;Pomodoro Technique&lt;/strong&gt; is a simple but effective technique for time management that uses short &lt;a href=&quot;../timeboxing/&quot;&gt;timeboxes&lt;/a&gt; and frequent breaks. It is an especially useful way to get through drudgery, reduce procrastination, and increase focus.&lt;/p&gt;
-&lt;p&gt;Here&apos;s how it works:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Decide on a task&lt;/li&gt;
-&lt;li&gt;Set a timer for 25 minutes&lt;/li&gt;
-&lt;li&gt;Work on the task until the time goes off&lt;/li&gt;
-&lt;li&gt;Take a break for 5 minutes&lt;/li&gt;
-&lt;li&gt;Go back to step one&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;After four cycles (about two hours), take a longer break of about 15 to 30 minutes.&lt;/p&gt;
-&lt;div class=&quot;mermaid&quot;&gt;graph TD
-  Decide[&quot;Decide on a&lt;br/&gt;Task&quot;] --&gt;
-  Work[&quot;Work the task&lt;br/&gt;for 25 Minutes&quot;] --&gt;
-  Count{&quot;Has it been&lt;br/&gt;4 iterations?&quot;} --&gt;
-  |No| Break5[&quot;Take a 5 minute&lt;br/&gt;break&quot;]
-  Count --&gt; |Yes| Break15[&quot;Take a 15&lt;br/&gt;minute break&quot;]
-  Break5 --&gt; Decide
-  Break15 --&gt; Decide&lt;/div&gt;
-&lt;h2&gt;Tips for Effective Pomodoros&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Avoid distractions: Silence your phone, close your door, and so on&lt;/li&gt;
-&lt;li&gt;Keep a notepad to record other tasks that come to mind&lt;/li&gt;
-&lt;li&gt;Adjust the times to suit your needs and tasks&lt;/li&gt;
-&lt;li&gt;If you&apos;re &quot;in the zone&quot; when it&apos;s break time, keep going!&lt;/li&gt;
-&lt;li&gt;Move your body during breaks: Do a quick stretch, go for a walk, etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Animated Video: The Pomodoro Technique - A Study and Productivity Technique&lt;/h2&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/1l4w7uHdNaQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Git Internals]]></title><description><![CDATA[Git Internals Notes from "Git from the Ground Up" by Safia Abdalla. Summary Git represents key information as objects stored on the files…]]></description><link>https://www.jamestharpe.com/git-internals/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-internals/</guid><pubDate>Thu, 24 Dec 2020 14:41:30 GMT</pubDate><content:encoded>&lt;h1&gt;Git Internals&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Git Internals]]></title><description><![CDATA[Git Internals Notes from "Git from the Ground Up" by Safia Abdalla. Summary Git represents key information as objects stored on the files…]]></description><link>https://www.jamestharpe.com/git-internals/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-internals/</guid><pubDate>Thu, 24 Dec 2020 14:41:30 GMT</pubDate><content:encoded>&lt;h1&gt;Git Internals&lt;/h1&gt;
 &lt;p&gt;Notes from &quot;Git from the Ground Up&quot; by &lt;a href=&quot;https://safia.rocks/&quot;&gt;Safia Abdalla&lt;/a&gt;.&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/afe0RpwaxY8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
@@ -1370,6 +1385,12 @@ logout
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://visjs.org/&quot;&gt;Official Website&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/visjs&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;vis.js&lt;/code&gt; code on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[GitLab CI/CD GitLab CI/CD is the part of GitLab that enables automation for CI/CD. GitLab CI/CD Resources GitLab CI/CD Overview GitLab CI/CD…]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;h1&gt;GitLab CI/CD&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;GitLab CI/CD&lt;/strong&gt; is the part of &lt;a href=&quot;../gitlab/&quot;&gt;GitLab&lt;/a&gt; that enables automation for &lt;a href=&quot;../ci-cd/&quot;&gt;CI/CD&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;GitLab CI/CD Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.gitlab.com/ee/ci/&quot;&gt;GitLab CI/CD Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;&gt;GitLab CI/CD &lt;code class=&quot;language-text&quot;&gt;.gitlab-ci.yml&lt;/code&gt; reference&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[GitLab CI/CD GitLab CI is the part of GitLab that enables automation for CI/CD. Leave out  on   configurations The typical include in a…]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;h1&gt;GitLab CI/CD&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;GitLab CI&lt;/strong&gt; is the part of &lt;a href=&quot;../gitlab/&quot;&gt;GitLab&lt;/a&gt; that enables automation for &lt;a href=&quot;../ci-cd/&quot;&gt;CI/CD&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Leave out &lt;code class=&quot;language-text&quot;&gt;ref&lt;/code&gt; on &lt;code class=&quot;language-text&quot;&gt;include&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;project&lt;/code&gt; configurations&lt;/h2&gt;
@@ -1378,13 +1399,7 @@ logout
   &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token key atrule&quot;&gt;project&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;my-org/templates&apos;&lt;/span&gt;
     &lt;span class=&quot;token key atrule&quot;&gt;ref&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; main
     &lt;span class=&quot;token key atrule&quot;&gt;file&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;/common-functions.yml&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;However, if you leave out &lt;code class=&quot;language-text&quot;&gt;ref&lt;/code&gt; then the default branch (typically &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[GitLab CI/CD GitLab CI/CD is the part of GitLab that enables automation for CI/CD. GitLab CI/CD Resources GitLab CI/CD Overview GitLab CI/CD…]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;h1&gt;GitLab CI/CD&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;GitLab CI/CD&lt;/strong&gt; is the part of &lt;a href=&quot;../gitlab/&quot;&gt;GitLab&lt;/a&gt; that enables automation for &lt;a href=&quot;../ci-cd/&quot;&gt;CI/CD&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;GitLab CI/CD Resources&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.gitlab.com/ee/ci/&quot;&gt;GitLab CI/CD Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;&gt;GitLab CI/CD &lt;code class=&quot;language-text&quot;&gt;.gitlab-ci.yml&lt;/code&gt; reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[CI/CD Flow]]></title><description><![CDATA[CI/CD Flow CI/CD pipelines are the couriers between development efforts and production, which makes it an ideal target for inspection to…]]></description><link>https://www.jamestharpe.com/ci-cd-flow/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd-flow/</guid><pubDate>Mon, 14 Dec 2020 18:28:11 GMT</pubDate><content:encoded>&lt;h1&gt;CI/CD Flow&lt;/h1&gt;
+&lt;p&gt;However, if you leave out &lt;code class=&quot;language-text&quot;&gt;ref&lt;/code&gt; then the default branch (typically &lt;code class=&quot;language-text&quot;&gt;main&lt;/code&gt; or &lt;code class=&quot;language-text&quot;&gt;master&lt;/code&gt;).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CI/CD Flow]]></title><description><![CDATA[CI/CD Flow CI/CD pipelines are the couriers between development efforts and production, which makes it an ideal target for inspection to…]]></description><link>https://www.jamestharpe.com/ci-cd-flow/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd-flow/</guid><pubDate>Mon, 14 Dec 2020 18:28:11 GMT</pubDate><content:encoded>&lt;h1&gt;CI/CD Flow&lt;/h1&gt;
 &lt;p&gt;CI/CD pipelines are the couriers between development efforts and production, which makes it an ideal target for inspection to better understand the needs of the software development lifecycle (SDLC).&lt;/p&gt;
 &lt;h2&gt;Terminology&lt;/h2&gt;
 &lt;table&gt;
@@ -2710,8 +2725,7 @@ alias.aliases config --get-regexp &lt;span class=&quot;token builtin class-name&
 &lt;td&gt;Functions are deterministic: They always produce the same output from a given input without performing any side-effects (modifying values outside the function)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</content:encoded></item><item><title><![CDATA[Reactive Programming]]></title><description><![CDATA[Reactive Programming Reactive programming is a declarative programming paradigm for extracting and transforming data from streams.]]></description><link>https://www.jamestharpe.com/reactive-programming/</link><guid isPermaLink="false">https://www.jamestharpe.com/reactive-programming/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>&lt;h1&gt;Reactive Programming&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;Reactive programming&lt;/strong&gt; is a declarative programming paradigm for extracting and transforming data from streams.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[RxJS]]></title><description><![CDATA[RxJS RxJS is a JavaScript library for composing observable sequences of events into a reactive model. Terminology Term Meaning Observable An…]]></description><link>https://www.jamestharpe.com/rxjs/</link><guid isPermaLink="false">https://www.jamestharpe.com/rxjs/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>&lt;h1&gt;RxJS&lt;/h1&gt;
+&lt;/table&gt;</content:encoded></item><item><title><![CDATA[RxJS]]></title><description><![CDATA[RxJS RxJS is a JavaScript library for composing observable sequences of events into a reactive model. Terminology Term Meaning Observable An…]]></description><link>https://www.jamestharpe.com/rxjs/</link><guid isPermaLink="false">https://www.jamestharpe.com/rxjs/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>&lt;h1&gt;RxJS&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://rxjs.dev/&quot;&gt;RxJS&lt;/a&gt; is a JavaScript library for composing observable sequences of events into a &lt;a href=&quot;../reactive-programming/&quot;&gt;reactive&lt;/a&gt; model.&lt;/p&gt;
 &lt;h2&gt;Terminology&lt;/h2&gt;
 &lt;table&gt;
@@ -2786,7 +2800,8 @@ alias.aliases config --get-regexp &lt;span class=&quot;token builtin class-name&
 &lt;li&gt;A completing operator is used (for example, &lt;code class=&quot;language-text&quot;&gt;of&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;from&lt;/code&gt;, or &lt;code class=&quot;language-text&quot;&gt;take&lt;/code&gt;)&lt;/li&gt;
 &lt;li&gt;An uncaught error occurs&lt;/li&gt;
 &lt;li&gt;When &lt;code class=&quot;language-text&quot;&gt;unsubscribe()&lt;/code&gt; is called on a subscription&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Angular CLI The Angular CLI is a command-line interface used to build Angular applications. Angular CLI Resources Angular CLI Command…]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;h1&gt;Angular CLI&lt;/h1&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Reactive Programming]]></title><description><![CDATA[Reactive Programming Reactive programming is a declarative programming paradigm for extracting and transforming data from streams.]]></description><link>https://www.jamestharpe.com/reactive-programming/</link><guid isPermaLink="false">https://www.jamestharpe.com/reactive-programming/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>&lt;h1&gt;Reactive Programming&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Reactive programming&lt;/strong&gt; is a declarative programming paradigm for extracting and transforming data from streams.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Angular CLI The Angular CLI is a command-line interface used to build Angular applications. Angular CLI Resources Angular CLI Command…]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;h1&gt;Angular CLI&lt;/h1&gt;
 &lt;p&gt;The &lt;a href=&quot;https://angular.io/cli&quot;&gt;Angular CLI&lt;/a&gt; is a &lt;a href=&quot;../cli/&quot;&gt;command-line interface&lt;/a&gt; used to build &lt;a href=&quot;../angular/&quot;&gt;Angular&lt;/a&gt; applications.&lt;/p&gt;
 &lt;h2&gt;Angular CLI Resources&lt;/h2&gt;
 &lt;ul&gt;
