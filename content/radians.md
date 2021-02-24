@@ -1,6 +1,6 @@
 ---
 date: 2021-01-09T13:19:24-04:00
-description: "The length of an arc"
+description: "The angle which subtends an arc equal to the length of the radius of a circle"
 tags: [ "math", "circles" ]
 title: "Radian"
 ---
