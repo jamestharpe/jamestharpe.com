@@ -37,7 +37,7 @@ In your WSL Linux instance, create or edit `/etc/wsl.conf` to look like this:
 generateResolvConf = false
 ```
 
-Back in Windows, restart WSL using [PowerShell](power-shell.md):
+Back in Windows, restart WSL using [PowerShell](powershell.md):
 
 ```PowerShell
 wsl --shutdown
