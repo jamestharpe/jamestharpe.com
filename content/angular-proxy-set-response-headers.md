@@ -9,7 +9,7 @@ title: "Modify Response Headers in Angular Proxy (ng serve)"
 
 Angular includes the ability to [proxy requests to back-end servers](https://angular.io/guide/build#proxying-to-a-backend-server). This feature can also be used to modify responses.
 
-To modify responses, create `roxy.conf.js` in the `src` folder, then add an entry to modify the response headers:
+To modify responses, create `proxy.conf.js` in the `src` folder, then add an entry to modify the response headers:
 
 ```javascript
 module.exports = {
