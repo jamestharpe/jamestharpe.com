@@ -11,6 +11,8 @@ title: "Mechanical Engineering"
 
 ## Mechanical Engineering Terminology
 
-| Term      | Definition                                    |
-| --------- | --------------------------------------------- |
-| Mechanism | A machine that transforms direction and force |
+| Term                | Definition                                                                                    |
+| ------------------- | --------------------------------------------------------------------------------------------- |
+| Mechanism           | A machine that transforms direction and force                                                 |
+| Stress              | The amount of reactive force per unit area; a force that works in opposition to another force |
+| [Torque](torque.md) | Force that causes an object to rotate around an axis                                          |
