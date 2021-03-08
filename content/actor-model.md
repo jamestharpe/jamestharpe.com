@@ -17,7 +17,8 @@ Each actor in a system can:
 
 Each actor has an address to which messages can be sent. A single address can represent multiple actors or a single actor can have multiple addresses.
 
-To avoid deadlocks, **futures** are actors that represents a computation result, potentially before it is computed.
+Messages are delivered at most one time, and the order of delivery is not guaranteed; however, a message can contain an ordered sequence. Additionally, **futures** are actors that represents a computation result, potentially before it is computed, so that computation results can be made available at the time of need.
+
 
 ## Video: Hewitt Meijer, and Szyperski: The Actor Model (everything you wanted to know)
 
