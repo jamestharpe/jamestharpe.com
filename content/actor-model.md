@@ -19,7 +19,6 @@ Each actor has an address to which messages can be sent. A single address can re
 
 Messages are delivered at most one time, and the order of delivery is not guaranteed; however, a message can contain an ordered sequence. Additionally, **futures** are actors that represents a computation result, potentially before it is computed, so that computation results can be made available at the time of need.
 
-
 ## Video: Hewitt Meijer, and Szyperski: The Actor Model (everything you wanted to know)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1zVdhDx7Tbs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
