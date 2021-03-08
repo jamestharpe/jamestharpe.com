@@ -1,5 +1,5 @@
 ---
-date: 2020-12-30T14:07:46-04:00
+date: 2021-03-08T10:09:46-04:00
 description: "A model where an actor is the fundamental unit of computation including processing, storage, and communication"
 tags: [ "math", "computer-science" ]
 title: "Actor Model"
