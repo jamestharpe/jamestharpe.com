@@ -1,5 +1,5 @@
 ---
-date: 2020-11-15T20:14:30-04:00
+date: 2021-03-08T11:09:30-04:00
 description: "A security mechanism for servers to indicate valid resource origins for HTTP requests"
 tags: ["web-dev"]
 title: "Cross-Origin Resource Sharing (CORS)"
