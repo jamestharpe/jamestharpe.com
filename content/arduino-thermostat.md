@@ -1,7 +1,7 @@
 ---
 date: 2021-02-06T19:26:12-04:00
 description: "Build your own programmable thermostat with Arduino"
-tags: [ "arduino-uno", "arduino-lcd-16x2" ]
+tags: [ "arduino-uno", "arduino-lcd-16x2", "relays" ]
 title: "Arduino Thermostat"
 ---
 
