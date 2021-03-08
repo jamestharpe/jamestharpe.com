@@ -1,13 +1,13 @@
 ---
 date: 2020-01-12T09:05:10-04:00
 description: "Learn Angular"
-tags: [ "typescript" ]
+tags: [ "typescript", "web-dev" ]
 title: "Angular (TypeScript Framework)"
 ---
 
 # Angular (TypeScript Framework)
 
-[Angular](https://angular.io/) is an application design framework for building web, mobile, and desktop applications with [TypeScript](typescript.md). It's most popular use is to develop web applications.
+[Angular](https://angular.io/) is an application design framework for building [web](web-dev.md), mobile, and desktop applications with [TypeScript](typescript.md). It's most popular use is to develop web applications.
 
 ## Angular Concepts
 

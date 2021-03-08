@@ -23,3 +23,5 @@ module.exports = {
 ```
 
 Now, after you run `ng server --proxy-config 	src/proxy.config.js` requests to `/path` will contain the header.
+
+A common application of this approach is to set [CORS headers](cors.md) when the Angular dev server is hosting scripts that can be loaded from other applications.
