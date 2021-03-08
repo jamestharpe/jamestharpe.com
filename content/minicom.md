@@ -5,10 +5,14 @@ tags: [ "linux" ]
 title: "Minicom"
 ---
 
-## Minicom
+# Minicom
 
 [**Minicom**](https://salsa.debian.org/minicom-team/minicom) is a text-based modem control program for [Linux](linux.md) and other unix-like [operating systems](operating-systems.md).
 
-### How to Exit Minicom
+## How to Exit Minicom
 
 `Ctrl+A`, `x`.
+
+## Minicom Resources
+
+* [Ubuntu Minicom Documentation](https://help.ubuntu.com/community/Minicom)
