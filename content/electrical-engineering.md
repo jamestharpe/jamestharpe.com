@@ -1,7 +1,7 @@
 ---
 date: 2021-01-03T09:19:11-04:00
 description: "Build and deconstruct electrically powered devices"
-tags: [ "electricity" ]
+tags: [ "electricity", "engineering" ]
 title: "Electrical Engineering"
 ---
 

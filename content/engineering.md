@@ -1,6 +1,5 @@
 ---
-date: 2021-01-04T08:49:11-04:00
-draft: true
+date: 2021-03-14T16:18:11-04:00
 description: "Apply science to create technology"
 tags: [ "science" ]
 title: "Engineering"
@@ -14,23 +13,24 @@ title: "Engineering"
 
 **Engineering** is the application of science to create machines, processes, and tools that serve some intention.
 
+<!-- 
 ## The Engineering Process
 
 The **engineering process** consists of four stages: **Brainstorm**, **research**, **prototype**, and **build**. This process is iterative and the steps within one stage are may be completed in parallel with steps from another stage. Generally, however, the majority of effort is focused on one stage at a time.
 
 ```mermaid
 graph TD
-  Brainstorm -->
-	Research -->
-	Prototype -->
-	Build -->
+  Brainstorm - ->
+	Research - ->
+	Prototype - ->
+	Build - ->
 	Deploy -.-> |Refine| Brainstorm
 	Build -.-> |Refine| Brainstorm
 	Prototype -.-> |Refine| Brainstorm
 	Research -.-> |Refine| Brainstorm
 ```
 
-Generally speaking, each stage is more expensive and risky than its predecessors. <!-- TODO: Pull in KSU talk content -->
+Generally speaking, each stage is more expensive and risky than its predecessors. <!-- TODO: Pull in KSU talk content - ->
 
 ### 🧠 Brainstorm
 
@@ -64,13 +64,13 @@ When listing requirements, it can help to sort them into "essential" and "non es
 
 Once requirements are reasonably well defined, it's time to think about how each requirement can be met. For any given requirement, it's best to think of and research multiple solutions. Even solutions that seem non-viable now may prove insightful, or even essential, later on. Conversely, solutions that seem viable now may prove impractical with research; and it's much faster, easier, and cheaper to invalidate a solution with research than it is in a prototype, build, or deployment.
 
-<!-- Todo: Requirements process diagram -->
+<!-- Todo: Requirements process diagram - ->
 
-#### Constraints
+#### ⧩ Constraints
 
 Constraints may be properties of the process or materials used, such as size, conductivity, or elasticity; or they may be limitations intentionally imposed on the build such as time, budget, or design (e.g. branding). Constraints often seed creativity. In a world of unlimited possibilities, _time_ can be one of the most useful constraints to apply. Time constraints, even when artificial, can force decisions to be made and foster creative solutions.
 
-#### Experimentation
+#### 🧪 Experimentation
 
 Some questions can't be answered by looking up information. These questions tend to be highly contextual to the product you're building and require experimentation to find answers.
 
@@ -91,3 +91,5 @@ When the prototype doesn't work or come together as expected, it's necessary to 
 3. Test the hypothesis.
 
 This process is repeated until the issue is successfully resolved.
+
+-->
