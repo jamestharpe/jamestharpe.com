@@ -13,7 +13,7 @@ title: "Engineering"
 
 **Engineering** is the application of science to create machines, processes, and tools that serve some intention.
 
-<!-- 
+<!--
 ## The Engineering Process
 
 The **engineering process** consists of four stages: **Brainstorm**, **research**, **prototype**, and **build**. This process is iterative and the steps within one stage are may be completed in parallel with steps from another stage. Generally, however, the majority of effort is focused on one stage at a time.
