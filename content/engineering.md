@@ -5,8 +5,6 @@ tags: [ "science" ]
 title: "Engineering"
 ---
 
-<!-- TODO: Tag engineering articles before removing draft: true -->
-
 <!-- TODO: https://www.sciencebuddies.org/science-fair-projects/engineering-design-process/engineering-design-process-steps -->
 
 # Engineering

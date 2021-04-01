@@ -23,7 +23,7 @@ The **Time Management Matrix** from "Habit 3, Put First Things First", in [Steph
 		<th>
 			<h4>Not Urgent</h4>
 		</th>
-	<thead>
+	</thead>
 	<tbody>
 		<tr>
 			<th>
