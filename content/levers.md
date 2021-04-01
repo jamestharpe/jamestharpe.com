@@ -13,4 +13,4 @@ Levers come in three classes: A **first class lever** situates the fulcrum betwe
 
 <!-- TODO: Illustrations -->
 
-The relationship between the length of the effort arm is 
+<!-- The relationship between the length of the effort arm is... -->
