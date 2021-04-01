@@ -23,9 +23,9 @@ A circle is a shape on a plane in which all points are equally distant from the 
 
 ### Area of a Circle
 
-$a = \pi r^2 $
+$a = \pi r^2$
 
-$a = \pi (d/2)^2 $
+$a = \pi (d/2)^2$
 
 ### Circumference of a Circle
 

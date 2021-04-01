@@ -107,6 +107,7 @@ module.exports = {
 				}
 			}
 		},
+		"gatsby-remark-graph", // Needed here AND in gatsby-plugin-mdx for the plug-ins gatsby-browser.js file to run
 		{
 			resolve: `gatsby-plugin-mdx`,
 			options: {
