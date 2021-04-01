@@ -40,4 +40,4 @@ graph TD
 
 ## Animated Video: The Pomodoro Technique - A Study and Productivity Technique
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1l4w7uHdNaQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AYR-RuGwJbM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

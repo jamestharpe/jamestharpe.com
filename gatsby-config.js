@@ -111,6 +111,7 @@ module.exports = {
 			resolve: `gatsby-plugin-mdx`,
 			options: {
 				extensions: [`.md`, `.mdx`],
+				remarkPlugins: [require("remark-math"), require("remark-html-katex")],
 				gatsbyRemarkPlugins: [
 					"@tmus/gatsby-remark-links-normalizer",
 					{
@@ -184,13 +185,6 @@ module.exports = {
 							// Add additional HTML escapes by providing a mapping
 							// of HTML entities and their escape value IE: { '}': '&#123;' }
 							escapeEntities: {}
-						}
-					},
-					{
-						resolve: `gatsby-remark-katex`,
-						options: {
-							// Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-							strict: `ignore`
 						}
 					}
 				]
