@@ -1,6 +1,6 @@
 ---
 date: 2021-03-14T16:28:11-04:00
-description: "The most basic form of machines: Levers, pulleys, wheels, inclined planes, screws, and wedges"
+description: "The most basic forms of machine: Levers, pulleys, wheels, inclined planes, screws, and wedges"
 tags: [ "mechanical-engineering" ]
 title: "Simple Machines"
 ---

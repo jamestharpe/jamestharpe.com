@@ -1,6 +1,6 @@
 ---
 date: 2021-03-14T16:55:11-04:00
-description: "A free and open-source operating system"
+description: "Learn about levers, fulcrums, effort arms, and resistance arms"
 tags: [ "simple-machines" ]
 title: "Levers"
 ---

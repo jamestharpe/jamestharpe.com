@@ -1,8 +1,8 @@
 ---
 date: 2021-03-10T16:09:11-04:00
-description: "A Debian-based Linux distribution"
+description: "A popular distribution to base other distributions on"
 tags: [ "linux" ]
-title: "Ubuntu Linux Distribution"
+title: "Debian Linux Distribution"
 ---
 
 # Debian
