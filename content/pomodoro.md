@@ -5,7 +5,11 @@ tags: [ "personal-productivity", "timeboxing" ]
 title: "The Pomodoro Technique"
 ---
 
+import PomodoroTimer from "../src/components/pomodoro-timer"
+
 # The Pomodoro Technique
+
+<!-- <PomodoroTimer /> -->
 
 The **Pomodoro Technique** is a simple but effective technique for time management that uses short [timeboxes](timeboxing.md) and frequent breaks. It is an especially useful way to get through drudgery, reduce procrastination, and increase focus.
 
