@@ -75,6 +75,7 @@
 		"calleth",
 		"choco",
 		"classpath",
+		"cond",
 		"cout",
 		"endl",
 		"esversion",
@@ -120,7 +121,8 @@
 		"triaging",
 		"uroot",
 		"visjs",
-		"xargs"
+		"xargs",
+		"xstate"
 	],
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": false,
