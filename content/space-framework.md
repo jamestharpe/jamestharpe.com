@@ -50,7 +50,7 @@ Examples of activity:
 * Commits and merge requests
 * Deployments
 * Tests implemented/executed
-* Documentation, 
+* Documentation
 * User stories entered/completed
 * Incident responses
 * On-call participation
