@@ -7,7 +7,9 @@ title: "International System of Units (SI)"
 
 # International System of Units (SI)
 
-**SI Units** are the formal terms and definitions used in the metric system.
+**SI Units** are the formal terms, definitions, and symbols used in the metric system. SI units start from **base units** which are the axiomatic building blocks from which all other units, called **derived units**, are created.
+
+Base units include standard measures for time (second), distance (meter), mass (kilogram), and more. Derived units combine base units, for example velocity ($v$) is distance ($d$) over time ($t$), or $v=d/t$.
 
 ## SI Unit Prefixes
 
