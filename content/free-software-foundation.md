@@ -1,7 +1,7 @@
 ---
 date: 2020-12-08T09:06:30-04:00
 description: "Overview of the Free Software Foundation (FSF)"
-tags: [ "open-source", "nonprofit" ]
+tags: [ "open-source", "nonprofits" ]
 title: "Free Software Foundation (FSF)"
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2021-04-10T13:50:11-04:00
 description: "A nonprofit organization that provides free education online"
-tags: [  "nonprofit" ]
+tags: [  "nonprofits" ]
 title: "Khan Academy"
 ---
 

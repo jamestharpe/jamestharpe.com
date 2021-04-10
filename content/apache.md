@@ -1,7 +1,7 @@
 ---
 date: 2020-12-08T08:44:30-04:00
 description: "Overview of the Apache Software Foundation (ASF)"
-tags: [ "open-source", "nonprofit" ]
+tags: [ "open-source", "nonprofits" ]
 title: "Apache Software Foundation (ASF)"
 ---
 
