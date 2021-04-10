@@ -1,6 +1,6 @@
 ---
 date: 2021-04-10T15:54:43-04:00
-description: "The SI unit of charge"
+description: "How force is exerted in electromagnetic field, measured in coulombs"
 tags: [ "electricity", "electrical-engineering", "si-units" ]
 title: "Charge and Coulombs"
 ---

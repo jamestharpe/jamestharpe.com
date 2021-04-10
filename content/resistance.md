@@ -1,6 +1,6 @@
 ---
 date: 2021-04-10T15:18:43-04:00
-description: "Electrical potential energy, measured in volts"
+description: "Opposition to current, measured in ohms"
 tags: [ "electricity", "electrical-engineering", "si-units" ]
 title: "Resistance and Ohms"
 ---

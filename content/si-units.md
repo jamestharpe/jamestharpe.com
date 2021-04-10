@@ -1,6 +1,6 @@
 ---
 date: 2021-04-10T13:38:11-04:00
-description: "Expressions of very large and very small numbers for engineers"
+description: "Formal terms and definitions of the metric system"
 tags: [ "engineering", "science" ]
 title: "International System of Units (SI)"
 ---
