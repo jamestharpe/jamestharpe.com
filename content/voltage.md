@@ -1,7 +1,7 @@
 ---
 date: 2021-04-10T12:39:43-04:00
 description: "Electrical potential energy, measured in volts"
-tags: [ "electricity", "electrical-engineering", "si-units", "coulombs" ]
+tags: [ "electricity", "electrical-engineering", "si-units", "charge" ]
 title: "Voltage and Volts"
 ---
 
