@@ -7,7 +7,7 @@ title: "Electricity"
 
 # Electricity
 
-Electricity is the form of energy (the ability to do work) that results from charged particles (electrons, protons). [**Power** ($P$)](power.md) from electricity is generated when potential electrical energy, referred to as [voltage](voltage.md), is released so that it "flows" through a conductor as a [current](current.md) where it encounters [resistance](resistance.md). This flow is mathematically described by [Ohm's Law](ohms-law.md), and the amount of power generated is described by the [Watt's Law](watts-law.md).
+Electricity is the form of [energy](physics.md) (the ability to do work) that results from charged particles (electrons, protons). [**Power** ($P$)](power.md) from electricity is generated when potential electrical energy, referred to as [voltage](voltage.md), is released so that it "flows" through a conductor as a [current](current.md) where it encounters [resistance](resistance.md). This flow is mathematically described by [Ohm's Law](ohms-law.md), and the amount of power generated is described by the [Watt's Law](watts-law.md).
 
 ## Relationships between Voltage, Current, Resistance, and Watts
 
