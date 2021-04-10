@@ -21,7 +21,7 @@ Simple Examples:
 ## Common large numbers expressed in scientific notation
 
 * **Avogadro's number** is $6.02214076 \cdot 10^{23}$.
-* The charge of an Electron is $0.6021766208*10^{-19}$ [coulombs](current.md).
+* The charge of an Electron is $0.6021766208*10^{-19}$ [coulombs](charge.md).
 * A **googol** is, a one followed by 100 zeros, is $1 \cdot 10^{100}$
 * The **speed of light** is $2.99792458 \cdot 10^8$ meters per second.
 
