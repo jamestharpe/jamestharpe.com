@@ -61,7 +61,7 @@ $$$
 F = 7.41
 $$$
 
-To understand our pipeline's effective flow, we can combine our deployment success rate with the ideal flow. If our deployments succeed 70% of the time, and our ideal flow is $14.29$ then our "effective flow" is $0.70 * 14.29 = 10.00$
+To understand our pipeline's effective flow, we can combine our deployment success rate with the ideal flow. If our deployments succeed 70% of the time, and our ideal flow is $14.29$ then our "effective flow" is $0.70 \cdot 14.29 = 10.00$
 
 ### Examples of How CI/CD Flow is Useful
 

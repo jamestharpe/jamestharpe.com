@@ -1,13 +1,13 @@
 ---
 date: 2020-11-24T12:39:46-04:00
 description: "A formula to define the relationship between power, voltage, and current (P=IV)"
-tags: [ "electricity", "power" ]
+tags: [ "electricity", "power", "voltage", "current", "si-units" ]
 title: "Watt's Law (Power Law)"
 ---
 
 # Watt's Law
 
-**Watt's Law**, sometimes called the **Power Law**, describes the relationship between power ($P$), [current](electricity.md) ($I$), and [voltage](electricity.md) ($V$):
+**Watt's Law**, sometimes called the **Power Law**, describes the relationship between power ($P$), [current](current.md) ($I$), and [voltage](voltage.md) ($V$):
 
 $P=IV$
 

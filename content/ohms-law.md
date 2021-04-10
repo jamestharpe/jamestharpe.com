@@ -1,13 +1,13 @@
 ---
 date: 2017-03-28T17:42:46-04:00
 description: "A formula for determining voltage, current, and resistance"
-tags: [ "electricity" ]
+tags: [ "electricity", "current", "voltage", "resistance" ]
 title: "Ohm's Law"
 ---
 
 # Ohm's Law
 
-**Ohm's Law** describes the relationship between [current](electricity.md) ($I$), [voltage](electricity.md) ($V$), and resistance ($R$):
+**Ohm's Law** describes the relationship between [current](current.md) ($I$), [voltage](voltage.md) ($V$), and [resistance](resistance.md) ($R$):
 
 $I = V/R$
 
