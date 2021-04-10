@@ -13,7 +13,7 @@ To convert a number to scientific notation, it is rewritten to be greater than z
 
 Simple Examples:
 
-* $99,000$ expressed in scientific notation is $9.9 \cdot 10^4$. 
+* $99,000$ expressed in scientific notation is $9.9 \cdot 10^4$.
 * $0.00099$ expressed in scientific notation is $9.9 \cdot 10^{-4}$
 
 [SI number prefixes](si-units.md) are commonly used in lieu of scientific or [engineering notation](engineering-notation.md). For example, rather than writing "$1.23 \cdot 10^3g$" (grams), we can write "$1.23kg$" (kilograms).
@@ -21,7 +21,7 @@ Simple Examples:
 ## Common large numbers expressed in scientific notation
 
 * **Avogadro's number** is $6.02214076 \cdot 10^{23}$.
-* The charge of an Electron is $0.6021766208*10^{-19}$ [coulombs](voltage.md).
+* The charge of an Electron is $0.6021766208*10^{-19}$ [coulombs](current.md).
 * A **googol** is, a one followed by 100 zeros, is $1 \cdot 10^{100}$
 * The **speed of light** is $2.99792458 \cdot 10^8$ meters per second.
 

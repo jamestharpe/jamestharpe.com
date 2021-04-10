@@ -1,15 +1,13 @@
 ---
 date: 2021-04-10T12:43:22-04:00
 description: "The flow of electricity, measured in amps"
-tags: [ "electricity", "electrical-engineering", "si-units" ]
+tags: [ "electricity", "electrical-engineering", "si-units", "coulombs" ]
 title: "Current and Amperes"
 ---
 
 # Flowing Electricity: Current and Amperes (amps)
 
-**Current** ($I$) is the "flow" of electricity, measured in amperes or "amps" ($A$). One amp is equal to one coulomb ($C$) passing a given point in a circuit over one second ($s$), or $A = \frac{C}{s}$. A **coulomb** is a quantity of electrical charge, approximately equal to $6.2415090744 \cdot 10^{18}$ elementary charges (i.e. electrons or protons).
-
-Solving for $C$, we can get a mathematical definition of coulomb: $C=As$.
+**Current** ($I$) is the "flow" of electricity, measured in amperes or "amps" ($A$). One amp is equal to one coulomb ($C$) passing a given point in a circuit over one second ($s$), or $A = \frac{C}{s}$. **Coulombs** are the [standard measure](si-units.md) of electrical charge quantity (i.e. electrons or protons).
 
 Current can be derived by [Ohm's Law](ohms-law.md) as $I = V/R$.
 

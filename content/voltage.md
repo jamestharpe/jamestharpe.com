@@ -1,7 +1,7 @@
 ---
 date: 2021-04-10T12:39:43-04:00
 description: "Electrical potential energy, measured in volts"
-tags: [ "electricity", "electrical-engineering", "si-units" ]
+tags: [ "electricity", "electrical-engineering", "si-units", "coulombs" ]
 title: "Voltage and Volts"
 ---
 
@@ -9,7 +9,7 @@ title: "Voltage and Volts"
 
 Stored electricity is called voltage and is measured in volts. More precisely, **voltage** is the difference in electric potential energy between two points.
 
-One **volt** is equal to 1 joule ($J$, see [physics](physics.md)) per 1 coulomb ($C$), or $V = \frac{J}{C}$. A **coulomb** is a quantity of electrical charge, approximately equal to $6.2415090744 \cdot 10^{18}$ elementary charges (i.e. electrons or protons).
+One **volt** is equal to 1 joule ($J$, see [physics](physics.md)) per 1 coulomb ($C$), or $V = \frac{J}{C}$. A [**coulomb**](coulombs.md) is a quantity of electrical charge (i.e. electrons or protons).
 
 Another way to put it is, a volt is the amount of electricity required to accelerate 1kg by 1 meter per second squared (a joule) for 1 second (resulting in a displacement of $1m$), divided by the quantity of electrical charges (coulombs). In other words, a volt is "how much work can be done per coulomb".
 
