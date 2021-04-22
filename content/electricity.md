@@ -12,3 +12,19 @@ Electricity is the form of [energy](physics.md) (the ability to do work) that re
 ## Relationships between Voltage, Current, Resistance, and Watts
 
 [Ohm's Law](ohms-law.md) and [Watt's Law](watts-law.md) describe the relationship between volts, amps, ohms and watts as $I = V/R$ and $P=IV$, respectively. These equations allow for substitutions: for example $I$ can be substituted with $V/R$ so that $P=(V/R)V$ or $P=V^2/R$.
+
+## SI Units Used in Electricity
+
+| Name    | Symbol   | Measures                    | Definition  |
+| ------- | -------- | --------------------------- | ----------- |
+| Ampere  | $A$      | [Current](current.md)       | ${C}/{s}$   |
+| Coulomb | $C$      | [Charge](charge.md)         | $A \cdot S$ |
+| Farad   | $F$      | Capacitance                 | $C/V$       |
+| Henry   | $H$      | Inductance                  | $Wb/A$      |
+| Hertz   | $Hz$     | [Frequency](frequency.md)   | $s^{-1}$    |
+| Ohm     | $\Omega$ | [Resistance](resistance.md) | $V/A$       |
+| Siemens | $S$      | Conductance                 | $A/V$       |
+| Tesla   | $T$      | Magnetic field strength     | $Wb/m^2$    |
+| Volt    | $V$      | [Voltage](voltage.md)       | $W/A$       |
+| Watt    | $W$      | [Power](power.md)           | $J/s$       |
+| Weber   | $Wb$     | Magnetic flux               | $V \cdot s$ |
