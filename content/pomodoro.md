@@ -9,7 +9,11 @@ import PomodoroTimer from "../src/components/pomodoro-timer"
 
 # The Pomodoro Technique
 
-<!-- <PomodoroTimer /> -->
+<div style={{float: "right", border: "solid", width: "40%", padding: "5px"}}>
+
+## Pomodoro Timer
+<PomodoroTimer />
+</div>
 
 The **Pomodoro Technique** is a simple but effective technique for time management that uses short [timeboxes](timeboxing.md) and frequent breaks. It is an especially useful way to get through drudgery, reduce procrastination, and increase focus.
 
