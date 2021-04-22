@@ -1,5 +1,5 @@
 ---
-date: 2020-12-24T10:46:11-04:00
+date: 2021-04-22T00:13:11-04:00
 description: "A time management method for short-bursts of focus"
 tags: [ "personal-productivity", "timeboxing" ]
 title: "The Pomodoro Technique"
@@ -9,9 +9,10 @@ import PomodoroTimer from "../src/components/pomodoro-timer"
 
 # The Pomodoro Technique
 
-<div style={{float: "right", border: "solid", width: "40%", padding: "5px"}}>
+<div style={{float: "right", border: "solid", width: "40%", padding: "2em"}}>
 
 ## Pomodoro Timer
+
 <PomodoroTimer />
 </div>
 
