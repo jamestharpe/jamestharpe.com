@@ -1,4 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 10 Apr 2021 21:01:46 GMT</lastBuildDate><item><title><![CDATA[Nonprofit Organizations]]></title><description><![CDATA[Institutions not intended to turn a profit]]></description><link>https://www.jamestharpe.com/nonprofits/</link><guid isPermaLink="false">https://www.jamestharpe.com/nonprofits/</guid><pubDate>Sat, 10 Apr 2021 20:47:43 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 22 Apr 2021 04:34:39 GMT</lastBuildDate><item><title><![CDATA[The Pomodoro Technique]]></title><description><![CDATA[A time management method for short-bursts of focus]]></description><link>https://www.jamestharpe.com/pomodoro/</link><guid isPermaLink="false">https://www.jamestharpe.com/pomodoro/</guid><pubDate>Thu, 22 Apr 2021 04:13:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-04-22T04:13:11.000Z&quot;,
+  &quot;description&quot;: &quot;A time management method for short-bursts of focus&quot;,
+  &quot;tags&quot;: [&quot;personal-productivity&quot;, &quot;timeboxing&quot;],
+  &quot;title&quot;: &quot;The Pomodoro Technique&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;The Pomodoro Technique&quot;), mdx(&quot;div&quot;, {
+    style: {
+      &quot;float&quot;: &quot;right&quot;,
+      border: &quot;solid&quot;,
+      width: &quot;40%&quot;,
+      padding: &quot;2em&quot;
+    }
+  }, mdx(&quot;h2&quot;, null, &quot;Pomodoro Timer&quot;), mdx(PomodoroTimer, {
+    mdxType: &quot;PomodoroTimer&quot;
+  })), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Pomodoro Technique&quot;), &quot; is a simple but effective technique for time management that uses short &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../timeboxing/&quot;
+  }, &quot;timeboxes&quot;), &quot; and frequent breaks. It is an especially useful way to get through drudgery, reduce procrastination, and increase focus.&quot;), mdx(&quot;p&quot;, null, &quot;Here&apos;s how it works:&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Decide on a task&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Set a timer for 25 minutes&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Work on the task until the time goes off&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Take a break for 5 minutes&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Go back to step one&quot;)), mdx(&quot;p&quot;, null, &quot;After four cycles (about two hours), take a longer break of about 15 to 30 minutes.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n  Decide[\&quot;Decide on a&quot;, mdx(&quot;br&quot;, {
+    parentName: &quot;div&quot;
+  }), &quot;Task\&quot;] --&gt;\n  Work[\&quot;Work the task&quot;, mdx(&quot;br&quot;, {
+    parentName: &quot;div&quot;
+  }), &quot;for 25 Minutes\&quot;] --&gt;\n  Count{\&quot;Has it been&quot;, mdx(&quot;br&quot;, {
+    parentName: &quot;div&quot;
+  }), &quot;4 iterations?\&quot;} --&gt;\n  |No| Break5[\&quot;Take a 5 minute&quot;, mdx(&quot;br&quot;, {
+    parentName: &quot;div&quot;
+  }), &quot;break\&quot;]\n  Count --&gt; |Yes| Break15[\&quot;Take a 15&quot;, mdx(&quot;br&quot;, {
+    parentName: &quot;div&quot;
+  }), &quot;minute break\&quot;]\n  Break5 --&gt; Decide\n  Break15 --&gt; Decide&quot;), mdx(&quot;h2&quot;, null, &quot;Tips for Effective Pomodoros&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Avoid distractions: Silence your phone, close your door, and so on&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Keep a notepad to record other tasks that come to mind&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Adjust the times to suit your needs and tasks&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;If you&apos;re \&quot;in the zone\&quot; when it&apos;s break time, keep going!&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Move your body during breaks: Do a quick stretch, go for a walk, etc.&quot;)), mdx(&quot;h2&quot;, null, &quot;Animated Video: The Pomodoro Technique - A Study and Productivity Technique&quot;), mdx(&quot;iframe&quot;, {
+    width: &quot;560&quot;,
+    height: &quot;315&quot;,
+    src: &quot;https://www.youtube.com/embed/AYR-RuGwJbM&quot;,
+    title: &quot;YouTube video player&quot;,
+    frameBorder: &quot;0&quot;,
+    allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
+    allowFullScreen: true
+  }));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Nonprofit Organizations]]></title><description><![CDATA[Institutions not intended to turn a profit]]></description><link>https://www.jamestharpe.com/nonprofits/</link><guid isPermaLink="false">https://www.jamestharpe.com/nonprofits/</guid><pubDate>Sat, 10 Apr 2021 20:47:43 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -4906,7 +4989,12 @@ return function MDXContent(_ref) {
   }, &quot;\u2212&quot;), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;mord mtight&quot;
-  }, &quot;9&quot;))))))))))))))))));
+  }, &quot;9&quot;))))))))))))))))), mdx(&quot;h2&quot;, null, &quot;SI Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.bipm.org/en/measurement-units/si-base-units&quot;
+  }, &quot;BIPM: The SI Base Units&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Current and Amperes]]></title><description><![CDATA[The flow of electricity, measured in amps]]></description><link>https://www.jamestharpe.com/current/</link><guid isPermaLink="false">https://www.jamestharpe.com/current/</guid><pubDate>Sat, 10 Apr 2021 16:43:22 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -6981,270 +7069,6 @@ return function MDXContent(_ref) {
   }, &quot;CORS headers&quot;), &quot; when the Angular dev server is hosting scripts that can be loaded from other applications.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Arduino 16x2 LCD]]></title><description><![CDATA[How to use the popular 16x3 LCD included with many Arduino kits]]></description><link>https://www.jamestharpe.com/arduino-lcd-16x2/</link><guid isPermaLink="false">https://www.jamestharpe.com/arduino-lcd-16x2/</guid><pubDate>Sat, 06 Feb 2021 23:26:12 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-02-06T23:26:12.000Z&quot;,
-  &quot;description&quot;: &quot;How to use the popular 16x3 LCD included with many Arduino kits&quot;,
-  &quot;tags&quot;: [&quot;arduino&quot;],
-  &quot;title&quot;: &quot;Arduino 16x2 LCD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Arduino 16x2 LCD&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://store.arduino.cc/usa/arduino-starter-kit&quot;
-  }, &quot;official Arduino Starter Kit&quot;), &quot; includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show simple text output. Other kits, such as the &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://www.elegoo.com/collections/uno-r3-starter-kits/products/elegoo-uno-project-super-starter-kit&quot;
-  }, &quot;Elegoo UNO R3 Super Starter  Kit&quot;), &quot;, come with compatible versions.&quot;), mdx(&quot;h2&quot;, null, &quot;Wiring the Arduino 16x2 LCD&quot;), mdx(&quot;p&quot;, null, &quot;The Contrast pin (labeled &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;VO&quot;), &quot;) can be wired into a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Potentiometer&quot;
-  }, &quot;potentiometer&quot;), &quot; for contrast control, or directly into the 5V rail which will maximize the contrast and may make the display difficult to read.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;img&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;src&quot;: &quot;../img/arduino-lcd-16x2-wiring-diagram.svg&quot;,
-    &quot;alt&quot;: &quot;wiring diagram&quot;
-  })), mdx(&quot;h2&quot;, null, &quot;\&quot;Hello World\&quot; with Arduino 16x2 LCD and &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;h2&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;LiquidCrystal&quot;)), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;cpp&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-cpp&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-cpp&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token macro property&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;token directive-hash&quot;
-  }, &quot;#&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;token directive keyword&quot;
-  }, &quot;include&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;token string&quot;
-  }, &quot;&lt;LiquidCrystal.h&gt;&quot;)), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token comment&quot;
-  }, &quot;// LCD Configuration&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token keyword&quot;
-  }, &quot;const&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token keyword&quot;
-  }, &quot;int&quot;), &quot;\n\tLCD_PIN_RS &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;11&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_EN &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;12&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D4 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;2&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D5 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;3&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D6 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;4&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D7 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;5&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n\nLiquidCrystal &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;lcd&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), &quot;LCD_PIN_RS&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_EN&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_D4&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_D5&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_D6&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_D7&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token keyword&quot;
-  }, &quot;void&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;setup&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;{&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;.&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;begin&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;16&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;2&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;.&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;setCursor&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;0&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;0&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;.&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;print&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token string&quot;
-  }, &quot;\&quot;Hello World!\&quot;&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;}&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token keyword&quot;
-  }, &quot;void&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;loop&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;{&quot;), &quot;\n  &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token comment&quot;
-  }, &quot;// Do nothing&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;}&quot;)))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Arduino Thermostat]]></title><description><![CDATA[Build your own programmable thermostat with Arduino]]></description><link>https://www.jamestharpe.com/arduino-thermostat/</link><guid isPermaLink="false">https://www.jamestharpe.com/arduino-thermostat/</guid><pubDate>Sat, 06 Feb 2021 23:26:12 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -8897,6 +8721,270 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://arduinogetstarted.com/tutorials/arduino-lcd&quot;
   }, &quot;Arduino LCD tutorial&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Arduino 16x2 LCD]]></title><description><![CDATA[How to use the popular 16x3 LCD included with many Arduino kits]]></description><link>https://www.jamestharpe.com/arduino-lcd-16x2/</link><guid isPermaLink="false">https://www.jamestharpe.com/arduino-lcd-16x2/</guid><pubDate>Sat, 06 Feb 2021 23:26:12 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-02-06T23:26:12.000Z&quot;,
+  &quot;description&quot;: &quot;How to use the popular 16x3 LCD included with many Arduino kits&quot;,
+  &quot;tags&quot;: [&quot;arduino&quot;],
+  &quot;title&quot;: &quot;Arduino 16x2 LCD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Arduino 16x2 LCD&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://store.arduino.cc/usa/arduino-starter-kit&quot;
+  }, &quot;official Arduino Starter Kit&quot;), &quot; includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show simple text output. Other kits, such as the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://www.elegoo.com/collections/uno-r3-starter-kits/products/elegoo-uno-project-super-starter-kit&quot;
+  }, &quot;Elegoo UNO R3 Super Starter  Kit&quot;), &quot;, come with compatible versions.&quot;), mdx(&quot;h2&quot;, null, &quot;Wiring the Arduino 16x2 LCD&quot;), mdx(&quot;p&quot;, null, &quot;The Contrast pin (labeled &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;VO&quot;), &quot;) can be wired into a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Potentiometer&quot;
+  }, &quot;potentiometer&quot;), &quot; for contrast control, or directly into the 5V rail which will maximize the contrast and may make the display difficult to read.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;img&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;src&quot;: &quot;../img/arduino-lcd-16x2-wiring-diagram.svg&quot;,
+    &quot;alt&quot;: &quot;wiring diagram&quot;
+  })), mdx(&quot;h2&quot;, null, &quot;\&quot;Hello World\&quot; with Arduino 16x2 LCD and &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;h2&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;LiquidCrystal&quot;)), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;cpp&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-cpp&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-cpp&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token macro property&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token directive-hash&quot;
+  }, &quot;#&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token directive keyword&quot;
+  }, &quot;include&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token string&quot;
+  }, &quot;&lt;LiquidCrystal.h&gt;&quot;)), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;// LCD Configuration&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;const&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;int&quot;), &quot;\n\tLCD_PIN_RS &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;11&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_EN &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;12&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D4 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D5 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D6 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D7 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;5&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n\nLiquidCrystal &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;lcd&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), &quot;LCD_PIN_RS&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_EN&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_D4&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_D5&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_D6&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_D7&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;void&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;setup&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;{&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;begin&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;16&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;setCursor&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;print&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token string&quot;
+  }, &quot;\&quot;Hello World!\&quot;&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;}&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;void&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;loop&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;{&quot;), &quot;\n  &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;// Do nothing&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;}&quot;)))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Sugru]]></title><description><![CDATA[Sugru Sugru  is a moldable glue useful for making custom shapes for repairs, crafts, and DIY projects.]]></description><link>https://www.jamestharpe.com/sugru/</link><guid isPermaLink="false">https://www.jamestharpe.com/sugru/</guid><pubDate>Sun, 24 Jan 2021 16:22:10 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -14340,44 +14428,6 @@ return function MDXContent(_ref) {
   }, &quot;Other colors are typically used for electrical signals&quot;)));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-30T18:07:46.000Z&quot;,
-  &quot;description&quot;: &quot;Abstract representations of system state at a given point in time&quot;,
-  &quot;tags&quot;: [&quot;math&quot;, &quot;computer-science&quot;],
-  &quot;title&quot;: &quot;State Machines&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;State Machines&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;state machine&quot;), &quot; is an abstract representation of a system&apos;s state at a given point in time. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;transition&quot;), &quot; is the change from one state to another given a set of inputs.&quot;), mdx(&quot;p&quot;, null, &quot;There are two types of state machines: Finite, and infinite. A finite state machine (FSM) has a finite number of states and actions whereas an infinite state machine has an infinite number of states and/or actions. Generally, the term \&quot;state machine\&quot; refers to a finite state machine.&quot;), mdx(&quot;p&quot;, null, &quot;State machines can be depicted formally in a visual format, which makes them useful for describing complex systems.&quot;), mdx(&quot;h2&quot;, null, &quot;State Machine Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://statecharts.github.io/what-is-a-state-machine.html&quot;
-  }, &quot;What is a State Machine?&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -14420,6 +14470,44 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://www.sciencedirect.com/science/article/pii/0167642387900359&quot;
   }, &quot;Statecharts: A visual formalism for complex systems&quot;), &quot; (original paper defining statecharts)&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-30T18:07:46.000Z&quot;,
+  &quot;description&quot;: &quot;Abstract representations of system state at a given point in time&quot;,
+  &quot;tags&quot;: [&quot;math&quot;, &quot;computer-science&quot;],
+  &quot;title&quot;: &quot;State Machines&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;State Machines&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;state machine&quot;), &quot; is an abstract representation of a system&apos;s state at a given point in time. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;transition&quot;), &quot; is the change from one state to another given a set of inputs.&quot;), mdx(&quot;p&quot;, null, &quot;There are two types of state machines: Finite, and infinite. A finite state machine (FSM) has a finite number of states and actions whereas an infinite state machine has an infinite number of states and/or actions. Generally, the term \&quot;state machine\&quot; refers to a finite state machine.&quot;), mdx(&quot;p&quot;, null, &quot;State machines can be depicted formally in a visual format, which makes them useful for describing complex systems.&quot;), mdx(&quot;h2&quot;, null, &quot;State Machine Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://statecharts.github.io/what-is-a-state-machine.html&quot;
+  }, &quot;What is a State Machine?&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[XState (JavaScript Library)]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/xstate/</link><guid isPermaLink="false">https://www.jamestharpe.com/xstate/</guid><pubDate>Wed, 30 Dec 2020 18:03:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -15520,7 +15608,7 @@ return function MDXContent(_ref) {
     &quot;className&quot;: &quot;mord mtight&quot;
   }, &quot;3&quot;)))))))))))), &quot; of water). It&apos;s still useful to think of kilogram as defined this way; however the &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://www.bipm.org/utils/en/pdf/CGPM/Draft-Resolution-A-EN.pdf&quot;
+    &quot;href&quot;: &quot;https://www.bipm.org/en/si-base-units/kilogram&quot;
   }, &quot;formal definition&quot;), &quot; of kilogram is more complicated.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
   }, &quot;Velocity&quot;), &quot; is the distance (&quot;, mdx(&quot;span&quot;, {
@@ -17516,86 +17604,7 @@ return function MDXContent(_ref) {
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://officedynamics.com/43-folders-method-paper-system/&quot;
-  }, &quot;43 Folders System&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;http://www.43folders.com/2004/09/03/introducing-the-hipster-pda&quot;
-  }, &quot;Hipster PDA&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[The Pomodoro Technique]]></title><description><![CDATA[A time management method for short-bursts of focus]]></description><link>https://www.jamestharpe.com/pomodoro/</link><guid isPermaLink="false">https://www.jamestharpe.com/pomodoro/</guid><pubDate>Thu, 24 Dec 2020 14:46:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-24T14:46:11.000Z&quot;,
-  &quot;description&quot;: &quot;A time management method for short-bursts of focus&quot;,
-  &quot;tags&quot;: [&quot;personal-productivity&quot;, &quot;timeboxing&quot;],
-  &quot;title&quot;: &quot;The Pomodoro Technique&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;The Pomodoro Technique&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Pomodoro Technique&quot;), &quot; is a simple but effective technique for time management that uses short &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../timeboxing/&quot;
-  }, &quot;timeboxes&quot;), &quot; and frequent breaks. It is an especially useful way to get through drudgery, reduce procrastination, and increase focus.&quot;), mdx(&quot;p&quot;, null, &quot;Here&apos;s how it works:&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Decide on a task&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Set a timer for 25 minutes&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Work on the task until the time goes off&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Take a break for 5 minutes&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Go back to step one&quot;)), mdx(&quot;p&quot;, null, &quot;After four cycles (about two hours), take a longer break of about 15 to 30 minutes.&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n  Decide[\&quot;Decide on a&quot;, mdx(&quot;br&quot;, {
-    parentName: &quot;div&quot;
-  }), &quot;Task\&quot;] --&gt;\n  Work[\&quot;Work the task&quot;, mdx(&quot;br&quot;, {
-    parentName: &quot;div&quot;
-  }), &quot;for 25 Minutes\&quot;] --&gt;\n  Count{\&quot;Has it been&quot;, mdx(&quot;br&quot;, {
-    parentName: &quot;div&quot;
-  }), &quot;4 iterations?\&quot;} --&gt;\n  |No| Break5[\&quot;Take a 5 minute&quot;, mdx(&quot;br&quot;, {
-    parentName: &quot;div&quot;
-  }), &quot;break\&quot;]\n  Count --&gt; |Yes| Break15[\&quot;Take a 15&quot;, mdx(&quot;br&quot;, {
-    parentName: &quot;div&quot;
-  }), &quot;minute break\&quot;]\n  Break5 --&gt; Decide\n  Break15 --&gt; Decide&quot;), mdx(&quot;h2&quot;, null, &quot;Tips for Effective Pomodoros&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Avoid distractions: Silence your phone, close your door, and so on&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Keep a notepad to record other tasks that come to mind&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Adjust the times to suit your needs and tasks&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;If you&apos;re \&quot;in the zone\&quot; when it&apos;s break time, keep going!&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Move your body during breaks: Do a quick stretch, go for a walk, etc.&quot;)), mdx(&quot;h2&quot;, null, &quot;Animated Video: The Pomodoro Technique - A Study and Productivity Technique&quot;), mdx(&quot;iframe&quot;, {
-    width: &quot;560&quot;,
-    height: &quot;315&quot;,
-    src: &quot;https://www.youtube.com/embed/AYR-RuGwJbM&quot;,
-    title: &quot;YouTube video player&quot;,
-    frameBorder: &quot;0&quot;,
-    allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
-    allowFullScreen: true
-  }));
+  }, &quot;43 Folders System&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Internals]]></title><description><![CDATA[How Git works internally]]></description><link>https://www.jamestharpe.com/git-internals/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-internals/</guid><pubDate>Thu, 24 Dec 2020 14:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -19426,6 +19435,56 @@ return function MDXContent(_ref) {
   }, &quot;vis.js&quot;), &quot; code on GitHub&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
+  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
+  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
+  &quot;title&quot;: &quot;GitLab CI/CD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../gitlab/&quot;
+  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ci-cd/&quot;
+  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
+  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
+  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -19524,56 +19583,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;master&quot;), &quot;).&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
-  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
-  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
-  &quot;title&quot;: &quot;GitLab CI/CD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../gitlab/&quot;
-  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ci-cd/&quot;
-  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
-  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
-  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -24160,35 +24169,6 @@ return function MDXContent(_ref) {
   }, &quot;Live Editor&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Lean]]></title><description><![CDATA[A method for methodically maximizing with progressively fewer resources]]></description><link>https://www.jamestharpe.com/lean/</link><guid isPermaLink="false">https://www.jamestharpe.com/lean/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-23T17:33:11.000Z&quot;,
-  &quot;description&quot;: &quot;A method for methodically maximizing with progressively fewer resources&quot;,
-  &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Lean&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Five Whys]]></title><description><![CDATA[A method for root-cause analysis and problem solving]]></description><link>https://www.jamestharpe.com/five-whys/</link><guid isPermaLink="false">https://www.jamestharpe.com/five-whys/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -24240,6 +24220,35 @@ return function MDXContent(_ref) {
   }, mdx(&quot;strong&quot;, {
     parentName: &quot;li&quot;
   }, &quot;Why do you need to balance risk and security?&quot;), &quot; Family makes risk too scary without security, but I get bored without risk and start to fail. To feel successful, I need to take risks that pay off but realistically I need security to take those risks.&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Lean]]></title><description><![CDATA[A method for methodically maximizing with progressively fewer resources]]></description><link>https://www.jamestharpe.com/lean/</link><guid isPermaLink="false">https://www.jamestharpe.com/lean/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-23T17:33:11.000Z&quot;,
+  &quot;description&quot;: &quot;A method for methodically maximizing with progressively fewer resources&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Lean&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reinhold Niebuhr Quotes]]></title><description><![CDATA[A theologian and ethicist, notable for originating the serenity prayer (among other things)]]></description><link>https://www.jamestharpe.com/reinhold-niebuhr/</link><guid isPermaLink="false">https://www.jamestharpe.com/reinhold-niebuhr/</guid><pubDate>Mon, 23 Nov 2020 17:25:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -25607,36 +25616,6 @@ return function MDXContent(_ref) {
   }, &quot;pf -es&quot;))))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Shells]]></title><description><![CDATA[Shells process text based commands]]></description><link>https://www.jamestharpe.com/shell/</link><guid isPermaLink="false">https://www.jamestharpe.com/shell/</guid><pubDate>Mon, 16 Nov 2020 14:15:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T14:15:11.000Z&quot;,
-  &quot;description&quot;: &quot;Shells process text based commands&quot;,
-  &quot;redirect_from&quot;: [&quot;/languages/shell/&quot;],
-  &quot;tags&quot;: [&quot;terminal&quot;],
-  &quot;title&quot;: &quot;Shells&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Shells&quot;), mdx(&quot;p&quot;, null, &quot;Shells are text-based command processing applications, often used via a terminal.&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Terminals]]></title><description><![CDATA[Terminals are text-based applications read and write to a shell]]></description><link>https://www.jamestharpe.com/terminal/</link><guid isPermaLink="false">https://www.jamestharpe.com/terminal/</guid><pubDate>Mon, 16 Nov 2020 14:15:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -25837,6 +25816,36 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://twitter.com/b0rk&quot;
   }, &quot;Julia Evans&apos;s Twitter Feed&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Shells]]></title><description><![CDATA[Shells process text based commands]]></description><link>https://www.jamestharpe.com/shell/</link><guid isPermaLink="false">https://www.jamestharpe.com/shell/</guid><pubDate>Mon, 16 Nov 2020 14:15:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-16T14:15:11.000Z&quot;,
+  &quot;description&quot;: &quot;Shells process text based commands&quot;,
+  &quot;redirect_from&quot;: [&quot;/languages/shell/&quot;],
+  &quot;tags&quot;: [&quot;terminal&quot;],
+  &quot;title&quot;: &quot;Shells&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Shells&quot;), mdx(&quot;p&quot;, null, &quot;Shells are text-based command processing applications, often used via a terminal.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[IntelliJ IDEA]]></title><description><![CDATA[IntelliJ IDEA IntelliJ IDEA  is a  Java  IDE, developed by  JetBrains .]]></description><link>https://www.jamestharpe.com/intellij/</link><guid isPermaLink="false">https://www.jamestharpe.com/intellij/</guid><pubDate>Mon, 16 Nov 2020 12:48:34 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -26178,46 +26187,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://templates.cloudonaut.io/&quot;
   }, &quot;CloudFormation templates from Cloudonaut&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
-  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
-  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
-  &quot;title&quot;: &quot;Git Bash&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../bash/&quot;
-  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
-  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
-  }, &quot;Git Bash Shortcuts for Windows&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -26792,7 +26761,7 @@ return function MDXContent(_ref) {
   }, &quot;Git Basics - Git Aliases&quot;), &quot; chapter of Pro Git to learn more about Git aliases.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -26802,11 +26771,10 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 /* @jsx mdx */
 var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-15T23:41:30.000Z&quot;,
-  &quot;description&quot;: &quot;A technique to version-control and automate the deployment of database schemas&quot;,
-  &quot;redirect_from&quot;: [&quot;/techniques/database-as-code/&quot;],
-  &quot;tags&quot;: [&quot;infrastructure-as-code&quot;],
-  &quot;title&quot;: &quot;Database as Code&quot;
+  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
+  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
+  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
+  &quot;title&quot;: &quot;Git Bash&quot;
 };
 var layoutProps = {
   _frontmatter: _frontmatter
@@ -26819,7 +26787,18 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Database as Code&quot;));
+  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../bash/&quot;
+  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
+  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
+  }, &quot;Git Bash Shortcuts for Windows&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Docker]]></title><description><![CDATA[A set of tools to build and run containers]]></description><link>https://www.jamestharpe.com/docker/</link><guid isPermaLink="false">https://www.jamestharpe.com/docker/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -26850,6 +26829,36 @@ return function MDXContent(_ref) {
     components: components,
     mdxType: &quot;MDXLayout&quot;
   }));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-15T23:41:30.000Z&quot;,
+  &quot;description&quot;: &quot;A technique to version-control and automate the deployment of database schemas&quot;,
+  &quot;redirect_from&quot;: [&quot;/techniques/database-as-code/&quot;],
+  &quot;tags&quot;: [&quot;infrastructure-as-code&quot;],
+  &quot;title&quot;: &quot;Database as Code&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Database as Code&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Flyway]]></title><description><![CDATA[Flyway: A tool to version control database schemas in plain SQL]]></description><link>https://www.jamestharpe.com/flyway/</link><guid isPermaLink="false">https://www.jamestharpe.com/flyway/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -28648,6 +28657,119 @@ return function MDXContent(_ref) {
   }, mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
+  }, &quot;Ampere&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;A&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;A&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;A&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;../current/&quot;
+  }, &quot;Current&quot;)), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;C&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;{C}/{s}&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.07153em&quot;
+    }
+  }, &quot;C&quot;)), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;)))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
   }, &quot;Coulomb&quot;), mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
@@ -28779,6 +28901,859 @@ return function MDXContent(_ref) {
   }, mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
+  }, &quot;Farad&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;F&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;F&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.13889em&quot;
+    }
+  }, &quot;F&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Capacitance&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;C&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;V&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;C/V&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.07153em&quot;
+    }
+  }, &quot;C&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.22222em&quot;
+    }
+  }, &quot;V&quot;))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Henry&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;H&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;H&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.08125em&quot;
+    }
+  }, &quot;H&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Inductance&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;W&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;A&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;Wb/A&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.13889em&quot;
+    }
+  }, &quot;W&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;A&quot;))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Hertz&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;H&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;z&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;Hz&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.08125em&quot;
+    }
+  }, &quot;H&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.04398em&quot;
+    }
+  }, &quot;z&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;../frequency/&quot;
+  }, &quot;Frequency&quot;)), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;msup&quot;, {
+    parentName: &quot;mrow&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;s&quot;), mdx(&quot;mrow&quot;, {
+    parentName: &quot;msup&quot;
+  }, mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;\u2212&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;)))), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;s^{-1}&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;msupsub&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-t&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-r&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;style&quot;: {
+      &quot;top&quot;: &quot;-3.063em&quot;,
+      &quot;marginRight&quot;: &quot;0.05em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;pstrut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;2.7em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mtight&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mtight&quot;
+  }, &quot;\u2212&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mtight&quot;
+  }, &quot;1&quot;))))))))))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Ohm&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;\u03A9&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;\\Omega&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;\u03A9&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;../resistance/&quot;
+  }, &quot;Resistance&quot;)), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;V&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;A&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;V/A&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.22222em&quot;
+    }
+  }, &quot;V&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;A&quot;))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Siemens&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;S&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;S&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.05764em&quot;
+    }
+  }, &quot;S&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Conductance&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;A&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;V&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;A/V&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;A&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.22222em&quot;
+    }
+  }, &quot;V&quot;))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Tesla&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;T&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;T&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.13889em&quot;
+    }
+  }, &quot;T&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Magnetic field strength&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;W&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;msup&quot;, {
+    parentName: &quot;mrow&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;m&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;2&quot;))), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;Wb/m^2&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1.064108em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.13889em&quot;
+    }
+  }, &quot;W&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;msupsub&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-t&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-r&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;style&quot;: {
+      &quot;top&quot;: &quot;-3.063em&quot;,
+      &quot;marginRight&quot;: &quot;0.05em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;pstrut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;2.7em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mtight&quot;
+  }, &quot;2&quot;)))))))))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Volt&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;V&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;V&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.22222em&quot;
+    }
+  }, &quot;V&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;../voltage/&quot;
+  }, &quot;Voltage&quot;)), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;W&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;A&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;W/A&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.13889em&quot;
+    }
+  }, &quot;W&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;A&quot;))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
   }, &quot;Watt&quot;), mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
@@ -28889,57 +29864,7 @@ return function MDXContent(_ref) {
   }, mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
-  }, &quot;Volt&quot;), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;className&quot;: &quot;math math-inline&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;katex&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;katex-mathml&quot;
-  }, mdx(&quot;math&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
-  }, mdx(&quot;semantics&quot;, {
-    parentName: &quot;math&quot;
-  }, mdx(&quot;mrow&quot;, {
-    parentName: &quot;semantics&quot;
-  }, mdx(&quot;mi&quot;, {
-    parentName: &quot;mrow&quot;
-  }, &quot;V&quot;)), mdx(&quot;annotation&quot;, {
-    parentName: &quot;semantics&quot;,
-    &quot;encoding&quot;: &quot;application/x-tex&quot;
-  }, &quot;V&quot;)))), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;katex-html&quot;,
-    &quot;aria-hidden&quot;: &quot;true&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;base&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;strut&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;0.68333em&quot;,
-      &quot;verticalAlign&quot;: &quot;0em&quot;
-    }
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mathnormal&quot;,
-    &quot;style&quot;: {
-      &quot;marginRight&quot;: &quot;0.22222em&quot;
-    }
-  }, &quot;V&quot;)))))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;../voltage/&quot;
-  }, &quot;Voltage&quot;)), mdx(&quot;td&quot;, {
+  }, &quot;Weber&quot;), mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
   }, mdx(&quot;span&quot;, {
@@ -28961,14 +29886,11 @@ return function MDXContent(_ref) {
   }, mdx(&quot;mi&quot;, {
     parentName: &quot;mrow&quot;
   }, &quot;W&quot;), mdx(&quot;mi&quot;, {
-    parentName: &quot;mrow&quot;,
-    &quot;mathvariant&quot;: &quot;normal&quot;
-  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
     parentName: &quot;mrow&quot;
-  }, &quot;A&quot;)), mdx(&quot;annotation&quot;, {
+  }, &quot;b&quot;)), mdx(&quot;annotation&quot;, {
     parentName: &quot;semantics&quot;,
     &quot;encoding&quot;: &quot;application/x-tex&quot;
-  }, &quot;W/A&quot;)))), mdx(&quot;span&quot;, {
+  }, &quot;Wb&quot;)))), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;katex-html&quot;,
     &quot;aria-hidden&quot;: &quot;true&quot;
@@ -28979,8 +29901,8 @@ return function MDXContent(_ref) {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;strut&quot;,
     &quot;style&quot;: {
-      &quot;height&quot;: &quot;1em&quot;,
-      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
     }
   }), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
@@ -28990,11 +29912,87 @@ return function MDXContent(_ref) {
     }
   }, &quot;W&quot;), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord&quot;
-  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Magnetic flux&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;V&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;\u22C5&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;V \\cdot s&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.22222em&quot;
+    }
+  }, &quot;V&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2222222222222222em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mbin&quot;
+  }, &quot;\u22C5&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2222222222222222em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.43056em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;mord mathnormal&quot;
-  }, &quot;A&quot;))))))))));
+  }, &quot;s&quot;))))))))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Computer Science]]></title><description><![CDATA[The study of algorithms, data structures, information, and computation]]></description><link>https://www.jamestharpe.com/computer-science/</link><guid isPermaLink="false">https://www.jamestharpe.com/computer-science/</guid><pubDate>Sat, 25 Jan 2020 12:41:26 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -29083,6 +30081,37 @@ return function MDXContent(_ref) {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
   }, &quot;Functions are deterministic: They always produce the same output from a given input without performing any side-effects (modifying values outside the function)&quot;)))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reactive Programming]]></title><description><![CDATA[A declarative programming paradigm for extracting and transforming data from streams]]></description><link>https://www.jamestharpe.com/reactive-programming/</link><guid isPermaLink="false">https://www.jamestharpe.com/reactive-programming/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-01-25T12:39:26.000Z&quot;,
+  &quot;description&quot;: &quot;A declarative programming paradigm for extracting and transforming data from streams&quot;,
+  &quot;tags&quot;: [&quot;computer-science&quot;],
+  &quot;title&quot;: &quot;Reactive Programming&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Reactive Programming&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Reactive programming&quot;), &quot; is a declarative programming paradigm for extracting and transforming data from streams.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[RxJS]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/rxjs/</link><guid isPermaLink="false">https://www.jamestharpe.com/rxjs/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -29266,37 +30295,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;unsubscribe()&quot;), &quot; is called on a subscription&quot;)));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reactive Programming]]></title><description><![CDATA[A declarative programming paradigm for extracting and transforming data from streams]]></description><link>https://www.jamestharpe.com/reactive-programming/</link><guid isPermaLink="false">https://www.jamestharpe.com/reactive-programming/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-01-25T12:39:26.000Z&quot;,
-  &quot;description&quot;: &quot;A declarative programming paradigm for extracting and transforming data from streams&quot;,
-  &quot;tags&quot;: [&quot;computer-science&quot;],
-  &quot;title&quot;: &quot;Reactive Programming&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Reactive Programming&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Reactive programming&quot;), &quot; is a declarative programming paradigm for extracting and transforming data from streams.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
