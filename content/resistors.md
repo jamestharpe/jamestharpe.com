@@ -1,7 +1,7 @@
 ---
 date: 2021-04-23T14:58:43-04:00
 description: "Electrical components that resist the flow of electricity"
-tags: [ "electrical-components", "resistance", "circuits" ]
+tags: [ "electrical-components", "resistance" ]
 title: "Resistors (Electrical Component)"
 ---
 
