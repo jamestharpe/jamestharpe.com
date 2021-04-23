@@ -1,7 +1,7 @@
 ---
 title: "Bureau International des Poids et Mesures (BIPM)"
 date: 2021-04-22T00:38:45-04:00
-tags: []
+tags: [ "si-units" ]
 description: "Keepers of SI Units and UTC time scale"
 ---
 
