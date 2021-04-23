@@ -8,4 +8,3 @@ title: "Electrical Circuits"
 # Electrical Circuits
 
 **Circuits** are assemblies of [electronic](electrical-engineering.md) components. The [flow of electricity](current.md) through a circuit is described by [Ohm's Law](ohms-law.md).
-
