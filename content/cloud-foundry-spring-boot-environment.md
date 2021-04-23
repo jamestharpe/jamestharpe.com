@@ -51,7 +51,7 @@ bootRun.environment([
 
 ## 2. Built-in Cloud Foundry Environment Variables
 
-Cloud Foundry comes with several [built-in environment variables](https://docs.run.pivotal.io/devguide/deploy-apps/environment-variable.html) accessible to your application. To show this, let's create a new controller called `EnvController`:
+Cloud Foundry comes with several [built-in environment variables](https://docs.cloudfoundry.org/devguide/deploy-apps/environment-variable.html) accessible to your application. To show this, let's create a new controller called `EnvController`:
 
 ```java
 package io.pivotal.pal.tracker;
