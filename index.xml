@@ -1,4 +1,464 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 23 Apr 2021 21:14:31 GMT</lastBuildDate><item><title><![CDATA[Electrical Components]]></title><description><![CDATA[Building blocks for electrical circuits]]></description><link>https://www.jamestharpe.com/electrical-components/</link><guid isPermaLink="false">https://www.jamestharpe.com/electrical-components/</guid><pubDate>Fri, 23 Apr 2021 19:00:43 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 09 May 2021 02:10:05 GMT</lastBuildDate><item><title><![CDATA[Solenoids]]></title><description><![CDATA[Electrical components that act as magnets when carrying electricity]]></description><link>https://www.jamestharpe.com/solenoids/</link><guid isPermaLink="false">https://www.jamestharpe.com/solenoids/</guid><pubDate>Sat, 08 May 2021 17:20:43 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-05-08T17:20:43.000Z&quot;,
+  &quot;description&quot;: &quot;Electrical components that act as magnets when carrying electricity&quot;,
+  &quot;tags&quot;: [&quot;electrical-components&quot;],
+  &quot;title&quot;: &quot;Solenoids&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Solenoids&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Solenoids&quot;), &quot; are &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../electrical-components/&quot;
+  }, &quot;electrical components&quot;), &quot; that act as magnets when carrying &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../current/&quot;
+  }, &quot;electrical current&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Video: Solenoid Basics Explained&quot;), mdx(&quot;iframe&quot;, {
+    width: &quot;560&quot;,
+    height: &quot;315&quot;,
+    src: &quot;https://www.youtube.com/embed/BbmocfETTFo&quot;,
+    title: &quot;YouTube video player&quot;,
+    frameBorder: &quot;0&quot;,
+    allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
+    allowFullScreen: true
+  }));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Conductance and Siemens]]></title><description><![CDATA[The ability to conduct to current, measured in siemens]]></description><link>https://www.jamestharpe.com/conductance/</link><guid isPermaLink="false">https://www.jamestharpe.com/conductance/</guid><pubDate>Sat, 08 May 2021 15:34:43 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-05-08T15:34:43.000Z&quot;,
+  &quot;description&quot;: &quot;The ability to conduct to current, measured in siemens&quot;,
+  &quot;tags&quot;: [&quot;electricity&quot;, &quot;si-units&quot;, &quot;resistance&quot;, &quot;current&quot;, &quot;voltage&quot;],
+  &quot;title&quot;: &quot;Conductance and Siemens&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Conductance and Siemens&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Conductance&quot;), &quot; (&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;G&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;G&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;G&quot;))))), &quot;) is the ability of a material to carry electricity, is &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../si-units/&quot;
+  }, &quot;measured&quot;), &quot; in Siemens (&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;S&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;S&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.05764em&quot;
+    }
+  }, &quot;S&quot;))))), &quot;), and defined indirectly by &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ohms-law/&quot;
+  }, &quot;Ohm&apos;s Law&quot;), &quot; as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../current/&quot;
+  }, &quot;current&quot;), &quot; (&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;I&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;I&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.07847em&quot;
+    }
+  }, &quot;I&quot;))))), &quot;) over &quot;, &quot;[voltage]&quot;, &quot;(voltage.md, or) &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;G&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;=&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;I&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;V&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;G = I/V&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;G&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mrel&quot;
+  }, &quot;=&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.07847em&quot;
+    }
+  }, &quot;I&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.22222em&quot;
+    }
+  }, &quot;V&quot;))))), &quot;. The inverse of conductance is &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../resistance/&quot;
+  }, &quot;resistance&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Conductors&quot;), &quot; are materials that carry electricity well, and thus have a high conductance (and thus a low resistance) value.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Managing Enterprise IT Initiatives]]></title><description><![CDATA[How to manage Enterprise IT initiatives]]></description><link>https://www.jamestharpe.com/enterprise-it-initiatives/</link><guid isPermaLink="false">https://www.jamestharpe.com/enterprise-it-initiatives/</guid><pubDate>Tue, 04 May 2021 14:00:31 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-05-04T14:00:31.000Z&quot;,
+  &quot;description&quot;: &quot;How to manage Enterprise IT initiatives&quot;,
+  &quot;tags&quot;: [&quot;sdlc&quot;],
+  &quot;title&quot;: &quot;Managing Enterprise IT Initiatives&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Managing Enterprise IT Initiatives&quot;), mdx(&quot;p&quot;, null, &quot;Enterprise IT initiatives are infamous for causing confusion. The process of deciding on priorities, and integrating those priorities with ongoing efforts to support \&quot;the business\&quot; is fraught with competing perspectives, disorganization, miscommunication, and inconsistent implementations.&quot;), mdx(&quot;p&quot;, null, &quot;To help things go smoothly, each enterprise IT initiative should have a \&quot;home page\&quot; that is linked to in all formal communications about the initiative. The home page should, in turn, have as many of the following resources as possible:&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;thead&quot;
+  }, mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Asset&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Purpose&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Dashboard&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Track overall progress&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Display attainment levels for objectives and key results, broken down by department then team&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Glossary&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Clearly define terminology&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Precise definitions of terms and measures of success&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Resources Directory&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Maximize utilization of all available resources&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Complete list of training materials, tools, and support-teams available to assist with the initiative&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Assessment&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Identify areas of risk and non-compliance&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;A workflow-driven series of questions designed to elicit next steps and identify risks&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Sample Plans&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Ensure scope and impact is fully accounted for across teams&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Examples of successful plans from early adopters, annotated with insights (e.g. expected vs. actual costs &amp; budgets) gained from the experience of execution&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Sample/templated Solutions&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Accelerate roll-out&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Code, tests, pipelines, scripts and other assets that can be easily adapted to specific team needs&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Training Materials&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Minimize risks inherent with new tools and methods&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;A list of available training resources, documentation, videos, and courses&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Historic References&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Accelerate planning and estimation&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Project summaries of completed initiatives of similar size and/or goals&quot;)))), mdx(&quot;p&quot;, null, &quot;Each asset should be cross-linked where possible. For example, the OKRs in the dashboard should link to the definitions in the glossary.&quot;), mdx(&quot;p&quot;, null, &quot;The key is to create discoverability and build awareness of the available resources, and plan to fill in gaps when they do not exist. Without coordinating on these resources, teams can invent hundreds of ways to solve a single problem, creating huge amounts of waste in the process.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Development Lifecycle (SDLC)]]></title><description><![CDATA[The lifecycle of software applications, from concept to revenue]]></description><link>https://www.jamestharpe.com/sdlc/</link><guid isPermaLink="false">https://www.jamestharpe.com/sdlc/</guid><pubDate>Tue, 04 May 2021 14:00:31 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-05-04T14:00:31.000Z&quot;,
+  &quot;description&quot;: &quot;The lifecycle of software applications, from concept to revenue&quot;,
+  &quot;tags&quot;: [&quot;software-engineering&quot;],
+  &quot;title&quot;: &quot;Software Development Lifecycle (SDLC)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Software Development Lifecycle (SDLC)&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Software Development Lifecycle (SDLC)&quot;), &quot; is a process of conceiving, planning, building, deploying, using, and retiring software applications. SDLC methods can vary widely, but generally share goals around customer satisfaction, quality, and efficiency. The \&quot;best\&quot; SDLC is \&quot;what works for you\&quot; or \&quot;what works for your organization\&quot; and is dependent on a wide variety of factors such as industry, culture, and expertise.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Electrical Components]]></title><description><![CDATA[Building blocks for electrical circuits]]></description><link>https://www.jamestharpe.com/electrical-components/</link><guid isPermaLink="false">https://www.jamestharpe.com/electrical-components/</guid><pubDate>Fri, 23 Apr 2021 19:00:43 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -1375,7 +1835,10 @@ return function MDXContent(_ref) {
   }, &quot;1&quot;), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;mord mtight&quot;
-  }, &quot;8&quot;))))))))))))), &quot; elementary charges (i.e. electrons or protons). The charge of one electron is therefore &quot;, mdx(&quot;span&quot;, {
+  }, &quot;8&quot;))))))))))))), &quot; elementary charges (i.e. &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../atoms/&quot;
+  }, &quot;electrons or protons&quot;), &quot;). The charge of one electron is therefore &quot;, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -1397,7 +1860,7 @@ return function MDXContent(_ref) {
     parentName: &quot;mrow&quot;
   }, &quot;1.602176565&quot;), mdx(&quot;mo&quot;, {
     parentName: &quot;mrow&quot;
-  }, &quot;\xD7&quot;), mdx(&quot;mn&quot;, {
+  }, &quot;\u22C5&quot;), mdx(&quot;mn&quot;, {
     parentName: &quot;mrow&quot;
   }, &quot;1&quot;), mdx(&quot;msup&quot;, {
     parentName: &quot;mrow&quot;
@@ -1414,7 +1877,7 @@ return function MDXContent(_ref) {
   }, &quot;C&quot;)), mdx(&quot;annotation&quot;, {
     parentName: &quot;semantics&quot;,
     &quot;encoding&quot;: &quot;application/x-tex&quot;
-  }, &quot;\u22121.602176565\xD710^{\u221219}C&quot;)))), mdx(&quot;span&quot;, {
+  }, &quot;\u22121.602176565 \\cdot 10^{\u221219}C&quot;)))), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;katex-html&quot;,
     &quot;aria-hidden&quot;: &quot;true&quot;
@@ -1473,7 +1936,7 @@ return function MDXContent(_ref) {
   }), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;mbin&quot;
-  }, &quot;\xD7&quot;), mdx(&quot;span&quot;, {
+  }, &quot;\u22C5&quot;), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;mspace&quot;,
     &quot;style&quot;: {
@@ -1817,7 +2280,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-04-10T19:18:43.000Z&quot;,
   &quot;description&quot;: &quot;Opposition to current, measured in ohms&quot;,
-  &quot;tags&quot;: [&quot;electricity&quot;, &quot;electrical-engineering&quot;, &quot;si-units&quot;],
+  &quot;tags&quot;: [&quot;electricity&quot;, &quot;si-units&quot;, &quot;conductance&quot;, &quot;voltage&quot;, &quot;current&quot;],
   &quot;title&quot;: &quot;Resistance and Ohms&quot;
 };
 var layoutProps = {
@@ -1878,7 +2341,10 @@ return function MDXContent(_ref) {
   }, &quot;\u03A9&quot;))))), &quot;), and defined by &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../ohms-law/&quot;
-  }, &quot;Ohm&apos;s Law&quot;), &quot; as &quot;, mdx(&quot;span&quot;, {
+  }, &quot;Ohm&apos;s Law&quot;), &quot; as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../voltage/&quot;
+  }, &quot;voltage&quot;), &quot; over current, or &quot;, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -1968,7 +2434,21 @@ return function MDXContent(_ref) {
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.07847em&quot;
     }
-  }, &quot;I&quot;))))), &quot;.&quot;));
+  }, &quot;I&quot;))))), &quot;. The inverse of resistance is &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../conductance/&quot;
+  }, &quot;conductance&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Resistors&quot;), &quot; are materials that resist the flow of electricity, and thus have a high resistance (and thus a low conductance) value, hence the term &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../resistors/&quot;
+  }, &quot;\&quot;resistor\&quot;&quot;), &quot; for the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../electrical-components/&quot;
+  }, &quot;electrical component&quot;), &quot; which reduce current.&quot;), mdx(&quot;h2&quot;, null, &quot;History&quot;), mdx(&quot;p&quot;, null, &quot;The term \&quot;ohm\&quot; is named after &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Georg_Ohm&quot;
+  }, &quot;Georg Simon Ohm&quot;), &quot;, who first derived the relationships between current, voltage, and resistance now known as Ohm&apos;s Law.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Frequency and Hertz (Hz)]]></title><description><![CDATA[The number of times something happens per second]]></description><link>https://www.jamestharpe.com/frequency/</link><guid isPermaLink="false">https://www.jamestharpe.com/frequency/</guid><pubDate>Sat, 10 Apr 2021 19:15:22 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -6565,7 +7045,10 @@ return function MDXContent(_ref) {
   }, mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;mbin mtight&quot;
-  }, &quot;\u2212&quot;)))))))))))), &quot;) ions which will both respond to electric force, moving in opposite directions.&quot;));
+  }, &quot;\u2212&quot;)))))))))))), &quot;) ions which will both respond to electric force, moving in opposite directions.&quot;), mdx(&quot;h2&quot;, null, &quot;History&quot;), mdx(&quot;p&quot;, null, &quot;Amperes are named after &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re&quot;
+  }, &quot;Andr\xE9-Marie Amp\xE8r&quot;), &quot;, known for inventing the solenoid and electric telegraph.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Voltage and Volts]]></title><description><![CDATA[Electrical potential energy, measured in volts]]></description><link>https://www.jamestharpe.com/voltage/</link><guid isPermaLink="false">https://www.jamestharpe.com/voltage/</guid><pubDate>Sat, 10 Apr 2021 16:39:43 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -7376,7 +7859,10 @@ return function MDXContent(_ref) {
     frameBorder: &quot;0&quot;,
     allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
     allowFullScreen: true
-  }));
+  }), mdx(&quot;h2&quot;, null, &quot;History&quot;), mdx(&quot;p&quot;, null, &quot;Volts and voltage are both named after &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Alessandro_Volta&quot;
+  }, &quot;Alessandro Volta&quot;), &quot;, who invented the first battery in 1800.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SPACE Framework]]></title><description><![CDATA[SPACE Framework to Measure Developer Productivity: Satisfaction, Performance, Activity, Communication]]></description><link>https://www.jamestharpe.com/space-framework/</link><guid isPermaLink="false">https://www.jamestharpe.com/space-framework/</guid><pubDate>Thu, 08 Apr 2021 15:26:07 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -15314,7 +15800,10 @@ return function MDXContent(_ref) {
   }, mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
-  }, &quot;Conductor&quot;), mdx(&quot;td&quot;, {
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;../conductance/&quot;
+  }, &quot;Conductor&quot;)), mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
   }, &quot;A material that conducts electricity well because it has weak valence bonds such as copper, gold, silver, aluminum, or even saltwater.&quot;)), mdx(&quot;tr&quot;, {
@@ -15365,7 +15854,7 @@ return function MDXContent(_ref) {
     &quot;align&quot;: null
   }, &quot;An variation in &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;../electricity/&quot;
+    &quot;href&quot;: &quot;../ohms-law/&quot;
   }, &quot;voltage or current&quot;), &quot; frequency, phase, or duration used to represent information&quot;)), mdx(&quot;tr&quot;, {
     parentName: &quot;tbody&quot;
   }, mdx(&quot;td&quot;, {
@@ -23579,7 +24068,10 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;
   }, &quot;Watt&apos;s Law&quot;), &quot;, sometimes called the &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;Power Law&quot;), &quot;, describes the relationship between power (&quot;, mdx(&quot;span&quot;, {
+  }, &quot;Power Law&quot;), &quot;, describes the relationship between &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../power/&quot;
+  }, &quot;power&quot;), &quot; (&quot;, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -23708,7 +24200,7 @@ return function MDXContent(_ref) {
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.22222em&quot;
     }
-  }, &quot;V&quot;))))), &quot;):&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
+  }, &quot;V&quot;))))), &quot;), so that power is defined as:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -23792,7 +24284,9 @@ return function MDXContent(_ref) {
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.22222em&quot;
     }
-  }, &quot;V&quot;)))))), mdx(&quot;p&quot;, null, &quot;Given tha values for any two variables, we solve for the third, so that:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
+  }, &quot;V&quot;)))))), mdx(&quot;p&quot;, null, &quot;Given tha values for any two variables, we solve for the third so that &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;voltage&quot;), &quot;, electrical potential energy, is defined as:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -23812,16 +24306,17 @@ return function MDXContent(_ref) {
     parentName: &quot;mrow&quot;
   }, &quot;V&quot;), mdx(&quot;mo&quot;, {
     parentName: &quot;mrow&quot;
-  }, &quot;=&quot;), mdx(&quot;mfrac&quot;, {
+  }, &quot;=&quot;), mdx(&quot;mi&quot;, {
     parentName: &quot;mrow&quot;
-  }, mdx(&quot;mi&quot;, {
-    parentName: &quot;mfrac&quot;
   }, &quot;P&quot;), mdx(&quot;mi&quot;, {
-    parentName: &quot;mfrac&quot;
-  }, &quot;I&quot;))), mdx(&quot;annotation&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;I&quot;)), mdx(&quot;annotation&quot;, {
     parentName: &quot;semantics&quot;,
     &quot;encoding&quot;: &quot;application/x-tex&quot;
-  }, &quot;V=\\frac{P}{I}&quot;)))), mdx(&quot;span&quot;, {
+  }, &quot;V=P/I&quot;)))), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;katex-html&quot;,
     &quot;aria-hidden&quot;: &quot;true&quot;
@@ -23863,111 +24358,28 @@ return function MDXContent(_ref) {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;strut&quot;,
     &quot;style&quot;: {
-      &quot;height&quot;: &quot;1.217331em&quot;,
-      &quot;verticalAlign&quot;: &quot;-0.345em&quot;
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
     }
   }), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mopen nulldelimiter&quot;
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mfrac&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist-t vlist-t2&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist-r&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;0.872331em&quot;
-    }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;style&quot;: {
-      &quot;top&quot;: &quot;-2.6550000000000002em&quot;
-    }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;pstrut&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;3em&quot;
-    }
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mtight&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mathnormal mtight&quot;,
-    &quot;style&quot;: {
-      &quot;marginRight&quot;: &quot;0.07847em&quot;
-    }
-  }, &quot;I&quot;)))), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;style&quot;: {
-      &quot;top&quot;: &quot;-3.23em&quot;
-    }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;pstrut&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;3em&quot;
-    }
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;frac-line&quot;,
-    &quot;style&quot;: {
-      &quot;borderBottomWidth&quot;: &quot;0.04em&quot;
-    }
-  })), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;style&quot;: {
-      &quot;top&quot;: &quot;-3.394em&quot;
-    }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;pstrut&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;3em&quot;
-    }
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mtight&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mathnormal mtight&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.13889em&quot;
     }
-  }, &quot;P&quot;))))), mdx(&quot;span&quot;, {
+  }, &quot;P&quot;), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist-s&quot;
-  }, &quot;\u200B&quot;)), mdx(&quot;span&quot;, {
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist-r&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
     &quot;style&quot;: {
-      &quot;height&quot;: &quot;0.345em&quot;
+      &quot;marginRight&quot;: &quot;0.07847em&quot;
     }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;
-  }))))), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mclose nulldelimiter&quot;
-  }))))))), mdx(&quot;p&quot;, null, &quot;And:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
+  }, &quot;I&quot;)))))), mdx(&quot;p&quot;, null, &quot;And current, which is the flow of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../electricity/&quot;
+  }, &quot;electricity&quot;), &quot;, is defined as:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -23987,16 +24399,17 @@ return function MDXContent(_ref) {
     parentName: &quot;mrow&quot;
   }, &quot;I&quot;), mdx(&quot;mo&quot;, {
     parentName: &quot;mrow&quot;
-  }, &quot;=&quot;), mdx(&quot;mfrac&quot;, {
+  }, &quot;=&quot;), mdx(&quot;mi&quot;, {
     parentName: &quot;mrow&quot;
-  }, mdx(&quot;mi&quot;, {
-    parentName: &quot;mfrac&quot;
   }, &quot;P&quot;), mdx(&quot;mi&quot;, {
-    parentName: &quot;mfrac&quot;
-  }, &quot;V&quot;))), mdx(&quot;annotation&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;V&quot;)), mdx(&quot;annotation&quot;, {
     parentName: &quot;semantics&quot;,
     &quot;encoding&quot;: &quot;application/x-tex&quot;
-  }, &quot;I=\\frac{P}{V}&quot;)))), mdx(&quot;span&quot;, {
+  }, &quot;I=P/V&quot;)))), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;katex-html&quot;,
     &quot;aria-hidden&quot;: &quot;true&quot;
@@ -24038,111 +24451,25 @@ return function MDXContent(_ref) {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;strut&quot;,
     &quot;style&quot;: {
-      &quot;height&quot;: &quot;1.217331em&quot;,
-      &quot;verticalAlign&quot;: &quot;-0.345em&quot;
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
     }
   }), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mopen nulldelimiter&quot;
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mfrac&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist-t vlist-t2&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist-r&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;0.872331em&quot;
-    }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;style&quot;: {
-      &quot;top&quot;: &quot;-2.6550000000000002em&quot;
-    }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;pstrut&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;3em&quot;
-    }
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mtight&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mathnormal mtight&quot;,
-    &quot;style&quot;: {
-      &quot;marginRight&quot;: &quot;0.22222em&quot;
-    }
-  }, &quot;V&quot;)))), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;style&quot;: {
-      &quot;top&quot;: &quot;-3.23em&quot;
-    }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;pstrut&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;3em&quot;
-    }
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;frac-line&quot;,
-    &quot;style&quot;: {
-      &quot;borderBottomWidth&quot;: &quot;0.04em&quot;
-    }
-  })), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;style&quot;: {
-      &quot;top&quot;: &quot;-3.394em&quot;
-    }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;pstrut&quot;,
-    &quot;style&quot;: {
-      &quot;height&quot;: &quot;3em&quot;
-    }
-  }), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mtight&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mord mathnormal mtight&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.13889em&quot;
     }
-  }, &quot;P&quot;))))), mdx(&quot;span&quot;, {
+  }, &quot;P&quot;), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist-s&quot;
-  }, &quot;\u200B&quot;)), mdx(&quot;span&quot;, {
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist-r&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;vlist&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
     &quot;style&quot;: {
-      &quot;height&quot;: &quot;0.345em&quot;
+      &quot;marginRight&quot;: &quot;0.22222em&quot;
     }
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;
-  }))))), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;mclose nulldelimiter&quot;
-  }))))))), mdx(&quot;h2&quot;, null, &quot;Power and Watts&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+  }, &quot;V&quot;)))))), mdx(&quot;h2&quot;, null, &quot;Power and Watts&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
   }, &quot;Power&quot;), &quot; is measured in watts. One &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
@@ -24453,7 +24780,10 @@ return function MDXContent(_ref) {
   }, &quot;Full course on Khan Academy: &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://www.khanacademy.org/science/high-school-physics/work-and-energy-2/power-2/v/power&quot;
-  }, &quot;Power&quot;), &quot;)&quot;)));
+  }, &quot;Power&quot;), &quot;)&quot;)), mdx(&quot;h2&quot;, null, &quot;History&quot;), mdx(&quot;p&quot;, null, &quot;The terms watt and Watt&apos;s Law are named after &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/James_Watt&quot;
+  }, &quot;James Watt&quot;), &quot;, best known for his work to improve the steam engine.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -27190,6 +27520,46 @@ return function MDXContent(_ref) {
   }, &quot;CloudFormation templates from Cloudonaut&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
+  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
+  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
+  &quot;title&quot;: &quot;Git Bash&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../bash/&quot;
+  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
+  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
+  }, &quot;Git Bash Shortcuts for Windows&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -27762,7 +28132,7 @@ return function MDXContent(_ref) {
   }, &quot;Git Basics - Git Aliases&quot;), &quot; chapter of Pro Git to learn more about Git aliases.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -27772,10 +28142,11 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 /* @jsx mdx */
 var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
-  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
-  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
-  &quot;title&quot;: &quot;Git Bash&quot;
+  &quot;date&quot;: &quot;2020-11-15T23:41:30.000Z&quot;,
+  &quot;description&quot;: &quot;A technique to version-control and automate the deployment of database schemas&quot;,
+  &quot;redirect_from&quot;: [&quot;/techniques/database-as-code/&quot;],
+  &quot;tags&quot;: [&quot;infrastructure-as-code&quot;],
+  &quot;title&quot;: &quot;Database as Code&quot;
 };
 var layoutProps = {
   _frontmatter: _frontmatter
@@ -27788,18 +28159,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../bash/&quot;
-  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
-  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
-  }, &quot;Git Bash Shortcuts for Windows&quot;))));
+  }), mdx(&quot;h1&quot;, null, &quot;Database as Code&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Docker]]></title><description><![CDATA[A set of tools to build and run containers]]></description><link>https://www.jamestharpe.com/docker/</link><guid isPermaLink="false">https://www.jamestharpe.com/docker/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -27830,36 +28190,6 @@ return function MDXContent(_ref) {
     components: components,
     mdxType: &quot;MDXLayout&quot;
   }));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-15T23:41:30.000Z&quot;,
-  &quot;description&quot;: &quot;A technique to version-control and automate the deployment of database schemas&quot;,
-  &quot;redirect_from&quot;: [&quot;/techniques/database-as-code/&quot;],
-  &quot;tags&quot;: [&quot;infrastructure-as-code&quot;],
-  &quot;title&quot;: &quot;Database as Code&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Database as Code&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Flyway]]></title><description><![CDATA[Flyway: A tool to version control database schemas in plain SQL]]></description><link>https://www.jamestharpe.com/flyway/</link><guid isPermaLink="false">https://www.jamestharpe.com/flyway/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -30433,7 +30763,10 @@ return function MDXContent(_ref) {
   }, &quot;S&quot;)))))), mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
-  }, &quot;Conductance&quot;), mdx(&quot;td&quot;, {
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;../conductance/&quot;
+  }, &quot;Conductance&quot;)), mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
   }, mdx(&quot;span&quot;, {
@@ -43733,7 +44066,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2017-03-28T21:42:46.000Z&quot;,
   &quot;description&quot;: &quot;A formula for determining voltage, current, and resistance&quot;,
-  &quot;tags&quot;: [&quot;electricity&quot;, &quot;current&quot;, &quot;voltage&quot;, &quot;resistance&quot;],
+  &quot;tags&quot;: [&quot;electricity&quot;, &quot;current&quot;, &quot;voltage&quot;, &quot;resistance&quot;, &quot;conductance&quot;],
   &quot;title&quot;: &quot;Ohm&apos;s Law&quot;
 };
 var layoutProps = {
@@ -43881,7 +44214,12 @@ return function MDXContent(_ref) {
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.00773em&quot;
     }
-  }, &quot;R&quot;))))), &quot;):&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
+  }, &quot;R&quot;))))), &quot;), so that &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;current&quot;), &quot;, which is the flow of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../electricity/&quot;
+  }, &quot;electricity&quot;), &quot;, is defined as:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -43971,7 +44309,9 @@ return function MDXContent(_ref) {
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.00773em&quot;
     }
-  }, &quot;R&quot;)))))), mdx(&quot;p&quot;, null, &quot;Given tha values for any two variables, we solve for the third, so that:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
+  }, &quot;R&quot;)))))), mdx(&quot;p&quot;, null, &quot;Given the values for any two variables, we solve for the third, so that &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;voltage&quot;), &quot;, electrical potential energy, is defined as:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -44055,7 +44395,12 @@ return function MDXContent(_ref) {
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.00773em&quot;
     }
-  }, &quot;R&quot;)))))), mdx(&quot;p&quot;, null, &quot;And:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
+  }, &quot;R&quot;)))))), mdx(&quot;p&quot;, null, &quot;And &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../resistance/&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;resistance&quot;)), &quot;, which impedes the flow of electricity, is:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -44145,7 +44490,12 @@ return function MDXContent(_ref) {
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.07847em&quot;
     }
-  }, &quot;I&quot;)))))), mdx(&quot;p&quot;, null, &quot;Resistance is how much the flow of electricity is impeded, measured in ohms (&quot;, mdx(&quot;span&quot;, {
+  }, &quot;I&quot;)))))), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../conductance/&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;Conductance&quot;)), &quot; (&quot;, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -44162,12 +44512,11 @@ return function MDXContent(_ref) {
   }, mdx(&quot;mrow&quot;, {
     parentName: &quot;semantics&quot;
   }, mdx(&quot;mi&quot;, {
-    parentName: &quot;mrow&quot;,
-    &quot;mathvariant&quot;: &quot;normal&quot;
-  }, &quot;\u03A9&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;G&quot;)), mdx(&quot;annotation&quot;, {
     parentName: &quot;semantics&quot;,
     &quot;encoding&quot;: &quot;application/x-tex&quot;
-  }, &quot;\u03A9&quot;)))), mdx(&quot;span&quot;, {
+  }, &quot;G&quot;)))), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;katex-html&quot;,
     &quot;aria-hidden&quot;: &quot;true&quot;
@@ -44183,15 +44532,105 @@ return function MDXContent(_ref) {
     }
   }), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;G&quot;))))), &quot;), which is the ability for a material to conduct electricity is defined as the inverse of resistance, and can therefore calculated by Ohm&apos;s Law as:&quot;), mdx(&quot;p&quot;, null, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;G&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;=&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;I&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;V&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;G = I/V&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.68333em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;G&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mrel&quot;
+  }, &quot;=&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.07847em&quot;
+    }
+  }, &quot;I&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;mord&quot;
-  }, &quot;\u03A9&quot;))))), &quot;).&quot;), mdx(&quot;h2&quot;, null, &quot;Video: Circuits and Ohm&apos;s Law&quot;), mdx(&quot;iframe&quot;, {
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.22222em&quot;
+    }
+  }, &quot;V&quot;)))))), mdx(&quot;h2&quot;, null, &quot;Video: Circuits and Ohm&apos;s Law&quot;), mdx(&quot;iframe&quot;, {
     width: &quot;560&quot;,
     height: &quot;315&quot;,
     src: &quot;https://www.youtube.com/embed/F_vLWkkOETI&quot;,
     frameBorder: &quot;0&quot;,
     allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
     allowFullScreen: true
-  }));
+  }), mdx(&quot;h2&quot;, null, &quot;History&quot;), mdx(&quot;p&quot;, null, &quot;Ohm&apos;s Law is named after &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Georg_Ohm&quot;
+  }, &quot;Georg Simon Ohm&quot;), &quot;, who first derived the relationships now known as Ohm&apos;s Law.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item></channel></rss>
