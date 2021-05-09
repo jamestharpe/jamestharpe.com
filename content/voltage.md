@@ -26,3 +26,7 @@ Voltage can be derived by [Ohm's Law](ohms-law.md) as $V = IR$.
 ## Video: Voltage (Khan Academy)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k9SwNST1eW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## History
+
+Volts and voltage are both named after [Alessandro Volta](https://en.wikipedia.org/wiki/Alessandro_Volta), who invented the first battery in 1800.

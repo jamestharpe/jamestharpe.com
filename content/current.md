@@ -22,3 +22,7 @@ Current can be derived by [Ohm's Law](ohms-law.md) as $I = V/R$.
 In [electrical engineering](electrical-engineering.md), contentional current is used for calculations even though currents are typically generated through the flow of electrons rather than protons.
 
 Current can also "flow" in both directions simultaneously, such as in salt water. When salt is dissolved in water it forms free-floating sodium ($Na^+$) and chlorine ($Cl^-$) ions which will both respond to electric force, moving in opposite directions.
+
+## History
+
+Amperes are named after [André-Marie Ampèr](https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re), known for inventing the solenoid and electric telegraph.

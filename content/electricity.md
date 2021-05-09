@@ -1,7 +1,7 @@
 ---
 date: 2020-04-10T14:40:46-04:00
 description: "Energy that results from charged particles"
-tags: [ "physics", "power" ]
+tags: ["physics", "power"]
 title: "Electricity"
 ---
 
@@ -15,16 +15,16 @@ Electricity is the form of [energy](physics.md) (the ability to do work) that re
 
 ## SI Units Used in Electricity
 
-| Name    | Symbol   | Measures                    | Definition  |
-| ------- | -------- | --------------------------- | ----------- |
-| Ampere  | $A$      | [Current](current.md)       | ${C}/{s}$   |
-| Coulomb | $C$      | [Charge](charge.md)         | $A \cdot S$ |
-| Farad   | $F$      | Capacitance                 | $C/V$       |
-| Henry   | $H$      | Inductance                  | $Wb/A$      |
-| Hertz   | $Hz$     | [Frequency](frequency.md)   | $s^{-1}$    |
-| Ohm     | $\Omega$ | [Resistance](resistance.md) | $V/A$       |
-| Siemens | $S$      | Conductance                 | $A/V$       |
-| Tesla   | $T$      | Magnetic field strength     | $Wb/m^2$    |
-| Volt    | $V$      | [Voltage](voltage.md)       | $W/A$       |
-| Watt    | $W$      | [Power](power.md)           | $J/s$       |
-| Weber   | $Wb$     | Magnetic flux               | $V \cdot s$ |
+| Name    | Symbol   | Measures                      | Definition  |
+| ------- | -------- | ----------------------------- | ----------- |
+| Ampere  | $A$      | [Current](current.md)         | ${C}/{s}$   |
+| Coulomb | $C$      | [Charge](charge.md)           | $A \cdot S$ |
+| Farad   | $F$      | Capacitance                   | $C/V$       |
+| Henry   | $H$      | Inductance                    | $Wb/A$      |
+| Hertz   | $Hz$     | [Frequency](frequency.md)     | $s^{-1}$    |
+| Ohm     | $\Omega$ | [Resistance](resistance.md)   | $V/A$       |
+| Siemens | $S$      | [Conductance](conductance.md) | $A/V$       |
+| Tesla   | $T$      | Magnetic field strength       | $Wb/m^2$    |
+| Volt    | $V$      | [Voltage](voltage.md)         | $W/A$       |
+| Watt    | $W$      | [Power](power.md)             | $J/s$       |
+| Weber   | $Wb$     | Magnetic flux                 | $V \cdot s$ |

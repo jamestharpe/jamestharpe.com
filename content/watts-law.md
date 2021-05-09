@@ -7,17 +7,17 @@ title: "Watt's Law (Power Law)"
 
 # Watt's Law
 
-**Watt's Law**, sometimes called the **Power Law**, describes the relationship between power ($P$), [current](current.md) ($I$), and [voltage](voltage.md) ($V$):
+**Watt's Law**, sometimes called the **Power Law**, describes the relationship between [power](power.md) ($P$), [current](current.md) ($I$), and [voltage](voltage.md) ($V$), so that power is defined as:
 
 $P=IV$
 
-Given tha values for any two variables, we solve for the third, so that:
+Given tha values for any two variables, we solve for the third so that **voltage**, electrical potential energy, is defined as:
 
-$V=\frac{P}{I}$
+$V=P/I$
 
-And:
+And current, which is the flow of [electricity](electricity.md), is defined as:
 
-$I=\frac{P}{V}$
+$I=P/V$
 
 ## Power and Watts
 
@@ -28,3 +28,7 @@ $I=\frac{P}{V}$
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RpbxIG5HTf4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > Full course on Khan Academy: [Power](https://www.khanacademy.org/science/high-school-physics/work-and-energy-2/power-2/v/power))
+
+## History
+
+The terms watt and Watt's Law are named after [James Watt](https://en.wikipedia.org/wiki/James_Watt), best known for his work to improve the steam engine.
