@@ -76,7 +76,11 @@ const RelatedNetwork: React.FC<RelatedNetworkProps> = ({
 					color: "#7CCB7D"
 				}
 			}
-		]);
+		])
+		.filter(
+			(node, index, self) =>
+				index === self.findIndex((candidateNode) => candidateNode.id === node.id)
+		);
 
 	const approxLinesOfText = Math.ceil(
 		nodes.reduce((prev, curr) => prev + (curr.label?.length || 0), 0) / 14
