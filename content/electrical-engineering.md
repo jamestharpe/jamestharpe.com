@@ -5,8 +5,6 @@ tags: ["electricity", "engineering"]
 title: "Electrical Engineering"
 ---
 
-<!-- TODO: Tag "engineering" -->
-
 # Electrical Engineering and Electronics
 
 **Electrical engineering** is the practical application of [electricity](electricity.md) to create new tools and devices.
