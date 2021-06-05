@@ -5,7 +5,9 @@ tags: [ ]
 title: "3D printing"
 ---
 
-# Notes on 3D Printing
+# 3D Printing
+
+**3D printing** is the process of creating 3-dimensional objects using an additive, such as a plastic (as opposed to a subtractive, such as a CNC machine).
 
 ## Process to 3D Print a Design
 
@@ -28,7 +30,7 @@ Tips:
 * **Slicer:** Software that converts a 3D model into layer-by-layer print instructions.
 * **STL file:** A "stereolithography" file that defines a set of 3-dimensional design in a layer-by-layer fashion.
 
-## Online Resources
+## 3D Printing Resources
 
 * [Make Anything YouTube Channel](https://www.youtube.com/channel/UCVc6AHfGw9b2zOE_ZGfmsnw) has a lot of fun experiments and projects, plus a great community of helpful enthusiasts.
 * [MakerBot Thingiverse](https://www.thingiverse.com/) has thousands of free, downloadable 3D designs.
