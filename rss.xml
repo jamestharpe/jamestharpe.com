@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 May 2021 14:19:20 GMT</lastBuildDate><item><title><![CDATA[Konmari Method]]></title><description><![CDATA[A method to manage belongings and de-clutter work and living spaces]]></description><link>https://www.jamestharpe.com/konmari-method/</link><guid isPermaLink="false">https://www.jamestharpe.com/konmari-method/</guid><pubDate>Sat, 29 May 2021 12:36:54 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Jun 2021 21:25:26 GMT</lastBuildDate><item><title><![CDATA[Project Management]]></title><description><![CDATA[Resources for Project Management]]></description><link>https://www.jamestharpe.com/project-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/project-management/</guid><pubDate>Sat, 05 Jun 2021 19:40:01 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-06-05T19:40:01.000Z&quot;,
+  &quot;description&quot;: &quot;Resources for Project Management&quot;,
+  &quot;tags&quot;: [&quot;product-management&quot;],
+  &quot;title&quot;: &quot;Project Management&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Project Management&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;project&quot;), &quot; is an enterprise that seeks to create something new to meet some objective, generally through the creation or enhancement of a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../product-management/&quot;
+  }, &quot;product&quot;), &quot; or service. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;product&quot;), &quot; is the output of the project. A project is completed when the objective is met or cannot be met based on resource constraints. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Project management&quot;), &quot; is the practice of creating, allocating, and adapting project resources - the scope, budget, step sequences, and schedule - and overseeing execution through to completion.&quot;), mdx(&quot;h2&quot;, null, &quot;The Iron Triangle of Project Management&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;iron triangle&quot;), &quot; are the constraints of managing a project. They are:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Speed&quot;), &quot;: How quickly the project can complete&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Cost&quot;), &quot;: How much money the project requires&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Scope&quot;), &quot;: The requirements and constraints of what must be delivered&quot;)), mdx(&quot;p&quot;, null, &quot;Generally speaking, you can optimize for any &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;two&quot;), &quot; points on the iron triangle. For example, to get more done (scope) in less time (speed) often requires spending more money (cost). Of course, it&apos;s not always that simple.&quot;), mdx(&quot;h2&quot;, null, &quot;Project Artifacts&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Project artifacts&quot;), &quot; are the output of project management practices other than the product, such as schedules, budgets, and status reports. Depending on project size, there are many different artifacts that might be produced as part of the project.&quot;), mdx(&quot;h3&quot;, null, &quot;Project Charter&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;project charter&quot;), &quot; is a founding document that summarizes why the project was started, plus the initial set of expectations for budget, scope, and timeline. Often a project charter is maintained as a \&quot;living document\&quot; that is updated periodically as the project progresses.&quot;), mdx(&quot;p&quot;, null, &quot;Common elements of a project charter include:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;vision&quot;), &quot; that describes what is valuable about the project for both the producer and consumer of the product.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;requirements summary&quot;), &quot; that gives a high-level description of what must be delivered by when.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A set of &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;stretch goals&quot;), &quot; that describe accomplishments that would be \&quot;nice to have\&quot; but aren&apos;t necessary to consider the project a success.&quot;)), mdx(&quot;h3&quot;, null, &quot;Project Plan&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;project plan&quot;), &quot; is defines the sequence of tasks, dependencies between tasks, and organizational elements of the project. Typically a project plan is a \&quot;living document\&quot; that is updated regularly as the project progresses.&quot;), mdx(&quot;p&quot;, null, &quot;Common elements of a project plan include:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;project brief&quot;), &quot; or &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;executive summary&quot;), &quot; that describes the projects purpose, timeline, budget, and scope in a few short paragraphs or bullet points&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;vision statement&quot;), &quot; that describes the purpose of the end-product, or a synopsis of (or link to) the project charter&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;history&quot;), &quot; of achieved milestones and changes to the plan&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;schedule overview&quot;), &quot; that lists each project milestone along with its purpose, scope, and anticipated completion date&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;resources list&quot;), &quot; that includes the teams, tools, materials and the focus/purpose of each resource involved in the project (see also: &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;../enterprise-it-initiatives/&quot;
+  }, &quot;Enterprise IT Initiatives&quot;), &quot;)&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;risk list&quot;), &quot; that describes known risks to project success, along with each risk&apos;s probability, impact, and mitigation plan&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;definition of done&quot;), &quot; or &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;release criteria&quot;), &quot; that describes the quality, performance, and sign-off requirements needed to consider each feature \&quot;done\&quot; or otherwise ready to be used by the customer.&quot;)), mdx(&quot;h2&quot;, null, &quot;Project Management Tips&quot;), mdx(&quot;h3&quot;, null, &quot;Plan to Re-plan&quot;), mdx(&quot;p&quot;, null, &quot;Each project is a novel undertaking and it&apos;s exceptionally rare that up-front plans are perfect. Instead of spending excessive effort to create the perfect plan, plan just enough to get started and to re-plan as you learn from experience. As the project proceeds, take what you&apos;ve learned and update the plan regularly throughout the project.&quot;), mdx(&quot;p&quot;, null, &quot;For the long-term plan, use the \&quot;cone of uncertainty\&quot; to set expectations.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Cascading Style Sheets (CSS)]]></title><description><![CDATA[Cascading Style Sheets (CSS)]]></description><link>https://www.jamestharpe.com/css/</link><guid isPermaLink="false">https://www.jamestharpe.com/css/</guid><pubDate>Tue, 01 Jun 2021 21:29:41 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-06-01T21:29:41.000Z&quot;,
+  &quot;description&quot;: &quot;Cascading Style Sheets (CSS)&quot;,
+  &quot;tags&quot;: [&quot;computer-languages&quot;],
+  &quot;title&quot;: &quot;Cascading Style Sheets (CSS)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Cascading Style Sheets (CSS)&quot;), mdx(&quot;p&quot;, null, &quot;Cascading Style Sheets (CSS) is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;computer-language&quot;), &quot; that describes how XML and HTML documents should be visually presented. One of the best ways to learn CSS is through the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Learn/CSS&quot;
+  }, &quot;MDN CSS Learning Arena&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;CSS Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/CSS&quot;
+  }, &quot;CSS: Cascading Style Sheets on MDN&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.w3.org/TR/CSS/#css&quot;
+  }, &quot;CSS Official Definition on W3C&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Konmari Method]]></title><description><![CDATA[A method to manage belongings and de-clutter work and living spaces]]></description><link>https://www.jamestharpe.com/konmari-method/</link><guid isPermaLink="false">https://www.jamestharpe.com/konmari-method/</guid><pubDate>Sat, 29 May 2021 12:36:54 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -18490,7 +18642,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2020-12-26T16:30:11.000Z&quot;,
   &quot;description&quot;: &quot;How timeboxes work&quot;,
-  &quot;tags&quot;: [],
+  &quot;tags&quot;: [&quot;project-management&quot;],
   &quot;title&quot;: &quot;Timeboxing&quot;
 };
 var layoutProps = {
@@ -21003,6 +21155,56 @@ return function MDXContent(_ref) {
   }, &quot;vis.js&quot;), &quot; code on GitHub&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
+  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
+  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
+  &quot;title&quot;: &quot;GitLab CI/CD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../gitlab/&quot;
+  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ci-cd/&quot;
+  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
+  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
+  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -21101,56 +21303,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;master&quot;), &quot;).&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
-  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
-  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
-  &quot;title&quot;: &quot;GitLab CI/CD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../gitlab/&quot;
-  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ci-cd/&quot;
-  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
-  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
-  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -24012,7 +24164,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;Product Management Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
@@ -25321,7 +25473,7 @@ return function MDXContent(_ref) {
   }, &quot;Custom collections&quot;), &quot; are created to meet some specific need. For example, to plan a project or to track a fitness routine.&quot;), mdx(&quot;h2&quot;, null, &quot;Core Bullet Journal Practices&quot;), mdx(&quot;p&quot;, null, &quot;The Bullet Journal website contains a &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://bulletjournal.com/pages/learn&quot;
-  }, &quot;complete introduction to core bullet journaling practices&quot;)), mdx(&quot;h2&quot;, null, &quot;Rapid Logging&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+  }, &quot;complete introduction to core bullet journaling practices&quot;), &quot;, which I&apos;ve summarized here.&quot;), mdx(&quot;h2&quot;, null, &quot;Rapid Logging&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
   }, &quot;Rapid logging&quot;), &quot; is the practice of quickly jotting-down notes in a bulleted-list format, typically within the daily log. Specialized bullets and signifiers are used to distinguish between different types of notes. Types of notes are typically tasks, events, or information; however the journaler may choose to invent their own types of notes as well.&quot;), mdx(&quot;h3&quot;, null, &quot;Common Bullets&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
     parentName: &quot;table&quot;
@@ -26162,7 +26314,7 @@ return function MDXContent(_ref) {
   }, &quot;grep&quot;)), &quot; is used for plain text.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Exercise]]></title><description><![CDATA[Physical activity meant to improve and maintain physical health]]></description><link>https://www.jamestharpe.com/exercise/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise/</guid><pubDate>Tue, 17 Nov 2020 12:06:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Exercise Resources]]></title><description><![CDATA[Physical activity meant to improve and maintain physical health]]></description><link>https://www.jamestharpe.com/exercise/</link><guid isPermaLink="false">https://www.jamestharpe.com/exercise/</guid><pubDate>Tue, 17 Nov 2020 12:06:30 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -26175,7 +26327,7 @@ var _frontmatter = {
   &quot;date&quot;: &quot;2020-11-17T12:06:30.000Z&quot;,
   &quot;description&quot;: &quot;Physical activity meant to improve and maintain physical health&quot;,
   &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Exercise&quot;
+  &quot;title&quot;: &quot;Exercise Resources&quot;
 };
 var layoutProps = {
   _frontmatter: _frontmatter
@@ -26188,7 +26340,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Exercise&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;Exercise Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
@@ -28835,7 +28987,9 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Notes on 3D Printing&quot;), mdx(&quot;h2&quot;, null, &quot;Process to 3D Print a Design&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;3D Printing&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;3D printing&quot;), &quot; is the process of creating 3-dimensional objects using an additive, such as a plastic (as opposed to a subtractive, such as a CNC machine).&quot;), mdx(&quot;h2&quot;, null, &quot;Process to 3D Print a Design&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
   }, &quot;Create or download a 3D design, typically as an STL file.&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
@@ -28867,7 +29021,7 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, mdx(&quot;strong&quot;, {
     parentName: &quot;li&quot;
-  }, &quot;STL file:&quot;), &quot; A \&quot;stereolithography\&quot; file that defines a set of 3-dimensional design in a layer-by-layer fashion.&quot;)), mdx(&quot;h2&quot;, null, &quot;Online Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;STL file:&quot;), &quot; A \&quot;stereolithography\&quot; file that defines a set of 3-dimensional design in a layer-by-layer fashion.&quot;)), mdx(&quot;h2&quot;, null, &quot;3D Printing Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
