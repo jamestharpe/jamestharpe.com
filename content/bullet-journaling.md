@@ -28,7 +28,7 @@ A bullet journal is made up of collections. A **collection** is a set of closely
 
 ## Core Bullet Journal Practices
 
-The Bullet Journal website contains a [complete introduction to core bullet journaling practices](https://bulletjournal.com/pages/learn)
+The Bullet Journal website contains a [complete introduction to core bullet journaling practices](https://bulletjournal.com/pages/learn), which I've summarized here.
 
 ## Rapid Logging
 
