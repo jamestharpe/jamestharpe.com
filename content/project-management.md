@@ -51,7 +51,7 @@ Common elements of a project plan include:
 
 ### Plan to Re-plan
 
-Each project is a novel undertaking and it's exceptionally rare that up-front plans are perfect. Instead of spending excessive effort to create the perfect plan, plan just enough to get started and to re-plan as you learn from experience. As the project proceeds, take what you've learned and update the plan regularly throughout the project. 
+Each project is a novel undertaking and it's exceptionally rare that up-front plans are perfect. Instead of spending excessive effort to create the perfect plan, plan just enough to get started and to re-plan as you learn from experience. As the project proceeds, take what you've learned and update the plan regularly throughout the project.
 
 For the long-term plan, use the "cone of uncertainty" to set expectations.
 
