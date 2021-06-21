@@ -8,7 +8,6 @@ draft: true
 
 # Tao Te Ching
 
-
 ## Translator's Notes
 
 For this translation, I chose the term "cosmos" to refer to, as [Carl Sagan](carl-sagan.md) put it, "all that is or was or ever will be."
@@ -32,7 +31,7 @@ For this translation, I chose the term "cosmos" to refer to, as [Carl Sagan](car
 	<tr>
 		<td>
 			<p>
-				The tao that can be spoken of is not the tao. 
+				The tao that can be spoken of is not the tao.
 				Experiences cannot be understood by their names.
 			</p>
 		</td>
@@ -45,13 +44,13 @@ For this translation, I chose the term "cosmos" to refer to, as [Carl Sagan](car
 	<tr>
 		<td>
 			<p>
-				The cosmos exists even when it is not percieved and therefore cannot be named. 
+				The cosmos exists even when it is not percieved and therefore cannot be named.
 				Names are the origin of all particular things.
 			</p>
 		</td>
 		<td>
 			<p>
-				The cosmos existed before it was ever percieved, conceptualized, or named. 
+				The cosmos existed before it was ever percieved, conceptualized, or named.
 				Over time we've continuously reconceptualized the cosmos though it remains unchanged.
 			</p>
 		</td>
@@ -59,13 +58,13 @@ For this translation, I chose the term "cosmos" to refer to, as [Carl Sagan](car
 	<tr>
 		<td>
 			<p>
-				Observation without desire reveals the essence of truth. 
+				Observation without desire reveals the essence of truth.
 				With desire, only the apparent is observed.
 			</p>
 		</td>
 		<td>
 			<p>
-				New knowledge requires dispassionate observation. 
+				New knowledge requires dispassionate observation.
 				When observed for the sake of our own motivations, we can only understand in terms of what we already know.
 			</p>
 		</td>
