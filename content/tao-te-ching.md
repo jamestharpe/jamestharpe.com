@@ -133,7 +133,7 @@ For this translation, I chose the term "cosmos" to refer to, as [Carl Sagan](car
 		</td>
 		<td>
 			<p>
-				This duality implies that lessons and actions, gains and losses, successes and failures are all part of the same experience and should be treated as such as illustrated in the [Taoist Maybe Story](maybe-story.md).
+				This duality implies that lessons and actions, gains and losses, successes and failures are all part of the same experience and should be treated as such as illustrated in the <a href="maybe-story.md">Taoist Maybe Story</a>.
 			</p>
 		</td>
 	</tr>
