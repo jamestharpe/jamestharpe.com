@@ -1,7 +1,7 @@
 ---
 date: 2021-06-24T13:48:42-04:00
 description: ""
-tags: [ "product-management", "sdlc" ]
+tags: [ "product-management", "project-management", "sdlc" ]
 title: "Scaled Agile Framework (SAFe)"
 ---
 
