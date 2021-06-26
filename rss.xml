@@ -1,4 +1,513 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 05 Jun 2021 21:25:26 GMT</lastBuildDate><item><title><![CDATA[Project Management]]></title><description><![CDATA[Resources for Project Management]]></description><link>https://www.jamestharpe.com/project-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/project-management/</guid><pubDate>Sat, 05 Jun 2021 19:40:01 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Jun 2021 17:39:33 GMT</lastBuildDate><item><title><![CDATA[Scaled Agile Framework (SAFe)]]></title><description><![CDATA[Scaled Agile Framework (SAFe) SAFe  is a  product  and  project  framework for large  enterprises . It consists of seven core competencies…]]></description><link>https://www.jamestharpe.com/safe-framework/</link><guid isPermaLink="false">https://www.jamestharpe.com/safe-framework/</guid><pubDate>Thu, 24 Jun 2021 17:48:42 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-06-24T17:48:42.000Z&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;tags&quot;: [&quot;product-management&quot;, &quot;project-management&quot;, &quot;sdlc&quot;],
+  &quot;title&quot;: &quot;Scaled Agile Framework (SAFe)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Scaled Agile Framework (SAFe)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;SAFe&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../product-management/&quot;
+  }, &quot;product&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../project-management/&quot;
+  }, &quot;project&quot;), &quot; framework for large &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../enterprise-it-initiatives/&quot;
+  }, &quot;enterprises&quot;), &quot;. It consists of seven core competencies around which business strategy is organized.&quot;), mdx(&quot;h2&quot;, null, &quot;SAFe Organization&quot;), mdx(&quot;h3&quot;, null, &quot;Agile Teams / Team and Technical Agility&quot;), mdx(&quot;p&quot;, null, &quot;According to SAFe, an &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;agile team&quot;), &quot; is a group of about five to eleven members capable of managing the end-to-end delivery of business value in short, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../timeboxing/&quot;
+  }, &quot;time boxed&quot;), &quot; iterations. A typical agile team includes developers, a product owner, and a ScrumMaster. The primary SAFe competency of an agile team is &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;team and technical agility&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;The daily operations of the team are guided by other agile frameworks such as Scrum or Kanban. Each iteration starts with a planning event to decide what will be done within the iteration. During the iteration, the team meets daily to coordinate their work and focus on meeting the iteration goals. At the end of the iteration, the team holds an &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;iteration review&quot;), &quot; to demo the work they&apos;ve completed to stakeholders. After the iteration review, they hold a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;retrospective&quot;), &quot; to reflect on ways they can improve on the value they deliver.&quot;), mdx(&quot;h3&quot;, null, &quot;Agile Release Trains (ARTs) / Agile Product Delivery&quot;), mdx(&quot;p&quot;, null, &quot;An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;agile release train (ART)&quot;), &quot; is a \&quot;team of agile teams\&quot;. The typical ART includes 50 to 125 people, or roughly ten agile teams. An ART should include all the people needed to deliver a complex solution to customers. An ART also includes a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;release train engineer&quot;), &quot;, who serves as the coach for the ART, representatives from &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;product management&quot;), &quot; to provide the vision and backlog, and a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;system architect&quot;), &quot; to provide architectural guidance. The primary SAFe competency of an ART is &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;agile product delivery&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;ARTs operate in &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;program increments (PIs)&quot;), &quot;, which are typically five iterations long. Similar to the way agile teams operate, PIs start with a planning event in which the teams pull from the backlog to identify what should be delivered within the PI. During PI planning, dependencies between teams are visualized on a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;program board&quot;), &quot;. At the end of the PI, the ART team holds a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;system demo&quot;), &quot; to show the fully integrated work they&apos;ve completed to stakeholders. After the system demo, the hold an &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;inspect and adapt event&quot;), &quot;.&quot;), mdx(&quot;h3&quot;, null, &quot;Solution Trains / Solution Management&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;solution train&quot;), &quot; is a group of agile release trains that coordinates especially large and complex solutions. A solution train includes a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;solution management&quot;), &quot; group with authority over what gets built, a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;solution architect&quot;), &quot; to provide architectural guidance across ARTs, and a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;solution train engineer&quot;), &quot; to coach and facilitate the activities of the solution train.&quot;), mdx(&quot;h2&quot;, null, &quot;Additional SAFe Terms&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;p&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Lean portfolio management&quot;), &quot; seeks to align strategy with execution through the creation of strategic themes, a portfolio vision, and organizes funding around the delivery of value and value streams.&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;p&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Organizational agility&quot;), &quot; is the ability to change direction quickly based on market conditions, re-organizing as needed across the entire enterprise. This is done through the creation of a culture of continuous learning and investment in individuals that deliver results and demonstrate lean thinking.&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;p&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Lean-Agile Leadership&quot;), &quot; is the embodiment and teaching of lean and agile principles.&quot;))), mdx(&quot;h2&quot;, null, &quot;SAFe Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.scaledagileframework.com/&quot;
+  }, &quot;Official SAFe website&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.youtube.com/user/scaledagile&quot;
+  }, &quot;Scaled Agile YouTube channel&quot;))), mdx(&quot;h2&quot;, null, &quot;Video: SAFe Overview in 5 Minutes&quot;), mdx(&quot;iframe&quot;, {
+    width: &quot;560&quot;,
+    height: &quot;315&quot;,
+    src: &quot;https://www.youtube.com/embed/aW2m-BtCJyE&quot;,
+    title: &quot;YouTube video player&quot;,
+    frameBorder: &quot;0&quot;,
+    allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
+    allowFullScreen: true
+  }));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[RACI: Responsible, Accountable, Consulted, Informed]]></title><description><![CDATA[An roles and responsibilities model]]></description><link>https://www.jamestharpe.com/raci/</link><guid isPermaLink="false">https://www.jamestharpe.com/raci/</guid><pubDate>Thu, 24 Jun 2021 17:12:25 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-06-24T17:12:25.000Z&quot;,
+  &quot;description&quot;: &quot;An roles and responsibilities model&quot;,
+  &quot;tags&quot;: [&quot;personal-productivity&quot;, &quot;project-management&quot;],
+  &quot;title&quot;: &quot;RACI: Responsible, Accountable, Consulted, Informed&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Responsible, Accountable, Consulted, Informed (RACI)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;RACI&quot;), &quot; is a model to clearly articulate the roles and responsibilities for a person, team, organization, or activity. The term \&quot;RACI\&quot; is derived from the model, which specifies who is responsible, accountable, consulted, and informed for a given outcome.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Responsible&quot;), &quot; refers to the person that does the work. The RACI model prescribes that this is never more than one person.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Accountable&quot;), &quot; refers to the decision maker or decision making body. The accountable person or committee is generally expected to justify (provide an account of) the decisions made.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Consulted&quot;), &quot; refers to anyone that can help make an informed decision or evaluate the quality of work, but does not necessarily make the decision or perform the work.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Informed&quot;), &quot; refers to anyone that should be notified of decisions and when work is completed.&quot;), mdx(&quot;h2&quot;, null, &quot;RACI Charts&quot;), mdx(&quot;p&quot;, null, &quot;RACI charts help organize and visualize the RACI model by plotting work by attribute or by plotting attribute by.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Fix the Windows Subsystem for Linux internet connection while on VPN]]></title><description><![CDATA[How to fix VPN connection issues on Windows Subsystem for Linux]]></description><link>https://www.jamestharpe.com/wsl-vpn/</link><guid isPermaLink="false">https://www.jamestharpe.com/wsl-vpn/</guid><pubDate>Tue, 22 Jun 2021 12:54:27 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-06-22T12:54:27.000Z&quot;,
+  &quot;description&quot;: &quot;How to fix VPN connection issues on Windows Subsystem for Linux&quot;,
+  &quot;tags&quot;: [&quot;wsl&quot;],
+  &quot;title&quot;: &quot;Fix the Windows Subsystem for Linux internet connection while on VPN&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;WSL: Fix the Internet Connection while on VPN&quot;), mdx(&quot;p&quot;, null, &quot;Based on &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://github.com/microsoft/WSL/issues/4285#issuecomment-522201021&quot;
+  }, &quot;this comment&quot;), &quot;, the following instructions worked for me on Ubuntu Linux:&quot;), mdx(&quot;p&quot;, null, &quot;In your &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../wsl/&quot;
+  }, &quot;WSL&quot;), &quot; Linux instance, create or edit &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;/etc/wsl.conf&quot;), &quot; to look like this:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;ini&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-ini&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-ini&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token selector&quot;
+  }, &quot;[network]&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token constant&quot;
+  }, &quot;generateResolvConf&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token attr-value&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;=&quot;), &quot; false&quot;)))), mdx(&quot;p&quot;, null, &quot;Back in &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../windows/&quot;
+  }, &quot;Windows&quot;), &quot;, restart WSL using &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../powershell/&quot;
+  }, &quot;PowerShell&quot;), &quot;:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;powershell&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, &quot;wsl &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;--&quot;), &quot;shutdown\nwsl&quot;))), mdx(&quot;p&quot;, null, &quot;In your WSL Linux, create or edit &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;/etc/resolv.conf&quot;), &quot; to use &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://developers.google.com/speed/public-dns/&quot;
+  }, &quot;Google Public DNS&quot;), &quot; by creating the following entry (you may or may not have to delete other entries to get it working):&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;text&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;nameserver 8.8.8.8&quot;))), mdx(&quot;p&quot;, null, &quot;Restart WSL again in PowerShell:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;powershell&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, &quot;wsl &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;--&quot;), &quot;shutdown\nwsl&quot;))), mdx(&quot;p&quot;, null, &quot;Finally, once connected to the VPN, run the following command in Windows PowerShell, substituting &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;&lt;vpn name&gt;&quot;), &quot; with your VPN&apos;s name:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;powershell&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;Get-NetAdapter&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;|&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;Where-Object&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;{&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token variable&quot;
+  }, &quot;$_&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;InterfaceDescription &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;-Match&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token string&quot;
+  }, &quot;\&quot;&lt;vpn name&gt;\&quot;&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;}&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;|&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;Set-NetIPInterface&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;-&quot;), &quot;InterfaceMetric 6000&quot;))), mdx(&quot;p&quot;, null, &quot;For example, if your VPN&apos;s name is &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;Cisco AnyConnect&quot;), &quot;, the command would look like this:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;powershell&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;Get-NetAdapter&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;|&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;Where-Object&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;{&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token variable&quot;
+  }, &quot;$_&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;InterfaceDescription &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;-Match&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token string&quot;
+  }, &quot;\&quot;Cisco AnyConnect\&quot;&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;}&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;|&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;Set-NetIPInterface&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;-&quot;), &quot;InterfaceMetric 6000&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reset the a user's password in Windows Subsystem for Linux (WSL)]]></title><description><![CDATA[How to reset the any users password in Windows Subsystem for Linux]]></description><link>https://www.jamestharpe.com/wsl-root-password/</link><guid isPermaLink="false">https://www.jamestharpe.com/wsl-root-password/</guid><pubDate>Tue, 22 Jun 2021 12:53:27 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-06-22T12:53:27.000Z&quot;,
+  &quot;description&quot;: &quot;How to reset the any users password in Windows Subsystem for Linux&quot;,
+  &quot;tags&quot;: [&quot;wsl&quot;],
+  &quot;title&quot;: &quot;Reset the a user&apos;s password in Windows Subsystem for Linux (WSL)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;WSL: Reset a User&apos;s Password&quot;), mdx(&quot;p&quot;, null, &quot;On &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../wsl/&quot;
+  }, &quot;Windows Subsystem for Linux&quot;), &quot;, you can reset a user&apos;s password using the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;--user&quot;), &quot; (or &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;-u&quot;), &quot;) flag to run the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;passwd&quot;)), &quot; Linux command as the specified user.&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Open &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;../powershell/&quot;
+  }, &quot;PowerShell&quot;), &quot;, then use the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;wsl -u root&quot;), &quot; to run the next command as the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;root&quot;), &quot; user.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;At the prompt, enter &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;passwd &lt;username&gt;&quot;), &quot; where &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;&lt;username&gt;&quot;), &quot; is the account to change the password of, (e.g. &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;passwd james&quot;), &quot;).&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ol&quot;
+  }, &quot;Enter your password twice as prompted. It will not show in the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;../terminal/&quot;
+  }, &quot;terminal&quot;), &quot;.&quot;)), mdx(&quot;p&quot;, null, &quot;The password is now changed! Here&apos;s an example session using the username &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;current_user&quot;), &quot;:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;powershell&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-powershell&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;PS&quot;), &quot; C:\\&gt; wsl &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;-&quot;), &quot;u root\nroot@COMPUTER:&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), &quot;mnt&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), &quot;c&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), &quot;Users&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), &quot;current_user&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;# passwd current_user&quot;), &quot;\nEnter new UNIX password:\nRetype new UNIX password:\npasswd: updated successfully\nroot@COMPUTER:&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), &quot;mnt&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), &quot;c&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), &quot;Users&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), &quot;current_user&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;# exit&quot;), &quot;\nlogout\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;PS&quot;), &quot; C:\\&gt;&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Taoism]]></title><description><![CDATA[A philosophical and spiritual tradition of living in harmony with the Tao]]></description><link>https://www.jamestharpe.com/taoism/</link><guid isPermaLink="false">https://www.jamestharpe.com/taoism/</guid><pubDate>Mon, 21 Jun 2021 00:28:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-06-21T00:28:11.000Z&quot;,
+  &quot;description&quot;: &quot;A philosophical and spiritual tradition of living in harmony with the Tao&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Taoism&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Taoism&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Project Management]]></title><description><![CDATA[Resources for Project Management]]></description><link>https://www.jamestharpe.com/project-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/project-management/</guid><pubDate>Sat, 05 Jun 2021 19:40:01 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -26,7 +535,7 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Project Management&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;project&quot;), &quot; is an enterprise that seeks to create something new to meet some objective, generally through the creation or enhancement of a &quot;, mdx(&quot;a&quot;, {
+  }, &quot;project&quot;), &quot; is an undertaking that seeks to create something new to meet an objective, generally through the creation or enhancement of a &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../product-management/&quot;
   }, &quot;product&quot;), &quot; or service. A &quot;, mdx(&quot;strong&quot;, {
@@ -8451,6 +8960,43 @@ return function MDXContent(_ref) {
   }, &quot;CORS on MDN&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA['Maybe' (taoist story)]]></title><description><![CDATA[A Taoist story from the lectures of Alan Watts]]></description><link>https://www.jamestharpe.com/maybe-story/</link><guid isPermaLink="false">https://www.jamestharpe.com/maybe-story/</guid><pubDate>Mon, 08 Mar 2021 15:09:10 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-03-08T15:09:10.000Z&quot;,
+  &quot;description&quot;: &quot;A Taoist story from the lectures of Alan Watts&quot;,
+  &quot;tags&quot;: [&quot;taoism&quot;],
+  &quot;title&quot;: &quot;&apos;Maybe&apos; (taoist story)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Maybe, as told by Alan Watts&quot;), mdx(&quot;iframe&quot;, {
+    width: &quot;560&quot;,
+    height: &quot;315&quot;,
+    src: &quot;https://www.youtube.com/embed/OX0OARBqBp0&quot;,
+    title: &quot;YouTube video player&quot;,
+    frameBorder: &quot;0&quot;,
+    allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
+    allowFullScreen: true
+  }), mdx(&quot;h2&quot;, null, &quot;Transcript&quot;), mdx(&quot;p&quot;, null, &quot;Once upon a time there was a Chinese farmer who lost a horse. It ran away. And all the neighbors came around that evening and said \&quot;that&apos;s too bad.\&quot;&quot;), mdx(&quot;p&quot;, null, &quot;And he said \&quot;maybe.\&quot;&quot;), mdx(&quot;p&quot;, null, &quot;The next day the horse came back and brought several wild horses with it. And all the neighbors came around and said, \&quot;wow, that&apos;s great isn&apos;t it!\&quot;&quot;), mdx(&quot;p&quot;, null, &quot;And he said \&quot;maybe.\&quot;&quot;), mdx(&quot;p&quot;, null, &quot;The next day his son was attempting to taim one of these horses and was riding it when he was thrown and broke his leg. And all the neighbors came around in the evening and said, \&quot;well that&apos;s too bad isn&apos;t it.\&quot;&quot;), mdx(&quot;p&quot;, null, &quot;And the farmer said, \&quot;maybe.\&quot;&quot;), mdx(&quot;p&quot;, null, &quot;And the next day the conscription officers came around looking for people for the army. And they rejected his son because he had a broken leg. And all the neighbors came around that evening and said, \&quot;isn&apos;t that wonderful!\&quot;&quot;), mdx(&quot;p&quot;, null, &quot;And he said, \&quot;maybe.\&quot;&quot;), mdx(&quot;p&quot;, null, &quot;The whole process of nature is an integrated process of immense complexity, and it\u2019s really impossible to tell whether anything that happens in it is good or bad \u2014 because you never know what will be the consequence of the misfortune; or, you never know what will be the consequences of good fortune.&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Web Development]]></title><description><![CDATA[Tools and techniques for building websites and web-applications]]></description><link>https://www.jamestharpe.com/web-dev/</link><guid isPermaLink="false">https://www.jamestharpe.com/web-dev/</guid><pubDate>Mon, 08 Mar 2021 15:09:10 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
@@ -15403,199 +15949,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;WSL Tips and Tricks&quot;), mdx(&quot;h2&quot;, null, &quot;Reset Root User&apos;s Password&quot;), mdx(&quot;ol&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Open &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;../powershell/&quot;
-  }, &quot;PowerShell&quot;), &quot;, then use the &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;wsl -u root&quot;), &quot; command to change the password.&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;At the prompt, enter &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;passwd &lt;username&gt;&quot;), &quot; where &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;&lt;username&gt;&quot;), &quot; is the account to change the password of, (e.g. &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;passwd james&quot;), &quot;).&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ol&quot;
-  }, &quot;Enter your password twice as prompted. It will not show in the &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;../terminal/&quot;
-  }, &quot;terminal&quot;), &quot;.&quot;)), mdx(&quot;p&quot;, null, &quot;The password is now changed! Here&apos;s an example session using the username &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;current_user&quot;), &quot;:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;powershell&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-powershell&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-powershell&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;PS&quot;), &quot; C:\\&gt; wsl &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;-&quot;), &quot;u root\nroot@COMPUTER:&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), &quot;mnt&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), &quot;c&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), &quot;Users&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), &quot;current_user&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token comment&quot;
-  }, &quot;# passwd current_user&quot;), &quot;\nEnter new UNIX password:\nRetype new UNIX password:\npasswd: updated successfully\nroot@COMPUTER:&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), &quot;mnt&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), &quot;c&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), &quot;Users&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), &quot;current_user&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;/&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token comment&quot;
-  }, &quot;# exit&quot;), &quot;\nlogout\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;PS&quot;), &quot; C:\\&gt;&quot;))), mdx(&quot;h2&quot;, null, &quot;Fix connection issues while on VPN&quot;), mdx(&quot;p&quot;, null, &quot;Based on &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://github.com/microsoft/WSL/issues/4285#issuecomment-522201021&quot;
-  }, &quot;this comment&quot;), &quot;, the following instructions worked for me on Ubuntu Linux:&quot;), mdx(&quot;p&quot;, null, &quot;In your WSL Linux instance, create or edit &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;/etc/wsl.conf&quot;), &quot; to look like this:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;ini&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-ini&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-ini&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token selector&quot;
-  }, &quot;[network]&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token constant&quot;
-  }, &quot;generateResolvConf&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token attr-value&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;=&quot;), &quot; false&quot;)))), mdx(&quot;p&quot;, null, &quot;Back in Windows, restart WSL using &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../powershell/&quot;
-  }, &quot;PowerShell&quot;), &quot;:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;powershell&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-powershell&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-powershell&quot;
-  }, &quot;wsl &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;--&quot;), &quot;shutdown\nwsl&quot;))), mdx(&quot;p&quot;, null, &quot;In your WSL Linux, create or edit &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;/etc/resolv.conf&quot;), &quot; to have the following entry (you may or may not have to delete other entries to get it working):&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;text&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;nameserver 8.8.8.8&quot;))), mdx(&quot;p&quot;, null, &quot;Restart WSL again:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;powershell&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-powershell&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-powershell&quot;
-  }, &quot;wsl &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;--&quot;), &quot;shutdown\nwsl&quot;))), mdx(&quot;p&quot;, null, &quot;Finally, once connected to the VPN, run the following command in Windows PowerShell:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;powershell&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-powershell&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-powershell&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;Get-NetAdapter&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;|&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;Where-Object&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;{&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token variable&quot;
-  }, &quot;$_&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;.&quot;), &quot;InterfaceDescription &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;-Match&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token string&quot;
-  }, &quot;\&quot;Cisco AnyConnect\&quot;&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;}&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;|&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;Set-NetIPInterface&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;-&quot;), &quot;InterfaceMetric 6000&quot;))));
+  }), mdx(&quot;h1&quot;, null, &quot;Windows Subsystem for Linux (WSL)&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Mechanical Engineering]]></title><description><![CDATA[Build and deconstruct mechanical devices]]></description><link>https://www.jamestharpe.com/mechanical-engineering/</link><guid isPermaLink="false">https://www.jamestharpe.com/mechanical-engineering/</guid><pubDate>Wed, 06 Jan 2021 02:02:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -25265,7 +25619,21 @@ return function MDXContent(_ref) {
   }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
-  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)))));
+  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Change the password or password validity period for a user account&quot;)))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[A small, reliable 3D printer appropriate for home use]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
