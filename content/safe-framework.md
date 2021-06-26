@@ -38,7 +38,7 @@ A **solution train** is a group of agile release trains that coordinates especia
 ## SAFe Resources
 
 * [Official SAFe website](https://www.scaledagileframework.com/)
-* [Scaled Agile YoutTube channel](https://www.youtube.com/user/scaledagile)
+* [Scaled Agile YouTube channel](https://www.youtube.com/user/scaledagile)
 
 ## Video: SAFe Overview in 5 Minutes
 
