@@ -1,7 +1,7 @@
 ---
 date: 2021-06-24T13:12:25-04:00
 description: "An roles and responsibilities model"
-tags: ["personal-productivity", "project-management" ]
+tags: [ "project-management" ]
 title: "RACI: Responsible, Accountable, Consulted, Informed"
 ---
 
