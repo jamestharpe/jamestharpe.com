@@ -1,6 +1,6 @@
 ---
 date: 2021-06-24T13:48:42-04:00
-description: ""
+description: "A product and project management framework for large enterprises"
 tags: [ "product-management", "project-management", "sdlc" ]
 title: "Scaled Agile Framework (SAFe)"
 ---
