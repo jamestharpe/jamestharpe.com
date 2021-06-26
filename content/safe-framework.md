@@ -7,7 +7,7 @@ title: "Scaled Agile Framework (SAFe)"
 
 # Scaled Agile Framework (SAFe)
 
-**SAFe** is a [product](product-management.md) and [project](project-management.md) framework for large [enterprises](enterprise-it-initiatives.mds). It consists of seven core competencies around which business strategy is organized.
+**SAFe** is a [product](product-management.md) and [project](project-management.md) framework for large [enterprises](enterprise-it-initiatives.md). It consists of seven core competencies around which business strategy is organized.
 
 ## SAFe Organization
 
