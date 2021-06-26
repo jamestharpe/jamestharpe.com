@@ -7,13 +7,13 @@ title: "Scaled Agile Framework (SAFe)"
 
 # Scaled Agile Framework (SAFe)
 
-**SAFe** is a [product](product-management.md) and [project](project-management.md) framework for large [enterprises](enterprise-it-initiatives). It consists of seven core competencies around which business strategy is organized.
+**SAFe** is a [product](product-management.md) and [project](project-management.md) framework for large [enterprises](enterprise-it-initiatives.mds). It consists of seven core competencies around which business strategy is organized.
 
 ## SAFe Organization
 
 ### Agile Teams / Team and Technical Agility
 
-According to SAFe, an **agile team** is a group of about five to eleven members capable of managing the end-to-end delivery of business value in short, [time boxed](timeboxing.md) iterations. A typical agile team includes developers, a product owner, and a ScrumMaster. The primary SAFe competency of an agile team is **team and technical agility**. 
+According to SAFe, an **agile team** is a group of about five to eleven members capable of managing the end-to-end delivery of business value in short, [time boxed](timeboxing.md) iterations. A typical agile team includes developers, a product owner, and a ScrumMaster. The primary SAFe competency of an agile team is **team and technical agility**.
 
 The daily operations of the team are guided by other agile frameworks such as Scrum or Kanban. Each iteration starts with a planning event to decide what will be done within the iteration. During the iteration, the team meets daily to coordinate their work and focus on meeting the iteration goals. At the end of the iteration, the team holds an **iteration review** to demo the work they've completed to stakeholders. After the iteration review, they hold a **retrospective** to reflect on ways they can improve on the value they deliver.
 
