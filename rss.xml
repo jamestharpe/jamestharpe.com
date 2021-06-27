@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 27 Jun 2021 20:53:50 GMT</lastBuildDate><item><title><![CDATA[Change Management]]></title><description><![CDATA[The practice of implementing and communicating changes in organizations]]></description><link>https://www.jamestharpe.com/change-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/change-management/</guid><pubDate>Sat, 26 Jun 2021 19:01:25 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 27 Jun 2021 21:05:58 GMT</lastBuildDate><item><title><![CDATA[Change Management]]></title><description><![CDATA[The practice of implementing and communicating changes in organizations]]></description><link>https://www.jamestharpe.com/change-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/change-management/</guid><pubDate>Sat, 26 Jun 2021 19:01:25 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -10,7 +10,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-06-26T19:01:25.000Z&quot;,
   &quot;description&quot;: &quot;The practice of implementing and communicating changes in organizations&quot;,
-  &quot;tags&quot;: [&quot;enterprise-it-initiatives&quot;],
+  &quot;tags&quot;: [],
   &quot;title&quot;: &quot;Change Management&quot;
 };
 var layoutProps = {
@@ -208,7 +208,7 @@ return function MDXContent(_ref) {
     &quot;href&quot;: &quot;../project-management/&quot;
   }, &quot;project&quot;), &quot; framework for large &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../enterprise-it-initiatives/&quot;
+    &quot;href&quot;: &quot;../enterprise-initiatives/&quot;
   }, &quot;enterprises&quot;), &quot;. It consists of seven core competencies around which business strategy is organized.&quot;), mdx(&quot;h2&quot;, null, &quot;SAFe Organization&quot;), mdx(&quot;h3&quot;, null, &quot;Agile Teams / Team and Technical Agility&quot;), mdx(&quot;p&quot;, null, &quot;According to SAFe, an &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
   }, &quot;agile team&quot;), &quot; is a group of about five to eleven members capable of managing the end-to-end delivery of business value in short, &quot;, mdx(&quot;a&quot;, {
@@ -777,8 +777,8 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;
   }, &quot;resources list&quot;), &quot; that includes the teams, tools, materials and the focus/purpose of each resource involved in the project (see also: &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;../enterprise-it-initiatives/&quot;
-  }, &quot;Enterprise IT Initiatives&quot;), &quot;)&quot;), mdx(&quot;li&quot;, {
+    &quot;href&quot;: &quot;../enterprise-initiatives/&quot;
+  }, &quot;Enterprise Initiatives&quot;), &quot;)&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, &quot;A &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;li&quot;
@@ -1180,7 +1180,7 @@ return function MDXContent(_ref) {
   }, &quot;Conductors&quot;), &quot; are materials that carry electricity well, and thus have a high conductance (and thus a low resistance) value.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Managing Enterprise IT Initiatives]]></title><description><![CDATA[How to manage Enterprise IT initiatives]]></description><link>https://www.jamestharpe.com/enterprise-it-initiatives/</link><guid isPermaLink="false">https://www.jamestharpe.com/enterprise-it-initiatives/</guid><pubDate>Tue, 04 May 2021 14:00:31 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Managing Enterprise Initiatives]]></title><description><![CDATA[How to manage enterprise initiatives]]></description><link>https://www.jamestharpe.com/enterprise-initiatives/</link><guid isPermaLink="false">https://www.jamestharpe.com/enterprise-initiatives/</guid><pubDate>Tue, 04 May 2021 14:00:31 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -1191,9 +1191,10 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-05-04T14:00:31.000Z&quot;,
-  &quot;description&quot;: &quot;How to manage Enterprise IT initiatives&quot;,
-  &quot;tags&quot;: [&quot;sdlc&quot;],
-  &quot;title&quot;: &quot;Managing Enterprise IT Initiatives&quot;
+  &quot;description&quot;: &quot;How to manage enterprise initiatives&quot;,
+  &quot;redirect_from&quot;: [&quot;/enterprise-it-initiatives/&quot;],
+  &quot;tags&quot;: [&quot;change-management&quot;],
+  &quot;title&quot;: &quot;Managing Enterprise Initiatives&quot;
 };
 var layoutProps = {
   _frontmatter: _frontmatter
@@ -1206,7 +1207,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Managing Enterprise IT Initiatives&quot;), mdx(&quot;p&quot;, null, &quot;Enterprise IT initiatives are infamous for causing confusion. The process of deciding on priorities, and integrating those priorities with ongoing efforts to support \&quot;the business\&quot; is fraught with competing perspectives, disorganization, miscommunication, and inconsistent implementations.&quot;), mdx(&quot;p&quot;, null, &quot;To help things go smoothly, each enterprise IT initiative should have a \&quot;home page\&quot; that is linked to in all formal communications about the initiative. The home page should, in turn, have as many of the following resources as possible:&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;Managing Enterprise Initiatives&quot;), mdx(&quot;p&quot;, null, &quot;Enterprise initiatives are infamous for causing confusion. The process of deciding on priorities, and integrating those priorities with ongoing efforts to support \&quot;the business\&quot; is fraught with competing perspectives, disorganization, miscommunication, and inconsistent implementations.&quot;), mdx(&quot;p&quot;, null, &quot;To help things go smoothly, each enterprise IT initiative should have a \&quot;home page\&quot; that is linked to in all formal communications about the initiative. The home page should, in turn, have as many of the following resources as possible:&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
     parentName: &quot;table&quot;
   }, mdx(&quot;tr&quot;, {
     parentName: &quot;thead&quot;
@@ -2319,7 +2320,7 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Atoms&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;Atoms&quot;), &quot; are the basic units of chemical elements. Atoms themselves are made of of positively &quot;, mdx(&quot;a&quot;, {
+  }, &quot;Atoms&quot;), &quot; are the basic units of chemical elements. Atoms themselves are made of positively &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../charge/&quot;
   }, &quot;charged&quot;), &quot; particles called protons, negatively charged particles called electrons, and neutrons which have atomic weight but no charge.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
