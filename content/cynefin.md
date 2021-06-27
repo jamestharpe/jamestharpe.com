@@ -51,7 +51,7 @@ The decision model for complex systems is:
 
 Complex systems use **enabling constraints**, which provide lenses through which to view complexity, and guiding principles. Complex systems are best managed through the discovery and communication of enabling constraints. For example, the US Marines use "capture the high ground, stay in touch, and keep moving" as the enabling constraints for active battlefields.
 
-###  Complicated: Sense, Analyze, Respond
+### Complicated: Sense, Analyze, Respond
 
 In **complicated systems**, there is a direct and known relation between cause and effect, however that relationship is not self-evident unless you're an expert. Complicated systems differ from complex systems in that experts can be trusted in a complicated situation, but not in a complex one. The maintenance of complicated systems therefore requires the continual building of expertise and trust in them.
 
@@ -61,13 +61,13 @@ The decision model for obvious systems is:
 2. **Analyze** the situation through employment of subject matter experts (SMEs)
 3. **Respond** to the situation with "good practices" to achieve a probable result
 
-**Good practices** provide a menu of sensible options based on hypotheses formed from context and analysis. Subsequent actions are then most effectively selected by those with the most knowledge of the context and expertise in the system. 
+**Good practices** provide a menu of sensible options based on hypotheses formed from context and analysis. Subsequent actions are then most effectively selected by those with the most knowledge of the context and expertise in the system.
 
 A common mistake in complicated systems is to impose best practices in a context where good practices are required. In complicated systems, best practices oversimplify the context, lead to suboptimal decisions, and may erode trust in expertise. When trust is sufficiently eroded, a complicated system can devolve into a complex one.
 
 Complicated systems use **governing constraints**, which define the _limits_ of what _must_ or _must not_ be done and otherwise provide flexibility context-based decision making.
 
-The border between complicated and complex 
+The border between complicated and complex
 
 ### Obvious: Sense, Categorize, Respond
 

@@ -6,7 +6,3 @@ title: "Change Management"
 ---
 
 # Change Management
-
-## Change Management Resources
-
-* [The Association of Change Management Professionals](https://www.acmpglobal.org/)

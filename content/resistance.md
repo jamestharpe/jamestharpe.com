@@ -9,7 +9,7 @@ title: "Resistance and Ohms"
 
 **Resistance** is opposition to [current](current.md), is measured in Ohms ($Ω$), and defined by [Ohm's Law](ohms-law.md) as [voltage](voltage.md) over current, or $R = V/I$. The inverse of resistance is [conductance](conductance.md).
 
-**Resistors** are materials that resist the flow of electricity, and thus have a high resistance (and thus a low conductance) value, hence the term ["resistor"](resistors.md) for the [electrical component](electrical-components.md) which reduce current.
+**Resistors** are materials that resist the flow of electricity, and therefore have a high resistance (and thus a low conductance) value, hence the term ["resistor"](resistors.md) for the [electrical component](electrical-components.md) which reduce current.
 
 ## History
 
