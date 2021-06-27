@@ -43,7 +43,7 @@ Common elements of a project plan include:
 * A **vision statement** that describes the purpose of the end-product, or a synopsis of (or link to) the project charter
 * A **history** of achieved milestones and changes to the plan
 * A **schedule overview** that lists each project milestone along with its purpose, scope, and anticipated completion date
-* A **resources list** that includes the teams, tools, materials and the focus/purpose of each resource involved in the project (see also: [Enterprise IT Initiatives](enterprise-it-initiatives.md))
+* A **resources list** that includes the teams, tools, materials and the focus/purpose of each resource involved in the project (see also: [Enterprise Initiatives](enterprise-initiatives.md))
 * A **risk list** that describes known risks to project success, along with each risk's probability, impact, and mitigation plan
 * A **definition of done** or **release criteria** that describes the quality, performance, and sign-off requirements needed to consider each feature "done" or otherwise ready to be used by the customer.
 

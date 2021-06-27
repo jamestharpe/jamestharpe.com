@@ -1,13 +1,13 @@
 ---
 date: 2021-05-04T10:00:31-04:00
-description: "How to manage Enterprise IT initiatives"
-tags: ["sdlc"]
-title: "Managing Enterprise IT Initiatives"
+description: "How to manage enterprise initiatives"
+tags: ["change-management"]
+title: "Managing Enterprise Initiatives"
 ---
 
-# Managing Enterprise IT Initiatives
+# Managing Enterprise Initiatives
 
-Enterprise IT initiatives are infamous for causing confusion. The process of deciding on priorities, and integrating those priorities with ongoing efforts to support "the business" is fraught with competing perspectives, disorganization, miscommunication, and inconsistent implementations.
+Enterprise initiatives are infamous for causing confusion. The process of deciding on priorities, and integrating those priorities with ongoing efforts to support "the business" is fraught with competing perspectives, disorganization, miscommunication, and inconsistent implementations.
 
 To help things go smoothly, each enterprise IT initiative should have a "home page" that is linked to in all formal communications about the initiative. The home page should, in turn, have as many of the following resources as possible:
 
