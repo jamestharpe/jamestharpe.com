@@ -1,6 +1,7 @@
 ---
 date: 2021-05-04T10:00:31-04:00
 description: "How to manage enterprise initiatives"
+redirect_from: ["/enterprise-it-initiatives/"]
 tags: ["change-management"]
 title: "Managing Enterprise Initiatives"
 ---
