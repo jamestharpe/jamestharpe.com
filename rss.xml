@@ -1,4 +1,299 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 27 Jun 2021 21:05:58 GMT</lastBuildDate><item><title><![CDATA[Change Management]]></title><description><![CDATA[The practice of implementing and communicating changes in organizations]]></description><link>https://www.jamestharpe.com/change-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/change-management/</guid><pubDate>Sat, 26 Jun 2021 19:01:25 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 17 Jul 2021 23:26:17 GMT</lastBuildDate><item><title><![CDATA[Jira Align]]></title><description><![CDATA[Notes on Jira Align]]></description><link>https://www.jamestharpe.com/jira-align/</link><guid isPermaLink="false">https://www.jamestharpe.com/jira-align/</guid><pubDate>Mon, 12 Jul 2021 16:36:25 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-07-12T16:36:25.000Z&quot;,
+  &quot;description&quot;: &quot;Notes on Jira Align&quot;,
+  &quot;tags&quot;: [&quot;project-management&quot;, &quot;safe-framework&quot;],
+  &quot;title&quot;: &quot;Jira Align&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, [&quot;components&quot;]);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Jira Align&quot;), mdx(&quot;h2&quot;, null, &quot;Forecasting in JiraAlign&quot;), mdx(&quot;p&quot;, null, &quot;Jira Align provides two potential inputs to use in &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://community.atlassian.com/t5/Jira-Align-discussions/Forecasting-in-Jira-Align/td-p/1652210&quot;
+  }, &quot;forecasting&quot;), &quot;: Member Weeks, and Team Weeks. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Member weeks (MW)&quot;), &quot; are the number of team members that will work on a feature multiplied by the number of weeks they believe it would take if they focused on it completely. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Team Weeks (TW)&quot;), &quot; are the number of weeks an entire &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../safe-framework/&quot;
+  }, &quot;agile team&quot;), &quot; believes it would take to complete a feature if they focused on it completely. Both data points are used in forecasting and high-level planning in Jira Align, however member weeks is believed to be more accurate because it takes into account that different members of the same team can work on separate features in parallel.&quot;), mdx(&quot;p&quot;, null, &quot;Member Weeks Example: An agile team estimates that 3 of its developers can complete the shopping cart feature in about two weeks, if they fully focus on that feature. Three developers times two weeks equals 6 member weeks, or &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;3&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;d&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;v&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;l&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;o&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;p&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;\u2217&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;2&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;w&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;k&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;=&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;6&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;w&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;e&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;k&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;3 developers * 2 weeks = 6 member weeks&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8888799999999999em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;d&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.03588em&quot;
+    }
+  }, &quot;v&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.01968em&quot;
+    }
+  }, &quot;l&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;o&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;p&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2222222222222222em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mbin&quot;
+  }, &quot;\u2217&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2222222222222222em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02691em&quot;
+    }
+  }, &quot;w&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.03148em&quot;
+    }
+  }, &quot;k&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mrel&quot;
+  }, &quot;=&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;6&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02691em&quot;
+    }
+  }, &quot;w&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;e&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.03148em&quot;
+    }
+  }, &quot;k&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;))))), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Change Management]]></title><description><![CDATA[The practice of implementing and communicating changes in organizations]]></description><link>https://www.jamestharpe.com/change-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/change-management/</guid><pubDate>Sat, 26 Jun 2021 19:01:25 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -24,7 +319,72 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Change Management&quot;));
+  }), mdx(&quot;h1&quot;, null, &quot;Change Management&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Change management&quot;), &quot; is the application of a structured approach to transition an organization from its current state to a desired future state. Effective change management not only reduces the risk of changes being rejected, but also helps ensure changes accurately target their objectives.&quot;), mdx(&quot;h2&quot;, null, &quot;Roles and Responsibilities in Change Management&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;change management lead&quot;), &quot; is &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;../raci/&quot;
+  }, &quot;accountable and responsible&quot;), &quot; for the change strategy. They assess the change needed, outline an &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;../project-management/&quot;
+  }, &quot;implementation plan&quot;), &quot;, and oversee the execution of the plan.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;change sponsor&quot;), &quot; is an individual or group that defines and promotes the change goals, is accountable for benefit realization, and serve as the ultimate authority on decision making and funding.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Change agents&quot;), &quot; are charged with modeling behaviors required for successful change and giving feedback on changes.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;change management team&quot;), &quot; designs and develops the tools for change adoption. The team gathers and aggregates feedback, conducts training, and communicates changes to those who are impacted.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;change management practitioner&quot;), &quot; coordinates and tracks change management activities.&quot;)), mdx(&quot;h2&quot;, null, &quot;Change Management Terminology&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Adoption&quot;), &quot; is acceptance and demonstration of new ways of thinking or behaving that are consistent with future state behavior&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;benefit&quot;), &quot; is a quantitative or qualitative desirable outcome that results from a change&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Benefit realization&quot;), &quot; is the achievement of the expected benefits of a change&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Current state&quot;), &quot; is the condition of a system at the time when change is initiated, or simply put it&apos;s the \&quot;status quo\&quot;&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;Future state&quot;), &quot; is the condition of a system at the time when the benefits of a change have been realized&quot;)), mdx(&quot;h2&quot;, null, &quot;Transitions&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;transition&quot;), &quot; is the change from the current state to the future state, and is the primary focus of change management. Typical transitions result in an initial drop in performance while teams become accustomed to the change; however, successful change management helps teams navigate through the transition to establish a \&quot;new normal\&quot; where performance eventually exceeds the old status quo as a result of the change.&quot;), mdx(&quot;p&quot;, null, &quot;A classic example of the typical transition curve is roadway construction. During the construction, traffic slows down and the problem of traffic may seem worse than ever. However, once construction is completed, traffic flows more smoothly than before construction began.&quot;), mdx(&quot;h2&quot;, null, &quot;Change Management Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://hbr.org/2020/06/3-things-youre-getting-wrong-about-organizational-change&quot;
+  }, &quot;HBR: 3 Things You\u2019re Getting Wrong About Organizational Change&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.mckinsey.com/business-functions/organization/our-insights/personalizing-change-management-in-the-smartphone-era&quot;
+  }, &quot;McKinsey: Personalizing change management in the smartphone era&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://twitter.com/i/lists/1409262959881244677&quot;
+  }, &quot;Change management Tweeters&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Cynefin Framework]]></title><description><![CDATA[A framework for making sense out of chaotic or complex situations]]></description><link>https://www.jamestharpe.com/cynefin/</link><guid isPermaLink="false">https://www.jamestharpe.com/cynefin/</guid><pubDate>Sat, 26 Jun 2021 19:01:25 GMT</pubDate><content:encoded>function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -67,7 +427,7 @@ return function MDXContent(_ref) {
     parentName: &quot;a&quot;,
     &quot;src&quot;: &quot;../img/cynefin.jpg&quot;,
     &quot;alt&quot;: &quot;Cynefin framework visualized by Edwin Stoop of Sketching Maniacs&quot;
-  }))), mdx(&quot;h2&quot;, null, &quot;Cynefin Contexts&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+  }))), mdx(&quot;h2&quot;, null, &quot;Cynefin Contexts&quot;), mdx(&quot;p&quot;, null, &quot;In cynefin, a &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
   }, &quot;context&quot;), &quot;, sometimes called a &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
