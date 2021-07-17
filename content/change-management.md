@@ -22,10 +22,19 @@ title: "Change Management"
 * **Adoption** is acceptance and demonstration of new ways of thinking or behaving that are consistent with future state behavior
 * A **benefit** is a quantitative or qualitative desirable outcome that results from a change
 * **Benefit realization** is the achievement of the expected benefits of a change
-*  **Current state** is the condition of a system at the time when change is initiated, or simply put it's the "status quo"
- * **Future state** is the condition of a system at the time when the benefits of a change have been realized
+* **Current state** is the condition of a system at the time when change is initiated, or simply put it's the "status quo"
+* **Future state** is the condition of a system at the time when the benefits of a change have been realized
+
+## Transitions
+
+A **transition** is the change from the current state to the future state, and is the primary focus of change management. Typical transitions result in an initial drop in performance while teams become accustomed to the change; however, successful change management helps teams navigate through the transition to establish a "new normal" where performance eventually exceeds the old status quo as a result of the change.
+
+A classic example of the typical transition curve is roadway construction. During the construction, traffic slows down and the problem of traffic may seem worse than ever. However, once construction is completed, traffic flows more smoothly than before construction began.
+
+<!-- TODO: Tuckman's Stages of Group Development graph -->
 
 ## Change Management Resources
 
 * [HBR: 3 Things You’re Getting Wrong About Organizational Change](https://hbr.org/2020/06/3-things-youre-getting-wrong-about-organizational-change)
 * [McKinsey: Personalizing change management in the smartphone era](https://www.mckinsey.com/business-functions/organization/our-insights/personalizing-change-management-in-the-smartphone-era)
+* [Change management Tweeters](https://twitter.com/i/lists/1409262959881244677)
