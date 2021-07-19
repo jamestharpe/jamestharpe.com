@@ -33,3 +33,15 @@ title: "Electrical Engineering"
 - Red wires are typically used for power and connect to positive terminals
 - Black wires are typically used for ground and connect to negative terminals
 - Other colors are typically used for electrical signals
+
+## Electrical Engineering YouTube Channels
+
+* [Adafruit Industries](https://www.youtube.com/channel/UCpOlOeQjj7EsVnDh3zuCgsA)
+* [Brian Brocken](https://www.youtube.com/channel/UCRs9vVRoVo4BTBceFRaJnpA)
+* [Core Electronics](https://www.youtube.com/channel/UCp5ShPYJvi2EA4hLUERa86w)
+* [ElectroBOOM](https://www.youtube.com/channel/UCJ0-OtVpF0wOKEqT2Z1HEtA)
+* [GreatScott!](https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ)
+* [Hackster.io](https://www.youtube.com/channel/UCqQzKnjSPjkJGMcjPg-Wktw)
+* [Raspberry Pi](https://www.youtube.com/channel/UCFIjVWFZ__KhtTXHDJ7vgng)
+* [RimstarOrg](https://www.youtube.com/channel/UCSY6p1ZwMs0lW2XP7Zc7k9g)
+* [Tinkernut](https://www.youtube.com/channel/UCZDA1kA3y3EIg25BpcHSpwQ)
