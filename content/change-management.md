@@ -22,8 +22,8 @@ title: "Change Management"
 * **Adoption** is acceptance and demonstration of new ways of thinking or behaving that are consistent with future state behavior
 * A **benefit** is a quantitative or qualitative desirable outcome that results from a change
 * **Benefit realization** is the achievement of the expected benefits of a change
-*  **Current state** is the condition of a system at the time when change is initiated, or simply put it's the "status quo"
- * **Future state** is the condition of a system at the time when the benefits of a change have been realized
+* **Current state** is the condition of a system at the time when change is initiated, or simply put it's the "status quo"
+* **Future state** is the condition of a system at the time when the benefits of a change have been realized
 
 ## Change Management Resources
 
