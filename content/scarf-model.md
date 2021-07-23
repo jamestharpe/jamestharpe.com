@@ -1,5 +1,5 @@
 ---
-date: 2021-07-12T12:56:25-04:00
+date: 2021-07-23T10:11:25-04:00
 description: "The opportunity for fair representation within a group"
 tags: [ "social-justice" ]
 title: "SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness"
