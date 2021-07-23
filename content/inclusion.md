@@ -7,6 +7,4 @@ title: "Inclusion"
 
 # Inclusion
 
-**Inclusion** is the  access to opportunities offered or controlled by a group such as a team, company, or governing body. Access to opportunities often differs based on [diversity traits](diversity.md), thus efforts to provide equity seek to overcome disadvantages some individuals experience that prevent access to opportunity.
-
-![Equity vs. Equality Illustration by MPCA Photos](/img/equality-vs-equity.jpg)
+**Inclusion** is the engagement, respect, and support of individuals in a group such as a team, company, or governing body. If [diversity](diversity.md) is "having a seat at the table" then inclusion is "having a voice at the table." An environment is considered "inclusive" when individuals from distinct cohorts report similar ability to share ideas with their peers and leadership.
