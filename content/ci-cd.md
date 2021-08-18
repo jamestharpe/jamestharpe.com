@@ -7,7 +7,7 @@ title: "Software Pipelines (CI/CD)"
 
 # Continuous Integration, Deployment, and Delivery (CI/CD)
 
-CI/CD is the combined set of Continuous Integration, Continuous Deployment, and Continuous Delivery practices. In a nutshell, these practices are designed to keep code ready for deployment at all times.
+**CI/CD** is the combined set of Continuous Integration, Continuous Deployment, and Continuous Delivery practices. In a nutshell, these practices are designed to keep code ready for deployment at all times.
 
 ## What is Continuous Integration?
 
