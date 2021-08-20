@@ -1,8 +1,8 @@
 ---
-date: 2020-11-15T19:41:30-04:00
-description: "A set of tools to build and run containers"
+date: 2021-08-20T12:36:36-04:00
+description: "Packaging applications with all of their dependencies"
 tags: [ "software-engineering" ]
-title: "Docker"
+title: "Containers"
 ---
 
 # Containers
