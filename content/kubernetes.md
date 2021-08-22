@@ -48,7 +48,7 @@ graph TD
     Master --> Kublet3
 ```
 
-## Components of Kubernetes
+<!-- ## Components of Kubernetes
 
 ### Pods
 
@@ -60,4 +60,4 @@ graph TD
 
 ### ConfigMaps and Secrets
 
-Key-value pairs that can be used to store and retrieve configuration data.
+Key-value pairs that can be used to store and retrieve configuration data. -->
