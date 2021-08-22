@@ -12,6 +12,7 @@
 		"Kubernetes",
 		"Kublet",
 		"MPCA",
+		"Statechart",
 		"Tharpe",
 		"Tharpe's",
 		"frontmatter",
@@ -22,6 +23,7 @@
 		"markdownlint",
 		"nstall",
 		"prismjs",
+		"statecharts",
 		"xstate"
 	],
 	"editor.insertSpaces": false,
