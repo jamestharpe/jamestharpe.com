@@ -7,7 +7,7 @@ title: "Diversity"
 
 # Diversity
 
-**Diversity** is the full range of salient differences between people in a group such as a team, company, or governing body. Aspects of diversity can include cohorts of education level, life experiences, abilities, race/ethnicity, sex, gender identity, sexual orientation, age, physical/mental health, or other demographic traits. 
+**Diversity** is the full range of salient differences between people in a group such as a team, company, or governing body. Aspects of diversity can include cohorts of education level, life experiences, abilities, race/ethnicity, sex, gender identity, sexual orientation, age, physical/mental health, or other demographic traits.
 
 > A simple metaphor to understand diversity is that diversity means "having a seat at the table."
 
