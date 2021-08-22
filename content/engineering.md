@@ -11,6 +11,19 @@ title: "Engineering"
 
 **Engineering** is the application of science to create machines, processes, and tools that serve some intention.
 
+## Engineering YouTube Channels
+
+> Note: I don't update this list very often. If you notice an issue or would like to make a suggestion, [open an issue on GitHub](https://github.com/jamestharpe/jamestharpe.com/issues/new) and I'll respond.
+
+* [Cody's Lab](https://www.youtube.com/channel/UCu6mSoMNzHQiBIOCkHUa2Aw)
+* [The Engineering Mindset](https://www.youtube.com/channel/UCk0fGHsCEzGig-rSzkfCjMw)
+* [Lesics](https://www.youtube.com/channel/UCqZQJ4600a9wIfMPbYc60OQ)
+* [Mark Rober](https://www.youtube.com/channel/UCY1kMZp36IQSyNx_9h4mpCg)
+* [Practical Engineering](https://www.youtube.com/channel/UCMOqf8ab-42UUQIdVoKwjlQ)
+* [Real Engineering](https://www.youtube.com/channel/UCR1IuLEqb6UEA_zQ81kwXfg)
+* [Smarter Every Day](https://www.youtube.com/channel/UC6107grRI4m0o2-emgoDnAA)
+* [Stuff Made Here](https://www.youtube.com/channel/UCj1VqrHhDte54oLgPG4xpuQ)
+
 <!--
 ## The Engineering Process
 

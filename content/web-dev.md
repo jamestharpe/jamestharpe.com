@@ -6,3 +6,7 @@ title: "Web Development"
 ---
 
 # Web Development
+
+## Web Development News and Resources
+
+* [Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw)

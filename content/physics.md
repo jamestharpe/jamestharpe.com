@@ -46,5 +46,8 @@ Energy and work are most commonly measured in joules ($J$). One **joule** is equ
 
 ## Physics Resources
 
+* [Badzilla](https://www.youtube.com/channel/UC78CNYDm55nw-rI7ZsZpIzw)
+* [Minute Physics](https://www.youtube.com/channel/UCUHW94eEFW7hkUMVaZz4eDg)
 * [The Physics Hypertextbook](https://physics.info/)
 * [Physics Course on Khan Academy](https://www.khanacademy.org/science/physics)
+* [Physics Girl YouTube Channel](https://www.youtube.com/channel/UC7DdEm33SyaTDtWYGO2CwdA)

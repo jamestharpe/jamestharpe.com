@@ -32,6 +32,9 @@ Tips:
 
 ## 3D Printing Resources
 
+* [Breaks'n'Makes](https://www.youtube.com/channel/UC2Tc0TsvFxC83zF1w5x1PWQ) provides general advice and entertainment for 3D printing enthusiasts
+* [Eunny](https://www.youtube.com/channel/UCWwuwWYPQhUnD6wo5Ri9URw) covers Tinkercad for use in 3D printing projects
 * [Make Anything YouTube Channel](https://www.youtube.com/channel/UCVc6AHfGw9b2zOE_ZGfmsnw) has a lot of fun experiments and projects, plus a great community of helpful enthusiasts.
 * [MakerBot Thingiverse](https://www.thingiverse.com/) has thousands of free, downloadable 3D designs.
+* [Thomas Sanladerer's YouTube channel](https://www.youtube.com/channel/UCb8Rde3uRL1ohROUVg46h1A) has a lot of excellent introductory resources for 3D printing.
 * [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura) is a free slicer that works with most printers.

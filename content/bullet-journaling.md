@@ -76,3 +76,8 @@ At the end of each month, create a new **monthly log** for the month ahead. Star
 * For tasks you plan to complete after next month, move them to the future log and mark them as scheduled (`<`).
 
 The goal is that all relevant tasks have been copied to the next month's task list, the future log, or a custom collection.
+
+## Bullet Journaling Resources
+
+* [Bullet Journal YouTube Channel](https://www.youtube.com/channel/UCt3B6rUXb__X2eMyY7jzgIg)
+* [Official Bullet Journal Website](https://bulletjournal.com/)

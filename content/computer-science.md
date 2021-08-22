@@ -6,3 +6,9 @@ title: "Computer Science"
 ---
 
 # Computer Science
+
+## Computer Science Resources
+
+* [Ben Eater's YouTube Channel](https://www.youtube.com/channel/UCS0N5baNlQWJCUrhCEo8WlA)
+* [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA)
+* [Khan Academy - Computer Science](https://www.khanacademy.org/computing/)

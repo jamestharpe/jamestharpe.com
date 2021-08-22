@@ -42,7 +42,7 @@ export function createSchemaCustomization() {
 	// Nothing to do yet...
 }
 
-export /* async */ function onCreateNode(args: CreateNodeArgs<Node>) {
+export /* async */ function onCreateNode(args: CreateNodeArgs) {
 	const { node, getNode } = args;
 	const { createNodeField } = args.actions;
 

@@ -46,3 +46,4 @@ Angular **modules** are groups of related components and services. They can impo
 
 * [Angular Official Website](https://angular.io/)
 * [Angular Documentation](https://angular.io/docs)
+* [ng-conf YouTube Channel](https://www.youtube.com/channel/UCm9iiIfgmVODUJxINecHQkA)
