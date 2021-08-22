@@ -8,7 +8,11 @@
     "node_modules": true
 	},
 	"cSpell.words": [
+		"Bujo",
 		"CLIs",
+		"Feedly",
+		"Ferriss",
+		"Hanselman",
 		"Khourshid",
 		"Kubernetes",
 		"Kublet",
@@ -16,6 +20,7 @@
 		"Statechart",
 		"Tharpe",
 		"Tharpe's",
+		"discoverability",
 		"frontmatter",
 		"gtag",
 		"jamestharpe",

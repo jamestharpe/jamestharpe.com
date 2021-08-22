@@ -121,7 +121,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 							>
 								This article
 							</Link>{" "}
-							by {/* TODO: Link to current page location */}
+							by
 							<a
 								rel="cc:attributionURL dct:creator"
 								property="cc:attributionName"
