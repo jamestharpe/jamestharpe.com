@@ -1,7 +1,7 @@
 ---
 date: 2021-08-18T07:13:14-04:00
 description: "A system to conduct an orchestra of containers"
-tags: [ "open-source", "containers" ]
+tags: [ "containers" ]
 title: "Kubernetes (k8s)"
 ---
 
