@@ -25,11 +25,13 @@ title: "Kubernetes CLI: kubectl"
 
 A common practice for `kubectl` is to alias it to `k` for convenience.
 
-To alias `kubectl` to `k` in PowerShell:
+To alias `kubectl` to `k` in [PowerShell](powershell.md):
 
 ```powershell
 Set-Alias -Name k -Value kubectl
 ```
+
+To alias `kubectl` to `k` in [bash](bash.md):
 
 ```bash
 alias k="kubectl"

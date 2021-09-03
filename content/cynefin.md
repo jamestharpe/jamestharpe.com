@@ -13,7 +13,7 @@ The **Cynefin Framework** is a [change management](change-management.md) framewo
 
 ## Cynefin Contexts
 
-A **context**, sometimes called a **domain**, is the set of circumstances that drive decisions. Cynefin seeks to match actions to context to aid decision making. Each context is paired with a decision model for sensing, acting, analyzing, categorizing, and responding based on the available information.
+In cynefin, a **context**, sometimes called a **domain**, is the set of circumstances that drive decisions. Cynefin seeks to match actions to context to aid decision making. Each context is paired with a decision model for sensing, acting, analyzing, categorizing, and responding based on the available information.
 
 ### Disorder
 
