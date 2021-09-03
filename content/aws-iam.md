@@ -1,7 +1,7 @@
 ---
 title: "AWS Identity and Access Management (IAM)"
 date: 2019-04-19T15:55:30-04:00
-tags: ["aws"]
+tags: [ "aws", "cybersecurity" ]
 description: "AWS IAM: Identity Access Management for the AWS Cloud"
 ---
 
