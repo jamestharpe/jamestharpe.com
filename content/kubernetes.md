@@ -48,11 +48,24 @@ graph TD
     Master --> Kublet3
 ```
 
+<!--
 ## Components of Kubernetes
+
 
 ### Pods
 
+Pods are the most basic unit of execution in Kubernetes. A **pod** is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.
+
+### ReplicaSets
+
+A **ReplicaSet** are a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets can also be used to automatically scale the number of pods horizontally based on a variety of conditions.
+
+ReplicaSets rely on pod templates to define the desired state of the pods.
+
 ### Deployments
+
+A declarative way to manage replica sets.
+
 
 ### Services
 
@@ -61,3 +74,4 @@ graph TD
 ### ConfigMaps and Secrets
 
 Key-value pairs that can be used to store and retrieve configuration data.
+-->
