@@ -51,7 +51,6 @@ graph TD
 <!--
 ## Components of Kubernetes
 
-
 ### Pods
 
 Pods are the most basic unit of execution in Kubernetes. A **pod** is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.
@@ -65,7 +64,6 @@ ReplicaSets rely on pod templates to define the desired state of the pods.
 ### Deployments
 
 A declarative way to manage replica sets.
-
 
 ### Services
 
