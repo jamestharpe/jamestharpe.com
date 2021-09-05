@@ -1,14 +1,17 @@
 ---
-date: 2021-09-01T08:09:27-04:00
-description: "The open RFC 7519 standard for representing claims based security values"
-tags: ["json", "jws"]
+date: 2021-09-05T08:09:27-04:00
+description: "The open RFC 7520 standard for representing claims based security values"
+tags: ["json", "jws", "jose"]
 title: "JSON Web Tokens (JWT)"
 ---
 
 # JSON Web Tokens (JWT)
 
-JSON Web Token (JWT) is an open standard for representing security claims securely between two parties as part of a [JSON Web Signature](jws.md). Claims are encoded as [JSON](json.md) objects and can be digitally signed, integrity protected, or encrypted.
+**JSON Web Token (JWT)** is an open standard for representing passing claims securely between two parties as three concatenated base64url-encoded strings of [JSON](json.md) data, joined by dots (`.`). JWTs are used for authentication, authorization, and information exchange.
+
+The first string is the **[JOSE](jose.md) Header**, which describes the digital signature or [HMAC](hmacs.md) applied to the second string. The second string is a [JWS](jws.md) payload, which contains JSON-encoded **claims** which are the information to be exchanged. Finally, the third string is a JWS signature that can be used to validate that the header and payload segments were not altered.
 
 ## JWT Resources
 
 * [JSON Web Token (JWT), RFC 7519](https://datatracker.ietf.org/doc/html/rfc7519)
+* [JWT Decoder and Debugger](https://jwt.io/)

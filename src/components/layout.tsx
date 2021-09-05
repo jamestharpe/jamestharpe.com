@@ -54,12 +54,9 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 			</header>
 			<main>{children}</main>
 			<footer className="clearfix">
-				<aside className="row" aria-label="Global">
+				<div className="row">
 					{/* About */}
-					<section
-						className="column small-12 medium-6 large-3"
-						aria-label="About James"
-					>
+					<section className="column small-12 medium-6 large-3">
 						<h2>About James</h2>
 						<p>
 							James is a father at home, Principal Software Engineer at work, and{" "}
@@ -70,10 +67,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 						</p>
 					</section>
 					{/* Social */}
-					<section
-						className="column small-12 medium-6 large-3"
-						aria-label="James on Social Media"
-					>
+					<section className="column small-12 medium-6 large-3">
 						<h2>Social</h2>
 						<a href={data.site.siteMetadata.siteUrl}>
 							<img
@@ -184,7 +178,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 							</a>
 						</p>
 					</section>
-				</aside>
+				</div>
 			</footer>
 		</>
 	);

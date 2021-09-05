@@ -102,7 +102,7 @@ footer h2 {
 header div,
 nav div,
 main,
-footer aside {
+footer div {
     max-width: 1024px;
     margin: 0 2vw 0em 2vw;
 }
@@ -165,7 +165,7 @@ table tfoot {
     header div,
     nav div,
     main,
-    footer aside {
+    footer div {
         max-width: 1024px;
         margin: auto;
     }
