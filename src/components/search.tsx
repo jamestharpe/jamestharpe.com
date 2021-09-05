@@ -16,7 +16,11 @@ const Search = () => {
 	}, [query]);
 
 	return (
-		<form onSubmit={(e) => e.preventDefault()}>
+		<form
+			onSubmit={(e) => e.preventDefault()}
+			role="search"
+			area-label="All Articles"
+		>
 			<label htmlFor="search">Search: </label>
 			<input
 				id="search"

@@ -66,13 +66,17 @@ header h1 {
     font-size: 1.8rem;
 }
 
-nav {
+header nav {
     background-color: #FAB84C;
+	color: #141414;
 }
 
-nav div section {
+header nav a {
+	color: #314A5E;
+}
+
+header nav div div {
     font-weight: bold;
-    margin: 1em 0;
 }
 
 footer {
@@ -98,7 +102,7 @@ footer h2 {
 header div,
 nav div,
 main,
-footer div {
+footer aside {
     max-width: 1024px;
     margin: 0 2vw 0em 2vw;
 }
@@ -161,7 +165,7 @@ table tfoot {
     header div,
     nav div,
     main,
-    footer div {
+    footer aside {
         max-width: 1024px;
         margin: auto;
     }

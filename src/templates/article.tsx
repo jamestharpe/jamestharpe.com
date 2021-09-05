@@ -31,7 +31,7 @@ const ArticleTemplate: FC<PageProps<ArticleTemplateData>> = ({
 				title={mdx.frontmatter.title}
 				description={mdx.frontmatter.description || ""}
 			/>
-			<article>
+			<article aria-label={mdx.title}>
 				<MDXRenderer>{mdx.body}</MDXRenderer>
 				<RelatedList
 					location={location}

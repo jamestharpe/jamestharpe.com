@@ -39,24 +39,27 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 						</Link>
 					</h1>
 				</div>
+				<nav className="clearfix" aria-label="Primary">
+					<div className="row">
+						<div className="column small-6 medium-6 large-6">
+							<Search />
+						</div>
+						<div className="column small-6 medium-6 large-6">
+							<Link to="/browse" className="active">
+								Browse
+							</Link>
+						</div>
+					</div>
+				</nav>
 			</header>
-			<nav className="clearfix">
-				<div className="row">
-					<section className="column small-6 medium-6 large-6">
-						<Search />
-					</section>
-					<section className="column small-6 medium-6 large-6">
-						<Link to="/browse" className="active">
-							Browse
-						</Link>
-					</section>
-				</div>
-			</nav>
 			<main>{children}</main>
 			<footer className="clearfix">
-				<div className="row">
+				<aside className="row" aria-label="Global">
 					{/* About */}
-					<section className="column small-12 medium-6 large-3">
+					<section
+						className="column small-12 medium-6 large-3"
+						aria-label="About James"
+					>
 						<h2>About James</h2>
 						<p>
 							James is a father at home, Principal Software Engineer at work, and{" "}
@@ -67,7 +70,10 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 						</p>
 					</section>
 					{/* Social */}
-					<section className="column small-12 medium-6 large-3">
+					<section
+						className="column small-12 medium-6 large-3"
+						aria-label="James on Social Media"
+					>
 						<h2>Social</h2>
 						<a href={data.site.siteMetadata.siteUrl}>
 							<img
@@ -106,7 +112,10 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 						</a>
 					</section>
 					{/* Copyright */}
-					<section className="column small-12 medium-6 large-3">
+					<section
+						className="column small-12 medium-6 large-3"
+						aria-label="Copyright and Licensing"
+					>
 						<p
 							{...{
 								"xmlns:dct": "http://purl.org/dc/terms/",
@@ -175,7 +184,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 							</a>
 						</p>
 					</section>
-				</div>
+				</aside>
 			</footer>
 		</>
 	);
