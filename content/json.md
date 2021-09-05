@@ -1,7 +1,7 @@
 ---
 date: 2021-09-01T08:11:27-04:00
 description: "A simple text-based format for data exchange based on a subset of JavaScript, defined by RFC 7159"
-tags: ["javascript"]
+tags: ["javascript", "ietf-standards"]
 title: "JavaScript Object Notation (JSON)"
 ---
 
