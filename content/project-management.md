@@ -7,7 +7,7 @@ title: "Project Management"
 
 # Project Management
 
-A **project** is an undertaking that seeks to create something new to meet an objective, generally through the creation or [enhancement](change-management.md) of a [product](product-management.md) or service. A **product** is the output of the project. A project is completed when the objective is met or cannot be met based on resource constraints. **Project management** is the practice of creating, allocating, and adapting project resources - the scope, budget, step sequences, and schedule - and overseeing execution through to completion.
+**Project management** is the practice of creating, allocating, applying resources to the completion of a project. A **project** is an undertaking that seeks to create something new to meet an [objective](requirements.md), generally through the creation or [enhancement](change-management.md) of a [product](product-management.md) or service. A **product** is the output of the project. A project is completed when the objective is met or cannot be met based on resource constraints.
 
 ## The Iron Triangle of Project Management
 
