@@ -8,8 +8,10 @@
     "node_modules": true
 	},
 	"cSpell.words": [
+		"allowfullscreen",
 		"Arie",
 		"ASCIIbetical",
+		"autoplay",
 		"Beedle",
 		"Bennekum",
 		"Bujo",
@@ -30,6 +32,7 @@
 		"hmacs",
 		"jamestharpe",
 		"Jeffries",
+		"Kanban",
 		"katex",
 		"Khourshid",
 		"kubectl",
@@ -49,6 +52,9 @@
 		"statecharts",
 		"Tharpe",
 		"Tharpe's",
+		"timebox",
+		"timeboxes",
+		"Timeboxing",
 		"xstate"
 	],
 	"editor.insertSpaces": false,
