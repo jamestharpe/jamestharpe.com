@@ -22,7 +22,7 @@ title: "Agile"
 > 
 > That is, while there is value in the items on the right, we value the items on the left more.
 > 
-> Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, Ward Cunningham, Martin Fowler, James Grenning, Jim Highsmith, Andrew Hunt, Ron Jeffries, Jon Kern, Brian Marick, Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, Dave Thomas
+> [Kent Beck](https://twitter.com/KentBeck), [Mike Beedle](https://twitter.com/mikebeedle), [Arie van Bennekum](https://twitter.com/arievanbennekum), Alistair Cockburn, [Ward Cunningham](https://twitter.com/WardCunningham), [Martin Fowler](https://twitter.com/martinfowler), [James Grenning](https://twitter.com/jwgrenning), [Jim Highsmith](https://twitter.com/jimhighsmith), [Andrew Hunt](https://twitter.com/PragmaticAndy), [Ron Jeffries](https://twitter.com/RonJeffries), Jon Kern, [Brian Marick](https://twitter.com/marick), [Robert C. Martin](https://twitter.com/unclebobmartin), Steve Mellor, [Ken Schwaber](https://twitter.com/kschwaber), [Jeff Sutherland](https://twitter.com/jeffsutherland), [Dave Thomas](https://twitter.com/pragdave)
 > 
 > © 2001, the above authors this declaration may be freely copied in any form, but only in its entirety through this notice.
 
