@@ -60,5 +60,5 @@ title: "Agile"
 
 ## Agile Resources
 
-* [Manifesto for Agile Software Development](https://www.agilemanifesto.org/)
+* [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 * [Agile Process](http://www.agile-process.org/)
