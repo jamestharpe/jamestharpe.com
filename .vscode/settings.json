@@ -32,6 +32,7 @@
 		"hmacs",
 		"jamestharpe",
 		"Jeffries",
+		"journaling",
 		"Kanban",
 		"katex",
 		"Khourshid",
@@ -55,6 +56,8 @@
 		"timebox",
 		"timeboxes",
 		"Timeboxing",
+		"tmobile",
+		"Whenner",
 		"xstate"
 	],
 	"editor.insertSpaces": false,
