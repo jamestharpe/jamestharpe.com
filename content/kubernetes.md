@@ -57,13 +57,13 @@ Pods are the most basic unit of execution in Kubernetes. A **pod** is a group of
 
 ### ReplicaSets
 
-A **ReplicaSet** are a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets can also be used to automatically scale the number of pods horizontally based on a variety of conditions.
+A **ReplicaSet** is a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets provide fault tolerance and can also be used to automatically scale the number of pods horizontally based on a variety of conditions.
 
 ReplicaSets rely on pod templates to define the desired state of the pods.
 
 ### Deployments
 
-A declarative way to manage replica sets.
+A **deployment** is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets, as well as labels.
 
 ### Services
 
