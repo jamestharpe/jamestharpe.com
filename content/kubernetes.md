@@ -63,13 +63,37 @@ ReplicaSets rely on pod templates to define the desired state of the pods.
 
 ### Deployments
 
-A **deployment** is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets, as well as labels.
+A **deployment** is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets.
+
+### Labels
+
+**Labels** are key-value pairs attached to pods, ReplicaSets, Deployments, and other Kubernetes objects to organize and identify those objects. Common uses for labels include identifying application names (e.g. "mysql"), versions (e.g. "5.7.21"), and instances (e.g. "mysql-production"), architectural components (e.g. "ui" or "database"), higher-level applications (e.g. "whenner"), and other application meta information.
 
 ### Services
+
+A **service** allows an application to be exposed on a network, even as the pods that host the application are created and destroyed, by abstracting pod IP addresses away from application consumers and load balancing between active pods. Services rely on labels to to associate with pods.
+
+```mermaid
+graph TD
+    Client[External Client] --> Service
+    subgraph Kubernetes
+        Service --> Pod1
+        Service --> Pod2
+    end
+```
+
+There are four main types of Service:
+
+* A **ClusterIP service** exposes the service on an IP address internal to the cluster so that only pods within the cluster can communicate with the service
+* A **NodePort service** exposes the service on static port on each node's IP address so that the service is accessible from outside the cluster, the node then uses a ClusterIP service to proxy requests on that port to an appropriate pod
+* A **LoadBalancer service** allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service
+* An **ExternalName service** associates a service with a DNS name by returning a CNAME record on DNS lookup
 
 ### Storage and Volumes
 
 ### ConfigMaps and Secrets
 
 Key-value pairs that can be used to store and retrieve configuration data.
+
+
 -->
