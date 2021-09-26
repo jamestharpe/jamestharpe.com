@@ -1,4 +1,222 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Sep 2021 14:32:10 GMT</lastBuildDate><item><title><![CDATA[Acceptance Testing]]></title><description><![CDATA[Processes and techniques to test whether a set of requirements is met]]></description><link>https://www.jamestharpe.com/acceptance-testing/</link><guid isPermaLink="false">https://www.jamestharpe.com/acceptance-testing/</guid><pubDate>Tue, 07 Sep 2021 15:49:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 26 Sep 2021 19:02:29 GMT</lastBuildDate><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
+  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
+  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
+  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
+  &quot;description&quot;: &quot;Recipe to get the unique elements from a JavaScript Array&quot;,
+  &quot;tags&quot;: [&quot;js-recipes&quot;],
+  &quot;title&quot;: &quot;JavaScript Recipe: Get the unique elements from an array&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Get the unique elements from an array&quot;), mdx(&quot;p&quot;, null, &quot;Given an array with duplicate elements, return only the unique elements from an array:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;javascript&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-javascript&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-javascript&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;function&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;uniqueElements&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token parameter&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;{&quot;), &quot;\n\t&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;return&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;[&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;...&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;new&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token class-name&quot;
+  }, &quot;Set&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), &quot;a&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;]&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;}&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;const&quot;), &quot; uniques &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;uniqueElements&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;[&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;]&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;// [1, 2, 3]&quot;)))), mdx(&quot;h2&quot;, null, &quot;Related MDN Documentation&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;
+  }, &quot;Global objects: Set&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-21T14:52:10.000Z&quot;,
+  &quot;description&quot;: &quot;Royalty free, high-resolution photos&quot;,
+  &quot;tags&quot;: [&quot;web-dev&quot;],
+  &quot;title&quot;: &quot;Unsplash&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Unsplash&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://unsplash.com/&quot;
+  }, &quot;Unsplash&quot;), &quot; provides free photos for commercial and non-commercial purposes, with no permission needed (attribution encouraged) to use, subject to the very nonrestrictive &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://unsplash.com/license&quot;
+  }, &quot;Unsplash License&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Acceptance Testing]]></title><description><![CDATA[Processes and techniques to test whether a set of requirements is met]]></description><link>https://www.jamestharpe.com/acceptance-testing/</link><guid isPermaLink="false">https://www.jamestharpe.com/acceptance-testing/</guid><pubDate>Tue, 07 Sep 2021 15:49:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -73,7 +291,7 @@ return function MDXContent(_ref) {
   }, &quot;products&quot;), &quot; through people-centric &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../project-management/&quot;
-  }, &quot;projects management&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;The Agile Manifesto&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;h3&quot;, {
+  }, &quot;project management&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;The Agile Manifesto&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;h3&quot;, {
     parentName: &quot;blockquote&quot;
   }, &quot;Manifesto for Agile Software Development&quot;), mdx(&quot;p&quot;, {
     parentName: &quot;blockquote&quot;
@@ -175,7 +393,12 @@ return function MDXContent(_ref) {
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;http://www.agile-process.org/&quot;
-  }, &quot;Agile Process&quot;))));
+  }, &quot;Agile Process&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://martinfowler.com/articles/agileStory.html&quot;
+  }, &quot;Writing the Agile Manifesto by Martin Fowler&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[User Stories]]></title><description><![CDATA[The philosophy behind gathering, writing, and using user stories]]></description><link>https://www.jamestharpe.com/user-stories/</link><guid isPermaLink="false">https://www.jamestharpe.com/user-stories/</guid><pubDate>Tue, 07 Sep 2021 15:49:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -1426,6 +1649,86 @@ return function MDXContent(_ref) {
   }, &quot;operating system&quot;), &quot; but different in that containers do not provide hardware-level virtualization as virtual machines do.&quot;));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-08-18T11:13:14.000Z&quot;,
+  &quot;description&quot;: &quot;A system to conduct an orchestra of containers&quot;,
+  &quot;tags&quot;: [&quot;containers&quot;],
+  &quot;title&quot;: &quot;Kubernetes (k8s)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Kubernetes (k8s)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Kubernetes&quot;), &quot;, sometimes stylistically written as &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;k8s&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../open-source/&quot;
+  }, &quot;open-source&quot;), &quot; system to automate the deployment, scaling, and management of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../containers/&quot;
+  }, &quot;containerized&quot;), &quot; applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.&quot;), mdx(&quot;h2&quot;, null, &quot;How Kubernetes Works&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes works by maintaining a cluster of nodes, where each &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;node&quot;), &quot; is a physical or virtual machine capable of running one or more pods and managed by an agent called &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/&quot;
+  }, &quot;kublet&quot;), &quot;. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Kubernetes is declaratively configured by a manifest file, which describes the desired state of the cluster. Differences between the desired state are reconciled through the &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;control plane&quot;), &quot;, which is an extensible set of components that are responsible for maintaining the desired state of the cluster.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n    subgraph Cluster\n\t\tMaster(\&quot;fa:fa-asterisk Master Node\&quot;)\n        subgraph Node1[Node]\n            Kublet1(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod1[Pod]\n            Kublet1 --&gt; Pod2[Pod]\n            Pod1[Pod]\n            Pod2[Pod]\n        end\n\t\tsubgraph Node2[Node]\n            Kublet2(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod3[Pod]\n            Kublet2 --&gt; Pod4\n            Pod3[Pod]\n            Pod4[Pod]\n        end\n        subgraph Node3[Node]\n            Kublet3(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod5[Pod]\n            Kublet3 --&gt; Pod6\n            Pod5[Pod]\n            Pod6[Pod]\n        end\n    end\n    subgraph CP[Control Plane]\n\t\tStore[(\&quot;Store (etcd)\&quot;)] --&gt;|Configuration| Master\n        API --&gt; Master\n        Scheduler --&gt; Master\n        Controller[\&quot;Controller Manager\&quot;] --&gt; Master\n    end\n    kubectl[\&quot;$ kubectl\&quot;] --&gt; API\n    Master --&gt; Kublet1\n    Master --&gt; Kublet2\n    Master --&gt; Kublet3&quot;), mdx(&quot;h2&quot;, null, &quot;Components of Kubernetes&quot;), mdx(&quot;h3&quot;, null, &quot;Pods&quot;), mdx(&quot;p&quot;, null, &quot;Pods are the most basic unit of execution in Kubernetes. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.&quot;), mdx(&quot;h3&quot;, null, &quot;ReplicaSets&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;ReplicaSet&quot;), &quot; is a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets provide fault tolerance and can also be used to automatically scale the number of pods horizontally based on a variety of conditions.&quot;), mdx(&quot;p&quot;, null, &quot;ReplicaSets rely on pod templates to define the desired state of the pods.&quot;), mdx(&quot;h3&quot;, null, &quot;Deployments&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;deployment&quot;), &quot; is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets.&quot;), mdx(&quot;h3&quot;, null, &quot;Labels&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Labels&quot;), &quot; are key-value pairs attached to pods, ReplicaSets, Deployments, and other Kubernetes objects to organize and identify those objects. Common uses for labels include identifying application names (e.g. \&quot;mysql\&quot;), versions (e.g. \&quot;5.7.21\&quot;), and instances (e.g. \&quot;mysql-production\&quot;), architectural components (e.g. \&quot;ui\&quot; or \&quot;database\&quot;), higher-level applications (e.g. \&quot;whenner\&quot;), and other application meta information.&quot;), mdx(&quot;h3&quot;, null, &quot;Services&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;service&quot;), &quot; allows an application to be exposed on a network, even as the pods that host the application are created and destroyed, by abstracting pod IP addresses away from application consumers and load balancing between active pods. Services rely on labels to to associate with pods.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n\tClient[External Client] --&gt; Service\n\tsubgraph Kubernetes\n\t\tService --&gt; Pod1\n\t\tService --&gt; Pod2\n\t\tend&quot;), mdx(&quot;p&quot;, null, &quot;There are four main types of Service:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;ClusterIP service&quot;), &quot; exposes the service on an IP address internal to the cluster so that only pods within the cluster can communicate with the service&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;NodePort service&quot;), &quot; exposes the service on static port on each node&apos;s IP address so that the service is accessible from outside the cluster, the node then uses a ClusterIP service to proxy requests on that port to an appropriate pod&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;LoadBalancer service&quot;), &quot; allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes CLI: kubectl]]></title><description><![CDATA[The CLI interface for Kubernetes]]></description><link>https://www.jamestharpe.com/kubectl/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubectl/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1622,58 +1925,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;k version&quot;), &quot;.&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-08-18T11:13:14.000Z&quot;,
-  &quot;description&quot;: &quot;A system to conduct an orchestra of containers&quot;,
-  &quot;tags&quot;: [&quot;containers&quot;],
-  &quot;title&quot;: &quot;Kubernetes (k8s)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Kubernetes (k8s)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Kubernetes&quot;), &quot;, sometimes stylistically written as &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;k8s&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../open-source/&quot;
-  }, &quot;open-source&quot;), &quot; system to automate the deployment, scaling, and management of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../containers/&quot;
-  }, &quot;containerized&quot;), &quot; applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.&quot;), mdx(&quot;h2&quot;, null, &quot;How Kubernetes Works&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes works by maintaining a cluster of nodes, where each &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;node&quot;), &quot; is a physical or virtual machine capable of running one or more pods and managed by an agent called &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/&quot;
-  }, &quot;kublet&quot;), &quot;. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Kubernetes is declaratively configured by a manifest file, which describes the desired state of the cluster. Differences between the desired state are reconciled through the &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;control plane&quot;), &quot;, which is an extensible set of components that are responsible for maintaining the desired state of the cluster.&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n    subgraph Cluster\n\t\tMaster(\&quot;fa:fa-asterisk Master Node\&quot;)\n        subgraph Node1[Node]\n            Kublet1(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod1[Pod]\n            Kublet1 --&gt; Pod2[Pod]\n            Pod1[Pod]\n            Pod2[Pod]\n        end\n\t\tsubgraph Node2[Node]\n            Kublet2(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod3[Pod]\n            Kublet2 --&gt; Pod4\n            Pod3[Pod]\n            Pod4[Pod]\n        end\n        subgraph Node3[Node]\n            Kublet3(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod5[Pod]\n            Kublet3 --&gt; Pod6\n            Pod5[Pod]\n            Pod6[Pod]\n        end\n    end\n    subgraph CP[Control Plane]\n\t\tStore[(\&quot;Store (etcd)\&quot;)] --&gt;|Configuration| Master\n        API --&gt; Master\n        Scheduler --&gt; Master\n        Controller[\&quot;Controller Manager\&quot;] --&gt; Master\n    end\n    kubectl[\&quot;$ kubectl\&quot;] --&gt; API\n    Master --&gt; Kublet1\n    Master --&gt; Kublet2\n    Master --&gt; Kublet3&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness]]></title><description><![CDATA[The opportunity for fair representation within a group]]></description><link>https://www.jamestharpe.com/scarf-model/</link><guid isPermaLink="false">https://www.jamestharpe.com/scarf-model/</guid><pubDate>Fri, 23 Jul 2021 14:11:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -3642,7 +3893,10 @@ return function MDXContent(_ref) {
     &quot;style&quot;: {
       &quot;marginRight&quot;: &quot;0.07847em&quot;
     }
-  }, &quot;I&quot;))))), &quot;) over &quot;, &quot;[voltage]&quot;, &quot;(voltage.md, or) &quot;, mdx(&quot;span&quot;, {
+  }, &quot;I&quot;))))), &quot;) over &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../voltage/&quot;
+  }, &quot;voltage&quot;), &quot;, or &quot;, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
@@ -5040,17 +5294,17 @@ return function MDXContent(_ref) {
     parentName: &quot;ol&quot;
   }, &quot;Go back to step one&quot;)), mdx(&quot;p&quot;, null, &quot;After four cycles (about two hours), take a longer break of about 15 to 30 minutes.&quot;), mdx(&quot;div&quot;, {
     &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n  Decide[\&quot;Decide on a&quot;, mdx(&quot;br&quot;, {
+  }, &quot;graph TD\n\tDecide[\&quot;Decide on a&quot;, mdx(&quot;br&quot;, {
     parentName: &quot;div&quot;
-  }), &quot;Task\&quot;] --&gt;\n  Work[\&quot;Work the task&quot;, mdx(&quot;br&quot;, {
+  }), &quot;Task\&quot;] --&gt;\n\tWork[\&quot;Work the task&quot;, mdx(&quot;br&quot;, {
     parentName: &quot;div&quot;
-  }), &quot;for 25 Minutes\&quot;] --&gt;\n  Count{\&quot;Has it been&quot;, mdx(&quot;br&quot;, {
+  }), &quot;for 25 Minutes\&quot;] --&gt;\n\tCount{\&quot;Has it been&quot;, mdx(&quot;br&quot;, {
     parentName: &quot;div&quot;
-  }), &quot;4 iterations?\&quot;} --&gt;\n  |No| Break5[\&quot;Take a 5 minute&quot;, mdx(&quot;br&quot;, {
+  }), &quot;4 iterations?\&quot;} --&gt;\n\t|No| Break5[\&quot;Take a 5 minute&quot;, mdx(&quot;br&quot;, {
     parentName: &quot;div&quot;
-  }), &quot;break\&quot;]\n  Count --&gt; |Yes| Break15[\&quot;Take a 15&quot;, mdx(&quot;br&quot;, {
+  }), &quot;break\&quot;]\n\tCount --&gt; |Yes| Break15[\&quot;Take a 15&quot;, mdx(&quot;br&quot;, {
     parentName: &quot;div&quot;
-  }), &quot;minute break\&quot;]\n  Break5 --&gt; Decide\n  Break15 --&gt; Decide&quot;), mdx(&quot;h2&quot;, null, &quot;Tips for Effective Pomodoros&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }), &quot;minute break\&quot;]\n\tBreak5 --&gt; Decide\n\tBreak15 --&gt; Decide&quot;), mdx(&quot;h2&quot;, null, &quot;Tips for Effective Pomodoro Iterations&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, &quot;Avoid distractions: Silence your phone, close your door, and so on&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -11887,7 +12141,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-03-08T15:09:10.000Z&quot;,
   &quot;description&quot;: &quot;Tools and techniques for building websites and web-applications&quot;,
-  &quot;tags&quot;: [&quot;computer-science&quot;],
+  &quot;tags&quot;: [&quot;software-engineering&quot;],
   &quot;title&quot;: &quot;Web Development&quot;
 };
 var layoutProps = {
@@ -12108,7 +12362,10 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Modify Response Headers in Angular Proxy&quot;), mdx(&quot;p&quot;, null, &quot;Angular includes the ability to &quot;, mdx(&quot;a&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;Modify Response Headers in Angular Proxy (&quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;h1&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;ng serve&quot;), &quot;)&quot;), mdx(&quot;p&quot;, null, &quot;Angular includes the ability to &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://angular.io/guide/build#proxying-to-a-backend-server&quot;
   }, &quot;proxy requests to back-end servers&quot;), &quot;. This feature can also be used to modify responses.&quot;), mdx(&quot;p&quot;, null, &quot;To modify responses, create &quot;, mdx(&quot;code&quot;, {
@@ -12216,7 +12473,7 @@ return function MDXContent(_ref) {
   }, &quot;}&quot;)))), mdx(&quot;p&quot;, null, &quot;Now, after you run &quot;, mdx(&quot;code&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;ng server --proxy-config \tsrc/proxy.config.js&quot;), &quot; requests to &quot;, mdx(&quot;code&quot;, {
+  }, &quot;ng server --proxy-config src/proxy.config.js&quot;), &quot; requests to &quot;, mdx(&quot;code&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;/path&quot;), &quot; will contain the header.&quot;), mdx(&quot;p&quot;, null, &quot;A common application of this approach is to set &quot;, mdx(&quot;a&quot;, {
@@ -19480,46 +19737,6 @@ return function MDXContent(_ref) {
   }, &quot;Tinkernut&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-30T18:07:46.000Z&quot;,
-  &quot;description&quot;: &quot;Abstract representations of system state at a given point in time&quot;,
-  &quot;tags&quot;: [&quot;math&quot;, &quot;computer-science&quot;],
-  &quot;title&quot;: &quot;State Machines&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;State Machines&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;state machine&quot;), &quot; is an abstract representation of a system&apos;s state at a given point in time. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;transition&quot;), &quot; is the change from one state to another given a set of inputs.&quot;), mdx(&quot;p&quot;, null, &quot;There are two types of state machines: Finite, and infinite. A finite state machine (FSM) has a finite number of states and actions whereas an infinite state machine has an infinite number of states and/or actions. Generally, the term \&quot;state machine\&quot; refers to a finite state machine.&quot;), mdx(&quot;p&quot;, null, &quot;State machines can be depicted formally in a visual format, which makes them useful for describing complex systems.&quot;), mdx(&quot;h2&quot;, null, &quot;State Machine Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://statecharts.github.io/what-is-a-state-machine.html&quot;
-  }, &quot;What is a State Machine?&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -19566,6 +19783,46 @@ return function MDXContent(_ref) {
   }, &quot;Statecharts: A visual formalism for complex systems&quot;), &quot; (original paper defining statecharts)&quot;)));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-30T18:07:46.000Z&quot;,
+  &quot;description&quot;: &quot;Abstract representations of system state at a given point in time&quot;,
+  &quot;tags&quot;: [&quot;math&quot;, &quot;computer-science&quot;],
+  &quot;title&quot;: &quot;State Machines&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;State Machines&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;state machine&quot;), &quot; is an abstract representation of a system&apos;s state at a given point in time. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;transition&quot;), &quot; is the change from one state to another given a set of inputs.&quot;), mdx(&quot;p&quot;, null, &quot;There are two types of state machines: Finite, and infinite. A finite state machine (FSM) has a finite number of states and actions whereas an infinite state machine has an infinite number of states and/or actions. Generally, the term \&quot;state machine\&quot; refers to a finite state machine.&quot;), mdx(&quot;p&quot;, null, &quot;State machines can be depicted formally in a visual format, which makes them useful for describing complex systems.&quot;), mdx(&quot;h2&quot;, null, &quot;State Machine Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://statecharts.github.io/what-is-a-state-machine.html&quot;
+  }, &quot;What is a State Machine?&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[XState (JavaScript Library)]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/xstate/</link><guid isPermaLink="false">https://www.jamestharpe.com/xstate/</guid><pubDate>Wed, 30 Dec 2020 18:03:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -19600,7 +19857,10 @@ return function MDXContent(_ref) {
   }, &quot;XState&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../javascript/&quot;
-  }, &quot;JavaScript&quot;), &quot; framework for managing &quot;, mdx(&quot;a&quot;, {
+  }, &quot;JavaScript&quot;), &quot; framework by &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://stately.ai/&quot;
+  }, &quot;Stately&quot;), &quot; for managing &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../state-machines/&quot;
   }, &quot;state machines&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
@@ -30800,48 +31060,6 @@ return function MDXContent(_ref) {
   }, &quot;CloudFormation templates from Cloudonaut&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
-  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
-  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
-  &quot;title&quot;: &quot;Git Bash&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../bash/&quot;
-  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
-  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
-  }, &quot;Git Bash Shortcuts for Windows&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -31414,6 +31632,48 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases&quot;
   }, &quot;Git Basics - Git Aliases&quot;), &quot; chapter of Pro Git to learn more about Git aliases.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
+  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
+  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
+  &quot;title&quot;: &quot;Git Bash&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../bash/&quot;
+  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
+  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
+  }, &quot;Git Bash Shortcuts for Windows&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
