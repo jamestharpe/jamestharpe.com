@@ -48,7 +48,6 @@ graph TD
     Master --> Kublet3
 ```
 
-<!--
 ## Components of Kubernetes
 
 ### Pods
@@ -75,11 +74,11 @@ A **service** allows an application to be exposed on a network, even as the pods
 
 ```mermaid
 graph TD
-  Client[External Client] --> Service
-  subgraph Kubernetes
-    Service --> Pod1
-    Service --> Pod2
-  end
+	Client[External Client] --> Service
+	subgraph Kubernetes
+		Service --> Pod1
+		Service --> Pod2
+		end
 ```
 
 There are four main types of Service:
@@ -89,6 +88,7 @@ There are four main types of Service:
 * A **LoadBalancer service** allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service
 * An **ExternalName service** associates a service with a DNS name by returning a CNAME record on DNS lookup
 
+<!--
 ### Storage and Volumes
 
 ### ConfigMaps and Secrets
