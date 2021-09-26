@@ -7,7 +7,7 @@ title: "Agile"
 
 # Agile
 
-**Agile** is a set of four values based on 12 principles intended to create better software [products](product-management.md) through people-centric [projects management](project-management.md).
+**Agile** is a set of four values based on 12 principles intended to create better software [products](product-management.md) through people-centric [project management](project-management.md).
 
 ## The Agile Manifesto
 
