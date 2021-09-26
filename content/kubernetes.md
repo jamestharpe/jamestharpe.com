@@ -75,12 +75,11 @@ A **service** allows an application to be exposed on a network, even as the pods
 
 ```mermaid
 graph TD
-    Client[External Client] --> Service
-    subgraph Kubernetes
-        Service --> Pod1
-        Service --> Pod2
-    end
-
+  Client[External Client] --> Service
+  subgraph Kubernetes
+    Service --> Pod1
+    Service --> Pod2
+  end
 ```
 
 There are four main types of Service:
