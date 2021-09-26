@@ -80,6 +80,7 @@ graph TD
         Service --> Pod1
         Service --> Pod2
     end
+
 ```
 
 There are four main types of Service:
