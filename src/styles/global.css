@@ -12,6 +12,12 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
+kbd {
+	border-radius: 3px;
+	padding: 1px 2px 0;
+	border: 1px solid black;
+  }
+
 body {
     background-color: #F1F5F8;
     font-family: 'Ubuntu', sans-serif;
