@@ -2,7 +2,7 @@
 date: 2021-09-30T05:55:11-04:00
 description: "A quick fix to permanently remove pinned taskbar items that keep returning after a restart"
 tags: [ "windows" ]
-title: "How to permanently remove pinned items from the Windows taskbar"
+title: "Permanent removal of Windows taskbar pinned items"
 ---
 
 # How to permanently remove pinned items from the Windows taskbar
