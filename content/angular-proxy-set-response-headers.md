@@ -5,7 +5,7 @@ tags: [ "angular" ]
 title: "Modify Response Headers in Angular Proxy (ng serve)"
 ---
 
-# Modify Response Headers in Angular Proxy
+# Modify Response Headers in Angular Proxy (`ng serve`)
 
 Angular includes the ability to [proxy requests to back-end servers](https://angular.io/guide/build#proxying-to-a-backend-server). This feature can also be used to modify responses.
 
@@ -22,6 +22,6 @@ module.exports = {
 }
 ```
 
-Now, after you run `ng server --proxy-config 	src/proxy.config.js` requests to `/path` will contain the header.
+Now, after you run `ng server --proxy-config src/proxy.config.js` requests to `/path` will contain the header.
 
 A common application of this approach is to set [CORS headers](cors.md) when the Angular dev server is hosting scripts that can be loaded from other applications.
