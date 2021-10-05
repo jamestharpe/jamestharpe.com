@@ -2,7 +2,7 @@
 date: 2021-09-21T10:52:10-04:00
 description: "Royalty free, high-resolution photos"
 tags: [ "web-dev" ]
-title: "Unsplash"
+title: "Unsplash: Royalty-free Photos"
 ---
 
 # Unsplash
