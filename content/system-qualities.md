@@ -20,6 +20,6 @@ Common categories of system qualities are:
 * Observability
 * Performance
 * Reliability
-* Security
 * Scalability
+* Security
 * Usability
