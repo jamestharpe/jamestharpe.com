@@ -11,7 +11,7 @@ A **system quality**, sometimes known as a **nonfunctional requirement (NFR)**, 
 
 ## Categories of System Qualities and NFRs
 
-Common categories of system qualities are: 
+Common categories of system qualities are:
 
 * Availability
 * Disaster recovery
