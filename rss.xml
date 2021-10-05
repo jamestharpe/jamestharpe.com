@@ -1,4 +1,143 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 30 Sep 2021 10:37:18 GMT</lastBuildDate><item><title><![CDATA[Permanent removal of Windows taskbar pinned items]]></title><description><![CDATA[A quick fix to permanently remove pinned taskbar items that keep returning after a restart]]></description><link>https://www.jamestharpe.com/windows-unpinned-items-return-on-restart/</link><guid isPermaLink="false">https://www.jamestharpe.com/windows-unpinned-items-return-on-restart/</guid><pubDate>Thu, 30 Sep 2021 09:55:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 11:43:31 GMT</lastBuildDate><item><title><![CDATA[System Qualities and Nonfunctional Requirements (NFRs)]]></title><description><![CDATA[Constraints on how software is engineered]]></description><link>https://www.jamestharpe.com/system-qualities/</link><guid isPermaLink="false">https://www.jamestharpe.com/system-qualities/</guid><pubDate>Tue, 05 Oct 2021 11:22:39 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-10-05T11:22:39.000Z&quot;,
+  &quot;description&quot;: &quot;Constraints on how software is engineered&quot;,
+  &quot;tags&quot;: [&quot;software-engineering&quot;, &quot;requirements&quot;],
+  &quot;title&quot;: &quot;System Qualities and Nonfunctional Requirements (NFRs)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;System Qualities and Nonfunctional Requirements (NFRs)&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;system quality&quot;), &quot;, sometimes known as a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;nonfunctional requirement (NFR)&quot;), &quot;, is a type of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../requirements/&quot;
+  }, &quot;requirement&quot;), &quot; that defines constraints on how &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-engineering/&quot;
+  }, &quot;software is engineered&quot;), &quot; to ensure a baseline level of quality. System qualities are often integrated into the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../sdlc/&quot;
+  }, &quot;SDLC&quot;), &quot; as part of the \&quot;definition of done\&quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Categories of System Qualities and NFRs&quot;), mdx(&quot;p&quot;, null, &quot;Common categories of system qualities are: &quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Availability&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Disaster recovery&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Legal/regulatory compliance&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Maintainability&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Observability&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Performance&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Reliability&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Scalability&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Security&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Usability&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Architecture]]></title><description><![CDATA[The practice of organizing software components in a complex system]]></description><link>https://www.jamestharpe.com/software-architecture/</link><guid isPermaLink="false">https://www.jamestharpe.com/software-architecture/</guid><pubDate>Tue, 05 Oct 2021 11:12:39 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-10-05T11:12:39.000Z&quot;,
+  &quot;description&quot;: &quot;The practice of organizing software components in a complex system&quot;,
+  &quot;tags&quot;: [&quot;software-engineering&quot;],
+  &quot;title&quot;: &quot;Software Architecture&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Software Architecture&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Software architecture&quot;), &quot; is the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-engineering/&quot;
+  }, &quot;software engineering&quot;), &quot; practice of planning, organizing, and evolving the components of a system of applications for optimal interaction. What is \&quot;optimal\&quot; is determined by the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../requirements/&quot;
+  }, &quot;requirements&quot;), &quot;, constraints, and design goals of the system. Optimizations may include cost, flexibility, scalability, implementation timelines, and various business factors.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Architectural Decision Records (ARDs)]]></title><description><![CDATA[A method for capturing architectural decisions]]></description><link>https://www.jamestharpe.com/adrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/adrs/</guid><pubDate>Mon, 04 Oct 2021 18:14:39 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-10-04T18:14:39.000Z&quot;,
+  &quot;description&quot;: &quot;A method for capturing architectural decisions&quot;,
+  &quot;tags&quot;: [&quot;software-architecture&quot;, &quot;requirements&quot;],
+  &quot;title&quot;: &quot;Architectural Decision Records (ARDs)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Architectural Decision Records (ARDs)&quot;), mdx(&quot;p&quot;, null, &quot;An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;architectural decision record (ARD)&quot;), &quot; is the record of a software design choice that addresses a significant &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../requirements/&quot;
+  }, &quot;requirement&quot;), &quot; of a software system.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Permanent removal of Windows taskbar pinned items]]></title><description><![CDATA[A quick fix to permanently remove pinned taskbar items that keep returning after a restart]]></description><link>https://www.jamestharpe.com/windows-unpinned-items-return-on-restart/</link><guid isPermaLink="false">https://www.jamestharpe.com/windows-unpinned-items-return-on-restart/</guid><pubDate>Thu, 30 Sep 2021 09:55:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -801,37 +940,6 @@ return function MDXContent(_ref) {
   }, &quot;&gt;&quot;))))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
-  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
-  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
-  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -980,6 +1088,37 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;
   }, &quot;Global objects: Set&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
+  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
+  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
+  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -1668,42 +1807,6 @@ return function MDXContent(_ref) {
   }, &quot;_&quot;), &quot; in base64url.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[Base64 Base64  is a set of methods to encode  binary  data as ASCII text so that the data can be transported using text-based protocols…]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-05T22:06:27.000Z&quot;,
-  &quot;description&quot;: &quot;&quot;,
-  &quot;tags&quot;: [&quot;computer-science&quot;, &quot;ascii&quot;, &quot;binary&quot;],
-  &quot;title&quot;: &quot;Base64&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../binary/&quot;
-  }, &quot;binary&quot;), &quot; data as ASCII text so that the data can be transported using text-based protocols, such as HTTP.&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Binary Numbers]]></title><description><![CDATA[Numbers in base-2]]></description><link>https://www.jamestharpe.com/binary/</link><guid isPermaLink="false">https://www.jamestharpe.com/binary/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1741,6 +1844,42 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;1&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[Base64 Base64  is a set of methods to encode  binary  data as ASCII text so that the data can be transported using text-based protocols…]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-05T22:06:27.000Z&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;tags&quot;: [&quot;computer-science&quot;, &quot;ascii&quot;, &quot;binary&quot;],
+  &quot;title&quot;: &quot;Base64&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../binary/&quot;
+  }, &quot;binary&quot;), &quot; data as ASCII text so that the data can be transported using text-based protocols, such as HTTP.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Object Signing and Encryption (JOSE)]]></title><description><![CDATA[A set of technologies used to encrypt and sign content]]></description><link>https://www.jamestharpe.com/jose/</link><guid isPermaLink="false">https://www.jamestharpe.com/jose/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -2194,50 +2333,6 @@ return function MDXContent(_ref) {
   }, &quot;JavaScript Object Notation (JSON) Data Interchange Format, RFC 7159&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Hash-based Message Authentication Codes (HMAC)]]></title><description><![CDATA[Hash-based Message Authentication Codes]]></description><link>https://www.jamestharpe.com/hmacs/</link><guid isPermaLink="false">https://www.jamestharpe.com/hmacs/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-01T12:09:27.000Z&quot;,
-  &quot;description&quot;: &quot;Hash-based Message Authentication Codes&quot;,
-  &quot;tags&quot;: [&quot;cybersecurity&quot;, &quot;cryptography&quot;, &quot;hash-functions&quot;],
-  &quot;title&quot;: &quot;Hash-based Message Authentication Codes (HMAC)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Hash-based Message Authentication Codes (HMACs)&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Hash-based Message Authentication Code (HMAC)&quot;), &quot; is a method to verify the sender of a message and that the message has not been tampered with, often used in combination with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../asymmetric-cryptography/&quot;
-  }, &quot;public-key cryptography&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;HMAC works by using a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../cryptography/&quot;
-  }, &quot;cryptographic&quot;), &quot; &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../hash-functions/&quot;
-  }, &quot;hash function&quot;), &quot; and a shared secret, or &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;salt&quot;), &quot;. The sender computes the the hash value for the original message using the salt, then sends the original message and hash value to the receiver as a single message. The receiver then recomputes the hash value of the original message using the same hash function and salt. If the message was tampered with or if a different salt was used, a different hash value will result thus invalidating the message.&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Web Signatures (JWS)]]></title><description><![CDATA[A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515]]></description><link>https://www.jamestharpe.com/jws/</link><guid isPermaLink="false">https://www.jamestharpe.com/jws/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2280,6 +2375,50 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7515&quot;
   }, &quot;JSON Web Signatures (JWS), RFC 7515&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Hash-based Message Authentication Codes (HMAC)]]></title><description><![CDATA[Hash-based Message Authentication Codes]]></description><link>https://www.jamestharpe.com/hmacs/</link><guid isPermaLink="false">https://www.jamestharpe.com/hmacs/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-01T12:09:27.000Z&quot;,
+  &quot;description&quot;: &quot;Hash-based Message Authentication Codes&quot;,
+  &quot;tags&quot;: [&quot;cybersecurity&quot;, &quot;cryptography&quot;, &quot;hash-functions&quot;],
+  &quot;title&quot;: &quot;Hash-based Message Authentication Codes (HMAC)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Hash-based Message Authentication Codes (HMACs)&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Hash-based Message Authentication Code (HMAC)&quot;), &quot; is a method to verify the sender of a message and that the message has not been tampered with, often used in combination with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../asymmetric-cryptography/&quot;
+  }, &quot;public-key cryptography&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;HMAC works by using a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../cryptography/&quot;
+  }, &quot;cryptographic&quot;), &quot; &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../hash-functions/&quot;
+  }, &quot;hash function&quot;), &quot; and a shared secret, or &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;salt&quot;), &quot;. The sender computes the the hash value for the original message using the salt, then sends the original message and hash value to the receiver as a single message. The receiver then recomputes the hash value of the original message using the same hash function and salt. If the message was tampered with or if a different salt was used, a different hash value will result thus invalidating the message.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[chmod Linux Command]]></title><description><![CDATA[A Linux command used to change the mode of a file or directory]]></description><link>https://www.jamestharpe.com/chmod/</link><guid isPermaLink="false">https://www.jamestharpe.com/chmod/</guid><pubDate>Tue, 31 Aug 2021 13:07:52 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -2445,6 +2584,86 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../operating-systems/&quot;
   }, &quot;operating system&quot;), &quot; but different in that containers do not provide hardware-level virtualization as virtual machines do.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-08-18T11:13:14.000Z&quot;,
+  &quot;description&quot;: &quot;A system to conduct an orchestra of containers&quot;,
+  &quot;tags&quot;: [&quot;containers&quot;],
+  &quot;title&quot;: &quot;Kubernetes (k8s)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Kubernetes (k8s)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Kubernetes&quot;), &quot;, sometimes stylistically written as &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;k8s&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../open-source/&quot;
+  }, &quot;open-source&quot;), &quot; system to automate the deployment, scaling, and management of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../containers/&quot;
+  }, &quot;containerized&quot;), &quot; applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.&quot;), mdx(&quot;h2&quot;, null, &quot;How Kubernetes Works&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes works by maintaining a cluster of nodes, where each &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;node&quot;), &quot; is a physical or virtual machine capable of running one or more pods and managed by an agent called &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/&quot;
+  }, &quot;kublet&quot;), &quot;. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Kubernetes is declaratively configured by a manifest file, which describes the desired state of the cluster. Differences between the desired state are reconciled through the &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;control plane&quot;), &quot;, which is an extensible set of components that are responsible for maintaining the desired state of the cluster.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n    subgraph Cluster\n\t\tMaster(\&quot;fa:fa-asterisk Master Node\&quot;)\n        subgraph Node1[Node]\n            Kublet1(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod1[Pod]\n            Kublet1 --&gt; Pod2[Pod]\n            Pod1[Pod]\n            Pod2[Pod]\n        end\n\t\tsubgraph Node2[Node]\n            Kublet2(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod3[Pod]\n            Kublet2 --&gt; Pod4\n            Pod3[Pod]\n            Pod4[Pod]\n        end\n        subgraph Node3[Node]\n            Kublet3(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod5[Pod]\n            Kublet3 --&gt; Pod6\n            Pod5[Pod]\n            Pod6[Pod]\n        end\n    end\n    subgraph CP[Control Plane]\n\t\tStore[(\&quot;Store (etcd)\&quot;)] --&gt;|Configuration| Master\n        API --&gt; Master\n        Scheduler --&gt; Master\n        Controller[\&quot;Controller Manager\&quot;] --&gt; Master\n    end\n    kubectl[\&quot;$ kubectl\&quot;] --&gt; API\n    Master --&gt; Kublet1\n    Master --&gt; Kublet2\n    Master --&gt; Kublet3&quot;), mdx(&quot;h2&quot;, null, &quot;Components of Kubernetes&quot;), mdx(&quot;h3&quot;, null, &quot;Pods&quot;), mdx(&quot;p&quot;, null, &quot;Pods are the most basic unit of execution in Kubernetes. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.&quot;), mdx(&quot;h3&quot;, null, &quot;ReplicaSets&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;ReplicaSet&quot;), &quot; is a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets provide fault tolerance and can also be used to automatically scale the number of pods horizontally based on a variety of conditions.&quot;), mdx(&quot;p&quot;, null, &quot;ReplicaSets rely on pod templates to define the desired state of the pods.&quot;), mdx(&quot;h3&quot;, null, &quot;Deployments&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;deployment&quot;), &quot; is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets.&quot;), mdx(&quot;h3&quot;, null, &quot;Labels&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Labels&quot;), &quot; are key-value pairs attached to pods, ReplicaSets, Deployments, and other Kubernetes objects to organize and identify those objects. Common uses for labels include identifying application names (e.g. \&quot;mysql\&quot;), versions (e.g. \&quot;5.7.21\&quot;), and instances (e.g. \&quot;mysql-production\&quot;), architectural components (e.g. \&quot;ui\&quot; or \&quot;database\&quot;), higher-level applications (e.g. \&quot;whenner\&quot;), and other application meta information.&quot;), mdx(&quot;h3&quot;, null, &quot;Services&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;service&quot;), &quot; allows an application to be exposed on a network, even as the pods that host the application are created and destroyed, by abstracting pod IP addresses away from application consumers and load balancing between active pods. Services rely on labels to to associate with pods.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n\tClient[External Client] --&gt; Service\n\tsubgraph Kubernetes\n\t\tService --&gt; Pod1\n\t\tService --&gt; Pod2\n\t\tend&quot;), mdx(&quot;p&quot;, null, &quot;There are four main types of Service:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;ClusterIP service&quot;), &quot; exposes the service on an IP address internal to the cluster so that only pods within the cluster can communicate with the service&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;NodePort service&quot;), &quot; exposes the service on static port on each node&apos;s IP address so that the service is accessible from outside the cluster, the node then uses a ClusterIP service to proxy requests on that port to an appropriate pod&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;LoadBalancer service&quot;), &quot; allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes CLI: kubectl]]></title><description><![CDATA[The CLI interface for Kubernetes]]></description><link>https://www.jamestharpe.com/kubectl/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubectl/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -2643,86 +2862,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;k version&quot;), &quot;.&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-08-18T11:13:14.000Z&quot;,
-  &quot;description&quot;: &quot;A system to conduct an orchestra of containers&quot;,
-  &quot;tags&quot;: [&quot;containers&quot;],
-  &quot;title&quot;: &quot;Kubernetes (k8s)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Kubernetes (k8s)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Kubernetes&quot;), &quot;, sometimes stylistically written as &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;k8s&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../open-source/&quot;
-  }, &quot;open-source&quot;), &quot; system to automate the deployment, scaling, and management of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../containers/&quot;
-  }, &quot;containerized&quot;), &quot; applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.&quot;), mdx(&quot;h2&quot;, null, &quot;How Kubernetes Works&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes works by maintaining a cluster of nodes, where each &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;node&quot;), &quot; is a physical or virtual machine capable of running one or more pods and managed by an agent called &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/&quot;
-  }, &quot;kublet&quot;), &quot;. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Kubernetes is declaratively configured by a manifest file, which describes the desired state of the cluster. Differences between the desired state are reconciled through the &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;control plane&quot;), &quot;, which is an extensible set of components that are responsible for maintaining the desired state of the cluster.&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n    subgraph Cluster\n\t\tMaster(\&quot;fa:fa-asterisk Master Node\&quot;)\n        subgraph Node1[Node]\n            Kublet1(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod1[Pod]\n            Kublet1 --&gt; Pod2[Pod]\n            Pod1[Pod]\n            Pod2[Pod]\n        end\n\t\tsubgraph Node2[Node]\n            Kublet2(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod3[Pod]\n            Kublet2 --&gt; Pod4\n            Pod3[Pod]\n            Pod4[Pod]\n        end\n        subgraph Node3[Node]\n            Kublet3(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod5[Pod]\n            Kublet3 --&gt; Pod6\n            Pod5[Pod]\n            Pod6[Pod]\n        end\n    end\n    subgraph CP[Control Plane]\n\t\tStore[(\&quot;Store (etcd)\&quot;)] --&gt;|Configuration| Master\n        API --&gt; Master\n        Scheduler --&gt; Master\n        Controller[\&quot;Controller Manager\&quot;] --&gt; Master\n    end\n    kubectl[\&quot;$ kubectl\&quot;] --&gt; API\n    Master --&gt; Kublet1\n    Master --&gt; Kublet2\n    Master --&gt; Kublet3&quot;), mdx(&quot;h2&quot;, null, &quot;Components of Kubernetes&quot;), mdx(&quot;h3&quot;, null, &quot;Pods&quot;), mdx(&quot;p&quot;, null, &quot;Pods are the most basic unit of execution in Kubernetes. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.&quot;), mdx(&quot;h3&quot;, null, &quot;ReplicaSets&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;ReplicaSet&quot;), &quot; is a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets provide fault tolerance and can also be used to automatically scale the number of pods horizontally based on a variety of conditions.&quot;), mdx(&quot;p&quot;, null, &quot;ReplicaSets rely on pod templates to define the desired state of the pods.&quot;), mdx(&quot;h3&quot;, null, &quot;Deployments&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;deployment&quot;), &quot; is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets.&quot;), mdx(&quot;h3&quot;, null, &quot;Labels&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Labels&quot;), &quot; are key-value pairs attached to pods, ReplicaSets, Deployments, and other Kubernetes objects to organize and identify those objects. Common uses for labels include identifying application names (e.g. \&quot;mysql\&quot;), versions (e.g. \&quot;5.7.21\&quot;), and instances (e.g. \&quot;mysql-production\&quot;), architectural components (e.g. \&quot;ui\&quot; or \&quot;database\&quot;), higher-level applications (e.g. \&quot;whenner\&quot;), and other application meta information.&quot;), mdx(&quot;h3&quot;, null, &quot;Services&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;service&quot;), &quot; allows an application to be exposed on a network, even as the pods that host the application are created and destroyed, by abstracting pod IP addresses away from application consumers and load balancing between active pods. Services rely on labels to to associate with pods.&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n\tClient[External Client] --&gt; Service\n\tsubgraph Kubernetes\n\t\tService --&gt; Pod1\n\t\tService --&gt; Pod2\n\t\tend&quot;), mdx(&quot;p&quot;, null, &quot;There are four main types of Service:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;ClusterIP service&quot;), &quot; exposes the service on an IP address internal to the cluster so that only pods within the cluster can communicate with the service&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;NodePort service&quot;), &quot; exposes the service on static port on each node&apos;s IP address so that the service is accessible from outside the cluster, the node then uses a ClusterIP service to proxy requests on that port to an appropriate pod&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;LoadBalancer service&quot;), &quot; allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;An &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness]]></title><description><![CDATA[The opportunity for fair representation within a group]]></description><link>https://www.jamestharpe.com/scarf-model/</link><guid isPermaLink="false">https://www.jamestharpe.com/scarf-model/</guid><pubDate>Fri, 23 Jul 2021 14:11:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -20535,6 +20674,46 @@ return function MDXContent(_ref) {
   }, &quot;Tinkernut&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-30T18:07:46.000Z&quot;,
+  &quot;description&quot;: &quot;Abstract representations of system state at a given point in time&quot;,
+  &quot;tags&quot;: [&quot;math&quot;, &quot;computer-science&quot;],
+  &quot;title&quot;: &quot;State Machines&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;State Machines&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;state machine&quot;), &quot; is an abstract representation of a system&apos;s state at a given point in time. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;transition&quot;), &quot; is the change from one state to another given a set of inputs.&quot;), mdx(&quot;p&quot;, null, &quot;There are two types of state machines: Finite, and infinite. A finite state machine (FSM) has a finite number of states and actions whereas an infinite state machine has an infinite number of states and/or actions. Generally, the term \&quot;state machine\&quot; refers to a finite state machine.&quot;), mdx(&quot;p&quot;, null, &quot;State machines can be depicted formally in a visual format, which makes them useful for describing complex systems.&quot;), mdx(&quot;h2&quot;, null, &quot;State Machine Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://statecharts.github.io/what-is-a-state-machine.html&quot;
+  }, &quot;What is a State Machine?&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -20579,46 +20758,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://www.sciencedirect.com/science/article/pii/0167642387900359&quot;
   }, &quot;Statecharts: A visual formalism for complex systems&quot;), &quot; (original paper defining statecharts)&quot;)));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-30T18:07:46.000Z&quot;,
-  &quot;description&quot;: &quot;Abstract representations of system state at a given point in time&quot;,
-  &quot;tags&quot;: [&quot;math&quot;, &quot;computer-science&quot;],
-  &quot;title&quot;: &quot;State Machines&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;State Machines&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;state machine&quot;), &quot; is an abstract representation of a system&apos;s state at a given point in time. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;transition&quot;), &quot; is the change from one state to another given a set of inputs.&quot;), mdx(&quot;p&quot;, null, &quot;There are two types of state machines: Finite, and infinite. A finite state machine (FSM) has a finite number of states and actions whereas an infinite state machine has an infinite number of states and/or actions. Generally, the term \&quot;state machine\&quot; refers to a finite state machine.&quot;), mdx(&quot;p&quot;, null, &quot;State machines can be depicted formally in a visual format, which makes them useful for describing complex systems.&quot;), mdx(&quot;h2&quot;, null, &quot;State Machine Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://statecharts.github.io/what-is-a-state-machine.html&quot;
-  }, &quot;What is a State Machine?&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[XState (JavaScript Library)]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/xstate/</link><guid isPermaLink="false">https://www.jamestharpe.com/xstate/</guid><pubDate>Wed, 30 Dec 2020 18:03:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -25598,6 +25737,58 @@ return function MDXContent(_ref) {
   }, &quot;vis.js&quot;), &quot; code on GitHub&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
+  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
+  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
+  &quot;title&quot;: &quot;GitLab CI/CD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../gitlab/&quot;
+  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ci-cd/&quot;
+  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
+  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
+  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -25698,58 +25889,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;master&quot;), &quot;).&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
-  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
-  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
-  &quot;title&quot;: &quot;GitLab CI/CD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../gitlab/&quot;
-  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ci-cd/&quot;
-  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
-  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
-  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -31858,48 +31997,6 @@ return function MDXContent(_ref) {
   }, &quot;CloudFormation templates from Cloudonaut&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
-  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
-  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
-  &quot;title&quot;: &quot;Git Bash&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../bash/&quot;
-  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
-  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
-  }, &quot;Git Bash Shortcuts for Windows&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -32472,6 +32569,48 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases&quot;
   }, &quot;Git Basics - Git Aliases&quot;), &quot; chapter of Pro Git to learn more about Git aliases.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
+  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
+  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
+  &quot;title&quot;: &quot;Git Bash&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../bash/&quot;
+  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
+  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
+  }, &quot;Git Bash Shortcuts for Windows&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
