@@ -1,4 +1,234 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Oct 2021 11:43:31 GMT</lastBuildDate><item><title><![CDATA[System Qualities and Nonfunctional Requirements (NFRs)]]></title><description><![CDATA[Constraints on how software is engineered]]></description><link>https://www.jamestharpe.com/system-qualities/</link><guid isPermaLink="false">https://www.jamestharpe.com/system-qualities/</guid><pubDate>Tue, 05 Oct 2021 11:22:39 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 11 Oct 2021 14:02:37 GMT</lastBuildDate><item><title><![CDATA[SMART Goals]]></title><description><![CDATA[How to set goals that are specific, measurable, achievable, relevant, timely]]></description><link>https://www.jamestharpe.com/smart-goals/</link><guid isPermaLink="false">https://www.jamestharpe.com/smart-goals/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-10-11T13:27:56.000Z&quot;,
+  &quot;description&quot;: &quot;How to set goals that are specific, measurable, achievable, relevant, timely&quot;,
+  &quot;tags&quot;: [&quot;personal-productivity&quot;],
+  &quot;title&quot;: &quot;SMART Goals&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;SMART Goals&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;SMART goal&quot;), &quot; is a goal that is specific, measurable, achievable, relevant, and timely. SMART goals can help clarify priorities and improve decision making while reducing the need for outside guidance by providing enough information for independent and on-the-fly decisions.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Specific&quot;), &quot; goals are objectively and usually independently verifiable. In other words, it should be clear to any observer whether or not the goal has been achieved.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Measurable&quot;), &quot; goals show a clear indication of progress. Progress can be measured in a variety of ways; perhaps the simplest is to break the goal down into smaller steps and measuring complete vs. incomplete. Another way of measuring is through incremental progress; for example, if the goal is to run a 5-minute mile then progress can be seen by reducing the time it take to run a mile from 6 minutes to 5 minutes.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Achievable&quot;), &quot; goals are realistically achieved with the resources, skills, and time that will be dedicated to achieving each goal.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Relevant&quot;), &quot; goals solve real problems, seize real opportunities, and avoid solving problems that don&apos;t exist.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Timely&quot;), &quot; goals have due-dates (and sometimes milestones) that ensure relevancy and create a sense of urgency that is inline with the overall priority of each goal.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[You Aren't Gonna Need it (YAGNI)]]></title><description><![CDATA[A simple mnemonic to help limit project scope]]></description><link>https://www.jamestharpe.com/yagni/</link><guid isPermaLink="false">https://www.jamestharpe.com/yagni/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-10-11T13:27:56.000Z&quot;,
+  &quot;description&quot;: &quot;A simple mnemonic to help limit project scope&quot;,
+  &quot;tags&quot;: [&quot;requirements&quot;, &quot;project-management&quot;],
+  &quot;title&quot;: &quot;You Aren&apos;t Gonna Need it (YAGNI)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;You Aren&apos;t Gonna Need it (YAGNI)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;You Aren&apos;t Gonna Need it (YAGNI)&quot;), &quot; is a mnemonic to help limit scope in &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../requirements/&quot;
+  }, &quot;requirements&quot;), &quot;. YAGNI advises that there&apos;s no point in building capabilities into &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../product-management/&quot;
+  }, &quot;products&quot;), &quot; until there is an observable need. Though applicable to virtually any &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../engineering/&quot;
+  }, &quot;engineering&quot;), &quot; project, YAGNI is especially applicable to &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-engineering/&quot;
+  }, &quot;software&quot;), &quot; because it&apos;s so easy to change compared to other types of engineering projects.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Architectural Decision Records (ARDs)]]></title><description><![CDATA[A method for capturing architectural decisions]]></description><link>https://www.jamestharpe.com/adrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/adrs/</guid><pubDate>Mon, 11 Oct 2021 13:04:39 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-10-11T13:04:39.000Z&quot;,
+  &quot;description&quot;: &quot;A method for capturing architectural decisions&quot;,
+  &quot;tags&quot;: [&quot;software-architecture&quot;, &quot;requirements&quot;, &quot;system-qualities&quot;],
+  &quot;title&quot;: &quot;Architectural Decision Records (ARDs)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Architectural Decision Records (ARDs)&quot;), mdx(&quot;p&quot;, null, &quot;An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;architectural decision record (ARD)&quot;), &quot; is the record of a software design choice that addresses a significant &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../requirements/&quot;
+  }, &quot;requirement&quot;), &quot; of a software system and answers \&quot;why?\&quot; the decision was made.&quot;), mdx(&quot;p&quot;, null, &quot;An ADR typically captures a single decision in a light-weight format tha captures the &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;context&quot;), &quot; in which the decision is applicable, the &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;concern&quot;), &quot; addressed by the decision, the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../system-qualities/&quot;
+  }, mdx(&quot;em&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;system quality&quot;)), &quot; addressed/impacted, notable downsides to the decision, the &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;decision&quot;), &quot; its self, and any additional rationale or commentary deemed necessary to ensure the ADR is easily understood.&quot;), mdx(&quot;h2&quot;, null, &quot;Qualities of Effective ADRs&quot;), mdx(&quot;p&quot;, null, &quot;In the article &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://www.infoq.com/articles/sustainable-architectural-design-decisions/&quot;
+  }, &quot;Sustainable Architectural Design Decisions&quot;), &quot;, the authors coopt the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../smart-goals/&quot;
+  }, &quot;SMART mnemonic&quot;), &quot; to mean: Strategic, Measurable, Achievable, Requirements-driven, and Timeliness.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Strategic&quot;), &quot; ADRs consider the the long-term consequences of each decision on extensibility, operational overhead, and business strategy.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Measurable&quot;), &quot; ADRs are objectively verifiable both in implementation - is it implemented according to the decision? - and outcome - is the decision having the desired impact?&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Achievable&quot;), &quot; ADRs are reasonably followed because they are \&quot;good enough\&quot; but not necessarily \&quot;ideal\&quot;. For example, the difference in cost and effort between 99.9%, 99.99%, and 99.999% availability can be exponential; while \&quot;five nines availability\&quot; may be the idea, three or four nines may be good enough.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Requirements-driven&quot;), &quot; ADRs are take in the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../requirements/&quot;
+  }, &quot;requirements and constraints&quot;), &quot; of the project and avoid solutions to problems that aren&apos;t likely to be encountered (see also: &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../yagni/&quot;
+  }, &quot;YAGNI&quot;), &quot;).&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Timeless&quot;), &quot; ADRs will remain relevant for a long time because they are based on real-world experience and apply across platforms, tools, and technology stacks. As with any requirement, ADRs describe what the solution must and must not do, without describing how the solution is achieved.&quot;), mdx(&quot;h2&quot;, null, &quot;ADR Templates&quot;), mdx(&quot;h3&quot;, null, &quot;Short-Form ADR Template&quot;), mdx(&quot;p&quot;, null, &quot;In the context of &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;use-case&quot;, &quot;&gt;&quot;), &quot;, facing &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;concern&quot;, &quot;&gt;&quot;), &quot; we decided for &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;decision&quot;, &quot;&gt;&quot;), &quot; to achieve &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;quality&quot;, &quot;&gt;&quot;), &quot;, accepting &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;down-sides&quot;, &quot;&gt;&quot;), &quot;.&quot;), mdx(&quot;h3&quot;, null, &quot;Long-Form ADR Template&quot;), mdx(&quot;p&quot;, null, &quot;In the context of &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;use-case&quot;, &quot;&gt;&quot;), &quot;, facing &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;concern&quot;, &quot;&gt;&quot;), &quot; we decided for &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;decision&quot;, &quot;&gt;&quot;), &quot; to achieve &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;quality&quot;, &quot;&gt;&quot;), &quot;, accepting &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;down-sides&quot;, &quot;&gt;&quot;), &quot;, because &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;\\&lt;rationale-and-commentary&quot;, &quot;&gt;&quot;), &quot;.&quot;), mdx(&quot;h3&quot;, null, &quot;ADR Markdown Template&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;markdown&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-markdown&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-markdown&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token title important&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;#&quot;), &quot; Title&quot;), &quot;\n\nDate: \n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token title important&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;##&quot;), &quot; Status&quot;), &quot;\n\nAccepted|Proposed|Deprecated|Superseded\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;&lt;!-- Choose one of the above statuses. If Superseded, please link to the superseding ADRs --&gt;&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token title important&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;##&quot;), &quot; Context&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;&lt;!-- Describe the relevant context and terminology associated with this decision --&gt;&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token title important&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;##&quot;), &quot; Decision&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;&lt;!-- Detail the decision and how it can be verified --&gt;&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token title important&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;##&quot;), &quot; Additional Rationale and Commentary&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;&lt;!-- Provide secondary details that may be useful to understanding why this decision was made. If not needed, please delete this section. --&gt;&quot;)))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[System Qualities and Nonfunctional Requirements (NFRs)]]></title><description><![CDATA[Constraints on how software is engineered]]></description><link>https://www.jamestharpe.com/system-qualities/</link><guid isPermaLink="false">https://www.jamestharpe.com/system-qualities/</guid><pubDate>Tue, 05 Oct 2021 11:22:39 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -39,7 +269,7 @@ return function MDXContent(_ref) {
   }, &quot;software is engineered&quot;), &quot; to ensure a baseline level of quality. System qualities are often integrated into the &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../sdlc/&quot;
-  }, &quot;SDLC&quot;), &quot; as part of the \&quot;definition of done\&quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Categories of System Qualities and NFRs&quot;), mdx(&quot;p&quot;, null, &quot;Common categories of system qualities are: &quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;SDLC&quot;), &quot; as part of the \&quot;definition of done\&quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Categories of System Qualities and NFRs&quot;), mdx(&quot;p&quot;, null, &quot;Common categories of system qualities are:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, &quot;Availability&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -99,42 +329,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../requirements/&quot;
   }, &quot;requirements&quot;), &quot;, constraints, and design goals of the system. Optimizations may include cost, flexibility, scalability, implementation timelines, and various business factors.&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Architectural Decision Records (ARDs)]]></title><description><![CDATA[A method for capturing architectural decisions]]></description><link>https://www.jamestharpe.com/adrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/adrs/</guid><pubDate>Mon, 04 Oct 2021 18:14:39 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-10-04T18:14:39.000Z&quot;,
-  &quot;description&quot;: &quot;A method for capturing architectural decisions&quot;,
-  &quot;tags&quot;: [&quot;software-architecture&quot;, &quot;requirements&quot;],
-  &quot;title&quot;: &quot;Architectural Decision Records (ARDs)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Architectural Decision Records (ARDs)&quot;), mdx(&quot;p&quot;, null, &quot;An &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;architectural decision record (ARD)&quot;), &quot; is the record of a software design choice that addresses a significant &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../requirements/&quot;
-  }, &quot;requirement&quot;), &quot; of a software system.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Permanent removal of Windows taskbar pinned items]]></title><description><![CDATA[A quick fix to permanently remove pinned taskbar items that keep returning after a restart]]></description><link>https://www.jamestharpe.com/windows-unpinned-items-return-on-restart/</link><guid isPermaLink="false">https://www.jamestharpe.com/windows-unpinned-items-return-on-restart/</guid><pubDate>Thu, 30 Sep 2021 09:55:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -1121,7 +1315,7 @@ return function MDXContent(_ref) {
   }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash: Royalty-free Photos]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -1136,7 +1330,7 @@ var _frontmatter = {
   &quot;date&quot;: &quot;2021-09-21T14:52:10.000Z&quot;,
   &quot;description&quot;: &quot;Royalty free, high-resolution photos&quot;,
   &quot;tags&quot;: [&quot;web-dev&quot;],
-  &quot;title&quot;: &quot;Unsplash&quot;
+  &quot;title&quot;: &quot;Unsplash: Royalty-free Photos&quot;
 };
 var layoutProps = {
   _frontmatter: _frontmatter
@@ -1756,6 +1950,42 @@ return function MDXContent(_ref) {
   }, &quot;Delete&quot;), &quot; is the 127th code for historic reasons. The remaining codes are reserved for printable characters including punctuation, symbols, numbers, and letters.&quot;));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[Base64 Base64  is a set of methods to encode  binary  data as ASCII text so that the data can be transported using text-based protocols…]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-05T22:06:27.000Z&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;tags&quot;: [&quot;computer-science&quot;, &quot;ascii&quot;, &quot;binary&quot;],
+  &quot;title&quot;: &quot;Base64&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../binary/&quot;
+  }, &quot;binary&quot;), &quot; data as ASCII text so that the data can be transported using text-based protocols, such as HTTP.&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1844,42 +2074,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;1&quot;), &quot;.&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[Base64 Base64  is a set of methods to encode  binary  data as ASCII text so that the data can be transported using text-based protocols…]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-05T22:06:27.000Z&quot;,
-  &quot;description&quot;: &quot;&quot;,
-  &quot;tags&quot;: [&quot;computer-science&quot;, &quot;ascii&quot;, &quot;binary&quot;],
-  &quot;title&quot;: &quot;Base64&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../binary/&quot;
-  }, &quot;binary&quot;), &quot; data as ASCII text so that the data can be transported using text-based protocols, such as HTTP.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Object Signing and Encryption (JOSE)]]></title><description><![CDATA[A set of technologies used to encrypt and sign content]]></description><link>https://www.jamestharpe.com/jose/</link><guid isPermaLink="false">https://www.jamestharpe.com/jose/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -2333,50 +2527,6 @@ return function MDXContent(_ref) {
   }, &quot;JavaScript Object Notation (JSON) Data Interchange Format, RFC 7159&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Web Signatures (JWS)]]></title><description><![CDATA[A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515]]></description><link>https://www.jamestharpe.com/jws/</link><guid isPermaLink="false">https://www.jamestharpe.com/jws/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-01T12:09:27.000Z&quot;,
-  &quot;description&quot;: &quot;A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515&quot;,
-  &quot;tags&quot;: [&quot;jose&quot;, &quot;ietf-standards&quot;],
-  &quot;title&quot;: &quot;JSON Web Signatures (JWS)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JSON Web Signatures (JWS)&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;JSON Web Signature (JWS)&quot;), &quot; is a standard way to represent digitally signed and/or &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../hmacs/&quot;
-  }, &quot;HMACed&quot;), &quot; content using &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../json/&quot;
-  }, &quot;JSON&quot;), &quot; data structures.&quot;), mdx(&quot;h2&quot;, null, &quot;JWS Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7515&quot;
-  }, &quot;JSON Web Signatures (JWS), RFC 7515&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Hash-based Message Authentication Codes (HMAC)]]></title><description><![CDATA[Hash-based Message Authentication Codes]]></description><link>https://www.jamestharpe.com/hmacs/</link><guid isPermaLink="false">https://www.jamestharpe.com/hmacs/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2419,6 +2569,50 @@ return function MDXContent(_ref) {
   }, &quot;hash function&quot;), &quot; and a shared secret, or &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
   }, &quot;salt&quot;), &quot;. The sender computes the the hash value for the original message using the salt, then sends the original message and hash value to the receiver as a single message. The receiver then recomputes the hash value of the original message using the same hash function and salt. If the message was tampered with or if a different salt was used, a different hash value will result thus invalidating the message.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Web Signatures (JWS)]]></title><description><![CDATA[A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515]]></description><link>https://www.jamestharpe.com/jws/</link><guid isPermaLink="false">https://www.jamestharpe.com/jws/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-01T12:09:27.000Z&quot;,
+  &quot;description&quot;: &quot;A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515&quot;,
+  &quot;tags&quot;: [&quot;jose&quot;, &quot;ietf-standards&quot;],
+  &quot;title&quot;: &quot;JSON Web Signatures (JWS)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JSON Web Signatures (JWS)&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;JSON Web Signature (JWS)&quot;), &quot; is a standard way to represent digitally signed and/or &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../hmacs/&quot;
+  }, &quot;HMACed&quot;), &quot; content using &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../json/&quot;
+  }, &quot;JSON&quot;), &quot; data structures.&quot;), mdx(&quot;h2&quot;, null, &quot;JWS Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7515&quot;
+  }, &quot;JSON Web Signatures (JWS), RFC 7515&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[chmod Linux Command]]></title><description><![CDATA[A Linux command used to change the mode of a file or directory]]></description><link>https://www.jamestharpe.com/chmod/</link><guid isPermaLink="false">https://www.jamestharpe.com/chmod/</guid><pubDate>Tue, 31 Aug 2021 13:07:52 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -2584,86 +2778,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../operating-systems/&quot;
   }, &quot;operating system&quot;), &quot; but different in that containers do not provide hardware-level virtualization as virtual machines do.&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-08-18T11:13:14.000Z&quot;,
-  &quot;description&quot;: &quot;A system to conduct an orchestra of containers&quot;,
-  &quot;tags&quot;: [&quot;containers&quot;],
-  &quot;title&quot;: &quot;Kubernetes (k8s)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Kubernetes (k8s)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Kubernetes&quot;), &quot;, sometimes stylistically written as &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;k8s&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../open-source/&quot;
-  }, &quot;open-source&quot;), &quot; system to automate the deployment, scaling, and management of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../containers/&quot;
-  }, &quot;containerized&quot;), &quot; applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.&quot;), mdx(&quot;h2&quot;, null, &quot;How Kubernetes Works&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes works by maintaining a cluster of nodes, where each &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;node&quot;), &quot; is a physical or virtual machine capable of running one or more pods and managed by an agent called &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/&quot;
-  }, &quot;kublet&quot;), &quot;. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Kubernetes is declaratively configured by a manifest file, which describes the desired state of the cluster. Differences between the desired state are reconciled through the &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;control plane&quot;), &quot;, which is an extensible set of components that are responsible for maintaining the desired state of the cluster.&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n    subgraph Cluster\n\t\tMaster(\&quot;fa:fa-asterisk Master Node\&quot;)\n        subgraph Node1[Node]\n            Kublet1(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod1[Pod]\n            Kublet1 --&gt; Pod2[Pod]\n            Pod1[Pod]\n            Pod2[Pod]\n        end\n\t\tsubgraph Node2[Node]\n            Kublet2(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod3[Pod]\n            Kublet2 --&gt; Pod4\n            Pod3[Pod]\n            Pod4[Pod]\n        end\n        subgraph Node3[Node]\n            Kublet3(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod5[Pod]\n            Kublet3 --&gt; Pod6\n            Pod5[Pod]\n            Pod6[Pod]\n        end\n    end\n    subgraph CP[Control Plane]\n\t\tStore[(\&quot;Store (etcd)\&quot;)] --&gt;|Configuration| Master\n        API --&gt; Master\n        Scheduler --&gt; Master\n        Controller[\&quot;Controller Manager\&quot;] --&gt; Master\n    end\n    kubectl[\&quot;$ kubectl\&quot;] --&gt; API\n    Master --&gt; Kublet1\n    Master --&gt; Kublet2\n    Master --&gt; Kublet3&quot;), mdx(&quot;h2&quot;, null, &quot;Components of Kubernetes&quot;), mdx(&quot;h3&quot;, null, &quot;Pods&quot;), mdx(&quot;p&quot;, null, &quot;Pods are the most basic unit of execution in Kubernetes. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.&quot;), mdx(&quot;h3&quot;, null, &quot;ReplicaSets&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;ReplicaSet&quot;), &quot; is a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets provide fault tolerance and can also be used to automatically scale the number of pods horizontally based on a variety of conditions.&quot;), mdx(&quot;p&quot;, null, &quot;ReplicaSets rely on pod templates to define the desired state of the pods.&quot;), mdx(&quot;h3&quot;, null, &quot;Deployments&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;deployment&quot;), &quot; is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets.&quot;), mdx(&quot;h3&quot;, null, &quot;Labels&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Labels&quot;), &quot; are key-value pairs attached to pods, ReplicaSets, Deployments, and other Kubernetes objects to organize and identify those objects. Common uses for labels include identifying application names (e.g. \&quot;mysql\&quot;), versions (e.g. \&quot;5.7.21\&quot;), and instances (e.g. \&quot;mysql-production\&quot;), architectural components (e.g. \&quot;ui\&quot; or \&quot;database\&quot;), higher-level applications (e.g. \&quot;whenner\&quot;), and other application meta information.&quot;), mdx(&quot;h3&quot;, null, &quot;Services&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;service&quot;), &quot; allows an application to be exposed on a network, even as the pods that host the application are created and destroyed, by abstracting pod IP addresses away from application consumers and load balancing between active pods. Services rely on labels to to associate with pods.&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n\tClient[External Client] --&gt; Service\n\tsubgraph Kubernetes\n\t\tService --&gt; Pod1\n\t\tService --&gt; Pod2\n\t\tend&quot;), mdx(&quot;p&quot;, null, &quot;There are four main types of Service:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;ClusterIP service&quot;), &quot; exposes the service on an IP address internal to the cluster so that only pods within the cluster can communicate with the service&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;NodePort service&quot;), &quot; exposes the service on static port on each node&apos;s IP address so that the service is accessible from outside the cluster, the node then uses a ClusterIP service to proxy requests on that port to an appropriate pod&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;LoadBalancer service&quot;), &quot; allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;An &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes CLI: kubectl]]></title><description><![CDATA[The CLI interface for Kubernetes]]></description><link>https://www.jamestharpe.com/kubectl/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubectl/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -2862,6 +2976,86 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;k version&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-08-18T11:13:14.000Z&quot;,
+  &quot;description&quot;: &quot;A system to conduct an orchestra of containers&quot;,
+  &quot;tags&quot;: [&quot;containers&quot;],
+  &quot;title&quot;: &quot;Kubernetes (k8s)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Kubernetes (k8s)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Kubernetes&quot;), &quot;, sometimes stylistically written as &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;k8s&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../open-source/&quot;
+  }, &quot;open-source&quot;), &quot; system to automate the deployment, scaling, and management of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../containers/&quot;
+  }, &quot;containerized&quot;), &quot; applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.&quot;), mdx(&quot;h2&quot;, null, &quot;How Kubernetes Works&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes works by maintaining a cluster of nodes, where each &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;node&quot;), &quot; is a physical or virtual machine capable of running one or more pods and managed by an agent called &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/&quot;
+  }, &quot;kublet&quot;), &quot;. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Kubernetes is declaratively configured by a manifest file, which describes the desired state of the cluster. Differences between the desired state are reconciled through the &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;control plane&quot;), &quot;, which is an extensible set of components that are responsible for maintaining the desired state of the cluster.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n    subgraph Cluster\n\t\tMaster(\&quot;fa:fa-asterisk Master Node\&quot;)\n        subgraph Node1[Node]\n            Kublet1(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod1[Pod]\n            Kublet1 --&gt; Pod2[Pod]\n            Pod1[Pod]\n            Pod2[Pod]\n        end\n\t\tsubgraph Node2[Node]\n            Kublet2(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod3[Pod]\n            Kublet2 --&gt; Pod4\n            Pod3[Pod]\n            Pod4[Pod]\n        end\n        subgraph Node3[Node]\n            Kublet3(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod5[Pod]\n            Kublet3 --&gt; Pod6\n            Pod5[Pod]\n            Pod6[Pod]\n        end\n    end\n    subgraph CP[Control Plane]\n\t\tStore[(\&quot;Store (etcd)\&quot;)] --&gt;|Configuration| Master\n        API --&gt; Master\n        Scheduler --&gt; Master\n        Controller[\&quot;Controller Manager\&quot;] --&gt; Master\n    end\n    kubectl[\&quot;$ kubectl\&quot;] --&gt; API\n    Master --&gt; Kublet1\n    Master --&gt; Kublet2\n    Master --&gt; Kublet3&quot;), mdx(&quot;h2&quot;, null, &quot;Components of Kubernetes&quot;), mdx(&quot;h3&quot;, null, &quot;Pods&quot;), mdx(&quot;p&quot;, null, &quot;Pods are the most basic unit of execution in Kubernetes. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.&quot;), mdx(&quot;h3&quot;, null, &quot;ReplicaSets&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;ReplicaSet&quot;), &quot; is a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets provide fault tolerance and can also be used to automatically scale the number of pods horizontally based on a variety of conditions.&quot;), mdx(&quot;p&quot;, null, &quot;ReplicaSets rely on pod templates to define the desired state of the pods.&quot;), mdx(&quot;h3&quot;, null, &quot;Deployments&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;deployment&quot;), &quot; is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets.&quot;), mdx(&quot;h3&quot;, null, &quot;Labels&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Labels&quot;), &quot; are key-value pairs attached to pods, ReplicaSets, Deployments, and other Kubernetes objects to organize and identify those objects. Common uses for labels include identifying application names (e.g. \&quot;mysql\&quot;), versions (e.g. \&quot;5.7.21\&quot;), and instances (e.g. \&quot;mysql-production\&quot;), architectural components (e.g. \&quot;ui\&quot; or \&quot;database\&quot;), higher-level applications (e.g. \&quot;whenner\&quot;), and other application meta information.&quot;), mdx(&quot;h3&quot;, null, &quot;Services&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;service&quot;), &quot; allows an application to be exposed on a network, even as the pods that host the application are created and destroyed, by abstracting pod IP addresses away from application consumers and load balancing between active pods. Services rely on labels to to associate with pods.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n\tClient[External Client] --&gt; Service\n\tsubgraph Kubernetes\n\t\tService --&gt; Pod1\n\t\tService --&gt; Pod2\n\t\tend&quot;), mdx(&quot;p&quot;, null, &quot;There are four main types of Service:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;ClusterIP service&quot;), &quot; exposes the service on an IP address internal to the cluster so that only pods within the cluster can communicate with the service&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;NodePort service&quot;), &quot; exposes the service on static port on each node&apos;s IP address so that the service is accessible from outside the cluster, the node then uses a ClusterIP service to proxy requests on that port to an appropriate pod&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;LoadBalancer service&quot;), &quot; allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness]]></title><description><![CDATA[The opportunity for fair representation within a group]]></description><link>https://www.jamestharpe.com/scarf-model/</link><guid isPermaLink="false">https://www.jamestharpe.com/scarf-model/</guid><pubDate>Fri, 23 Jul 2021 14:11:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -25737,58 +25931,6 @@ return function MDXContent(_ref) {
   }, &quot;vis.js&quot;), &quot; code on GitHub&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
-  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
-  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
-  &quot;title&quot;: &quot;GitLab CI/CD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../gitlab/&quot;
-  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ci-cd/&quot;
-  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
-  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
-  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -25889,6 +26031,58 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;master&quot;), &quot;).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
+  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
+  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
+  &quot;title&quot;: &quot;GitLab CI/CD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../gitlab/&quot;
+  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ci-cd/&quot;
+  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
+  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
+  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -31997,6 +32191,48 @@ return function MDXContent(_ref) {
   }, &quot;CloudFormation templates from Cloudonaut&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
+  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
+  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
+  &quot;title&quot;: &quot;Git Bash&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../bash/&quot;
+  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
+  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
+  }, &quot;Git Bash Shortcuts for Windows&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -32569,48 +32805,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases&quot;
   }, &quot;Git Basics - Git Aliases&quot;), &quot; chapter of Pro Git to learn more about Git aliases.&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
-  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
-  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
-  &quot;title&quot;: &quot;Git Bash&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../bash/&quot;
-  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
-  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
-  }, &quot;Git Bash Shortcuts for Windows&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
