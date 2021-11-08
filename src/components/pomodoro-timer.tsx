@@ -37,7 +37,6 @@ function target(
 			? context.target.resting
 			: context?.target.working;
 
-	console.log("target", { state: state?.toStrings(), result });
 	return result;
 }
 
@@ -50,7 +49,6 @@ function nextTarget(
 			? context.target.working
 			: context.target.resting;
 
-	console.log("nextTarget", { state: state?.toStrings(), result });
 	return result;
 }
 
@@ -147,7 +145,6 @@ function createPomodoro(initialContext?: Partial<PomodoroContext>) {
 					const elapsed = Date.now() - (context.started?.getTime() || 0);
 					const remaining =
 						(context.target.current || target(state, context)) - elapsed;
-					console.log("tick", { elapsed, remaining, context });
 					return {
 						...context,
 						elapsed,
@@ -199,7 +196,7 @@ function msToTime(duration: number) {
 	const h = hours < 10 ? `0${hours}` : `${hours}`;
 	const m = minutes < 10 ? `0${minutes}` : `${minutes}`;
 	const s = seconds < 10 ? `0${seconds}` : `${seconds}`;
-	// console.log("msToTime", duration);
+
 	return `${h}:${m}:${s}`;
 }
 
