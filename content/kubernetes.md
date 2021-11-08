@@ -88,11 +88,29 @@ There are four main types of Service:
 * A **LoadBalancer service** allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service
 * An **ExternalName service** associates a service with a DNS name by returning a CNAME record on DNS lookup
 
-<!--
 ### Storage and Volumes
+
+A **volume** references a storage location that can be used by Kubernetes for persistent storage. **Volume mounts** attach pods to volumes via the volume name and a specified mount path.
+
+Basic types of volumes include:
+
+* `emptyDir` volumes provide an empty directory for the lifetime of a Pod. This is useful for sharing files between containers, caching, and other ephemeral storage needs.
+* `hostPath` volumes provide access to the underlying node's filesystem. This is useful for added node health monitoring, such as [cAdvisor](https://github.com/google/cadvisor). For security reasons, `hostPath` volumes are typically readonly. 
+* `nfs` volumes provide network file system access. This is useful for shared resources across pods and pod life cycles.
+
+#### `PersistentVolumes`
+
+A **PersistentVolume** provides cluster-wide storage through network-attached storage (NAS) that can be made available to any pod even if it is rescheduled to another node. A PersistentVolume is associated with a pod through a **PersistentVolumeClaim (PVC)**. The storage that backs a persistent volume is usually implemented as a Network File System (NFS), iSCSI, cloud service, or other type of network based storage.
+
+<!--
 
 ### ConfigMaps and Secrets
 
 Key-value pairs that can be used to store and retrieve configuration data.
 
 -->
+
+## Kubernetes Resources
+
+* [Official Kubernetes Documentation](https://kubernetes.io/docs/home/)
+* [Open Source Kubernetes Examples](https://github.com/kubernetes/examples)

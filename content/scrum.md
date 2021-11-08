@@ -17,7 +17,7 @@ Scrum defines three roles:
 1. The **product owner** defines and prioritizes the product backlog
 1. The **developer** implements the solution
 
-A Scrum team is typically made up of one scrum master, one product owner, and roughly 5 - 10 developers. 
+A Scrum team is typically made up of one scrum master, one product owner, and roughly 5 - 10 developers.
 
 ## Scrum Ceremonies
 
