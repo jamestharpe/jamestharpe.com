@@ -104,11 +104,13 @@ const config: MachineConfig<
 let lastTarget = 0;
 
 function target(state: any, context: any) {
-	return (lastTarget = (state.matches("running.working")
-		? context.target.working
-		: state.matches("running.resting")
-		? context.target.resting
-		: lastTarget) as number);
+	return (lastTarget = (
+		state.matches("running.working")
+			? context.target.working
+			: state.matches("running.resting")
+			? context.target.resting
+			: lastTarget
+	) as number);
 }
 
 const pomodoroMachine = Machine(config, {
