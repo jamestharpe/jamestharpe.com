@@ -17,16 +17,14 @@ const context = {
 	}
 };
 
-let lastTarget = 0;
+let lastTarget = context.target.working;
 
-function target(state: any, context: any) {
-	return (lastTarget = (
-		state.matches("running.working")
-			? context.target.working
-			: state.matches("running.resting")
-			? context.target.resting
-			: lastTarget
-	) as number);
+function target(state: any, ctx: typeof context) {
+	return (lastTarget = state.matches("running.working")
+		? ctx.target.working
+		: state.matches("running.resting")
+		? ctx.target.resting
+		: lastTarget);
 }
 
 const pomodoroMachine = createMachine(
@@ -47,17 +45,16 @@ const pomodoroMachine = createMachine(
 				},
 				states: {
 					iterating: {
-						exit: ["start", "iterate"],
-						on: {
-							"": "working"
-						}
+						entry: "start",
+						exit: "iterate",
+						always: "working"
 					},
 					working: {
 						entry: ["tick"],
+						always: { target: "worked", cond: "complete" },
 						on: {
 							PAUSE: "#pomodoro.paused",
-							SKIP: "worked",
-							"": { target: "worked", cond: "complete" }
+							SKIP: "worked"
 						},
 						after: {
 							1000: [{ target: "working", cond: "incomplete" }]
@@ -72,10 +69,10 @@ const pomodoroMachine = createMachine(
 					},
 					resting: {
 						entry: "tick",
+						always: { target: "rested", cond: "complete" },
 						on: {
 							PAUSE: "#pomodoro.paused",
-							SKIP: "rested",
-							"": { target: "rested", cond: "complete" }
+							SKIP: "rested"
 						},
 						after: {
 							1000: [{ target: "resting", cond: "incomplete" }]
@@ -112,12 +109,21 @@ const pomodoroMachine = createMachine(
 			// firstIteration: (context) => context.iterations === 0
 		},
 		actions: {
-			tick: assign({
-				elapsed: (context) => Date.now() - context.started,
-				remaining: (context, _, { state }) =>
-					target(state, context) - context.elapsed
+			tick: assign((context, _event, { state }) => {
+				const elapsed = Date.now() - context.started;
+				const remaining = target(state, context) - elapsed;
+				console.log("tick", { elapsed, remaining, context });
+				return {
+					...context,
+					elapsed,
+					remaining
+				};
 			}),
-			start: assign((context) => ({ ...context, started: Date.now() })),
+			start: assign((context, _event, { state }) => ({
+				...context,
+				started: Date.now(),
+				remaining: target(state, context)
+			})),
 			pause: assign((context) => ({ ...context, paused: Date.now() })),
 			resume: assign({
 				started: (context) => context.started + (Date.now() - context.paused)
@@ -136,11 +142,11 @@ function msToTime(duration: number) {
 		minutes = Math.floor((duration / (1000 * 60)) % 60),
 		hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
 
-	const h = hours < 10 ? "0" + hours.toString() : hours.toString();
-	const m = minutes < 10 ? "0" + minutes.toString() : minutes.toString();
-	const s = seconds < 10 ? "0" + seconds.toString() : seconds.toString();
+	const h = hours < 10 ? `0${hours}` : `${hours}`;
+	const m = minutes < 10 ? `0${minutes}` : `${minutes}`;
+	const s = seconds < 10 ? `0${seconds}` : `${seconds}`;
 	console.log("msToTime", duration);
-	return h + ":" + m + ":" + s;
+	return `${h}:${m}:${s}`;
 }
 
 const PomodoroTimer = () => {
