@@ -3,175 +3,220 @@
 /* eslint-disable @typescript-eslint/no-unsafe-member-access */
 import { useMachine } from "@xstate/react";
 import React from "react";
-import {
-	AnyEventObject,
-	assign,
-	Machine,
-	MachineConfig,
-	StateSchema
-} from "xstate";
+import { assign, createMachine, State } from "xstate";
 
-const context = {
+interface PomodoroContext {
+	iterations: number;
+	elapsed: number;
+	remaining: number;
+	started?: Date;
+	paused?: Date;
+	target: {
+		current?: number;
+		working: number;
+		resting: number;
+	};
+}
+
+const defaultPomodoroContext: PomodoroContext = {
 	iterations: 0,
 	elapsed: 0,
-	remaining: 0,
-	started: Date.now(),
-	paused: Date.now(),
+	remaining: 1500000,
 	target: {
 		working: 1500000, // 25 minutes
-		resting: 300000 // 5 m inutes
+		resting: 300000 // 5 m minutes
 	}
 };
 
-const config: MachineConfig<
-	typeof context,
-	StateSchema<any>,
-	AnyEventObject
-> = {
-	id: "pomodoro",
-	initial: "idle",
-	context,
-	states: {
-		idle: {
-			on: {
-				NEXT: "running"
-			}
-		},
-		running: {
-			initial: "iterating",
-			on: {
-				END: "idle"
-			},
+function target(
+	state?: State<PomodoroContext>,
+	context: PomodoroContext = defaultPomodoroContext
+): number {
+	const result =
+		state?.matches("running.worked") || state?.matches("running.resting")
+			? context.target.resting
+			: context?.target.working;
+
+	return result;
+}
+
+function nextTarget(
+	state?: State<PomodoroContext>,
+	context: PomodoroContext = defaultPomodoroContext
+): number {
+	const result =
+		target(state, context) === context.target.resting
+			? context.target.working
+			: context.target.resting;
+
+	return result;
+}
+
+function createPomodoro(initialContext?: Partial<PomodoroContext>) {
+	const context: PomodoroContext = {
+		...defaultPomodoroContext,
+		...initialContext
+	};
+	return createMachine(
+		{
+			id: "pomodoro",
+			initial: "idle",
+			context,
 			states: {
-				iterating: {
-					exit: ["start", "iterate"],
+				idle: {
 					on: {
-						"": "working"
+						NEXT: "running"
 					}
 				},
-				working: {
-					entry: ["tick"],
+				running: {
+					initial: "iterating",
 					on: {
-						PAUSE: "#pomodoro.paused",
-						SKIP: "worked",
-						"": { target: "worked", cond: "complete" }
+						END: "idle"
 					},
-					after: {
-						1000: [{ target: "working", cond: "incomplete" }]
+					states: {
+						iterating: {
+							entry: "start",
+							exit: "iterate",
+							always: "working"
+						},
+						working: {
+							entry: "tick",
+							always: { target: "worked", cond: "complete" },
+							on: {
+								PAUSE: "#pomodoro.paused",
+								SKIP: "worked"
+							},
+							after: {
+								1000: [{ target: "working", cond: "incomplete" }]
+							}
+						},
+						worked: {
+							entry: "stop",
+							on: {
+								NEXT: "resting",
+								REPEAT: "iterating"
+							},
+							exit: "start"
+						},
+						resting: {
+							entry: "tick",
+							always: { target: "rested", cond: "complete" },
+							on: {
+								PAUSE: "#pomodoro.paused",
+								SKIP: "rested"
+							},
+							after: {
+								1000: [{ target: "resting", cond: "incomplete" }]
+							}
+						},
+						rested: {
+							entry: "stop",
+							on: {
+								NEXT: "iterating",
+								REPEAT: "resting"
+							},
+							exit: "start"
+						},
+						last: {
+							type: "history"
+						}
 					}
 				},
-				worked: {
+				paused: {
+					entry: "pause",
 					on: {
-						NEXT: "resting",
-						REPEAT: "iterating"
+						RESUME: "running.last",
+						END: "idle"
 					},
-					exit: "start"
-				},
-				resting: {
-					entry: "tick",
-					on: {
-						PAUSE: "#pomodoro.paused",
-						SKIP: "rested",
-						"": { target: "rested", cond: "complete" }
-					},
-					after: {
-						1000: [{ target: "resting", cond: "incomplete" }]
-					}
-				},
-				rested: {
-					on: {
-						NEXT: "iterating",
-						REPEAT: "resting"
-					},
-					exit: "start"
-				},
-				last: {
-					type: "history"
+					exit: "resume"
 				}
 			}
 		},
-		paused: {
-			entry: "pause",
-			on: {
-				RESUME: "running.last",
-				END: "idle"
+		{
+			guards: {
+				complete: (context, _, { state }) =>
+					context.elapsed >= target(state, context),
+				incomplete: (context, _, { state }) =>
+					context.elapsed < target(state, context)
+				// firstIteration: (context) => context.iterations === 0
 			},
-			exit: "resume"
+			actions: {
+				tick: assign((context, _event, { state }) => {
+					const elapsed = Date.now() - (context.started?.getTime() || 0);
+					const remaining =
+						(context.target.current || target(state, context)) - elapsed;
+					return {
+						...context,
+						elapsed,
+						remaining
+					};
+				}),
+				start: assign((context, _event, { state }) => {
+					const remaining = target(state, context);
+					return {
+						...context,
+						started: new Date(),
+						remaining,
+						target: { ...context.target, current: remaining }
+					};
+				}),
+				stop: assign((context, _event, { state }) => {
+					return {
+						...context,
+						elapsed: 0,
+						remaining: nextTarget(state, context)
+					};
+				}),
+				pause: assign((context) => ({ ...context, paused: new Date() })),
+				resume: assign({
+					started: (context) => {
+						const now = Date.now();
+						const started = context.started?.getTime() ?? now;
+						const paused = context.paused?.getTime() ?? now;
+						return new Date(started + (now - paused));
+					}
+				}),
+				iterate: assign({
+					iterations: (context) => {
+						return context.iterations + 1;
+					}
+				})
+			}
 		}
-	}
-};
-
-let lastTarget = 0;
-
-function target(state: any, context: any) {
-	return (lastTarget = (
-		state.matches("running.working")
-			? context.target.working
-			: state.matches("running.resting")
-			? context.target.resting
-			: lastTarget
-	) as number);
+	);
 }
 
-const pomodoroMachine = Machine(config, {
-	guards: {
-		complete: (context, _, { state }) =>
-			context.elapsed >= target(state, context),
-		incomplete: (context, _, { state }) =>
-			context.elapsed < target(state, context),
-		firstIteration: (context) => context.iterations === 0
-	},
-	actions: {
-		tick: assign({
-			elapsed: (context) => Date.now() - context.started,
-			remaining: (context, _, { state }) =>
-				target(state, context) - context.elapsed
-		}),
-		start: assign({ started: () => Date.now() }),
-		pause: assign({ paused: () => Date.now() }),
-		resume: assign({
-			started: (context) => context.started + (Date.now() - context.paused)
-		}),
-		iterate: assign({
-			iterations: (context) => {
-				return context.iterations + 1;
-			}
-		})
-	}
-});
+const pomodoroMachine = createPomodoro({});
 
 function msToTime(duration: number) {
 	const seconds = Math.floor((duration / 1000) % 60),
 		minutes = Math.floor((duration / (1000 * 60)) % 60),
 		hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
 
-	const h = hours < 10 ? "0" + hours.toString() : hours.toString();
-	const m = minutes < 10 ? "0" + minutes.toString() : minutes.toString();
-	const s = seconds < 10 ? "0" + seconds.toString() : seconds.toString();
-	console.log("msToTime", duration);
-	return h + ":" + m + ":" + s;
+	const h = hours < 10 ? `0${hours}` : `${hours}`;
+	const m = minutes < 10 ? `0${minutes}` : `${minutes}`;
+	const s = seconds < 10 ? `0${seconds}` : `${seconds}`;
+
+	return `${h}:${m}:${s}`;
 }
+
+const captionMap: Record<string, string> = {
+	idle: "Inactive",
+	"running.working": "You Should Be Working",
+	"running.worked": "Work Session Complete",
+	"running.resting": "You Should Be Resting",
+	"running.rested": "Rest Session Complete",
+	paused: "Paused"
+};
 
 const PomodoroTimer = () => {
 	const [state, send] = useMachine(pomodoroMachine);
-	const caption = state.matches("idle")
-		? "Inactive"
-		: state.matches("running.working")
-		? "You Should Be Working"
-		: state.matches("running.worked")
-		? "Work Session Complete"
-		: state.matches("running.resting")
-		? "You Should Be Resting"
-		: state.matches("running.rested")
-		? "Rest Session Complete"
-		: state.matches("paused")
-		? "Paused"
-		: "...";
+	const caption = captionMap[state.toStrings().pop() || ""];
 
 	return (
 		<div>
 			<h3>{caption}</h3>
-			{!state.matches("idle") && <h4>{msToTime(state.context.remaining)}</h4>}
+			<h4>{msToTime(state.context.remaining)}</h4>
 			{state.nextEvents.includes("NEXT") && (
 				<button onClick={() => send("NEXT")} title="Start Session">
 					▶
@@ -184,7 +229,7 @@ const PomodoroTimer = () => {
 				</button>
 			)}
 			{state.nextEvents.includes("RESUME") && (
-				<button onClick={() => send("RESUME")} title="Pause">
+				<button onClick={() => send("RESUME")} title="Resume">
 					▶
 				</button>
 			)}
