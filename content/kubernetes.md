@@ -114,3 +114,4 @@ Key-value pairs that can be used to store and retrieve configuration data.
 
 * [Official Kubernetes Documentation](https://kubernetes.io/docs/home/)
 * [Open Source Kubernetes Examples](https://github.com/kubernetes/examples)
+* [Official Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
