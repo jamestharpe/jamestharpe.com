@@ -62,3 +62,4 @@ title: "Agile"
 
 * [Manifesto for Agile Software Development](https://agilemanifesto.org/)
 * [Agile Process](http://www.agile-process.org/)
+* [Writing the Agile Manifesto by Martin Fowler](https://martinfowler.com/articles/agileStory.html)
