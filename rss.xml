@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Oct 2021 15:38:31 GMT</lastBuildDate><item><title><![CDATA[SMART Goals]]></title><description><![CDATA[How to set goals that are specific, measurable, achievable, relevant, timely]]></description><link>https://www.jamestharpe.com/smart-goals/</link><guid isPermaLink="false">https://www.jamestharpe.com/smart-goals/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 08 Nov 2021 13:12:45 GMT</lastBuildDate><item><title><![CDATA[SMART Goals]]></title><description><![CDATA[How to set goals that are specific, measurable, achievable, relevant, timely]]></description><link>https://www.jamestharpe.com/smart-goals/</link><guid isPermaLink="false">https://www.jamestharpe.com/smart-goals/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -1529,7 +1529,12 @@ return function MDXContent(_ref) {
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;http://www.agile-process.org/&quot;
-  }, &quot;Agile Process&quot;))));
+  }, &quot;Agile Process&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://martinfowler.com/articles/agileStory.html&quot;
+  }, &quot;Writing the Agile Manifesto by Martin Fowler&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[User Stories]]></title><description><![CDATA[The philosophy behind gathering, writing, and using user stories]]></description><link>https://www.jamestharpe.com/user-stories/</link><guid isPermaLink="false">https://www.jamestharpe.com/user-stories/</guid><pubDate>Tue, 07 Sep 2021 15:49:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -3055,16 +3060,7 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, &quot;An &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;li&quot;
-  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)), mdx(&quot;h3&quot;, null, &quot;Storage and Volumes&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;volume&quot;), &quot; references a storage location that can be used by Kubernetes for persistent storage. &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Volume mounts&quot;), &quot; attach pods to volumes via the volume name and a specified mount path.&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes supports the following volume types:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;emptyDir&quot;), &quot; volumes provide an empty directory for the lifetime of a Pod. This is useful for sharing files between containers, caching, and other ephemeral storage needs.&quot;)));
+  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness]]></title><description><![CDATA[The opportunity for fair representation within a group]]></description><link>https://www.jamestharpe.com/scarf-model/</link><guid isPermaLink="false">https://www.jamestharpe.com/scarf-model/</guid><pubDate>Fri, 23 Jul 2021 14:11:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -13716,272 +13712,6 @@ return function MDXContent(_ref) {
   }, &quot;CORS headers&quot;), &quot; when the Angular dev server is hosting scripts that can be loaded from other applications.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Arduino 16x2 LCD]]></title><description><![CDATA[How to use the popular 16x3 LCD included with many Arduino kits]]></description><link>https://www.jamestharpe.com/arduino-lcd-16x2/</link><guid isPermaLink="false">https://www.jamestharpe.com/arduino-lcd-16x2/</guid><pubDate>Sat, 06 Feb 2021 23:26:12 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-02-06T23:26:12.000Z&quot;,
-  &quot;description&quot;: &quot;How to use the popular 16x3 LCD included with many Arduino kits&quot;,
-  &quot;tags&quot;: [&quot;arduino&quot;],
-  &quot;title&quot;: &quot;Arduino 16x2 LCD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Arduino 16x2 LCD&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://store.arduino.cc/usa/arduino-starter-kit&quot;
-  }, &quot;official Arduino Starter Kit&quot;), &quot; includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show simple text output. Other kits, such as the &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://www.elegoo.com/collections/uno-r3-starter-kits/products/elegoo-uno-project-super-starter-kit&quot;
-  }, &quot;Elegoo UNO R3 Super Starter  Kit&quot;), &quot;, come with compatible versions.&quot;), mdx(&quot;h2&quot;, null, &quot;Wiring the Arduino 16x2 LCD&quot;), mdx(&quot;p&quot;, null, &quot;The Contrast pin (labeled &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;VO&quot;), &quot;) can be wired into a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Potentiometer&quot;
-  }, &quot;potentiometer&quot;), &quot; for contrast control, or directly into the 5V rail which will maximize the contrast and may make the display difficult to read.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;img&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;src&quot;: &quot;../img/arduino-lcd-16x2-wiring-diagram.svg&quot;,
-    &quot;alt&quot;: &quot;wiring diagram&quot;
-  })), mdx(&quot;h2&quot;, null, &quot;\&quot;Hello World\&quot; with Arduino 16x2 LCD and &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;h2&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;LiquidCrystal&quot;)), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;cpp&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-cpp&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-cpp&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token macro property&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;token directive-hash&quot;
-  }, &quot;#&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;token directive keyword&quot;
-  }, &quot;include&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;span&quot;,
-    &quot;className&quot;: &quot;token string&quot;
-  }, &quot;&lt;LiquidCrystal.h&gt;&quot;)), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token comment&quot;
-  }, &quot;// LCD Configuration&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token keyword&quot;
-  }, &quot;const&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token keyword&quot;
-  }, &quot;int&quot;), &quot;\n\tLCD_PIN_RS &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;11&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_EN &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;12&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D4 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;2&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D5 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;3&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D6 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;4&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D7 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token operator&quot;
-  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;5&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n\nLiquidCrystal &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;lcd&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), &quot;LCD_PIN_RS&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_EN&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_D4&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_D5&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_D6&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; LCD_PIN_D7&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token keyword&quot;
-  }, &quot;void&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;setup&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;{&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;.&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;begin&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;16&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;2&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;.&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;setCursor&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;0&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token number&quot;
-  }, &quot;0&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;.&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;print&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token string&quot;
-  }, &quot;\&quot;Hello World!\&quot;&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;}&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token keyword&quot;
-  }, &quot;void&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;loop&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;(&quot;), mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;{&quot;), &quot;\n  &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token comment&quot;
-  }, &quot;// Do nothing&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;}&quot;)))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Arduino Thermostat]]></title><description><![CDATA[Build your own programmable thermostat with Arduino]]></description><link>https://www.jamestharpe.com/arduino-thermostat/</link><guid isPermaLink="false">https://www.jamestharpe.com/arduino-thermostat/</guid><pubDate>Sat, 06 Feb 2021 23:26:12 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -15636,6 +15366,272 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://arduinogetstarted.com/tutorials/arduino-lcd&quot;
   }, &quot;Arduino LCD tutorial&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Arduino 16x2 LCD]]></title><description><![CDATA[How to use the popular 16x3 LCD included with many Arduino kits]]></description><link>https://www.jamestharpe.com/arduino-lcd-16x2/</link><guid isPermaLink="false">https://www.jamestharpe.com/arduino-lcd-16x2/</guid><pubDate>Sat, 06 Feb 2021 23:26:12 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-02-06T23:26:12.000Z&quot;,
+  &quot;description&quot;: &quot;How to use the popular 16x3 LCD included with many Arduino kits&quot;,
+  &quot;tags&quot;: [&quot;arduino&quot;],
+  &quot;title&quot;: &quot;Arduino 16x2 LCD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Arduino 16x2 LCD&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://store.arduino.cc/usa/arduino-starter-kit&quot;
+  }, &quot;official Arduino Starter Kit&quot;), &quot; includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show simple text output. Other kits, such as the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://www.elegoo.com/collections/uno-r3-starter-kits/products/elegoo-uno-project-super-starter-kit&quot;
+  }, &quot;Elegoo UNO R3 Super Starter  Kit&quot;), &quot;, come with compatible versions.&quot;), mdx(&quot;h2&quot;, null, &quot;Wiring the Arduino 16x2 LCD&quot;), mdx(&quot;p&quot;, null, &quot;The Contrast pin (labeled &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;VO&quot;), &quot;) can be wired into a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://en.wikipedia.org/wiki/Potentiometer&quot;
+  }, &quot;potentiometer&quot;), &quot; for contrast control, or directly into the 5V rail which will maximize the contrast and may make the display difficult to read.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;img&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;src&quot;: &quot;../img/arduino-lcd-16x2-wiring-diagram.svg&quot;,
+    &quot;alt&quot;: &quot;wiring diagram&quot;
+  })), mdx(&quot;h2&quot;, null, &quot;\&quot;Hello World\&quot; with Arduino 16x2 LCD and &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;h2&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;LiquidCrystal&quot;)), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;cpp&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-cpp&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-cpp&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token macro property&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token directive-hash&quot;
+  }, &quot;#&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token directive keyword&quot;
+  }, &quot;include&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;token string&quot;
+  }, &quot;&lt;LiquidCrystal.h&gt;&quot;)), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;// LCD Configuration&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;const&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;int&quot;), &quot;\n\tLCD_PIN_RS &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;11&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_EN &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;12&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D4 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D5 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D6 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tLCD_PIN_D7 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;5&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n\nLiquidCrystal &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;lcd&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), &quot;LCD_PIN_RS&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_EN&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_D4&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_D5&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_D6&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; LCD_PIN_D7&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;void&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;setup&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;{&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;begin&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;16&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;setCursor&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token number&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n  lcd&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;print&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token string&quot;
+  }, &quot;\&quot;Hello World!\&quot;&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;;&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;}&quot;), &quot;\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;void&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;loop&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;(&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;)&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;{&quot;), &quot;\n  &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;// Do nothing&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;}&quot;)))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Sugru]]></title><description><![CDATA[Sugru Sugru  is a moldable glue useful for making custom shapes for repairs, crafts, and DIY projects.]]></description><link>https://www.jamestharpe.com/sugru/</link><guid isPermaLink="false">https://www.jamestharpe.com/sugru/</guid><pubDate>Sun, 24 Jan 2021 16:22:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -29016,11 +29012,6 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.scribbr.com/statistics/standard-deviation/&quot;
-  }, &quot;Understanding and calculating standard deviation&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://byjus.com/standard-deviation-formula/&quot;
   }, &quot;Standard Deviation Formula&quot;))));
 }
@@ -30007,82 +29998,6 @@ return function MDXContent(_ref) {
   }, &quot;James Watt&quot;), &quot;, best known for his work to improve the steam engine.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-24T15:33:11.000Z&quot;,
-  &quot;description&quot;: &quot;A free and open-source operating system&quot;,
-  &quot;tags&quot;: [&quot;operating-systems&quot;],
-  &quot;title&quot;: &quot;Linux&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Linux&quot;), mdx(&quot;h2&quot;, null, &quot;Useful Commands&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;thead&quot;
-  }, mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Command&quot;), mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;https://www.man7.org/linux/man-pages/man8/lsusb.8.html&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Change the password or password validity period for a user account&quot;)))), mdx(&quot;h2&quot;, null, &quot;Linux Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ&quot;
-  }, &quot;tutorialLinux YouTube Channel&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -30280,6 +30195,82 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;/var&quot;), &quot; folder contains files that are expected to grow over time (e.g. logs and caches).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-24T15:33:11.000Z&quot;,
+  &quot;description&quot;: &quot;A free and open-source operating system&quot;,
+  &quot;tags&quot;: [&quot;operating-systems&quot;],
+  &quot;title&quot;: &quot;Linux&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Linux&quot;), mdx(&quot;h2&quot;, null, &quot;Useful Commands&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;thead&quot;
+  }, mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Command&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://www.man7.org/linux/man-pages/man8/lsusb.8.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Change the password or password validity period for a user account&quot;)))), mdx(&quot;h2&quot;, null, &quot;Linux Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ&quot;
+  }, &quot;tutorialLinux YouTube Channel&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[A small, reliable 3D printer appropriate for home use]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
