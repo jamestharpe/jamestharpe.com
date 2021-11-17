@@ -9,7 +9,7 @@ title: "Requirements"
 
 **Requirements** abstractly describe what a solution must and must not do and are the fundamental building blocks of [product](product-management.md) [engineering](engineering.md). In addition to these abstract descriptions, an effective requirements document will contain enough context to explain the rationale behind the individual requirements.
 
-## Marketing vs. engineering Requirements
+## [Marketing](marketing.md) vs. [engineering](engineering.md) Requirements
 
 Requirements come in two broad forms: marketing requirements and engineering requirements. **Marketing requirements** describe the needs and desires of the market served by the product. **Engineering requirements** are derived from marketing requirements and abstractly describe in unambiguous (typically numerical) terms how the product must function to meet the marketing requirements.
 

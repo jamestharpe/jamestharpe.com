@@ -1,7 +1,7 @@
 ---
 date: 2020-12-01T13:05:11-04:00
 description: "Resources for Product Management"
-tags: [ ]
+tags: [ "marketing" ]
 title: "Product Management"
 ---
 

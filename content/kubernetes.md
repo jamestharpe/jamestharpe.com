@@ -95,7 +95,7 @@ A **volume** references a storage location that can be used by Kubernetes for pe
 Basic types of volumes include:
 
 * `emptyDir` volumes provide an empty directory for the lifetime of a Pod. This is useful for sharing files between containers, caching, and other ephemeral storage needs.
-* `hostPath` volumes provide access to the underlying node's filesystem. This is useful for added node health monitoring, such as [cAdvisor](https://github.com/google/cadvisor). For security reasons, `hostPath` volumes are typically readonly. 
+* `hostPath` volumes provide access to the underlying node's filesystem. This is useful for added node health monitoring, such as [cAdvisor](https://github.com/google/cadvisor). For security reasons, `hostPath` volumes are typically readonly.
 * `nfs` volumes provide network file system access. This is useful for shared resources across pods and pod life cycles.
 
 #### `PersistentVolumes`
