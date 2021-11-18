@@ -56,6 +56,7 @@
 		"Radiolab",
 		"Schwaber",
 		"SDLC",
+		"Sparkline",
 		"Statechart",
 		"statecharts",
 		"Tharpe",
@@ -66,7 +67,9 @@
 		"Timeboxing",
 		"tmobile",
 		"TOGAF",
+		"Treemap",
 		"Whenner",
+		"Xiong",
 		"xstate"
 	],
 	"editor.insertSpaces": false,
