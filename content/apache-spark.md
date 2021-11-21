@@ -1,7 +1,7 @@
 ---
 date: 2021-11-16T12:31:25-04:00
-description: ""
-tags: [ "apache", "data-analysis", "big-data" ]
+description: "A data processing engine for batch processing, stream processing, and machine learning"
+tags: [ "apache", "data-analysis", "data-pipelines" ]
 title: "Apache Spark"
 ---
 

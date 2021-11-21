@@ -1,25 +1,25 @@
 ---
 date: 2021-11-16T14:39:25-04:00
 description: "Visualizations that generate insights"
-tags: [ "data-analysis" ]
-title: "Useful Data Visualizations"
-draft: true
+tags: [ "data-analysis", "data-products", "business-intelligence" ]
+title: "Data Visualizations"
 ---
 
-# Useful data visualizations
+# Data visualizations
+
+<!-- TODO:
 
 ## Candlestick
 
-<!-- todo -->
-
 ## Sparkline
-
-<!-- todo -->
 
 ## Treemap
 
-<!-- todo -- >
-
 ## Word Cloud
 
-<!-- -->
+-->
+
+## Data Visualization Resources
+
+* [Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
+

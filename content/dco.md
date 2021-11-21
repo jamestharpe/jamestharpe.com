@@ -7,4 +7,4 @@ title: "Digital Creative Optimization (DCO)"
 
 # Digital Creative Optimization (DCO)
 
-**Digital Creative Optimization (DCO)** is the automatic optimization of ad content to improve performance through [multivariate testing](multivariate-testing.md). Ad content may include copy, colors, imagery, videos, and the integration of information unique to the user (for example, name or location). DCO is used to maximize desired interactions driven by the ad, such as click-through and conversion events.
+**Digital Creative Optimization (DCO)** is the automatic optimization of [ad](advertising.md) content to improve performance through [multivariate testing](multivariate-testing.md). Ad content may include copy, colors, imagery, videos, and the integration of information unique to the user (for example, name or location). DCO is used to maximize desired interactions driven by the ad, such as click-through and conversion events.
