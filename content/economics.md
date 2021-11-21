@@ -1,7 +1,12 @@
 ---
-date: 2020-12-13T07:47:11-04:00
+date: 2021-11-21T13:44:45-04:00
 description: "The dismal science"
-tags: [ ]
+tags: ["social-sciences"]
 title: "Economics"
 ---
 
+# Economics
+
+**Economics** is a [social science](social-sciences.md) that studies how scarce resources are managed and distributed.
+
+Economics can be split into two major categories: Microeconomics and macroeconomics. **Microeconomics** is the study of behaviors of individual actors and entities that makeup an economy whereas **macroeconomics** is the study of economies in aggregate.
