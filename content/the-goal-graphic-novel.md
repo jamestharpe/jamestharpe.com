@@ -2,7 +2,7 @@
 date: 2020-06-06T09:40:11-04:00
 description: "A business graphic novel to introduce the theory of constraints"
 redirect_from: ["/book-goal-business-graphic-novel/"]
-tags: [ "books" ]
+tags: [ "books", "business-operations" ]
 title: "The Goal: A Business Graphic Novel by Eliyahu Goldratt"
 ---
 

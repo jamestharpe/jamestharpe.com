@@ -7,4 +7,4 @@ title: "Chemistry"
 
 # Chemistry
 
-**Chemistry** is the branch of science that studies the composition, structure and transformations of matter.
+**Chemistry** is the branch of [science](science.md) that studies the composition, structure and transformations of matter.

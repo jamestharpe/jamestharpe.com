@@ -1,6 +1,6 @@
 ---
 date: 2021-11-21T13:42:25-04:00
-description: ""
+description: "Ways of participating in economic activity"
 tags: ["economics"]
 title: "Business"
 ---

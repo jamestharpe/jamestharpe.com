@@ -15,7 +15,7 @@ title: "Scaled Agile Framework (SAFe)"
 
 According to SAFe, an **agile team** is a group of about five to eleven members capable of managing the end-to-end delivery of business value in short, [time boxed](timeboxing.md) iterations. A typical agile team includes developers, a product owner, and a ScrumMaster. The primary SAFe competency of an agile team is **team and technical agility**.
 
-The daily operations of the team are guided by other agile frameworks such as Scrum or Kanban. Each iteration starts with a planning event to decide what will be done within the iteration. During the iteration, the team meets daily to coordinate their work and focus on meeting the iteration goals. At the end of the iteration, the team holds an **iteration review** to demo the work they've completed to stakeholders. After the iteration review, they hold a **retrospective** to reflect on ways they can improve on the value they deliver.
+The daily [operations](business-operations.md) of the team are guided by other agile frameworks such as Scrum or Kanban. Each iteration starts with a planning event to decide what will be done within the iteration. During the iteration, the team meets daily to coordinate their work and focus on meeting the iteration goals. At the end of the iteration, the team holds an **iteration review** to demo the work they've completed to stakeholders. After the iteration review, they hold a **retrospective** to reflect on ways they can improve on the value they deliver.
 
 ### Agile Release Trains (ARTs) / Agile Product Delivery
 
