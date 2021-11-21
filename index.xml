@@ -1,4 +1,1396 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 12 Nov 2021 02:50:42 GMT</lastBuildDate><item><title><![CDATA[Leadership]]></title><description><![CDATA[The art and science of creating positive change]]></description><link>https://www.jamestharpe.com/leadership/</link><guid isPermaLink="false">https://www.jamestharpe.com/leadership/</guid><pubDate>Mon, 08 Nov 2021 18:57:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 21 Nov 2021 23:27:08 GMT</lastBuildDate><item><title><![CDATA[Big Data]]></title><description><![CDATA[Challenges related to data variety, velocity, and volume]]></description><link>https://www.jamestharpe.com/big-data/</link><guid isPermaLink="false">https://www.jamestharpe.com/big-data/</guid><pubDate>Sun, 21 Nov 2021 22:00:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T22:00:25.000Z&quot;,
+  &quot;description&quot;: &quot;Challenges related to data variety, velocity, and volume&quot;,
+  &quot;tags&quot;: [&quot;data-analysis&quot;, &quot;data-engineering&quot;],
+  &quot;title&quot;: &quot;Big Data&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Big data&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Big data&quot;), &quot; is a blanket term for the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-engineering/&quot;
+  }, &quot;data engineering&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;data analysis&quot;), &quot; challenges that arise from working with extremely large datasets.&quot;), mdx(&quot;p&quot;, null, &quot;As &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://mobile.twitter.com/gigix/status/174086466950021120&quot;
+  }, &quot;tweeted by Jeff Xiong&quot;), &quot;:&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;\&quot;big data\&quot; is when the size of the data itself becomes part of the problem&quot;)), mdx(&quot;p&quot;, null, &quot;In other words, if you ask an analytics team for a report and the report takes too long to run, will slow down a production system, requires too many steps to complete, or if the data is too difficult to identify and access, then it&apos;s probably a \&quot;big data\&quot; problem.&quot;), mdx(&quot;h2&quot;, null, &quot;Challenges with big data: Variety, velocity, volume&quot;), mdx(&quot;p&quot;, null, &quot;Often referred to as the &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;three &apos;V&apos;s&quot;), &quot;, the challenges of big data center on variety, velocity, and volume.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Variety of data&quot;), &quot; refers to the formats and sources of raw &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot;. Data can come in \&quot;typical\&quot; forms - like &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../databases/&quot;
+  }, &quot;databases&quot;), &quot;, spreadsheets, and other tabular forms (e.g. CSV files) - but also from sources like audio, video, and unstructured text. Data can also be sourced from a variety of sources in addition to databases, including: APIs, IoT devices, and biomedical devices. Each format and source of data requires additional effort to capture and process.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Velocity of data&quot;), &quot; refers to the rate at which data is generated and processed. Data may be generated and processed in real-time, in batches, or sporadically. As the velocity of data increases, so does the complexity and effort required to process it dependably.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Volume of data&quot;), &quot; refers to the sheer size of the data to be processed. It&apos;s common for enterprises to require petabytes of storage to house all the data required to help shape the company&apos;s future. This level of storage requires significant architecture to ensure availability and accessibility of data.&quot;), mdx(&quot;h2&quot;, null, &quot;Big Data Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://martinfowler.com/articles/bigData/&quot;
+  }, &quot;Thinking about Big Data by Martin Fowler&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Epistemology]]></title><description><![CDATA[Theories of knowledge]]></description><link>https://www.jamestharpe.com/epistemology/</link><guid isPermaLink="false">https://www.jamestharpe.com/epistemology/</guid><pubDate>Sun, 21 Nov 2021 18:28:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T18:28:45.000Z&quot;,
+  &quot;description&quot;: &quot;Theories of knowledge&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Epistemology&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Epistemology&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Epistemology&quot;), &quot; is the study of knowledge; it can be loosely defined as \&quot;how we know we know what we know.\&quot;&quot;), mdx(&quot;h2&quot;, null, &quot;Epistemology Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://plato.stanford.edu/entries/epistemology/&quot;
+  }, &quot;Epistemology on the Stanford Encyclopedia of Philosophy&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Research]]></title><description><![CDATA[Research Research  is the systematic process of gathering  data  to  establish facts  and reach  conclusions .]]></description><link>https://www.jamestharpe.com/research/</link><guid isPermaLink="false">https://www.jamestharpe.com/research/</guid><pubDate>Sun, 21 Nov 2021 18:28:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T18:28:45.000Z&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;tags&quot;: [&quot;epistemology&quot;, &quot;data&quot;, &quot;information&quot;],
+  &quot;title&quot;: &quot;Research&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Research&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Research&quot;), &quot; is the systematic process of gathering &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; to &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../epistemology/&quot;
+  }, &quot;establish facts&quot;), &quot; and reach &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../information/&quot;
+  }, &quot;conclusions&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Sociology]]></title><description><![CDATA[The balance of opportunity and wealth distribution in a society]]></description><link>https://www.jamestharpe.com/sociology/</link><guid isPermaLink="false">https://www.jamestharpe.com/sociology/</guid><pubDate>Sun, 21 Nov 2021 17:51:43 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T17:51:43.000Z&quot;,
+  &quot;description&quot;: &quot;The balance of opportunity and wealth distribution in a society&quot;,
+  &quot;tags&quot;: [&quot;social-sciences&quot;],
+  &quot;title&quot;: &quot;Sociology&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Sociology&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Sociology&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../social-sciences/&quot;
+  }, &quot;social science&quot;), &quot; concerned with the structures, institutions, and consequences of human societies.&quot;), mdx(&quot;p&quot;, null, &quot;Sociology can be split into two major categories: Macrosociology and microsociology.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Macrosociology&quot;), &quot; studies large populations to understand the impacts of these populations and their behaviors on individuals and smaller groups, generally using &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../statistics/&quot;
+  }, &quot;statistical methods&quot;), &quot;. Common topics studied in macrosociology include &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../economics/&quot;
+  }, &quot;economics&quot;), &quot;, poverty, racism, war, inequality, and major institutions.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Microsociology&quot;), &quot; is studies smaller populations that make up societies, such as families, schools, clubs, and other small social interactions. Microsociology relies heavily on &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../interpretive-research/&quot;
+  }, &quot;interpretive analysis&quot;), &quot; to determine how these small interactions influence larger patterns of society because test groups tend to be too small or too highly contextual for statistical analysis. Examples of interactions studied in microsociology include doctor-patient interactions, family dynamics, romantic relationships, teachers-student interactions, and so on.&quot;), mdx(&quot;h2&quot;, null, &quot;Sociology Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.khanacademy.org/test-prep/mcat/society-and-culture&quot;
+  }, &quot;Society and culture on Khan Academy&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Economics]]></title><description><![CDATA[The dismal science]]></description><link>https://www.jamestharpe.com/economics/</link><guid isPermaLink="false">https://www.jamestharpe.com/economics/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T17:44:45.000Z&quot;,
+  &quot;description&quot;: &quot;The dismal science&quot;,
+  &quot;tags&quot;: [&quot;social-sciences&quot;],
+  &quot;title&quot;: &quot;Economics&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Economics&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Economics&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../social-sciences/&quot;
+  }, &quot;social science&quot;), &quot; that studies how scarce resources are managed and distributed.&quot;), mdx(&quot;p&quot;, null, &quot;Economics can be split into two major categories: Microeconomics and macroeconomics. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Microeconomics&quot;), &quot; is the study of behaviors of individual actors and entities that makeup an economy whereas &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;macroeconomics&quot;), &quot; is the study of economies in aggregate.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Interpretive Research]]></title><description><![CDATA[The dismal science]]></description><link>https://www.jamestharpe.com/interpretive-research/</link><guid isPermaLink="false">https://www.jamestharpe.com/interpretive-research/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T17:44:45.000Z&quot;,
+  &quot;description&quot;: &quot;The dismal science&quot;,
+  &quot;tags&quot;: [&quot;research&quot;],
+  &quot;title&quot;: &quot;Interpretive Research&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Interpretive research&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Interpretive research&quot;), &quot; is &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../research/&quot;
+  }, &quot;research&quot;), &quot; that attempts to derive theories from &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; that is too contextual, incomplete, or subjective for quantitative analysis.&quot;), mdx(&quot;h2&quot;, null, &quot;Interpretive research resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://courses.lumenlearning.com/suny-hccc-research-methods/chapter/chapter-12-interpretive-research/&quot;
+  }, &quot;Research Methods for the Social Sciences, Chapter 12: Interpretive Research&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Social Sciences]]></title><description><![CDATA[The study of human social relationships]]></description><link>https://www.jamestharpe.com/social-sciences/</link><guid isPermaLink="false">https://www.jamestharpe.com/social-sciences/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T17:44:45.000Z&quot;,
+  &quot;description&quot;: &quot;The study of human social relationships&quot;,
+  &quot;tags&quot;: [&quot;science&quot;],
+  &quot;title&quot;: &quot;Social Sciences&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Social sciences&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;social science&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../science/&quot;
+  }, &quot;science&quot;), &quot; that studies human social relationships.&quot;), mdx(&quot;h2&quot;, null, &quot;Social Science Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://courses.lumenlearning.com/suny-hccc-research-methods/&quot;
+  }, &quot;Research Methods for the Social Sciences&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Business]]></title><description><![CDATA[Ways of participating in economic activity]]></description><link>https://www.jamestharpe.com/business/</link><guid isPermaLink="false">https://www.jamestharpe.com/business/</guid><pubDate>Sun, 21 Nov 2021 17:42:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T17:42:25.000Z&quot;,
+  &quot;description&quot;: &quot;Ways of participating in economic activity&quot;,
+  &quot;tags&quot;: [&quot;economics&quot;],
+  &quot;title&quot;: &quot;Business&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Business&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Business&quot;), &quot; is the practice of engaging in &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../economics/&quot;
+  }, &quot;economic&quot;), &quot; activities, often as part of or with an organized group or enterprise.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Business operations]]></title><description><![CDATA[Methods of minimizing costs and maximizing profit]]></description><link>https://www.jamestharpe.com/business-operations/</link><guid isPermaLink="false">https://www.jamestharpe.com/business-operations/</guid><pubDate>Sun, 21 Nov 2021 17:41:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T17:41:25.000Z&quot;,
+  &quot;description&quot;: &quot;Methods of minimizing costs and maximizing profit&quot;,
+  &quot;tags&quot;: [&quot;business&quot;],
+  &quot;title&quot;: &quot;Business operations&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Business operations&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Business operations&quot;), &quot; are the set of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../business/&quot;
+  }, &quot;business&quot;), &quot; practices intended to minimize the cost and maximize the profit associated with turning materials and labor into good and services.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Advertising]]></title><description><![CDATA[The art and science of creating and distributing ads]]></description><link>https://www.jamestharpe.com/advertising/</link><guid isPermaLink="false">https://www.jamestharpe.com/advertising/</guid><pubDate>Sun, 21 Nov 2021 15:29:20 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T15:29:20.000Z&quot;,
+  &quot;description&quot;: &quot;The art and science of creating and distributing ads&quot;,
+  &quot;tags&quot;: [&quot;marketing&quot;],
+  &quot;title&quot;: &quot;Advertising&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Advertising&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Advertising&quot;), &quot; is the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../art/&quot;
+  }, &quot;art&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../science/&quot;
+  }, &quot;science&quot;), &quot; of creating and distributing ads for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../marketing/&quot;
+  }, &quot;marketing&quot;), &quot; purposes.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Art]]></title><description><![CDATA[The application of creative skills and imagination]]></description><link>https://www.jamestharpe.com/art/</link><guid isPermaLink="false">https://www.jamestharpe.com/art/</guid><pubDate>Sun, 21 Nov 2021 15:22:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T15:22:25.000Z&quot;,
+  &quot;description&quot;: &quot;The application of creative skills and imagination&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Art&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Art&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Art&quot;), &quot; is the application of creative skills and imagination to produce novel achievements.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Teams]]></title><description><![CDATA[The make up and measures of effective data teams]]></description><link>https://www.jamestharpe.com/data-teams/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-teams/</guid><pubDate>Sun, 21 Nov 2021 15:14:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T15:14:25.000Z&quot;,
+  &quot;description&quot;: &quot;The make up and measures of effective data teams&quot;,
+  &quot;tags&quot;: [&quot;information-technology&quot;, &quot;data&quot;, &quot;data-analysis&quot;, &quot;business-intelligence&quot;],
+  &quot;title&quot;: &quot;Data Teams&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Data Teams&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Data teams&quot;), &quot; are teams, or teams of teams, that combine &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-engineering/&quot;
+  }, &quot;data engineering&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-science/&quot;
+  }, &quot;data science&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;data analysis&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../business-intelligence/&quot;
+  }, &quot;business intelligence&quot;), &quot;, and other &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot;-related disciplines to improve decision making.&quot;), mdx(&quot;h2&quot;, null, &quot;Differences and interactions between data discipline&quot;), mdx(&quot;p&quot;, null, &quot;Disciplines related to data have significant overlap in roles and skills, but each has a distinct focus. The &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../requirements/&quot;
+  }, &quot;needs&quot;), &quot; of the business are driven and validated by business intelligence. Data engineering provide the automation and infrastructure to collect, transform, and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-pipelines/&quot;
+  }, &quot;pipe&quot;), &quot; data to data analysts and data scientists. Data analysts query data to identify trends, create &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-visualizations/&quot;
+  }, &quot;visualizations&quot;), &quot;, and build reports and dashboards while data scientists build machine learning and statistical models.&quot;), mdx(&quot;p&quot;, null, &quot;Depending on the company size and data needs, a single person may be responsible for multiple disciplines or entire teams may form around a single discipline.&quot;), mdx(&quot;h2&quot;, null, &quot;Signs of effective data teams&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;\&quot;It&apos;s all just data\&quot; - The organization takes the hard work of the data engineering teams for granted. As a consumer of data, it just seems so easy.&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Business Intelligence]]></title><description><![CDATA[Methods to bridge the gap between data and business]]></description><link>https://www.jamestharpe.com/business-intelligence/</link><guid isPermaLink="false">https://www.jamestharpe.com/business-intelligence/</guid><pubDate>Sun, 21 Nov 2021 14:52:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T14:52:25.000Z&quot;,
+  &quot;description&quot;: &quot;Methods to bridge the gap between data and business&quot;,
+  &quot;tags&quot;: [&quot;business&quot;, &quot;data-products&quot;],
+  &quot;title&quot;: &quot;Business Intelligence&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Business intelligence&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Business intelligence&quot;), &quot; is the integration of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-products/&quot;
+  }, &quot;data products&quot;), &quot; with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../business/&quot;
+  }, &quot;business&quot;), &quot; practices to aid decision making and improve the overall performance of the business.&quot;), mdx(&quot;p&quot;, null, &quot;Business intelligence practices may overlap significantly with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-engineering/&quot;
+  }, &quot;data engineering&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-science/&quot;
+  }, &quot;data science&quot;), &quot;, and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;data analysis&quot;), &quot; practices. However, the primary focus of business intelligence is to develop and execute the overall strategy to use data to generate business value.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Products]]></title><description><![CDATA[Ways of making data available]]></description><link>https://www.jamestharpe.com/data-products/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-products/</guid><pubDate>Sun, 21 Nov 2021 14:24:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T14:24:25.000Z&quot;,
+  &quot;description&quot;: &quot;Ways of making data available&quot;,
+  &quot;tags&quot;: [&quot;data-engineering&quot;, &quot;data-analysis&quot;, &quot;data-pipelines&quot;, &quot;data-science&quot;],
+  &quot;title&quot;: &quot;Data Products&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Data products&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;data product&quot;), &quot; is an application that consumes data produced by a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-pipelines/&quot;
+  }, &quot;data pipeline&quot;), &quot; to help with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;data-analysis&quot;), &quot;, improve decision making, or &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-science/&quot;
+  }, &quot;make predictions&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Data products include much more than &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-visualizations/&quot;
+  }, &quot;charts and graphs&quot;), &quot;. For example, a social media feed generated based on user behavior to increase overall engagement is considered a data product because it attempts to predict which content will maximize engagement.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Pipelines]]></title><description><![CDATA[Ways of making data available]]></description><link>https://www.jamestharpe.com/data-pipelines/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-pipelines/</guid><pubDate>Sun, 21 Nov 2021 14:17:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-21T14:17:25.000Z&quot;,
+  &quot;description&quot;: &quot;Ways of making data available&quot;,
+  &quot;tags&quot;: [&quot;data-engineering&quot;, &quot;data-products&quot;, &quot;big-data&quot;],
+  &quot;title&quot;: &quot;Data Pipelines&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Data Pipelines&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;data pipeline&quot;), &quot; is a process that ingests raw &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; and transforms it to be useful to an organization as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../information/&quot;
+  }, &quot;information&quot;), &quot; consumable by one or more &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-products/&quot;
+  }, &quot;data products&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Databases]]></title><description><![CDATA[Databases: Organized collections of structured data]]></description><link>https://www.jamestharpe.com/databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/databases/</guid><pubDate>Tue, 16 Nov 2021 18:58:42 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-16T18:58:42.000Z&quot;,
+  &quot;description&quot;: &quot;Databases: Organized collections of structured data&quot;,
+  &quot;redirect_from&quot;: [&quot;/database/&quot;],
+  &quot;tags&quot;: [&quot;software-engineering&quot;],
+  &quot;title&quot;: &quot;Databases&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Databases&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;database&quot;), &quot; is an organized collection of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Types of databases&quot;), mdx(&quot;h3&quot;, null, &quot;Document database&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;document database&quot;), &quot; is a key-value store in which the value consists of semi-structured data that can usually be further queried.&quot;), mdx(&quot;h3&quot;, null, &quot;Graph database&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;graph database&quot;), &quot; stores records as nodes and defines relationships as edges between nodes.&quot;), mdx(&quot;h3&quot;, null, &quot;Key-value store&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;key-value store&quot;), &quot; stores data as a hash table, where each key can quickly be queried to return the associated data.&quot;), mdx(&quot;h3&quot;, null, &quot;Relational database&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;relational database&quot;), &quot; maintains data in a tabular format, where each record in the database is identified by a primary key, and relationships to other records are defined by foreign keys. Most relational databases support SQL based queries.&quot;), mdx(&quot;h3&quot;, null, &quot;Time series database&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;time series database&quot;), &quot; is optimized to aggregate timestamped data.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Visualizations]]></title><description><![CDATA[Visualizations that generate insights]]></description><link>https://www.jamestharpe.com/data-visualizations/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-visualizations/</guid><pubDate>Tue, 16 Nov 2021 18:39:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-16T18:39:25.000Z&quot;,
+  &quot;description&quot;: &quot;Visualizations that generate insights&quot;,
+  &quot;tags&quot;: [&quot;data-analysis&quot;, &quot;data-products&quot;, &quot;business-intelligence&quot;],
+  &quot;title&quot;: &quot;Data Visualizations&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Data visualizations&quot;), mdx(&quot;h2&quot;, null, &quot;Data Visualization Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.visual-literacy.org/periodic_table/periodic_table.html&quot;
+  }, &quot;Periodic Table of Visualization Methods&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Photography]]></title><description><![CDATA[Take a picture, it will last longer]]></description><link>https://www.jamestharpe.com/photography/</link><guid isPermaLink="false">https://www.jamestharpe.com/photography/</guid><pubDate>Tue, 16 Nov 2021 18:00:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-16T18:00:10.000Z&quot;,
+  &quot;description&quot;: &quot;Take a picture, it will last longer&quot;,
+  &quot;tags&quot;: [&quot;art&quot;],
+  &quot;title&quot;: &quot;Photography&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Photography&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Science]]></title><description><![CDATA[The most rigorous system of epistemology]]></description><link>https://www.jamestharpe.com/science/</link><guid isPermaLink="false">https://www.jamestharpe.com/science/</guid><pubDate>Tue, 16 Nov 2021 17:38:59 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-16T17:38:59.000Z&quot;,
+  &quot;description&quot;: &quot;The most rigorous system of epistemology&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Science&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Science&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Science&quot;), &quot; is the systematic development and organization of knowledge through observation, hypotheses, and repeatable experimentation.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data analysis]]></title><description><![CDATA[The transformation of data to information]]></description><link>https://www.jamestharpe.com/data-analysis/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-analysis/</guid><pubDate>Tue, 16 Nov 2021 17:35:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-16T17:35:25.000Z&quot;,
+  &quot;description&quot;: &quot;The transformation of data to information&quot;,
+  &quot;tags&quot;: [&quot;data-engineering&quot;, &quot;statistics&quot;, &quot;data-teams&quot;],
+  &quot;title&quot;: &quot;Data analysis&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Data analysis&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Data analysis&quot;), &quot; is the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../art/&quot;
+  }, &quot;art&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../science/&quot;
+  }, &quot;science&quot;), &quot; of selecting, normalizing, and modeling &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; to derive useful &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../information/&quot;
+  }, &quot;information&quot;), &quot;. This typically involves querying data to identify trends.&quot;), mdx(&quot;p&quot;, null, &quot;The discipline of data analysis overlaps significantly with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-engineering/&quot;
+  }, &quot;data engineering&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-science/&quot;
+  }, &quot;data science&quot;), &quot;, and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../business-intelligence/&quot;
+  }, &quot;business intelligence&quot;), &quot;. In large organizations, data analysis generally involves the use of one or more &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-products/&quot;
+  }, &quot;data products&quot;), &quot; produced by a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-engineering/&quot;
+  }, &quot;data engineering&quot;), &quot; team at the direction of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../business-intelligence/&quot;
+  }, &quot;business intelligence&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Science]]></title><description><![CDATA[The scientific method applied to data analysis]]></description><link>https://www.jamestharpe.com/data-science/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-science/</guid><pubDate>Tue, 16 Nov 2021 17:25:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-16T17:25:25.000Z&quot;,
+  &quot;description&quot;: &quot;The scientific method applied to data analysis&quot;,
+  &quot;tags&quot;: [&quot;data-analysis&quot;, &quot;statistics&quot;, &quot;science&quot;, &quot;data-teams&quot;],
+  &quot;title&quot;: &quot;Data Science&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Data science&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Data science&quot;), &quot; is the application of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../statistics/&quot;
+  }, &quot;statistics&quot;), &quot; and the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../science/&quot;
+  }, &quot;scientific method&quot;), &quot; to the practice of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;data analysis&quot;), &quot;, with an emphasis on making accurate predictions.&quot;), mdx(&quot;p&quot;, null, &quot;Data science practices may overlap significantly with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../business-intelligence/&quot;
+  }, &quot;business intelligence&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-engineering/&quot;
+  }, &quot;data engineering&quot;), &quot;, and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;data analysis&quot;), &quot; practices. However, the primary focus of data science is to apply &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../machine-learning/&quot;
+  }, &quot;machine learning&quot;), &quot; and statistical methods to &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Engineering]]></title><description><![CDATA[Engineering approaches to data management]]></description><link>https://www.jamestharpe.com/data-engineering/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-engineering/</guid><pubDate>Tue, 16 Nov 2021 17:19:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-16T17:19:25.000Z&quot;,
+  &quot;description&quot;: &quot;Engineering approaches to data management&quot;,
+  &quot;tags&quot;: [&quot;data-science&quot;, &quot;software-engineering&quot;, &quot;information-technology&quot;, &quot;data-teams&quot;],
+  &quot;title&quot;: &quot;Data Engineering&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Data Engineering&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Data engineering&quot;), &quot; is the specialized application of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-engineering/&quot;
+  }, &quot;software-engineering&quot;), &quot; practices to collect, transform, and store data for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;analysis&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-science/&quot;
+  }, &quot;predictive modeling&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Data engineering practices may overlap significantly with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../business-intelligence/&quot;
+  }, &quot;business intelligence&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-science/&quot;
+  }, &quot;data science&quot;), &quot;, and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;data analysis&quot;), &quot; practices. However, the primary focus of data engineering is to develop the infrastructure and automation required to store and access the data as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../requirements/&quot;
+  }, &quot;required&quot;), &quot; by the business.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Apache Spark]]></title><description><![CDATA[A data processing engine for batch processing, stream processing, and machine learning]]></description><link>https://www.jamestharpe.com/apache-spark/</link><guid isPermaLink="false">https://www.jamestharpe.com/apache-spark/</guid><pubDate>Tue, 16 Nov 2021 16:31:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-16T16:31:25.000Z&quot;,
+  &quot;description&quot;: &quot;A data processing engine for batch processing, stream processing, and machine learning&quot;,
+  &quot;tags&quot;: [&quot;apache&quot;, &quot;data-analysis&quot;, &quot;data-pipelines&quot;],
+  &quot;title&quot;: &quot;Apache Spark&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Apache Spark&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Apache Spark&quot;), &quot; is an extensible &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../open-source/&quot;
+  }, &quot;open-source&quot;), &quot; data processing engine, suitable for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../big-data/&quot;
+  }, &quot;big data&quot;), &quot; &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-engineering/&quot;
+  }, &quot;engineering&quot;), &quot; tasks including batch data processing, data streaming, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;analytics&quot;), &quot;, and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../machine-learning/&quot;
+  }, &quot;machine learning&quot;), &quot;. It supports Python, SQL, Scala, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../java/&quot;
+  }, &quot;Java&quot;), &quot;, and R &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;programming languages&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Apache Spark Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;http://spark.apache.org/&quot;
+  }, &quot;Apache Spark Official Website&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Statistics]]></title><description><![CDATA[The analysis of numerical data]]></description><link>https://www.jamestharpe.com/statistics/</link><guid isPermaLink="false">https://www.jamestharpe.com/statistics/</guid><pubDate>Mon, 15 Nov 2021 20:54:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-15T20:54:46.000Z&quot;,
+  &quot;description&quot;: &quot;The analysis of numerical data&quot;,
+  &quot;tags&quot;: [&quot;math&quot;, &quot;data-analysis&quot;],
+  &quot;title&quot;: &quot;Statistics&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Statistics&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Statistics&quot;), &quot; are a set of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../math/&quot;
+  }, &quot;mathematical techniques&quot;), &quot; to &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;analyze&quot;), &quot; numerical &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; to produce &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../information/&quot;
+  }, &quot;information&quot;), &quot;, especially for the purpose of inferring proportions in a whole from those in a representative sample.&quot;), mdx(&quot;h2&quot;, null, &quot;Statistics Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCKzJFdi57J53Vr_BkTfN3uQ&quot;
+  }, &quot;Primer YouTube Channel&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.khanacademy.org/math/statistics-probability&quot;
+  }, &quot;Probability and Statistics on Khan Academy&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Programmatic Advertising]]></title><description><![CDATA[The automated buying and selling of ads]]></description><link>https://www.jamestharpe.com/programmatic-advertising/</link><guid isPermaLink="false">https://www.jamestharpe.com/programmatic-advertising/</guid><pubDate>Mon, 15 Nov 2021 13:28:20 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-15T13:28:20.000Z&quot;,
+  &quot;description&quot;: &quot;The automated buying and selling of ads&quot;,
+  &quot;tags&quot;: [&quot;advertising&quot;],
+  &quot;title&quot;: &quot;Programmatic Advertising&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Programmatic advertising&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Programmatic advertising&quot;), &quot; is the automated buying and selling of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../advertising/&quot;
+  }, &quot;ads&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data]]></title><description><![CDATA[Facts, statistics, and references to information]]></description><link>https://www.jamestharpe.com/data/</link><guid isPermaLink="false">https://www.jamestharpe.com/data/</guid><pubDate>Mon, 15 Nov 2021 12:51:19 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-15T12:51:19.000Z&quot;,
+  &quot;description&quot;: &quot;Facts, statistics, and references to information&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Data&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Data&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Data&quot;), &quot; are a set of values for variables about one or more objects or events. A single value of a single variable is a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;datum&quot;), &quot;, which can be thought of as the fundamental unit of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../information/&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;information&quot;)), &quot; which is data put into some useful context.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Information]]></title><description><![CDATA[Data put into useful context]]></description><link>https://www.jamestharpe.com/information/</link><guid isPermaLink="false">https://www.jamestharpe.com/information/</guid><pubDate>Mon, 15 Nov 2021 12:51:19 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-15T12:51:19.000Z&quot;,
+  &quot;description&quot;: &quot;Data put into useful context&quot;,
+  &quot;tags&quot;: [&quot;data&quot;],
+  &quot;title&quot;: &quot;Information&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Information&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Information&quot;), &quot; is &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; organized and structured into a context to help make decisions or understand phenomena.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Statistical Hypothesis Testing]]></title><description><![CDATA[The art and science of stimulating demand]]></description><link>https://www.jamestharpe.com/statistical-hypothesis-testing/</link><guid isPermaLink="false">https://www.jamestharpe.com/statistical-hypothesis-testing/</guid><pubDate>Mon, 15 Nov 2021 12:48:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-15T12:48:27.000Z&quot;,
+  &quot;description&quot;: &quot;The art and science of stimulating demand&quot;,
+  &quot;tags&quot;: [&quot;statistics&quot;],
+  &quot;title&quot;: &quot;Statistical Hypothesis Testing&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Statistical hypothesis testing&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Statistical hypothesis testing&quot;), &quot; is the use of observed &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; to draw conclusions about a claim regarding a larger dataset while addressing for variations in random samples used for statistical inference.&quot;), mdx(&quot;h2&quot;, null, &quot;Statistical hypothesis testing resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.afit.edu/stat/statcoe_files/Statistical%20Hypothesis%20Testing.pdf&quot;
+  }, &quot;Statistical Hypothesis Testing by Jennifer Kensler, Ph.D.&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Marketing]]></title><description><![CDATA[The art and science of stimulating demand]]></description><link>https://www.jamestharpe.com/marketing/</link><guid isPermaLink="false">https://www.jamestharpe.com/marketing/</guid><pubDate>Mon, 15 Nov 2021 12:43:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-15T12:43:27.000Z&quot;,
+  &quot;description&quot;: &quot;The art and science of stimulating demand&quot;,
+  &quot;tags&quot;: [&quot;business&quot;, &quot;economics&quot;],
+  &quot;title&quot;: &quot;Marketing&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Marketing&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Marketing&quot;), &quot; is the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../art/&quot;
+  }, &quot;art&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../science/&quot;
+  }, &quot;science&quot;), &quot; of stimulating &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../economics/&quot;
+  }, &quot;economic demand&quot;), &quot;. Marketing includes audience selection, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../research/&quot;
+  }, &quot;research&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;analysis&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../advertising/&quot;
+  }, &quot;advertising&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../sociology/&quot;
+  }, &quot;community&quot;), &quot; outreach, pricing, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../product-management/&quot;
+  }, &quot;product&quot;), &quot; placement, and other practices.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Multivariate Testing]]></title><description><![CDATA[The application of statistical hypothesis testing to marketing collateral]]></description><link>https://www.jamestharpe.com/multivariate-testing/</link><guid isPermaLink="false">https://www.jamestharpe.com/multivariate-testing/</guid><pubDate>Mon, 15 Nov 2021 12:40:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-15T12:40:27.000Z&quot;,
+  &quot;description&quot;: &quot;The application of statistical hypothesis testing to marketing collateral&quot;,
+  &quot;tags&quot;: [&quot;statistical-hypothesis-testing&quot;, &quot;marketing&quot;],
+  &quot;title&quot;: &quot;Multivariate Testing&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Multivariate Testing&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Multivariate testing&quot;), &quot; applies &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../statistical-hypothesis-testing/&quot;
+  }, &quot;statistical hypothesis testing&quot;), &quot; to &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../marketing/&quot;
+  }, &quot;marketing&quot;), &quot; collateral such as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../advertising/&quot;
+  }, &quot;advertisement&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../product-management/&quot;
+  }, &quot;product&quot;), &quot; designs by swapping out elements of the collateral for alternative versions, measuring the impact of the change, and identifying the combination of variables that maximize performance against a desired goal.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Digital Creative Optimization (DCO)]]></title><description><![CDATA[The automated performance-optimization of advertising creative]]></description><link>https://www.jamestharpe.com/dco/</link><guid isPermaLink="false">https://www.jamestharpe.com/dco/</guid><pubDate>Mon, 15 Nov 2021 12:36:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-15T12:36:27.000Z&quot;,
+  &quot;description&quot;: &quot;The automated performance-optimization of advertising creative&quot;,
+  &quot;tags&quot;: [&quot;programmatic-advertising&quot;, &quot;multivariate-testing&quot;],
+  &quot;title&quot;: &quot;Digital Creative Optimization (DCO)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Digital Creative Optimization (DCO)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Digital Creative Optimization (DCO)&quot;), &quot; is the automatic optimization of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../advertising/&quot;
+  }, &quot;ad&quot;), &quot; content to improve performance through &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../multivariate-testing/&quot;
+  }, &quot;multivariate testing&quot;), &quot;. Ad content may include copy, colors, imagery, videos, and the integration of information unique to the user (for example, name or location). DCO is used to maximize desired interactions driven by the ad, such as click-through and conversion events.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Leadership]]></title><description><![CDATA[The art and science of creating positive change]]></description><link>https://www.jamestharpe.com/leadership/</link><guid isPermaLink="false">https://www.jamestharpe.com/leadership/</guid><pubDate>Mon, 08 Nov 2021 18:57:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -1530,7 +2922,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-09-21T14:52:10.000Z&quot;,
   &quot;description&quot;: &quot;Royalty free, high-resolution photos&quot;,
-  &quot;tags&quot;: [&quot;web-dev&quot;],
+  &quot;tags&quot;: [&quot;web-dev&quot;, &quot;photography&quot;],
   &quot;title&quot;: &quot;Unsplash: Royalty-free Photos&quot;
 };
 var layoutProps = {
@@ -1853,7 +3245,13 @@ return function MDXContent(_ref) {
   }, &quot;product&quot;), &quot; &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../engineering/&quot;
-  }, &quot;engineering&quot;), &quot;. In addition to these abstract descriptions, an effective requirements document will contain enough context to explain the rationale behind the individual requirements.&quot;), mdx(&quot;h2&quot;, null, &quot;Marketing vs. engineering Requirements&quot;), mdx(&quot;p&quot;, null, &quot;Requirements come in two broad forms: marketing requirements and engineering requirements. &quot;, mdx(&quot;strong&quot;, {
+  }, &quot;engineering&quot;), &quot;. In addition to these abstract descriptions, an effective requirements document will contain enough context to explain the rationale behind the individual requirements.&quot;), mdx(&quot;h2&quot;, null, mdx(&quot;a&quot;, {
+    parentName: &quot;h2&quot;,
+    &quot;href&quot;: &quot;../marketing/&quot;
+  }, &quot;Marketing&quot;), &quot; vs. &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;h2&quot;,
+    &quot;href&quot;: &quot;../engineering/&quot;
+  }, &quot;engineering&quot;), &quot; Requirements&quot;), mdx(&quot;p&quot;, null, &quot;Requirements come in two broad forms: marketing requirements and engineering requirements. &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
   }, &quot;Marketing requirements&quot;), &quot; describe the needs and desires of the market served by the product. &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
@@ -2623,7 +4021,7 @@ return function MDXContent(_ref) {
   }, &quot;JWT Decoder and Debugger&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Information Technology (IT)]]></title><description><![CDATA[The principles, practices, and technologies used to build information systems]]></description><link>https://www.jamestharpe.com/it/</link><guid isPermaLink="false">https://www.jamestharpe.com/it/</guid><pubDate>Wed, 01 Sep 2021 12:23:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Information Technology (IT)]]></title><description><![CDATA[The principles, practices, and technologies used to build information systems]]></description><link>https://www.jamestharpe.com/information-technology/</link><guid isPermaLink="false">https://www.jamestharpe.com/information-technology/</guid><pubDate>Wed, 01 Sep 2021 12:23:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -2637,7 +4035,8 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-09-01T12:23:27.000Z&quot;,
   &quot;description&quot;: &quot;The principles, practices, and technologies used to build information systems&quot;,
-  &quot;tags&quot;: [],
+  &quot;redirect_from&quot;: [&quot;/it/&quot;],
+  &quot;tags&quot;: [&quot;information&quot;, &quot;engineering&quot;],
   &quot;title&quot;: &quot;Information Technology (IT)&quot;
 };
 var layoutProps = {
@@ -2670,7 +4069,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-09-01T12:20:27.000Z&quot;,
   &quot;description&quot;: &quot;Methods for protecting information systems from unauthorized and malicious use&quot;,
-  &quot;tags&quot;: [&quot;it&quot;],
+  &quot;tags&quot;: [&quot;information-technology&quot;],
   &quot;title&quot;: &quot;Cybersecurity&quot;
 };
 var layoutProps = {
@@ -2688,7 +4087,7 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;
   }, &quot;Cybersecurity&quot;), &quot; is the practice of protecting &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../it/&quot;
+    &quot;href&quot;: &quot;../information-technology/&quot;
   }, &quot;IT&quot;), &quot; systems from unauthorized and malicious use through prevention, detection, and counter-measures.&quot;));
 }
 ;
@@ -3440,7 +4839,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-07-20T14:53:25.000Z&quot;,
   &quot;description&quot;: &quot;The balance of opportunity and wealth distribution in a society&quot;,
-  &quot;tags&quot;: [],
+  &quot;tags&quot;: [&quot;sociology&quot;],
   &quot;title&quot;: &quot;Social Justice&quot;
 };
 var layoutProps = {
@@ -3456,7 +4855,10 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Social Justice&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;Social justice&quot;), &quot; is the balance of opportunity and wealth distribution among individuals in a society.&quot;));
+  }, &quot;Social justice&quot;), &quot; is the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../sociology/&quot;
+  }, &quot;sociological&quot;), &quot; concept of the balancing of opportunity and wealth distribution among individuals in a society.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Engineering News Sources]]></title><description><![CDATA[News sources to help stay up-to-date with Software Engineering]]></description><link>https://www.jamestharpe.com/software-engineering-news/</link><guid isPermaLink="false">https://www.jamestharpe.com/software-engineering-news/</guid><pubDate>Mon, 19 Jul 2021 17:17:26 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -4324,121 +5726,6 @@ return function MDXContent(_ref) {
   }));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Scaled Agile Framework (SAFe)]]></title><description><![CDATA[A product and project management framework for large enterprises]]></description><link>https://www.jamestharpe.com/safe-framework/</link><guid isPermaLink="false">https://www.jamestharpe.com/safe-framework/</guid><pubDate>Thu, 24 Jun 2021 17:48:42 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-06-24T17:48:42.000Z&quot;,
-  &quot;description&quot;: &quot;A product and project management framework for large enterprises&quot;,
-  &quot;tags&quot;: [&quot;product-management&quot;, &quot;project-management&quot;, &quot;sdlc&quot;],
-  &quot;title&quot;: &quot;Scaled Agile Framework (SAFe)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Scaled Agile Framework (SAFe)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;SAFe&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../product-management/&quot;
-  }, &quot;product&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../project-management/&quot;
-  }, &quot;project&quot;), &quot; framework for large &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../enterprise-initiatives/&quot;
-  }, &quot;enterprises&quot;), &quot;. It consists of seven core competencies around which business strategy is organized.&quot;), mdx(&quot;h2&quot;, null, &quot;SAFe Organization&quot;), mdx(&quot;h3&quot;, null, &quot;Agile Teams / Team and Technical Agility&quot;), mdx(&quot;p&quot;, null, &quot;According to SAFe, an &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;agile team&quot;), &quot; is a group of about five to eleven members capable of managing the end-to-end delivery of business value in short, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../timeboxing/&quot;
-  }, &quot;time boxed&quot;), &quot; iterations. A typical agile team includes developers, a product owner, and a ScrumMaster. The primary SAFe competency of an agile team is &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;team and technical agility&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;The daily operations of the team are guided by other agile frameworks such as Scrum or Kanban. Each iteration starts with a planning event to decide what will be done within the iteration. During the iteration, the team meets daily to coordinate their work and focus on meeting the iteration goals. At the end of the iteration, the team holds an &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;iteration review&quot;), &quot; to demo the work they&apos;ve completed to stakeholders. After the iteration review, they hold a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;retrospective&quot;), &quot; to reflect on ways they can improve on the value they deliver.&quot;), mdx(&quot;h3&quot;, null, &quot;Agile Release Trains (ARTs) / Agile Product Delivery&quot;), mdx(&quot;p&quot;, null, &quot;An &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;agile release train (ART)&quot;), &quot; is a \&quot;team of agile teams\&quot;. The typical ART includes 50 to 125 people, or roughly ten agile teams. An ART should include all the people needed to deliver a complex solution to customers. An ART also includes a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;release train engineer&quot;), &quot;, who serves as the coach for the ART, representatives from &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;product management&quot;), &quot; to provide the vision and backlog, and a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;system architect&quot;), &quot; to provide architectural guidance. The primary SAFe competency of an ART is &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;agile product delivery&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;ARTs operate in &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;program increments (PIs)&quot;), &quot;, which are typically five iterations long. Similar to the way agile teams operate, PIs start with a planning event in which the teams pull from the backlog to identify what should be delivered within the PI. During PI planning, dependencies between teams are visualized on a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;program board&quot;), &quot;. At the end of the PI, the ART team holds a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;system demo&quot;), &quot; to show the fully integrated work they&apos;ve completed to stakeholders. After the system demo, the hold an &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;inspect and adapt event&quot;), &quot;.&quot;), mdx(&quot;h3&quot;, null, &quot;Solution Trains / Solution Management&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;solution train&quot;), &quot; is a group of agile release trains that coordinates especially large and complex solutions. A solution train includes a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;solution management&quot;), &quot; group with authority over what gets built, a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;solution architect&quot;), &quot; to provide architectural guidance across ARTs, and a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;solution train engineer&quot;), &quot; to coach and facilitate the activities of the solution train.&quot;), mdx(&quot;h2&quot;, null, &quot;Additional SAFe Terms&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;p&quot;, {
-    parentName: &quot;li&quot;
-  }, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Lean portfolio management&quot;), &quot; seeks to align strategy with execution through the creation of strategic themes, a portfolio vision, and organizes funding around the delivery of value and value streams.&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;p&quot;, {
-    parentName: &quot;li&quot;
-  }, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Organizational agility&quot;), &quot; is the ability to change direction quickly based on market conditions, re-organizing as needed across the entire enterprise. This is done through the creation of a culture of continuous learning and investment in individuals that deliver results and demonstrate lean thinking.&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;p&quot;, {
-    parentName: &quot;li&quot;
-  }, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Lean-Agile Leadership&quot;), &quot; is the embodiment and teaching of lean and agile principles.&quot;))), mdx(&quot;h2&quot;, null, &quot;SAFe Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.scaledagileframework.com/&quot;
-  }, &quot;Official SAFe website&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/user/scaledagile&quot;
-  }, &quot;Scaled Agile YouTube channel&quot;))), mdx(&quot;h2&quot;, null, &quot;Video: SAFe Overview in 5 Minutes&quot;), mdx(&quot;iframe&quot;, {
-    width: &quot;560&quot;,
-    height: &quot;315&quot;,
-    src: &quot;https://www.youtube.com/embed/aW2m-BtCJyE&quot;,
-    title: &quot;YouTube video player&quot;,
-    frameBorder: &quot;0&quot;,
-    allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
-    allowFullScreen: true
-  }));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Scrum]]></title><description><![CDATA[A lightweight framework for product and project management]]></description><link>https://www.jamestharpe.com/scrum/</link><guid isPermaLink="false">https://www.jamestharpe.com/scrum/</guid><pubDate>Thu, 24 Jun 2021 17:48:42 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -4531,6 +5818,129 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://scrumguides.org/scrum-guide.html&quot;
   }, &quot;Official Scrum Guide&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Scaled Agile Framework (SAFe)]]></title><description><![CDATA[A product and project management framework for large enterprises]]></description><link>https://www.jamestharpe.com/safe-framework/</link><guid isPermaLink="false">https://www.jamestharpe.com/safe-framework/</guid><pubDate>Thu, 24 Jun 2021 17:48:42 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-06-24T17:48:42.000Z&quot;,
+  &quot;description&quot;: &quot;A product and project management framework for large enterprises&quot;,
+  &quot;tags&quot;: [&quot;product-management&quot;, &quot;project-management&quot;, &quot;sdlc&quot;],
+  &quot;title&quot;: &quot;Scaled Agile Framework (SAFe)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Scaled Agile Framework (SAFe)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;SAFe&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../product-management/&quot;
+  }, &quot;product&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../project-management/&quot;
+  }, &quot;project&quot;), &quot; framework for large &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../enterprise-initiatives/&quot;
+  }, &quot;enterprises&quot;), &quot;. It consists of seven core competencies around which business strategy is organized.&quot;), mdx(&quot;h2&quot;, null, &quot;SAFe Organization&quot;), mdx(&quot;h3&quot;, null, &quot;Agile Teams / Team and Technical Agility&quot;), mdx(&quot;p&quot;, null, &quot;According to SAFe, an &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;agile team&quot;), &quot; is a group of about five to eleven members capable of managing the end-to-end delivery of business value in short, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../timeboxing/&quot;
+  }, &quot;time boxed&quot;), &quot; iterations. A typical agile team includes developers, a product owner, and a ScrumMaster. The primary SAFe competency of an agile team is &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;team and technical agility&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;The daily &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../business-operations/&quot;
+  }, &quot;operations&quot;), &quot; of the team are guided by other agile frameworks such as Scrum or Kanban. Each iteration starts with a planning event to decide what will be done within the iteration. During the iteration, the team meets daily to coordinate their work and focus on meeting the iteration goals. At the end of the iteration, the team holds an &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;iteration review&quot;), &quot; to demo the work they&apos;ve completed to stakeholders. After the iteration review, they hold a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;retrospective&quot;), &quot; to reflect on ways they can improve on the value they deliver.&quot;), mdx(&quot;h3&quot;, null, &quot;Agile Release Trains (ARTs) / Agile Product Delivery&quot;), mdx(&quot;p&quot;, null, &quot;An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;agile release train (ART)&quot;), &quot; is a \&quot;team of agile teams\&quot;. The typical ART includes 50 to 125 people, or roughly ten agile teams. An ART should include all the people needed to deliver a complex solution to customers. An ART also includes a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;release train engineer&quot;), &quot;, who serves as the coach for the ART, representatives from &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;product management&quot;), &quot; to provide the vision and backlog, and a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;system architect&quot;), &quot; to provide architectural guidance. The primary SAFe competency of an ART is &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;agile product delivery&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;ARTs operate in &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;program increments (PIs)&quot;), &quot;, which are typically five iterations long. Similar to the way agile teams operate, PIs start with a planning event in which the teams pull from the backlog to identify what should be delivered within the PI. During PI planning, dependencies between teams are visualized on a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;program board&quot;), &quot;. At the end of the PI, the ART team holds a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;system demo&quot;), &quot; to show the fully integrated work they&apos;ve completed to stakeholders. After the system demo, the hold an &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;inspect and adapt event&quot;), &quot;.&quot;), mdx(&quot;h3&quot;, null, &quot;Solution Trains / Solution Management&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;solution train&quot;), &quot; is a group of agile release trains that coordinates especially large and complex solutions. A solution train includes a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;solution management&quot;), &quot; group with authority over what gets built, a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;solution architect&quot;), &quot; to provide architectural guidance across ARTs, and a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;solution train engineer&quot;), &quot; to coach and facilitate the activities of the solution train.&quot;), mdx(&quot;h2&quot;, null, &quot;Additional SAFe Terms&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;p&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Lean portfolio management&quot;), &quot; seeks to align strategy with execution through the creation of strategic themes, a portfolio vision, and organizes funding around the delivery of value and value streams.&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;p&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Organizational agility&quot;), &quot; is the ability to change direction quickly based on market conditions, re-organizing as needed across the entire enterprise. This is done through the creation of a culture of continuous learning and investment in individuals that deliver results and demonstrate lean thinking.&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;p&quot;, {
+    parentName: &quot;li&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Lean-Agile Leadership&quot;), &quot; is the embodiment and teaching of lean and agile principles.&quot;))), mdx(&quot;h2&quot;, null, &quot;SAFe Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.scaledagileframework.com/&quot;
+  }, &quot;Official SAFe website&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.youtube.com/user/scaledagile&quot;
+  }, &quot;Scaled Agile YouTube channel&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://support.scaledagile.com/s/article/Exam-Details-POPM?language=en_US&quot;
+  }, &quot;SAFe Product Owner/Product Manager Study Guide&quot;))), mdx(&quot;h2&quot;, null, &quot;Video: SAFe Overview in 5 Minutes&quot;), mdx(&quot;iframe&quot;, {
+    width: &quot;560&quot;,
+    height: &quot;315&quot;,
+    src: &quot;https://www.youtube.com/embed/aW2m-BtCJyE&quot;,
+    title: &quot;YouTube video player&quot;,
+    frameBorder: &quot;0&quot;,
+    allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
+    allowFullScreen: true
+  }));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[RACI: Responsible, Accountable, Consulted, Informed]]></title><description><![CDATA[An roles and responsibilities model]]></description><link>https://www.jamestharpe.com/raci/</link><guid isPermaLink="false">https://www.jamestharpe.com/raci/</guid><pubDate>Thu, 24 Jun 2021 17:12:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -6590,7 +8000,10 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Chemistry&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;Chemistry&quot;), &quot; is the branch of science that studies the composition, structure and transformations of matter.&quot;));
+  }, &quot;Chemistry&quot;), &quot; is the branch of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../science/&quot;
+  }, &quot;science&quot;), &quot; that studies the composition, structure and transformations of matter.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Atoms]]></title><description><![CDATA[The basic units of chemical elements]]></description><link>https://www.jamestharpe.com/atoms/</link><guid isPermaLink="false">https://www.jamestharpe.com/atoms/</guid><pubDate>Fri, 23 Apr 2021 18:20:36 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -24612,7 +26025,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2020-12-24T12:39:30.000Z&quot;,
   &quot;description&quot;: &quot;Engineering approaches to software development&quot;,
-  &quot;tags&quot;: [&quot;engineering&quot;, &quot;it&quot;],
+  &quot;tags&quot;: [&quot;engineering&quot;, &quot;information-technology&quot;],
   &quot;title&quot;: &quot;Software Engineering&quot;
 };
 var layoutProps = {
@@ -26278,58 +27691,6 @@ return function MDXContent(_ref) {
   }, &quot;vis.js&quot;), &quot; code on GitHub&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
-  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
-  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
-  &quot;title&quot;: &quot;GitLab CI/CD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../gitlab/&quot;
-  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ci-cd/&quot;
-  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
-  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
-  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -26430,6 +27791,58 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;master&quot;), &quot;).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
+  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
+  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
+  &quot;title&quot;: &quot;GitLab CI/CD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../gitlab/&quot;
+  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ci-cd/&quot;
+  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
+  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
+  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -26646,98 +28059,6 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://www.uscourts.gov/educational-resources/educational-activities/facts-and-case-summary-engel-v-vitale&quot;
   }, &quot;Engel v. Vitale&quot;), &quot;, 1962&quot;)));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Science]]></title><description><![CDATA[The most rigorous system of epistemology]]></description><link>https://www.jamestharpe.com/science/</link><guid isPermaLink="false">https://www.jamestharpe.com/science/</guid><pubDate>Sun, 13 Dec 2020 21:22:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-13T21:22:11.000Z&quot;,
-  &quot;description&quot;: &quot;The most rigorous system of epistemology&quot;,
-  &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Science&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Science&quot;), mdx(&quot;p&quot;, null, &quot;Science means \&quot;knowledge\&quot; in Latin.&quot;), mdx(&quot;h2&quot;, null, &quot;Science YouTube Channels&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q&quot;
-  }, &quot;Kurzgesagt - In a Nutshell&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ&quot;
-  }, &quot;NASA&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UC7_gcs09iThXybpVgjHZ_7g&quot;
-  }, &quot;PBS Space Time&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCcN3IuIAR6Fn74FWMQf6lFA&quot;
-  }, &quot;Science ABC&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCPrbh_9pghzmzkI1wJJRv7Q&quot;
-  }, &quot;Science Buddies&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCZYTClx2T1of7BRZ86-8fow&quot;
-  }, &quot;SciShow&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Economics]]></title><description><![CDATA[The dismal science]]></description><link>https://www.jamestharpe.com/economics/</link><guid isPermaLink="false">https://www.jamestharpe.com/economics/</guid><pubDate>Sun, 13 Dec 2020 11:47:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-13T11:47:11.000Z&quot;,
-  &quot;description&quot;: &quot;The dismal science&quot;,
-  &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Economics&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Gresham's Law]]></title><description><![CDATA[A fancy term for hoarding]]></description><link>https://www.jamestharpe.com/greshams-law/</link><guid isPermaLink="false">https://www.jamestharpe.com/greshams-law/</guid><pubDate>Sun, 13 Dec 2020 11:46:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -28235,7 +29556,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2020-12-03T13:18:46.000Z&quot;,
   &quot;description&quot;: &quot;Machine learning terms, processes, and methods&quot;,
-  &quot;tags&quot;: [&quot;statistics&quot;],
+  &quot;tags&quot;: [&quot;data-science&quot;],
   &quot;title&quot;: &quot;Machine Learning (ML)&quot;
 };
 var layoutProps = {
@@ -28249,7 +29570,12 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Machine Learning (ML)&quot;), mdx(&quot;p&quot;, null, &quot;Machine Learning (ML) is the science and practice of creating algorithms that improve through experience.&quot;), mdx(&quot;h2&quot;, null, &quot;Machine Learning Terminology&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;Machine Learning (ML)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Machine Learning (ML)&quot;), &quot; is the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-science/&quot;
+  }, &quot;science&quot;), &quot; of developing and applying algorithms that improve their output through experience; in other words, algorithms that can \&quot;learn\&quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Machine Learning Terminology&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
     parentName: &quot;table&quot;
   }, mdx(&quot;tr&quot;, {
     parentName: &quot;thead&quot;
@@ -29325,44 +30651,6 @@ return function MDXContent(_ref) {
   }, &quot;Vihart YouTube Channel&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Statistics]]></title><description><![CDATA[The analysis of numerical data]]></description><link>https://www.jamestharpe.com/statistics/</link><guid isPermaLink="false">https://www.jamestharpe.com/statistics/</guid><pubDate>Wed, 02 Dec 2020 20:54:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-02T20:54:46.000Z&quot;,
-  &quot;description&quot;: &quot;The analysis of numerical data&quot;,
-  &quot;tags&quot;: [&quot;math&quot;],
-  &quot;title&quot;: &quot;Statistics&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Statistics&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Statistics&quot;), &quot; analyzes numerical data in large quantities, especially for the purpose of inferring proportions in a whole from those in a representative sample.&quot;), mdx(&quot;h2&quot;, null, &quot;Statistics Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCKzJFdi57J53Vr_BkTfN3uQ&quot;
-  }, &quot;Primer YouTube Channel&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Product Management]]></title><description><![CDATA[Resources for Product Management]]></description><link>https://www.jamestharpe.com/product-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/product-management/</guid><pubDate>Tue, 01 Dec 2020 17:05:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -29377,7 +30665,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2020-12-01T17:05:11.000Z&quot;,
   &quot;description&quot;: &quot;Resources for Product Management&quot;,
-  &quot;tags&quot;: [],
+  &quot;tags&quot;: [&quot;marketing&quot;],
   &quot;title&quot;: &quot;Product Management&quot;
 };
 var layoutProps = {
@@ -32315,10 +33603,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Java&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://www.java.com/&quot;
-  }, &quot;Java&quot;), &quot; is a general purpose, object-oriented &quot;, mdx(&quot;a&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;Java&quot;), mdx(&quot;p&quot;, null, &quot;Java is a general purpose, object-oriented &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../computer-languages/&quot;
   }, &quot;programming language&quot;), &quot;.&quot;));
@@ -32536,48 +33821,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://templates.cloudonaut.io/&quot;
   }, &quot;CloudFormation templates from Cloudonaut&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
-  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
-  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
-  &quot;title&quot;: &quot;Git Bash&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../bash/&quot;
-  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
-  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
-  }, &quot;Git Bash Shortcuts for Windows&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -33154,6 +34397,48 @@ return function MDXContent(_ref) {
   }, &quot;Git Basics - Git Aliases&quot;), &quot; chapter of Pro Git to learn more about Git aliases.&quot;));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
+  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
+  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
+  &quot;title&quot;: &quot;Git Bash&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../bash/&quot;
+  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
+  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
+  }, &quot;Git Bash Shortcuts for Windows&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -33301,38 +34586,6 @@ return function MDXContent(_ref) {
     components: components,
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Cloud Foundry&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Databases]]></title><description><![CDATA[Databases: Organized collections of structured data]]></description><link>https://www.jamestharpe.com/databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/databases/</guid><pubDate>Sun, 15 Nov 2020 23:34:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-15T23:34:11.000Z&quot;,
-  &quot;description&quot;: &quot;Databases: Organized collections of structured data&quot;,
-  &quot;redirect_from&quot;: [&quot;/database/&quot;],
-  &quot;tags&quot;: [&quot;software-engineering&quot;],
-  &quot;title&quot;: &quot;Databases&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Databases&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[MySQL]]></title><description><![CDATA[MySQL: An open-source relational database management system (RDBMS)]]></description><link>https://www.jamestharpe.com/mysql/</link><guid isPermaLink="false">https://www.jamestharpe.com/mysql/</guid><pubDate>Sun, 15 Nov 2020 23:34:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -33885,7 +35138,7 @@ var _frontmatter = {
   &quot;date&quot;: &quot;2020-06-06T13:40:11.000Z&quot;,
   &quot;description&quot;: &quot;A business graphic novel to introduce the theory of constraints&quot;,
   &quot;redirect_from&quot;: [&quot;/book-goal-business-graphic-novel/&quot;],
-  &quot;tags&quot;: [&quot;books&quot;],
+  &quot;tags&quot;: [&quot;books&quot;, &quot;business-operations&quot;],
   &quot;title&quot;: &quot;The Goal: A Business Graphic Novel by Eliyahu Goldratt&quot;
 };
 var layoutProps = {
