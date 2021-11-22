@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Nov 2021 02:17:38 GMT</lastBuildDate><item><title><![CDATA[React Recipes]]></title><description><![CDATA[Quick and easy to copy recipes for React]]></description><link>https://www.jamestharpe.com/react-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/react-recipes/</guid><pubDate>Mon, 22 Nov 2021 01:05:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Nov 2021 02:26:53 GMT</lastBuildDate><item><title><![CDATA[React Recipes]]></title><description><![CDATA[Quick and easy to copy recipes for React]]></description><link>https://www.jamestharpe.com/react-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/react-recipes/</guid><pubDate>Mon, 22 Nov 2021 01:05:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -12,7 +12,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-22T01:05:47.000Z&quot;,
   &quot;description&quot;: &quot;Quick and easy to copy recipes for React&quot;,
-  &quot;tags&quot;: [&quot;react&quot;],
+  &quot;tags&quot;: [&quot;react&quot;, &quot;js-recipes&quot;],
   &quot;title&quot;: &quot;React Recipes&quot;
 };
 var layoutProps = {
@@ -2018,49 +2018,6 @@ return function MDXContent(_ref) {
   }, &quot;Array.prototype.slice()&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SMART Goals]]></title><description><![CDATA[How to set goals that are specific, measurable, achievable, relevant, timely]]></description><link>https://www.jamestharpe.com/smart-goals/</link><guid isPermaLink="false">https://www.jamestharpe.com/smart-goals/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-10-11T13:27:56.000Z&quot;,
-  &quot;description&quot;: &quot;How to set goals that are specific, measurable, achievable, relevant, timely&quot;,
-  &quot;tags&quot;: [&quot;personal-productivity&quot;],
-  &quot;title&quot;: &quot;SMART Goals&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;SMART Goals&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;SMART goal&quot;), &quot; is a goal that is specific, measurable, achievable, relevant, and timely. SMART goals can help clarify priorities and improve decision making while reducing the need for outside guidance by providing enough information for independent and on-the-fly decisions.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Specific&quot;), &quot; goals are objectively and usually independently verifiable. In other words, it should be clear to any observer whether or not the goal has been achieved.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Measurable&quot;), &quot; goals show a clear indication of progress. Progress can be measured in a variety of ways; perhaps the simplest is to break the goal down into smaller steps and measuring complete vs. incomplete. Another way of measuring is through incremental progress; for example, if the goal is to run a 5-minute mile then progress can be seen by reducing the time it take to run a mile from 6 minutes to 5 minutes.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Achievable&quot;), &quot; goals are realistically achieved with the resources, skills, and time that will be dedicated to achieving each goal.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Relevant&quot;), &quot; goals solve real problems, seize real opportunities, and avoid solving problems that don&apos;t exist.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Timely&quot;), &quot; goals have due-dates (and sometimes milestones) that ensure relevancy and create a sense of urgency that is inline with the overall priority of each goal.&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[You Aren't Gonna Need it (YAGNI)]]></title><description><![CDATA[A simple mnemonic to help limit project scope]]></description><link>https://www.jamestharpe.com/yagni/</link><guid isPermaLink="false">https://www.jamestharpe.com/yagni/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2104,6 +2061,49 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../software-engineering/&quot;
   }, &quot;software&quot;), &quot; because it&apos;s so easy to change compared to other types of engineering projects.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SMART Goals]]></title><description><![CDATA[How to set goals that are specific, measurable, achievable, relevant, timely]]></description><link>https://www.jamestharpe.com/smart-goals/</link><guid isPermaLink="false">https://www.jamestharpe.com/smart-goals/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-10-11T13:27:56.000Z&quot;,
+  &quot;description&quot;: &quot;How to set goals that are specific, measurable, achievable, relevant, timely&quot;,
+  &quot;tags&quot;: [&quot;personal-productivity&quot;],
+  &quot;title&quot;: &quot;SMART Goals&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;SMART Goals&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;SMART goal&quot;), &quot; is a goal that is specific, measurable, achievable, relevant, and timely. SMART goals can help clarify priorities and improve decision making while reducing the need for outside guidance by providing enough information for independent and on-the-fly decisions.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Specific&quot;), &quot; goals are objectively and usually independently verifiable. In other words, it should be clear to any observer whether or not the goal has been achieved.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Measurable&quot;), &quot; goals show a clear indication of progress. Progress can be measured in a variety of ways; perhaps the simplest is to break the goal down into smaller steps and measuring complete vs. incomplete. Another way of measuring is through incremental progress; for example, if the goal is to run a 5-minute mile then progress can be seen by reducing the time it take to run a mile from 6 minutes to 5 minutes.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Achievable&quot;), &quot; goals are realistically achieved with the resources, skills, and time that will be dedicated to achieving each goal.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Relevant&quot;), &quot; goals solve real problems, seize real opportunities, and avoid solving problems that don&apos;t exist.&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Timely&quot;), &quot; goals have due-dates (and sometimes milestones) that ensure relevancy and create a sense of urgency that is inline with the overall priority of each goal.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Architectural Decision Records (ARDs)]]></title><description><![CDATA[A method for capturing architectural decisions]]></description><link>https://www.jamestharpe.com/adrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/adrs/</guid><pubDate>Mon, 11 Oct 2021 13:04:39 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -3154,37 +3154,6 @@ return function MDXContent(_ref) {
   }, &quot;&gt;&quot;))))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
-  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
-  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
-  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -3333,6 +3302,37 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;
   }, &quot;Global objects: Set&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
+  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
+  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
+  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash: Royalty-free Photos]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -33024,6 +33024,37 @@ return function MDXContent(_ref) {
   }, &quot;\&quot;List the worst things that the other party could say about you and say them before the other person can... to head off negative dynamics before they take root.\&quot; --Chris Voss&quot;)));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Eliyahu Goldratt]]></title><description><![CDATA[Information about Eliyahu Goldratt]]></description><link>https://www.jamestharpe.com/eliyahu-goldratt/</link><guid isPermaLink="false">https://www.jamestharpe.com/eliyahu-goldratt/</guid><pubDate>Mon, 23 Nov 2020 17:09:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-23T17:09:11.000Z&quot;,
+  &quot;description&quot;: &quot;Information about Eliyahu Goldratt&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Eliyahu Goldratt&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Eliyahu Goldratt&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Mark Twain Quotes]]></title><description><![CDATA[Mark Twain Quotes "I've had a lot of worries in my life, most of which never happened."]]></description><link>https://www.jamestharpe.com/mark-twain/</link><guid isPermaLink="false">https://www.jamestharpe.com/mark-twain/</guid><pubDate>Mon, 23 Nov 2020 17:09:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -33092,37 +33123,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://twitter.com/rydercarroll&quot;
   }, &quot;Twitter&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Eliyahu Goldratt]]></title><description><![CDATA[Information about Eliyahu Goldratt]]></description><link>https://www.jamestharpe.com/eliyahu-goldratt/</link><guid isPermaLink="false">https://www.jamestharpe.com/eliyahu-goldratt/</guid><pubDate>Mon, 23 Nov 2020 17:09:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-23T17:09:11.000Z&quot;,
-  &quot;description&quot;: &quot;Information about Eliyahu Goldratt&quot;,
-  &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Eliyahu Goldratt&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Eliyahu Goldratt&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Internet of Things (IoT)]]></title><description><![CDATA[Tools and technologies behind Internet of Things (IoT)]]></description><link>https://www.jamestharpe.com/iot/</link><guid isPermaLink="false">https://www.jamestharpe.com/iot/</guid><pubDate>Mon, 23 Nov 2020 16:15:18 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -34258,48 +34258,6 @@ return function MDXContent(_ref) {
   }, &quot;CloudFormation templates from Cloudonaut&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
-  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
-  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
-  &quot;title&quot;: &quot;Git Bash&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../bash/&quot;
-  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
-  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
-  }, &quot;Git Bash Shortcuts for Windows&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -34872,6 +34830,48 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases&quot;
   }, &quot;Git Basics - Git Aliases&quot;), &quot; chapter of Pro Git to learn more about Git aliases.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
+  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
+  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
+  &quot;title&quot;: &quot;Git Bash&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../bash/&quot;
+  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
+  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
+  }, &quot;Git Bash Shortcuts for Windows&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
