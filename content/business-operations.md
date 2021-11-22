@@ -2,7 +2,7 @@
 date: 2021-11-21T13:41:25-04:00
 description: "Methods of minimizing costs and maximizing profit"
 tags: [ "business" ]
-title: "Business operations"
+title: "Business Operations"
 ---
 
 # Business operations
