@@ -1,6 +1,6 @@
 ---
 date: 2021-11-21T14:28:45-04:00
-description: ""
+description: "The systematic process of gathering data to establish facts"
 tags: ["epistemology", "data", "information"]
 title: "Research"
 ---
