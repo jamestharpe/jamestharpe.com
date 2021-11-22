@@ -9,7 +9,7 @@ title: "JavaScript"
 
 JavaScript is a general purpose, mixed-paradigm [programming language](computer-languages.md).
 
-## Resources
+## JavaScript resources
 
 * [Fun Fun Function YouTube Channel](https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q)
 * [JSConf](https://www.youtube.com/channel/UCzoVCacndDCfGDf41P-z0iA)
