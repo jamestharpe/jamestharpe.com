@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Nov 2021 01:52:10 GMT</lastBuildDate><item><title><![CDATA[Dreyfus Model of Skill Acquisition]]></title><description><![CDATA[A model for acquiring skills and developing expertise]]></description><link>https://www.jamestharpe.com/dreyfus-model-of-skill-acquisition/</link><guid isPermaLink="false">https://www.jamestharpe.com/dreyfus-model-of-skill-acquisition/</guid><pubDate>Sun, 21 Nov 2021 23:40:31 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Nov 2021 02:17:38 GMT</lastBuildDate><item><title><![CDATA[React Recipes]]></title><description><![CDATA[Quick and easy to copy recipes for React]]></description><link>https://www.jamestharpe.com/react-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/react-recipes/</guid><pubDate>Mon, 22 Nov 2021 01:05:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-22T01:05:47.000Z&quot;,
+  &quot;description&quot;: &quot;Quick and easy to copy recipes for React&quot;,
+  &quot;tags&quot;: [&quot;react&quot;],
+  &quot;title&quot;: &quot;React Recipes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;React recipes&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Dreyfus Model of Skill Acquisition]]></title><description><![CDATA[A model for acquiring skills and developing expertise]]></description><link>https://www.jamestharpe.com/dreyfus-model-of-skill-acquisition/</link><guid isPermaLink="false">https://www.jamestharpe.com/dreyfus-model-of-skill-acquisition/</guid><pubDate>Sun, 21 Nov 2021 23:40:31 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -226,7 +257,7 @@ return function MDXContent(_ref) {
   }, &quot;Epistemology on the Stanford Encyclopedia of Philosophy&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Research]]></title><description><![CDATA[Research Research  is the systematic process of gathering  data  to  establish facts  and reach  conclusions .]]></description><link>https://www.jamestharpe.com/research/</link><guid isPermaLink="false">https://www.jamestharpe.com/research/</guid><pubDate>Sun, 21 Nov 2021 18:28:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Research]]></title><description><![CDATA[The systematic process of gathering data to establish facts]]></description><link>https://www.jamestharpe.com/research/</link><guid isPermaLink="false">https://www.jamestharpe.com/research/</guid><pubDate>Sun, 21 Nov 2021 18:28:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -239,7 +270,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-21T18:28:45.000Z&quot;,
-  &quot;description&quot;: &quot;&quot;,
+  &quot;description&quot;: &quot;The systematic process of gathering data to establish facts&quot;,
   &quot;tags&quot;: [&quot;epistemology&quot;, &quot;data&quot;, &quot;information&quot;],
   &quot;title&quot;: &quot;Research&quot;
 };
@@ -362,7 +393,7 @@ return function MDXContent(_ref) {
   }, &quot;macroeconomics&quot;), &quot; is the study of economies in aggregate.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Interpretive Research]]></title><description><![CDATA[The dismal science]]></description><link>https://www.jamestharpe.com/interpretive-research/</link><guid isPermaLink="false">https://www.jamestharpe.com/interpretive-research/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Interpretive Research]]></title><description><![CDATA[Research that attempts to derive theories from data that is too contextual, incomplete, or subjective for quantitative analysis]]></description><link>https://www.jamestharpe.com/interpretive-research/</link><guid isPermaLink="false">https://www.jamestharpe.com/interpretive-research/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -375,7 +406,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-21T17:44:45.000Z&quot;,
-  &quot;description&quot;: &quot;The dismal science&quot;,
+  &quot;description&quot;: &quot;Research that attempts to derive theories from data that is too contextual, incomplete, or subjective for quantitative analysis&quot;,
   &quot;tags&quot;: [&quot;research&quot;],
   &quot;title&quot;: &quot;Interpretive Research&quot;
 };
@@ -398,7 +429,10 @@ return function MDXContent(_ref) {
   }, &quot;research&quot;), &quot; that attempts to derive theories from &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data/&quot;
-  }, &quot;data&quot;), &quot; that is too contextual, incomplete, or subjective for quantitative analysis.&quot;), mdx(&quot;h2&quot;, null, &quot;Interpretive research resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;data&quot;), &quot; that is too contextual, incomplete, or subjective for quantitative &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;analysis&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Interpretive research resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
@@ -1182,7 +1216,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-16T17:38:59.000Z&quot;,
   &quot;description&quot;: &quot;The most rigorous system of epistemology&quot;,
-  &quot;tags&quot;: [],
+  &quot;tags&quot;: [&quot;epistemology&quot;],
   &quot;title&quot;: &quot;Science&quot;
 };
 var layoutProps = {
@@ -1852,7 +1886,7 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Get the last element from an array&quot;), mdx(&quot;p&quot;, null, &quot;Given an array with one or more  elements, return only the last elements from an array.&quot;), mdx(&quot;div&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;Get the last element from an array&quot;), mdx(&quot;p&quot;, null, &quot;Given an array with one or more elements, return only the last element from the array.&quot;), mdx(&quot;div&quot;, {
     &quot;className&quot;: &quot;gatsby-highlight&quot;,
     &quot;data-language&quot;: &quot;javascript&quot;
   }, mdx(&quot;pre&quot;, {
@@ -3120,6 +3154,37 @@ return function MDXContent(_ref) {
   }, &quot;&gt;&quot;))))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
+  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
+  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
+  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -3268,37 +3333,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;
   }, &quot;Global objects: Set&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
-  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
-  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
-  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash: Royalty-free Photos]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -15584,7 +15618,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-03-08T14:09:46.000Z&quot;,
   &quot;description&quot;: &quot;A model where an actor is the fundamental unit of computation including processing, storage, and communication&quot;,
-  &quot;tags&quot;: [&quot;math&quot;, &quot;computer-science&quot;],
+  &quot;tags&quot;: [&quot;computer-science&quot;],
   &quot;title&quot;: &quot;Actor Model&quot;
 };
 var layoutProps = {
@@ -23035,7 +23069,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2020-12-30T18:07:46.000Z&quot;,
   &quot;description&quot;: &quot;Abstract representations of system state at a given point in time&quot;,
-  &quot;tags&quot;: [&quot;math&quot;, &quot;computer-science&quot;],
+  &quot;tags&quot;: [&quot;computer-science&quot;],
   &quot;title&quot;: &quot;State Machines&quot;
 };
 var layoutProps = {
@@ -23150,7 +23184,10 @@ return function MDXContent(_ref) {
   }, &quot;state machines&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../statecharts/&quot;
-  }, &quot;statecharts&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Example XState Project: Gas Pump&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, {
+  }, &quot;statecharts&quot;), &quot; and includes the ability to treat them as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../actor-model/&quot;
+  }, &quot;actors&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Example XState Project: Gas Pump&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://codesandbox.io/s/fervent-noyce-yhnrc&quot;
   }, mdx(&quot;strong&quot;, {
@@ -26596,7 +26633,7 @@ return function MDXContent(_ref) {
   }, &quot;Create React App&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Use vis.js in a React Application]]></title><description><![CDATA[A step-by-step recipe to use vis.js in a React application]]></description><link>https://www.jamestharpe.com/react-visjs/</link><guid isPermaLink="false">https://www.jamestharpe.com/react-visjs/</guid><pubDate>Sun, 20 Dec 2020 19:22:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[React Recipe: Use vis.js in a React Application]]></title><description><![CDATA[A step-by-step recipe to use vis.js in a React application]]></description><link>https://www.jamestharpe.com/react-visjs/</link><guid isPermaLink="false">https://www.jamestharpe.com/react-visjs/</guid><pubDate>Sun, 20 Dec 2020 19:22:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -26611,7 +26648,7 @@ var _frontmatter = {
   &quot;date&quot;: &quot;2020-12-20T19:22:11.000Z&quot;,
   &quot;description&quot;: &quot;A step-by-step recipe to use vis.js in a React application&quot;,
   &quot;tags&quot;: [&quot;visjs&quot;, &quot;react&quot;],
-  &quot;title&quot;: &quot;Use vis.js in a React Application&quot;
+  &quot;title&quot;: &quot;React Recipe: Use vis.js in a React Application&quot;
 };
 var layoutProps = {
   _frontmatter: _frontmatter
@@ -26627,19 +26664,51 @@ return function MDXContent(_ref) {
   }), mdx(&quot;h1&quot;, null, &quot;Use &quot;, mdx(&quot;code&quot;, {
     parentName: &quot;h1&quot;,
     &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;vis.js&quot;), &quot; in a React App&quot;), mdx(&quot;p&quot;, null, &quot;Vis visualizations can be added to React applications without any React-specific 3rd-party packages. For this recipe we&apos;ll use &quot;, mdx(&quot;a&quot;, {
+  }, &quot;vis.js&quot;), &quot; in a React App&quot;), mdx(&quot;p&quot;, null, &quot;Vis visualizations can be added to React applications without any React-specific 3rd-party packages. For this recipe we&apos;ll use &quot;, mdx(&quot;code&quot;, {
     parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://github.com/visjs/vis-network&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
     &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;vis-network&quot;)), &quot;, though any &quot;, mdx(&quot;code&quot;, {
+  }, &quot;vis-network&quot;), &quot;, though any &quot;, mdx(&quot;code&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;vis.js&quot;), &quot; package should easily substitute. These instructions assume you are starting with an existing React application. To get started from scratch, check out the &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://reactjs.org/tutorial/tutorial.html&quot;
-  }, &quot;Intro to React Tutorial&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;1. Install Dependencies&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+  }, &quot;Intro to React Tutorial&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Ingredients&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://github.com/visjs/vis-network&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;vis-network&quot;)), &quot; or any &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;vis.js&quot;), &quot; package of your choosing&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://github.com/visjs/vis-data&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;vis-data&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://reactjs.org/docs/hooks-effect.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;useEffect&quot;))), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://reactjs.org/docs/hooks-reference.html#useref&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;useRef&quot;)))), mdx(&quot;h2&quot;, null, &quot;Steps&quot;), mdx(&quot;h3&quot;, null, &quot;1. Install dependencies into your React app&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;vis-network&quot;), &quot; package requires the &quot;, mdx(&quot;code&quot;, {
@@ -26660,7 +26729,7 @@ return function MDXContent(_ref) {
   }, &quot;npm&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
     parentName: &quot;code&quot;,
     &quot;className&quot;: &quot;token function&quot;
-  }, &quot;install&quot;), &quot; --save vis-data vis-network&quot;))), mdx(&quot;h2&quot;, null, &quot;2. Hook Into the DOM&quot;), mdx(&quot;p&quot;, null, &quot;Visualizations drawn by Vis libraries require direct access to the DOM. We can set that up in React with a combination of &quot;, mdx(&quot;code&quot;, {
+  }, &quot;install&quot;), &quot; --save vis-data vis-network&quot;))), mdx(&quot;h3&quot;, null, &quot;2. Hook into the DOM&quot;), mdx(&quot;p&quot;, null, &quot;Visualizations drawn by Vis libraries require direct access to the DOM. We can set that up in React with a combination of &quot;, mdx(&quot;code&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;useRef&quot;), &quot; and &quot;, mdx(&quot;code&quot;, {
@@ -27008,7 +27077,7 @@ return function MDXContent(_ref) {
   }, &quot;default&quot;), &quot; VisNetwork&quot;, mdx(&quot;span&quot;, {
     parentName: &quot;code&quot;,
     &quot;className&quot;: &quot;token punctuation&quot;
-  }, &quot;;&quot;)))), mdx(&quot;h2&quot;, null, &quot;3. Use Vis!&quot;), mdx(&quot;p&quot;, null, &quot;Vis can now be used within the &quot;, mdx(&quot;code&quot;, {
+  }, &quot;;&quot;)))), mdx(&quot;h3&quot;, null, &quot;3. Use Vis!&quot;), mdx(&quot;p&quot;, null, &quot;Vis can now be used within the &quot;, mdx(&quot;code&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;useEffect&quot;), &quot; callback.&quot;), mdx(&quot;p&quot;, null, &quot;JavaScript (JSX) example:&quot;), mdx(&quot;div&quot;, {
@@ -27951,30 +28020,6 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://visjs.github.io/vis-network/docs/network/&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;vis-network&quot;), &quot; Documentation&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://reactjs.org/docs/hooks-effect.html&quot;
-  }, &quot;React &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;useEffect&quot;), &quot; hook Documentation&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://reactjs.org/docs/hooks-reference.html#useref&quot;
-  }, &quot;React &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;useRef&quot;), &quot; hook Documentation&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://reactjs.org/docs/refs-and-the-dom.html&quot;
   }, &quot;React Refs and the DOM&quot;))));
 }
@@ -28010,7 +28055,7 @@ return function MDXContent(_ref) {
   }), mdx(&quot;h1&quot;, null, &quot;JavaScript&quot;), mdx(&quot;p&quot;, null, &quot;JavaScript is a general purpose, mixed-paradigm &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../computer-languages/&quot;
-  }, &quot;programming language&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;programming language&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;JavaScript resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
@@ -32979,37 +33024,6 @@ return function MDXContent(_ref) {
   }, &quot;\&quot;List the worst things that the other party could say about you and say them before the other person can... to head off negative dynamics before they take root.\&quot; --Chris Voss&quot;)));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Eliyahu Goldratt]]></title><description><![CDATA[Information about Eliyahu Goldratt]]></description><link>https://www.jamestharpe.com/eliyahu-goldratt/</link><guid isPermaLink="false">https://www.jamestharpe.com/eliyahu-goldratt/</guid><pubDate>Mon, 23 Nov 2020 17:09:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-23T17:09:11.000Z&quot;,
-  &quot;description&quot;: &quot;Information about Eliyahu Goldratt&quot;,
-  &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Eliyahu Goldratt&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Eliyahu Goldratt&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Mark Twain Quotes]]></title><description><![CDATA[Mark Twain Quotes "I've had a lot of worries in my life, most of which never happened."]]></description><link>https://www.jamestharpe.com/mark-twain/</link><guid isPermaLink="false">https://www.jamestharpe.com/mark-twain/</guid><pubDate>Mon, 23 Nov 2020 17:09:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -33078,6 +33092,37 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://twitter.com/rydercarroll&quot;
   }, &quot;Twitter&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Eliyahu Goldratt]]></title><description><![CDATA[Information about Eliyahu Goldratt]]></description><link>https://www.jamestharpe.com/eliyahu-goldratt/</link><guid isPermaLink="false">https://www.jamestharpe.com/eliyahu-goldratt/</guid><pubDate>Mon, 23 Nov 2020 17:09:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-23T17:09:11.000Z&quot;,
+  &quot;description&quot;: &quot;Information about Eliyahu Goldratt&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Eliyahu Goldratt&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Eliyahu Goldratt&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Internet of Things (IoT)]]></title><description><![CDATA[Tools and technologies behind Internet of Things (IoT)]]></description><link>https://www.jamestharpe.com/iot/</link><guid isPermaLink="false">https://www.jamestharpe.com/iot/</guid><pubDate>Mon, 23 Nov 2020 16:15:18 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -35273,10 +35318,23 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;TypeScript&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
+  }), mdx(&quot;h1&quot;, null, &quot;TypeScript&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;TypeScript&quot;), &quot; is an &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../open-source/&quot;
+  }, &quot;open-source&quot;), &quot; &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;programming language&quot;), &quot; that builds on &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../javascript/&quot;
+  }, &quot;JavaScript&quot;), &quot; to add static type definitions.&quot;), mdx(&quot;h2&quot;, null, &quot;TypeScript resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://www.typescriptlang.org/&quot;
-  }, &quot;TypeScript&quot;), &quot; is an open-source language that builds on JavaScript to add static type definitions.&quot;));
+  }, &quot;Official TypeScript website&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[TypeScript: Extend the Window (globalThis) Object]]></title><description><![CDATA[Add custom properties to the Window interface with TypeScript]]></description><link>https://www.jamestharpe.com/typescript-extend-window/</link><guid isPermaLink="false">https://www.jamestharpe.com/typescript-extend-window/</guid><pubDate>Sun, 15 Nov 2020 18:37:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
