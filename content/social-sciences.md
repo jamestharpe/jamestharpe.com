@@ -7,7 +7,7 @@ title: "Social Sciences"
 
 # Social sciences
 
-A **social science** is a [science](sciences.md) that studies human social relationships.
+A **social science** is a [science](science.md) that studies human social relationships.
 
 ## Social Science Resources
 

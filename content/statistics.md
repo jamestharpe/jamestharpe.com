@@ -13,4 +13,3 @@ title: "Statistics"
 
 * [Primer YouTube Channel](https://www.youtube.com/channel/UCKzJFdi57J53Vr_BkTfN3uQ)
 * [Probability and Statistics on Khan Academy](https://www.khanacademy.org/math/statistics-probability)
-

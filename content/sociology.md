@@ -9,7 +9,7 @@ title: "Sociology"
 
 **Sociology** is a [social science](social-sciences.md) concerned with the structures, institutions, and consequences of human societies.
 
-Sociology can be split into two major categories: Macrosociology and microsociology. 
+Sociology can be split into two major categories: Macrosociology and microsociology.
 
 **Macrosociology** studies large populations to understand the impacts of these populations and their behaviors on individuals and smaller groups, generally using [statistical methods](statistics.md). Common topics studied in macrosociology include [economics](economics.md), poverty, racism, war, inequality, and major institutions.
 

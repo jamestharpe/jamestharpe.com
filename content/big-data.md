@@ -7,9 +7,9 @@ title: "Big Data"
 
 # Big data
 
-**Big data** is a blanket term for the [data engineering](data-engineering.md) and [data analysis](data-analysis.md) challenges that arise from working with extremely large datasets. 
+**Big data** is a blanket term for the [data engineering](data-engineering.md) and [data analysis](data-analysis.md) challenges that arise from working with extremely large datasets.
 
-As [tweeted by Jeff Xiong](https://mobile.twitter.com/gigix/status/174086466950021120): 
+As [tweeted by Jeff Xiong](https://mobile.twitter.com/gigix/status/174086466950021120):
 
 > "big data" is when the size of the data itself becomes part of the problem
 
