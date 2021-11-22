@@ -2,14 +2,23 @@
 date: 2020-12-20T15:22:11-04:00
 description: "A step-by-step recipe to use vis.js in a React application"
 tags: [ "visjs", "react" ]
-title: "Use vis.js in a React Application"
+title: "React Recipe: Use vis.js in a React Application"
 ---
 
 # Use `vis.js` in a React App
 
-Vis visualizations can be added to React applications without any React-specific 3rd-party packages. For this recipe we'll use [`vis-network`](https://github.com/visjs/vis-network), though any `vis.js` package should easily substitute. These instructions assume you are starting with an existing React application. To get started from scratch, check out the [Intro to React Tutorial](https://reactjs.org/tutorial/tutorial.html).
+Vis visualizations can be added to React applications without any React-specific 3rd-party packages. For this recipe we'll use `vis-network`, though any `vis.js` package should easily substitute. These instructions assume you are starting with an existing React application. To get started from scratch, check out the [Intro to React Tutorial](https://reactjs.org/tutorial/tutorial.html).
 
-## 1. Install Dependencies
+## Ingredients
+
+* [`vis-network`](https://github.com/visjs/vis-network) or any `vis.js` package of your choosing
+* [`vis-data`](https://github.com/visjs/vis-data)
+* [`useEffect`](https://reactjs.org/docs/hooks-effect.html)
+* [`useRef`](https://reactjs.org/docs/hooks-reference.html#useref)
+
+## Steps
+
+### 1. Install dependencies into your React app
 
 The `vis-network` package requires the `vis-data` package to function, so install both:
 
@@ -17,7 +26,7 @@ The `vis-network` package requires the `vis-data` package to function, so instal
 npm install --save vis-data vis-network
 ```
 
-## 2. Hook Into the DOM
+### 2. Hook into the DOM
 
 Visualizations drawn by Vis libraries require direct access to the DOM. We can set that up in React with a combination of `useRef` and `useEffect`:
 
@@ -54,7 +63,7 @@ const VisNetwork: React.FC = () => {
 export default VisNetwork;
 ```
 
-## 3. Use Vis!
+### 3. Use Vis!
 
 Vis can now be used within the `useEffect` callback.
 
@@ -132,7 +141,4 @@ A full example can be found on my website's [source code for the Related Network
 
 ## Additional Resources for `vis.js` in React
 
-* [`vis-network` Documentation](https://visjs.github.io/vis-network/docs/network/)
-* [React `useEffect` hook Documentation](https://reactjs.org/docs/hooks-effect.html)
-* [React `useRef` hook Documentation](https://reactjs.org/docs/hooks-reference.html#useref)
 * [React Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)

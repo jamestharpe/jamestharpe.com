@@ -7,7 +7,7 @@ title: "JavaScript Recipe: Get the last element from an array"
 
 # Get the last element from an array
 
-Given an array with one or more  elements, return only the last elements from an array.
+Given an array with one or more elements, return only the last element from the array.
 
 ```javascript
 const array = [1, 2, 3];
