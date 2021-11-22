@@ -7,7 +7,7 @@ title: "Interquartile Range (IQR)"
 
 # Interquartile Range (IQR)
 
-The interquartile range, or IQR, is the middle half of a collection of numbers when ordered from lowest to highest.
+**Interquartile range (IQR)** is the middle half of a collection of numbers when ordered from lowest to highest.
 
 To find the interquartile range of a collection:
 
