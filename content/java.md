@@ -8,4 +8,4 @@ title: "Java"
 
 # Java
 
-[Java](https://www.java.com/) is a general purpose, object-oriented [programming language](computer-languages.md).
+Java is a general purpose, object-oriented [programming language](computer-languages.md).
