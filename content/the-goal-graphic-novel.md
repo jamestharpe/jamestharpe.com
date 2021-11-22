@@ -12,7 +12,7 @@ title: "The Goal: A Business Graphic Novel by Eliyahu Goldratt"
 
 ## Key Lessons from The Goal
 
-**The Goal is to make money** (this is a business book, after all). To remain competitive, businesses must continuously and systematically improve their operations. The theory of constraints provides a model to continuously identify and improve systems as they relate to The Goal.
+**The Goal is to make money** (this is a [business](business.md) book, after all). To remain competitive, businesses must continuously and systematically improve their operations. The theory of constraints provides a model to continuously identify and improve systems as they relate to The Goal.
 
 The theory of constraints defines a model of how cash flows through a system:
 
@@ -22,7 +22,7 @@ The theory of constraints defines a model of how cash flows through a system:
 
 In short: Throughput is money in, inventory is money out, and operational expenses are money that is "stuck" in the system.
 
-The process of converting inventory to throughput is constrained by one or more bottlenecks. A **bottleneck** is a resource with less capacity than the demand placed upon it. Bottlenecks aren't good or bad, they're reality.
+The process of converting inventory to throughput is _constrained_ by one or more bottlenecks. A **bottleneck** is a resource with less capacity than the demand placed upon it. Bottlenecks aren't good or bad, they're reality.
 
 "The Goal" (to make money) therefore translates to _increasing throughput while reducing inventory and operational expenses simultaneously_.  Numbers not based on the constraints of the system are meaningless; _producing_ work and _profiting_ from it are two very different things.
 
