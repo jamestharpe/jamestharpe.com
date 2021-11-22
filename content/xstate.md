@@ -7,7 +7,7 @@ title: "XState (JavaScript Library)"
 
 # XState
 
-[XState](https://xstate.js.org/) is a [JavaScript](javascript.md) framework by [Stately](https://stately.ai/) for managing [state machines](state-machines.md) and [statecharts](statecharts.md).
+[XState](https://xstate.js.org/) is a [JavaScript](javascript.md) framework by [Stately](https://stately.ai/) for managing [state machines](state-machines.md) and [statecharts](statecharts.md) and includes the ability to treat them as [actors](actor-model.md).
 
 ## Example XState Project: Gas Pump
 
