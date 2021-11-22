@@ -7,4 +7,8 @@ title: "TypeScript"
 
 # TypeScript
 
-[TypeScript](https://www.typescriptlang.org/) is an open-source language that builds on JavaScript to add static type definitions.
+**TypeScript** is an [open-source](open-source.md) [programming language](computer-languages.md) that builds on [JavaScript](javascript.md) to add static type definitions.
+
+## TypeScript resources
+
+* [Official TypeScript website](https://www.typescriptlang.org/)
