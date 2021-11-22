@@ -2,7 +2,7 @@
 date: 2020-11-15T17:20:11-04:00
 description: "A package manager for managing software on Windows"
 redirect_from: ["/tools/chocolatey/"]
-tags: ["package-manager"]
+tags: ["package-managers"]
 title: "Chocolatey (Windows Package Manager)"
 ---
 
