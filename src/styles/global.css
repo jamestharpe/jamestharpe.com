@@ -153,6 +153,9 @@ table tfoot {
 	max-width: 50em;
 }
 
+:not(pre) > code[class*="language-"] {
+	padding-top: 0em;
+}
 
 /* Medium Screens */
 
