@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Nov 2021 22:15:54 GMT</lastBuildDate><item><title><![CDATA[Mypy]]></title><description><![CDATA[An object-oriented programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/mypy/</link><guid isPermaLink="false">https://www.jamestharpe.com/mypy/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Nov 2021 23:11:00 GMT</lastBuildDate><item><title><![CDATA[Mypy]]></title><description><![CDATA[Static type checking for Python]]></description><link>https://www.jamestharpe.com/mypy/</link><guid isPermaLink="false">https://www.jamestharpe.com/mypy/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -11,7 +11,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-24T20:27:54.000Z&quot;,
-  &quot;description&quot;: &quot;An object-oriented programing language where whitespace matters&quot;,
+  &quot;description&quot;: &quot;Static type checking for Python&quot;,
   &quot;tags&quot;: [&quot;python&quot;],
   &quot;title&quot;: &quot;Mypy&quot;
 };
@@ -42,6 +42,56 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://mypy.readthedocs.io/en/stable/&quot;
   }, &quot;Mypy documentation&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Pipenv]]></title><description><![CDATA[An object-oriented programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/pipenv/</link><guid isPermaLink="false">https://www.jamestharpe.com/pipenv/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-24T20:27:54.000Z&quot;,
+  &quot;description&quot;: &quot;An object-oriented programing language where whitespace matters&quot;,
+  &quot;tags&quot;: [&quot;python-venvs&quot;, &quot;package-managers&quot;],
+  &quot;title&quot;: &quot;Pipenv&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Pipenv&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Pipenv&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../package-managers/&quot;
+  }, &quot;package manager&quot;), &quot; for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python/&quot;
+  }, &quot;Python&quot;), &quot; that replaces &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python-pip/&quot;
+  }, &quot;pip&quot;), &quot; and manages &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python-venvs/&quot;
+  }, &quot;virtual environments&quot;), &quot;. Notably, pipenv produces deterministic builds.&quot;), mdx(&quot;h2&quot;, null, &quot;Mypy resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://github.com/pypa/pipenv&quot;
+  }, &quot;Pipenv on GitHub&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Pip: Python's Package Manager]]></title><description><![CDATA[Python's package manager]]></description><link>https://www.jamestharpe.com/python-pip/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-pip/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -224,7 +274,149 @@ return function MDXContent(_ref) {
   }, &quot;Python Package Index&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python]]></title><description><![CDATA[An object-oriented programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/python/</link><guid isPermaLink="false">https://www.jamestharpe.com/python/</guid><pubDate>Mon, 22 Nov 2021 16:39:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-22T17:00:54.000Z&quot;,
+  &quot;description&quot;: &quot;How to manage virtual environments with Python, Pip, and VEnv&quot;,
+  &quot;tags&quot;: [&quot;python&quot;, &quot;python-pip&quot;],
+  &quot;title&quot;: &quot;Python Virtual Environments&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Virtual environments with Python, Pip, and VEnv&quot;), mdx(&quot;p&quot;, null, &quot;In &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python/&quot;
+  }, &quot;Python&quot;), &quot; development, a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;virtual environment&quot;), &quot; is an isolated context for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python-pip/&quot;
+  }, &quot;installing Python packages&quot;), &quot;. As of Python 3.3, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;venv&quot;), &quot; is included to help manage virtual environments.&quot;), mdx(&quot;h2&quot;, null, &quot;Create and use a virtual environment&quot;), mdx(&quot;p&quot;, null, &quot;To create a virtual environment, it&apos;s usually best to specify the Python version explicitly to ensure the environment is setup with the expected version:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;python3.8 -m venv path/to/environment&quot;))), mdx(&quot;p&quot;, null, &quot;A best practice is to use a virtual environment per project. A common convention to do so is to create the environment in a folder called &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;venv&quot;), &quot; directly in the project folder:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token builtin class-name&quot;
+  }, &quot;cd&quot;), &quot; my-project\npython3.8 -m venv venv&quot;))), mdx(&quot;p&quot;, null, &quot;To use the virtual environment, it needs to be activated:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token builtin class-name&quot;
+  }, &quot;source&quot;), &quot; venv/bin/activate\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;which&quot;), &quot; python3 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;# confirm expected python version&quot;)))), mdx(&quot;p&quot;, null, &quot;Once activated, it&apos;s usually necessary to install the project dependencies which are most often referenced by a &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;requirements.txt&quot;), &quot; file:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;python3 -m pip &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;install&quot;), &quot; -r requirements.txt&quot;))), mdx(&quot;p&quot;, null, &quot;Finally, the virtual environment can be deactivated when it&apos;s no longer needed:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;deactivate&quot;))), mdx(&quot;h2&quot;, null, &quot;Why virtual environments are important: Dependency hell&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Dependency hell&quot;), &quot; is the confusion caused when dependency needs conflict between projects, users, and systems.&quot;), mdx(&quot;p&quot;, null, &quot;Unlike most other &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;programming language&quot;), &quot; package managers that install packages in the current working directory, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python-pip/&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;)), &quot; by default installs packages as globally as possible. When installing a package, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; will first try to install that package system-wide. If system-wide installation is not permitted, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; will install the package for the current user.&quot;), mdx(&quot;p&quot;, null, &quot;These \&quot;as global as possible\&quot; installations can cause dependency hell when:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Multiple projects have conflicting dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Project dependencies conflict with system dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Multiple users of the same system need conflicting dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Projects need to be tested against different versions of Python&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Projects need to be tested against different library versions&quot;)), mdx(&quot;p&quot;, null, &quot;For these reasons, a best practice for Python and &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; is to &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;always use a virtual environment&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;What are virtual environments?&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;virtual environment&quot;), &quot; is an isolated context for installing Python packages. To prevent dependency hell, a new virtual environment should be created for every project.&quot;), mdx(&quot;p&quot;, null, &quot;A common convention\n...&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python]]></title><description><![CDATA[An object-oriented and functional programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/python/</link><guid isPermaLink="false">https://www.jamestharpe.com/python/</guid><pubDate>Mon, 22 Nov 2021 16:39:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -237,7 +429,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-22T16:39:54.000Z&quot;,
-  &quot;description&quot;: &quot;An object-oriented programing language where whitespace matters&quot;,
+  &quot;description&quot;: &quot;An object-oriented and functional programing language where whitespace matters&quot;,
   &quot;tags&quot;: [&quot;computer-languages&quot;],
   &quot;title&quot;: &quot;Python&quot;
 };
@@ -2585,7 +2777,7 @@ return function MDXContent(_ref) {
   }, &quot;visualizations&quot;), &quot;, and build reports and dashboards while data scientists build machine learning and statistical models.&quot;), mdx(&quot;p&quot;, null, &quot;Whether a data team is formed around a specific discipline or as a cross-functional team, each team needs to meet a set of minimal skills to work effectively. The table below matches each discipline and skill to a minimum &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../dreyfus-model-of-skill-acquisition/&quot;
-  }, &quot;level of proficiency&quot;), &quot;:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;level of proficiency&quot;), &quot; suitable for most contexts where a data team is required.&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, &quot;Novice: Little or no knowledge required&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -2752,7 +2944,11 @@ return function MDXContent(_ref) {
     &quot;align&quot;: null
   }, &quot;Novice&quot;)))), mdx(&quot;h2&quot;, null, &quot;Signs of effective data teams&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
-  }, &quot;\&quot;It&apos;s all just data\&quot; - The organization takes the hard work of the data engineering teams for granted. As a consumer of data, it just seems so easy.&quot;)));
+  }, &quot;\&quot;It&apos;s all just data\&quot; - The organization takes the hard work of the data engineering teams for granted. As a consumer of data, it just seems so easy.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Data is generally trusted and correctly interpreted, thanks to effective communication&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  })));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Business Intelligence]]></title><description><![CDATA[Methods to bridge the gap between data and business]]></description><link>https://www.jamestharpe.com/business-intelligence/</link><guid isPermaLink="false">https://www.jamestharpe.com/business-intelligence/</guid><pubDate>Sun, 21 Nov 2021 14:52:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -5054,37 +5250,6 @@ return function MDXContent(_ref) {
   }, &quot;&gt;&quot;))))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
-  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
-  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
-  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -5233,6 +5398,37 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;
   }, &quot;Global objects: Set&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
+  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
+  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
+  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash: Royalty-free Photos]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -6007,6 +6203,50 @@ return function MDXContent(_ref) {
   }, &quot;1&quot;), &quot;.&quot;));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Web Encryption (JWE)]]></title><description><![CDATA[A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516]]></description><link>https://www.jamestharpe.com/jwe/</link><guid isPermaLink="false">https://www.jamestharpe.com/jwe/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-05T21:52:27.000Z&quot;,
+  &quot;description&quot;: &quot;A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516&quot;,
+  &quot;tags&quot;: [&quot;jose&quot;, &quot;base64url&quot;, &quot;ietf-standards&quot;],
+  &quot;title&quot;: &quot;JSON Web Encryption (JWE)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JSON Web Encryption (JWE)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;JSON Web Encryption (JWE)&quot;), &quot; is an open standard for representing encrypted content as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../base64url/&quot;
+  }, &quot;base64url&quot;), &quot; encoded &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../json/&quot;
+  }, &quot;JSON&quot;), &quot; data.&quot;), mdx(&quot;h2&quot;, null, &quot;JWE Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7516&quot;
+  }, &quot;JSON Web Encryption (JWE), RFC 7516&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Object Signing and Encryption (JOSE)]]></title><description><![CDATA[A set of technologies used to encrypt and sign content]]></description><link>https://www.jamestharpe.com/jose/</link><guid isPermaLink="false">https://www.jamestharpe.com/jose/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -6058,50 +6298,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7520&quot;
   }, &quot;IETF JOSE Cookbook&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Web Encryption (JWE)]]></title><description><![CDATA[A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516]]></description><link>https://www.jamestharpe.com/jwe/</link><guid isPermaLink="false">https://www.jamestharpe.com/jwe/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-05T21:52:27.000Z&quot;,
-  &quot;description&quot;: &quot;A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516&quot;,
-  &quot;tags&quot;: [&quot;jose&quot;, &quot;base64url&quot;, &quot;ietf-standards&quot;],
-  &quot;title&quot;: &quot;JSON Web Encryption (JWE)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JSON Web Encryption (JWE)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;JSON Web Encryption (JWE)&quot;), &quot; is an open standard for representing encrypted content as &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../base64url/&quot;
-  }, &quot;base64url&quot;), &quot; encoded &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../json/&quot;
-  }, &quot;JSON&quot;), &quot; data.&quot;), mdx(&quot;h2&quot;, null, &quot;JWE Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7516&quot;
-  }, &quot;JSON Web Encryption (JWE), RFC 7516&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Asymmetric (public-key) Cryptography]]></title><description><![CDATA[A cryptographic system]]></description><link>https://www.jamestharpe.com/asymmetric-cryptography/</link><guid isPermaLink="false">https://www.jamestharpe.com/asymmetric-cryptography/</guid><pubDate>Sun, 05 Sep 2021 21:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -6712,133 +6908,6 @@ return function MDXContent(_ref) {
   }, &quot;operating system&quot;), &quot; but different in that containers do not provide hardware-level virtualization as virtual machines do.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-08-18T11:13:14.000Z&quot;,
-  &quot;description&quot;: &quot;A system to conduct an orchestra of containers&quot;,
-  &quot;tags&quot;: [&quot;containers&quot;],
-  &quot;title&quot;: &quot;Kubernetes (k8s)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Kubernetes (k8s)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Kubernetes&quot;), &quot;, sometimes stylistically written as &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;k8s&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../open-source/&quot;
-  }, &quot;open-source&quot;), &quot; system to automate the deployment, scaling, and management of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../containers/&quot;
-  }, &quot;containerized&quot;), &quot; applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.&quot;), mdx(&quot;h2&quot;, null, &quot;How Kubernetes Works&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes works by maintaining a cluster of nodes, where each &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;node&quot;), &quot; is a physical or virtual machine capable of running one or more pods and managed by an agent called &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/&quot;
-  }, &quot;kublet&quot;), &quot;. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Kubernetes is declaratively configured by a manifest file, which describes the desired state of the cluster. Differences between the desired state are reconciled through the &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;control plane&quot;), &quot;, which is an extensible set of components that are responsible for maintaining the desired state of the cluster.&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n    subgraph Cluster\n\t\tMaster(\&quot;fa:fa-asterisk Master Node\&quot;)\n        subgraph Node1[Node]\n            Kublet1(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod1[Pod]\n            Kublet1 --&gt; Pod2[Pod]\n            Pod1[Pod]\n            Pod2[Pod]\n        end\n\t\tsubgraph Node2[Node]\n            Kublet2(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod3[Pod]\n            Kublet2 --&gt; Pod4\n            Pod3[Pod]\n            Pod4[Pod]\n        end\n        subgraph Node3[Node]\n            Kublet3(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod5[Pod]\n            Kublet3 --&gt; Pod6\n            Pod5[Pod]\n            Pod6[Pod]\n        end\n    end\n    subgraph CP[Control Plane]\n\t\tStore[(\&quot;Store (etcd)\&quot;)] --&gt;|Configuration| Master\n        API --&gt; Master\n        Scheduler --&gt; Master\n        Controller[\&quot;Controller Manager\&quot;] --&gt; Master\n    end\n    kubectl[\&quot;$ kubectl\&quot;] --&gt; API\n    Master --&gt; Kublet1\n    Master --&gt; Kublet2\n    Master --&gt; Kublet3&quot;), mdx(&quot;h2&quot;, null, &quot;Components of Kubernetes&quot;), mdx(&quot;h3&quot;, null, &quot;Pods&quot;), mdx(&quot;p&quot;, null, &quot;Pods are the most basic unit of execution in Kubernetes. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.&quot;), mdx(&quot;h3&quot;, null, &quot;ReplicaSets&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;ReplicaSet&quot;), &quot; is a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets provide fault tolerance and can also be used to automatically scale the number of pods horizontally based on a variety of conditions.&quot;), mdx(&quot;p&quot;, null, &quot;ReplicaSets rely on pod templates to define the desired state of the pods.&quot;), mdx(&quot;h3&quot;, null, &quot;Deployments&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;deployment&quot;), &quot; is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets.&quot;), mdx(&quot;h3&quot;, null, &quot;Labels&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Labels&quot;), &quot; are key-value pairs attached to pods, ReplicaSets, Deployments, and other Kubernetes objects to organize and identify those objects. Common uses for labels include identifying application names (e.g. \&quot;mysql\&quot;), versions (e.g. \&quot;5.7.21\&quot;), and instances (e.g. \&quot;mysql-production\&quot;), architectural components (e.g. \&quot;ui\&quot; or \&quot;database\&quot;), higher-level applications (e.g. \&quot;whenner\&quot;), and other application meta information.&quot;), mdx(&quot;h3&quot;, null, &quot;Services&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;service&quot;), &quot; allows an application to be exposed on a network, even as the pods that host the application are created and destroyed, by abstracting pod IP addresses away from application consumers and load balancing between active pods. Services rely on labels to to associate with pods.&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;mermaid&quot;
-  }, &quot;graph TD\n\tClient[External Client] --&gt; Service\n\tsubgraph Kubernetes\n\t\tService --&gt; Pod1\n\t\tService --&gt; Pod2\n\t\tend&quot;), mdx(&quot;p&quot;, null, &quot;There are four main types of Service:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;ClusterIP service&quot;), &quot; exposes the service on an IP address internal to the cluster so that only pods within the cluster can communicate with the service&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;NodePort service&quot;), &quot; exposes the service on static port on each node&apos;s IP address so that the service is accessible from outside the cluster, the node then uses a ClusterIP service to proxy requests on that port to an appropriate pod&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;LoadBalancer service&quot;), &quot; allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;An &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;li&quot;
-  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)), mdx(&quot;h3&quot;, null, &quot;Storage and Volumes&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;volume&quot;), &quot; references a storage location that can be used by Kubernetes for persistent storage. &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Volume mounts&quot;), &quot; attach pods to volumes via the volume name and a specified mount path.&quot;), mdx(&quot;p&quot;, null, &quot;Basic types of volumes include:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;emptyDir&quot;), &quot; volumes provide an empty directory for the lifetime of a Pod. This is useful for sharing files between containers, caching, and other ephemeral storage needs.&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;hostPath&quot;), &quot; volumes provide access to the underlying node&apos;s filesystem. This is useful for added node health monitoring, such as &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://github.com/google/cadvisor&quot;
-  }, &quot;cAdvisor&quot;), &quot;. For security reasons, &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;hostPath&quot;), &quot; volumes are typically readonly.&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;nfs&quot;), &quot; volumes provide network file system access. This is useful for shared resources across pods and pod life cycles.&quot;)), mdx(&quot;h4&quot;, null, mdx(&quot;code&quot;, {
-    parentName: &quot;h4&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;PersistentVolumes&quot;)), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;PersistentVolume&quot;), &quot; provides cluster-wide storage through network-attached storage (NAS) that can be made available to any pod even if it is rescheduled to another node. A PersistentVolume is associated with a pod through a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;PersistentVolumeClaim (PVC)&quot;), &quot;. The storage that backs a persistent volume is usually implemented as a Network File System (NFS), iSCSI, cloud service, or other type of network based storage.&quot;), mdx(&quot;h2&quot;, null, &quot;Kubernetes Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://kubernetes.io/docs/home/&quot;
-  }, &quot;Official Kubernetes Documentation&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://github.com/kubernetes/examples&quot;
-  }, &quot;Open Source Kubernetes Examples&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://kubernetes.io/docs/tutorials/&quot;
-  }, &quot;Official Kubernetes Tutorials&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes CLI: kubectl]]></title><description><![CDATA[The CLI interface for Kubernetes]]></description><link>https://www.jamestharpe.com/kubectl/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubectl/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -7035,6 +7104,133 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;k version&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-08-18T11:13:14.000Z&quot;,
+  &quot;description&quot;: &quot;A system to conduct an orchestra of containers&quot;,
+  &quot;tags&quot;: [&quot;containers&quot;],
+  &quot;title&quot;: &quot;Kubernetes (k8s)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Kubernetes (k8s)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Kubernetes&quot;), &quot;, sometimes stylistically written as &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;k8s&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../open-source/&quot;
+  }, &quot;open-source&quot;), &quot; system to automate the deployment, scaling, and management of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../containers/&quot;
+  }, &quot;containerized&quot;), &quot; applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.&quot;), mdx(&quot;h2&quot;, null, &quot;How Kubernetes Works&quot;), mdx(&quot;p&quot;, null, &quot;Kubernetes works by maintaining a cluster of nodes, where each &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;node&quot;), &quot; is a physical or virtual machine capable of running one or more pods and managed by an agent called &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/&quot;
+  }, &quot;kublet&quot;), &quot;. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Kubernetes is declaratively configured by a manifest file, which describes the desired state of the cluster. Differences between the desired state are reconciled through the &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;control plane&quot;), &quot;, which is an extensible set of components that are responsible for maintaining the desired state of the cluster.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n    subgraph Cluster\n\t\tMaster(\&quot;fa:fa-asterisk Master Node\&quot;)\n        subgraph Node1[Node]\n            Kublet1(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod1[Pod]\n            Kublet1 --&gt; Pod2[Pod]\n            Pod1[Pod]\n            Pod2[Pod]\n        end\n\t\tsubgraph Node2[Node]\n            Kublet2(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod3[Pod]\n            Kublet2 --&gt; Pod4\n            Pod3[Pod]\n            Pod4[Pod]\n        end\n        subgraph Node3[Node]\n            Kublet3(\&quot;fa:fa-cog Kublet\&quot;) --&gt; Pod5[Pod]\n            Kublet3 --&gt; Pod6\n            Pod5[Pod]\n            Pod6[Pod]\n        end\n    end\n    subgraph CP[Control Plane]\n\t\tStore[(\&quot;Store (etcd)\&quot;)] --&gt;|Configuration| Master\n        API --&gt; Master\n        Scheduler --&gt; Master\n        Controller[\&quot;Controller Manager\&quot;] --&gt; Master\n    end\n    kubectl[\&quot;$ kubectl\&quot;] --&gt; API\n    Master --&gt; Kublet1\n    Master --&gt; Kublet2\n    Master --&gt; Kublet3&quot;), mdx(&quot;h2&quot;, null, &quot;Components of Kubernetes&quot;), mdx(&quot;h3&quot;, null, &quot;Pods&quot;), mdx(&quot;p&quot;, null, &quot;Pods are the most basic unit of execution in Kubernetes. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pod&quot;), &quot; is a group of containers that share a common configuration and are scheduled onto the same node. Pods are the smallest deployable unit of execution in Kubernetes.&quot;), mdx(&quot;h3&quot;, null, &quot;ReplicaSets&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;ReplicaSet&quot;), &quot; is a declarative way to maintain a set of pods that share a common configuration. Each pod in a ReplicaSet is a replica of all the other pods in that set, and the ReplicaSets creates and maintains the desired state of the pods. ReplicaSets act as a self-healing mechanism in that if a pod fails, the ReplicaSet will create a new pod to replace it. ReplicaSets provide fault tolerance and can also be used to automatically scale the number of pods horizontally based on a variety of conditions.&quot;), mdx(&quot;p&quot;, null, &quot;ReplicaSets rely on pod templates to define the desired state of the pods.&quot;), mdx(&quot;h3&quot;, null, &quot;Deployments&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;deployment&quot;), &quot; is a declarative way to manage ReplicaSets. Deployments support zero-downtime updates and rollbacks through the orchestrated creation and destruction of ReplicaSets.&quot;), mdx(&quot;h3&quot;, null, &quot;Labels&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Labels&quot;), &quot; are key-value pairs attached to pods, ReplicaSets, Deployments, and other Kubernetes objects to organize and identify those objects. Common uses for labels include identifying application names (e.g. \&quot;mysql\&quot;), versions (e.g. \&quot;5.7.21\&quot;), and instances (e.g. \&quot;mysql-production\&quot;), architectural components (e.g. \&quot;ui\&quot; or \&quot;database\&quot;), higher-level applications (e.g. \&quot;whenner\&quot;), and other application meta information.&quot;), mdx(&quot;h3&quot;, null, &quot;Services&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;service&quot;), &quot; allows an application to be exposed on a network, even as the pods that host the application are created and destroyed, by abstracting pod IP addresses away from application consumers and load balancing between active pods. Services rely on labels to to associate with pods.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;graph TD\n\tClient[External Client] --&gt; Service\n\tsubgraph Kubernetes\n\t\tService --&gt; Pod1\n\t\tService --&gt; Pod2\n\t\tend&quot;), mdx(&quot;p&quot;, null, &quot;There are four main types of Service:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;ClusterIP service&quot;), &quot; exposes the service on an IP address internal to the cluster so that only pods within the cluster can communicate with the service&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;NodePort service&quot;), &quot; exposes the service on static port on each node&apos;s IP address so that the service is accessible from outside the cluster, the node then uses a ClusterIP service to proxy requests on that port to an appropriate pod&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;LoadBalancer service&quot;), &quot; allocates an external IP address and integrates with an external load-balancer to automatically create routes to nodes (and pods by extension) exposed by a NodePort service&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;li&quot;
+  }, &quot;ExternalName service&quot;), &quot; associates a service with a DNS name by returning a CNAME record on DNS lookup&quot;)), mdx(&quot;h3&quot;, null, &quot;Storage and Volumes&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;volume&quot;), &quot; references a storage location that can be used by Kubernetes for persistent storage. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Volume mounts&quot;), &quot; attach pods to volumes via the volume name and a specified mount path.&quot;), mdx(&quot;p&quot;, null, &quot;Basic types of volumes include:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;emptyDir&quot;), &quot; volumes provide an empty directory for the lifetime of a Pod. This is useful for sharing files between containers, caching, and other ephemeral storage needs.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;hostPath&quot;), &quot; volumes provide access to the underlying node&apos;s filesystem. This is useful for added node health monitoring, such as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://github.com/google/cadvisor&quot;
+  }, &quot;cAdvisor&quot;), &quot;. For security reasons, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;hostPath&quot;), &quot; volumes are typically readonly.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;nfs&quot;), &quot; volumes provide network file system access. This is useful for shared resources across pods and pod life cycles.&quot;)), mdx(&quot;h4&quot;, null, mdx(&quot;code&quot;, {
+    parentName: &quot;h4&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersistentVolumes&quot;)), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;PersistentVolume&quot;), &quot; provides cluster-wide storage through network-attached storage (NAS) that can be made available to any pod even if it is rescheduled to another node. A PersistentVolume is associated with a pod through a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;PersistentVolumeClaim (PVC)&quot;), &quot;. The storage that backs a persistent volume is usually implemented as a Network File System (NFS), iSCSI, cloud service, or other type of network based storage.&quot;), mdx(&quot;h2&quot;, null, &quot;Kubernetes Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://kubernetes.io/docs/home/&quot;
+  }, &quot;Official Kubernetes Documentation&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://github.com/kubernetes/examples&quot;
+  }, &quot;Open Source Kubernetes Examples&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://kubernetes.io/docs/tutorials/&quot;
+  }, &quot;Official Kubernetes Tutorials&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness]]></title><description><![CDATA[The opportunity for fair representation within a group]]></description><link>https://www.jamestharpe.com/scarf-model/</link><guid isPermaLink="false">https://www.jamestharpe.com/scarf-model/</guid><pubDate>Fri, 23 Jul 2021 14:11:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -33874,82 +34070,6 @@ return function MDXContent(_ref) {
   }, &quot;James Watt&quot;), &quot;, best known for his work to improve the steam engine.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-24T15:33:11.000Z&quot;,
-  &quot;description&quot;: &quot;A free and open-source operating system&quot;,
-  &quot;tags&quot;: [&quot;operating-systems&quot;],
-  &quot;title&quot;: &quot;Linux&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Linux&quot;), mdx(&quot;h2&quot;, null, &quot;Useful Commands&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;thead&quot;
-  }, mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Command&quot;), mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;https://www.man7.org/linux/man-pages/man8/lsusb.8.html&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Change the password or password validity period for a user account&quot;)))), mdx(&quot;h2&quot;, null, &quot;Linux Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ&quot;
-  }, &quot;tutorialLinux YouTube Channel&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -34147,6 +34267,82 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;/var&quot;), &quot; folder contains files that are expected to grow over time (e.g. logs and caches).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-24T15:33:11.000Z&quot;,
+  &quot;description&quot;: &quot;A free and open-source operating system&quot;,
+  &quot;tags&quot;: [&quot;operating-systems&quot;],
+  &quot;title&quot;: &quot;Linux&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Linux&quot;), mdx(&quot;h2&quot;, null, &quot;Useful Commands&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;thead&quot;
+  }, mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Command&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://www.man7.org/linux/man-pages/man8/lsusb.8.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Change the password or password validity period for a user account&quot;)))), mdx(&quot;h2&quot;, null, &quot;Linux Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ&quot;
+  }, &quot;tutorialLinux YouTube Channel&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[A small, reliable 3D printer appropriate for home use]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
