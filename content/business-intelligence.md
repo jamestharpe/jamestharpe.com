@@ -1,7 +1,7 @@
 ---
 date: 2021-11-21T10:52:25-04:00
 description: "Methods to bridge the gap between data and business"
-tags: [ "business", "data-products" ]
+tags: [ "business-operations", "data-products" ]
 title: "Business Intelligence"
 ---
 
