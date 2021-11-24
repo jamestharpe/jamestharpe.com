@@ -9,4 +9,4 @@ title: "Business Intelligence"
 
 **Business intelligence** is the integration of [data products](data-products.md) with [business practices](business-operations.md) to aid decision making and improve the overall performance of the business. A successful business intelligence practice results in a quantifiable difference in revenue and customer satisfaction.
 
-Business intelligence practices may overlap significantly with [data engineering](data-engineering.md), [data science](data-science.md), and [data analysis](data-analysis.md) practices. However, the primary focus of business intelligence is to develop and execute the overall strategy to use data to generate business value.
+Business intelligence practices may overlap significantly with [data engineering](data-engineering.md), [data science](data-science.md), and [data analysis](data-analysis.md) practices. However, the primary focus of business intelligence is on the development, execution, and communication of the overall strategy to use data to improve business.

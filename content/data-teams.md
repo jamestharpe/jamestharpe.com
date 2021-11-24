@@ -33,10 +33,14 @@ Whether a data team is formed around a specific discipline or as a cross-functio
 
 ## Nontechnical needs of data teams
 
-* Deep understanding of the business they're modeling
-* Ability to simplify complex analyses
+* Deep understanding of the business or domain they're modeling
+* Ability to communicate complex analyses in simple terms
 
 ## Signs of effective data teams
 
 - "It's all just data" - The organization takes the hard work of the data engineering teams for granted. As a consumer of data, it just seems so easy.
 - Data is generally trusted and correctly interpreted, thanks to effective communication
+
+## Data team resources
+
+* [Why a data scientist is not a data engineer](https://www.oreilly.com/content/why-a-data-scientist-is-not-a-data-engineer/)

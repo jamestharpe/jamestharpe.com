@@ -1,7 +1,7 @@
 ---
 date: 2021-11-21T10:24:25-04:00
 description: "Ways of making data available"
-tags: [ "data-engineering", "data-analysis", "data-pipelines", "data-science" ]
+tags: [ "data-engineering", "data-analysis", "data-pipelines", "data-science", "product-management" ]
 title: "Data Products"
 ---
 

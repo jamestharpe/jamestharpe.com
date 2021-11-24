@@ -97,3 +97,7 @@ I'm still learning! This section will be updated as I learn. If you have a good 
 
 * [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
 * [Pandas](https://pandas.pydata.org/)
+
+## Machine learning resources
+
+* [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
