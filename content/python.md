@@ -178,9 +178,9 @@ first_five_squares = squares(5) # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 In Python, **generators** are functions that mimic **iterators**, which are objects that represent streams of data. This is accomplished through the `yield` keyword:
 
 ```python
-def count_to_infinity(start = 1):
+def count_to_infinity(start = 1): # This function is a generator
 	while True:
-		yield start
+		yield start # generates the next value, similar to "return" but without exiting
 		start += 1
 
 for i in count_to_infinity(10)
