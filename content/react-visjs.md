@@ -1,7 +1,7 @@
 ---
 date: 2020-12-20T15:22:11-04:00
 description: "A step-by-step recipe to use vis.js in a React application"
-tags: [ "visjs", "react" ]
+tags: [ "visjs", "react-recipes" ]
 title: "React Recipe: Use vis.js in a React Application"
 ---
 
