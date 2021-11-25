@@ -20,4 +20,3 @@ Continuous Delivery is the practice of improving time-to-value by continuously d
 ## CI/CD resources
 
 * [Continuous Integration by Martin Fowler](https://martinfowler.com/articles/continuousIntegration.html)
-

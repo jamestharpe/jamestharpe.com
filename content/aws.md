@@ -14,4 +14,3 @@ date: 2020-11-15T19:22:30-04:00
 * [AWS Tutorial Series](https://www.youtube.com/channel/UClLLJjpSWRRa1BosQrNVDjA)
 * [SaM the CloudGuy](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 * [DIY AWS Security Review](https://cloudonaut.io/diy-aws-security-review/)
-
