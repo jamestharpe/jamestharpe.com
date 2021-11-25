@@ -33,8 +33,8 @@ Whether a data team is formed around a specific discipline or as a cross-functio
 
 ## Nontechnical needs of data teams
 
-* Deep understanding of the business or domain they're modeling
-* Ability to communicate complex analyses in simple terms
+- Deep understanding of the business or domain they're modeling
+- Ability to communicate complex analyses in simple terms
 
 ## Signs of effective data teams
 
@@ -43,4 +43,4 @@ Whether a data team is formed around a specific discipline or as a cross-functio
 
 ## Data team resources
 
-* [Why a data scientist is not a data engineer](https://www.oreilly.com/content/why-a-data-scientist-is-not-a-data-engineer/)
+- [Why a data scientist is not a data engineer](https://www.oreilly.com/content/why-a-data-scientist-is-not-a-data-engineer/)
