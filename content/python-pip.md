@@ -1,6 +1,6 @@
 ---
 date: 2021-11-22T13:00:54-04:00
-description: "Python's package manager"
+description: "Python's default package manager"
 tags: ["python", "package-managers"]
 title: "Pip: Python's Package Manager"
 ---
