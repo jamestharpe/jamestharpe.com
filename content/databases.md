@@ -1,6 +1,6 @@
 ---
 date: 2021-11-16T14:58:42-04:00
-description: "Databases: Organized collections of structured data"
+description: "Organized collections of structured data"
 redirect_from: ["/database/"]
 tags: [ "software-engineering" ]
 title: "Databases"

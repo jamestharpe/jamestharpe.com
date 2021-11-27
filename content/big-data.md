@@ -1,13 +1,13 @@
 ---
 date: 2021-11-21T18:00:25-04:00
 description: "Challenges related to data variety, velocity, and volume"
-tags: [ "data-analysis", "data-engineering" ]
+tags: [ "data-analysis", "data-engineering", "distributed-systems" ]
 title: "Big Data"
 ---
 
 # Big data
 
-**Big data** is a blanket term for the [data engineering](data-engineering.md) and [data analysis](data-analysis.md) challenges that arise from working with extremely large datasets.
+**Big data** is a blanket term for the [data engineering](data-engineering.md) and [data analysis](data-analysis.md) challenges that arise from working with extremely large datasets over [distributed systems](distributed-systems.md).
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;big data&quot; is when the size of the data itself becomes part of the problem</p>&mdash; Jeff Xiong (@gigix) <a href="https://twitter.com/gigix/status/174086466950021120?ref_src=twsrc%5Etfw">February 27, 2012</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
