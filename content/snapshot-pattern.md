@@ -1,13 +1,13 @@
 ---
 date: 2021-11-27T14:44:25-04:00
 description: "A software design pattern for immutable data updates"
-tags: [ "swe-design-patterns", "databases", "tombstone-pattern" ]
-title: "Snapshots Design Pattern"
+tags: [ "swe-design-patterns", "insert-only-databases", "tombstone-pattern" ]
+title: "Snapshot Design Pattern"
 ---
 
-# Snapshots design pattern
+# Snapshot design pattern
 
-The **snapshots design pattern** is [software engineering](software-engineering.md) [design pattern](swe-design-patterns.md) for immutable [database](databases.md) updates. Snapshots are implemented by externalizing record data into one or more tables and modifying records by inserting new data rather than replacing old data. For immutable deletes, see [the tombstone pattern](tombstone-pattern.md).
+The **snapshot design pattern** is [software engineering](software-engineering.md) [design pattern](swe-design-patterns.md) for immutable [insert-only database](insert-only-databases.md) updates. Snapshots are implemented by externalizing record data into one or more tables and modifying records by inserting new data rather than replacing old data. For immutable deletes, see [the tombstone pattern](tombstone-pattern.md).
 
 ## Example snapshot implementation
 

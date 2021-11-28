@@ -1,13 +1,13 @@
 ---
 date: 2021-11-27T15:37:25-04:00
 description: "A software design pattern for immutable data deletes"
-tags: [ "swe-design-patterns", "databases", "snapshots-pattern" ]
+tags: [ "swe-design-patterns", "insert-only-databases", "snapshot-pattern" ]
 title: "Tombstone Design Pattern"
 ---
 
 # Tombstone design pattern
 
-The **tombstone design pattern** is [software engineering](software-engineering.md) [design pattern](swe-design-patterns.md) for immutable [database](databases.md) deletes. Deletions are implemented by recording each deletion in a deletion table. For immutable updates, see [the snapshots pattern](snapshots-pattern.md).
+The **tombstone design pattern** is [software engineering](software-engineering.md) [design pattern](swe-design-patterns.md) for [insert-only database](insert-only-databases.md) deletes. Deletions are implemented by recording each deletion in a deletion table. For immutable updates, see [the snapshot pattern](snapshot-pattern.md).
 
 ## Example tombstone implementation
 
