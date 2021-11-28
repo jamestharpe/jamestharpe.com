@@ -1,23 +1,31 @@
 ---
 date: 2021-11-27T13:16:25-04:00
 description: "Software systems distributed and coordinated over a network"
-tags: [ "computer-science" ]
+tags: [ "computer-science", "software-architecture" ]
 title: "Distributed Systems"
 ---
 
 # Distributed systems
 
-A **distributed system** is a set of software applications that communicate via network to coordinate their actions and achieve a common goal.
+A **distributed system** is a set of software applications that implement [architectural patterns](software-architecture.md) to communicate via network and coordinate their actions to achieve a common goal.
 
 ## Core concepts of distributed systems
 
 ### Idempotence
 
-An operation is **idempotent** when only the first received call can cause any change to the system. Thus, if repetitive calls are made then no change occurs. For example, when a file is saved with no changes the operation is idempotent if the save operation does nothing but it is not idempotent of the "modified" date is changed.
+An operation is **idempotent** when only the first received call can cause any change to the system. For example, when a file is saved with no changes the operation is idempotent if the save operation does nothing but it is not idempotent if the "modified" date is changed. 
 
-Idempotence is important in distributed systems because retries may be necessary if system calls over the network fail. For example, if a "create" operation succeeds for a record in a database but the success message never reaches the client, the client has no way of knowing about the success and may therefore retry. If the "create" operation is not idempotent, this would undesirably result in the creation of duplicate objects.
+Idempotence is important in [distributed systems](distributed-systems.md) because retries may be necessary if system calls over the network fail. For example, if a "create" operation succeeds for a record in a database but the success message never reaches the client, the client has no way of knowing about the success and may therefore retry. If the "create" operation is not idempotent, this would undesirably result in the creation of duplicate objects.
 
-<!-- TODO: Mermaid diagram of the above example -->
+```mermaid
+sequenceDiagram
+	loop until client receives success message
+		Client ->> API: Save Record
+		API ->> DB: `INSERT INTO ...`
+		DB ->> API: "Success"
+		API -x Client: (network failure)
+	end
+```
 
 ### Immutability
 
@@ -25,27 +33,17 @@ Idempotence is important in distributed systems because retries may be necessary
 
 > Pat Helland's paper,  [Immutability Changes Everything](http://cidrdb.org/cidr2015/Papers/CIDR15_Paper16.pdf), goes into detail on the types of problems solved with immutability.
 
-<!-- TODO: Insert-only databases
-
-snapshots and tombstones 
--->
-
-<!-- TODO:
 ### Location independence
- 
-#### Content addressed storage
 
--->
+An application is **location independent** when its behavior does not rely on its location, meaning the same application can be deployed to multiple locations and when sent the same message will produce the same behavior as any other instance in any other location.
 
-<!-- TODO:
-### Versioning
+An example of location _dependence_ is the use of auto-increment IDs in [databases](databases.md) because the increment is only valid for the database that generated the ID and could identify a completely different record in another database. However, a GUID, natural key, or [content-addressed storage](content-addressed-storage.md)-based identifier (using a [hash](hash-functions.md)) is location _independent_ because it uniquely identifies the record, even across multiple database instances. Natural keys and content-addressed storage can be especially useful because they can be derived consistently regardless of location, whereas a GUID is randomly derived and therefore not consistently derivable.
 
-#### Additive structure
+### Data and API versioning
 
-* Add tables instead of columns (see snapshot pattern)
-* Add new objects to API responses rather than extending existing objects
+In the context of distributed systems, **versioning** is the practice of maintaining the contract between otherwise independent components of the system. In a distributed system, different versions of applications will be deployed to different locations at different times yet still need to interact successfully. A client application, for example, be routed to a newer version of an API that returns data in a newer format that what the client was originally built to process. Versioning helps maintain compatibility.
 
--->
+One simple versioning strategy is to use additive structure. **Additive structure** means that new elements are preferred over modifications to existing elements. In an API, this means preferring to add support for new structures to extend existing request/response objects. In a database, this means preferring to add new tables following the [snapshot pattern](snapshot-pattern.md) to extend existing entities.
 
 ## The eight fallacies of distributed computing
 

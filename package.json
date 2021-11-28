@@ -51,7 +51,7 @@
 		"gatsby-plugin-catch-links": "^4.2.0",
 		"gatsby-plugin-feed": "^4.2.0",
 		"gatsby-plugin-google-gtag": "^4.2.0",
-		"gatsby-remark-graph": "^0.2.4",
+		"gatsby-remark-graph": "^0.2.6",
 		"gatsby-remark-prismjs": "^6.2.0",
 		"husky": "^7.0.2",
 		"markdown-link-check": "^3.9.0",

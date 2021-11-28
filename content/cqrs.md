@@ -1,7 +1,7 @@
 ---
 date: 2021-11-27T13:16:25-04:00
 description: "A software engineering design pattern to separate responsibility between commands and queries"
-tags: [ "swe-design-patterns" ]
+tags: [ "swe-design-patterns", "software-architecture" ]
 title: "Command Query Responsibility Segregation (CQRS)"
 ---
 

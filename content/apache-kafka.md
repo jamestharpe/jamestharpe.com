@@ -1,7 +1,7 @@
 ---
 date: 2021-11-27T11:19:54-04:00
 description: "A distributed event streaming platform for data-pipelines and analytics"
-tags: [ "data-pipelines", "microservices", "apache" ]
+tags: [ "data-pipelines", "microservices", "apache", "pub-sub" ]
 title: "Apache Kafka"
 ---
 
