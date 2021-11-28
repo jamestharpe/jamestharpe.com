@@ -1,4 +1,257 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Nov 2021 11:26:42 GMT</lastBuildDate><item><title><![CDATA[Content-Addressed Storage (CAS)]]></title><description><![CDATA[A method to store information so that it can be retrieved based on content rather than location]]></description><link>https://www.jamestharpe.com/content-addressed-storage/</link><guid isPermaLink="false">https://www.jamestharpe.com/content-addressed-storage/</guid><pubDate>Sun, 28 Nov 2021 09:58:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Nov 2021 18:14:57 GMT</lastBuildDate><item><title><![CDATA[Publish/Subscribe Pattern (Pub-sub)]]></title><description><![CDATA[A software engineering design pattern to separate responsibility between commands and queries]]></description><link>https://www.jamestharpe.com/pub-sub/</link><guid isPermaLink="false">https://www.jamestharpe.com/pub-sub/</guid><pubDate>Sun, 28 Nov 2021 13:34:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-28T13:34:25.000Z&quot;,
+  &quot;description&quot;: &quot;A software engineering design pattern to separate responsibility between commands and queries&quot;,
+  &quot;tags&quot;: [&quot;swe-design-patterns&quot;, &quot;software-architecture&quot;, &quot;distributed-systems&quot;],
+  &quot;title&quot;: &quot;Publish/Subscribe Pattern (Pub-sub)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Publish/subscribe pattern (pub-sub)&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;publish/subscribe pattern (pub-sub)&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-engineering/&quot;
+  }, &quot;software engineering&quot;), &quot; &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../swe-design-patterns/&quot;
+  }, &quot;design pattern&quot;), &quot; used commonly in &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../distributed-systems/&quot;
+  }, &quot;distributed systems&quot;), &quot; to communicate asynchronously and parallelize tasks across applications, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-pipelines/&quot;
+  }, &quot;data pipelines&quot;), &quot;, and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../microservices/&quot;
+  }, &quot;services&quot;), &quot; in a decoupled way.&quot;), mdx(&quot;p&quot;, null, &quot;Events are usually published by a single publisher and consumed by multiple subscribers. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Publishers&quot;), &quot; are systems of record applications that publish events while &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;subscribers&quot;), &quot; consume and process events. Publishers generally publishes events without regard to how or when subscribers will process them. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Events&quot;), &quot; are simply records of \&quot;something that happened\&quot; (e.g. \&quot;customer added\&quot;, \&quot;order placed\&quot;, and so on).&quot;), mdx(&quot;h2&quot;, null, &quot;Designing event models&quot;), mdx(&quot;p&quot;, null, &quot;For events to be useful, they must carry enough information for subscribers to process them successfully. Given that it&apos;s impractical, and maybe impossible, to foresee all the potential subscribers of an event, it&apos;s useful to take a methodical approach to event model design.&quot;), mdx(&quot;p&quot;, null, &quot;One such approach is to use a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../transitive-closure/&quot;
+  }, mdx(&quot;strong&quot;, {
+    parentName: &quot;a&quot;
+  }, &quot;transitive closure&quot;)), &quot; which calculates the relationships that would need to be added between entities to directly (as opposed to indirectly) associate related data. For example, take the following relational schema used to book musical acts at various venues:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;erDiagram\n\tBANDS {\n        int id\n        string name\n    }\n\tBAND-MEMBERS {\n        int bandId\n        int personId\n    }\n\tPEOPLE {\n        int id\n        string name\n    }\n\tSHOWS {\n\t\tint bandId\n\t\tint venueId\n\t\tstring name\n\t\tdate start\n\t\tdate end\n\t}\n\tSHOW-CHECKLIST {\n\t\tint id\n\t\tint showId\n\t\tstring toDo\n\t}\n\tVENUES {\n\t\tint id\n\t\tstring street\n\t\tstring postalCode\n\t}\n\n\tBANDS ||--o{ SHOWS : schedule\n\tBANDS ||--|{ BAND-MEMBERS : have\n\tBAND-MEMBERS }o--|| PEOPLE : are\n\tSHOWS }o--|| VENUES : have\n\tSHOWS }|--o{ SHOW-CHECKLIST: has&quot;), mdx(&quot;p&quot;, null, &quot;To generate an \&quot;show scheduled\&quot; event, we need to determine what information a subscriber would need to know whenever an event is booked. We can calculate that by identifying all of the &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;direct and indirect&quot;), &quot; relationships to the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;SHOWS&quot;), &quot; entities and then demoralize them into the event structure.&quot;), mdx(&quot;p&quot;, null, &quot;The first step is to follow the relationships &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;from&quot;), &quot; the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;SHOWS&quot;), &quot; table. In this case, we see that a show is defined by the associate BAND and VENUE entities, thus some data from the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;BANDS&quot;), &quot; and &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;VENUES&quot;), &quot; records are likely to be useful to consumers of the \&quot;show scheduled\&quot; event. However, to &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;BANDS&quot;), &quot; have &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;BAND-MEMBERS&quot;), &quot; which have &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PEOPLE&quot;), &quot;, thus it likely makes sense to include data from these entities as well.&quot;), mdx(&quot;p&quot;, null, &quot;The second step is to follow the relationships &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;to&quot;), &quot; the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;SHOWS&quot;), &quot; table. In this case, we see that each SHOW can have zero or more CHECKLIST items, thus some data from the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;SHOW-CHECKLIST&quot;), &quot; is likely to be useful as well.&quot;), mdx(&quot;p&quot;, null, &quot;Finally, with all the required information identified, we can design a reasonable schema for the \&quot;show scheduled\&quot; event:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;erDiagram\n\tSHOW_SCHEDULED_EVENT {\n\t\tint showId\n        string showName\n\t\tdate startDate\n\t\tdate endDate\n\t\tstring bandName\n\t\tlist peopleNames\n\t\tstring venueName\n\t\tlist toDos\n    }&quot;), mdx(&quot;p&quot;, null, &quot;Though this can seem excessive or a violation of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../yagni/&quot;
+  }, &quot;YAGNI&quot;), &quot; because this data can be looked up with only the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;id&quot;), &quot; of the added &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;SHOWS&quot;), &quot; entity, it&apos;s not. Such lookups can create excessive \&quot;chatter\&quot; that actually consumes more network, storage, and compute cycles than the larger payload would tend to save. There is also the risk that the underlying data changes between when the event was published and when it was processed, leaving subscribers with inaccurate data about the event &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;when it occurred&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Finally, this level of de-normalization can reduce dependence on message order. If, for example, we relied on the \&quot;venue created\&quot; event to be processed &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;before&quot;), &quot; the \&quot;show scheduled\&quot; event, ensuring the messages are processed in sequence can add complexity and reduce scalability.&quot;), mdx(&quot;h2&quot;, null, &quot;Subscriber patterns&quot;), mdx(&quot;h3&quot;, null, &quot;Competing consumer pattern&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;competing consumer pattern&quot;), &quot; organizes subscribers by type to simplify how services scale. When there are multiple types of subscribers, each events should be consumed by all types of subscriber. However, when there are multiple instances of a single type of subscriber then each event should only be consumed by a single subscriber instance.&quot;), mdx(&quot;p&quot;, null, &quot;To manage this distinction, subscribers can be grouped into exchanges. An &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;exchange&quot;), &quot; is a message queue that serves a single type of subscriber. This allows the system to scale based on the workload (i.e. queue size) and avoid redundant event processing.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;flowchart TD\n    Publisher --&gt;|publish| Exchange((Exchange))\n\tExchange --&gt;|push| Q1[(Queue 1)]\n\tExchange --&gt;|push| Q2[(Queue 2)]\n\tExchange --&gt;|push| Q3[(Queue 3)]\n\tQ1 --&gt;|pull| Q1P[Q1 Subscriber Pool]\n\tQ2 --&gt;|pull| Q2P[Q2 Subscriber Pool]\n\tQ3 --&gt;|pull| Q3P[Q3 Subscriber Pool]&quot;), mdx(&quot;p&quot;, null, &quot;Each subscriber in the subscriber pool pulls from the same queue, ensuring each message is only processed once.&quot;), mdx(&quot;h3&quot;, null, &quot;Commutative message handling &quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Commutative message handling&quot;), &quot; is a desirable property of subscribers where the order in which messages are processed doesn&apos;t matter, similar to algebraic property (i.e. &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;+&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;=&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;+&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;a + b = b + a&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.66666em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.08333em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2222222222222222em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mbin&quot;
+  }, &quot;+&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2222222222222222em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mrel&quot;
+  }, &quot;=&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.77777em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.08333em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2222222222222222em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mbin&quot;
+  }, &quot;+&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2222222222222222em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.43056em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;))))), &quot;). Though message queues typically deliver messages in the order they were received, message processing may error out and have to be retried as later messages are successfully processed, or a later message may simply get processed faster than an earlier message.&quot;), mdx(&quot;p&quot;, null, &quot;Messages of the same type can be made commutative by attaching a timestamp to the event. For example, if an \&quot;venue description changed\&quot; event is processed out of order, it could cause the subscriber to revert its venue description to the older version. However, if the event includes a timestamp and the stored data is newer than the message timestamp, then the message can be safely discarded.&quot;), mdx(&quot;p&quot;, null, &quot;Messages of different types can be made commutative by storing related information as it arrives. For example, if a show is scheduled for a venue and then the venue description is changed, we can&apos;t know for sure that the related messages will be processed in that order. Thus, if the \&quot;venue description changed\&quot; event is processed before the \&quot;show scheduled\&quot; event (even though it happened afterward), we could process stale venue when the \&quot;show scheduled\&quot; event is processed. To prevent this, the venue data should &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;also&quot;), &quot; be saved by the subscriber, along with the timestamp. Then when the \&quot;show scheduled\&quot; event is processed, the timestamp can be compared to the timestamps for related data and only \&quot;new\&quot; information processed.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Content-Addressed Storage (CAS)]]></title><description><![CDATA[A method to store information so that it can be retrieved based on content rather than location]]></description><link>https://www.jamestharpe.com/content-addressed-storage/</link><guid isPermaLink="false">https://www.jamestharpe.com/content-addressed-storage/</guid><pubDate>Sun, 28 Nov 2021 09:58:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -38,7 +291,24 @@ return function MDXContent(_ref) {
     parentName: &quot;ul&quot;
   }, &quot;Reliable caching&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
-  }, &quot;Simplified data versioning&quot;)));
+  }, &quot;Simplified data versioning&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Naturally idempotent&quot;)), mdx(&quot;h2&quot;, null, &quot;Real-world examples of content-addressed storage&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;../docker/&quot;
+  }, &quot;Docker&quot;), &quot; hashes each layer of a container image to identify it.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;../git/&quot;
+  }, &quot;Git&quot;), &quot; uses the hash of each commit as its identity.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;../angular/&quot;
+  }, &quot;Angular&quot;), &quot; uses output hashing in its compiled output to prevent version mismatches.&quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Insert-only Databases]]></title><description><![CDATA[A database design approach that requires deletes and updates to be performed as inserts]]></description><link>https://www.jamestharpe.com/insert-only-databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/insert-only-databases/</guid><pubDate>Sun, 28 Nov 2021 09:46:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -643,7 +913,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-27T17:16:25.000Z&quot;,
   &quot;description&quot;: &quot;Software systems distributed and coordinated over a network&quot;,
-  &quot;tags&quot;: [&quot;computer-science&quot;],
+  &quot;tags&quot;: [&quot;computer-science&quot;, &quot;software-architecture&quot;],
   &quot;title&quot;: &quot;Distributed Systems&quot;
 };
 var layoutProps = {
@@ -659,9 +929,17 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Distributed systems&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;distributed system&quot;), &quot; is a set of software applications that communicate via network to coordinate their actions and achieve a common goal.&quot;), mdx(&quot;h2&quot;, null, &quot;Core concepts of distributed systems&quot;), mdx(&quot;h3&quot;, null, &quot;Idempotence&quot;), mdx(&quot;p&quot;, null, &quot;An operation is &quot;, mdx(&quot;strong&quot;, {
+  }, &quot;distributed system&quot;), &quot; is a set of software applications that implement &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-architecture/&quot;
+  }, &quot;architectural patterns&quot;), &quot; to communicate via network and coordinate their actions to achieve a common goal.&quot;), mdx(&quot;h2&quot;, null, &quot;Core concepts of distributed systems&quot;), mdx(&quot;h3&quot;, null, &quot;Idempotence&quot;), mdx(&quot;p&quot;, null, &quot;An operation is &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;idempotent&quot;), &quot; when only the first received call can cause any change to the system. Thus, if repetitive calls are made then no change occurs. For example, when a file is saved with no changes the operation is idempotent if the save operation does nothing but it is not idempotent of the \&quot;modified\&quot; date is changed.&quot;), mdx(&quot;p&quot;, null, &quot;Idempotence is important in distributed systems because retries may be necessary if system calls over the network fail. For example, if a \&quot;create\&quot; operation succeeds for a record in a database but the success message never reaches the client, the client has no way of knowing about the success and may therefore retry. If the \&quot;create\&quot; operation is not idempotent, this would undesirably result in the creation of duplicate objects.&quot;), mdx(&quot;h3&quot;, null, &quot;Immutability&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
+  }, &quot;idempotent&quot;), &quot; when only the first received call can cause any change to the system. For example, when a file is saved with no changes the operation is idempotent if the save operation does nothing but it is not idempotent if the \&quot;modified\&quot; date is changed.&quot;), mdx(&quot;p&quot;, null, &quot;Idempotence is important in &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../distributed-systems/&quot;
+  }, &quot;distributed systems&quot;), &quot; because retries may be necessary if system calls over the network fail. For example, if a \&quot;create\&quot; operation succeeds for a record in a database but the success message never reaches the client, the client has no way of knowing about the success and may therefore retry. If the \&quot;create\&quot; operation is not idempotent, this would undesirably result in the creation of duplicate objects.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;sequenceDiagram\n\tloop until client receives success message\n\t\tClient -&gt;&gt; API: Save Record\n\t\tAPI -&gt;&gt; DB: `INSERT INTO ...`\n\t\tDB -&gt;&gt; API: \&quot;Success\&quot;\n\t\tAPI -x Client: (network failure)\n\tend&quot;), mdx(&quot;h3&quot;, null, &quot;Immutability&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data/&quot;
   }, &quot;Data&quot;), &quot; is &quot;, mdx(&quot;strong&quot;, {
@@ -678,12 +956,22 @@ return function MDXContent(_ref) {
   }, &quot;dependence&quot;), &quot; is the use of auto-increment IDs in &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../databases/&quot;
-  }, &quot;databases&quot;), &quot; because the increment is only valid for the database that generated the ID and could identify a completely different record in another database. However, a GUID or some form of &quot;, mdx(&quot;a&quot;, {
+  }, &quot;databases&quot;), &quot; because the increment is only valid for the database that generated the ID and could identify a completely different record in another database. However, a GUID, natural key, or &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../content-addressed-storage/&quot;
-  }, &quot;content-addressed storage&quot;), &quot; is location &quot;, mdx(&quot;em&quot;, {
+  }, &quot;content-addressed storage&quot;), &quot;-based identifier (using a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../hash-functions/&quot;
+  }, &quot;hash&quot;), &quot;) is location &quot;, mdx(&quot;em&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;independent&quot;), &quot; because it uniquely identifies the record, even across multiple database instances.&quot;), mdx(&quot;h2&quot;, null, &quot;The eight fallacies of distributed computing&quot;), mdx(&quot;p&quot;, null, &quot;When it comes to distributed systems, &quot;, mdx(&quot;a&quot;, {
+  }, &quot;independent&quot;), &quot; because it uniquely identifies the record, even across multiple database instances. Natural keys and content-addressed storage can be especially useful because they can be derived consistently regardless of location, whereas a GUID is randomly derived and therefore not consistently derivable.&quot;), mdx(&quot;h3&quot;, null, &quot;Data and API versioning&quot;), mdx(&quot;p&quot;, null, &quot;In the context of distributed systems, &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;versioning&quot;), &quot; is the practice of maintaining the contract between otherwise independent components of the system. In a distributed system, different versions of applications will be deployed to different locations at different times yet still need to interact successfully. A client application, for example, be routed to a newer version of an API that returns data in a newer format that what the client was originally built to process. Versioning helps maintain compatibility.&quot;), mdx(&quot;p&quot;, null, &quot;One simple versioning strategy is to use additive structure. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Additive structure&quot;), &quot; means that new elements are preferred over modifications to existing elements. In an API, this means preferring to add support for new structures to extend existing request/response objects. In a database, this means preferring to add new tables following the &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../snapshot-pattern/&quot;
+  }, &quot;snapshot pattern&quot;), &quot; to extend existing entities.&quot;), mdx(&quot;h2&quot;, null, &quot;The eight fallacies of distributed computing&quot;), mdx(&quot;p&quot;, null, &quot;When it comes to distributed systems, &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../software-engineering/&quot;
   }, &quot;developers&quot;), &quot; often unknowingly make bad assumptions about the underlying risks and limitations to that system. Peter Deutsch famously listed seven of these assumptions in 1994 while at Sun Microsystems and James Gosling added another to the list in 1997. Collectively, these assumptions are now known as &quot;, mdx(&quot;strong&quot;, {
@@ -724,7 +1012,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-27T17:16:25.000Z&quot;,
   &quot;description&quot;: &quot;A software engineering design pattern to separate responsibility between commands and queries&quot;,
-  &quot;tags&quot;: [&quot;swe-design-patterns&quot;],
+  &quot;tags&quot;: [&quot;swe-design-patterns&quot;, &quot;software-architecture&quot;],
   &quot;title&quot;: &quot;Command Query Responsibility Segregation (CQRS)&quot;
 };
 var layoutProps = {
@@ -770,7 +1058,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-27T15:19:54.000Z&quot;,
   &quot;description&quot;: &quot;A distributed event streaming platform for data-pipelines and analytics&quot;,
-  &quot;tags&quot;: [&quot;data-pipelines&quot;, &quot;microservices&quot;, &quot;apache&quot;],
+  &quot;tags&quot;: [&quot;data-pipelines&quot;, &quot;microservices&quot;, &quot;apache&quot;, &quot;pub-sub&quot;],
   &quot;title&quot;: &quot;Apache Kafka&quot;
 };
 var layoutProps = {
@@ -1080,6 +1368,148 @@ return function MDXContent(_ref) {
   }, &quot;Pipenv on GitHub&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-22T17:00:54.000Z&quot;,
+  &quot;description&quot;: &quot;How to manage virtual environments with Python, Pip, and VEnv&quot;,
+  &quot;tags&quot;: [&quot;python&quot;, &quot;python-pip&quot;],
+  &quot;title&quot;: &quot;Python Virtual Environments&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Virtual environments with Python, Pip, and VEnv&quot;), mdx(&quot;p&quot;, null, &quot;In &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python/&quot;
+  }, &quot;Python&quot;), &quot; development, a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;virtual environment&quot;), &quot; is an isolated context for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python-pip/&quot;
+  }, &quot;installing Python packages&quot;), &quot;. As of Python 3.3, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;venv&quot;), &quot; is included to help manage virtual environments.&quot;), mdx(&quot;h2&quot;, null, &quot;Create and use a virtual environment&quot;), mdx(&quot;p&quot;, null, &quot;To create a virtual environment, it&apos;s usually best to specify the Python version explicitly to ensure the environment is setup with the expected version:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;python3.8 -m venv path/to/environment&quot;))), mdx(&quot;p&quot;, null, &quot;A best practice is to use a virtual environment per project. A common convention to do so is to create the environment in a folder called &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;venv&quot;), &quot; directly in the project folder:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token builtin class-name&quot;
+  }, &quot;cd&quot;), &quot; my-project\npython3.8 -m venv venv&quot;))), mdx(&quot;p&quot;, null, &quot;To use the virtual environment, it needs to be activated:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token builtin class-name&quot;
+  }, &quot;source&quot;), &quot; venv/bin/activate\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;which&quot;), &quot; python3 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;# confirm expected python version&quot;)))), mdx(&quot;p&quot;, null, &quot;Once activated, it&apos;s usually necessary to install the project dependencies which are most often referenced by a &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;requirements.txt&quot;), &quot; file:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;python3 -m pip &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;install&quot;), &quot; -r requirements.txt&quot;))), mdx(&quot;p&quot;, null, &quot;Finally, the virtual environment can be deactivated when it&apos;s no longer needed:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;deactivate&quot;))), mdx(&quot;h2&quot;, null, &quot;Why virtual environments are important: Dependency hell&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Dependency hell&quot;), &quot; is the confusion caused when dependency needs conflict between projects, users, and systems.&quot;), mdx(&quot;p&quot;, null, &quot;Unlike most other &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;programming language&quot;), &quot; package managers that install packages in the current working directory, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python-pip/&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;)), &quot; by default installs packages as globally as possible. When installing a package, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; will first try to install that package system-wide. If system-wide installation is not permitted, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; will install the package for the current user.&quot;), mdx(&quot;p&quot;, null, &quot;These \&quot;as global as possible\&quot; installations can cause dependency hell when:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Multiple projects have conflicting dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Project dependencies conflict with system dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Multiple users of the same system need conflicting dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Projects need to be tested against different versions of Python&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Projects need to be tested against different library versions&quot;)), mdx(&quot;p&quot;, null, &quot;For these reasons, a best practice for Python and &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; is to &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;always use a virtual environment&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;What are virtual environments?&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;virtual environment&quot;), &quot; is an isolated context for installing Python packages. To prevent dependency hell, a new virtual environment should be created for every project.&quot;), mdx(&quot;p&quot;, null, &quot;A common convention\n...&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Pip: Python's Package Manager]]></title><description><![CDATA[Python's default package manager]]></description><link>https://www.jamestharpe.com/python-pip/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-pip/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -1258,148 +1688,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://pypi.org/&quot;
   }, &quot;Python Package Index&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-11-22T17:00:54.000Z&quot;,
-  &quot;description&quot;: &quot;How to manage virtual environments with Python, Pip, and VEnv&quot;,
-  &quot;tags&quot;: [&quot;python&quot;, &quot;python-pip&quot;],
-  &quot;title&quot;: &quot;Python Virtual Environments&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Virtual environments with Python, Pip, and VEnv&quot;), mdx(&quot;p&quot;, null, &quot;In &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../python/&quot;
-  }, &quot;Python&quot;), &quot; development, a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;virtual environment&quot;), &quot; is an isolated context for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../python-pip/&quot;
-  }, &quot;installing Python packages&quot;), &quot;. As of Python 3.3, &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;venv&quot;), &quot; is included to help manage virtual environments.&quot;), mdx(&quot;h2&quot;, null, &quot;Create and use a virtual environment&quot;), mdx(&quot;p&quot;, null, &quot;To create a virtual environment, it&apos;s usually best to specify the Python version explicitly to ensure the environment is setup with the expected version:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, &quot;python3.8 -m venv path/to/environment&quot;))), mdx(&quot;p&quot;, null, &quot;A best practice is to use a virtual environment per project. A common convention to do so is to create the environment in a folder called &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;venv&quot;), &quot; directly in the project folder:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token builtin class-name&quot;
-  }, &quot;cd&quot;), &quot; my-project\npython3.8 -m venv venv&quot;))), mdx(&quot;p&quot;, null, &quot;To use the virtual environment, it needs to be activated:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token builtin class-name&quot;
-  }, &quot;source&quot;), &quot; venv/bin/activate\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;which&quot;), &quot; python3 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token comment&quot;
-  }, &quot;# confirm expected python version&quot;)))), mdx(&quot;p&quot;, null, &quot;Once activated, it&apos;s usually necessary to install the project dependencies which are most often referenced by a &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;requirements.txt&quot;), &quot; file:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, &quot;python3 -m pip &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;install&quot;), &quot; -r requirements.txt&quot;))), mdx(&quot;p&quot;, null, &quot;Finally, the virtual environment can be deactivated when it&apos;s no longer needed:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, &quot;deactivate&quot;))), mdx(&quot;h2&quot;, null, &quot;Why virtual environments are important: Dependency hell&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Dependency hell&quot;), &quot; is the confusion caused when dependency needs conflict between projects, users, and systems.&quot;), mdx(&quot;p&quot;, null, &quot;Unlike most other &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../computer-languages/&quot;
-  }, &quot;programming language&quot;), &quot; package managers that install packages in the current working directory, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../python-pip/&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;pip&quot;)), &quot; by default installs packages as globally as possible. When installing a package, &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;pip&quot;), &quot; will first try to install that package system-wide. If system-wide installation is not permitted, &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;pip&quot;), &quot; will install the package for the current user.&quot;), mdx(&quot;p&quot;, null, &quot;These \&quot;as global as possible\&quot; installations can cause dependency hell when:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Multiple projects have conflicting dependencies&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Project dependencies conflict with system dependencies&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Multiple users of the same system need conflicting dependencies&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Projects need to be tested against different versions of Python&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Projects need to be tested against different library versions&quot;)), mdx(&quot;p&quot;, null, &quot;For these reasons, a best practice for Python and &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;pip&quot;), &quot; is to &quot;, mdx(&quot;em&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;always use a virtual environment&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;What are virtual environments?&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;virtual environment&quot;), &quot; is an isolated context for installing Python packages. To prevent dependency hell, a new virtual environment should be created for every project.&quot;), mdx(&quot;p&quot;, null, &quot;A common convention\n...&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python]]></title><description><![CDATA[An object-oriented and functional programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/python/</link><guid isPermaLink="false">https://www.jamestharpe.com/python/</guid><pubDate>Mon, 22 Nov 2021 16:39:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -7215,7 +7503,7 @@ return function MDXContent(_ref) {
   }, &quot;1&quot;), &quot;.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Web Encryption (JWE)]]></title><description><![CDATA[A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516]]></description><link>https://www.jamestharpe.com/jwe/</link><guid isPermaLink="false">https://www.jamestharpe.com/jwe/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Transitive Closure]]></title><description><![CDATA[Numbers in base-2]]></description><link>https://www.jamestharpe.com/transitive-closure/</link><guid isPermaLink="false">https://www.jamestharpe.com/transitive-closure/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -7227,10 +7515,10 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 /* @jsx mdx */
 var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-05T21:52:27.000Z&quot;,
-  &quot;description&quot;: &quot;A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516&quot;,
-  &quot;tags&quot;: [&quot;jose&quot;, &quot;base64url&quot;, &quot;ietf-standards&quot;],
-  &quot;title&quot;: &quot;JSON Web Encryption (JWE)&quot;
+  &quot;date&quot;: &quot;2021-09-05T22:06:27.000Z&quot;,
+  &quot;description&quot;: &quot;Numbers in base-2&quot;,
+  &quot;tags&quot;: [&quot;math&quot;],
+  &quot;title&quot;: &quot;Transitive Closure&quot;
 };
 var layoutProps = {
   _frontmatter: _frontmatter
@@ -7243,20 +7531,15 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JSON Web Encryption (JWE)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;JSON Web Encryption (JWE)&quot;), &quot; is an open standard for representing encrypted content as &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../base64url/&quot;
-  }, &quot;base64url&quot;), &quot; encoded &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../json/&quot;
-  }, &quot;JSON&quot;), &quot; data.&quot;), mdx(&quot;h2&quot;, null, &quot;JWE Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7516&quot;
-  }, &quot;JSON Web Encryption (JWE), RFC 7516&quot;))));
+  }), mdx(&quot;h1&quot;, null, &quot;Transitive closure&quot;), mdx(&quot;iframe&quot;, {
+    width: &quot;560&quot;,
+    height: &quot;315&quot;,
+    src: &quot;https://www.youtube.com/embed/OO8Jfs9uZnc&quot;,
+    title: &quot;Transitive closure overview&quot;,
+    frameBorder: &quot;0&quot;,
+    allow: &quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot;,
+    allowFullScreen: true
+  }));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Object Signing and Encryption (JOSE)]]></title><description><![CDATA[A set of technologies used to encrypt and sign content]]></description><link>https://www.jamestharpe.com/jose/</link><guid isPermaLink="false">https://www.jamestharpe.com/jose/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -7310,6 +7593,50 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7520&quot;
   }, &quot;IETF JOSE Cookbook&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JSON Web Encryption (JWE)]]></title><description><![CDATA[A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516]]></description><link>https://www.jamestharpe.com/jwe/</link><guid isPermaLink="false">https://www.jamestharpe.com/jwe/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-05T21:52:27.000Z&quot;,
+  &quot;description&quot;: &quot;A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516&quot;,
+  &quot;tags&quot;: [&quot;jose&quot;, &quot;base64url&quot;, &quot;ietf-standards&quot;],
+  &quot;title&quot;: &quot;JSON Web Encryption (JWE)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JSON Web Encryption (JWE)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;JSON Web Encryption (JWE)&quot;), &quot; is an open standard for representing encrypted content as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../base64url/&quot;
+  }, &quot;base64url&quot;), &quot; encoded &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../json/&quot;
+  }, &quot;JSON&quot;), &quot; data.&quot;), mdx(&quot;h2&quot;, null, &quot;JWE Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc7516&quot;
+  }, &quot;JSON Web Encryption (JWE), RFC 7516&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Asymmetric (public-key) Cryptography]]></title><description><![CDATA[A cryptographic system]]></description><link>https://www.jamestharpe.com/asymmetric-cryptography/</link><guid isPermaLink="false">https://www.jamestharpe.com/asymmetric-cryptography/</guid><pubDate>Sun, 05 Sep 2021 21:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -31237,58 +31564,6 @@ return function MDXContent(_ref) {
   }, &quot;vis.js&quot;), &quot; code on GitHub&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
-  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
-  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
-  &quot;title&quot;: &quot;GitLab CI/CD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../gitlab/&quot;
-  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ci-cd/&quot;
-  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
-  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
-  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -31389,6 +31664,58 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;master&quot;), &quot;).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
+  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
+  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
+  &quot;title&quot;: &quot;GitLab CI/CD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../gitlab/&quot;
+  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ci-cd/&quot;
+  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
+  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
+  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -38040,40 +38367,6 @@ return function MDXContent(_ref) {
   }), mdx(&quot;h1&quot;, null, &quot;Database as Code&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Flyway]]></title><description><![CDATA[Flyway: A tool to version control database schemas in plain SQL]]></description><link>https://www.jamestharpe.com/flyway/</link><guid isPermaLink="false">https://www.jamestharpe.com/flyway/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-15T23:41:30.000Z&quot;,
-  &quot;description&quot;: &quot;Flyway: A tool to version control database schemas in plain SQL&quot;,
-  &quot;tags&quot;: [&quot;database-as-code&quot;],
-  &quot;title&quot;: &quot;Flyway&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Flyway&quot;), mdx(&quot;p&quot;, null, &quot;Flyway is a tool to help &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../database-as-code/&quot;
-  }, &quot;version database schemas&quot;), &quot; with plain SQL.&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Docker]]></title><description><![CDATA[A set of tools to build and run containers]]></description><link>https://www.jamestharpe.com/docker/</link><guid isPermaLink="false">https://www.jamestharpe.com/docker/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -38124,6 +38417,40 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://www.docker.com/101-tutorial&quot;
   }, &quot;Docker 101 Tutorial&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Flyway]]></title><description><![CDATA[Flyway: A tool to version control database schemas in plain SQL]]></description><link>https://www.jamestharpe.com/flyway/</link><guid isPermaLink="false">https://www.jamestharpe.com/flyway/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-15T23:41:30.000Z&quot;,
+  &quot;description&quot;: &quot;Flyway: A tool to version control database schemas in plain SQL&quot;,
+  &quot;tags&quot;: [&quot;database-as-code&quot;],
+  &quot;title&quot;: &quot;Flyway&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Flyway&quot;), mdx(&quot;p&quot;, null, &quot;Flyway is a tool to help &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../database-as-code/&quot;
+  }, &quot;version database schemas&quot;), &quot; with plain SQL.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Cloud Foundry]]></title><description><![CDATA[Could Foundry: An open-source cloud platform as a service (PaaS)]]></description><link>https://www.jamestharpe.com/cloud-foundry/</link><guid isPermaLink="false">https://www.jamestharpe.com/cloud-foundry/</guid><pubDate>Sun, 15 Nov 2020 23:39:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
