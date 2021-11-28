@@ -1,13 +1,13 @@
 ---
 date: 2021-11-27T13:16:25-04:00
-description: "A data processing engine for batch processing, stream processing, and machine learning"
+description: "Software systems distributed and coordinated over a network"
 tags: [ "computer-science" ]
 title: "Distributed Systems"
 ---
 
 # Distributed systems
 
-A **distributed system** is a set of software applications that communicate by a network to coordinate their actions to achieve a common goal.
+A **distributed system** is a set of software applications that communicate via network to coordinate their actions and achieve a common goal.
 
 ## Core concepts of distributed systems
 
@@ -24,6 +24,28 @@ Idempotence is important in distributed systems because retries may be necessary
 [Data](data.md) is **immutable** when it can be created, but not destroyed (meaning modified or deleted). Immutability is valuable for parallel processing, as well as for business needs such as the need to generate detailed audit logs.
 
 > Pat Helland's paper,  [Immutability Changes Everything](http://cidrdb.org/cidr2015/Papers/CIDR15_Paper16.pdf), goes into detail on the types of problems solved with immutability.
+
+<!-- TODO: Insert-only databases
+
+snapshots and tombstones 
+-->
+
+<!-- TODO:
+### Location independence
+ 
+#### Content addressed storage
+
+-->
+
+<!-- TODO:
+### Versioning
+
+#### Additive structure
+
+* Add tables instead of columns (see snapshot pattern)
+* Add new objects to API responses rather than extending existing objects
+
+-->
 
 ## The eight fallacies of distributed computing
 
@@ -60,6 +82,8 @@ Example: Treat a web service call as a function call. Instead, assume the call m
 ### 7. Transport cost is zero
 
 ### 8. The network is homogeneous
+
+Different versions of the same application may be deployed at different locations at different times.
 
 -->
 
