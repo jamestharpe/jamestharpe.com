@@ -9,8 +9,6 @@ title: "Apache Spark"
 
 **Apache Spark** is an [open-source](open-source.md), extensible, distributed data processing engine, suitable for [big data](big-data.md) [engineering](data-engineering.md) tasks including batch data processing, data streaming, [analytics](data-analysis.md), and [machine learning](machine-learning.md). It supports Python, SQL, Scala, [Java](java.md), and R [programming languages](computer-languages.md).
 
-
-
 ## Apache Spark Resources
 
 * [Apache Spark Official Website](http://spark.apache.org/)

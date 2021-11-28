@@ -7,7 +7,7 @@ title: "Visual Studio Code (VS Code)"
 
 # Visual Studio Code (VS Code)
 
-**Visual Studio Code (VS Code)** is an [open-source](open-source.md), multi-[language](computer-languages) [code](software-engineering.md) editor from Microsoft.
+**Visual Studio Code (VS Code)** is an [open-source](open-source.md), multi-[language](computer-computer-languages.md) [code](software-engineering.md) editor from Microsoft.
 
 <!-- TODO: Microsoft page -->
 

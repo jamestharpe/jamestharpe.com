@@ -7,7 +7,7 @@ title: "Apache Kafka"
 
 # Apache Kafka
 
-**Apache Kafka** is an [open-source](open-source.md), real-time event streaming platform from [Apache](apache.md), used for [microservice](microservices.md) architectures and [data-pipelines](data-pipelines.md). 
+**Apache Kafka** is an [open-source](open-source.md), real-time event streaming platform from [Apache](apache.md), used for [microservice](microservices.md) architectures and [data-pipelines](data-pipelines.md).
 
 **Kafka servers** are run in [clusters](distributed-systems.md) that can consist of a single server, or multiple servers that span data centers. **Kafka clients** are applications that read, write, and process events from Kafka. **Kafka Connect** imports and exports data as event streams from various data sources to the cluster and between clusters.
 
