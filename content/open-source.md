@@ -18,4 +18,4 @@ title: "Open-Source"
 ## Open-source resources
 
 * [Open Source Guides](https://opensource.guide/)
-* [Study: How Do Developers Promote Open Source](https://www.researchgate.net/publication/327447342_How_Do_Developers_Promote_Open_Source_Projects) <!-- TODO -->
+* [Study: How Do Developers Promote Open Source](https://www.researchgate.net/publication/327447342_How_Do_Developers_Promote_Open_Source_Projects) <!-- TODO: Digest -->

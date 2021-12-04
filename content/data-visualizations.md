@@ -7,7 +7,7 @@ title: "Data Visualizations"
 
 # Data visualizations
 
-<!-- TODO:
+<!-- TODO: Create a table/list of common visualizations w/ examples
 
 ## Candlestick
 

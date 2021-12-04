@@ -12,7 +12,7 @@ title: "Functional Programming"
 ## Attributes of Functional Programs
 
 | Attribute             | Description                                                                                                                                                     |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | First Class Functions | Functions can be bound to names, treated as variables, passed as arguments, and returned as the results of other functions                                      |
 | Pure Functions        | Functions are deterministic: They always produce the same output from a given input without performing any side-effects (modifying values outside the function) |
-| <!-- TODO:            | Idempotence                                                                                                                                                     |     | --> |
+| Idempotence           | Side-effects (changes to state) produced by a function will occur only once, even if the function is executed multiple times                                    |

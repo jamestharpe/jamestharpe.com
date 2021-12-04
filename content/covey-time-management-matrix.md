@@ -1,13 +1,14 @@
 ---
 date: 2020-12-24T12:23:11-04:00
 description: "Learn Covey's four-quadrant system for prioritizing time"
-tags: [ "personal-productivity", "stephen-covey", "7-habits" ]
+tags: [ "personal-productivity", ]
+redirect_from: ["/stephen-covey/"]
 title: "Stephen Covey's Time Management Matrix"
 ---
 
 # The Time Management Matrix
 
-The **Time Management Matrix** from "Habit 3, Put First Things First", in [Stephen Covey's](stephen-covey.md) book [The Seven Habits of Highly Effective People](7-habits.md) is a model to understand and prioritize how time is spent.
+The **Time Management Matrix** from "Habit 3, Put First Things First", in Stephen Covey's book The Seven Habits of Highly Effective People is a model to understand and prioritize how time is spent.
 
 <table>
 	<thead>
