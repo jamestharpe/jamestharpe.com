@@ -8,7 +8,7 @@ title: "Amazon Redshift"
 
 # Amazon Redshift
 
-**Amazon Redshift** is a [columnar](columnar-databases.md) [data warehouse](data-data-warehouses.md) solution on [AWS](aws.md) that supports PostgreSQL queries. As a managed service, it simplifies automation of tasks such as backups, replication, and auto-scaling. **Amazon Redshift Spectrum** extends Redshift to allow querying of S3 buckets so that data does not need to be loaded directly into a Redshift database.
+**Amazon Redshift** is a [columnar](columnar-databases.md) [data warehouse](data-warehouses.md) solution on [AWS](aws.md) that supports PostgreSQL queries. As a managed service, it simplifies automation of tasks such as backups, replication, and auto-scaling. **Amazon Redshift Spectrum** extends Redshift to allow querying of S3 buckets so that data does not need to be loaded directly into a Redshift database.
 
 A key difference between Redshift and relational [databases](databases.md) is that it uses a columnar architecture, which means that data is stored by column rather than by row.
 

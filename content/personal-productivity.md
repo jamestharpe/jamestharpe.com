@@ -2,6 +2,7 @@
 date: 2020-12-24T10:46:11-04:00
 description: "Tips and resources to improve personal productivity"
 tags: [ ]
+redirect_from: ["/7-habits/"]
 title: "Personal Productivity"
 ---
 
@@ -131,3 +132,4 @@ Here's my list of data streams, with the best signal-to-noise ratio at the top:
 * [Scott Hanselman - Personal Productivity](https://www.youtube.com/watch?v=RpH6IPhyh7I&list=WL&index=3)
 * [43 Folders System](https://officedynamics.com/43-folders-method-paper-system/)
 * [Hipster PDA](http://www.43folders.com/2004/09/03/introducing-the-hipster-pda)
+* [The Common Denominator of Success by Albert Gray](http://amnesta.net/mba/thecommondenominatorofsuccess-albertengray.pdf)
