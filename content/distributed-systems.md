@@ -13,7 +13,7 @@ A **distributed system** is a set of software applications that implement [archi
 
 ### Idempotence
 
-An operation is **idempotent** when only the first received call can cause any change to the system. For example, when a file is saved with no changes the operation is idempotent if the save operation does nothing but it is not idempotent if the "modified" date is changed. 
+An operation is **idempotent** when only the first received call can cause any change to the system. For example, when a file is saved with no changes the operation is idempotent if the save operation does nothing but it is not idempotent if the "modified" date is changed.
 
 Idempotence is important in [distributed systems](distributed-systems.md) because retries may be necessary if system calls over the network fail. For example, if a "create" operation succeeds for a record in a database but the success message never reaches the client, the client has no way of knowing about the success and may therefore retry. If the "create" operation is not idempotent, this would undesirably result in the creation of duplicate objects.
 

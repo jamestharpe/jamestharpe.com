@@ -1,7 +1,7 @@
 ---
 date: 2020-01-25T08:39:26-04:00
 description: "A declarative programming paradigm for extracting and transforming data from streams"
-tags: [ "computer-science" ]
+tags: ["computer-science"]
 title: "Functional Programming"
 ---
 
@@ -12,6 +12,7 @@ title: "Functional Programming"
 ## Attributes of Functional Programs
 
 | Attribute             | Description                                                                                                                                                     |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
 | First Class Functions | Functions can be bound to names, treated as variables, passed as arguments, and returned as the results of other functions                                      |
 | Pure Functions        | Functions are deterministic: They always produce the same output from a given input without performing any side-effects (modifying values outside the function) |
+| <!-- TODO:            | Idempotence                                                                                                                                                     |     | --> |

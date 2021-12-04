@@ -7,4 +7,4 @@ title: "Data warehouses"
 
 # Data warehouses
 
-A **data warehouse** is a [database](databases.md) that stores data accumulated from a wide range of sources to be [analyzed](data-analysis.md).
+A **data warehouse** is a [database](databases.md) that stores data accumulated from a wide range of sources to be [analyzed](data-analysis.md). Data warehouses typically store aggregated values, as opposed to most other database types which store individual records.

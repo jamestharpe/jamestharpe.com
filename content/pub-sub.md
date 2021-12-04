@@ -1,7 +1,7 @@
 ---
 date: 2021-11-28T09:34:25-04:00
 description: "A software engineering design pattern to separate responsibility between commands and queries"
-tags: [ "swe-design-patterns", "software-architecture", "distributed-systems" ]
+tags: ["swe-design-patterns", "software-architecture", "distributed-systems"]
 title: "Publish/Subscribe Pattern (Pub-sub)"
 ---
 
@@ -78,7 +78,7 @@ erDiagram
     }
 ```
 
-Though this can seem excessive or a violation of [YAGNI](yagni.md) because this data can be looked up with only the `id` of the added `SHOWS` entity, it's not. Such lookups can create excessive "chatter" that actually consumes more network, storage, and compute cycles than the larger payload would tend to save. There is also the risk that the underlying data changes between when the event was published and when it was processed, leaving subscribers with inaccurate data about the event _when it occurred_. 
+Though this can seem excessive or a violation of [YAGNI](yagni.md) because this data can be looked up with only the `id` of the added `SHOWS` entity, it's not. Such lookups can create excessive "chatter" that actually consumes more network, storage, and compute cycles than the larger payload would tend to save. There is also the risk that the underlying data changes between when the event was published and when it was processed, leaving subscribers with inaccurate data about the event _when it occurred_.
 
 Finally, this level of de-normalization can reduce dependence on message order. If, for example, we relied on the "venue created" event to be processed _before_ the "show scheduled" event, ensuring the messages are processed in sequence can add complexity and reduce scalability.
 
@@ -86,7 +86,7 @@ Finally, this level of de-normalization can reduce dependence on message order. 
 
 ### Competing consumer pattern
 
-The **competing consumer pattern** organizes subscribers by type to simplify how services scale. When there are multiple types of subscribers, each events should be consumed by all types of subscriber. However, when there are multiple instances of a single type of subscriber then each event should only be consumed by a single subscriber instance. 
+The **competing consumer pattern** organizes subscribers by type to simplify how services scale. When there are multiple types of subscribers, each events should be consumed by all types of subscriber. However, when there are multiple instances of a single type of subscriber then each event should only be consumed by a single subscriber instance.
 
 To manage this distinction, subscribers can be grouped into exchanges. An **exchange** is a message queue that serves a single type of subscriber. This allows the system to scale based on the workload (i.e. queue size) and avoid redundant event processing.
 
