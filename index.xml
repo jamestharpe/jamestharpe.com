@@ -1,4 +1,223 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Nov 2021 18:14:57 GMT</lastBuildDate><item><title><![CDATA[Publish/Subscribe Pattern (Pub-sub)]]></title><description><![CDATA[A software engineering design pattern to separate responsibility between commands and queries]]></description><link>https://www.jamestharpe.com/pub-sub/</link><guid isPermaLink="false">https://www.jamestharpe.com/pub-sub/</guid><pubDate>Sun, 28 Nov 2021 13:34:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Dec 2021 21:16:37 GMT</lastBuildDate><item><title><![CDATA[Amazon Redshift]]></title><description><![CDATA[Amazon Redshift Amazon Redshift  is a  columnar   data warehouse  solution on  AWS  that supports PostgreSQL queries. As a managed service…]]></description><link>https://www.jamestharpe.com/amazon-redshift/</link><guid isPermaLink="false">https://www.jamestharpe.com/amazon-redshift/</guid><pubDate>Thu, 02 Dec 2021 12:58:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-12-02T12:58:30.000Z&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;redirect_from&quot;: [&quot;/tools/cloudformation/&quot;],
+  &quot;tags&quot;: [&quot;aws&quot;, &quot;data-warehouses&quot;, &quot;columnar-databases&quot;],
+  &quot;title&quot;: &quot;Amazon Redshift&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Amazon Redshift&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Amazon Redshift&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../columnar-databases/&quot;
+  }, &quot;columnar&quot;), &quot; &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-warehouses/&quot;
+  }, &quot;data warehouse&quot;), &quot; solution on &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../aws/&quot;
+  }, &quot;AWS&quot;), &quot; that supports PostgreSQL queries. As a managed service, it simplifies automation of tasks such as backups, replication, and auto-scaling. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Amazon Redshift Spectrum&quot;), &quot; extends Redshift to allow querying of S3 buckets so that data does not need to be loaded directly into a Redshift database.&quot;), mdx(&quot;p&quot;, null, &quot;A key difference between Redshift and relational &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../databases/&quot;
+  }, &quot;databases&quot;), &quot; is that it uses a columnar architecture, which means that data is stored by column rather than by row.&quot;), mdx(&quot;h2&quot;, null, &quot;Redshift architecture&quot;), mdx(&quot;p&quot;, null, &quot;A Redshift cluster consists of a leader node and one or more compute nodes. Queries to Redshift are sent to the leader node&apos;s SQL endpoint, which breaks the work down into jobs that are forwarded to the compute nodes where they are processed in parallel.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;flowchart TD\n    Client --&gt;|SQL Query| Leader[Leader Node]\n\n\tsubgraph Redshift Cluster\n\t\tLeader --&gt; C1[Compute Node 1]\n\t\tLeader --&gt; CDot[...]\n\t\tLeader --&gt; CN[Compute Node N]\n\t\tC1 --&gt; Leader\n\t\tCDot --&gt; Leader\n\t\tCN --&gt; Leader\n\tend\n\n\tLeader --&gt;|Data| Client&quot;), mdx(&quot;h2&quot;, null, &quot;Redshift table design&quot;), mdx(&quot;p&quot;, null, &quot;A well designed Redshift table will ensure even distribution of data across nodes so that jobs executed by each node will complete at roughly the same time. Data should also be sorted to minimize the need for table scans. Data may also be compressed to reduce disk space requirements and minimize I/O.&quot;), mdx(&quot;h3&quot;, null, &quot;Table distribution styles&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;thead&quot;
+  }, mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Style&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Description&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Benefits&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Drawbacks&quot;))), mdx(&quot;tbody&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;ALL&quot;)), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Each node contains the full table&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Maximizes performance&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Requires excessive storage&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;AUTO&quot;)), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Use &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;ALL&quot;), &quot; initially, switch to &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EVEN&quot;), &quot; when the table gets too large&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  })), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EVEN&quot;)), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Data is round-robin partitioned&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Ensures even distribution of data across nodes&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Poor join performance&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;KEY&quot;)), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Data is distributed based on a table colum&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  })))), mdx(&quot;h4&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;h4&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;ALL&quot;), &quot; distribution style&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;ALL&quot;), &quot; distribution style stores the full table on each node. While this can improve performance dramatically, it can also increase storage needs dramatically.&quot;), mdx(&quot;p&quot;, null, &quot;Use the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;ALL&quot;), &quot; distribution style for:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Smaller, frequently used dimension tables&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Tables where performance is critical&quot;)), mdx(&quot;h4&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;h4&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;AUTO&quot;), &quot; distribution style&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;AUTO&quot;), &quot; distribution style is the default style used by Redshift and uses &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;ALL&quot;), &quot; initially, then switches to &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EVEN&quot;), &quot; when the table gets too large. Once the table is switched to &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EVEN&quot;), &quot;, it will not revert to &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;ALL&quot;), &quot; even if the table size decreases.&quot;), mdx(&quot;h4&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;h4&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EVEN&quot;), &quot; distribution style&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EVEN&quot;), &quot; distribution style distributes data evenly across all nodes in round-robin fashion, ensuring an even but essentially random distribution.&quot;), mdx(&quot;p&quot;, null, &quot;Use the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EVEN&quot;), &quot; distribution style for:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Tables that aren&apos;t usually joined with other tables&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;When you can&apos;t decide between other distribution styles&quot;)), mdx(&quot;h4&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;h4&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;KEY&quot;), &quot; distribution style&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;KEY&quot;), &quot; distribution style distributes data across nodes based on values from one column, referred to as the &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;distribution key column&quot;), &quot;. All records with the same value for the distribution column will be stored on the same node (the column names do not need to match, only the values). The same distribution pattern applies for other tables with the same distribution key column value which can improve performance through a reduced need for communication across nodes.&quot;), mdx(&quot;h2&quot;, null, &quot;Amazon Redshift Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://aws.amazon.com/redshift/&quot;
+  }, &quot;Amazon Redshift Homepage&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.aws.amazon.com/redshift/index.html&quot;
+  }, &quot;Amazon Redshift Documentation&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.aws.amazon.com/redshift/latest/dg/c_high_level_system_architecture.html&quot;
+  }, &quot;Redshift high-level System Architecture&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://aws.amazon.com/redshift/pricing/&quot;
+  }, &quot;Redshift Pricing Guide&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://aws.amazon.com/blogs/big-data/10-best-practices-for-amazon-redshift-spectrum/&quot;
+  }, &quot;Redshift Best Practices&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Publish/Subscribe Pattern (Pub-sub)]]></title><description><![CDATA[A software engineering design pattern to separate responsibility between commands and queries]]></description><link>https://www.jamestharpe.com/pub-sub/</link><guid isPermaLink="false">https://www.jamestharpe.com/pub-sub/</guid><pubDate>Sun, 28 Nov 2021 13:34:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -309,6 +528,130 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;../angular/&quot;
   }, &quot;Angular&quot;), &quot; uses output hashing in its compiled output to prevent version mismatches.&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Columnar Databases]]></title><description><![CDATA[Columnar databases Columnar databases , also knowns as  column-oriented databases , are  databases  that store  data  on disk as columns, as…]]></description><link>https://www.jamestharpe.com/columnar-databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/columnar-databases/</guid><pubDate>Sun, 28 Nov 2021 09:46:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-28T09:46:25.000Z&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;tags&quot;: [&quot;databases&quot;],
+  &quot;title&quot;: &quot;Columnar Databases&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Columnar databases&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Columnar databases&quot;), &quot;, also knowns as &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;column-oriented databases&quot;), &quot;, are &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../databases/&quot;
+  }, &quot;databases&quot;), &quot; that store &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; on disk as columns, as opposed to rows. Data stored as columns reduces disk I/O and seeks for aggregate functions (sum, average, count, and so on), which can make columnar databases optimal for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-analysis/&quot;
+  }, &quot;analytical data&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data-warehouses/&quot;
+  }, &quot;data warehouses&quot;), &quot;. However, operations that operate on entire rows of data are less optimal.&quot;), mdx(&quot;p&quot;, null, &quot;For example, take the following data:&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;thead&quot;
+  }, mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Id&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Name&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;FavoriteColor&quot;))), mdx(&quot;tbody&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;1&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;James&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Red&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;2&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Kim&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Green&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;3&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;David&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Blue&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;4&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Liz&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Blue&quot;)))), mdx(&quot;p&quot;, null, &quot;While a relational database would store the above data by row, for example:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;text&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;1:\tJames \tRed\n2:\tKim \tGreen\n3:\tDavid \tBlue\n4:\tLiz \tBlue&quot;))), mdx(&quot;p&quot;, null, &quot;A columnar will store the above data as columns:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;text&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;James: 1 \tKim: 2 \t\tDavid:3, \tLiz:4\nRed: 1\t\tGreen: 2 \tBlue:3,4&quot;))), mdx(&quot;p&quot;, null, &quot;To retrieve the most popular favorite color in the above data requires fewer steps in the columnar format than in the row format. However, retrieval of a specific record requires fewer steps in the row format than the columnar format.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Insert-only Databases]]></title><description><![CDATA[A database design approach that requires deletes and updates to be performed as inserts]]></description><link>https://www.jamestharpe.com/insert-only-databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/insert-only-databases/</guid><pubDate>Sun, 28 Nov 2021 09:46:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -899,6 +1242,52 @@ return function MDXContent(_ref) {
   }), mdx(&quot;h1&quot;, null, &quot;Useful Apps&quot;));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Command Query Responsibility Segregation (CQRS)]]></title><description><![CDATA[A software engineering design pattern to separate responsibility between commands and queries]]></description><link>https://www.jamestharpe.com/cqrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/cqrs/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-27T17:16:25.000Z&quot;,
+  &quot;description&quot;: &quot;A software engineering design pattern to separate responsibility between commands and queries&quot;,
+  &quot;tags&quot;: [&quot;swe-design-patterns&quot;, &quot;software-architecture&quot;],
+  &quot;title&quot;: &quot;Command Query Responsibility Segregation (CQRS)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Command query responsibility segregation (CQRS)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Command query responsibility segregation (CQRS)&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-engineering/&quot;
+  }, &quot;software engineering&quot;), &quot; design pattern to separate the responsibilities of commands and queries. In this context, a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;command&quot;), &quot; is a system call that persists a change and returns no information. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;query&quot;), &quot; is a system call that returns information and persists no changes. In other words, commands are write operations and queries are read operations. CQRS allows different &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-architecture/&quot;
+  }, &quot;architectures&quot;), &quot; for each type of operation, a commonly desired characteristic in &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../distributed-systems/&quot;
+  }, &quot;distributed systems&quot;), &quot;.&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Distributed Systems]]></title><description><![CDATA[Software systems distributed and coordinated over a network]]></description><link>https://www.jamestharpe.com/distributed-systems/</link><guid isPermaLink="false">https://www.jamestharpe.com/distributed-systems/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -996,52 +1385,6 @@ return function MDXContent(_ref) {
   }, &quot;Transport cost is zero&quot;), mdx(&quot;li&quot;, {
     parentName: &quot;ol&quot;
   }, &quot;The network is homogeneous&quot;)));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Command Query Responsibility Segregation (CQRS)]]></title><description><![CDATA[A software engineering design pattern to separate responsibility between commands and queries]]></description><link>https://www.jamestharpe.com/cqrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/cqrs/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-11-27T17:16:25.000Z&quot;,
-  &quot;description&quot;: &quot;A software engineering design pattern to separate responsibility between commands and queries&quot;,
-  &quot;tags&quot;: [&quot;swe-design-patterns&quot;, &quot;software-architecture&quot;],
-  &quot;title&quot;: &quot;Command Query Responsibility Segregation (CQRS)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Command query responsibility segregation (CQRS)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Command query responsibility segregation (CQRS)&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../software-engineering/&quot;
-  }, &quot;software engineering&quot;), &quot; design pattern to separate the responsibilities of commands and queries. In this context, a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;command&quot;), &quot; is a system call that persists a change and returns no information. A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;query&quot;), &quot; is a system call that returns information and persists no changes. In other words, commands are write operations and queries are read operations. CQRS allows different &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../software-architecture/&quot;
-  }, &quot;architectures&quot;), &quot; for each type of operation, a commonly desired characteristic in &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../distributed-systems/&quot;
-  }, &quot;distributed systems&quot;), &quot;.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Apache Kafka]]></title><description><![CDATA[A distributed event streaming platform for data-pipelines and analytics]]></description><link>https://www.jamestharpe.com/apache-kafka/</link><guid isPermaLink="false">https://www.jamestharpe.com/apache-kafka/</guid><pubDate>Sat, 27 Nov 2021 15:19:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -4372,7 +4715,7 @@ return function MDXContent(_ref) {
   }, &quot;database&quot;), &quot; that stores data accumulated from a wide range of sources to be &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data-analysis/&quot;
-  }, &quot;analyzed&quot;), &quot;.&quot;));
+  }, &quot;analyzed&quot;), &quot;. Data warehouses typically store aggregated values, as opposed to most other database types which store individual records.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Extract Transform Load (ETL)]]></title><description><![CDATA[Ways to extract, transform, and load data]]></description><link>https://www.jamestharpe.com/etls/</link><guid isPermaLink="false">https://www.jamestharpe.com/etls/</guid><pubDate>Sun, 21 Nov 2021 14:19:24 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -7377,42 +7720,6 @@ return function MDXContent(_ref) {
   }, &quot;Delete&quot;), &quot; is the 127th code for historic reasons. The remaining codes are reserved for printable characters including punctuation, symbols, numbers, and letters.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[Base64 Base64  is a set of methods to encode  binary  data as ASCII text so that the data can be transported using text-based protocols…]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-05T22:06:27.000Z&quot;,
-  &quot;description&quot;: &quot;&quot;,
-  &quot;tags&quot;: [&quot;computer-science&quot;, &quot;ascii&quot;, &quot;binary&quot;],
-  &quot;title&quot;: &quot;Base64&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../binary/&quot;
-  }, &quot;binary&quot;), &quot; data as ASCII text so that the data can be transported using text-based protocols, such as HTTP.&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -7501,6 +7808,42 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;1&quot;), &quot;.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[Base64 Base64  is a set of methods to encode  binary  data as ASCII text so that the data can be transported using text-based protocols…]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-05T22:06:27.000Z&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;tags&quot;: [&quot;computer-science&quot;, &quot;ascii&quot;, &quot;binary&quot;],
+  &quot;title&quot;: &quot;Base64&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../binary/&quot;
+  }, &quot;binary&quot;), &quot; data as ASCII text so that the data can be transported using text-based protocols, such as HTTP.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Transitive Closure]]></title><description><![CDATA[Numbers in base-2]]></description><link>https://www.jamestharpe.com/transitive-closure/</link><guid isPermaLink="false">https://www.jamestharpe.com/transitive-closure/</guid><pubDate>Sun, 05 Sep 2021 22:06:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -12397,7 +12740,7 @@ return function MDXContent(_ref) {
     parentName: &quot;math&quot;
   }, mdx(&quot;mrow&quot;, {
     parentName: &quot;semantics&quot;
-  }, mdx(&quot;mtext&quot;, {
+  }, mdx(&quot;mo&quot;, {
     parentName: &quot;mrow&quot;
   }, &quot;\u2212&quot;), mdx(&quot;mn&quot;, {
     parentName: &quot;mrow&quot;
@@ -12411,7 +12754,7 @@ return function MDXContent(_ref) {
     parentName: &quot;msup&quot;
   }, &quot;0&quot;), mdx(&quot;mrow&quot;, {
     parentName: &quot;msup&quot;
-  }, mdx(&quot;mtext&quot;, {
+  }, mdx(&quot;mo&quot;, {
     parentName: &quot;mrow&quot;
   }, &quot;\u2212&quot;), mdx(&quot;mn&quot;, {
     parentName: &quot;mrow&quot;
@@ -12420,7 +12763,7 @@ return function MDXContent(_ref) {
   }, &quot;C&quot;)), mdx(&quot;annotation&quot;, {
     parentName: &quot;semantics&quot;,
     &quot;encoding&quot;: &quot;application/x-tex&quot;
-  }, &quot;\u22121.602176565 \\cdot 10^{\u221219}C&quot;)))), mdx(&quot;span&quot;, {
+  }, &quot;-1.602176565 \\cdot 10^{-19}C&quot;)))), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;katex-html&quot;,
     &quot;aria-hidden&quot;: &quot;true&quot;
@@ -29395,60 +29738,6 @@ return function MDXContent(_ref) {
   }, &quot;How many keys do you have left?&quot;)), &quot; approximates how many more words you have time to type in your remaining lifetime, then equates that to the number of books, tweets, letters, and other texts you could write.&quot;)));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[The 7 Habits of Highly Effective People (Book)]]></title><description><![CDATA[Notes and Quotes from Stephen Covey's book: The 7 Habits of Highly Effective People]]></description><link>https://www.jamestharpe.com/7-habits/</link><guid isPermaLink="false">https://www.jamestharpe.com/7-habits/</guid><pubDate>Thu, 24 Dec 2020 16:23:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-24T16:23:11.000Z&quot;,
-  &quot;description&quot;: &quot;Notes and Quotes from Stephen Covey&apos;s book: The 7 Habits of Highly Effective People&quot;,
-  &quot;tags&quot;: [&quot;books&quot;, &quot;personal-productivity&quot;, &quot;stephen-covey&quot;],
-  &quot;title&quot;: &quot;The 7 Habits of Highly Effective People (Book)&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;The 7 Habits of Highly Effective People&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
-    parentName: &quot;blockquote&quot;
-  }, &quot;\&quot;Principles are the territory. Values are maps.\&quot;&quot;), mdx(&quot;p&quot;, {
-    parentName: &quot;blockquote&quot;
-  }, &quot;-- Stephen Covey&quot;)), mdx(&quot;p&quot;, null, &quot;Covey defines habits as \&quot;the intersection of knowledge, skill, and desire\&quot;.&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Habit One: Be Proactive&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Habit Two: Begin with the End in Mind&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Habit Three: Put First Things First&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Habit Four: Think Win/Win&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Habit Five: Seek First to Understand, Then to be Understood&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Habit Six: Synergize&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Habit Seven: Sharpen the Saw&quot;)), mdx(&quot;h2&quot;, null, &quot;Additional Resources on 7 Habits&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;http://amnesta.net/mba/thecommondenominatorofsuccess-albertengray.pdf&quot;
-  }, &quot;The Common Denominator of Success by Albert Gray&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Stephen Covey's Time Management Matrix]]></title><description><![CDATA[Learn Covey's four-quadrant system for prioritizing time]]></description><link>https://www.jamestharpe.com/covey-time-management-matrix/</link><guid isPermaLink="false">https://www.jamestharpe.com/covey-time-management-matrix/</guid><pubDate>Thu, 24 Dec 2020 16:23:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -29463,7 +29752,8 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2020-12-24T16:23:11.000Z&quot;,
   &quot;description&quot;: &quot;Learn Covey&apos;s four-quadrant system for prioritizing time&quot;,
-  &quot;tags&quot;: [&quot;personal-productivity&quot;, &quot;stephen-covey&quot;, &quot;7-habits&quot;],
+  &quot;tags&quot;: [&quot;personal-productivity&quot;],
+  &quot;redirect_from&quot;: [&quot;/stephen-covey/&quot;],
   &quot;title&quot;: &quot;Stephen Covey&apos;s Time Management Matrix&quot;
 };
 var layoutProps = {
@@ -29479,44 +29769,7 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;The Time Management Matrix&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;Time Management Matrix&quot;), &quot; from \&quot;Habit 3, Put First Things First\&quot;, in &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../stephen-covey/&quot;
-  }, &quot;Stephen Covey&apos;s&quot;), &quot; book &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../7-habits/&quot;
-  }, &quot;The Seven Habits of Highly Effective People&quot;), &quot; is a model to understand and prioritize how time is spent.&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, null, mdx(&quot;td&quot;, null, mdx(&quot;h3&quot;, null, &quot;Urgency \u27A1&quot;, mdx(&quot;br&quot;, null), &quot;Importance \u2B07&quot;)), mdx(&quot;th&quot;, null, mdx(&quot;h4&quot;, null, &quot;Urgent&quot;)), mdx(&quot;th&quot;, null, mdx(&quot;h4&quot;, null, &quot;Not Urgent&quot;))), mdx(&quot;tbody&quot;, null, mdx(&quot;tr&quot;, null, mdx(&quot;th&quot;, null, mdx(&quot;h4&quot;, null, &quot;Important&quot;)), mdx(&quot;td&quot;, null, mdx(&quot;h5&quot;, null, &quot;Q1: Urgent and Important&quot;), mdx(&quot;em&quot;, null, &quot;Do it now!&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, null, &quot;Crises&quot;), mdx(&quot;li&quot;, null, &quot;Pressing Problems&quot;), mdx(&quot;li&quot;, null, &quot;Looming Deadlines&quot;))), mdx(&quot;td&quot;, null, mdx(&quot;h5&quot;, null, &quot;Q2:Important, Not Urgent&quot;), mdx(&quot;em&quot;, null, &quot;Decide when to do it&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, null, &quot;Crises Prevention&quot;), mdx(&quot;li&quot;, null, &quot;Relationship Building&quot;), mdx(&quot;li&quot;, null, &quot;Recognizing new Opportunities&quot;), mdx(&quot;li&quot;, null, &quot;Planning&quot;), mdx(&quot;li&quot;, null, &quot;Self-care&quot;)))), mdx(&quot;tr&quot;, null, mdx(&quot;th&quot;, null, mdx(&quot;h4&quot;, null, &quot;Not Important&quot;)), mdx(&quot;td&quot;, null, mdx(&quot;h5&quot;, null, &quot;Q3: Urgent and Not Important&quot;), mdx(&quot;em&quot;, null, &quot;Delegate it&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, null, &quot;Interruptions&quot;), mdx(&quot;li&quot;, null, &quot;Junk mail, spam, etc.&quot;), mdx(&quot;li&quot;, null, &quot;Useless Meetings&quot;), mdx(&quot;li&quot;, null, &quot;Many phone notifications&quot;))), mdx(&quot;td&quot;, null, mdx(&quot;h5&quot;, null, &quot;Q4:Not Important, Not Urgent&quot;), mdx(&quot;em&quot;, null, &quot;Drop it!&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, null, &quot;Busy work&quot;), mdx(&quot;li&quot;, null, &quot;Most social media&quot;), mdx(&quot;li&quot;, null, &quot;Passive entertainment (TV, movies, etc)&quot;)))))), mdx(&quot;p&quot;, null, &quot;The basic idea is that one should try to maximize time spent on activities that fall in Quadrant 2 and minimize time spent on activities in Quadrants 3 and 4.&quot;));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Stephen Covey]]></title><description><![CDATA[Information about the inspirational author Stephen Covey]]></description><link>https://www.jamestharpe.com/stephen-covey/</link><guid isPermaLink="false">https://www.jamestharpe.com/stephen-covey/</guid><pubDate>Thu, 24 Dec 2020 16:23:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-24T16:23:11.000Z&quot;,
-  &quot;description&quot;: &quot;Information about the inspirational author Stephen Covey&quot;,
-  &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Stephen Covey&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Stephen Covey&quot;));
+  }, &quot;Time Management Matrix&quot;), &quot; from \&quot;Habit 3, Put First Things First\&quot;, in Stephen Covey&apos;s book The Seven Habits of Highly Effective People is a model to understand and prioritize how time is spent.&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, null, mdx(&quot;td&quot;, null, mdx(&quot;h3&quot;, null, &quot;Urgency \u27A1&quot;, mdx(&quot;br&quot;, null), &quot;Importance \u2B07&quot;)), mdx(&quot;th&quot;, null, mdx(&quot;h4&quot;, null, &quot;Urgent&quot;)), mdx(&quot;th&quot;, null, mdx(&quot;h4&quot;, null, &quot;Not Urgent&quot;))), mdx(&quot;tbody&quot;, null, mdx(&quot;tr&quot;, null, mdx(&quot;th&quot;, null, mdx(&quot;h4&quot;, null, &quot;Important&quot;)), mdx(&quot;td&quot;, null, mdx(&quot;h5&quot;, null, &quot;Q1: Urgent and Important&quot;), mdx(&quot;em&quot;, null, &quot;Do it now!&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, null, &quot;Crises&quot;), mdx(&quot;li&quot;, null, &quot;Pressing Problems&quot;), mdx(&quot;li&quot;, null, &quot;Looming Deadlines&quot;))), mdx(&quot;td&quot;, null, mdx(&quot;h5&quot;, null, &quot;Q2:Important, Not Urgent&quot;), mdx(&quot;em&quot;, null, &quot;Decide when to do it&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, null, &quot;Crises Prevention&quot;), mdx(&quot;li&quot;, null, &quot;Relationship Building&quot;), mdx(&quot;li&quot;, null, &quot;Recognizing new Opportunities&quot;), mdx(&quot;li&quot;, null, &quot;Planning&quot;), mdx(&quot;li&quot;, null, &quot;Self-care&quot;)))), mdx(&quot;tr&quot;, null, mdx(&quot;th&quot;, null, mdx(&quot;h4&quot;, null, &quot;Not Important&quot;)), mdx(&quot;td&quot;, null, mdx(&quot;h5&quot;, null, &quot;Q3: Urgent and Not Important&quot;), mdx(&quot;em&quot;, null, &quot;Delegate it&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, null, &quot;Interruptions&quot;), mdx(&quot;li&quot;, null, &quot;Junk mail, spam, etc.&quot;), mdx(&quot;li&quot;, null, &quot;Useless Meetings&quot;), mdx(&quot;li&quot;, null, &quot;Many phone notifications&quot;))), mdx(&quot;td&quot;, null, mdx(&quot;h5&quot;, null, &quot;Q4:Not Important, Not Urgent&quot;), mdx(&quot;em&quot;, null, &quot;Drop it!&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, null, &quot;Busy work&quot;), mdx(&quot;li&quot;, null, &quot;Most social media&quot;), mdx(&quot;li&quot;, null, &quot;Passive entertainment (TV, movies, etc)&quot;)))))), mdx(&quot;p&quot;, null, &quot;The basic idea is that one should try to maximize time spent on activities that fall in Quadrant 2 and minimize time spent on activities in Quadrants 3 and 4.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[4D Time Management]]></title><description><![CDATA[A triage scheme for new tasks: Delegate, Do, Defer, Drop]]></description><link>https://www.jamestharpe.com/4d-time-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/4d-time-management/</guid><pubDate>Thu, 24 Dec 2020 16:04:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -29580,6 +29833,7 @@ var _frontmatter = {
   &quot;date&quot;: &quot;2020-12-24T14:46:11.000Z&quot;,
   &quot;description&quot;: &quot;Tips and resources to improve personal productivity&quot;,
   &quot;tags&quot;: [],
+  &quot;redirect_from&quot;: [&quot;/7-habits/&quot;],
   &quot;title&quot;: &quot;Personal Productivity&quot;
 };
 var layoutProps = {
@@ -29725,7 +29979,12 @@ return function MDXContent(_ref) {
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;http://www.43folders.com/2004/09/03/introducing-the-hipster-pda&quot;
-  }, &quot;Hipster PDA&quot;))));
+  }, &quot;Hipster PDA&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;http://amnesta.net/mba/thecommondenominatorofsuccess-albertengray.pdf&quot;
+  }, &quot;The Common Denominator of Success by Albert Gray&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Internals]]></title><description><![CDATA[How Git works internally]]></description><link>https://www.jamestharpe.com/git-internals/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-internals/</guid><pubDate>Thu, 24 Dec 2020 14:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -36270,39 +36529,6 @@ return function MDXContent(_ref) {
   }));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reinhold Niebuhr Quotes]]></title><description><![CDATA[A theologian and ethicist, notable for originating the serenity prayer (among other things)]]></description><link>https://www.jamestharpe.com/reinhold-niebuhr/</link><guid isPermaLink="false">https://www.jamestharpe.com/reinhold-niebuhr/</guid><pubDate>Mon, 23 Nov 2020 17:25:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-23T17:25:11.000Z&quot;,
-  &quot;description&quot;: &quot;A theologian and ethicist, notable for originating the serenity prayer (among other things)&quot;,
-  &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Reinhold Niebuhr Quotes&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Reinhold Niebuhr Quotes&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;\&quot;Father, give us the courage to change what must be altered, serenity to accept what cannot be helped, and insight to know one from another\&quot;&quot;)));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Serenity Prayer]]></title><description><![CDATA[A prayer for wisdom]]></description><link>https://www.jamestharpe.com/serenity-prayer/</link><guid isPermaLink="false">https://www.jamestharpe.com/serenity-prayer/</guid><pubDate>Mon, 23 Nov 2020 17:25:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -36334,6 +36560,39 @@ return function MDXContent(_ref) {
   }), mdx(&quot;h1&quot;, null, &quot;Serenity Prayer&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
     parentName: &quot;blockquote&quot;
   }, &quot;God grant me the serenity to accept the things I cannot change, &quot;, mdx(&quot;br&quot;, null), &quot;\nCourage to change the things I can, &quot;, mdx(&quot;br&quot;, null), &quot;\nAnd the wisdom to know the difference.&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reinhold Niebuhr Quotes]]></title><description><![CDATA[A theologian and ethicist, notable for originating the serenity prayer (among other things)]]></description><link>https://www.jamestharpe.com/reinhold-niebuhr/</link><guid isPermaLink="false">https://www.jamestharpe.com/reinhold-niebuhr/</guid><pubDate>Mon, 23 Nov 2020 17:25:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-23T17:25:11.000Z&quot;,
+  &quot;description&quot;: &quot;A theologian and ethicist, notable for originating the serenity prayer (among other things)&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Reinhold Niebuhr Quotes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Reinhold Niebuhr Quotes&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;\&quot;Father, give us the courage to change what must be altered, serenity to accept what cannot be helped, and insight to know one from another\&quot;&quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Carl Sagan]]></title><description><![CDATA[Information about Carl Sagan]]></description><link>https://www.jamestharpe.com/carl-sagan/</link><guid isPermaLink="false">https://www.jamestharpe.com/carl-sagan/</guid><pubDate>Mon, 23 Nov 2020 17:23:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -41726,7 +41985,15 @@ return function MDXContent(_ref) {
   }, &quot;Pure Functions&quot;), mdx(&quot;td&quot;, {
     parentName: &quot;tr&quot;,
     &quot;align&quot;: null
-  }, &quot;Functions are deterministic: They always produce the same output from a given input without performing any side-effects (modifying values outside the function)&quot;)))));
+  }, &quot;Functions are deterministic: They always produce the same output from a given input without performing any side-effects (modifying values outside the function)&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Idempotence&quot;), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Side-effects (changes to state) produced by a function will occur only once, even if the function is executed multiple times&quot;)))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reactive Programming]]></title><description><![CDATA[A declarative programming paradigm for extracting and transforming data from streams]]></description><link>https://www.jamestharpe.com/reactive-programming/</link><guid isPermaLink="false">https://www.jamestharpe.com/reactive-programming/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -42029,45 +42296,7 @@ return function MDXContent(_ref) {
   }, &quot;web&quot;), &quot;, mobile, and desktop applications with &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../typescript/&quot;
-  }, &quot;TypeScript&quot;), &quot;. It&apos;s most popular use is to develop web applications.&quot;), mdx(&quot;h2&quot;, null, &quot;Angular Concepts&quot;), mdx(&quot;p&quot;, null, &quot;Angular applications are made up primarily of components, services, and modules that, when assembled, form the application.&quot;), mdx(&quot;h3&quot;, null, &quot;Components&quot;), mdx(&quot;p&quot;, null, &quot;Angular &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;components&quot;), &quot; are the visual building blocks of an Angular application, made up of an HTML template, a TypeScript class, and an optional stylesheet.&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;thead&quot;
-  }, mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Part&quot;), mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Purpose&quot;))), mdx(&quot;tbody&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;HTML Template&quot;), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Defines visual elements&quot;)), mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;TypeScript class&quot;), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Define behaviors&quot;)), mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Stylesheet&quot;), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Defines how visual elements from the HTML template are displayed&quot;)))), mdx(&quot;h2&quot;, null, &quot;Angular Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;TypeScript&quot;), &quot;. It&apos;s most popular use is to develop web applications.&quot;), mdx(&quot;h2&quot;, null, &quot;Angular Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
