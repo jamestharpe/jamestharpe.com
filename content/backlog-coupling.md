@@ -11,4 +11,4 @@ title: "Backlog Coupling"
 
 ## Backlog coupling resources
 
-* [What I talk about when I talk about platforms by Evan Bottcher](https://martinfowler.com/articles/talk-about-platforms.html)
+* [What I talk about when I talk about platforms by Evan Bottcher / Backlog Coupling](https://martinfowler.com/articles/talk-about-platforms.html#TheImpactOfx201cbacklogCouplingx201d)
