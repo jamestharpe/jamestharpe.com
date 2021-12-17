@@ -1,5 +1,5 @@
 ---
-date: 2021-11-28T5:46:25-04:00
+date: 2021-12-17T17:03:25-04:00
 description: "Databases that organize data into tables and support relationships through distinct keys"
 tags: ["databases"]
 title: "Relational Databases"
