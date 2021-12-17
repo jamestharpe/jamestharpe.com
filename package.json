@@ -24,7 +24,7 @@
 		"gatsby-plugin-sharp": "^4.2.0",
 		"gatsby-redirect-from": "^0.4.2",
 		"gatsby-remark-katex": "^5.11.0",
-		"gatsby-source-filesystem": "^4.2.0",
+		"gatsby-source-filesystem": "^4.4.0",
 		"gatsby-transformer-sharp": "^4.2.0",
 		"katex": "^0.15.1",
 		"nstall": "^0.2.0",
@@ -59,7 +59,7 @@
 		"prettier": "^2.4.1",
 		"prismjs": "^1.25.0",
 		"ts-node": "^10.4.0",
-		"typescript": "^4.5.2"
+		"typescript": "^4.5.4"
 	},
 	"keywords": [
 		"gatsby",
