@@ -1,4 +1,635 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 04 Dec 2021 22:38:54 GMT</lastBuildDate><item><title><![CDATA[Amazon Redshift]]></title><description><![CDATA[Amazon Redshift Amazon Redshift  is a  columnar   data warehouse  solution on  AWS  that supports PostgreSQL queries. As a managed service…]]></description><link>https://www.jamestharpe.com/amazon-redshift/</link><guid isPermaLink="false">https://www.jamestharpe.com/amazon-redshift/</guid><pubDate>Sat, 04 Dec 2021 20:19:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Dec 2021 22:10:09 GMT</lastBuildDate><item><title><![CDATA[Relational Databases]]></title><description><![CDATA[Databases that organize data into tables and support relationships through distinct keys]]></description><link>https://www.jamestharpe.com/relational-databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/relational-databases/</guid><pubDate>Fri, 17 Dec 2021 21:03:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-12-17T21:03:25.000Z&quot;,
+  &quot;description&quot;: &quot;Databases that organize data into tables and support relationships through distinct keys&quot;,
+  &quot;tags&quot;: [&quot;databases&quot;],
+  &quot;title&quot;: &quot;Relational Databases&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Relational databases&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;relational database&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../databases/&quot;
+  }, &quot;database&quot;), &quot; that organizes data into one or more tables. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;table&quot;), &quot; is a collection of rows and columns. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;column&quot;), &quot; defines the name, size, format, and type of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; stored for that column in each row. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;row&quot;), &quot; is a related set of values that adhere to the constraints of the columns.&quot;), mdx(&quot;p&quot;, null, &quot;Relational databases require that each row be uniquely identifiable by a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;key&quot;), &quot; made up of one or more columns. Rows can refer to other rows in the same database by a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;foreign key&quot;), &quot; to form relationships that are validated and enforced by the underlying database. The vast majority of relational databases support &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../sql/&quot;
+  }, &quot;SQL&quot;), &quot; for data selection and manipulation.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[SQL JOIN clauses: INNER, OUTER, LEFT, RIGHT, FULL]]></title><description><![CDATA[Match data across tables with JOIN clauses in SQL]]></description><link>https://www.jamestharpe.com/sql-joins/</link><guid isPermaLink="false">https://www.jamestharpe.com/sql-joins/</guid><pubDate>Fri, 17 Dec 2021 19:57:55 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-12-17T19:57:55.000Z&quot;,
+  &quot;description&quot;: &quot;Match data across tables with JOIN clauses in SQL&quot;,
+  &quot;tags&quot;: [&quot;sql&quot;],
+  &quot;title&quot;: &quot;SQL JOIN clauses: INNER, OUTER, LEFT, RIGHT, FULL&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;SQL &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;h1&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;JOIN&quot;), &quot; clauses&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../sql/&quot;
+  }, &quot;SQL&quot;), &quot; &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;strong&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;JOIN&quot;), &quot; clause&quot;), &quot; merges multiple tables into a single resultset. For these demos, we&apos;ll use the following schema:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;mermaid&quot;
+  }, &quot;erDiagram\n\tPeople |o--o{ EmailAddresses: PersonId\n\n\tPeople {\n\t\tint PersonId\n\t\tstring FirstName\n\t\tstring LastName\n\t}\n\n\tEmailAddresses {\n\t\tint EmailAddressId\n\t\tint PersonId\n\t\tstring EmailAddress\n\t}&quot;), mdx(&quot;h2&quot;, null, mdx(&quot;code&quot;, {
+    parentName: &quot;h2&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;INNER JOIN&quot;)), mdx(&quot;p&quot;, null, &quot;An &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;INNER JOIN&quot;), &quot; matches column values across tables and only returns data where the specific match was found, typically by mapping a primary key to a foreign key.&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;sql&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-sql&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-sql&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;SELECT&quot;), &quot;\n\tPeople&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;FirstName&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tPeople&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;LastName&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tEmailAddresses&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;EmailAddress&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;FROM&quot;), &quot;\n\tPeople\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;INNER&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;JOIN&quot;), &quot;\n\tEmailAddresses &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;ON&quot;), &quot; People&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;PersonId &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; EmailAddresses&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;PersonId\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;-- Sample output --&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;/*\nFirstName\t| LastName \t| EmailAddress\n---------------------------------------\nMicky\t\t| Mouse\t\t| micky.mouse@disney.com\n*/&quot;)))), mdx(&quot;p&quot;, null, &quot;In this example the row for Micky Mouse in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;People&quot;), &quot; table was matched with a row from the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EmailAddresses&quot;), &quot; table through the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersonId&quot;), &quot; key.&quot;), mdx(&quot;h2&quot;, null, mdx(&quot;code&quot;, {
+    parentName: &quot;h2&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;OUTER JOIN&quot;)), mdx(&quot;p&quot;, null, &quot;An &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;OUTER JOIN&quot;), &quot; works similarly to an &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;INNER JOIN&quot;), &quot; except that it will include results where no match was found by returning &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;null&quot;), &quot; values for columns in the unmatched second table.&quot;), mdx(&quot;h3&quot;, null, mdx(&quot;code&quot;, {
+    parentName: &quot;h3&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;FULL OUTER JOIN&quot;)), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;FULL OUTER JOIN&quot;), &quot; returns all rows from both tables (with &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;null&quot;), &quot;s for unmatched results):&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;sql&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-sql&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-sql&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;SELECT&quot;), &quot;\n\tPeople&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;FirstName&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tPeople&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;LastName&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tEmailAddresses&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;EmailAddress&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;FROM&quot;), &quot;\n\tPeople\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;FULL&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;OUTER&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;JOIN&quot;), &quot;\n\tEmailAddresses &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;ON&quot;), &quot; People&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;PersonId &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; EmailAddresses&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;PersonId\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;-- Sample output --&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;/*\nFirstName\t| LastName \t| EmailAddress\n---------------------------------------\nMicky\t\t| Mouse\t\t| micky.mouse@disney.com\nDonald\t\t| Duck\t\t| null\nnull\t\t| null\t\t| mysterious@address.com\n*/&quot;)))), mdx(&quot;p&quot;, null, &quot;In this example:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The row for Micky Mouse in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;People&quot;), &quot; table was matched with a row from the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EmailAddresses&quot;), &quot; table through the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersonId&quot;), &quot; key.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The row for Donald Duck in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;People&quot;), &quot; table was returned, but the email address was &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;null&quot;), &quot;because there was no match in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EmailAddresses&quot;), &quot; table through the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersonId&quot;), &quot; key&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The row for the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;mysterious&quot;), &quot; email address in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EmailAddresses&quot;), &quot; table was returned, but the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;FirstName&quot;), &quot; and &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;LastName&quot;), &quot; were &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;null&quot;), &quot; because there was no match in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;People&quot;), &quot; table through the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersonId&quot;), &quot; key&quot;)), mdx(&quot;h3&quot;, null, mdx(&quot;code&quot;, {
+    parentName: &quot;h3&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;LEFT OUTER JOIN&quot;)), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;LEFT OUTER JOIN&quot;), &quot; will return all rows from the left table with &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;null&quot;), &quot; for non-matching right side table rows:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;sql&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-sql&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-sql&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;SELECT&quot;), &quot;\n\tPeople&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;FirstName&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tPeople&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;LastName&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tEmailAddresses&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;EmailAddress&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;FROM&quot;), &quot;\n\tPeople\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;LEFT&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;OUTER&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;JOIN&quot;), &quot;\n\tEmailAddresses &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;ON&quot;), &quot; People&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;PersonId &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; EmailAddresses&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;PersonId\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;-- Sample output --&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;/*\nFirstName\t| LastName \t| EmailAddress\n---------------------------------------\nMicky\t\t| Mouse\t\t| micky.mouse@disney.com\nDonald\t\t| Duck\t\t| null\n*/&quot;)))), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The row for Micky Mouse in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;People&quot;), &quot; table was matched with a row from the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EmailAddresses&quot;), &quot; table through the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersonId&quot;), &quot; key.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The row for Donald Duck in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;People&quot;), &quot; table was returned, but the email address was &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;null&quot;), &quot;because there was no match in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EmailAddresses&quot;), &quot; table through the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersonId&quot;), &quot; key&quot;)), mdx(&quot;h3&quot;, null, mdx(&quot;code&quot;, {
+    parentName: &quot;h3&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;RIGHT OUTER JOIN&quot;)), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;RIGHT OUTER JOIN&quot;), &quot; will return all rows from the right table with &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;null&quot;), &quot; for non-matching left side table rows:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;sql&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-sql&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-sql&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;SELECT&quot;), &quot;\n\tPeople&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;FirstName&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tPeople&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;LastName&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n\tEmailAddresses&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;EmailAddress&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;,&quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;FROM&quot;), &quot;\n\tPeople\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;LEFT&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;OUTER&quot;), &quot; &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;JOIN&quot;), &quot;\n\tEmailAddresses &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token keyword&quot;
+  }, &quot;ON&quot;), &quot; People&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;PersonId &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token operator&quot;
+  }, &quot;=&quot;), &quot; EmailAddresses&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token punctuation&quot;
+  }, &quot;.&quot;), &quot;PersonId\n\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;-- Sample output -- &quot;), &quot;\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;/*\nFirstName\t| LastName \t| EmailAddress\n---------------------------------------\nMicky\t\t| Mouse\t\t| micky.mouse@disney.com\nnull\t\t| null\t\t| mysterious.email@address.com\n*/&quot;)))), mdx(&quot;p&quot;, null, &quot;In this example:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The row for Micky Mouse in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;People&quot;), &quot; table was matched with a row from the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EmailAddresses&quot;), &quot; table through the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersonId&quot;), &quot; key.&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;The row for the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;mysterious&quot;), &quot; email address in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;EmailAddresses&quot;), &quot; table was returned, but the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;FirstName&quot;), &quot; and &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;LastName&quot;), &quot; were &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;null&quot;), &quot; because there was no match in the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;People&quot;), &quot; table through the &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;PersonId&quot;), &quot; key&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Structured Query Language (SQL)]]></title><description><![CDATA[The language of relational data]]></description><link>https://www.jamestharpe.com/sql/</link><guid isPermaLink="false">https://www.jamestharpe.com/sql/</guid><pubDate>Fri, 17 Dec 2021 17:46:55 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-12-17T17:46:55.000Z&quot;,
+  &quot;description&quot;: &quot;The language of relational data&quot;,
+  &quot;tags&quot;: [&quot;computer-languages&quot;, &quot;relational-databases&quot;],
+  &quot;title&quot;: &quot;Structured Query Language (SQL)&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Structured Query Language (SQL)&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Structured Query Language (SQL)&quot;), &quot;, sometimes pronounced \&quot;sequal\&quot;, is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;programming language&quot;), &quot; designed to query and manipulate relational data. Though SQL was designed for use with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../relational-databases/&quot;
+  }, &quot;relational databases&quot;), &quot;, many other types of databases can support SQL.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[PostgreSQL]]></title><description><![CDATA[A popular open-source relational database]]></description><link>https://www.jamestharpe.com/postgresql/</link><guid isPermaLink="false">https://www.jamestharpe.com/postgresql/</guid><pubDate>Fri, 17 Dec 2021 17:34:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-12-17T17:34:30.000Z&quot;,
+  &quot;description&quot;: &quot;A popular open-source relational database&quot;,
+  &quot;redirect_from&quot;: [&quot;/tools/cloudformation/&quot;],
+  &quot;tags&quot;: [&quot;relational-databases&quot;, &quot;open-source&quot;],
+  &quot;title&quot;: &quot;PostgreSQL&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;PostgreSQL&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;PostgreSQL&quot;), &quot;, often referred to as simply &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;postgres&quot;), &quot;, is an &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../open-source/&quot;
+  }, &quot;open-source&quot;), &quot; &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../relational-databases/&quot;
+  }, &quot;relational database&quot;), &quot;, known for its extensibility. PostgreSQL allows developers to define their own data types, and build custom functions from &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;programming languages&quot;), &quot; other than SQL.&quot;), mdx(&quot;h2&quot;, null, &quot;PostgreSQL resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.postgresql.org/&quot;
+  }, &quot;Official PostgreSQL website&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.postgresql.org/docs/&quot;
+  }, &quot;PostgreSQL documentation&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Backlog Coupling]]></title><description><![CDATA[When work on one team or product excessivly depends on work from another team or product]]></description><link>https://www.jamestharpe.com/backlog-coupling/</link><guid isPermaLink="false">https://www.jamestharpe.com/backlog-coupling/</guid><pubDate>Tue, 07 Dec 2021 18:30:01 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-12-07T18:30:01.000Z&quot;,
+  &quot;description&quot;: &quot;When work on one team or product excessivly depends on work from another team or product&quot;,
+  &quot;tags&quot;: [&quot;project-management&quot;],
+  &quot;title&quot;: &quot;Backlog Coupling&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Backlog coupling&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Backlog coupling&quot;), &quot; is when work defined in one &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../product-management/&quot;
+  }, &quot;product backlog&quot;), &quot; depends on work from one or more other product backlogs to be completed before the work can be completed. While some coupling is inevitable, &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;excessive&quot;), &quot; coupling between backlogs causes productivity and responsiveness to suffer and usually indicates a team topology or architectural problem. When unaddressed, backlog coupling damages a team&apos;s ability to account for outcomes, and ultimatly erodes motivation and leads to apathy because it becomes easy to shift blame and give up on ideas to improve.&quot;), mdx(&quot;h2&quot;, null, &quot;Backlog coupling resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://martinfowler.com/articles/talk-about-platforms.html#TheImpactOfx201cbacklogCouplingx201d&quot;
+  }, &quot;What I talk about when I talk about platforms by Evan Bottcher / Backlog Coupling&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Amazon Redshift]]></title><description><![CDATA[A columnar data warehouse solution on AWS]]></description><link>https://www.jamestharpe.com/amazon-redshift/</link><guid isPermaLink="false">https://www.jamestharpe.com/amazon-redshift/</guid><pubDate>Sat, 04 Dec 2021 20:19:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -11,7 +642,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 /* @jsx mdx */
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-12-04T20:19:30.000Z&quot;,
-  &quot;description&quot;: &quot;&quot;,
+  &quot;description&quot;: &quot;A columnar data warehouse solution on AWS&quot;,
   &quot;redirect_from&quot;: [&quot;/tools/cloudformation/&quot;],
   &quot;tags&quot;: [&quot;aws&quot;, &quot;data-warehouses&quot;, &quot;columnar-databases&quot;],
   &quot;title&quot;: &quot;Amazon Redshift&quot;
@@ -4908,20 +5539,10 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Databases&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;database&quot;), &quot; is an organized collection of &quot;, mdx(&quot;a&quot;, {
+  }, &quot;database&quot;), &quot; is a collection of &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data/&quot;
-  }, &quot;data&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Types of databases&quot;), mdx(&quot;h3&quot;, null, &quot;Document database&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;document database&quot;), &quot; is a key-value store in which the value consists of semi-structured data that can usually be further queried.&quot;), mdx(&quot;h3&quot;, null, &quot;Graph database&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;graph database&quot;), &quot; stores records as nodes and defines relationships as edges between nodes.&quot;), mdx(&quot;h3&quot;, null, &quot;Key-value store&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;key-value store&quot;), &quot; stores data as a hash table, where each key can quickly be queried to return the associated data.&quot;), mdx(&quot;h3&quot;, null, &quot;Relational database&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;relational database&quot;), &quot; maintains data in a tabular format, where each record in the database is identified by a primary key, and relationships to other records are defined by foreign keys. Most relational databases support SQL based queries.&quot;), mdx(&quot;h3&quot;, null, &quot;Time series database&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;time series database&quot;), &quot; is optimized to aggregate timestamped data.&quot;));
+  }, &quot;data&quot;), &quot; that is optimized to effeciently store and retrieve that data.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Visualizations]]></title><description><![CDATA[Visualizations that generate insights]]></description><link>https://www.jamestharpe.com/data-visualizations/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-visualizations/</guid><pubDate>Tue, 16 Nov 2021 18:39:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -5078,10 +5699,10 @@ return function MDXContent(_ref) {
   }, &quot;data science&quot;), &quot;, and &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../business-intelligence/&quot;
-  }, &quot;business intelligence&quot;), &quot;. However, data analysis focuses on generating useful reports and &quot;, mdx(&quot;a&quot;, {
+  }, &quot;business intelligence&quot;), &quot;. However, data analysis focuses on telling stories through data through reports and and &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data-visualizations/&quot;
-  }, &quot;visualization&quot;), &quot;.&quot;));
+  }, &quot;visualizations&quot;), &quot;.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Science]]></title><description><![CDATA[The scientific method applied to data analysis]]></description><link>https://www.jamestharpe.com/data-science/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-science/</guid><pubDate>Tue, 16 Nov 2021 17:25:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -35746,82 +36367,6 @@ return function MDXContent(_ref) {
   }, &quot;James Watt&quot;), &quot;, best known for his work to improve the steam engine.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-24T15:33:11.000Z&quot;,
-  &quot;description&quot;: &quot;A free and open-source operating system&quot;,
-  &quot;tags&quot;: [&quot;operating-systems&quot;],
-  &quot;title&quot;: &quot;Linux&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Linux&quot;), mdx(&quot;h2&quot;, null, &quot;Useful Commands&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;thead&quot;
-  }, mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Command&quot;), mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;https://www.man7.org/linux/man-pages/man8/lsusb.8.html&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Change the password or password validity period for a user account&quot;)))), mdx(&quot;h2&quot;, null, &quot;Linux Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ&quot;
-  }, &quot;tutorialLinux YouTube Channel&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -36019,6 +36564,82 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;/var&quot;), &quot; folder contains files that are expected to grow over time (e.g. logs and caches).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-24T15:33:11.000Z&quot;,
+  &quot;description&quot;: &quot;A free and open-source operating system&quot;,
+  &quot;tags&quot;: [&quot;operating-systems&quot;],
+  &quot;title&quot;: &quot;Linux&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Linux&quot;), mdx(&quot;h2&quot;, null, &quot;Useful Commands&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;thead&quot;
+  }, mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Command&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://www.man7.org/linux/man-pages/man8/lsusb.8.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Change the password or password validity period for a user account&quot;)))), mdx(&quot;h2&quot;, null, &quot;Linux Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ&quot;
+  }, &quot;tutorialLinux YouTube Channel&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[A small, reliable 3D printer appropriate for home use]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -42054,6 +42675,39 @@ return function MDXContent(_ref) {
   }, &quot;Side-effects (changes to state) produced by a function will occur only once, even if the function is executed multiple times&quot;)))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reactive Programming]]></title><description><![CDATA[A declarative programming paradigm for extracting and transforming data from streams]]></description><link>https://www.jamestharpe.com/reactive-programming/</link><guid isPermaLink="false">https://www.jamestharpe.com/reactive-programming/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-01-25T12:39:26.000Z&quot;,
+  &quot;description&quot;: &quot;A declarative programming paradigm for extracting and transforming data from streams&quot;,
+  &quot;tags&quot;: [&quot;computer-science&quot;],
+  &quot;title&quot;: &quot;Reactive Programming&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Reactive Programming&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Reactive programming&quot;), &quot; is a declarative programming paradigm for extracting and transforming data from streams.&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[RxJS]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/rxjs/</link><guid isPermaLink="false">https://www.jamestharpe.com/rxjs/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -42239,7 +42893,7 @@ return function MDXContent(_ref) {
   }, &quot;unsubscribe()&quot;), &quot; is called on a subscription&quot;)));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reactive Programming]]></title><description><![CDATA[A declarative programming paradigm for extracting and transforming data from streams]]></description><link>https://www.jamestharpe.com/reactive-programming/</link><guid isPermaLink="false">https://www.jamestharpe.com/reactive-programming/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -42251,10 +42905,10 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 /* @jsx mdx */
 var _frontmatter = {
-  &quot;date&quot;: &quot;2020-01-25T12:39:26.000Z&quot;,
-  &quot;description&quot;: &quot;A declarative programming paradigm for extracting and transforming data from streams&quot;,
-  &quot;tags&quot;: [&quot;computer-science&quot;],
-  &quot;title&quot;: &quot;Reactive Programming&quot;
+  &quot;date&quot;: &quot;2020-01-12T13:05:10.000Z&quot;,
+  &quot;description&quot;: &quot;Learn Angular&quot;,
+  &quot;tags&quot;: [&quot;angular&quot;, &quot;cli&quot;],
+  &quot;title&quot;: &quot;Angular CLI&quot;
 };
 var layoutProps = {
   _frontmatter: _frontmatter
@@ -42267,9 +42921,21 @@ return function MDXContent(_ref) {
   return mdx(MDXLayout, _extends({}, layoutProps, props, {
     components: components,
     mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Reactive Programming&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Reactive programming&quot;), &quot; is a declarative programming paradigm for extracting and transforming data from streams.&quot;));
+  }), mdx(&quot;h1&quot;, null, &quot;Angular CLI&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://angular.io/cli&quot;
+  }, &quot;Angular CLI&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../cli/&quot;
+  }, &quot;command-line interface&quot;), &quot; used to build &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../angular/&quot;
+  }, &quot;Angular&quot;), &quot; applications.&quot;), mdx(&quot;h2&quot;, null, &quot;Angular CLI Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://angular.io/cli&quot;
+  }, &quot;Angular CLI Command Reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Angular (TypeScript Framework)]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -42325,51 +42991,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://www.youtube.com/channel/UCm9iiIfgmVODUJxINecHQkA&quot;
   }, &quot;ng-conf YouTube Channel&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-01-12T13:05:10.000Z&quot;,
-  &quot;description&quot;: &quot;Learn Angular&quot;,
-  &quot;tags&quot;: [&quot;angular&quot;, &quot;cli&quot;],
-  &quot;title&quot;: &quot;Angular CLI&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Angular CLI&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://angular.io/cli&quot;
-  }, &quot;Angular CLI&quot;), &quot; is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../cli/&quot;
-  }, &quot;command-line interface&quot;), &quot; used to build &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../angular/&quot;
-  }, &quot;Angular&quot;), &quot; applications.&quot;), mdx(&quot;h2&quot;, null, &quot;Angular CLI Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://angular.io/cli&quot;
-  }, &quot;Angular CLI Command Reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Torque]]></title><description><![CDATA[Learn about torque: Force that causes an object to rotate around an axis.]]></description><link>https://www.jamestharpe.com/torque/</link><guid isPermaLink="false">https://www.jamestharpe.com/torque/</guid><pubDate>Thu, 09 Jan 2020 15:21:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
