@@ -1,7 +1,7 @@
 ---
 date: 2020-11-24T12:39:46-04:00
 description: "An end-to-end DevOps tool chain centered on Git"
-tags: [ "git" ]
+tags: [ "git", "open-source" ]
 title: "GitLab"
 ---
 

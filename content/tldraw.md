@@ -1,7 +1,7 @@
 ---
 date: 2021-11-27T11:15:54-04:00
 description: "A simple drawing app"
-tags: [ "apps" ]
+tags: [ "apps", "open-source" ]
 title: "tldraw: A simple drawing app"
 ---
 

@@ -1,10 +1,12 @@
 ---
-tags: []
+tags: ["cloud-platforms"]
 title: "Amazon Web Services (AWS)"
 date: 2020-11-15T19:22:30-04:00
 ---
 
 # Amazon Web Services (AWS)
+
+**Amazon Web Services (AWS)** is a hosted [cloud platform](cloud-platforms.md), provided by Amazon.
 
 ## AWS Resources
 

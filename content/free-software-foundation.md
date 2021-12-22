@@ -7,7 +7,7 @@ title: "Free Software Foundation (FSF)"
 
 # Free Software Foundation (FSF)
 
-The [**Free Software Foundation (FSF)**](https://www.fsf.org/) is a nonprofit activist organization that [campaigns](https://www.fsf.org/campaigns) for the development and use of free software and documentation, particularly [GNU](https://www.gnu.org/), and against practices that limit software freedom.
+The [**Free Software Foundation (FSF)**](https://www.fsf.org/) is a nonprofit activist organization for [open-source](open-source.md) that [campaigns](https://www.fsf.org/campaigns) for the development and use of free software and documentation, particularly [GNU](https://www.gnu.org/), and against practices that limit software freedom.
 
 ## Resources
 

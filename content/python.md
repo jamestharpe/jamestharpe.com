@@ -1,7 +1,7 @@
 ---
 date: 2021-11-22T12:39:54-04:00
 description: "An object-oriented and functional programing language where whitespace matters"
-tags: [ "computer-languages" ]
+tags: [ "computer-languages", "open-source" ]
 title: "Python"
 ---
 

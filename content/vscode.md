@@ -1,7 +1,7 @@
 ---
 date: 2021-11-27T11:19:54-04:00
 description: "An extensible code editor for software engineers"
-tags: [ "software-engineering", "computer-languages", "apps" ]
+tags: [ "software-engineering", "computer-languages", "apps", "open-source" ]
 title: "Visual Studio Code (VS Code)"
 ---
 
