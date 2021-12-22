@@ -1,7 +1,7 @@
 ---
 date: 2020-12-24T08:29:30-04:00
 description: "Given enough eyeballs, all bugs are shallow"
-tags: [ "eric-raymond" ]
+tags: [ "software-engineering" ]
 title: "Linus's Law"
 ---
 
