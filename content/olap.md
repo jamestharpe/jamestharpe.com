@@ -1,7 +1,7 @@
 ---
 date: 2021-12-22T06:43:25-04:00
 description: "A technique to create views and calculations from multi-dimensional data"
-tags: [ "data-analysis", "data-warehouse" ]
+tags: [ "data-analysis", "data-warehouses" ]
 title: "Online Analytical Processing (OLAP)"
 ---
 
