@@ -2,7 +2,7 @@
 date: 2020-11-17T07:54:30-04:00
 description: "A distributed version-control system to track changes, typically for software development projects"
 redirect_from: ["/tools/git/", "/linus-torvalds"]
-tags: [ "cli", "linus-torvalds", "open-source" ]
+tags: [ "cli", "open-source" ]
 title: "Git"
 ---
 
