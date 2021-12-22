@@ -7,4 +7,4 @@ title: "Structured Query Language (SQL)"
 
 # Structured Query Language (SQL)
 
-**Structured Query Language (SQL)**, sometimes pronounced "sequal", is a [programming language](computer-languages.md) designed to query and manipulate relational data. Though SQL was designed for use with [relational databases](relational-databases.md), many other types of databases can support SQL.
+**Structured Query Language (SQL)**, sometimes pronounced "sequel", is a [programming language](computer-languages.md) designed to query and manipulate relational data. Though SQL was designed for use with [relational databases](relational-databases.md), many other types of databases can support SQL.

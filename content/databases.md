@@ -8,4 +8,4 @@ title: "Databases"
 
 # Databases
 
-A **database** is a collection of [data](data.md) that is optimized to effeciently store and retrieve that data.
+A **database** is a collection of [data](data.md) that is optimized to efficiently store and retrieve that data.

@@ -7,7 +7,7 @@ title: "SQL JOIN clauses: INNER, OUTER, LEFT, RIGHT, FULL"
 
 # SQL `JOIN` clauses
 
-A [SQL](sql.md) **`JOIN` clause** merges multiple tables into a single resultset. For these demos, we'll use the following schema:
+A [SQL](sql.md) **`JOIN` clause** merges multiple tables into a single result set. For these demos, we'll use the following schema:
 
 ```mermaid
 erDiagram
