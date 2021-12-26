@@ -1,49 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap");
 
 /* Small Screens (Default) */
 
 * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html {
-    -ms-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }
 
 kbd {
 	border-radius: 3px;
 	padding: 1px 2px 0;
 	border: 1px solid black;
-  }
+}
 
 body {
-    background-color: #F1F5F8;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    color: #141414;
+	background-color: #f1f5f8;
+	font-family: "Ubuntu", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #141414;
 }
 
 blockquote {
-  margin-top: 1em;
-  margin-bottom: 1em;
-  margin-left: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 1em;
 	padding-left: 1em;
 	/* margin-right: 1em;
   padding-right: 1em; */
-	border-left: 0.30em solid #411811;
+	border-left: 0.3em solid #411811;
 	/* border-right: 3px solid #ccc; */
 	background-color: #f8e6cb;
 }
 
 a {
-    color: #314A5E;
+	color: #314a5e;
 }
 
 a:hover {
-    color: #547EA0;
+	color: #547ea0;
 }
 
 strong {
@@ -52,7 +52,7 @@ strong {
 
 header {
 	background-color: #411811;
-	color: #E4EBF1;
+	color: #e4ebf1;
 }
 
 header a {
@@ -66,87 +66,88 @@ img {
 }
 
 header h1 {
-    margin: 0;
-    color: #ffffff;
-    padding: .5rem 0 0 0;
-    font-size: 1.8rem;
+	margin: 0;
+	color: #ffffff;
+	padding: 0.5rem 0 0 0;
+	font-size: 1.8rem;
 }
 
 header nav {
-    background-color: #FAB84C;
+	background-color: #fab84c;
 	color: #141414;
 }
 
 header nav a {
-	color: #314A5E;
+	color: #314a5e;
 }
 
 header nav div div {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 footer {
-    background-color: #411811;
-    color: #E4EBF1;
-    font-size: 1.2em;
+	background-color: #411811;
+	color: #e4ebf1;
+	font-size: 1.2em;
 }
 
 footer a {
-    color: #7CCB7D;
+	color: #7ccb7d;
 }
 
 footer a:hover {
-    color: #B6E2B7;
+	color: #b6e2b7;
 }
 
 footer h2 {
-    color: #FAB84C;
-    font-style: italic;
-    margin: 1rem 0 .3rem 0;
+	color: #fab84c;
+	font-style: italic;
+	margin: 1rem 0 0.3rem 0;
 }
 
 header div,
 nav div,
 main,
 footer div {
-    max-width: 1024px;
-    margin: 0 2vw 0em 2vw;
+	max-width: 900px;
+	margin: 0 2vw 0em 2vw;
 }
 
 main {
-    margin-bottom: 1em;
-    min-height: 66vh;
+	margin-bottom: 1em;
+	min-height: 66vh;
 }
 
 table {
-	background: #F1F5F8;
+	background: #f1f5f8;
 	border-collapse: collapse;
 }
 
-table td, table th {
+table td,
+table th {
 	padding: 0.5em;
 	border: 1px dotted;
 }
 
 table thead {
 	background: #411811;
-	color: #E4EBF1;
+	color: #e4ebf1;
 }
 
 table thead tr th:empty {
 	display: none;
-} 
+}
 
 table thead th {
 	font-weight: normal;
 }
 
 table tr:nth-child(even) {
-  background: #E4EBF1;
+	background: #e4ebf1;
 }
 
 table tfoot {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 .mermaid {
@@ -160,25 +161,24 @@ table tfoot {
 /* Medium Screens */
 
 @media only screen and (min-width: 720px) {
-    header h1 {
-        margin: 0;
-        padding: .5rem 0 0 0;
-        font-size: 2.85rem;
-    }
+	header h1 {
+		margin: 0;
+		padding: 0.5rem 0 0 0;
+		font-size: 2.85rem;
+	}
 }
-
 
 /* Large Screens */
 
 @media only screen and (min-width: 1280px) {
-    header div,
-    nav div,
-    main,
-    footer div {
-        max-width: 1024px;
-        margin: auto;
-    }
-    main {
-        margin-bottom: 1em;
-    }
+	header div,
+	nav div,
+	main,
+	footer div {
+		max-width: 1024px;
+		margin: auto;
+	}
+	main {
+		margin-bottom: 1em;
+	}
 }
