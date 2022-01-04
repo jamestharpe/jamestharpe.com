@@ -15,7 +15,7 @@ In other words, if you ask an analytics team for a report and the report takes t
 
 ## Challenges with big data: Variety, velocity, veracity, volume
 
-Often referred to as the **three 'V's**, the challenges of big data center on variety, velocity, and volume.
+Often referred to as the **four 'V's**, the challenges of big data center on variety, velocity, veracity, and volume.
 
 **Variety of data** refers to the formats and sources of raw [data](data.md). Data can come in "typical" forms - like [databases](databases.md), spreadsheets, and other tabular forms (e.g. CSV files) - but also from sources like audio, video, and unstructured text. Data can also be sourced from a variety of sources in addition to databases, including: APIs, IoT devices, and biomedical devices. Each format and source of data requires additional effort to capture and process.
 
