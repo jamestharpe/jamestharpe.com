@@ -1,58 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 04 Jan 2022 13:58:56 GMT</lastBuildDate><item><title><![CDATA[Base64]]></title><description><![CDATA[Base64 Base64  is a set of methods to encode  binary  data as  ASCII  text so that the data can be transported using text-based protocols…]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-12-26T10:28:27.000Z&quot;,
-  &quot;description&quot;: &quot;&quot;,
-  &quot;tags&quot;: [&quot;ascii&quot;, &quot;binary&quot;],
-  &quot;title&quot;: &quot;Base64&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../binary/&quot;
-  }, &quot;binary&quot;), &quot; data as &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ascii/&quot;
-  }, &quot;ASCII&quot;), &quot; text so that the data can be transported using text-based protocols, such as HTTP.&quot;), mdx(&quot;div&quot;, {
-    style: {
-      &quot;float&quot;: &quot;right&quot;,
-      border: &quot;solid&quot;,
-      width: &quot;40%&quot;,
-      padding: &quot;2em&quot;
-    }
-  }, mdx(&quot;h2&quot;, null, &quot;Base64 Encoder / Decoder&quot;), mdx(Coder, {
-    type: &quot;base64&quot;,
-    mdxType: &quot;Coder&quot;
-  })), mdx(&quot;h2&quot;, null, &quot;Base64url Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc4648&quot;
-  }, &quot;The Base16, Base32, and Base64 Data Encodings&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 04 Jan 2022 14:07:12 GMT</lastBuildDate><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -109,6 +55,60 @@ return function MDXContent(_ref) {
     }
   }, mdx(&quot;h2&quot;, null, &quot;Base64 Encoder / Decoder&quot;), mdx(Coder, {
     type: &quot;base64url&quot;,
+    mdxType: &quot;Coder&quot;
+  })), mdx(&quot;h2&quot;, null, &quot;Base64url Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc4648&quot;
+  }, &quot;The Base16, Base32, and Base64 Data Encodings&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[Base64 Base64  is a set of methods to encode  binary  data as  ASCII  text so that the data can be transported using text-based protocols…]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-12-26T10:28:27.000Z&quot;,
+  &quot;description&quot;: &quot;&quot;,
+  &quot;tags&quot;: [&quot;ascii&quot;, &quot;binary&quot;],
+  &quot;title&quot;: &quot;Base64&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../binary/&quot;
+  }, &quot;binary&quot;), &quot; data as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ascii/&quot;
+  }, &quot;ASCII&quot;), &quot; text so that the data can be transported using text-based protocols, such as HTTP.&quot;), mdx(&quot;div&quot;, {
+    style: {
+      &quot;float&quot;: &quot;right&quot;,
+      border: &quot;solid&quot;,
+      width: &quot;40%&quot;,
+      padding: &quot;2em&quot;
+    }
+  }, mdx(&quot;h2&quot;, null, &quot;Base64 Encoder / Decoder&quot;), mdx(Coder, {
+    type: &quot;base64&quot;,
     mdxType: &quot;Coder&quot;
   })), mdx(&quot;h2&quot;, null, &quot;Base64url Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
@@ -32878,58 +32878,6 @@ return function MDXContent(_ref) {
   }, &quot;vis.js&quot;), &quot; code on GitHub&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
-  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
-  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
-  &quot;title&quot;: &quot;GitLab CI/CD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../gitlab/&quot;
-  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ci-cd/&quot;
-  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
-  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
-  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -33030,6 +32978,58 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;master&quot;), &quot;).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
+  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
+  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
+  &quot;title&quot;: &quot;GitLab CI/CD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../gitlab/&quot;
+  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ci-cd/&quot;
+  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
+  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
+  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -36746,82 +36746,6 @@ return function MDXContent(_ref) {
   }, &quot;James Watt&quot;), &quot;, best known for his work to improve the steam engine.&quot;));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-24T15:33:11.000Z&quot;,
-  &quot;description&quot;: &quot;A free and open-source operating system&quot;,
-  &quot;tags&quot;: [&quot;operating-systems&quot;, &quot;open-source&quot;],
-  &quot;title&quot;: &quot;Linux&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Linux&quot;), mdx(&quot;h2&quot;, null, &quot;Useful Commands&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;thead&quot;
-  }, mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Command&quot;), mdx(&quot;th&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
-    parentName: &quot;table&quot;
-  }, mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;https://www.man7.org/linux/man-pages/man8/lsusb.8.html&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
-    parentName: &quot;tbody&quot;
-  }, mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;td&quot;,
-    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
-    parentName: &quot;tr&quot;,
-    &quot;align&quot;: null
-  }, &quot;Change the password or password validity period for a user account&quot;)))), mdx(&quot;h2&quot;, null, &quot;Linux Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ&quot;
-  }, &quot;tutorialLinux YouTube Channel&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -37019,6 +36943,82 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;/var&quot;), &quot; folder contains files that are expected to grow over time (e.g. logs and caches).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-24T15:33:11.000Z&quot;,
+  &quot;description&quot;: &quot;A free and open-source operating system&quot;,
+  &quot;tags&quot;: [&quot;operating-systems&quot;, &quot;open-source&quot;],
+  &quot;title&quot;: &quot;Linux&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Linux&quot;), mdx(&quot;h2&quot;, null, &quot;Useful Commands&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;thead&quot;
+  }, mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Command&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Description&quot;))), mdx(&quot;tbody&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://www.man7.org/linux/man-pages/man8/lsusb.8.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;lsusb&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Display information about the available USB ports, including information about what is connected to which port&quot;)), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;href&quot;: &quot;https://man7.org/linux/man-pages/man1/passwd.1.html&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;passwd&quot;))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Change the password or password validity period for a user account&quot;)))), mdx(&quot;h2&quot;, null, &quot;Linux Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ&quot;
+  }, &quot;tutorialLinux YouTube Channel&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[A small, reliable 3D printer appropriate for home use]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
