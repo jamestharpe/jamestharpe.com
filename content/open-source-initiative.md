@@ -1,7 +1,7 @@
 ---
 date: 2020-12-08T08:59:30-04:00
 description: "Overview of the Open Source Initiative (OSI)"
-tags: [ "open-source", "nonprofits" ]
+tags: [ "open-source-orgs", "nonprofits" ]
 title: "Open Source Initiative (OSI)"
 ---
 

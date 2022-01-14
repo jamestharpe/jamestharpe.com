@@ -1,6 +1,6 @@
 ---
 date: 2021-12-26T06:28:27-04:00
-description: ""
+description: "A method to encode binary data as ASCII for transport over text-based protocols"
 tags: [ "ascii", "binary" ]
 title: "Base64"
 ---

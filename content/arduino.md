@@ -1,13 +1,13 @@
 ---
 date: 2021-01-18T09:11:11-04:00
 description: "The open-source electronics platform for interactive projects and prototypes"
-tags: [ "open-source", "electrical-engineering" ]
+tags: [ "open-source-hardware", "electrical-engineering" ]
 title: "Arduino"
 ---
 
 # Arduino
 
-**Arduino** is an [open-source](open-source.md) set of hardware and software used to build interactive electronics projects. Applications for Arduino are typically written in [C++](cpp.md) in the [Arduino IDE](https://www.arduino.cc/en/software) or [Arduino Web Editor](https://create.arduino.cc/editor) (recommended over Arduino IDE); however other options for controlling Arduinos exist such as with [Node-RED](https://nodered.org/docs/faq/interacting-with-arduino).
+**Arduino** is a set of [ope-source hardware](open-source-hardware.md) and [software](open-source-software.md) used to build interactive electronics projects. Applications for Arduino are typically written in [C++](cpp.md) in the [Arduino IDE](https://www.arduino.cc/en/software) or [Arduino Web Editor](https://create.arduino.cc/editor) (recommended over Arduino IDE); however other options for controlling arduinos exist such as with [Node-RED](https://nodered.org/docs/faq/interacting-with-arduino).
 
 ## Components of an Arduino Build
 

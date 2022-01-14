@@ -1,13 +1,13 @@
 ---
 date: 2021-08-18T07:13:14-04:00
 description: "A system to conduct an orchestra of containers"
-tags: [ "containers", "open-source" ]
+tags: [ "containers", "open-source-software" ]
 title: "Kubernetes (k8s)"
 ---
 
 # Kubernetes (k8s)
 
-**Kubernetes**, sometimes stylistically written as **k8s**, is an [open-source](open-source.md) system to automate the deployment, scaling, and management of [containerized](containers.md) applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.
+**Kubernetes**, sometimes stylistically written as **k8s**, is an [open-source software](open-source-software.md) system to automate the deployment, scaling, and management of [containerized](containers.md) applications. Kubernetes includes networking and storage abstractions to make it easy for deployments to be distributed across physical machine boundaries while maintaining the ability to communicate. Kubernetes provides the means to eliminate single points of failure, automatically scale, and to update containers without downtime through built-in services for service discovery, load balancing, automated roll-outs/roll-backs, self healing, and configuration management.
 
 ## How Kubernetes Works
 

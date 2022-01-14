@@ -1,13 +1,13 @@
 ---
 date: 2020-11-15T17:20:11-04:00
 description: "TypeScript: A programming language that adds optional static typing to JavaScript"
-tags: [ "computer-languages", "javascript", "open-source" ]
+tags: [ "computer-languages", "javascript", "open-source-languages" ]
 title: "TypeScript"
 ---
 
 # TypeScript
 
-**TypeScript** is an [open-source](open-source.md) [programming language](computer-languages.md) that builds on [JavaScript](javascript.md) to add static type definitions.
+**TypeScript** is an [open-source programming language](open-source-languages.md) that extends [JavaScript](javascript.md) to add optional static type definitions.
 
 ## TypeScript resources
 

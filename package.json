@@ -48,7 +48,7 @@
 		"eslint-plugin-flowtype": "^8.0.3",
 		"eslint-plugin-prettier": "^4.0.0",
 		"eslint-plugin-react": "^7.28.0",
-		"gatsby-plugin-catch-links": "^4.2.0",
+		"gatsby-plugin-catch-links": "^4.5.0",
 		"gatsby-plugin-feed": "^4.2.0",
 		"gatsby-plugin-google-gtag": "^4.2.0",
 		"gatsby-remark-graph": "^0.2.6",

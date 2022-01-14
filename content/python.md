@@ -1,13 +1,13 @@
 ---
 date: 2021-11-22T12:39:54-04:00
 description: "An object-oriented and functional programing language where whitespace matters"
-tags: [ "computer-languages", "open-source" ]
+tags: [ "computer-languages", "open-source-languages" ]
 title: "Python"
 ---
 
 # Python
 
-**Python** is a general purpose, dynamically typed, object oriented and functional, [open-source](open-source.md) [programming language](computer-languages.md). Python is known as a good first programming language to learn, it's usefulness in [data science](data-science.md), and for the use of indentation to delimit blocks of code.
+**Python** is a general purpose, dynamically typed, object oriented and functional, [open-source software](open-source-software.md) [programming language](computer-languages.md). Python is known as a good first programming language to learn, it's usefulness in [data science](data-science.md), and for the use of indentation to delimit blocks of code.
 
 ## Key Python language features
 
