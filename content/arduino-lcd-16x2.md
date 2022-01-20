@@ -7,7 +7,7 @@ title: "Arduino 16x2 LCD"
 
 # Arduino 16x2 LCD
 
-The [official Arduino Starter Kit](https://store.arduino.cc/usa/arduino-starter-kit) includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show simple text output. Other kits, such as the [Elegoo UNO R3 Super Starter  Kit](https://www.elegoo.com/collections/uno-r3-starter-kits/products/elegoo-uno-project-super-starter-kit), come with compatible versions.
+The official Arduino Starter Kit includes, among other things, a 15x2 Liquid Crystal Display (LCD) that can be used to show simple text output. Other kits, such as the [Elegoo UNO R3 Super Starter  Kit](https://www.elegoo.com/collections/uno-r3-starter-kits/products/elegoo-uno-project-super-starter-kit), come with compatible versions.
 
 ## Wiring the Arduino 16x2 LCD
 
