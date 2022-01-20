@@ -7,7 +7,7 @@ title: "Arduino Uno"
 
 # Arduino Uno
 
-The [**Arduino Uno**](https://store.arduino.cc/usa/arduino-uno-rev3) is the most popular of the [Arduino boards](https://www.arduino.cc/en/Main/Products) available and the easiest to get started with.
+The **Arduino Uno** is the most popular of the [Arduino boards](https://www.arduino.cc/en/Main/Products) available and the easiest to get started with.
 
 ## Capabilities Summary
 
