@@ -7,4 +7,4 @@ title: "HyperText Markup Language (HTML)"
 
 # HyperText Markup Language (HTML)
 
-HyperText Markup Language (HTML) is a [computer-language](computer-languages.md) that describes text-based content. One of the best ways to learn CSS is through the [MDN CSS Learning Arena](https://developer.mozilla.org/en-US/docs/Learn/CSS).
+HyperText Markup Language (HTML) is a [computer-language](computer-languages.md) that describes text-based content.
