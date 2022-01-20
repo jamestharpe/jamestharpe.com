@@ -7,7 +7,7 @@ title: "Tombstone Design Pattern"
 
 # Tombstone design pattern
 
-The **tombstone design pattern** is [software engineering](software-engineering.md) [design pattern](swe-design-patterns.md) for [insert-only database](insert-only-databases.md) deletes. Deletions are implemented by recording each deletion in a deletion table. For immutable updates, see [the snapshot pattern](snapshot-pattern.md).
+The **tombstone design pattern** is [software engineering](software-engineering.md) [design pattern](swe-design-patterns.md) for [insert-only database](insert-only-databases.md) deletes. Deletions are implemented by recording each deletion in a deletion (or "tombstone") table. For immutable updates, see [the snapshot pattern](snapshot-pattern.md).
 
 ## Example tombstone implementation
 
@@ -59,9 +59,8 @@ Retrieving and deleting customers is now a bit trickier, but in exchange for thi
 -- Retrieve customer data via LEFT JOIN:
 SELECT CUSTOMERS.created, CUSTOMERS.firstName, CUSTOMERS.lastName
 FROM CUSTOMERS
-LEFT JOIN CUSTOMER_DELETES ON CUSTOMER_DELETES.id = CUSTOMERS.id
-WHERE CUSTOMERS.id IS NULL
-
+LEFT JOIN CUSTOMER_DELETES on CUSTOMERS.id = CUSTOMER_DELETES.id
+WHERE CUSTOMER_DELETES.id IS NULL
 
 -- "Delete" the customer data
 INSERT INTO CUSTOMER_DELETES
