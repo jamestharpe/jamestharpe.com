@@ -35,7 +35,7 @@ DELETE FROM CUSTOMERS
 WHERE id = 1
 ```
 
-Using the tombstone pattern, we move the customer data to a new, timestamped table:
+Using the tombstone pattern, we move the customer deletion to a new, timestamped table:
 
 ```mermaid
 erDiagram
