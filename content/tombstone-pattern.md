@@ -56,11 +56,11 @@ erDiagram
 Retrieving and deleting customers is now a bit trickier, but in exchange for this added complexity we preserve the original customer data:
 
 ```SQL
--- Retrieve customer data via INNER JOIN:
+-- Retrieve customer data via LEFT JOIN:
 SELECT CUSTOMERS.created, CUSTOMERS.firstName, CUSTOMERS.lastName
 FROM CUSTOMERS
-LEFT JOIN CUSTOMER_DATA ON CUSTOMER_DATA.id = CUSTOMERS.id
-WHERE CUSTOMER_DATA.id IS NULL
+LEFT JOIN CUSTOMER_DELETES ON CUSTOMER_DELETES.id = CUSTOMERS.id
+WHERE CUSTOMERS.id IS NULL
 
 
 -- "Delete" the customer data
