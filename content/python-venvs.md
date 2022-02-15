@@ -58,10 +58,3 @@ These "as global as possible" installations can cause dependency hell when:
 * Projects need to be tested against different library versions
 
 For these reasons, a best practice for Python and `pip` is to _always use a virtual environment_.
-
-## What are virtual environments?
-
-A **virtual environment** is an isolated context for installing Python packages. To prevent dependency hell, a new virtual environment should be created for every project.
-
-A common convention
-...
