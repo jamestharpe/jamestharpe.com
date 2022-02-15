@@ -28,7 +28,7 @@ print(say_hello(5)) # Hello, 5!
 
 However, types can still serve as useful documentation and leveraged by code editors to provide features like auto-completion. There are also external tools like [mypy](mypy.md) that can provide or enforce type validation.
 
-### F-stings
+### F-strings
 
 **F-strings** are how Python provides string interpolation.
 
