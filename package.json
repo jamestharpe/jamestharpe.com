@@ -55,7 +55,7 @@
 		"gatsby-remark-prismjs": "^6.2.0",
 		"husky": "^7.0.2",
 		"markdown-link-check": "^3.9.0",
-		"markdownlint-cli": "^0.30.0",
+		"markdownlint-cli": "^0.31.1",
 		"prettier": "^2.4.1",
 		"prismjs": "^1.25.0",
 		"ts-node": "^10.4.0",
