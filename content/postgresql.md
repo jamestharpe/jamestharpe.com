@@ -1,7 +1,6 @@
 ---
 date: 2021-12-17T13:34:30-04:00
 description: "A popular open-source relational database"
-redirect_from: ["/tools/cloudformation/"]
 tags: ["relational-databases", "open-source-software"]
 title: "PostgreSQL"
 ---
