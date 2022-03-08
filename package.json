@@ -11,8 +11,8 @@
 	"dependencies": {
 		"@mdx-js/mdx": "^1.6.22",
 		"@mdx-js/react": "^1.6.22",
-		"@xstate/react": "^1.6.3",
-		"gatsby": "^4.2.0",
+		"@xstate/react": "^2.0.0",
+		"gatsby": "^4.7.2",
 		"gatsby-image": "^3.11.0",
 		"gatsby-plugin-feed-mdx": "^1.1.0",
 		"gatsby-plugin-lunr": "^1.5.2",
@@ -35,7 +35,7 @@
 		"remark-math": "^3.0.1",
 		"vis-data": "^7.1.1",
 		"vis-network": "^9.1.0",
-		"xstate": "^4.27.0"
+		"xstate": "^4.30.1"
 	},
 	"devDependencies": {
 		"@tmus/gatsby-remark-links-normalizer": "github:tmobile/gatsby-remark-links-normalizer",
@@ -55,7 +55,7 @@
 		"gatsby-remark-prismjs": "^6.2.0",
 		"husky": "^7.0.2",
 		"markdown-link-check": "^3.9.0",
-		"markdownlint-cli": "^0.30.0",
+		"markdownlint-cli": "^0.31.1",
 		"prettier": "^2.4.1",
 		"prismjs": "^1.25.0",
 		"ts-node": "^10.4.0",
