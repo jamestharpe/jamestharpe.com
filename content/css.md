@@ -12,5 +12,5 @@ Cascading Style Sheets (CSS) is a [computer-language](computer-languages.md) tha
 ## CSS Resources
 
 * [CSS: Cascading Style Sheets on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS)
-<!-- TODO: Restore when link fixed * [CSS Official Definition on W3C](https://www.w3.org/TR/CSS/#css) -->
+* [CSS Official Definition on W3C](https://www.w3.org/TR/CSS/#css)
 * [CSS Zen Garden](http://www.csszengarden.com/)
