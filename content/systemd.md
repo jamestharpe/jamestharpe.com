@@ -1,6 +1,6 @@
 ---
 date: 2022-03-08T14:32:13-04:00
-description: ""
+description: "A system and service manager for Linux"
 tags: [ "linux" ]
 title: "systemd"
 ---

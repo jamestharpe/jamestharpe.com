@@ -1,6 +1,7 @@
 ---
 tags: ["azure", "data-warehouses", "data-lakes", "data-lakehouses"]
 title: "Azure Synapse Analytics"
+description: "An integrated set of data services on Microsoft Azure"
 date: 2022-03-16T12:14:29-04:00
 ---
 
