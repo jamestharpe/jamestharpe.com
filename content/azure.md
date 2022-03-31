@@ -1,7 +1,8 @@
 ---
+date: 2020-11-15T19:22:30-04:00
+description: "The hosted cloud platform provided by Microsoft"
 tags: ["cloud-platforms"]
 title: "Microsoft Azure"
-date: 2020-11-15T19:22:30-04:00
 ---
 
 # Microsoft Azure
