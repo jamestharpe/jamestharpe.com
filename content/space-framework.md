@@ -1,7 +1,7 @@
 ---
 date: 2021-04-08T11:26:07-04:00
 description: "SPACE Framework to Measure Developer Productivity: Satisfaction, Performance, Activity, Communication"
-tags: [ "software-engineering", "personal-productivity" ]
+tags: [ "software-engineering", "management", "data-analysis" ]
 title: "SPACE Framework"
 ---
 
