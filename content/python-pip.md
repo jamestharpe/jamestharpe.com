@@ -5,9 +5,9 @@ tags: ["python", "package-managers"]
 title: "Pip: Python's Package Manager"
 ---
 
-# Pip: Python's Package Manager
+# Pip: Python's Default Package Manager
 
-Pip is [Python's](python.md) [package manager](package-managers.md).
+Pip is [Python's](python.md) default [package manager](package-managers.md).
 
 ## The "safe" way to call `pip`
 

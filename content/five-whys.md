@@ -1,7 +1,7 @@
 ---
 date: 2020-11-23T13:33:11-04:00
 description: "A method for root-cause analysis and problem solving"
-tags: [ "lean", "personal-productivity" ]
+tags: [ "lean", "personal-productivity", "management" ]
 title: "Five Whys"
 ---
 
