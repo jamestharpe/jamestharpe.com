@@ -8,7 +8,7 @@ title: "Infrastructure as Code (IaC)"
 
 # Infrastructure as Code (IaC)
 
-Infrastructure as Code (IaC) is a technique often associated with [DevOps](devops.md) to manage infrastructure (networks, virtual machines, managed cloud services) with code. Code is typically versioned like any other source code, and deployed via [CI/CD](ci-cd.md) pipelines.
+**Infrastructure as Code (IaC)** is a technique often associated with [DevOps](devops.md) to manage infrastructure (networks, virtual machines, managed cloud services) with code. Code is typically [versioned](version-control.md) like any other source code, and deployed via [CI/CD](ci-cd.md) pipelines.
 
 Key benefit of an effective IaC practice include:
 
