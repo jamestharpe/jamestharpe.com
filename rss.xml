@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 May 2022 19:15:14 GMT</lastBuildDate><item><title><![CDATA[Data Governance]]></title><description><![CDATA[The people, processes, and standards that define how data is managed within an organization]]></description><link>https://www.jamestharpe.com/data-governance/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-governance/</guid><pubDate>Fri, 01 Apr 2022 15:26:32 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 10 May 2022 19:28:46 GMT</lastBuildDate><item><title><![CDATA[Data Governance]]></title><description><![CDATA[The people, processes, and standards that define how data is managed within an organization]]></description><link>https://www.jamestharpe.com/data-governance/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-governance/</guid><pubDate>Fri, 01 Apr 2022 15:26:32 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -3782,6 +3782,146 @@ return function MDXContent(_ref) {
   }, &quot;Pipenv on GitHub&quot;))));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-11-22T17:00:54.000Z&quot;,
+  &quot;description&quot;: &quot;How to manage virtual environments with Python, Pip, and VEnv&quot;,
+  &quot;tags&quot;: [&quot;python&quot;, &quot;python-pip&quot;],
+  &quot;title&quot;: &quot;Python Virtual Environments&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Virtual environments with Python, Pip, and VEnv&quot;), mdx(&quot;p&quot;, null, &quot;In &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python/&quot;
+  }, &quot;Python&quot;), &quot; development, a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;virtual environment&quot;), &quot; is an isolated context for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python-pip/&quot;
+  }, &quot;installing Python packages&quot;), &quot;. As of Python 3.3, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;venv&quot;), &quot; is included to help manage virtual environments.&quot;), mdx(&quot;h2&quot;, null, &quot;Create and use a virtual environment&quot;), mdx(&quot;p&quot;, null, &quot;To create a virtual environment, it&apos;s usually best to specify the Python version explicitly to ensure the environment is setup with the expected version:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;python3.8 -m venv path/to/environment&quot;))), mdx(&quot;p&quot;, null, &quot;A best practice is to use a virtual environment per project. A common convention to do so is to create the environment in a folder called &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;venv&quot;), &quot; directly in the project folder:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token builtin class-name&quot;
+  }, &quot;cd&quot;), &quot; my-project\npython3.8 -m venv venv&quot;))), mdx(&quot;p&quot;, null, &quot;To use the virtual environment, it needs to be activated:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token builtin class-name&quot;
+  }, &quot;source&quot;), &quot; venv/bin/activate\n&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;which&quot;), &quot; python3 &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token comment&quot;
+  }, &quot;# confirm expected python version&quot;)))), mdx(&quot;p&quot;, null, &quot;Once activated, it&apos;s usually necessary to install the project dependencies which are most often referenced by a &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;requirements.txt&quot;), &quot; file:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;python3 -m pip &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;code&quot;,
+    &quot;className&quot;: &quot;token function&quot;
+  }, &quot;install&quot;), &quot; -r requirements.txt&quot;))), mdx(&quot;p&quot;, null, &quot;Finally, the virtual environment can be deactivated when it&apos;s no longer needed:&quot;), mdx(&quot;div&quot;, {
+    &quot;className&quot;: &quot;gatsby-highlight&quot;,
+    &quot;data-language&quot;: &quot;bash&quot;
+  }, mdx(&quot;pre&quot;, {
+    parentName: &quot;div&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;pre&quot;,
+    &quot;className&quot;: &quot;language-bash&quot;
+  }, &quot;deactivate&quot;))), mdx(&quot;h2&quot;, null, &quot;Why virtual environments are important: Dependency hell&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Dependency hell&quot;), &quot; is the confusion caused when dependency needs conflict between projects, users, and systems.&quot;), mdx(&quot;p&quot;, null, &quot;Unlike most other &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;programming language&quot;), &quot; package managers that install packages in the current working directory, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python-pip/&quot;
+  }, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;)), &quot; by default installs packages as globally as possible. When installing a package, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; will first try to install that package system-wide. If system-wide installation is not permitted, &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; will install the package for the current user.&quot;), mdx(&quot;p&quot;, null, &quot;These \&quot;as global as possible\&quot; installations can cause dependency hell when:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Multiple projects have conflicting dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Project dependencies conflict with system dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Multiple users of the same system need conflicting dependencies&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Projects need to be tested against different versions of Python&quot;), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, &quot;Projects need to be tested against different library versions&quot;)), mdx(&quot;p&quot;, null, &quot;For these reasons, a best practice for Python and &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;pip&quot;), &quot; is to &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;always use a virtual environment&quot;), &quot;.&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Pip: Python's Package Manager]]></title><description><![CDATA[Python's default package manager]]></description><link>https://www.jamestharpe.com/python-pip/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-pip/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -3960,146 +4100,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://pypi.org/&quot;
   }, &quot;Python Package Index&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-11-22T17:00:54.000Z&quot;,
-  &quot;description&quot;: &quot;How to manage virtual environments with Python, Pip, and VEnv&quot;,
-  &quot;tags&quot;: [&quot;python&quot;, &quot;python-pip&quot;],
-  &quot;title&quot;: &quot;Python Virtual Environments&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Virtual environments with Python, Pip, and VEnv&quot;), mdx(&quot;p&quot;, null, &quot;In &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../python/&quot;
-  }, &quot;Python&quot;), &quot; development, a &quot;, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;virtual environment&quot;), &quot; is an isolated context for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../python-pip/&quot;
-  }, &quot;installing Python packages&quot;), &quot;. As of Python 3.3, &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;venv&quot;), &quot; is included to help manage virtual environments.&quot;), mdx(&quot;h2&quot;, null, &quot;Create and use a virtual environment&quot;), mdx(&quot;p&quot;, null, &quot;To create a virtual environment, it&apos;s usually best to specify the Python version explicitly to ensure the environment is setup with the expected version:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, &quot;python3.8 -m venv path/to/environment&quot;))), mdx(&quot;p&quot;, null, &quot;A best practice is to use a virtual environment per project. A common convention to do so is to create the environment in a folder called &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;venv&quot;), &quot; directly in the project folder:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token builtin class-name&quot;
-  }, &quot;cd&quot;), &quot; my-project\npython3.8 -m venv venv&quot;))), mdx(&quot;p&quot;, null, &quot;To use the virtual environment, it needs to be activated:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token builtin class-name&quot;
-  }, &quot;source&quot;), &quot; venv/bin/activate\n&quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;which&quot;), &quot; python3 &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token comment&quot;
-  }, &quot;# confirm expected python version&quot;)))), mdx(&quot;p&quot;, null, &quot;Once activated, it&apos;s usually necessary to install the project dependencies which are most often referenced by a &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;requirements.txt&quot;), &quot; file:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, &quot;python3 -m pip &quot;, mdx(&quot;span&quot;, {
-    parentName: &quot;code&quot;,
-    &quot;className&quot;: &quot;token function&quot;
-  }, &quot;install&quot;), &quot; -r requirements.txt&quot;))), mdx(&quot;p&quot;, null, &quot;Finally, the virtual environment can be deactivated when it&apos;s no longer needed:&quot;), mdx(&quot;div&quot;, {
-    &quot;className&quot;: &quot;gatsby-highlight&quot;,
-    &quot;data-language&quot;: &quot;bash&quot;
-  }, mdx(&quot;pre&quot;, {
-    parentName: &quot;div&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;pre&quot;,
-    &quot;className&quot;: &quot;language-bash&quot;
-  }, &quot;deactivate&quot;))), mdx(&quot;h2&quot;, null, &quot;Why virtual environments are important: Dependency hell&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Dependency hell&quot;), &quot; is the confusion caused when dependency needs conflict between projects, users, and systems.&quot;), mdx(&quot;p&quot;, null, &quot;Unlike most other &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../computer-languages/&quot;
-  }, &quot;programming language&quot;), &quot; package managers that install packages in the current working directory, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../python-pip/&quot;
-  }, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;pip&quot;)), &quot; by default installs packages as globally as possible. When installing a package, &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;pip&quot;), &quot; will first try to install that package system-wide. If system-wide installation is not permitted, &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;pip&quot;), &quot; will install the package for the current user.&quot;), mdx(&quot;p&quot;, null, &quot;These \&quot;as global as possible\&quot; installations can cause dependency hell when:&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Multiple projects have conflicting dependencies&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Project dependencies conflict with system dependencies&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Multiple users of the same system need conflicting dependencies&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Projects need to be tested against different versions of Python&quot;), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, &quot;Projects need to be tested against different library versions&quot;)), mdx(&quot;p&quot;, null, &quot;For these reasons, a best practice for Python and &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;pip&quot;), &quot; is to &quot;, mdx(&quot;em&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;always use a virtual environment&quot;), &quot;.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Python]]></title><description><![CDATA[An object-oriented and functional programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/python/</link><guid isPermaLink="false">https://www.jamestharpe.com/python/</guid><pubDate>Mon, 22 Nov 2021 16:39:54 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -33680,58 +33680,6 @@ return function MDXContent(_ref) {
   }, &quot;vis.js&quot;), &quot; code on GitHub&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
-  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
-  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
-  &quot;title&quot;: &quot;GitLab CI/CD&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../gitlab/&quot;
-  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ci-cd/&quot;
-  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
-  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
-  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
-    parentName: &quot;a&quot;,
-    &quot;className&quot;: &quot;language-text&quot;
-  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -33832,6 +33780,58 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;language-text&quot;
   }, &quot;master&quot;), &quot;).&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-20T15:19:46.000Z&quot;,
+  &quot;description&quot;: &quot;Tips for working in GitLab CI/CD&quot;,
+  &quot;tags&quot;: [&quot;gitlab&quot;, &quot;ci-cd&quot;],
+  &quot;title&quot;: &quot;GitLab CI/CD&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;GitLab CI/CD&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;GitLab CI/CD&quot;), &quot; is the part of &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../gitlab/&quot;
+  }, &quot;GitLab&quot;), &quot; that enables automation for &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ci-cd/&quot;
+  }, &quot;CI/CD&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;GitLab CI/CD Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/&quot;
+  }, &quot;GitLab CI/CD Overview&quot;)), mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://docs.gitlab.com/ee/ci/yaml/README.html&quot;
+  }, &quot;GitLab CI/CD &quot;, mdx(&quot;code&quot;, {
+    parentName: &quot;a&quot;,
+    &quot;className&quot;: &quot;language-text&quot;
+  }, &quot;.gitlab-ci.yml&quot;), &quot; reference&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -38429,37 +38429,6 @@ return function MDXContent(_ref) {
   }, &quot;Live Editor&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Lean]]></title><description><![CDATA[A method for methodically maximizing with progressively fewer resources]]></description><link>https://www.jamestharpe.com/lean/</link><guid isPermaLink="false">https://www.jamestharpe.com/lean/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-23T17:33:11.000Z&quot;,
-  &quot;description&quot;: &quot;A method for methodically maximizing with progressively fewer resources&quot;,
-  &quot;tags&quot;: [],
-  &quot;title&quot;: &quot;Lean&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Five Whys]]></title><description><![CDATA[A method for root-cause analysis and problem solving]]></description><link>https://www.jamestharpe.com/five-whys/</link><guid isPermaLink="false">https://www.jamestharpe.com/five-whys/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -38513,6 +38482,37 @@ return function MDXContent(_ref) {
   }, mdx(&quot;strong&quot;, {
     parentName: &quot;li&quot;
   }, &quot;Why do you need to balance risk and security?&quot;), &quot; Family makes risk too scary without security, but I get bored without risk and start to fail. To feel successful, I need to take risks that pay off but realistically I need security to take those risks.&quot;)));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Lean]]></title><description><![CDATA[A method for methodically maximizing with progressively fewer resources]]></description><link>https://www.jamestharpe.com/lean/</link><guid isPermaLink="false">https://www.jamestharpe.com/lean/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-23T17:33:11.000Z&quot;,
+  &quot;description&quot;: &quot;A method for methodically maximizing with progressively fewer resources&quot;,
+  &quot;tags&quot;: [],
+  &quot;title&quot;: &quot;Lean&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Reinhold Niebuhr Quotes]]></title><description><![CDATA[A theologian and ethicist, notable for originating the serenity prayer (among other things)]]></description><link>https://www.jamestharpe.com/reinhold-niebuhr/</link><guid isPermaLink="false">https://www.jamestharpe.com/reinhold-niebuhr/</guid><pubDate>Mon, 23 Nov 2020 17:25:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -41067,6 +41067,47 @@ return function MDXContent(_ref) {
   }, &quot;Homebrew&quot;), &quot; for Mac.&quot;));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[PowerShell]]></title><description><![CDATA[PowerShell: A command-line shell and scripting language]]></description><link>https://www.jamestharpe.com/powershell/</link><guid isPermaLink="false">https://www.jamestharpe.com/powershell/</guid><pubDate>Sun, 15 Nov 2020 21:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-15T21:20:11.000Z&quot;,
+  &quot;description&quot;: &quot;PowerShell: A command-line shell and scripting language&quot;,
+  &quot;redirect_from&quot;: [&quot;/languages/powershell/&quot;],
+  &quot;tags&quot;: [&quot;computer-languages&quot;, &quot;terminal&quot;, &quot;shell&quot;],
+  &quot;title&quot;: &quot;PowerShell&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;PowerShell&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://github.com/powershell/powershell&quot;
+  }, &quot;PowerShell&quot;), &quot; is a cross-platform command-line &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../shell/&quot;
+  }, &quot;shell&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-languages/&quot;
+  }, &quot;scripting language&quot;), &quot;.&quot;));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[TypeScript]]></title><description><![CDATA[TypeScript: A programming language that adds optional static typing to JavaScript]]></description><link>https://www.jamestharpe.com/typescript/</link><guid isPermaLink="false">https://www.jamestharpe.com/typescript/</guid><pubDate>Sun, 15 Nov 2020 21:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -41109,47 +41150,6 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://www.typescriptlang.org/&quot;
   }, &quot;Official TypeScript website&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[PowerShell]]></title><description><![CDATA[PowerShell: A command-line shell and scripting language]]></description><link>https://www.jamestharpe.com/powershell/</link><guid isPermaLink="false">https://www.jamestharpe.com/powershell/</guid><pubDate>Sun, 15 Nov 2020 21:20:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-15T21:20:11.000Z&quot;,
-  &quot;description&quot;: &quot;PowerShell: A command-line shell and scripting language&quot;,
-  &quot;redirect_from&quot;: [&quot;/languages/powershell/&quot;],
-  &quot;tags&quot;: [&quot;computer-languages&quot;, &quot;terminal&quot;, &quot;shell&quot;],
-  &quot;title&quot;: &quot;PowerShell&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;PowerShell&quot;), mdx(&quot;p&quot;, null, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://github.com/powershell/powershell&quot;
-  }, &quot;PowerShell&quot;), &quot; is a cross-platform command-line &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../shell/&quot;
-  }, &quot;shell&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../computer-languages/&quot;
-  }, &quot;scripting language&quot;), &quot;.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[TypeScript: Extend the Window (globalThis) Object]]></title><description><![CDATA[Add custom properties to the Window interface with TypeScript]]></description><link>https://www.jamestharpe.com/typescript-extend-window/</link><guid isPermaLink="false">https://www.jamestharpe.com/typescript-extend-window/</guid><pubDate>Sun, 15 Nov 2020 18:37:11 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
