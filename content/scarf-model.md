@@ -19,6 +19,8 @@ The **SCARF Model** is a model of common factors that activate a reward response
 
 **Fairness** is the impartiality and lack of favoritism or bias in decision making.
 
+<!-- TODO: Restore when link works
 ## SCARF Model Resources
 
 * [Early Childhood Systems Building Resource Guide: SCARF Model](https://childcareta.acf.hhs.gov/systemsbuilding/systems-guides/leadership/leading-ourselves/scarf-model)
+-->
