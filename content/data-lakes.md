@@ -1,7 +1,7 @@
 ---
 date: 2022-03-16T12:57:35-04:00
 description: "Centralized repositories of raw data from a wide range of sources"
-tags: ["databases", "data-analysis", "data-science", "data-products"]
+tags: [ "data-products" ]
 title: "Data Lakes"
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2021-12-22T06:18:32-04:00
 description: "Data warehouses: Architecture, data flow, and related topics"
-tags: ["databases", "data-analysis", "data-products"]
+tags: [ "databases", "data-products" ]
 title: "Data warehouses"
 ---
 
