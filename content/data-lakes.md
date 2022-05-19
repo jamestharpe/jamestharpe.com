@@ -9,7 +9,7 @@ title: "Data Lakes"
 
 A **data lake** is a type of [data product](data-products.md) that serves as a centralized repository of raw data sourced from a wide range of sources and stored for convenient retrieval for [analysis](data-analysis.md).
 
-Data lakes generally store data "as is" with little or no restructuring during ingestion. This makes data lakes relatively easy and inexpensive to create, especially compared with the highly formalized structures of [data warehouses](data-warehouses.md).
+Data lakes generally store data "as is" - whether [structured](structured-data.md), [semi-structured](semi-structured-data.md), or [unstructured](unstructured-data.md) - with little or no transformation during ingestion. This makes data lakes relatively easy and inexpensive to create, especially compared with the highly formalized structures of [data warehouses](data-warehouses.md).
 
 Data lakes can also be especially useful in [data science](data-science.md) because they can store data not traditionally kept in [databases](databases.md), such as audio and video files that may contain important data to train machine learning models alongside more "traditional", tabular data.
 
