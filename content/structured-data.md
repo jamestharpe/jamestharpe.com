@@ -9,4 +9,4 @@ title: "Structured Data"
 
 **Structured data** are [data](data.md) that strictly adhere to a schema to define the fields, types, and relationships that make up the entities that make up the data.
 
-Structured data most often refers to [relational data](relational-databases.md) stored in a tabular format, though this is not always the case.
+Structured data most often refers to [relational data](relational-databases.md) stored in a tabular format, though this is not always the case
