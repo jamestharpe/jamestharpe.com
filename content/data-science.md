@@ -1,7 +1,7 @@
 ---
 date: 2021-11-16T13:25:25-04:00
 description: "The scientific method applied to data analysis"
-tags: [ "data-analysis", "statistics", "science", "data-teams" ]
+tags: [ "data", "business-intelligence", "statistics", "science", "data-teams" ]
 title: "Data Science"
 ---
 

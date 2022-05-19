@@ -1,7 +1,7 @@
 ---
 date: 2021-11-16T13:19:25-04:00
 description: "Engineering approaches to data management"
-tags: [ "data-analysis", "software-engineering", "information-technology", "data-teams" ]
+tags: [ "business-intelligence", "software-engineering", "information-technology", "data-teams" ]
 title: "Data Engineering"
 ---
 
