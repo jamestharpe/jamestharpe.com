@@ -7,6 +7,6 @@ title: "Data Products"
 
 # Data products
 
-A **data product** is an application that consumes data produced by a [data pipeline](data-pipelines.md) to help with [data-analysis](data-analysis.md), improve decision making, or [make predictions](data-science.md).
+A **data product** is a [data-driven software application](data-engineering.md) that consumes data produced by a [data pipeline](data-pipelines.md) to help with [data-analysis](data-analysis.md), improve decision making, or [make predictions](data-science.md).
 
 Data products include much more than [charts and graphs](data-visualizations.md). For example, a social media feed generated based on user behavior to increase overall engagement is considered a data product because it attempts to predict which content will maximize engagement.
