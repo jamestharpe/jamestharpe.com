@@ -80,6 +80,20 @@ Year	| Brand 	| TotalUnitsSold
 */
 ```
 
+## Types of fact tables
+
+### Transaction Fact Tables
+
+**Transaction fact tables** contain the lowest level of detail available and are the most common type of fact table. Each row in a transaction fact table captures a single event (e.g., a click on a web page) and link to all available dimensions for that event.
+
+### Periodic snapshot fact tables
+
+**Periodic snapshot fact tables**, or simply **snapshot fact tables**, summarize measurements for a given time period (e.g. hourly, daily, etc.). Snapshot fact tables contain pre-aggregated measures that can be derived from transaction fact tables. Examples of periodic snapshot fact tables include hourly snapshots of clicks on a webpage, daily sales, and monthly account balances.
+
+### Accumulating snapshot fact tables
+
+**Accumulating snapshot fact tables** capture key milestones in a given [business process](business-operations.md) to simplify [analysis](data-analysis.md) of time between each step of the process. For example, an accumulating snapshot fact table for the checkout process of an e-commerce website might store one row for every user and mark the key steps (when the cart was reviewed, when shipment information was provided, when payment was provided, etc.).
+
 <!-- 
 ## Types of dimensions
 
