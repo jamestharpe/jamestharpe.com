@@ -1,7 +1,7 @@
 ---
 date: 2020-12-24T08:37:30-04:00
 description: "An essay and a book on software engineering based on experience with Linux kernel development"
-tags: [ "software-engineering" ]
+tags: [ "software-engineering", "books" ]
 title: "The Cathedral and the Bazaar"
 ---
 
