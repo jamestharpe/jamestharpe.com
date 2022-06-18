@@ -1,163 +1,185 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-import { useMachine } from "@xstate/react";
-import React from "react";
-import { assign, createMachine } from "xstate";
-
-const formatAsPercent = (n = 0) =>
-	new Intl.NumberFormat("default", {
-		style: "percent",
-		minimumFractionDigits: 0,
-		maximumFractionDigits: 2
-	}).format(n);
-
-interface BfpContext {
-	leanMass?: number;
-	fatMass?: number;
-	totalMass?: number;
-	bodyFatPercentage?: number;
-	leanMassPercentage?: number;
-}
-
-const defaultBfpContext: BfpContext = {};
-
-interface BfpEvent {
-	type: "SET_FAT_MASS" | "SET_TOTAL_MASS";
-	input: string;
-}
-
-function createBfpCalculator(initialContext?: Partial<BfpContext>) {
-	const context: BfpContext = {
-		...defaultBfpContext,
-		...initialContext
-	};
-	return createMachine<BfpContext, BfpEvent>(
-		{
-			id: "Body Fat Percentage Calculator",
-			initial: "inputs",
-			context,
-			states: {
-				inputs: {
-					type: "parallel",
-					states: {
-						"fat-mass": {
-							initial: "needed",
-							states: {
-								needed: {
-									always: [{ target: "set", cond: "hasFatMass" }]
-								},
-								set: {
-									entry: "calculate",
-									type: "final"
-								}
-							}
-						},
-						"total-mass": {
-							initial: "needed",
-							states: {
-								needed: {
-									always: [{ target: "set", cond: "hasTotalMass" }]
-								},
-								set: {
-									entry: "calculate",
-									type: "final"
-								}
-							}
-						}
-					},
-					onDone: {
-						target: "calculated"
-					}
-				},
-				calculated: {}
-			},
-			on: {
-				SET_FAT_MASS: {
-					actions: "assignFatMass",
-					target: ".inputs.fat-mass.needed"
-				},
-				SET_TOTAL_MASS: {
-					actions: "assignTotalMass",
-					target: ".inputs.total-mass.needed"
-				}
-			}
-		},
-		{
-			guards: {
-				hasFatMass: (context) => !!context.fatMass,
-				hasTotalMass: (context) => !!context.totalMass
-			},
-			actions: {
-				calculate: assign((context) => {
-					console.log("Calculating", context);
-					const { fatMass, totalMass } = context;
-					const leanMass = fatMass && totalMass && totalMass - fatMass;
-					const bodyFatPercentage = fatMass && totalMass && fatMass / totalMass;
-					const leanMassPercentage = leanMass && totalMass && leanMass / totalMass;
-
-					return {
-						fatMass,
-						totalMass,
-						leanMass,
-						bodyFatPercentage,
-						leanMassPercentage
-					};
-				}),
-				assignFatMass: assign((_context, { input }) => {
-					return {
-						fatMass: parseFloat(input) || context.fatMass
-					};
-				}),
-				assignTotalMass: assign((_context, { input }) => {
-					return { totalMass: parseFloat(input) || context.totalMass };
-				})
-			}
-		}
-	);
-}
-
-const bfpMachine = createBfpCalculator({});
+import React, { useState } from "react";
+import { distanceOf } from "../../physics/distance";
+import DistanceInput from "../physics/distance-input";
 
 const BfpCalculator = () => {
-	const [state, send] = useMachine(bfpMachine);
+	const [sex, setSex] = useState("male");
+
+	const defaults = {
+		abCircumference: distanceOf(35).in,
+		neckCircumference: distanceOf(16).in,
+		height: distanceOf(72).in,
+		waistCircumference: distanceOf(30).in,
+		hipCircumference: distanceOf(31).in
+	};
+
+	const [abCircumference, setAbCircumference] = useState(
+		defaults.abCircumference
+	);
+
+	const [neckCircumference, setNeckCircumference] = useState(
+		defaults.neckCircumference
+	);
+
+	const [height, setHeight] = useState(defaults.height);
+
+	const [waistCircumference, setWaistCircumference] = useState(
+		defaults.waistCircumference
+	);
+
+	const [hipCircumference, setHipCircumference] = useState(
+		defaults.hipCircumference
+	);
+
 	return (
-		<div>
-			<h3>Fat mass:</h3>
-			<input
-				type="text"
-				style={{ width: "50%" }}
-				value={state.context.fatMass || ""}
-				onChange={(e) => send({ type: "SET_FAT_MASS", input: e.target.value })}
-			/>
-			<h3>Total mass:</h3>
-			<input
-				type="text"
-				style={{ width: "50%" }}
-				value={state.context.totalMass || ""}
-				onChange={(e) => send({ type: "SET_TOTAL_MASS", input: e.target.value })}
-			/>
-			{state.matches("calculated") && (
+		<div style={{ border: "solid", width: "100%", padding: "2em" }}>
+			<div>
+				<label htmlFor="sex">Biological sex:</label>&nbsp;
 				<div>
-					<h3>Results:</h3>
-					<table>
-						<tbody>
-							<tr>
-								<td>Body fat percentage:</td>
-								<td>{formatAsPercent(state.context.bodyFatPercentage || 0)}</td>
-							</tr>
-							<tr>
-								<td>Lean mass:</td>
-								<td>{state.context.leanMass || 0}</td>
-							</tr>
-							<tr>
-								<td>Lean mass percentage:</td>
-								<td>{formatAsPercent(state.context.leanMassPercentage || 0)}</td>
-							</tr>
-						</tbody>
-					</table>
+					<select
+						name="dropdown"
+						id="sex"
+						value={sex}
+						onChange={(e) => setSex(e.target.value)}
+					>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+					</select>
+				</div>
+			</div>
+			{sex === "male" && (
+				<div>
+					<label>Abdomen circumference:</label>&nbsp;
+					<DistanceInput
+						distance={defaults.abCircumference.value}
+						unit={defaults.abCircumference.unit.symbol}
+						onChange={setAbCircumference}
+					/>
 				</div>
 			)}
+			<div>
+				<label>Neck circumference:</label>&nbsp;
+				<DistanceInput
+					distance={defaults.neckCircumference.value}
+					unit={defaults.neckCircumference.unit.symbol}
+					onChange={setNeckCircumference}
+				/>
+			</div>
+			{sex === "female" && (
+				<div>
+					<label>Waist circumference:</label>&nbsp;
+					<DistanceInput
+						distance={defaults.waistCircumference.value}
+						unit={defaults.waistCircumference.unit.symbol}
+						onChange={setWaistCircumference}
+					/>
+				</div>
+			)}
+			{sex === "female" && (
+				<div>
+					<label>Hip circumference:</label>&nbsp;
+					<DistanceInput
+						distance={defaults.hipCircumference.value}
+						unit={defaults.hipCircumference.unit.symbol}
+						onChange={setHipCircumference}
+					/>
+				</div>
+			)}
+			<div>
+				<label>Height:</label>
+				<DistanceInput
+					distance={defaults.height.value}
+					unit={defaults.height.unit.symbol}
+					onChange={setHeight}
+				/>
+			</div>
+			<h3>Output</h3>
+			<table>
+				<tr>
+					<td>Sex</td>
+					<td>{sex}</td>
+				</tr>
+				{sex === "male" && (
+					<tr>
+						<td>Abdomen circumference</td>
+						<td>
+							{abCircumference.value} {abCircumference.unit.symbol} (
+							{abCircumference.inCentimeters().value.toFixed(2)}{" "}
+							{abCircumference.inCentimeters().unit.symbol})
+						</td>
+					</tr>
+				)}
+				<tr>
+					<td>Neck circumference</td>
+					<td>
+						{neckCircumference.value} {neckCircumference.unit.symbol} (
+						{neckCircumference.inCentimeters().value.toFixed(2)}{" "}
+						{neckCircumference.inCentimeters().unit.symbol})
+					</td>
+				</tr>
+				{sex === "female" && (
+					<tr>
+						<td>Waist circumference</td>
+						<td>
+							{waistCircumference.value} {waistCircumference.unit.symbol} (
+							{waistCircumference.inCentimeters().value.toFixed(2)}{" "}
+							{waistCircumference.inCentimeters().unit.symbol})
+						</td>
+					</tr>
+				)}
+				{sex === "female" && (
+					<tr>
+						<td>Hip circumference</td>
+						<td>
+							{hipCircumference.value} {hipCircumference.unit.symbol} (
+							{hipCircumference.inCentimeters().value.toFixed(2)}{" "}
+							{hipCircumference.inCentimeters().unit.symbol})
+						</td>
+					</tr>
+				)}
+				<tr>
+					<td>Height</td>
+					<td>
+						{height.value} {height.unit.symbol} (
+						{height.inCentimeters().value.toFixed(2)}{" "}
+						{height.inCentimeters().unit.symbol})
+					</td>
+				</tr>
+				<tr>
+					<td>Body fat percentage</td>
+					<td>
+						{sex === "male" && (
+							<span>
+								{(
+									86.01 *
+										Math.log10(
+											abCircumference.inCentimeters().value -
+												neckCircumference.inCentimeters().value
+										) -
+									70.041 * Math.log10(height.inCentimeters().value) +
+									36.76
+								).toFixed(2)}
+								%
+							</span>
+						)}
+						{sex === "female" && (
+							<span>
+								{(
+									163.205 *
+										Math.log10(
+											waistCircumference.inCentimeters().value +
+												hipCircumference.inCentimeters().value -
+												neckCircumference.inCentimeters().value
+										) -
+									97.684 * Math.log10(height.inCentimeters().value) -
+									104.912
+								).toFixed(2)}
+								%
+							</span>
+						)}
+					</td>
+				</tr>
+			</table>
 		</div>
 	);
 };

@@ -1,108 +1,54 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-unsafe-call */
-/* eslint-disable @typescript-eslint/no-unsafe-member-access */
-import { useMachine } from "@xstate/react";
 import pluralize from "pluralize";
-import React from "react";
-import { assign, createMachine } from "xstate";
-import { MassUnit, UnitOfMass } from "../../physics/mass";
-
-interface MassContext {
-	mass?: number;
-	massUnit: UnitOfMass;
-}
-
-const defaultMassContext: MassContext = {
-	massUnit: "pound"
-};
-
-type AssignMassEvent = {
-	type: "ASSIGN_MASS";
-	value?: number;
-};
-
-type AssignMassUnitEvent = {
-	type: "ASSIGN_MASS_UNIT";
-	value: UnitOfMass;
-};
-
-type MassInputEvent = AssignMassEvent | AssignMassUnitEvent;
-
-function createMassInput(initialContext?: Partial<MassContext>) {
-	const context: MassContext = {
-		...defaultMassContext,
-		...initialContext
-	};
-	return createMachine<MassContext, MassInputEvent>(
-		{
-			id: "mass-input",
-			initial: "not-set",
-			context,
-			states: {
-				set: {
-					always: [{ target: "not-set", cond: "massIsNotSet" }]
-				},
-				"not-set": {
-					always: [{ target: "set", cond: "massIsSet" }]
-				}
-			},
-			on: {
-				ASSIGN_MASS: {
-					actions: "assignMass"
-				},
-				ASSIGN_MASS_UNIT: {
-					actions: "assignMassUnit"
-				}
-			}
-		},
-		{
-			guards: {
-				massIsNotSet: (context) => !context.mass,
-				massIsSet: (context) => !!context.mass
-			},
-			actions: {
-				assignMass: assign((_context, { value }) => ({
-					mass: value as number
-				})),
-				assignMassUnit: assign((_context, { value }) => ({
-					massUnit: ((value as string) || context.mass) as UnitOfMass
-				}))
-			}
-		}
-	);
-}
-
-const massMachine = createMassInput({});
+import React, { useState } from "react";
+import {
+	kilogram,
+	MassMeasurement,
+	massOf,
+	MassUnit,
+	MassUnitSymbol,
+	pound
+} from "../../physics/mass";
 
 type MassInputProps = {
-	label: string;
+	mass?: number;
+	unit?: MassUnitSymbol;
+	onChange: (mass: MassMeasurement) => void;
 };
 
-const MassInput: React.FC<MassInputProps> = ({ label }) => {
-	const [state, send] = useMachine(massMachine);
+const massUnits: Array<MassUnit> = [pound, kilogram];
+
+const MassInput: React.FC<MassInputProps> = ({
+	mass: massValue,
+	unit,
+	onChange
+}) => {
+	const [mass, setMass] = useState(massOf(massValue || 0)[unit || "kg"]);
+
+	const doSetMass = (m: MassMeasurement) => {
+		setMass(m);
+		onChange(m);
+	};
+
 	return (
 		<div>
-			<h3>{label}</h3>
 			<input
 				type="text"
-				style={{ width: "50%" }}
-				value={state.context.mass || ""}
+				value={mass.value || "0"}
 				onChange={(e) =>
-					send({ type: "ASSIGN_MASS", value: parseFloat(e.target.value) })
+					doSetMass(massOf(parseFloat(e.target.value))[mass.unit.symbol])
 				}
 			/>
 			<select
 				name="dropdown"
 				id="dropdown"
-				value={state.context.massUnit}
+				value={mass.unit.symbol}
 				onChange={(e) =>
-					send({ type: "ASSIGN_MASS_UNIT", value: e.target.value as UnitOfMass })
+					doSetMass(massOf(mass.value)[e.target.value as MassUnitSymbol])
 				}
 			>
-				{Object.keys(MassUnit).map((unit) => (
-					<option value={unit} key={unit}>
-						{pluralize(MassUnit[unit as UnitOfMass].name)}(
-						{MassUnit[unit as UnitOfMass].symbol})
+				{massUnits.map((unit) => (
+					<option value={unit.symbol} key={unit.symbol}>
+						{pluralize(unit.name)} ({unit.symbol})
 					</option>
 				))}
 			</select>

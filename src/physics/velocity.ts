@@ -1,44 +1,46 @@
-import Distance from "./distance";
-import Measurement, { Metric, Unit } from "./measures";
-import Time, { seconds } from "./time";
+import { DistanceUnit } from "./distance";
+import { Unit } from "./measures";
+import { TimeUnit } from "./time";
 
-export type VelocityUnits = { distance: Distance; time: Time };
+export type VelocityUnits = { distance: DistanceUnit; time: TimeUnit };
 
-export const metersPerSecond: Unit = {
+export const metersPerSecond: Unit<"meters per second", "m/s"> = {
 	name: "meters per second",
 	symbol: "m/s"
 };
 
-export default class Velocity implements Metric {
-	public static symbol = "V";
+export type MetersPerSecond = typeof metersPerSecond;
 
-	constructor({ distance, time }: VelocityUnits) {
-		this.value = new Measurement(
-			distance.meters.quantity / time.seconds.quantity,
-			metersPerSecond
-		);
-	}
+// export default class Velocity implements Metric<MetersPerSecond> {
+// 	public static symbol = "V";
 
-	static inMetersPerSecond(meters: number) {
-		return new Velocity({
-			distance: Distance.inMeters(meters),
-			time: Time.inSeconds(1)
-		});
-	}
+// 	constructor({ distance, time }: VelocityUnits) {
+// 		this.value = new Measurement(
+// 			distance.meters.quantity / time.seconds.quantity,
+// 			metersPerSecond
+// 		);
+// 	}
 
-	readonly value: Measurement;
+// 	static inMetersPerSecond(meters: number) {
+// 		return new Velocity({
+// 			distance: Distance.inMeters(meters),
+// 			time: Time.inSeconds(1)
+// 		});
+// 	}
 
-	get metersPerSecond(): Measurement {
-		return this.value;
-	}
+// 	readonly value: Measurement;
 
-	time(distance: Distance): Time {
-		return seconds(distance.meters.quantity / this.metersPerSecond.quantity);
-	}
+// 	get metersPerSecond(): Measurement {
+// 		return this.value;
+// 	}
 
-	distance(time: Time): Distance {
-		return Distance.inMeters(
-			this.metersPerSecond.quantity * time.seconds.quantity
-		);
-	}
-}
+// 	time(distance: Distance): Time {
+// 		return seconds(distance.meters.quantity / this.metersPerSecond.quantity);
+// 	}
+
+// 	distance(time: Time): Distance {
+// 		return Distance.inMeters(
+// 			this.metersPerSecond.quantity * time.seconds.quantity
+// 		);
+// 	}
+// }
