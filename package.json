@@ -36,7 +36,7 @@
 		"remark-math": "^3.0.1",
 		"vis-data": "^7.1.1",
 		"vis-network": "^9.1.0",
-		"xstate": "^4.30.6"
+		"xstate": "^4.32.1"
 	},
 	"devDependencies": {
 		"@tmus/gatsby-remark-links-normalizer": "github:tmobile/gatsby-remark-links-normalizer",
