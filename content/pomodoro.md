@@ -26,7 +26,7 @@ Here's how it works:
 4. Take a break for 5 minutes
 5. Go back to step one
 
-After four cycles (about two hours), take a longer break of about 15 to 30 minutes.
+After four cycles (about two hours), take a longer break of 15 to 30 minutes.
 
 ```mermaid
 graph TD

@@ -34,8 +34,8 @@
 		"react-helmet": "^6.1.0",
 		"remark-html-katex": "^3.0.0",
 		"remark-math": "^3.0.1",
-		"vis-data": "^7.1.1",
-		"vis-network": "^9.1.0",
+		"vis-data": "^7.1.4",
+		"vis-network": "^9.1.2",
 		"xstate": "^4.32.1"
 	},
 	"devDependencies": {
