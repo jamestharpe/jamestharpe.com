@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import { distanceOf } from "../../physics/distance";
 import DistanceInput from "../physics/distance-input";
 
-const BfpCalculator = () => {
+type BfpCalculatorProps = {
+	style?: React.CSSProperties;
+};
+
+const BfpCalculator: React.FC<BfpCalculatorProps> = ({ style }) => {
 	const [sex, setSex] = useState("male");
 
 	const defaults = {
@@ -32,7 +36,7 @@ const BfpCalculator = () => {
 	);
 
 	return (
-		<div style={{ border: "solid", width: "100%", padding: "2em" }}>
+		<div style={style}>
 			<div>
 				<label htmlFor="sex">Biological sex:</label>&nbsp;
 				<div>
@@ -104,7 +108,9 @@ const BfpCalculator = () => {
 						<td>Abdomen circumference</td>
 						<td>
 							{abCircumference.value} {abCircumference.unit.symbol} (
-							{abCircumference.inCentimeters().value.toFixed(2)}{" "}
+							{abCircumference
+								.inCentimeters()
+								.value.toLocaleString(undefined, { maximumFractionDigits: 2 })}{" "}
 							{abCircumference.inCentimeters().unit.symbol})
 						</td>
 					</tr>
@@ -113,7 +119,9 @@ const BfpCalculator = () => {
 					<td>Neck circumference</td>
 					<td>
 						{neckCircumference.value} {neckCircumference.unit.symbol} (
-						{neckCircumference.inCentimeters().value.toFixed(2)}{" "}
+						{neckCircumference
+							.inCentimeters()
+							.value.toLocaleString(undefined, { maximumFractionDigits: 2 })}{" "}
 						{neckCircumference.inCentimeters().unit.symbol})
 					</td>
 				</tr>
@@ -122,7 +130,9 @@ const BfpCalculator = () => {
 						<td>Waist circumference</td>
 						<td>
 							{waistCircumference.value} {waistCircumference.unit.symbol} (
-							{waistCircumference.inCentimeters().value.toFixed(2)}{" "}
+							{waistCircumference
+								.inCentimeters()
+								.value.toLocaleString(undefined, { maximumFractionDigits: 2 })}{" "}
 							{waistCircumference.inCentimeters().unit.symbol})
 						</td>
 					</tr>
@@ -132,7 +142,9 @@ const BfpCalculator = () => {
 						<td>Hip circumference</td>
 						<td>
 							{hipCircumference.value} {hipCircumference.unit.symbol} (
-							{hipCircumference.inCentimeters().value.toFixed(2)}{" "}
+							{hipCircumference
+								.inCentimeters()
+								.value.toLocaleString(undefined, { maximumFractionDigits: 2 })}{" "}
 							{hipCircumference.inCentimeters().unit.symbol})
 						</td>
 					</tr>
@@ -141,12 +153,14 @@ const BfpCalculator = () => {
 					<td>Height</td>
 					<td>
 						{height.value} {height.unit.symbol} (
-						{height.inCentimeters().value.toFixed(2)}{" "}
+						{height
+							.inCentimeters()
+							.value.toLocaleString(undefined, { maximumFractionDigits: 2 })}{" "}
 						{height.inCentimeters().unit.symbol})
 					</td>
 				</tr>
 				<tr>
-					<td>Body fat percentage</td>
+					<td>Body fat percentage (BFP)</td>
 					<td>
 						{sex === "male" && (
 							<span>
@@ -158,7 +172,7 @@ const BfpCalculator = () => {
 										) -
 									70.041 * Math.log10(height.inCentimeters().value) +
 									36.76
-								).toFixed(2)}
+								).toLocaleString(undefined, { maximumFractionDigits: 2 })}
 								%
 							</span>
 						)}
@@ -173,7 +187,7 @@ const BfpCalculator = () => {
 										) -
 									97.684 * Math.log10(height.inCentimeters().value) -
 									104.912
-								).toFixed(2)}
+								).toLocaleString(undefined, { maximumFractionDigits: 2 })}
 								%
 							</span>
 						)}

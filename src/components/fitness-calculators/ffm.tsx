@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import { massOf } from "../../physics/mass";
 import MassInput from "../physics/mass-input";
 
-const FfmCalculator = () => {
-	const [bfp, setBfp] = useState(23.12);
-	const [weight, setWeight] = useState(massOf(185).lbs);
+type FfmCalculatorProps = {
+	style?: React.CSSProperties;
+};
+
+const FfmCalculator: React.FC<FfmCalculatorProps> = ({ style }) => {
+	const [bfp, setBfp] = useState(25.0);
+	const [weight, setWeight] = useState(massOf(150).lbs);
 
 	return (
-		<div style={{ border: "solid", width: "100%", padding: "2em" }}>
+		<div style={style}>
 			<div>
 				<label>Weight:</label>&nbsp;
 				<MassInput
@@ -17,10 +21,12 @@ const FfmCalculator = () => {
 				/>
 			</div>
 			<div>
-				<label>BFP:</label>&nbsp;
+				<label>Body Fat Percentage:</label>&nbsp;
 				<div>
 					<input
-						type="text"
+						type="number"
+						min="0"
+						max="100"
 						value={bfp}
 						onChange={(e) => setBfp(parseFloat(e.target.value))}
 					/>
@@ -33,8 +39,10 @@ const FfmCalculator = () => {
 					<td>Weight</td>
 					<td>
 						{weight.value} {weight.unit.symbol} (
-						{weight.inKilograms().value.toFixed(2)} {weight.inKilograms().unit.symbol}
-						)
+						{weight
+							.inKilograms()
+							.value.toLocaleString(undefined, { maximumFractionDigits: 2 })}{" "}
+						{weight.inKilograms().unit.symbol})
 					</td>
 				</tr>
 				<tr>
@@ -44,13 +52,18 @@ const FfmCalculator = () => {
 				<tr>
 					<td>Fat mass</td>
 					<td>
-						{(weight.value * (bfp / 100)).toFixed(2)} {weight.unit.symbol}
+						{(weight.value * (bfp / 100)).toLocaleString(undefined, {
+							maximumFractionDigits: 2
+						})}{" "}
+						{weight.unit.symbol}
 					</td>
 				</tr>
 				<tr>
-					<td>Fat free mass</td>
+					<td>Fat free mass (FFM)</td>
 					<td>
-						{(weight.value - weight.value * (bfp / 100)).toFixed(2)}{" "}
+						{(weight.value - weight.value * (bfp / 100)).toLocaleString(undefined, {
+							maximumFractionDigits: 2
+						})}{" "}
 						{weight.unit.symbol}
 					</td>
 				</tr>

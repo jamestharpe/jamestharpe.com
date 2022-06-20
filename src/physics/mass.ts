@@ -1,12 +1,7 @@
 import { kilo, Measurement, Unit, unKilo } from "./measures";
 
-export const GRAMS_PER = {
-	POUND: 453.59237
-};
-
-export const POUNDS_PER = {
-	GRAM: 0.00220462
-};
+export const GRAMS_PER_POUND = 453.59237;
+export const POUNDS_PER_GRAM = 0.00220462;
 
 export const gram: Unit<"gram", "g"> = {
 	name: "gram",
@@ -42,7 +37,7 @@ export interface MassMeasurement extends Measurement<MassUnit> {
 }
 
 export function poundsToGrams(pounds: number): number {
-	return pounds * GRAMS_PER.POUND;
+	return pounds * GRAMS_PER_POUND;
 }
 
 export function poundsToKilograms(pounds: number): number {
@@ -50,7 +45,7 @@ export function poundsToKilograms(pounds: number): number {
 }
 
 export function gramsToPounds(grams: number): number {
-	return grams * POUNDS_PER.GRAM;
+	return grams * POUNDS_PER_GRAM;
 }
 
 export function kilogramsToPounds(kilograms: number): number {
@@ -77,7 +72,7 @@ export function massOf(value: number): Record<MassUnitSymbol, MassMeasurement> {
 		lbs: {
 			value,
 			unit: pound,
-			inGrams: () => massOf(value * POUNDS_PER.GRAM).g,
+			inGrams: () => massOf(value * POUNDS_PER_GRAM).g,
 			inKilograms: () => massOf(poundsToKilograms(value)).kg,
 			inPounds: () => massOf(value).lbs
 		}
