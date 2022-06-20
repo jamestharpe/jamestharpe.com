@@ -103,7 +103,7 @@ MET can be estimated based on exercise intensity. Use the following table to est
 The general wisdom to build and maintain lean mass is to eat roughly one gram of protein per pound of bodyweight or 1.6 grams of protein per pound of lean mass, depending on who you listen to. Assuming an appropriate amount of protein is being consumed:
 
 * Eating fewer calories per day than are expended should reduce body fat faster than it reduces muscle mass
-* Eating the same number of calories per day that are expended should simultaneously cause fat loss and muscle gain proportional to the intensity of exercise
+* Eating the same number of calories per day that are expended should simultaneously cause fat loss and muscle gain proportional to the intensity and duration of exercise
 * Eating more calories per day than are expended should increase muscle mass faster than body fat
 
 The "ideal" makeup of other macro nutrients in your diet are determined by a mix of genetics and personal preferences. Whether they should come primarily from carbohydrates, fats, or are roughly balanced between the two is beyond the scope of this article. However, general advice for diet is to get your nutrients from whole, minimally processed and unprocessed foods, using supplements as a "last resort" and as a safety net to get nutrients.

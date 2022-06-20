@@ -8,32 +8,13 @@ type BfpCalculatorProps = {
 
 const BfpCalculator: React.FC<BfpCalculatorProps> = ({ style }) => {
 	const [sex, setSex] = useState("male");
-
-	const defaults = {
-		abCircumference: distanceOf(35).in,
-		neckCircumference: distanceOf(16).in,
-		height: distanceOf(72).in,
-		waistCircumference: distanceOf(30).in,
-		hipCircumference: distanceOf(31).in
-	};
-
-	const [abCircumference, setAbCircumference] = useState(
-		defaults.abCircumference
-	);
-
-	const [neckCircumference, setNeckCircumference] = useState(
-		defaults.neckCircumference
-	);
-
-	const [height, setHeight] = useState(defaults.height);
-
+	const [abCircumference, setAbCircumference] = useState(distanceOf(35).in);
+	const [neckCircumference, setNeckCircumference] = useState(distanceOf(16).in);
+	const [height, setHeight] = useState(distanceOf(72).in);
 	const [waistCircumference, setWaistCircumference] = useState(
-		defaults.waistCircumference
+		distanceOf(30).in
 	);
-
-	const [hipCircumference, setHipCircumference] = useState(
-		defaults.hipCircumference
-	);
+	const [hipCircumference, setHipCircumference] = useState(distanceOf(31).in);
 
 	return (
 		<div style={style}>
@@ -55,8 +36,8 @@ const BfpCalculator: React.FC<BfpCalculatorProps> = ({ style }) => {
 				<div>
 					<label>Abdomen circumference:</label>&nbsp;
 					<DistanceInput
-						distance={defaults.abCircumference.value}
-						unit={defaults.abCircumference.unit.symbol}
+						distance={abCircumference.value}
+						unit={abCircumference.unit.symbol}
 						onChange={setAbCircumference}
 					/>
 				</div>
@@ -64,8 +45,8 @@ const BfpCalculator: React.FC<BfpCalculatorProps> = ({ style }) => {
 			<div>
 				<label>Neck circumference:</label>&nbsp;
 				<DistanceInput
-					distance={defaults.neckCircumference.value}
-					unit={defaults.neckCircumference.unit.symbol}
+					distance={neckCircumference.value}
+					unit={neckCircumference.unit.symbol}
 					onChange={setNeckCircumference}
 				/>
 			</div>
@@ -73,8 +54,8 @@ const BfpCalculator: React.FC<BfpCalculatorProps> = ({ style }) => {
 				<div>
 					<label>Waist circumference:</label>&nbsp;
 					<DistanceInput
-						distance={defaults.waistCircumference.value}
-						unit={defaults.waistCircumference.unit.symbol}
+						distance={waistCircumference.value}
+						unit={waistCircumference.unit.symbol}
 						onChange={setWaistCircumference}
 					/>
 				</div>
@@ -83,8 +64,8 @@ const BfpCalculator: React.FC<BfpCalculatorProps> = ({ style }) => {
 				<div>
 					<label>Hip circumference:</label>&nbsp;
 					<DistanceInput
-						distance={defaults.hipCircumference.value}
-						unit={defaults.hipCircumference.unit.symbol}
+						distance={hipCircumference.value}
+						unit={hipCircumference.unit.symbol}
 						onChange={setHipCircumference}
 					/>
 				</div>
@@ -92,8 +73,8 @@ const BfpCalculator: React.FC<BfpCalculatorProps> = ({ style }) => {
 			<div>
 				<label>Height:</label>
 				<DistanceInput
-					distance={defaults.height.value}
-					unit={defaults.height.unit.symbol}
+					distance={height.value}
+					unit={height.unit.symbol}
 					onChange={setHeight}
 				/>
 			</div>
