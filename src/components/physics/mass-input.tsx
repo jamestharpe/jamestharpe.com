@@ -12,6 +12,8 @@ import {
 type MassInputProps = {
 	mass?: number;
 	unit?: MassUnitSymbol;
+	min?: number;
+	max?: number;
 	onChange: (mass: MassMeasurement) => void;
 };
 
@@ -20,6 +22,8 @@ const massUnits: Array<MassUnit> = [pound, kilogram];
 const MassInput: React.FC<MassInputProps> = ({
 	mass: massValue,
 	unit,
+	min,
+	max,
 	onChange
 }) => {
 	const [mass, setMass] = useState(massOf(massValue || 0)[unit || "kg"]);
@@ -32,7 +36,9 @@ const MassInput: React.FC<MassInputProps> = ({
 	return (
 		<div>
 			<input
-				type="text"
+				type="number"
+				min={min}
+				max={max}
 				value={mass.value || "0"}
 				onChange={(e) =>
 					doSetMass(massOf(parseFloat(e.target.value))[mass.unit.symbol])

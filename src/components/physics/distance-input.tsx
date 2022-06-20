@@ -35,7 +35,7 @@ const DistanceInput: React.FC<DistanceInputProps> = ({
 	return (
 		<div>
 			<input
-				type="text"
+				type="number"
 				value={distance.value || "0"}
 				onChange={(e) =>
 					doSetDistance(distanceOf(parseFloat(e.target.value))[distance.unit.symbol])
