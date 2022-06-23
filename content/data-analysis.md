@@ -1,7 +1,7 @@
 ---
 date: 2021-11-16T13:35:25-04:00
 description: "The transformation of data to information"
-tags: [ "business-intelligence", "statistics", "data-teams" ]
+tags: [ "business-intelligence", "statistics" ]
 title: "Data Analysis"
 ---
 

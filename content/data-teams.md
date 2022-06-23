@@ -1,7 +1,7 @@
 ---
 date: 2021-11-21T11:14:25-04:00
 description: "The make up and measures of effective data teams"
-tags: ["information-technology", "data", "business-intelligence"]
+tags: ["information-technology", "data", "business-intelligence", "data-science", "data-engineering", "data-analysis"]
 title: "Data Teams"
 ---
 
