@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 20 Jun 2022 19:54:58 GMT</lastBuildDate><item><title><![CDATA[Fitness Calculations]]></title><description><![CDATA[Calculators for assessing and improving physical fitness]]></description><link>https://www.jamestharpe.com/fitness-calculations/</link><guid isPermaLink="false">https://www.jamestharpe.com/fitness-calculations/</guid><pubDate>Mon, 20 Jun 2022 12:53:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Jun 2022 15:15:32 GMT</lastBuildDate><item><title><![CDATA[Fitness Calculations]]></title><description><![CDATA[Calculators for assessing and improving physical fitness]]></description><link>https://www.jamestharpe.com/fitness-calculations/</link><guid isPermaLink="false">https://www.jamestharpe.com/fitness-calculations/</guid><pubDate>Mon, 20 Jun 2022 12:53:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -9697,7 +9697,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-21T15:14:25.000Z&quot;,
   &quot;description&quot;: &quot;The make up and measures of effective data teams&quot;,
-  &quot;tags&quot;: [&quot;information-technology&quot;, &quot;data&quot;, &quot;business-intelligence&quot;],
+  &quot;tags&quot;: [&quot;information-technology&quot;, &quot;data&quot;, &quot;business-intelligence&quot;, &quot;data-science&quot;, &quot;data-engineering&quot;, &quot;data-analysis&quot;],
   &quot;title&quot;: &quot;Data Teams&quot;
 };
 var layoutProps = {
@@ -10269,7 +10269,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-16T17:35:25.000Z&quot;,
   &quot;description&quot;: &quot;The transformation of data to information&quot;,
-  &quot;tags&quot;: [&quot;business-intelligence&quot;, &quot;statistics&quot;, &quot;data-teams&quot;],
+  &quot;tags&quot;: [&quot;business-intelligence&quot;, &quot;statistics&quot;],
   &quot;title&quot;: &quot;Data Analysis&quot;
 };
 var layoutProps = {
@@ -10329,7 +10329,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-16T17:25:25.000Z&quot;,
   &quot;description&quot;: &quot;The scientific method applied to data analysis&quot;,
-  &quot;tags&quot;: [&quot;data&quot;, &quot;business-intelligence&quot;, &quot;statistics&quot;, &quot;science&quot;, &quot;data-teams&quot;],
+  &quot;tags&quot;: [&quot;data&quot;, &quot;business-intelligence&quot;, &quot;computer-science&quot;, &quot;statistics&quot;, &quot;data-analysis&quot;],
   &quot;title&quot;: &quot;Data Science&quot;
 };
 var layoutProps = {
@@ -10348,13 +10348,22 @@ return function MDXContent(_ref) {
   }, &quot;Data science&quot;), &quot; is the application of &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../statistics/&quot;
-  }, &quot;statistics&quot;), &quot; and the &quot;, mdx(&quot;a&quot;, {
+  }, &quot;statistics&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../computer-science/&quot;
+  }, &quot;computer science&quot;), &quot;, and the &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../science/&quot;
   }, &quot;scientific method&quot;), &quot; to the practice of &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data-analysis/&quot;
-  }, &quot;data analysis&quot;), &quot;, with an emphasis on making accurate predictions.&quot;), mdx(&quot;p&quot;, null, &quot;Data science practices may overlap significantly with &quot;, mdx(&quot;a&quot;, {
+  }, &quot;data analysis&quot;), &quot; to convert &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../data/&quot;
+  }, &quot;data&quot;), &quot; into &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../information/&quot;
+  }, &quot;information&quot;), &quot;, with an emphasis on making accurate predictions.&quot;), mdx(&quot;p&quot;, null, &quot;Data science practices may overlap significantly with &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../business-intelligence/&quot;
   }, &quot;business intelligence&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
@@ -10369,7 +10378,16 @@ return function MDXContent(_ref) {
   }, &quot;machine learning&quot;), &quot; and statistical methods to &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data/&quot;
-  }, &quot;data&quot;), &quot;.&quot;));
+  }, &quot;data&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Data science skills&quot;), mdx(&quot;p&quot;, null, &quot;Broadly speaking, a data scienctist has at least foundational knowledge of science, data analysis, and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../software-engineering/&quot;
+  }, &quot;programming&quot;), &quot;. Depending on the individual, the skill set may be significantly weighted more toward one or two of these skills rather than evenly balanced among all three.&quot;), mdx(&quot;p&quot;, null, &quot;Programming languages such as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../sql/&quot;
+  }, &quot;SQL&quot;), &quot; and &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../python/&quot;
+  }, &quot;Python&quot;), &quot; are used to work collect, clean, and transform data to create descriptive statistics and visualizations that help understand and communicate the data and its overall quality. Statistical models are built to support statistical inference, hypothesis testing, and predictions/projections. Machine learning can be used to automate decision making and predictions.&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Data Engineering]]></title><description><![CDATA[Engineering approaches to data management]]></description><link>https://www.jamestharpe.com/data-engineering/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-engineering/</guid><pubDate>Tue, 16 Nov 2021 17:19:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -10386,7 +10404,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-16T17:19:25.000Z&quot;,
   &quot;description&quot;: &quot;Engineering approaches to data management&quot;,
-  &quot;tags&quot;: [&quot;business-intelligence&quot;, &quot;software-engineering&quot;, &quot;information-technology&quot;, &quot;data-teams&quot;],
+  &quot;tags&quot;: [&quot;business-intelligence&quot;, &quot;software-engineering&quot;, &quot;information-technology&quot;],
   &quot;title&quot;: &quot;Data Engineering&quot;
 };
 var layoutProps = {
@@ -12177,37 +12195,6 @@ return function MDXContent(_ref) {
   }, &quot;&gt;&quot;))))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
-  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
-  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
-  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -12356,6 +12343,37 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;
   }, &quot;Global objects: Set&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
+  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
+  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
+  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash: Royalty-free Photos]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -38972,7 +38990,7 @@ return function MDXContent(_ref) {
   }, &quot;Machine Learning (ML)&quot;), &quot; is the &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data-science/&quot;
-  }, &quot;science&quot;), &quot; of developing and applying algorithms that improve their output through experience; in other words, algorithms that can \&quot;learn\&quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Machine Learning Terminology&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+  }, &quot;science&quot;), &quot; of developing and applying algorithms that improve their output through experience by detecting patterns, making decisions, and predicting outcomes; in other words, algorithms that can \&quot;learn\&quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Machine Learning Terminology&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
     parentName: &quot;table&quot;
   }, mdx(&quot;tr&quot;, {
     parentName: &quot;thead&quot;
@@ -39625,23 +39643,13 @@ return function MDXContent(_ref) {
   }), mdx(&quot;span&quot;, {
     parentName: &quot;span&quot;,
     &quot;className&quot;: &quot;mord mathnormal&quot;
-  }, &quot;c&quot;))))), &quot;)&quot;)), mdx(&quot;p&quot;, null, &quot;All data points less than the lower-bound or greater than the upper-bound can be considered outliers.&quot;), mdx(&quot;h4&quot;, null, &quot;Imputation Options&quot;), mdx(&quot;p&quot;, null, &quot;The basic options for imputation are to do nothing, remove records with missing/corrupt values, or replace the missing/corrupt values (usually with the mean or mode value), or some combination of these options. It&apos;s generally best to test each option and compare the outcomes to determine the best approach.&quot;), mdx(&quot;h3&quot;, null, &quot;3. Model the Data&quot;), mdx(&quot;p&quot;, null, &quot;I&apos;m still learning! This section will be updated as I learn. If you have a good resource to suggestion, please &quot;, mdx(&quot;a&quot;, {
+  }, &quot;c&quot;))))), &quot;)&quot;)), mdx(&quot;p&quot;, null, &quot;All data points less than the lower-bound or greater than the upper-bound can be considered outliers.&quot;), mdx(&quot;h4&quot;, null, &quot;Imputation Options&quot;), mdx(&quot;p&quot;, null, &quot;The basic options for imputation are to do nothing, remove records with missing/corrupt values, or replace the missing/corrupt values (usually with the mean or mode value), or some combination of these options. It&apos;s generally best to test each option and compare the outcomes to determine the best approach.&quot;), mdx(&quot;h3&quot;, null, &quot;3. Model the Data&quot;), mdx(&quot;p&quot;, null, &quot;I&apos;m still learning! This section will be updated as I learn. If you have a good resource to suggest, please &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://github.com/jamestharpe/jamestharpe.com/issues/new&quot;
-  }, &quot;tell me about it&quot;), &quot;.&quot;), mdx(&quot;h3&quot;, null, &quot;4. Use the Model&quot;), mdx(&quot;p&quot;, null, &quot;I&apos;m still learning! This section will be updated as I learn. If you have a good resource to suggestion, please &quot;, mdx(&quot;a&quot;, {
+  }, &quot;tell me about it&quot;), &quot;.&quot;), mdx(&quot;h3&quot;, null, &quot;4. Use the Model&quot;), mdx(&quot;p&quot;, null, &quot;I&apos;m still learning! This section will be updated as I learn. If you have a good resource to suggest, please &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://github.com/jamestharpe/jamestharpe.com/issues/new&quot;
-  }, &quot;tell me about it&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Tools for Machine Learning&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://azure.microsoft.com/en-us/services/machine-learning/&quot;
-  }, &quot;Azure Machine Learning&quot;)), mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://pandas.pydata.org/&quot;
-  }, &quot;Pandas&quot;))), mdx(&quot;h2&quot;, null, &quot;Machine learning resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+  }, &quot;tell me about it&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Machine learning resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
   }, mdx(&quot;a&quot;, {
     parentName: &quot;li&quot;,
@@ -43274,48 +43282,6 @@ return function MDXContent(_ref) {
   }, &quot;CloudFormation templates from Cloudonaut&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
-  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
-  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
-  &quot;title&quot;: &quot;Git Bash&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../bash/&quot;
-  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
-  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
-  }, &quot;Git Bash Shortcuts for Windows&quot;))));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -43888,6 +43854,48 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases&quot;
   }, &quot;Git Basics - Git Aliases&quot;), &quot; chapter of Pro Git to learn more about Git aliases.&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-11-16T00:04:30.000Z&quot;,
+  &quot;description&quot;: &quot;A Bash emulator and terminal for Windows&quot;,
+  &quot;tags&quot;: [&quot;bash&quot;, &quot;git&quot;, &quot;shell&quot;, &quot;terminal&quot;],
+  &quot;title&quot;: &quot;Git Bash&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Git Bash&quot;), mdx(&quot;p&quot;, null, &quot;Git Bash is a &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../bash/&quot;
+  }, &quot;Bash&quot;), &quot; emulator and terminal for Windows that includes common Unix utilities. It is packaged with &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;https://git-scm.com/download/win&quot;
+  }, &quot;Git for Windows&quot;), &quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://gist.github.com/tuxfight3r/60051ac67c5f0445efee&quot;
+  }, &quot;Git Bash Shortcuts for Windows&quot;))));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
