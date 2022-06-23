@@ -7,7 +7,7 @@ title: "Machine Learning (ML)"
 
 # Machine Learning (ML)
 
-**Machine Learning (ML)** is the [science](data-science.md) of developing and applying algorithms that improve their output through experience; in other words, algorithms that can "learn".
+**Machine Learning (ML)** is the [science](data-science.md) of developing and applying algorithms that improve their output through experience by detecting patterns, making decisions, and predicting outcomes; in other words, algorithms that can "learn".
 
 ## Machine Learning Terminology
 
@@ -87,16 +87,11 @@ The basic options for imputation are to do nothing, remove records with missing/
 
 ### 3. Model the Data
 
-I'm still learning! This section will be updated as I learn. If you have a good resource to suggestion, please [tell me about it](https://github.com/jamestharpe/jamestharpe.com/issues/new).
+I'm still learning! This section will be updated as I learn. If you have a good resource to suggest, please [tell me about it](https://github.com/jamestharpe/jamestharpe.com/issues/new).
 
 ### 4. Use the Model
 
-I'm still learning! This section will be updated as I learn. If you have a good resource to suggestion, please [tell me about it](https://github.com/jamestharpe/jamestharpe.com/issues/new).
-
-## Tools for Machine Learning
-
-* [Azure Machine Learning](https://azure.microsoft.com/en-us/services/machine-learning/)
-* [Pandas](https://pandas.pydata.org/)
+I'm still learning! This section will be updated as I learn. If you have a good resource to suggest, please [tell me about it](https://github.com/jamestharpe/jamestharpe.com/issues/new).
 
 ## Machine learning resources
 
