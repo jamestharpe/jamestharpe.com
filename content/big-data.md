@@ -1,7 +1,7 @@
 ---
 date: 2021-11-21T18:00:25-04:00
 description: "Challenges related to data variety, velocity, and volume"
-tags: [ "data-analysis", "data-engineering", "distributed-systems" ]
+tags: [ "business-intelligence", "data-engineering", "distributed-systems" ]
 title: "Big Data"
 ---
 
