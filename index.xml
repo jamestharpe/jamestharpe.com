@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Jun 2022 16:58:52 GMT</lastBuildDate><item><title><![CDATA[Data Wrangling]]></title><description><![CDATA[Transforming "raw" data into a more easily analyzed form through normalization and format standardization]]></description><link>https://www.jamestharpe.com/data-wrangling/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-wrangling/</guid><pubDate>Thu, 23 Jun 2022 16:44:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Jun 2022 17:03:21 GMT</lastBuildDate><item><title><![CDATA[Data Wrangling]]></title><description><![CDATA[Transforming "raw" data into a more easily analyzed form through normalization and format standardization]]></description><link>https://www.jamestharpe.com/data-wrangling/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-wrangling/</guid><pubDate>Thu, 23 Jun 2022 16:44:25 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -4685,6 +4685,60 @@ return function MDXContent(_ref) {
   }, &quot;Code also serves as documentation&quot;)));
 }
 ;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[A method to encode binary data as ASCII for transport over text-based protocols]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-12-26T10:28:27.000Z&quot;,
+  &quot;description&quot;: &quot;A method to encode binary data as ASCII for transport over text-based protocols&quot;,
+  &quot;tags&quot;: [&quot;ascii&quot;, &quot;binary&quot;],
+  &quot;title&quot;: &quot;Base64&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../binary/&quot;
+  }, &quot;binary&quot;), &quot; data as &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../ascii/&quot;
+  }, &quot;ASCII&quot;), &quot; text so that the data can be transported using text-based protocols, such as HTTP.&quot;), mdx(&quot;div&quot;, {
+    style: {
+      &quot;float&quot;: &quot;right&quot;,
+      border: &quot;solid&quot;,
+      width: &quot;40%&quot;,
+      padding: &quot;2em&quot;
+    }
+  }, mdx(&quot;h2&quot;, null, &quot;Base64 Encoder / Decoder&quot;), mdx(Coder, {
+    type: &quot;base64&quot;,
+    mdxType: &quot;Coder&quot;
+  })), mdx(&quot;h2&quot;, null, &quot;Base64url Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
+    parentName: &quot;ul&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;li&quot;,
+    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc4648&quot;
+  }, &quot;The Base16, Base32, and Base64 Data Encodings&quot;))));
+}
+;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -4742,60 +4796,6 @@ return function MDXContent(_ref) {
     }
   }, mdx(&quot;h2&quot;, null, &quot;Base64 Encoder / Decoder&quot;), mdx(Coder, {
     type: &quot;base64url&quot;,
-    mdxType: &quot;Coder&quot;
-  })), mdx(&quot;h2&quot;, null, &quot;Base64url Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://datatracker.ietf.org/doc/html/rfc4648&quot;
-  }, &quot;The Base16, Base32, and Base64 Data Encodings&quot;))));
-}
-;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[A method to encode binary data as ASCII for transport over text-based protocols]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-12-26T10:28:27.000Z&quot;,
-  &quot;description&quot;: &quot;A method to encode binary data as ASCII for transport over text-based protocols&quot;,
-  &quot;tags&quot;: [&quot;ascii&quot;, &quot;binary&quot;],
-  &quot;title&quot;: &quot;Base64&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Base64&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
-    parentName: &quot;p&quot;
-  }, &quot;Base64&quot;), &quot; is a set of methods to encode &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../binary/&quot;
-  }, &quot;binary&quot;), &quot; data as &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;../ascii/&quot;
-  }, &quot;ASCII&quot;), &quot; text so that the data can be transported using text-based protocols, such as HTTP.&quot;), mdx(&quot;div&quot;, {
-    style: {
-      &quot;float&quot;: &quot;right&quot;,
-      border: &quot;solid&quot;,
-      width: &quot;40%&quot;,
-      padding: &quot;2em&quot;
-    }
-  }, mdx(&quot;h2&quot;, null, &quot;Base64 Encoder / Decoder&quot;), mdx(Coder, {
-    type: &quot;base64&quot;,
     mdxType: &quot;Coder&quot;
   })), mdx(&quot;h2&quot;, null, &quot;Base64url Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
     parentName: &quot;ul&quot;
