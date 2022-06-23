@@ -9,6 +9,6 @@ title: "Epistemology"
 
 **Epistemology** is the study of knowledge; it can be loosely defined as "how we know we know what we know."
 
-## Epistemology Resources
+<!-- TODO: Restore when link is fixed ## Epistemology Resources
 
-* [Epistemology on the Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/epistemology/)
+* [Epistemology on the Stanford Encyclopedia of Philosophy](https://plato.stanford.edu/entries/epistemology/) -->
