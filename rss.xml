@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Jun 2022 17:16:47 GMT</lastBuildDate><item><title><![CDATA[Data Science]]></title><description><![CDATA[The scientific method applied to data analysis]]></description><link>https://www.jamestharpe.com/data-science/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-science/</guid><pubDate>Thu, 23 Jun 2022 17:11:58 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Jun 2022 17:37:17 GMT</lastBuildDate><item><title><![CDATA[Data Science]]></title><description><![CDATA[The scientific method applied to data analysis]]></description><link>https://www.jamestharpe.com/data-science/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-science/</guid><pubDate>Thu, 23 Jun 2022 17:11:58 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -9918,7 +9918,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 var _frontmatter = {
   &quot;date&quot;: &quot;2021-11-21T22:00:25.000Z&quot;,
   &quot;description&quot;: &quot;Challenges related to data variety, velocity, and volume&quot;,
-  &quot;tags&quot;: [&quot;data-analysis&quot;, &quot;data-engineering&quot;, &quot;distributed-systems&quot;],
+  &quot;tags&quot;: [&quot;business-intelligence&quot;, &quot;data-engineering&quot;, &quot;distributed-systems&quot;],
   &quot;title&quot;: &quot;Big Data&quot;
 };
 var layoutProps = {
@@ -10008,12 +10008,7 @@ return function MDXContent(_ref) {
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Epistemology&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;Epistemology&quot;), &quot; is the study of knowledge; it can be loosely defined as \&quot;how we know we know what we know.\&quot;&quot;), mdx(&quot;h2&quot;, null, &quot;Epistemology Resources&quot;), mdx(&quot;ul&quot;, null, mdx(&quot;li&quot;, {
-    parentName: &quot;ul&quot;
-  }, mdx(&quot;a&quot;, {
-    parentName: &quot;li&quot;,
-    &quot;href&quot;: &quot;https://plato.stanford.edu/entries/epistemology/&quot;
-  }, &quot;Epistemology on the Stanford Encyclopedia of Philosophy&quot;))));
+  }, &quot;Epistemology&quot;), &quot; is the study of knowledge; it can be loosely defined as \&quot;how we know we know what we know.\&quot;&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Research]]></title><description><![CDATA[The systematic process of gathering data to establish facts]]></description><link>https://www.jamestharpe.com/research/</link><guid isPermaLink="false">https://www.jamestharpe.com/research/</guid><pubDate>Sun, 21 Nov 2021 18:28:45 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -13141,40 +13136,19 @@ return function MDXContent(_ref) {
   }, &quot;Kent Beck&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://twitter.com/mikebeedle&quot;
-  }, &quot;Mike Beedle&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://twitter.com/arievanbennekum&quot;
-  }, &quot;Arie van Bennekum&quot;), &quot;, Alistair Cockburn, &quot;, mdx(&quot;a&quot;, {
+  }, &quot;Mike Beedle&quot;), &quot;, Arie van Bennekum, Alistair Cockburn, &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;http://c2.com/&quot;
   }, &quot;Ward Cunningham&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://www.martinfowler.com/&quot;
-  }, &quot;Martin Fowler&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://twitter.com/jwgrenning&quot;
-  }, &quot;James Grenning&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://twitter.com/jimhighsmith&quot;
-  }, &quot;Jim Highsmith&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+  }, &quot;Martin Fowler&quot;), &quot;, James Grenning, Jim Highsmith, &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://toolshed.com/&quot;
-  }, &quot;Andrew Hunt&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://twitter.com/RonJeffries&quot;
-  }, &quot;Ron Jeffries&quot;), &quot;, Jon Kern, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://twitter.com/marick&quot;
-  }, &quot;Brian Marick&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+  }, &quot;Andrew Hunt&quot;), &quot;, Ron Jeffries, Jon Kern, Brian Marick, &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;http://cleancoder.com/&quot;
-  }, &quot;Robert C. Martin&quot;), &quot;, Steve Mellor, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://twitter.com/kschwaber&quot;
-  }, &quot;Ken Schwaber&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
-    parentName: &quot;p&quot;,
-    &quot;href&quot;: &quot;https://twitter.com/jeffsutherland&quot;
-  }, &quot;Jeff Sutherland&quot;), &quot;, &quot;, mdx(&quot;a&quot;, {
+  }, &quot;Robert C. Martin&quot;), &quot;, Steve Mellor, Ken Schwaber, Jeff Sutherland, &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;https://pragdave.me/&quot;
   }, &quot;Dave Thomas&quot;)), mdx(&quot;p&quot;, {
@@ -38434,37 +38408,6 @@ return function MDXContent(_ref) {
   }, &quot;Open-source definition&quot;))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2020-12-08T12:49:30.000Z&quot;,
-  &quot;description&quot;: &quot;Useful open source software projects&quot;,
-  &quot;tags&quot;: [&quot;open-source&quot;],
-  &quot;title&quot;: &quot;Open-Source Hardware&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;Open-source hardware&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -38494,6 +38437,37 @@ return function MDXContent(_ref) {
     components: components,
     mdxType: &quot;MDXLayout&quot;
   }), mdx(&quot;h1&quot;, null, &quot;Open-source programming languages&quot;));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2020-12-08T12:49:30.000Z&quot;,
+  &quot;description&quot;: &quot;Useful open source software projects&quot;,
+  &quot;tags&quot;: [&quot;open-source&quot;],
+  &quot;title&quot;: &quot;Open-Source Hardware&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;Open-source hardware&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -39619,7 +39593,7 @@ return function MDXContent(_ref) {
   }, &quot;Machine Learning (ML)&quot;), &quot; is the &quot;, mdx(&quot;a&quot;, {
     parentName: &quot;p&quot;,
     &quot;href&quot;: &quot;../data-science/&quot;
-  }, &quot;science&quot;), &quot; of developing and applying algorithms that improve their output through experience by detecting patterns, making decisions, and predicting outcomes; in other words, algorithms that can \&quot;learn\&quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Machine Learning Terminology&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+  }, &quot;science&quot;), &quot; of developing and applying algorithms that improve their output through experience by detecting patterns, making decisions, and predicting outcomes without being explicitly programmed to do so; in other words, algorithms that can \&quot;learn\&quot;.&quot;), mdx(&quot;h2&quot;, null, &quot;Machine Learning Terminology&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
     parentName: &quot;table&quot;
   }, mdx(&quot;tr&quot;, {
     parentName: &quot;thead&quot;
