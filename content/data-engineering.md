@@ -5,7 +5,7 @@ tags: [ "business-intelligence", "software-engineering", "information-technology
 title: "Data Engineering"
 ---
 
-# Data Engineering
+# Data engineering
 
 **Data engineering** is the specialized application of [software-engineering](software-engineering.md) practices to collect, transform, and store data for [analysis](data-analysis.md) and [predictive modeling](data-science.md).
 

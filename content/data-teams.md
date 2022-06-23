@@ -5,7 +5,7 @@ tags: ["information-technology", "data", "business-intelligence", "data-science"
 title: "Data Teams"
 ---
 
-# Data Teams
+# Data teams
 
 **Data teams** are teams, or teams of teams, that combine [data engineering](data-engineering.md), [data science](data-science.md), [data analysis](data-analysis.md), [business intelligence](business-intelligence.md), and other [data](data.md)-related disciplines to improve decision making. Teams may form around a discipline to provide a shared service, or may form cross-functionally to serve a specific product or service end-to-end.
 
