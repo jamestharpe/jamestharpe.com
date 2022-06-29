@@ -60,3 +60,15 @@ Waves form as wind pushes on the surface of the water. As waves travel and encou
 ### Surge
 
 Waves mostly affect divers near the surface, such as during shore dives or when getting on or off a boat, or in shallow water when they cause surge. **Surge** is the back-and-forth motion of water caused by waves overhead. If a surge is strong, divers are involuntarily moved by the motion of the water and have little control over the direction in which they move. To avoid the danger of being thrown against rock or coral formations during intense surge, it's best to move to deeper water where surge is less severe.
+
+## Diving with aquatic life
+
+As long as they are out of arms reach, underwater animals tend to ignore humans; unlike on land where most animals will flee or avoid human presence. This ability to get close when diving means divers must take special care not to disturb or disrupt wildlife. A diver should therefore be aware of where their body and equipment are in proximity to their surroundings at all time to avoid disturbing the underwater environment. This means not stirring up sediment and taking care not to let equipment make contact with the environment; even a slight touch can harm some of the delicate creatures that live underwater.
+
+### Injuries from aquatic life
+
+ Staying mindful and avoiding unintentional contact with surroundings also helps avoid injury to the diver from cuts, snags, and dangerous wildlife. Some aquatic animals, such as jellyfish or fire coral, have **nematocysts**, which are cells that produce toxins that, when touched, can cause symptoms ranging from a mild sting to intense pain, anaphylactic shock, or paralysis. In addition to avoiding direct contact with surroundings, divers can wear full length exposure protection.
+
+Some animals, like scorpion-fish and lion-fish, have poisonous spines that can cause serious injury or even death. These animals do not attack divers; however, due to their camouflage, they are easy to make contact with accidentally.
+
+Despite being one of the greatest fears while diving, attacks from sharks, eels, and barracudas are one of the _least likely_ causes of injury. Even then, "attacks" are not territorial or aggressive; they are usually either defensive or due to mistaken identity. To avoid attacks, divers should not feed, corner, grab, or act aggressively toward any animal. This includes not putting hands blindly into holes or around corners. Jewelry and loose clothing should also be avoided because they can easily be mistaken for a flailing fish.
