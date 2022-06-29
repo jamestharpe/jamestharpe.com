@@ -7,7 +7,7 @@ title: "Machine Learning (ML)"
 
 # Machine Learning (ML)
 
-**Machine Learning (ML)** is the [science](data-science.md) of developing and applying algorithms that improve their output through experience by detecting patterns, making decisions, and predicting outcomes; in other words, algorithms that can "learn".
+**Machine Learning (ML)** is the [science](data-science.md) of developing and applying algorithms that improve their output through experience by detecting patterns, making decisions, and predicting outcomes without being explicitly programmed to do so; in other words, algorithms that can "learn".
 
 ## Machine Learning Terminology
 
