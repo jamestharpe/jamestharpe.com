@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Jul 2022 14:17:51 GMT</lastBuildDate><item><title><![CDATA[Archimedes Principle]]></title><description><![CDATA[Theories of knowledge]]></description><link>https://www.jamestharpe.com/archimedes-principle/</link><guid isPermaLink="false">https://www.jamestharpe.com/archimedes-principle/</guid><pubDate>Thu, 21 Jul 2022 14:11:02 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 05 Jul 2022 18:07:19 GMT</lastBuildDate><item><title><![CDATA[Archimedes Principle]]></title><description><![CDATA[Theories of knowledge]]></description><link>https://www.jamestharpe.com/archimedes-principle/</link><guid isPermaLink="false">https://www.jamestharpe.com/archimedes-principle/</guid><pubDate>Thu, 21 Jul 2022 14:11:02 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -3795,7 +3795,2422 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;
   }, &quot;nematocysts&quot;), &quot;, which are cells that produce toxins that, when touched, can cause symptoms ranging from a mild sting to intense pain, anaphylactic shock, or paralysis. In addition to avoiding direct contact with surroundings, divers can wear full length exposure protection.&quot;), mdx(&quot;p&quot;, null, &quot;Some animals, like scorpion-fish and lion-fish, have poisonous spines that can cause serious injury or even death. These animals do not attack divers; however, due to their camouflage, they are easy to make contact with accidentally.&quot;), mdx(&quot;p&quot;, null, &quot;Despite being one of the greatest fears while diving, attacks from sharks, eels, and barracudas are one of the &quot;, mdx(&quot;em&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;least likely&quot;), &quot; causes of injury. Even then, \&quot;attacks\&quot; are not territorial or aggressive; they are usually either defensive or due to mistaken identity. To avoid attacks, divers should not feed, corner, grab, or act aggressively toward any animal. This includes not putting hands blindly into holes or around corners. Jewelry and loose clothing should also be avoided because they can easily be mistaken for a flailing fish.&quot;), mdx(&quot;h2&quot;, null, &quot;Buoyancy and diving&quot;), mdx(&quot;p&quot;, null, &quot;**&quot;));
+  }, &quot;least likely&quot;), &quot; causes of injury. Even then, \&quot;attacks\&quot; are not territorial or aggressive; they are usually either defensive or due to mistaken identity. To avoid attacks, divers should not feed, corner, grab, or act aggressively toward any animal. This includes not putting hands blindly into holes or around corners. Jewelry and loose clothing should also be avoided because they can easily be mistaken for a flailing fish.&quot;), mdx(&quot;h2&quot;, null, &quot;Physical forces at play when scuba diving&quot;), mdx(&quot;h3&quot;, null, &quot;Buoyancy&quot;), mdx(&quot;p&quot;, null, &quot;In scuba diving, &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, mdx(&quot;a&quot;, {
+    parentName: &quot;strong&quot;,
+    &quot;href&quot;: &quot;../archimedes-principle/&quot;
+  }, &quot;buoyancy&quot;)), &quot; is the upward force that water exerts on a diver. Objects that displace a greater weight of water than the object weighs will float, such as a boat, and are said to have &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;positive buoyancy&quot;), &quot;. Objects that displace a lesser weight of water than the object weighs will sink, such as a rock, and are said to have &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;negative buoyancy&quot;), &quot;. An object that displaces water equal to the weight of the object itself will not float or sink, and thus has &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;neutral buoyancy&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Divers adjust their buoyancy using a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;buoyancy control device (BCD)&quot;), &quot; to control the depth of their dive while in the water. For example, a diver will maintain positive buoyancy to rest on the surface, while a negative buoyancy is used descend. The majority of time during a successful dive is spent at a neutral buoyancy, which allows the diver to \&quot;hover\&quot; and swim easily through the water.&quot;), mdx(&quot;p&quot;, null, &quot;Notably, salt water weighs more than fresh water and thus divers will find that they are more buoyant in salt water. Divers therefore require more weight when diving in salt water than in fresh water.&quot;), mdx(&quot;h3&quot;, null, &quot;Pressure&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Pressure&quot;), &quot; refers to the physical force an object exerts on something it is in contact with. For a scuba diver, pressure usually refers to the weight of the water they are submerged in. &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Ambient pressure&quot;), &quot; is the pressure of the surrounding medium or, again for divers, the surrounding water.&quot;), mdx(&quot;p&quot;, null, &quot;A &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;c&quot;), mdx(&quot;msup&quot;, {
+    parentName: &quot;mrow&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;m&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;2&quot;))), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1cm^2&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;c&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;msupsub&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-t&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-r&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;style&quot;: {
+      &quot;top&quot;: &quot;-3.063em&quot;,
+      &quot;marginRight&quot;: &quot;0.05em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;pstrut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;2.7em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mtight&quot;
+  }, &quot;2&quot;)))))))))))), &quot; vertical column of air that is the height of the atmosphere at sea level will weight roughly &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;g&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;k&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1gk&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8888799999999999em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.03588em&quot;
+    }
+  }, &quot;g&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.03148em&quot;
+    }
+  }, &quot;k&quot;))))), &quot;; this is referred to as 1 &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;bar&quot;), &quot; or 1 &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;atmosphere (asm)&quot;), &quot;. A similar column of air at &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;i&quot;), mdx(&quot;msup&quot;, {
+    parentName: &quot;mrow&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;n&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;2&quot;))), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1in^2&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;i&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;n&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;msupsub&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-t&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-r&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;style&quot;: {
+      &quot;top&quot;: &quot;-3.063em&quot;,
+      &quot;marginRight&quot;: &quot;0.05em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;pstrut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;2.7em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mtight&quot;
+  }, &quot;2&quot;)))))))))))), &quot; weighs just under &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;15&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;l&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;15lbs&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;5&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.01968em&quot;
+    }
+  }, &quot;l&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;))))), &quot;.&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;Scientifically speaking, &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;), mdx(&quot;mo&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;=&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;0.0987&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;t&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1bar = 0.0987atm&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mrel&quot;
+  }, &quot;=&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mspace&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.2777777777777778em&quot;
+    }
+  })), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;.&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;9&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;8&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;7&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;t&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot;; however, in scuba diving they tend to be used interchangeably.&quot;)), mdx(&quot;p&quot;, null, &quot;The same volume of water is approximately 800 times heavier than air. As a diver descends, the weight of the water above them increases rapidly. A &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;10&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;10m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot; (&quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;33&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;f&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;t&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;33ft&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8888799999999999em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.10764em&quot;
+    }
+  }, &quot;f&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;t&quot;))))), &quot;) column of water weighs as much as a column of air (with the same diameter) that extends all the way to the top of the atmosphere. Thus every &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;10&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;10m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot; deeper a diver swims is adds about &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;t&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1atm&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;t&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot; of pressure.&quot;), mdx(&quot;h3&quot;, null, &quot;Boyle&apos;s law: Volume and density&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Atmospheric pressure&quot;), &quot; refers to the ratio of weight to volume of air at a given pressure, and is most commonly measured in &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;pounds per square inch (PSI)&quot;), &quot;. The PSI of air at &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1bar&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;))))), &quot; (sea level) is &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;15&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;p&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;i&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;15psi&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.85396em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;5&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;p&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;i&quot;))))), &quot; because the weight of a &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;i&quot;), mdx(&quot;msup&quot;, {
+    parentName: &quot;mrow&quot;
+  }, mdx(&quot;mi&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;n&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;msup&quot;
+  }, &quot;2&quot;))), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1in^2&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;i&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;n&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;msupsub&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-t&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist-r&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;vlist&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8141079999999999em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;style&quot;: {
+      &quot;top&quot;: &quot;-3.063em&quot;,
+      &quot;marginRight&quot;: &quot;0.05em&quot;
+    }
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;pstrut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;2.7em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;sizing reset-size6 size3 mtight&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mtight&quot;
+  }, &quot;2&quot;)))))))))))), &quot; column of air weighs about &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;15&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;l&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;15lbs&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;5&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.01968em&quot;
+    }
+  }, &quot;l&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;))))), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;As depth increases, so does the atmospheric pressure. According to &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Boyle&apos;s law&quot;), &quot;, the same &quot;, mdx(&quot;a&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;href&quot;: &quot;../physics/&quot;
+  }, &quot;mass&quot;), &quot; of air will take up less volume and become more dense as depth increases. The relationship between volume and density is inverse; thus if the density doubles the volume is halved for the same quantity of air; if the density is halved then the volume is doubled.&quot;), mdx(&quot;p&quot;, null, &quot;This is important for divers to remember because the &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;volume&quot;), &quot; of our lungs does not change when diving, but the &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;density&quot;), &quot; of the air we breath does. The implication is that &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;the deeper you dive, more air you require&quot;), &quot;. A dive at &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;30&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;30m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot; is at &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;4&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;4bar&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;))))), &quot; of pressure; the air you breath is thus twice as dense as it is at a depth of &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;10&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;10m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot; / &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;2&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;2bar&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;))))), &quot; and thus requires twice as much air for the same amount of time. Put another way, a scuba tank that lasts 1 hour at the surface will only last 30 minutes at &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;10&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;10m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot;, 20 minutes at &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;20&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;20m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot;, and 15 minutes at &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;30&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;30m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;))))), &quot;.&quot;), mdx(&quot;table&quot;, null, mdx(&quot;thead&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;thead&quot;
+  }, mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Depth&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Bars&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;PSI&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Air consumption&quot;), mdx(&quot;th&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, &quot;Time&quot;))), mdx(&quot;tbody&quot;, {
+    parentName: &quot;table&quot;
+  }, mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;0&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;0m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1bar&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;15&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;p&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;i&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;15psi&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.85396em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;5&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;p&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;i&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;x&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1x&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;x&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;x&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1x&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;x&quot;))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;10&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;10m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;2&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;2bar&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;29&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;p&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;i&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;29psi&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.85396em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;9&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;p&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;i&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;2&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;x&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;2x&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;x&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;2&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;x&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1/2x&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;x&quot;))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;20&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;20m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;2&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;3&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;3bar&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;44&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;p&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;i&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;44psi&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.85396em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;p&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;i&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;3&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;x&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;3x&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;x&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;3&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;x&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1/3x&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;x&quot;))))))), mdx(&quot;tr&quot;, {
+    parentName: &quot;tbody&quot;
+  }, mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;30&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;m&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;30m&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;3&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;0&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;m&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;4&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;b&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;a&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;r&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;4bar&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.69444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;b&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;a&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.02778em&quot;
+    }
+  }, &quot;r&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;59&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;p&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;s&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;i&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;59psi&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.85396em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;5&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;9&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;p&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;s&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;i&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;4&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;x&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;4x&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.64444em&quot;,
+      &quot;verticalAlign&quot;: &quot;0em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;x&quot;)))))), mdx(&quot;td&quot;, {
+    parentName: &quot;tr&quot;,
+    &quot;align&quot;: null
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;td&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;1&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;,
+    &quot;mathvariant&quot;: &quot;normal&quot;
+  }, &quot;/&quot;), mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;4&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;x&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;1/4x&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;1em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.25em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;1&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;/&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;x&quot;))))))))), mdx(&quot;h3&quot;, null, &quot;Equalization&quot;), mdx(&quot;p&quot;, null, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;Equalization&quot;), &quot; is the processes of maintaining equilibrium between the body and the ambient pressure. Despite the enormous pressure exerted by water while diving, the body will naturally maintain equilibrium with the surrounding water as long as it has time to adjust gradually. This is because the body primarily consists of solids and liquids that are relatively incompressible, distribute pressure evenly, and \&quot;push back\&quot; with a force equal to the ambient pressure.&quot;), mdx(&quot;p&quot;, null, &quot;The parts of the body that contain air, such as the lungs, sinuses, and ears, remain in balance as long as the air they are filled with air at ambient pressure. As long as the pressure of air in the body is equal to the ambient pressure, it \&quot;pushes back\&quot; on the ambient pressure with equal force, thus maintaining equilibrium. Scuba equipment works by providing air that is always at the ambient pressure, regardless of depth.&quot;), mdx(&quot;h4&quot;, null, &quot;Ear equalization&quot;), mdx(&quot;p&quot;, null, &quot;Divers may experience pain in the middle ear when outside pressure is greater than the pressure inside the ear. If not equalized, this pressure can lead to a series of injuries, collectively called &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;ear squeeze&quot;), &quot;. Ear squeeze can range from excessive stretching of the eardrums to tears and ruptures that allow water into the middle ear which affects balance and can increase the risk of infection. While middle ear damage is usually able to heal, the inner ear can be affected in extreme cases and lead to permanent hearing loss and trouble balancing.&quot;), mdx(&quot;p&quot;, null, &quot;The &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;valsalva maneuver&quot;), &quot; is the most common method to equalize the ears and is accomplished by pinching the nose to block the flow of air while gently blowing out through the nose. This forces equalized air through the eustachian tubes and into the middle ear. Swallowing, yawning, and wiggling your jaw may also work.&quot;), mdx(&quot;p&quot;, null, &quot;It&apos;s best to equalize &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;before&quot;), &quot; any discomfort is felt, usually about twice for every two to three meters of decent, even if you don&apos;t feel you need to. If you are unable to equalize comfortably, it&apos;s important to stop and wait until you can before continuing to descend.&quot;), mdx(&quot;h4&quot;, null, &quot;Sinus equalization&quot;), mdx(&quot;p&quot;, null, &quot;There should be no need to explicitly equalize the sinuses because the passageways to sinus cavities allow the free transfer of air and pressure from surrounding areas of the body. However, colds and sinus congestion can block these passageways and block equalization, initially causing pain, then causing the sinuses to fill with blood and mucus, a condition called &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;sinus squeeze&quot;), &quot;. There is no way to equalize sinuses while underwater, thus anyone experiencing the initial symptoms should abort the dive before further damage is caused.&quot;), mdx(&quot;p&quot;, null, &quot;To prevent sinus squeeze, some divers take decongestants prior to diving. However, this is generally cautioned against because the medication may wear off while the diver is still underwater, causing the sinus passageways to swell shut and prevent equalization on ascent; this is referred to as a &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;reverse block&quot;), &quot;.&quot;), mdx(&quot;h4&quot;, null, &quot;Mask equalization&quot;), mdx(&quot;p&quot;, null, &quot;The artificial air pocket between your mask and face must also be equalized during descent. The mask can be equalized by gently breathing out through your nose every few feet during descent.&quot;), mdx(&quot;h4&quot;, null, &quot;Reverse blocks&quot;), mdx(&quot;p&quot;, null, &quot;When ascending, expanding air typically escapes from the ears, sinuses, and mask without the need for intervention by the diver. A &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;reverse block&quot;), &quot; occurs when the expanding air cannot escape. Though uncomfortable and sometimes painful, reverse blocks are usually less severe than other equilibrium issues. In the event of a reverse block, descend until the pain subsides, yawn and swallow to stretch the eustachian tubes, then slowly attempt the ascent again.&quot;), mdx(&quot;h3&quot;, null, &quot;The danger of rapid ascension&quot;), mdx(&quot;p&quot;, null, &quot;Recall that Boyle&apos;s law states that volume and density are inversely proportional. When descending, equalization is necessary to prevent the reduction of volume from &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;crushing&quot;), &quot; the air pockets inside our bodies, particularly in the middle ear, and causing injury. Conversely, when ascending, equalization is required to prevent over-expansion of these air pockets as air volume increases.&quot;), mdx(&quot;p&quot;, null, &quot;The worst case scenario of rapid ascent is fatal over-expansion of the lungs. Over expansion of the lungs can occur in just &quot;, mdx(&quot;span&quot;, {
+    parentName: &quot;p&quot;,
+    &quot;className&quot;: &quot;math math-inline&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-mathml&quot;
+  }, mdx(&quot;math&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;xmlns&quot;: &quot;http://www.w3.org/1998/Math/MathML&quot;
+  }, mdx(&quot;semantics&quot;, {
+    parentName: &quot;math&quot;
+  }, mdx(&quot;mrow&quot;, {
+    parentName: &quot;semantics&quot;
+  }, mdx(&quot;mn&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;4&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;f&quot;), mdx(&quot;mi&quot;, {
+    parentName: &quot;mrow&quot;
+  }, &quot;t&quot;)), mdx(&quot;annotation&quot;, {
+    parentName: &quot;semantics&quot;,
+    &quot;encoding&quot;: &quot;application/x-tex&quot;
+  }, &quot;4ft&quot;)))), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;katex-html&quot;,
+    &quot;aria-hidden&quot;: &quot;true&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;base&quot;
+  }, mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;strut&quot;,
+    &quot;style&quot;: {
+      &quot;height&quot;: &quot;0.8888799999999999em&quot;,
+      &quot;verticalAlign&quot;: &quot;-0.19444em&quot;
+    }
+  }), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord&quot;
+  }, &quot;4&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;,
+    &quot;style&quot;: {
+      &quot;marginRight&quot;: &quot;0.10764em&quot;
+    }
+  }, &quot;f&quot;), mdx(&quot;span&quot;, {
+    parentName: &quot;span&quot;,
+    &quot;className&quot;: &quot;mord mathnormal&quot;
+  }, &quot;t&quot;))))), &quot; of water. This is why \&quot;the number one rule of diving\&quot; is to &quot;, mdx(&quot;em&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;breath continuously and never hold your breath&quot;), &quot;.&quot;), mdx(&quot;p&quot;, null, &quot;Another danger associated with rapid ascension is &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;arterial gas embolism (AGE)&quot;), &quot;, or &quot;, mdx(&quot;strong&quot;, {
+    parentName: &quot;p&quot;
+  }, &quot;air embolism&quot;), &quot;, which is caused by air bubbles that block blood flow to the brain. This can result in unconsciousness, paralysis, or even death. Victims of an air embolism should be given oxygen as first-aid and taken to a hospital immediately.&quot;), mdx(&quot;blockquote&quot;, null, mdx(&quot;p&quot;, {
+    parentName: &quot;blockquote&quot;
+  }, &quot;Chest pain, difficulty breathing, excessive fatigue, nausea/vomiting, or unconsciousness in someone that has just ascended should result in immediate medical assistance. Most symptoms show within a few minutes of surfacing.&quot;)));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unstructured Data]]></title><description><![CDATA[Data without a pre-defined or easily derivable format]]></description><link>https://www.jamestharpe.com/unstructured-data/</link><guid isPermaLink="false">https://www.jamestharpe.com/unstructured-data/</guid><pubDate>Thu, 19 May 2022 18:54:53 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -12897,37 +15312,6 @@ return function MDXContent(_ref) {
   }, &quot;&gt;&quot;))))));
 }
 ;
-MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
-
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
-function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
-
-function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
-
-/* @jsxRuntime classic */
-
-/* @jsx mdx */
-var _frontmatter = {
-  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
-  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
-  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
-  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = &quot;wrapper&quot;;
-return function MDXContent(_ref) {
-  var components = _ref.components,
-      props = _objectWithoutProperties(_ref, _excluded);
-
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: &quot;MDXLayout&quot;
-  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
-}
-;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -13076,6 +15460,37 @@ return function MDXContent(_ref) {
     parentName: &quot;li&quot;,
     &quot;href&quot;: &quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set&quot;
   }, &quot;Global objects: Set&quot;))));
+}
+;
+MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i &lt; arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i &lt; sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i &lt; sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) &gt;= 0) continue; target[key] = source[key]; } return target; }
+
+/* @jsxRuntime classic */
+
+/* @jsx mdx */
+var _frontmatter = {
+  &quot;date&quot;: &quot;2021-09-26T18:32:47.000Z&quot;,
+  &quot;description&quot;: &quot;Quick and easy to copy recipes for JavaScript and TypeScript&quot;,
+  &quot;tags&quot;: [&quot;javascript&quot;, &quot;typescript&quot;],
+  &quot;title&quot;: &quot;JavaScript (and TypeScript) recipes&quot;
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = &quot;wrapper&quot;;
+return function MDXContent(_ref) {
+  var components = _ref.components,
+      props = _objectWithoutProperties(_ref, _excluded);
+
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: &quot;MDXLayout&quot;
+  }), mdx(&quot;h1&quot;, null, &quot;JavaScript/TypeScript Recipes&quot;));
 }
 ;
 MDXContent.isMDXComponent = true;</content:encoded></item><item><title><![CDATA[Unsplash: Royalty-free Photos]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>var _excluded = [&quot;components&quot;];
@@ -21469,7 +23884,7 @@ return function MDXContent(_ref) {
     parentName: &quot;p&quot;
   }, &quot;base units&quot;), &quot; which are the axiomatic building blocks from which all other units, called &quot;, mdx(&quot;strong&quot;, {
     parentName: &quot;p&quot;
-  }, &quot;derived units&quot;), &quot;, are created.&quot;), mdx(&quot;p&quot;, null, &quot;Base units include standard measures for time (second), distance (meter), mass (kilogram), and more. Derived units combine base units, for example velocity (&quot;, mdx(&quot;span&quot;, {
+  }, &quot;derived units&quot;), &quot;, are created.&quot;), mdx(&quot;p&quot;, null, &quot;Base units include standard measures for time (second), distance (meter), mass (kilogram), pressure (bar), and more. Derived units combine base units, for example velocity (&quot;, mdx(&quot;span&quot;, {
     parentName: &quot;p&quot;,
     &quot;className&quot;: &quot;math math-inline&quot;
   }, mdx(&quot;span&quot;, {
