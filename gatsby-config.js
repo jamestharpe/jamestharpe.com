@@ -194,33 +194,48 @@ module.exports = {
 			}
 		},
 		{
-			resolve: "gatsby-plugin-feed-mdx",
+			resolve: "gatsby-plugin-feed",
 			options: {
 				query: `
-          {
-            site {
-              siteMetadata {
-                title
-                description
-                siteUrl
-                site_url: siteUrl
-              }
-            }
-          }
-        `,
+					{
+						site {
+							siteMetadata {
+								title
+								description
+								siteUrl
+								site_url: siteUrl
+							}
+						}
+					}
+					`,
 				feeds: [
 					{
 						serialize: ({ query: { site, allMdx } }) => {
 							// eslint-disable-next-line @typescript-eslint/no-unsafe-call
-							return allMdx.edges.map((edge) => {
-								return Object.assign({}, edge.node.frontmatter, {
-									description: edge.node.frontmatter.description || edge.node.excerpt,
-									date: edge.node.frontmatter.date,
-									url: site.siteMetadata.siteUrl + edge.node.fields.slug,
-									guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
-									custom_elements: [{ "content:encoded": edge.node.body }]
-								});
-							});
+							return allMdx.nodes.map(
+								(
+									/** @type {{ frontmatter: { description: string; date: string; }; excerpt: string; fields: { slug: string; }; }} */ node
+								) => {
+									return Object.assign({}, node.frontmatter, {
+										description: node.frontmatter.description || node.excerpt,
+										date: node.frontmatter.date,
+										url: site.siteMetadata.siteUrl + node.fields.slug,
+										guid: site.siteMetadata.siteUrl + node.fields.slug,
+										custom_elements: [
+											{
+												"content:encoded": `
+													<p>
+														${node.frontmatter.description || node.excerpt}
+													</p>
+													<p>
+														<a href="${site.siteMetadata.siteUrl + node.fields.slug}">Read the article</a>
+													</p>"
+												`.trim()
+											}
+										]
+									});
+								}
+							);
 						},
 						query: `
 							{
@@ -228,16 +243,13 @@ module.exports = {
 									filter: { frontmatter: { draft: { ne: true } } },
 									sort: { order: DESC, fields: [frontmatter___date] },
 								) {
-									edges {
-										node {
-											excerpt
-											body
-											fields { slug }
-											frontmatter {
-												title
-												description
-												date
-											}
+									nodes {
+										excerpt
+										fields { slug }
+										frontmatter {
+											title
+											description
+											date
 										}
 									}
 								}
@@ -245,11 +257,6 @@ module.exports = {
 						`,
 						output: "/rss.xml",
 						title: "James Tharpe's Knowledge Feed"
-						// optional configuration to insert feed reference in pages:
-						// if `string` is used, it will be used to create RegExp and then test if pathname of
-						// current page satisfied this regular expression;
-						// if not provided or `undefined`, all pages will have feed reference inserted
-						// match: "^/blog/"
 					}
 				]
 			}

@@ -29,7 +29,7 @@ export async function createPages(args: CreatePagesArgs) {
 
 	data?.allMdx.nodes.forEach((node) => {
 		const { slug } = node.fields;
-		console.log("Create page", { slug });
+		// console.log("Create page", { slug });
 		createPage({
 			path: slug,
 			component: resolve(`./src/templates/article.tsx`),

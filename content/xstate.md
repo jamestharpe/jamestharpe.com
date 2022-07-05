@@ -11,7 +11,7 @@ title: "XState (JavaScript Library)"
 
 ## Using XState with [TypeScript](typescript.md)
 
-XState allows machines to have a "schema" to enforce type safety when sending events to a state machine. For an overview, see **Is XState good with TypeScript?** in the following video.
+XState can enforce type safety through automatic type generation. For an overview, see **Is XState good with TypeScript?** in the following video.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EIi6CV4Bc_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
