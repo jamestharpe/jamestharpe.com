@@ -1,7 +1,7 @@
 ---
 date: 2020-12-30T14:03:46-04:00
 description: "A library to create state machines and state charts written in JavaScript"
-tags: [ "javascript", , "open-source-software", "state-machines", "statecharts", "actor-model" ]
+tags: [ "javascript", "open-source-software", "state-machines", "statecharts", "actor-model" ]
 title: "XState (JavaScript Library)"
 ---
 
