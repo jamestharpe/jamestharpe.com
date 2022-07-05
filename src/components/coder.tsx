@@ -4,18 +4,6 @@
 import { useMachine } from "@xstate/react";
 import React from "react";
 import { assign, createMachine } from "xstate";
-import { log } from "xstate/lib/actions";
-
-interface CoderContext {
-	input: string;
-	encoded?: string;
-	decoded?: string;
-}
-
-interface CoderEvent {
-	type: "INPUT";
-	input: string;
-}
 
 interface CoderFuncs {
 	encode: (s: string) => string;
@@ -44,14 +32,23 @@ const coders: Record<string, CoderFuncs> = {
 
 function createCoderMachine(coderType: string) {
 	const { encode, decode } = coders[coderType.toLowerCase()];
-	return createMachine<CoderContext, CoderEvent>(
+	return createMachine(
 		{
+			tsTypes: {} as import("./coder.typegen").Typegen0,
+			schema: {
+				context: {} as {
+					input: string;
+					encoded?: string;
+					decoded?: string;
+				},
+				events: {} as { type: "INPUT"; input: string }
+			},
 			id: "base64Coder",
 			initial: "ready",
 			context: { input: "" },
 			on: {
 				INPUT: {
-					actions: ["assignInput", "encode", "decode", log()]
+					actions: ["assignInput", "encode", "decode"]
 				}
 			},
 			states: {

@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Xstate typegen files
+*.typegen.ts
+
 # Runtime data
 pids
 *.pid

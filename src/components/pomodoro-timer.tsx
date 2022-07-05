@@ -18,6 +18,14 @@ interface PomodoroContext {
 	};
 }
 
+type PomodoroEvents =
+	| { type: "NEXT" }
+	| { type: "END" }
+	| { type: "PAUSE" }
+	| { type: "SKIP" }
+	| { type: "REPEAT" }
+	| { type: "RESUME" };
+
 const defaultPomodoroContext: PomodoroContext = {
 	iterations: 0,
 	elapsed: 0,
@@ -29,7 +37,7 @@ const defaultPomodoroContext: PomodoroContext = {
 };
 
 function target(
-	state?: State<PomodoroContext>,
+	state?: State<PomodoroContext, PomodoroEvents>,
 	context: PomodoroContext = defaultPomodoroContext
 ): number {
 	const result =
@@ -41,7 +49,7 @@ function target(
 }
 
 function nextTarget(
-	state?: State<PomodoroContext>,
+	state?: State<PomodoroContext, PomodoroEvents>,
 	context: PomodoroContext = defaultPomodoroContext
 ): number {
 	const result =
@@ -60,6 +68,11 @@ function createPomodoro(initialContext?: Partial<PomodoroContext>) {
 	return createMachine(
 		{
 			id: "pomodoro",
+			tsTypes: {} as import("./pomodoro-timer.typegen").Typegen0,
+			schema: {
+				context: {} as PomodoroContext,
+				events: {} as PomodoroEvents
+			},
 			initial: "idle",
 			context,
 			states: {
@@ -134,17 +147,26 @@ function createPomodoro(initialContext?: Partial<PomodoroContext>) {
 		},
 		{
 			guards: {
-				complete: (context, _, { state }) =>
-					context.elapsed >= target(state, context),
-				incomplete: (context, _, { state }) =>
-					context.elapsed < target(state, context)
+				complete: (context, _event, { state }) =>
+					context.elapsed >=
+					target(
+						state as unknown as State<PomodoroContext, PomodoroEvents>, // XState typegen workaround :(
+						context
+					), // target(state, context),
+				incomplete: (context, _event, { state }) =>
+					context.elapsed <
+					target(state as unknown as State<PomodoroContext, PomodoroEvents>, context) // XState typegen workaround :(
 				// firstIteration: (context) => context.iterations === 0
 			},
 			actions: {
 				tick: assign((context, _event, { state }) => {
 					const elapsed = Date.now() - (context.started?.getTime() || 0);
 					const remaining =
-						(context.target.current || target(state, context)) - elapsed;
+						(context.target.current ||
+							target(
+								state as unknown as State<PomodoroContext, PomodoroEvents>, // XState typegen workaround :(
+								context
+							)) - elapsed;
 					return {
 						...context,
 						elapsed,
@@ -152,7 +174,10 @@ function createPomodoro(initialContext?: Partial<PomodoroContext>) {
 					};
 				}),
 				start: assign((context, _event, { state }) => {
-					const remaining = target(state, context);
+					const remaining = target(
+						state as unknown as State<PomodoroContext, PomodoroEvents>, // XState typegen workaround :(
+						context
+					);
 					return {
 						...context,
 						started: new Date(),
@@ -164,7 +189,10 @@ function createPomodoro(initialContext?: Partial<PomodoroContext>) {
 					return {
 						...context,
 						elapsed: 0,
-						remaining: nextTarget(state, context)
+						remaining: nextTarget(
+							state as unknown as State<PomodoroContext, PomodoroEvents>, // XState typegen workaround :(
+							context
+						)
 					};
 				}),
 				pause: assign((context) => ({ ...context, paused: new Date() })),
