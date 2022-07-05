@@ -12,4 +12,4 @@ title: "TypeScript"
 ## TypeScript resources
 
 * [Official TypeScript website](https://www.typescriptlang.org/)
-* [Advanced TypeScript by Matt Pocock](https://www.youtube.com/playlist?list=PLIvujZeVDLMx040-j1W4WFs1BxuTGdI_b)
+* [Advanced TypeScript video playlist by Matt Pocock](https://www.youtube.com/playlist?list=PLIvujZeVDLMx040-j1W4WFs1BxuTGdI_b)
