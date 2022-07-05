@@ -32,5 +32,5 @@
 		"@typescript-eslint/explicit-module-boundary-types": "off",
 		"react/no-unescaped-entities": "off"
 	},
-	"ignorePatterns": ["public/**"]
+	"ignorePatterns": ["public/**", "*.typegen.ts"]
 }
