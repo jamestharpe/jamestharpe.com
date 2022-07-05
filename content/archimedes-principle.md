@@ -1,5 +1,5 @@
 ---
-date: 2022-07-21T10:11:02-04:00
+date: 2022-07-05T10:11:02-04:00
 description: "Theories of knowledge"
 tags: [ "physics" ]
 title: "Archimedes Principle"
