@@ -72,3 +72,78 @@ As long as they are out of arms reach, underwater animals tend to ignore humans;
 Some animals, like scorpion-fish and lion-fish, have poisonous spines that can cause serious injury or even death. These animals do not attack divers; however, due to their camouflage, they are easy to make contact with accidentally.
 
 Despite being one of the greatest fears while diving, attacks from sharks, eels, and barracudas are one of the _least likely_ causes of injury. Even then, "attacks" are not territorial or aggressive; they are usually either defensive or due to mistaken identity. To avoid attacks, divers should not feed, corner, grab, or act aggressively toward any animal. This includes not putting hands blindly into holes or around corners. Jewelry and loose clothing should also be avoided because they can easily be mistaken for a flailing fish.
+
+## Physical forces at play when scuba diving
+
+### Buoyancy
+
+In scuba diving, **[buoyancy](archimedes-principle.md)** is the upward force that water exerts on a diver. Objects that displace a greater weight of water than the object weighs will float, such as a boat, and are said to have **positive buoyancy**. Objects that displace a lesser weight of water than the object weighs will sink, such as a rock, and are said to have **negative buoyancy**. An object that displaces water equal to the weight of the object itself will not float or sink, and thus has **neutral buoyancy**.
+
+Divers adjust their buoyancy using a **buoyancy control device (BCD)** to control the depth of their dive while in the water. For example, a diver will maintain positive buoyancy to rest on the surface, while a negative buoyancy is used descend. The majority of time during a successful dive is spent at a neutral buoyancy, which allows the diver to "hover" and swim easily through the water.
+
+Notably, salt water weighs more than fresh water and thus divers will find that they are more buoyant in salt water. Divers therefore require more weight when diving in salt water than in fresh water.
+
+### Pressure
+
+**Pressure** refers to the physical force an object exerts on something it is in contact with. For a scuba diver, pressure usually refers to the weight of the water they are submerged in. **Ambient pressure** is the pressure of the surrounding medium or, again for divers, the surrounding water.
+
+A $1cm^2$ vertical column of air that is the height of the atmosphere at sea level will weight roughly $1gk$; this is referred to as 1 **bar** or 1 **atmosphere (asm)**. A similar column of air at $1in^2$ weighs just under $15lbs$.
+
+> Scientifically speaking, $1bar = 0.0987atm$; however, in scuba diving they tend to be used interchangeably.
+
+The same volume of water is approximately 800 times heavier than air. As a diver descends, the weight of the water above them increases rapidly. A $10m$ ($33ft$) column of water weighs as much as a column of air (with the same diameter) that extends all the way to the top of the atmosphere. Thus every $10m$ deeper a diver swims is adds about $1atm$ of pressure.
+
+### Boyle's law: Volume and density
+
+**Atmospheric pressure** refers to the ratio of weight to volume of air at a given pressure, and is most commonly measured in **pounds per square inch (PSI)**. The PSI of air at $1bar$ (sea level) is $15psi$ because the weight of a $1in^2$ column of air weighs about $15lbs$.
+
+As depth increases, so does the atmospheric pressure. According to **Boyle's law**, the same [mass](physics.md) of air will take up less volume and become more dense as depth increases. The relationship between volume and density is inverse; thus if the density doubles the volume is halved for the same quantity of air; if the density is halved then the volume is doubled.
+
+This is important for divers to remember because the _volume_ of our lungs does not change when diving, but the _density_ of the air we breath does. The implication is that _the deeper you dive, more air you require_. A dive at $30m$ is at $4bar$ of pressure; the air you breath is thus twice as dense as it is at a depth of $10m$ / $2bar$ and thus requires twice as much air for the same amount of time. Put another way, a scuba tank that lasts 1 hour at the surface will only last 30 minutes at $10m$, 20 minutes at $20m$, and 15 minutes at $30m$.
+
+| Depth | Bars   | PSI     | Air consumption | Time   |
+| ----- | ------ | ------- | --------------- | ------ |
+| $0m$  | $1bar$ | $15psi$ | $1x$            | $1x$   |
+| $10m$ | $2bar$ | $29psi$ | $2x$            | $1/2x$ |
+| $20m$ | $3bar$ | $44psi$ | $3x$            | $1/3x$ |
+| $30m$ | $4bar$ | $59psi$ | $4x$            | $1/4x$ |
+
+<!-- TODO: Make a calculator -->
+
+### Equalization
+
+**Equalization** is the processes of maintaining equilibrium between the body and the ambient pressure. Despite the enormous pressure exerted by water while diving, the body will naturally maintain equilibrium with the surrounding water as long as it has time to adjust gradually. This is because the body primarily consists of solids and liquids that are relatively incompressible, distribute pressure evenly, and "push back" with a force equal to the ambient pressure.
+
+The parts of the body that contain air, such as the lungs, sinuses, and ears, remain in balance as long as the air they are filled with air at ambient pressure. As long as the pressure of air in the body is equal to the ambient pressure, it "pushes back" on the ambient pressure with equal force, thus maintaining equilibrium. Scuba equipment works by providing air that is always at the ambient pressure, regardless of depth.
+
+#### Ear equalization
+
+Divers may experience pain in the middle ear when outside pressure is greater than the pressure inside the ear. If not equalized, this pressure can lead to a series of injuries, collectively called **ear squeeze**. Ear squeeze can range from excessive stretching of the eardrums to tears and ruptures that allow water into the middle ear which affects balance and can increase the risk of infection. While middle ear damage is usually able to heal, the inner ear can be affected in extreme cases and lead to permanent hearing loss and trouble balancing.
+
+The **valsalva maneuver** is the most common method to equalize the ears and is accomplished by pinching the nose to block the flow of air while gently blowing out through the nose. This forces equalized air through the eustachian tubes and into the middle ear. Swallowing, yawning, and wiggling your jaw may also work.
+
+It's best to equalize _before_ any discomfort is felt, usually about twice for every two to three meters of decent, even if you don't feel you need to. If you are unable to equalize comfortably, it's important to stop and wait until you can before continuing to descend.
+
+#### Sinus equalization
+
+There should be no need to explicitly equalize the sinuses because the passageways to sinus cavities allow the free transfer of air and pressure from surrounding areas of the body. However, colds and sinus congestion can block these passageways and block equalization, initially causing pain, then causing the sinuses to fill with blood and mucus, a condition called **sinus squeeze**. There is no way to equalize sinuses while underwater, thus anyone experiencing the initial symptoms should abort the dive before further damage is caused.
+
+To prevent sinus squeeze, some divers take decongestants prior to diving. However, this is generally cautioned against because the medication may wear off while the diver is still underwater, causing the sinus passageways to swell shut and prevent equalization on ascent; this is referred to as a **reverse block**.
+
+#### Mask equalization
+
+The artificial air pocket between your mask and face must also be equalized during descent. The mask can be equalized by gently breathing out through your nose every few feet during descent.
+
+#### Reverse blocks
+
+When ascending, expanding air typically escapes from the ears, sinuses, and mask without the need for intervention by the diver. A **reverse block** occurs when the expanding air cannot escape. Though uncomfortable and sometimes painful, reverse blocks are usually less severe than other equilibrium issues. In the event of a reverse block, descend until the pain subsides, yawn and swallow to stretch the eustachian tubes, then slowly attempt the ascent again.
+
+### The danger of rapid ascension
+
+Recall that Boyle's law states that volume and density are inversely proportional. When descending, equalization is necessary to prevent the reduction of volume from _crushing_ the air pockets inside our bodies, particularly in the middle ear, and causing injury. Conversely, when ascending, equalization is required to prevent over-expansion of these air pockets as air volume increases.
+
+The worst case scenario of rapid ascent is fatal over-expansion of the lungs. Over expansion of the lungs can occur in just $4ft$ of water. This is why "the number one rule of diving" is to _breath continuously and never hold your breath_.
+
+Another danger associated with rapid ascension is **arterial gas embolism (AGE)**, or **air embolism**, which is caused by air bubbles that block blood flow to the brain. This can result in unconsciousness, paralysis, or even death. Victims of an air embolism should be given oxygen as first-aid and taken to a hospital immediately.
+
+> Chest pain, difficulty breathing, excessive fatigue, nausea/vomiting, or unconsciousness in someone that has just ascended should result in immediate medical assistance. Most symptoms show within a few minutes of surfacing.
