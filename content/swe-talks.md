@@ -8,6 +8,12 @@ draft: true
 
 # Software engineering talks
 
+## Nothing is Something by Sandi Metz, Rails Conf 2015
+
+A look at the hidden and unnamed assumptions in code, the underlying concepts behind them, and how to avoid conditional statements through message passing and the null object pattern.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OMPfEXIlTVE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Simplicity Matters by Rich Hickey, Rails Conf 2012
 
 A dissection of what "simplicity" means in software engineering, how it's different from being "easy", and how to pursue it.
