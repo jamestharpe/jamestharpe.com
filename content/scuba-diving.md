@@ -1,5 +1,5 @@
 ---
-date: 2022-06-18T15:04:02-04:00
+date: 2022-07-10T13:09:02-04:00
 description: "Swimming underwater with a self contained underwater breathing apparatus"
 tags: [  ]
 title: "Scuba Diving"
@@ -28,6 +28,48 @@ Water **desaturates** sunlight, meaning colors are absorbed and become less visi
 ## Hearing underwater
 
 Sounds typically heard while scuba diving include your own breathing, boats passing overhead, and clicks from fish that are feeding. Sound travels roughly 4 to 5 times faster underwater than it does through air due to waters density, which is roughly 800 times that of air. This makes the directionality of sound difficult to discern because sound waves arrive at both ears at virtually the same time. This can lead to danger, particularly because of the difficulty in determining the location and direction of boats operating nearby. Thus, the best thing to do while underwater and hearing a boat is to stay underwater at a safe depth away from the surface until the boat is no longer audible.
+
+## Breathing underwater
+
+The air we breath is primarily composed of about 79% nitrogen ($N_2$) and 21% oxygen ($0_2$). The air compressed in a scuba tank contains the same ratio of nitrogen and oxygen. When we breath, our lungs replace carbon dioxide in our blood with oxygen from the air we've inhaled to participate in metabolic functions. However, the nitrogen you breath is absorbed into your blood and tissues. Under pressure, your body will absorb greater amounts of nitrogen; thus the longer and deeper you dive, the more nitrogen you will absorb.
+
+During ascension, the nitrogen that has dissolved into your tissue expands, re-enters your blood stream, and travels back to the lungs. As you breath out, the nitrogen is expelled until your body returns to a normal state. This process can continue after you've reached the surface, and takes roughly 24 hours before fully normalized. Thus back-to-back dives that occur in under a 24 hour period can slowly increase your overall nitrogen absorption.
+
+Excessive nitrogen absorption can cause **decompression sickness (DCS)**, also known as **the bends**, which is the formation of nitrogen bubbles in the blood. The faster a diver ascends, the more likely it is for these bubbles to form. Symptoms of decompression sickness include fatigue, clouded thinking, muscle and joint aches, vomiting, weakness, poor balance, vertigo, skin rash, coughing up blood, and paralysis. Severe cases can be lethal. Though symptoms tend to begin within 15 minutes to 12 hours after diving, they may take up to 48 hours to appear.
+
+### Preventing decompression sickness
+
+DSC can be prevented by limiting the amount of time spent underwater according to dive tables. Dive computers will automatically estimate nitrogen absorption as well, and alert divers to the possibility of excessive nitrogen absorption. It's important to note, however, that dive tables and computers only estimate nitrogen absorption and other factors, such as dehydration, drug use, water temperature, dive altitude, and repetitive dives can increase the rate of absorption in ways that are unlikely to be factored into these estimates.
+
+Some general tips to prevent decompression sickness:
+
+* Remain within the limits of your dive computer's estimation. If your buddy's computer shows different levels than yours, always go by the more conservative of the two estimates.
+* Pause during ascension. While ascending, pause the ascension for 3-5 minutes every 3-6 meters.
+* Limit multiple ascents/descents. An ideal dive consists of one descent and one slow ascent (with pauses).
+* Avoid fatigue, cold, and dehydration. These conditions all increase the risk of DCS.
+* Don't fly within 12-18 hours of diving.
+
+First-aid for DSC is to administer oxygen and to call emergency medical services. Further treatment involves recompression in a hyperbaric chamber.
+
+### Nitrogen narcosis
+
+**Nitrogen narcosis** is a temporary condition that causes impaired judgement when a diver is exposed to excessive nitrogen. Symptoms include euphoria or anxiety, similar to a drug induced "high". As with drugs, a divers ability to think clearly and act rationally is impaired, even though the diver may not realize it while it is happening. This impairment can be extremely dangerous, especially while underwater.
+
+Nitrogen narcosis susceptibility varies from person to person and is most likely to occur at depths below 30 meters; however, narcosis can still occur at shallower depths. Inexperienced divers are advised to limit the depth of their dives to about 20 meters to avoid narcosis until they gain more experience and training.
+
+Narcosis wears off quickly upon ascent. Thus, if you suspect you or your buddy is experiencing narcosis, ascend until the effects are no longer felt.
+
+<!-- ### Oxygen toxicity
+
+**Oxygen toxicity** is the result of breathing too much oxygen while at depths below 60 meters. Recreational sport divers generally do not need to be concerned with oxygen toxicity because they do not dive that deep. -->
+
+### Contaminated air
+
+Though it's standard practice for professional dive operators to have the air quality of their compressors regularly tested by an independent lab, there is always a chance that something will go wrong when filling a scuba tank with compressed air. Prior to a dive, always smell the air in the tank and do not use air that has a color, odor, or taste.
+
+Despite this precaution, $CO_2$ contamination may occur unnoticed. For example, exhaust from a gas-powered compressor may be accidentally sucked in to the intake and cause dangerous levels of carbon monoxide ($CO$) to enter the tank. Carbon monoxide is hard for a diver to detect because it is colorless, odorless, and tasteless. In cases of contamination, it might not be until after the dive has begun that issues start to show. Signs of $CO_2$ poisoning include headache, nausea, confusion, and unconsciousness. In extreme cases, the lips and fingernail beds will turn bright red.
+
+$CO_2$ poisoning can ultimately prove fatal if not addressed right away. Therefore, it's important to abort the dive and ascend right away if any warning signs occur. Once at the surface, breath air and seek oxygen treatment if available. If symptoms do not clear up quickly, it is important to get medical attention.
 
 ## Body temperature underwater
 
@@ -147,3 +189,30 @@ The worst case scenario of rapid ascent is fatal over-expansion of the lungs. Ov
 Another danger associated with rapid ascension is **arterial gas embolism (AGE)**, or **air embolism**, which is caused by air bubbles that block blood flow to the brain. This can result in unconsciousness, paralysis, or even death. Victims of an air embolism should be given oxygen as first-aid and taken to a hospital immediately.
 
 > Chest pain, difficulty breathing, excessive fatigue, nausea/vomiting, or unconsciousness in someone that has just ascended should result in immediate medical assistance. Most symptoms show within a few minutes of surfacing.
+
+## Scuba equipment
+
+Casual divers often rent their equipment, however it's generally advised that each diver purchase their own fins, mask, snorkel, and wet suit boots to ensure proper fit and comfort on every dive. Additional gear can be easily rented and includes; a buoyancy control device (BCD), weight belt, tank, exposure suit, and regulator.
+
+### Equipment care
+
+After each dive, all equipment should be rinsed free of saltwater, mud, sediment, and other contaminants that can cause damage or corrosion. Equipment should be completely dry before being put away, and stored in a cool dry place away from direct sunlight.
+
+Masks should be put in a protective case (usually with the snorkel detached) to prevent damage, especially while carrying or traveling. Fins should be stored without any bends, which could become permanent, and often include inserts to keep the foot pockets from sagging or otherwise deforming.
+
+### Exposure suites
+
+* **Dive skins** are lightweight, stretchy exposure suites. They offer basic protection from sunlight and the stings and abrasions that can result from contact with objects and wildlife underwater. They also offer minimal thermal protection when used alone, but this can be enough in particularly warm/tropical waters. Dive skins are often worn under wet suits to make putting them on easier and reducing the flow of cold water through the suit.
+* **Wetsuits** are somewhat thicker than dive skins and generally made of neoprene foam, which is a poor conductor and thus a good insulator. Depending on thickness and other accessories, wetsuits - along with wetsuit hoods, boots, and gloves - can provide thermal protection for water temperatures down to about 10° C or 50° F.
+* **Drysuits** are used for colder water and seal at the neck and wrists to keep water out and the diver surrounded by a layer of air, which is an effective insulator against cold. Dry suits are generally used in water temperatures below 10° C (50° F). Drysuits require specialized training to use effectively.
+
+#### Exposure suit comfort ranges
+
+Though these ranges may vary by individual tolerance, they should be accurate for most people:
+
+| Max temp         | Min temp      | Suit recommendation                             |
+| ---------------- | ------------- | ----------------------------------------------- |
+| >= 30° C (85° F) | 27° C (80° F) | 3mm wet suit                                    |
+| 27° C (83° F)    | 24° C (75° F) | 5mm wet suit                                    |
+| 25° C (77° F)    | 12° C (55° F) | 7mm wet suit                                    |
+| <= 24° C (75° F) | _NA_          | Dry suit plus additional, specialized equipment |
