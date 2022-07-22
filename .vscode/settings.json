@@ -44,6 +44,7 @@
 		"Drysuits",
 		"Elegoo",
 		"Eliyahu",
+		"Endable",
 		"etls",
 		"expidenture",
 		"Feedly",
@@ -84,6 +85,7 @@
 		"lakehouse",
 		"lakehouses",
 		"Lesics",
+		"loadershim",
 		"LOCALAPPDATA",
 		"lsusb",
 		"Macrosociology",
@@ -119,8 +121,11 @@
 		"SORTKEY",
 		"Sparkline",
 		"sqlservr",
+		"Startable",
 		"Statechart",
 		"statecharts",
+		"statusable",
+		"styl",
 		"superelse",
 		"superif",
 		"Szyperski",
@@ -133,6 +138,7 @@
 		"timebox",
 		"timeboxes",
 		"Timeboxing",
+		"Titleable",
 		"TLDR",
 		"tldraw",
 		"tmobile",
@@ -158,5 +164,10 @@
 		"javascriptreact",
 		"typescript",
 		"typescriptreact"
-	]
+	],
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"*.ts": "${capture}.js, ${capture}.spec.ts",
+		"*.tsx": "${capture}.ts, ${capture}.spec.ts, ${capture}.spec.tsx"
+	}
 }
