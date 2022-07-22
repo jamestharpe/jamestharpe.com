@@ -19,6 +19,10 @@ Clustering - Group objects together based on similarities in data. For example, 
 
 Anomaly detection - Find observations that are different than the "normal" data. e.g. a spike in negative social media comments after a new product release
 
+Association learning - ...
+
+Numeric estimation - ...
+
 -----
 
 Deep learning - a form of machine learning that stacks multiple ML models on top of each other to form a hierarchy. e.g. Face -> Gemoetric primitives -> Objects (eyes, nose, mouth) -> Faces -> Person name prediction
