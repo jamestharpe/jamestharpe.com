@@ -78,6 +78,43 @@ graph TD
     end
 ```
 
+## Machine learning model evaluation
+
+Typically, when a machine learning model is trained, some portion of the training data is withheld for use in model evaluation.
+The model is then used to predict the withheld data. The predictions are then compared to the actual values to derive an
+**accuracy rate**, which represents the overall accuracy of the model, and an **error rate** which represents the number of "bad"
+predictions made by the model.
+
+Accuracy and error rates are useful; however, they treat all misclassifications as being equally bad. A **confusion matrix** plots the
+misclassifications to provide more detail on model accuracy.
+
+For example, we may have a [classification model](classification-learning.md) that predicts whether a user will "like" or "dislike"
+a post on social media in which the model accurately predicts the user's input 60% of the time. The model therefore has a 60%
+accuracy rate and a 40% error rate. The confusion matrix for this model might look something like the following table, illustrating that the
+model performs better for predicting "like" classes than "dislike" classes.
+
+<table>
+	<tr>
+		<td rowspan="2" colspan="3"></td>
+		<th colspan="2">Predicted class</th>
+	</tr>
+	<tr>
+		<td>Like</td>
+		<td>Dislike</td>
+	</tr>
+	<tr>
+		<th rowspan="2" colspan="2">Actual class</th>
+		<td>Like</td>
+		<td>3</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>Dislike</td>
+		<td>3</td>
+		<td>3</td>
+	</tr>
+</table>
+
 ## Machine learning resources
 
 * [Hidden Technical Debt in Machine Learning Systems](https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf)
