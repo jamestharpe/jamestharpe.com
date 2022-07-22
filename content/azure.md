@@ -9,6 +9,8 @@ title: "Microsoft Azure"
 
 **Microsoft Azure** is a hosted [cloud platform](cloud-platforms.md), provided by Microsoft.
 
+<!-- TODO: Restore when link is fixed
 ## Azure Resources
 
 * [Microsoft Azure Official Homepage](https://azure.microsoft.com/)
+-->
