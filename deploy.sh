@@ -10,6 +10,7 @@ PUBLISH_DIR="public"
 npm run clean
 npm run lint:fix
 npm run lint
+npm run test
 npm run test:links # TODO: npm test
 
 echo "Deleting old publication from $PUBLISH_DIR"

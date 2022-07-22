@@ -18,7 +18,7 @@ const coders: Record<string, CoderFuncs> = {
 				return window.atob(s);
 			} catch (e) {
 				console.log("Decode error: ", e);
-				return "(not a valid base64 string)";
+				return "(invalid base64 string)";
 			}
 		}
 	},
