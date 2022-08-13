@@ -1,11 +1,12 @@
 import { assign, createMachine } from "xstate";
 import Time from "../time";
-import Task from "./task";
+import Task, { taskFrom } from "./task";
 
-export default function createTaskMachine(task: Task) {
-	/** @xstate-layout N4IgpgJg5mDOIC5QAoC2BDAxgCwJYDswBKAOgHsAHMQiAYkzNQoBswAXMRUCs2XN3GXxcQAD0QBaAMwBOABwkA7ADYAjAFZlAJlUAGVXN2KZ6gDQgAnolVSALCVXLdd7erlzlMxQF9v5tFh4hKSU1JD06PiYYMwiPHwCQiLiCNLySmqaOvqGxmaWiFpy9jIyUoq6WlpSylKytb7+GDgExORUNLRwAhgccbz8gsJIYpLK6va2ilq2MrZSbnbO5lYIeqoks+XOnuq6s2WNIAEtwe1hdBQAToI3AgBenCPxg0kjKRLKKiRaMlqKHmUs1mujkK2skzKFV0anmMmUciOJyCbQYTFYHDooWG3AGiRxo1S1RkJDk9Qm8PUJjUUnBCA8DicNSkqkUbLJaiRzRRpEwkWirCxHX6CSGyUkihI8NsajJdSpCKkWjp0ikJDq8LqtnmB3U6l8fhA+DIEDgImRrRCHUgIteBI+iimpL1WgRpTk6jydNUZU2UJhbM9zhhXMClpIaJY7BtzzxYveklUtgUtXGRST2mmAO9er92z0+yMxVDp1R-JiMdxoreoBSZJ+UmKjbschMVRk3qTeYRPakRY8JZ5tvx4tSbI2HvUrtb8k9JhVenU6vqfcM+z7-wN3iAA */
+export default function createTaskMachine(task: Task | undefined) {
+	/** @xstate-layout N4IgpgJg5mDOIC5QAoC2BDAxgCwJYDswBKAOgBsB7dCAqAYkVAAcLZcAXXC-RkAD0QBaACwBOAEwkADAFYpANlEBGAOwBmCcOEqANCACeicfMnCAHMLVL5SqcLkqAvo71oseQqQpMwhCHUwKVCYyMHYwXhY2Tm5eAQQlWxI1KTN5FTMVLVkzGSU9QwQ1MyVk1XkU2xk1GQlnVwwcAmISb19IAPR8TDAySNYOLh4kfkREqWTU9MzsmVz8gyNcspV5CtFLJUypNXqQNybPVp8-OjhODHD+6KG4oSV7EmEpcXEVKSklavFRAqMrEglFRzaZWUSZGR7A4eFptU5MABOXCRnAAXhERlFBrERvFBNYVCRXuI5sU8pk1PIZH8ElpAeUXokZPY1FooY0YaRAsFQuF-HDrtjhqB4sZRESUjIpeJhMYqWo1DSFWoVvJtC9ZeolOz3M0uV0eqF+SdBTFhaMEGKJbJpbK1tVFYtLWpCVZVnJwWZMu95M4XCB8BQIHBeNC9eQqDR8FBTbdcUJamYSEplFY3l95HZdE7WSrwZqzDtFA5hDrDrCTpBYziRUJxMUSBk5GkZPWJOIzEr6-TVp81DKCaIy5ySNyQmEq5iBma7kVM08FfIzOIFPXzNnCs9JFSpKIZOo5szdv6w0dMAbepPmNO47W5xNLJTl6vWZkaeIHiQd6IVEpKSpRA+UsTw5PVq3NPETEkFM-yUdMZEzbQaRUSQgUQ4FcleFC-UcIA */
 	return createMachine(
 		{
+			context: task || taskFrom({}),
 			tsTypes: {} as import("./task-machine.typegen").Typegen0,
 			schema: {
 				context: {} as Task,
@@ -17,8 +18,24 @@ export default function createTaskMachine(task: Task) {
 					| { type: "prioritize"; higherPriorityTaskId: number | null }
 			},
 			id: "(machine)",
-			initial: "opened",
+			initial: "loading",
 			states: {
+				loading: {
+					always: [
+						{
+							cond: "isOpened",
+							target: "opened"
+						},
+						{
+							cond: "isCompleted",
+							target: "completed"
+						},
+						{
+							cond: "isCanceled",
+							target: "canceled"
+						}
+					]
+				},
 				opened: {
 					entry: ["setCanceledToUndefined", "setCompletedToUndefined"],
 					on: {
@@ -74,6 +91,11 @@ export default function createTaskMachine(task: Task) {
 				setHigherPriorityId: assign({
 					higherPriorityId: (context, event) => event.higherPriorityTaskId as number
 				})
+			},
+			guards: {
+				isOpened: (context, event) => !context.canceled && !context.completed,
+				isCompleted: (context, event) => !!context.completed,
+				isCanceled: (context, event) => !!context.canceled
 			}
 		}
 	);
