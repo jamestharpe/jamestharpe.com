@@ -58,14 +58,6 @@ export function isTask(candidate: unknown) {
 	return result;
 }
 
-export function complete(task: Task) {
-	return { ...task, complete: Time.current(), canceled: undefined };
-}
-
-export function cancel(task: Task) {
-	return { ...task, complete: undefined, canceled: Time.current() };
-}
-
 export const taskPrioritizer = prioritizer;
 
 export function prioritize<T extends Task>(tasks: T[]) {

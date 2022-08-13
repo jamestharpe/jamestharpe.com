@@ -109,6 +109,7 @@
 		"Pocock",
 		"Pomodoro",
 		"prettierrc",
+		"Prioritizable",
 		"prioritizer",
 		"prismjs",
 		"RACI",
@@ -172,7 +173,7 @@
 	],
 	"explorer.fileNesting.enabled": true,
 	"explorer.fileNesting.patterns": {
-		"*.ts": "${capture}.js, ${capture}.spec.ts",
+		"*.ts": "${capture}.js, ${capture}.spec.ts, ${capture}.typegen.ts",
 		"*.tsx": "${capture}.ts, ${capture}.spec.ts, ${capture}.spec.tsx"
 	}
 }
