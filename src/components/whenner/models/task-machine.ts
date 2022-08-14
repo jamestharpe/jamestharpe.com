@@ -7,6 +7,7 @@ export default function createTaskMachine(task: Task | undefined) {
 	return createMachine(
 		{
 			context: task || taskFrom({}),
+			predictableActionArguments: true,
 			tsTypes: {} as import("./task-machine.typegen").Typegen0,
 			schema: {
 				context: {} as Task,

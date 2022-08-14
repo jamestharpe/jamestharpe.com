@@ -1,6 +1,7 @@
 {
 	/* Visit https://aka.ms/tsconfig.json to read more about this file */
 	"compilerOptions": {
+		"experimentalDecorators": true,
 		/* Basic Options */
 		// "allowJs": true,                       /* Allow javascript files to be compiled. */
 		// "checkJs": true,                       /* Report errors in .js files. */

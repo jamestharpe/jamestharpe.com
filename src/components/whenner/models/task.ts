@@ -28,7 +28,7 @@ export default interface Task
 		Prioritizable,
 		Estimable,
 		Completable {
-	readonly predecessorIds?: number[];
+	// TODO: readonly predecessorIds?: number[];
 	readonly supertaskId?: number;
 }
 
@@ -44,7 +44,7 @@ export const emptyTask: Task = {
 	id: 0,
 	higherPriorityId: 0,
 	title: "",
-	predecessorIds: [],
+	// TODO: predecessorIds: [],
 	supertaskId: undefined
 };
 
@@ -135,35 +135,30 @@ export function subtasksOf<T extends Task>(
 	return result && result.length > 0 ? result : undefined;
 }
 
-export function predecessorsOf<T extends Task>(
-	task: T,
-	candidates: T[]
-): T[] | undefined {
-	const result =
-		task && task.predecessorIds && candidates
-			? candidates.filter((candidate) =>
-					(task.predecessorIds || []).includes(candidate.id)
-			  )
-			: undefined;
-	return result && result.length > 0 ? result : undefined;
-}
+// export function predecessorsOf<T extends Task>(
+// 	task: T,
+// 	candidates: T[]
+// ): T[] | undefined {
+// 	const result =
+// 		task && task.predecessorIds && candidates
+// 			? candidates.filter((candidate) =>
+// 					(task.predecessorIds || []).includes(candidate.id)
+// 			  )
+// 			: undefined;
+// 	return result && result.length > 0 ? result : undefined;
+// }
 
-export function successorsOf<T extends Task>(task: T, candidates: T[]) {
-	const result =
-		task && candidates
-			? candidates.filter(
-					(candidate) =>
-						candidate.predecessorIds && candidate.predecessorIds.includes(task.id)
-			  )
-			: undefined;
-	return result && result.length > 0 ? result : undefined;
-}
+// export function successorsOf<T extends Task>(task: T, candidates: T[]) {
+// 	const result =
+// 		task && candidates
+// 			? candidates.filter(
+// 					(candidate) =>
+// 						candidate.predecessorIds && candidate.predecessorIds.includes(task.id)
+// 			  )
+// 			: undefined;
+// 	return result && result.length > 0 ? result : undefined;
+// }
 
 export function tasksIn<T extends Todo>(todos: T[]): T[] {
 	return todos.filter(isTask);
-}
-
-export interface TaskContext {
-	task: Task;
-	error?: string;
 }

@@ -69,6 +69,7 @@ function createPomodoro(initialContext?: Partial<PomodoroContext>) {
 		{
 			id: "pomodoro",
 			tsTypes: {} as import("./pomodoro-timer.typegen").Typegen0,
+			predictableActionArguments: true,
 			schema: {
 				context: {} as PomodoroContext,
 				events: {} as PomodoroEvents

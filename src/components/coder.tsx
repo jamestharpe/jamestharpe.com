@@ -35,6 +35,7 @@ function createCoderMachine(coderType: string) {
 	return createMachine(
 		{
 			tsTypes: {} as import("./coder.typegen").Typegen0,
+			predictableActionArguments: true,
 			schema: {
 				context: {} as {
 					input: string;
