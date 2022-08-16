@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 14 Aug 2022 01:32:37 GMT</lastBuildDate><item><title><![CDATA[1R Classification Algorithm]]></title><description><![CDATA[A simple classification machine learning algorithm]]></description><link>https://www.jamestharpe.com/1r-algorithm/</link><guid isPermaLink="false">https://www.jamestharpe.com/1r-algorithm/</guid><pubDate>Fri, 22 Jul 2022 16:46:40 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 16 Aug 2022 22:33:09 GMT</lastBuildDate><item><title><![CDATA[1R Classification Algorithm]]></title><description><![CDATA[A simple classification machine learning algorithm]]></description><link>https://www.jamestharpe.com/1r-algorithm/</link><guid isPermaLink="false">https://www.jamestharpe.com/1r-algorithm/</guid><pubDate>Fri, 22 Jul 2022 16:46:40 GMT</pubDate><content:encoded>&lt;p&gt;
 														A simple classification machine learning algorithm
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -153,16 +153,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/infrastructure-as-code/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>&lt;p&gt;
-														The URL-compatible form of base64 encoding
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/base64url/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[A method to encode binary data as ASCII for transport over text-based protocols]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>&lt;p&gt;
 														A method to encode binary data as ASCII for transport over text-based protocols
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/base64/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>&lt;p&gt;
+														The URL-compatible form of base64 encoding
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/base64url/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Snowflake Schemas]]></title><description><![CDATA[Star schemas with normalized dimension tables]]></description><link>https://www.jamestharpe.com/snowflake-schema/</link><guid isPermaLink="false">https://www.jamestharpe.com/snowflake-schema/</guid><pubDate>Wed, 22 Dec 2021 14:06:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														Star schemas with normalized dimension tables
 													&lt;/p&gt;
@@ -298,16 +298,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pipenv/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
-														How to manage virtual environments with Python, Pip, and VEnv
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/python-venvs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pip: Python's Package Manager]]></title><description><![CDATA[Python's default package manager]]></description><link>https://www.jamestharpe.com/python-pip/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-pip/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														Python&apos;s default package manager
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/python-pip/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
+														How to manage virtual environments with Python, Pip, and VEnv
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/python-venvs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python]]></title><description><![CDATA[An object-oriented and functional programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/python/</link><guid isPermaLink="false">https://www.jamestharpe.com/python/</guid><pubDate>Mon, 22 Nov 2021 16:39:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														An object-oriented and functional programing language where whitespace matters
 													&lt;/p&gt;
@@ -648,16 +648,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/containers/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
-														A system to conduct an orchestra of containers
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/kubernetes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes CLI: kubectl]]></title><description><![CDATA[The CLI interface for Kubernetes]]></description><link>https://www.jamestharpe.com/kubectl/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubectl/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
 														The CLI interface for Kubernetes
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/kubectl/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
+														A system to conduct an orchestra of containers
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/kubernetes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness]]></title><description><![CDATA[The opportunity for fair representation within a group]]></description><link>https://www.jamestharpe.com/scarf-model/</link><guid isPermaLink="false">https://www.jamestharpe.com/scarf-model/</guid><pubDate>Fri, 23 Jul 2021 14:11:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														The opportunity for fair representation within a group
 													&lt;/p&gt;
