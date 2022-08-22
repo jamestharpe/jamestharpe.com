@@ -7,7 +7,7 @@ date: 2022-03-16T12:14:29-04:00
 
 # Azure Synapse Analytics
 
-**Azure Synapse Analytics** is an integrated set of [data lake](data-lakes.md), [data warehouse](data-warehouses.md), and analytics services on [Azure](azure.md).
+**Azure Synapse Analytics** is an integrated set of [data lake](data-lakes.md), [data warehouse](data-warehouses.md), and [analytics](data-analysis.md) services on [Azure](azure.md).
 
 <!-- 
 Synapse Workspace / Studio ?
@@ -33,3 +33,4 @@ Overall platform:
 ## Azure Synapse Analytics Resources
 
 * [Azure Synapse Analytics Official Homepage](https://azure.microsoft.com/en-us/services/synapse-analytics/)
+* [Azure Synapse Role-Based Access Controls](https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-synapse-rbac-roles)

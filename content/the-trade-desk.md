@@ -1,7 +1,7 @@
 ---
 date: 2022-08-22T08:43:08-04:00
-description: "digital-marketing"
-tags: [ "A real-time media buying platform and marketing technology company" ]
+description: "A real-time media buying platform and marketing technology company"
+tags: [ "digital-marketing" ]
 title: "The Trade Desk"
 ---
 
