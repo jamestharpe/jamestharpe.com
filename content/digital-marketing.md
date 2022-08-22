@@ -1,6 +1,6 @@
 ---
 date: 2022-08-22T08:49:08-04:00
-description: "marketing"
+description: "Marketing in online channels"
 tags: [ "marketing" ]
 title: "Digital Marketing"
 ---
