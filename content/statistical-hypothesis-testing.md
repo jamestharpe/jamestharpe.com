@@ -9,6 +9,4 @@ title: "Statistical Hypothesis Testing"
 
 **Statistical hypothesis testing** is the use of observed [data](data.md) to draw conclusions about a claim regarding a larger dataset while addressing for variations in random samples used for statistical inference.
 
-<!-- TODO: Restore or replace ## Statistical hypothesis testing resources
-
-* [Statistical Hypothesis Testing by Jennifer Kensler, Ph.D.](https://www.afit.edu/stat/statcoe_files/Statistical%20Hypothesis%20Testing.pdf) -->
+* [Statistical Hypothesis Testing by Jennifer Kensler, Ph.D.](https://www.afit.edu/stat/statcoe_files/Statistical%20Hypothesis%20Testing.pdf)
