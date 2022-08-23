@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Aug 2022 15:29:20 GMT</lastBuildDate><item><title><![CDATA[Azure Synapse Analytics]]></title><description><![CDATA[An integrated set of data services on Microsoft Azure]]></description><link>https://www.jamestharpe.com/azure-synapse-analytics/</link><guid isPermaLink="false">https://www.jamestharpe.com/azure-synapse-analytics/</guid><pubDate>Tue, 23 Aug 2022 15:17:29 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Aug 2022 15:48:58 GMT</lastBuildDate><item><title><![CDATA[Azure Synapse Analytics]]></title><description><![CDATA[An integrated set of data services on Microsoft Azure]]></description><link>https://www.jamestharpe.com/azure-synapse-analytics/</link><guid isPermaLink="false">https://www.jamestharpe.com/azure-synapse-analytics/</guid><pubDate>Tue, 23 Aug 2022 15:17:29 GMT</pubDate><content:encoded>&lt;p&gt;
 														An integrated set of data services on Microsoft Azure
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -318,26 +318,26 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/devops/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Mypy]]></title><description><![CDATA[Static type checking for Python]]></description><link>https://www.jamestharpe.com/mypy/</link><guid isPermaLink="false">https://www.jamestharpe.com/mypy/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>&lt;p&gt;
-														Static type checking for Python
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/mypy/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pipenv]]></title><description><![CDATA[An alternative to pip and venv]]></description><link>https://www.jamestharpe.com/pipenv/</link><guid isPermaLink="false">https://www.jamestharpe.com/pipenv/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														An alternative to pip and venv
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pipenv/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
-														How to manage virtual environments with Python, Pip, and VEnv
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Mypy]]></title><description><![CDATA[Static type checking for Python]]></description><link>https://www.jamestharpe.com/mypy/</link><guid isPermaLink="false">https://www.jamestharpe.com/mypy/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>&lt;p&gt;
+														Static type checking for Python
 													&lt;/p&gt;
 													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/python-venvs/&quot;&gt;Read the article&lt;/a&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/mypy/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pip: Python's Package Manager]]></title><description><![CDATA[Python's default package manager]]></description><link>https://www.jamestharpe.com/python-pip/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-pip/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														Python&apos;s default package manager
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/python-pip/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
+														How to manage virtual environments with Python, Pip, and VEnv
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/python-venvs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python (Programming Language)]]></title><description><![CDATA[An object-oriented and functional programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/python/</link><guid isPermaLink="false">https://www.jamestharpe.com/python/</guid><pubDate>Mon, 22 Nov 2021 16:39:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														An object-oriented and functional programing language where whitespace matters
 													&lt;/p&gt;
@@ -1073,16 +1073,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/electrical-engineering/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
-														A visual formalism for complex systems
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/statecharts/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														Abstract representations of system state at a given point in time
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/state-machines/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
+														A visual formalism for complex systems
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/statecharts/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[XState (JavaScript Library)]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/xstate/</link><guid isPermaLink="false">https://www.jamestharpe.com/xstate/</guid><pubDate>Wed, 30 Dec 2020 18:03:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														A library to create state machines and state charts written in JavaScript
 													&lt;/p&gt;
