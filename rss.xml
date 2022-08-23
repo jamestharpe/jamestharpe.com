@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Aug 2022 14:16:56 GMT</lastBuildDate><item><title><![CDATA[Digital Marketing]]></title><description><![CDATA[Marketing in online channels]]></description><link>https://www.jamestharpe.com/digital-marketing/</link><guid isPermaLink="false">https://www.jamestharpe.com/digital-marketing/</guid><pubDate>Mon, 22 Aug 2022 12:49:08 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 23 Aug 2022 14:21:34 GMT</lastBuildDate><item><title><![CDATA[Pandas Python Library]]></title><description><![CDATA[An open source data visualization library for Python]]></description><link>https://www.jamestharpe.com/seaborn/</link><guid isPermaLink="false">https://www.jamestharpe.com/seaborn/</guid><pubDate>Tue, 23 Aug 2022 14:07:58 GMT</pubDate><content:encoded>&lt;p&gt;
+														An open source data visualization library for Python
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/seaborn/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Exploratory Data Analysis (EDA)]]></title><description><![CDATA[Research into an unfamiliar dataset, aimed at pattern discovery, assumption verification, and data summarization]]></description><link>https://www.jamestharpe.com/exploratory-data-analysis/</link><guid isPermaLink="false">https://www.jamestharpe.com/exploratory-data-analysis/</guid><pubDate>Tue, 23 Aug 2022 13:38:58 GMT</pubDate><content:encoded>&lt;p&gt;
+														Research into an unfamiliar dataset, aimed at pattern discovery, assumption verification, and data summarization
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/exploratory-data-analysis/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pandas Python Library]]></title><description><![CDATA[An open source data analysis and manipulation library for Python]]></description><link>https://www.jamestharpe.com/pandas/</link><guid isPermaLink="false">https://www.jamestharpe.com/pandas/</guid><pubDate>Tue, 23 Aug 2022 13:38:58 GMT</pubDate><content:encoded>&lt;p&gt;
+														An open source data analysis and manipulation library for Python
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/pandas/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Digital Marketing]]></title><description><![CDATA[Marketing in online channels]]></description><link>https://www.jamestharpe.com/digital-marketing/</link><guid isPermaLink="false">https://www.jamestharpe.com/digital-marketing/</guid><pubDate>Mon, 22 Aug 2022 12:49:08 GMT</pubDate><content:encoded>&lt;p&gt;
 														Marketing in online channels
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -163,16 +178,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/infrastructure-as-code/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>&lt;p&gt;
-														The URL-compatible form of base64 encoding
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/base64url/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Base64]]></title><description><![CDATA[A method to encode binary data as ASCII for transport over text-based protocols]]></description><link>https://www.jamestharpe.com/base64/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>&lt;p&gt;
 														A method to encode binary data as ASCII for transport over text-based protocols
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/base64/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Base64url]]></title><description><![CDATA[The URL-compatible form of base64 encoding]]></description><link>https://www.jamestharpe.com/base64url/</link><guid isPermaLink="false">https://www.jamestharpe.com/base64url/</guid><pubDate>Sun, 26 Dec 2021 10:28:27 GMT</pubDate><content:encoded>&lt;p&gt;
+														The URL-compatible form of base64 encoding
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/base64url/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Snowflake Schemas]]></title><description><![CDATA[Star schemas with normalized dimension tables]]></description><link>https://www.jamestharpe.com/snowflake-schema/</link><guid isPermaLink="false">https://www.jamestharpe.com/snowflake-schema/</guid><pubDate>Wed, 22 Dec 2021 14:06:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														Star schemas with normalized dimension tables
 													&lt;/p&gt;
@@ -528,16 +543,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/windows-unpinned-items-return-on-restart/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>&lt;p&gt;
-														Quick and easy to copy recipes for JavaScript and TypeScript
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/js-recipes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>&lt;p&gt;
 														Recipe to get the unique elements from a JavaScript Array
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/js-get-unique-array-elements/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JavaScript (and TypeScript) recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>&lt;p&gt;
+														Quick and easy to copy recipes for JavaScript and TypeScript
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/js-recipes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Unsplash: Royalty-free Photos]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>&lt;p&gt;
 														Royalty free, high-resolution photos
 													&lt;/p&gt;
@@ -1203,31 +1218,31 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-initiative/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Useful open source software projects
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-hardware/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A list of open-source programming languages I&apos;ve learned (at least a little bit)
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Useful open source software projects
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-hardware/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Organizations dedicated to open-source
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source]]></title><description><![CDATA[Information and resources about open-source]]></description><link>https://www.jamestharpe.com/open-source/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Information and resources about open-source
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-software/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source]]></title><description><![CDATA[Information and resources about open-source]]></description><link>https://www.jamestharpe.com/open-source/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Information and resources about open-source
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Apache Software Foundation (ASF)]]></title><description><![CDATA[Overview of the Apache Software Foundation (ASF)]]></description><link>https://www.jamestharpe.com/apache/</link><guid isPermaLink="false">https://www.jamestharpe.com/apache/</guid><pubDate>Tue, 08 Dec 2020 12:44:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Overview of the Apache Software Foundation (ASF)
 													&lt;/p&gt;
@@ -1513,6 +1528,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/azure/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[List of Open Datasets]]></title><description><![CDATA[A list of freely available datasets for use in analytics and machine learning]]></description><link>https://www.jamestharpe.com/open-datasets/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-datasets/</guid><pubDate>Sun, 15 Nov 2020 23:22:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														A list of freely available datasets for use in analytics and machine learning
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-datasets/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Computer Languages]]></title><description><![CDATA[Computer Languages: How humans tell computers what to do]]></description><link>https://www.jamestharpe.com/computer-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/computer-languages/</guid><pubDate>Sun, 15 Nov 2020 22:31:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														Computer Languages: How humans tell computers what to do
 													&lt;/p&gt;
