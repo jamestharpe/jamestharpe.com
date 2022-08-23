@@ -1,13 +1,13 @@
 ---
 date: 2022-08-23T09:38:58-04:00
 description: "Research into an unfamiliar dataset, aimed at pattern discovery, assumption verification, and data summarization"
-tags: [ "data-wrangling" ]
+tags: [ "data-analysis", "data-wrangling" ]
 title: "Exploratory Data Analysis (EDA)"
 ---
 
 # Exploratory data analysis (EDA)
 
-**Exploratory data analysis (EDA)** an aspect of [data wrangling](data-wrangling.md) that consists of preliminary investigations into an unfamiliar dataset that aim to detect patterns, identify anomalies, check assumptions, and summarize the data to ensure it is well understood before using it in a broader context, such as using it as [machine learning](machine-learning.md) input.
+**Exploratory data analysis (EDA)** an aspect of [data analysis](data-analysis.md) and [data wrangling](data-wrangling.md) that consists of preliminary investigations into an unfamiliar dataset that aim to detect patterns, identify anomalies, check assumptions, and summarize the data to ensure it is well understood before using it in a broader context, such as using it as [machine learning](machine-learning.md) input.
 
 EDA often starts simply, by determining the numbers of columns (characteristics) and rows (observations), whether data is missing or corrupt, and the data type of each column. Basic aggregate functions can be applied to values to determine the count, mean, standard deviation, minimum, and maximum values for each characteristic. Data may also be broken down into quartiles or other bins to note various tendencies the data may have.
 

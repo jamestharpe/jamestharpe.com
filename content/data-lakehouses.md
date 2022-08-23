@@ -1,7 +1,7 @@
 ---
 date: 2022-03-16T12:58:38-04:00
 description: "A combination of data lakes and data warehouses"
-tags: ["data-lakes", "data-warehouses", "data-products", "data-analysis", "data-science"]
+tags: [ "data-lakes", "data-warehouses", "data-products" ]
 title: "Data Lakehouses"
 ---
 

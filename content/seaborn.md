@@ -1,7 +1,7 @@
 ---
 date: 2022-08-23T10:07:58-04:00
 description: "An open source data visualization library for Python"
-tags: [ "python", "open-source-software", "data-analysis", "data-science" ]
+tags: [ "python-data-libs", "open-source-software" ]
 title: "Seaborn Python Library"
 ---
 
