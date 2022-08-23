@@ -13,9 +13,13 @@ title: "Azure Synapse Analytics"
 
 In Synapse, a **linked service** is a connection to a data store that makes it available within the Synapse environment, similar to the concept of a connection string. Each linked service defines the information needed to connect to the external resource. External data sources can include a wide variety of storage types including other databases, storage accounts, and application APIs.
 
+## Integration datasets
+
+An **integration dataset** specifies the specific location (e.g. the folder, file, table, etc.) and format (e.g. parquet, json, etc.) of data made available by a linked service so that it can be used in a pipeline or activity.
+
 ## Integration runtimes
 
-In Synapse, an **integration runtime** is the compute infrastructure used by Synapse to execute pipelines. An integration run time executes data flows, copies data across data stores, dispatches transformation activities, and executes SSIS packages. Synapse pipelines support Azure-hosted or self-hosted integration runtimes.
+An **integration runtime** is the compute infrastructure used by Synapse to execute pipelines. An integration run time executes data flows, copies data across data stores, dispatches transformation activities, and executes SSIS packages. Synapse pipelines support Azure-hosted or self-hosted integration runtimes.
 
 <!-- 
 Synapse Workspace / Studio ?
