@@ -13,3 +13,4 @@ title: "Microsoft Azure"
 
 * [Microsoft Azure Official Homepage](https://azure.microsoft.com/)
 * [Azure Open Datasets](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-catalog)
+* [Azure Fundamentals certification](https://docs.microsoft.com/en-us/certifications/azure-fundamentals/)
