@@ -46,4 +46,5 @@ Overall platform:
 
 * [Azure Synapse Analytics Official Homepage](https://azure.microsoft.com/en-us/services/synapse-analytics/)
 * [Azure Synapse Role-Based Access Controls](https://docs.microsoft.com/en-us/azure/synapse-analytics/security/synapse-workspace-synapse-rbac-roles)
+* [Azure Synapse code examples](https://github.com/Azure-Samples/Synapse)
 * [Use external tables with Synapse SQL](https://docs.microsoft.com/en-us/azure/synapse-analytics/sql/develop-tables-external-tables?tabs=native)
