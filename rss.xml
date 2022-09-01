@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 24 Aug 2022 14:15:33 GMT</lastBuildDate><item><title><![CDATA[Azure Synapse Analytics]]></title><description><![CDATA[An integrated set of data services on Microsoft Azure]]></description><link>https://www.jamestharpe.com/azure-synapse-analytics/</link><guid isPermaLink="false">https://www.jamestharpe.com/azure-synapse-analytics/</guid><pubDate>Tue, 23 Aug 2022 15:17:29 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 01 Sep 2022 14:24:32 GMT</lastBuildDate><item><title><![CDATA[Formerly Known As (FKA) (Agency)]]></title><description><![CDATA[A list of freely available datasets for use in analytics and machine learning]]></description><link>https://www.jamestharpe.com/fka/</link><guid isPermaLink="false">https://www.jamestharpe.com/fka/</guid><pubDate>Thu, 25 Aug 2022 14:06:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														A list of freely available datasets for use in analytics and machine learning
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/fka/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Azure Synapse Analytics]]></title><description><![CDATA[An integrated set of data services on Microsoft Azure]]></description><link>https://www.jamestharpe.com/azure-synapse-analytics/</link><guid isPermaLink="false">https://www.jamestharpe.com/azure-synapse-analytics/</guid><pubDate>Tue, 23 Aug 2022 15:17:29 GMT</pubDate><content:encoded>&lt;p&gt;
 														An integrated set of data services on Microsoft Azure
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -1488,16 +1493,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/aws-cloudformation/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Command-line shortcuts for Git
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/git-aliases/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A Bash emulator and terminal for Windows
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/git-bash/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Command-line shortcuts for Git
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/git-aliases/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A technique to version-control and automate the deployment of database schemas
 													&lt;/p&gt;
