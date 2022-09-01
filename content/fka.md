@@ -12,4 +12,3 @@ title: "Formerly Known As (FKA) (Agency)"
 ## FKA resources
 
 * [Official FKA Website](https://www.wearefka.com/)
-* [FKA on LinkedIn](https://www.linkedin.com/company/formerly-known-as/)
