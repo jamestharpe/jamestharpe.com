@@ -19,6 +19,6 @@ title: "Data Visualizations"
 
 -->
 
-## Data Visualization Resources
+<!-- ## Data Visualization Resources -->
 
 * [Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
