@@ -1,7 +1,7 @@
 ---
 date: 2020-12-04T09:14:46-04:00
 description: "How to find the interquartile range (IQR) of a number collection"
-tags: [ "statistics", "median" ]
+tags: [ "dispersions", "averages" ]
 title: "Interquartile Range (IQR)"
 ---
 
@@ -11,7 +11,7 @@ title: "Interquartile Range (IQR)"
 
 To find the interquartile range of a collection:
 
-1. Find the [median](median.md) of the collection
+1. Find the [median](averages.md) of the collection
 2. Find the median of lower and upper half of the collection, leaving out the median number(s)
 3. Subtract the lower half's median from the upper half's median. The difference is the $IQR$
 

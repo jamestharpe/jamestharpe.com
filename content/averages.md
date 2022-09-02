@@ -1,14 +1,14 @@
 ---
 date: 2022-09-02T13:00:19-04:00
-description: "How to calculate the mean, median, and mode of a set of numbers"
+description: "Usage and calculations for mean, median, and mode on a set of numbers"
 redirect_from: ["/arithmetic-mean", "/median"]
-tags: [ "statistics" ]
-title: "Types of Averages"
+tags: [ "statistics", "dispersions" ]
+title: "Averages: Measures of Central Tendency"
 ---
 
-# Averages and types of averages
+# Averages: Measures of central tendency
 
-An **average** is a [statistical](statistics.md) method to summarize the central tendency of a set of numerical [data](data.md). The three types of averages are mean, median, and mode.
+An **average** is a [statistical](statistics.md) method to summarize the central tendency, as opposed to the [spread](dispersions.md), of a set of numerical [data](data.md). The three types of averages are mean, median, and mode.
 
 ## Arithmetic mean
 
