@@ -11,6 +11,12 @@ title: "Data Visualizations"
 
 ## Candlestick
 
+## Histogram
+
+A **histogram** shows the distribution of a single variable across all values for that variable and illustrates where data is [concentrated](averages.md) and how it is [distributed](dispersions.md) by plotting the number of occurrences of each value.
+
+![basic histogram](/img/histogram.png)
+
 ## Sparkline
 
 ## Treemap
@@ -19,6 +25,6 @@ title: "Data Visualizations"
 
 -->
 
-## Data Visualization Resources
+<!-- ## Data Visualization Resources -->
 
 * [Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
