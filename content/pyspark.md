@@ -40,3 +40,31 @@ def drop_null_columns(from_df):
 
     return from_df.drop(*col_to_drop)
 ```
+
+## Remove columns where every row contains the same value
+
+Datasets occasionally contain columns that are useless because they only contain one value across all rows. The following `drop_mono_columns` function will remove all such columns (including columns containing all nulls):
+
+```python
+import pyspark.sql.functions as sqlf
+
+def drop_mono_columns(from_df):
+    first_row = df_impressions.limit(1).collect()[0]
+    candidates = df_impressions.select(
+        [
+            sqlf.count(
+				sqlf.when(sqlf.col(column) != first_row[column], column)
+			).alias(column)
+            for column in df_impressions.columns
+        ]
+    ).collect()[0].asDict()
+
+    mono_cols = [key for key, value in candidates.items() if value == 0]
+
+    print(f"Dropping columns: {mono_cols}")
+
+    if len(mono_cols) > 0:
+        return from_df.drop(*mono_cols)
+    else:
+        return from_df
+```
