@@ -2,10 +2,10 @@
 date: 2022-09-09T10:47:16-04:00
 description: "A list of freely available datasets for use in analytics and machine learning"
 tags: [ "data-science", "information" ]
-title: "List of Open Datasets"
+title: "List of Public and Open Datasets"
 ---
 
-# List of Open Datasets
+# List of Public and Open Datasets
 
 * [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets) is a GitHub repository of open datasets organized by topic.
 * [Azure Open Datasets](https://docs.microsoft.com/en-us/azure/open-datasets/dataset-catalog) contains a curated list of open datasets that are easy to ingest into Azure environments, such as [Azure Synapse Analytics](azure-synapse-analytics.md), and can be used independently or to augment 1st party data.
