@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 13 Sep 2022 15:30:28 GMT</lastBuildDate><item><title><![CDATA[PySpark Recipes for Data Cleansing, Analysis, and Science]]></title><description><![CDATA[Recipes for using PySpark]]></description><link>https://www.jamestharpe.com/pyspark/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark/</guid><pubDate>Fri, 09 Sep 2022 14:53:58 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 27 Sep 2022 13:26:21 GMT</lastBuildDate><item><title><![CDATA[Internet Advertising Bureau (IAB)]]></title><description><![CDATA[A trade group that conducts research and provides education on interactive advertising]]></description><link>https://www.jamestharpe.com/iab/</link><guid isPermaLink="false">https://www.jamestharpe.com/iab/</guid><pubDate>Tue, 27 Sep 2022 13:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
+														A trade group that conducts research and provides education on interactive advertising
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/iab/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipes for Data Cleansing, Analysis, and Science]]></title><description><![CDATA[Recipes for using PySpark]]></description><link>https://www.jamestharpe.com/pyspark/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark/</guid><pubDate>Fri, 09 Sep 2022 14:53:58 GMT</pubDate><content:encoded>&lt;p&gt;
 														Recipes for using PySpark
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -708,16 +713,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/containers/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
-														A system to conduct an orchestra of containers
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/kubernetes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes CLI: kubectl]]></title><description><![CDATA[The CLI interface for Kubernetes]]></description><link>https://www.jamestharpe.com/kubectl/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubectl/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
 														The CLI interface for Kubernetes
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/kubectl/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
+														A system to conduct an orchestra of containers
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/kubernetes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness]]></title><description><![CDATA[The opportunity for fair representation within a group]]></description><link>https://www.jamestharpe.com/scarf-model/</link><guid isPermaLink="false">https://www.jamestharpe.com/scarf-model/</guid><pubDate>Fri, 23 Jul 2021 14:11:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														The opportunity for fair representation within a group
 													&lt;/p&gt;
@@ -1103,16 +1108,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/electrical-engineering/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
-														A visual formalism for complex systems
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/statecharts/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														Abstract representations of system state at a given point in time
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/state-machines/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
+														A visual formalism for complex systems
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/statecharts/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[XState (JavaScript Library)]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/xstate/</link><guid isPermaLink="false">https://www.jamestharpe.com/xstate/</guid><pubDate>Wed, 30 Dec 2020 18:03:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														A library to create state machines and state charts written in JavaScript
 													&lt;/p&gt;
@@ -1258,11 +1263,6 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Organizations dedicated to open-source
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
@@ -1273,6 +1273,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-software/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Organizations dedicated to open-source
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source]]></title><description><![CDATA[Information and resources about open-source]]></description><link>https://www.jamestharpe.com/open-source/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Information and resources about open-source
 													&lt;/p&gt;
@@ -1328,16 +1333,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/watts-law/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
-														Overview of folders in the root of most Linux distributions
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/linux-file-system/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														A free and open-source operating system
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/linux/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
+														Overview of folders in the root of most Linux distributions
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/linux-file-system/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[A small, reliable 3D printer appropriate for home use]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														A small, reliable 3D printer appropriate for home use
 													&lt;/p&gt;
@@ -1508,16 +1513,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/aws-cloudformation/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Command-line shortcuts for Git
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/git-aliases/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A Bash emulator and terminal for Windows
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/git-bash/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Command-line shortcuts for Git
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/git-aliases/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A technique to version-control and automate the deployment of database schemas
 													&lt;/p&gt;
@@ -1628,16 +1633,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/rxjs/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Angular (TypeScript Framework)]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;p&gt;
-														Learn Angular
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/angular/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;p&gt;
 														Learn Angular
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/angular-cli/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Angular (TypeScript Framework)]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;p&gt;
+														Learn Angular
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/angular/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Torque]]></title><description><![CDATA[Learn about torque: Force that causes an object to rotate around an axis.]]></description><link>https://www.jamestharpe.com/torque/</link><guid isPermaLink="false">https://www.jamestharpe.com/torque/</guid><pubDate>Thu, 09 Jan 2020 15:21:47 GMT</pubDate><content:encoded>&lt;p&gt;
 														Learn about torque: Force that causes an object to rotate around an axis.
 													&lt;/p&gt;
