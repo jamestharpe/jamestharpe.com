@@ -91,7 +91,7 @@ misclassifications to provide more detail on model accuracy.
 For example, we may have a [classification model](classification-learning.md) that predicts whether a user will "like" or "dislike"
 a post on social media in which the model accurately predicts the user's input 60% of the time. The model therefore has a 60%
 accuracy rate and a 40% error rate. The confusion matrix for this model might look something like the following table, illustrating that the
-model performs better for predicting "like" classes than "dislike" classes.
+model performs better for predicting "dislike" classes than "like" classes.
 
 <table>
 	<tr>
@@ -112,6 +112,11 @@ model performs better for predicting "like" classes than "dislike" classes.
 		<td>Dislike</td>
 		<td>3</td>
 		<td>3</td>
+	</tr>
+	<tr>
+		<th colspan="3">Accuracy</th>
+		<td>50%</td>
+		<td>75%</td>
 	</tr>
 </table>
 
