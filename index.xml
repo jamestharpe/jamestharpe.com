@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 27 Sep 2022 13:26:21 GMT</lastBuildDate><item><title><![CDATA[Internet Advertising Bureau (IAB)]]></title><description><![CDATA[A trade group that conducts research and provides education on interactive advertising]]></description><link>https://www.jamestharpe.com/iab/</link><guid isPermaLink="false">https://www.jamestharpe.com/iab/</guid><pubDate>Tue, 27 Sep 2022 13:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 25 Oct 2022 18:59:08 GMT</lastBuildDate><item><title><![CDATA[Data Lakehouses]]></title><description><![CDATA[A combination of data lakes and data warehouses]]></description><link>https://www.jamestharpe.com/data-lakehouses/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-lakehouses/</guid><pubDate>Tue, 25 Oct 2022 18:38:38 GMT</pubDate><content:encoded>&lt;p&gt;
+														A combination of data lakes and data warehouses
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/data-lakehouses/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Internet Advertising Bureau (IAB)]]></title><description><![CDATA[A trade group that conducts research and provides education on interactive advertising]]></description><link>https://www.jamestharpe.com/iab/</link><guid isPermaLink="false">https://www.jamestharpe.com/iab/</guid><pubDate>Tue, 27 Sep 2022 13:07:19 GMT</pubDate><content:encoded>&lt;p&gt;
 														A trade group that conducts research and provides education on interactive advertising
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -183,11 +188,6 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/azure-data-lake-gen2/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Data Lakehouses]]></title><description><![CDATA[A combination of data lakes and data warehouses]]></description><link>https://www.jamestharpe.com/data-lakehouses/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-lakehouses/</guid><pubDate>Wed, 16 Mar 2022 16:58:38 GMT</pubDate><content:encoded>&lt;p&gt;
-														A combination of data lakes and data warehouses
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/data-lakehouses/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Data Lakes]]></title><description><![CDATA[Centralized repositories of raw data from a wide range of sources]]></description><link>https://www.jamestharpe.com/data-lakes/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-lakes/</guid><pubDate>Wed, 16 Mar 2022 16:57:35 GMT</pubDate><content:encoded>&lt;p&gt;
 														Centralized repositories of raw data from a wide range of sources
 													&lt;/p&gt;
@@ -1213,16 +1213,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/visjs/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;p&gt;
-														An end-to-end DevOps tool chain centered on Git
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/gitlab-ci-cd-tips/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														Tips for working in GitLab CI/CD
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/gitlab-ci-cd/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;p&gt;
+														An end-to-end DevOps tool chain centered on Git
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/gitlab-ci-cd-tips/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														Continuous Integration and Continuous Deployment (CI/CD)
 													&lt;/p&gt;
@@ -1258,16 +1258,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-initiative/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														A list of open-source programming languages I&apos;ve learned (at least a little bit)
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-hardware/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														A list of open-source programming languages I&apos;ve learned (at least a little bit)
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
