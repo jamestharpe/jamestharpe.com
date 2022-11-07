@@ -1,7 +1,7 @@
 ---
 date: 2022-11-07T12:26:22-04:00
 description: "How to drop columns in a dataframe that contain only a single value or all nulls"
-tags: ["pyspark", "code-recipes", ]
+tags: ["pyspark-recipes"]
 title: "PySpark Recipe: Drop single-value columns"
 ---
 

@@ -1,7 +1,7 @@
 ---
 date: 2022-11-07T12:26:22-04:00
 description: "How to Conditionally replace a column's values in PySpark"
-tags: ["pyspark", "code-recipes", ]
+tags: ["pyspark-recipes"]
 title: "PySpark Recipe: Conditionally replace a column's values"
 ---
 
