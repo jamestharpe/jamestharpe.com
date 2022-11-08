@@ -97,6 +97,13 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 								src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/stackoverflow.svg"
 							/>
 						</a>{" "}
+						<a href="https://github.com/jamestharpe/">
+							<img
+								alt="James Tharpe's GitHub"
+								width="22px"
+								src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"
+							/>
+						</a>
 						<a href="https://gitlab.com/jamestharpe">
 							<img
 								alt="James Tharpe's GitLab"

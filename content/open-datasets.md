@@ -12,5 +12,6 @@ title: "List of Public and Open Datasets"
 * [Data.gov Catalog](https://catalog.data.gov/dataset) contains datasets collected and freely published by the US government
 * [Federal Aviation Administration Data & Research](https://www.faa.gov/data_research) contains datasets related to air transportation and funding
 * [Government of Canada Open Data](https://open.canada.ca/en/open-data) contains datasets collected and freely published by the Canadian government
+* [Kaggle Open Datasets for Machine Learning](https://www.kaggle.com/datasets)
 * [NASA Datasets and Images](https://data.giss.nasa.gov/) contains datasets from multiple research projects on climate, weather, astrophysics, planets, oceans, and more.
 * [UCI Machine Learning Datasets Repository](https://archive.ics.uci.edu/ml/datasets.php) contains 622 datasets that capture a wide range of data and are suitable for use in various machine learning exercises.
