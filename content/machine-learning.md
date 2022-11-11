@@ -1,5 +1,5 @@
 ---
-date: 2020-12-03T09:18:46-04:00
+date: 2022-11-11T17:12:00-04:00
 description: "Machine learning terms, processes, and methods"
 tags: [ "data-science", "artificial-intelligence" ]
 title: "Machine Learning (ML)"
@@ -9,11 +9,33 @@ title: "Machine Learning (ML)"
 
 **Machine Learning (ML)** is an approach to [artificial intelligence](artificial-intelligence.md) that combines [statistics](statistics.md) and [data science](data-science.md) to develop and apply algorithms that improve their output through experience without being explicitly programmed to do so; in other words, algorithms that can "learn" to detect patterns, make decisions, and predict outcomes.
 
+In it's simplest form, machine learning consists of several inputs, called features, a model, and an output that represents some sort of prediction.
+
+```mermaid
+graph LR
+    In1[Feature 1] -->Model[[Model]]
+    In2[Feature 2] -->Model
+    In3[Feature 3] -->Model
+    Model --> Output(("Output<br/>(prediction)"))
+```
+
+## What are features?
+
+Inputs to a machine learning model are called **features** and consist of [statistical data types](statistical-data-types.md). Types of features include:
+
+* **Numerical features**, sometimes called **quantitative features** are numbers. The n umbers may be either **discrete** (e.g. the number of votes in an election) or **continuous** (e.g. the volume of water in a glass).
+* **Categorical features**, also known as **qualitative features**, consists of descriptive data that does not have a mathematical meaning. For example: Gender, color, and favorite food are all types of categorical data. Qualitative/categorical features are input into models using **one-hot encoding**.
+* **Ordinal features** are a mix of categorical and numerical data, where the data fall into numerical categories. For example: a 5-points scale for product reviews.
+
+## Types of machine learning
+
+[**Supervised learning**](ml-supervised.md) uses labeled input, meaning the input model training data includes the output value to be predicted by the model. An example of supervised learning would be training a model to recognize animals by feeding it pictures of animals that are already labeled (e.g. dog, cat, giraffe...)
+
+**Unsupervised learning** uses unlabeled input to find patterns within the data. For example, unsupervised learning might be used to identify market segments from existing customer data.
+
+**Reinforcement learning** uses "rewards" and "penalties" in an interactive environment to train specific behaviors. An example of reinforcement learning is teaching a computer to play a video game.
+
 <!-- TODO:
-
-Classification - Make a decision/prediction involving two or more categories or outcomes. e.g. accept/reject a loan
-
-Regression - Predict an outcome based on one or more input variables. e.g. how much will a house sell for based on size, location, etc.
 
 Clustering - Group objects together based on similarities in data. For example, identifying marketing segments based on customer demographics.
 
@@ -77,48 +99,6 @@ graph TD
       Model --> Use[Use the Model]
     end
 ```
-
-## Machine learning model evaluation
-
-Typically, when a machine learning model is trained, some portion of the training data is withheld for use in model evaluation.
-The model is then used to predict the withheld data. The predictions are then compared to the actual values to derive an
-**accuracy rate**, which represents the overall accuracy of the model, and an **error rate** which represents the number of "bad"
-predictions made by the model.
-
-Accuracy and error rates are useful; however, they treat all misclassifications as being equally bad. A **confusion matrix** plots the
-misclassifications to provide more detail on model accuracy.
-
-For example, we may have a [classification model](classification-learning.md) that predicts whether a user will "like" or "dislike"
-a post on social media in which the model accurately predicts the user's input 60% of the time. The model therefore has a 60%
-accuracy rate and a 40% error rate. The confusion matrix for this model might look something like the following table, illustrating that the
-model performs better for predicting "dislike" classes than "like" classes.
-
-<table>
-	<tr>
-		<td rowspan="2" colspan="3"></td>
-		<th colspan="2">Predicted class</th>
-	</tr>
-	<tr>
-		<td>Like</td>
-		<td>Dislike</td>
-	</tr>
-	<tr>
-		<th rowspan="2" colspan="2">Actual class</th>
-		<td>Like</td>
-		<td>3</td>
-		<td>1</td>
-	</tr>
-	<tr>
-		<td>Dislike</td>
-		<td>3</td>
-		<td>3</td>
-	</tr>
-	<tr>
-		<th colspan="3">Accuracy</th>
-		<td>50%</td>
-		<td>75%</td>
-	</tr>
-</table>
 
 ## Machine learning resources
 

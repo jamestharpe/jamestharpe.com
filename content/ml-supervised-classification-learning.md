@@ -1,13 +1,16 @@
 ---
 date: 2022-07-22T10:27:40-04:00
 description: "A type of machine learning that classifies entities based on their characteristics"
-tags: [ "machine-learning", "data-mining" ]
+redirect_from: ["/classification-learning/"]
+tags: [ "ml-supervised", "data-mining" ]
 title: "Classification Learning"
 ---
 
 # Classification learning
 
-**Classification learning** is a type of [machine learning](machine-learning.md) that classifies entities based on their characteristics Classification learning works by giving a classification learning algorithm a set of training examples that have already been classified; the algorithm then produces a model that can be used to classify other, unclassified entities. Classification outputs predict a single, nominal attribute of each input entity. A **nominal attribute** is a label or classification that is mutually exclusive to the entity (it can have one and only one value).
+**Classification learning** is a type of [supervised machine learning](ml-supervised.md) that classifies entities into two or more based on their characteristics. Classification models that predict between exactly two categories are called **binary classification** models. Models that predict among three or more categories are called **multi-class classification** models.
+
+Classification learning works by giving a classification learning algorithm a set of training examples that have already been classified; the algorithm then produces a model that can be used to classify other, unclassified entities. Classification outputs predict a single, nominal attribute of each input entity. A **nominal attribute** is a label or classification that is mutually exclusive to the entity (it can have one and only one value).
 
 A simple example of this would be to classifying whether a customer will buy a new mobile phone in the next year as a simple "yes" or "no" classification. The training data might look something like this (but with with thousands more records):
 
