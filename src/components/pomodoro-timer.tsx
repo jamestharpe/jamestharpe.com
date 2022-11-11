@@ -65,84 +65,124 @@ function createPomodoro(initialContext?: Partial<PomodoroContext>) {
 		...defaultPomodoroContext,
 		...initialContext
 	};
+	/** @xstate-layout N4IgpgJg5mDOIC5QAcD2BbVFUCdUDoBLCAGzAGIA5AUQA0AVAbQAYBdRFVWQgF0NQB2HEAA9EARgAsk-MzlyAbOIWSATMwCsygDQgAnogUBOGQHZJRgBwbVJ5kfOWAvk91pM2PPhwBXAQMIBKCIeMBwAQz4g8hZ2JBA0bj5BYTEESQBmVVkM8VUMiyzVSQ0NXQMEBXt8cyMjTUtmEo0M51cEjCxcAl9-QOCAd1wAa37yAAUAQQBVAGVqWOFE3n4heLTxU3N8fLUjDVMMoxVTVXLEEst8OrrG0slLUzyXN07PHr8AoPwhnFHo2YAaQAkuNFvFlsk1qA0qYVLJJApLNYFBpGgoFOdKttilYMrk1MiHC8Oh5ut5Pv0fiMxuDOElVqlEHCZE0kSi0cwMViFKorrijAS4RlTCT3F0vL0voMadERLAeJEwPhwgAzUI4AAU4nkAEpyOL3hS+t9fv8oHSOgyUutEDYNNdVOJLNIiryHliNNIahYTAo4ZZ-UoxW9yVKqWbIFQ6Ew2EsuCsbTCJFyjPg8lp7FlmKdVKYeSV8L7BRkNKjmPlVCGyZLKaaRlGAErUcbUSaxuL0xPQ0TMuo1Sx5cyZOG2IxY-GmIs3QOcjTHNqvGsfE3BHBwKJQCYzeaWyGM20ITY4gq2A5HE5nfR2nXXG5IjTMAriOoaasSlfS7wbsZA0F7hMoSZI9JCkdMywyVFTHsSRTGOHknhqG5NCUTJNCMd8jXDb51wVWk4whQCD2TECwPECCoJguDMWvBBTDRO86l5CtNh1DJMLDOs1x-OUFSVFV1TCbU9QNUNa1Xb88KCADrR7DZlAUHJxBFfEh0DSRPUaac6nMGwjCkL0OPEr9cNCCBowYGTu2AqQMWuLlIIOJ1TjyLFGhkGcFEg5FVDHIzPypUymxbNsO3jWSbOkNNLHqejpBipp8R5F8kLqTYMQOA5xH841pXIahKAAESsoDD3I1l5C5ZQ1E0HRaPUGRHzkExnS5TLF1JD98GQcIfFgYLZmmABZBYCK7UqSOKZh7PdMtAxij1aP2RTfWsOFeUfNQcp6vqowK4qxqtayyq9WRKqUFR1C0GiKksDIzuYHUKwcu7fJcdoBCwOB42XIhSDAcLjpItQsUFfAmvsJ5BRsJ8MPaQ1OIk3gwkifpAYm3sEDzB16lmpEkRMSxPVOH06iaeadWKHLsJlP40cIiLDyc2RoIyOQ7oDaweUe0nBVgzZfIeamuOpP5IHR4jMf0q5WakY5eRFcjuauYssl5NbNmFiTTPp8bJY2J1sk2BxGiJSmeRFbTjmKLZjC2+GxICnCN3Fhmgcx8jkXwQdVBaZ1IL5QMsUOcRtNnO5Tzhpcupp-ASHCBUJaTTG+Wm3HijmgnFoqaCp1qBaCdKI4telJO5MQXyp3Tkp8YWon6oecH5EsQ2jHUdXtt6-qIDLmyFsYl0ChFB4g9ozIPJuUxAzkMsLH83vDwAWhuxBl-epwgA */
 	return createMachine(
 		{
-			id: "pomodoro",
+			context: context,
 			tsTypes: {} as import("./pomodoro-timer.typegen").Typegen0,
-			predictableActionArguments: true,
-			schema: {
-				context: {} as PomodoroContext,
-				events: {} as PomodoroEvents
-			},
+			schema: { context: {} as PomodoroContext, events: {} as PomodoroEvents },
+			id: "pomodoro",
 			initial: "idle",
-			context,
 			states: {
 				idle: {
 					on: {
-						NEXT: "running"
+						NEXT: {
+							target: "running"
+						}
 					}
 				},
 				running: {
 					initial: "iterating",
-					on: {
-						END: "idle"
-					},
 					states: {
 						iterating: {
 							entry: "start",
 							exit: "iterate",
-							always: "working"
+							always: {
+								target: "working"
+							}
 						},
 						working: {
 							entry: "tick",
-							always: { target: "worked", cond: "complete" },
-							on: {
-								PAUSE: "#pomodoro.paused",
-								SKIP: "worked"
-							},
 							after: {
-								1000: [{ target: "working", cond: "incomplete" }]
+								"1000": {
+									target: "#pomodoro.running.working",
+									cond: "incomplete",
+									actions: [],
+									internal: false
+								}
+							},
+							always: {
+								target: "worked",
+								cond: "complete"
+							},
+							on: {
+								PAUSE: {
+									target: "#pomodoro.paused"
+								},
+								SKIP: {
+									target: "worked"
+								}
 							}
 						},
 						worked: {
 							entry: "stop",
+							exit: "start",
 							on: {
-								NEXT: "resting",
-								REPEAT: "iterating"
-							},
-							exit: "start"
+								NEXT: {
+									target: "resting"
+								},
+								REPEAT: {
+									target: "iterating"
+								}
+							}
 						},
 						resting: {
 							entry: "tick",
-							always: { target: "rested", cond: "complete" },
-							on: {
-								PAUSE: "#pomodoro.paused",
-								SKIP: "rested"
-							},
 							after: {
-								1000: [{ target: "resting", cond: "incomplete" }]
+								"1000": {
+									target: "#pomodoro.running.resting",
+									cond: "incomplete",
+									actions: [],
+									internal: false
+								}
+							},
+							always: {
+								target: "rested",
+								cond: "complete"
+							},
+							on: {
+								PAUSE: {
+									target: "#pomodoro.paused"
+								},
+								SKIP: {
+									target: "rested"
+								}
 							}
 						},
 						rested: {
 							entry: "stop",
+							exit: "start",
 							on: {
-								NEXT: "iterating",
-								REPEAT: "resting"
-							},
-							exit: "start"
+								NEXT: {
+									target: "iterating"
+								},
+								REPEAT: {
+									target: "resting"
+								}
+							}
 						},
 						last: {
+							history: false,
 							type: "history"
+						}
+					},
+					on: {
+						END: {
+							target: "idle"
 						}
 					}
 				},
 				paused: {
 					entry: "pause",
+					exit: "resume",
 					on: {
-						RESUME: "running.last",
-						END: "idle"
-					},
-					exit: "resume"
+						RESUME: {
+							target: "#pomodoro.running.last"
+						},
+						END: {
+							target: "idle"
+						}
+					}
 				}
 			}
 		},

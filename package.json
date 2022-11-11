@@ -35,7 +35,7 @@
 		"remark-math": "^3.0.1",
 		"vis-data": "^7.1.4",
 		"vis-network": "^9.1.2",
-		"xstate": "^4.34.0"
+		"xstate": "^4.32.1"
 	},
 	"devDependencies": {
 		"@babel/plugin-proposal-class-properties": "^7.18.6",
