@@ -1,4 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 11 Nov 2022 22:01:42 GMT</lastBuildDate><item><title><![CDATA[Code Recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/code-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/code-recipes/</guid><pubDate>Mon, 07 Nov 2022 18:13:47 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Nov 2022 23:01:46 GMT</lastBuildDate><item><title><![CDATA[Statistical data types]]></title><description><![CDATA[Types of data used in statistics: Numerical/quantitative, categorical/qualitative, and ordinal]]></description><link>https://www.jamestharpe.com/statistical-data-types/</link><guid isPermaLink="false">https://www.jamestharpe.com/statistical-data-types/</guid><pubDate>Fri, 11 Nov 2022 21:43:35 GMT</pubDate><content:encoded>&lt;p&gt;
+														Types of data used in statistics: Numerical/quantitative, categorical/qualitative, and ordinal
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/statistical-data-types/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Machine Learning (ML)]]></title><description><![CDATA[Machine learning terms, processes, and methods]]></description><link>https://www.jamestharpe.com/machine-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/machine-learning/</guid><pubDate>Fri, 11 Nov 2022 21:12:00 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning terms, processes, and methods
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/machine-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Code Recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/code-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/code-recipes/</guid><pubDate>Mon, 07 Nov 2022 18:13:47 GMT</pubDate><content:encoded>&lt;p&gt;
 														Quick and easy to copy recipes for JavaScript and TypeScript
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -23,6 +33,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pyspark-recipes/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Supervised Machine Learning]]></title><description><![CDATA[Machine learning that uses pre-labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-supervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised/</guid><pubDate>Thu, 03 Nov 2022 21:02:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning that uses pre-labeled input as training data
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[SMOTE: Synthetic Minority Oversampling Technique]]></title><description><![CDATA[Synthetic Minority Oversampling Technique: An approach to compensating for severe class imbalance in machine learning]]></description><link>https://www.jamestharpe.com/smote/</link><guid isPermaLink="false">https://www.jamestharpe.com/smote/</guid><pubDate>Tue, 01 Nov 2022 13:22:20 GMT</pubDate><content:encoded>&lt;p&gt;
 														Synthetic Minority Oversampling Technique: An approach to compensating for severe class imbalance in machine learning
 													&lt;/p&gt;
@@ -113,11 +128,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/1r-algorithm/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Classification Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/classification-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/classification-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Classification Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-classification-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-classification-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
 														A type of machine learning that classifies entities based on their characteristics
 													&lt;/p&gt;
 													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/classification-learning/&quot;&gt;Read the article&lt;/a&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-classification-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Regression Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-regression-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-regression-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
+														A type of machine learning that classifies entities based on their characteristics
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-regression-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Data Mining]]></title><description><![CDATA[A guide to finding patterns and relationships in data]]></description><link>https://www.jamestharpe.com/data-mining/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-mining/</guid><pubDate>Fri, 22 Jul 2022 14:27:13 GMT</pubDate><content:encoded>&lt;p&gt;
 														A guide to finding patterns and relationships in data
 													&lt;/p&gt;
@@ -388,16 +408,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/devops/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Mypy]]></title><description><![CDATA[Static type checking for Python]]></description><link>https://www.jamestharpe.com/mypy/</link><guid isPermaLink="false">https://www.jamestharpe.com/mypy/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>&lt;p&gt;
-														Static type checking for Python
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/mypy/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pipenv]]></title><description><![CDATA[An alternative to pip and venv]]></description><link>https://www.jamestharpe.com/pipenv/</link><guid isPermaLink="false">https://www.jamestharpe.com/pipenv/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														An alternative to pip and venv
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pipenv/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Mypy]]></title><description><![CDATA[Static type checking for Python]]></description><link>https://www.jamestharpe.com/mypy/</link><guid isPermaLink="false">https://www.jamestharpe.com/mypy/</guid><pubDate>Wed, 24 Nov 2021 20:27:54 GMT</pubDate><content:encoded>&lt;p&gt;
+														Static type checking for Python
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/mypy/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pip: Python's Package Manager]]></title><description><![CDATA[Python's default package manager]]></description><link>https://www.jamestharpe.com/python-pip/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-pip/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														Python&apos;s default package manager
 													&lt;/p&gt;
@@ -813,16 +833,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/cynefin/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Scrum]]></title><description><![CDATA[A lightweight framework for product and project management]]></description><link>https://www.jamestharpe.com/scrum/</link><guid isPermaLink="false">https://www.jamestharpe.com/scrum/</guid><pubDate>Thu, 24 Jun 2021 17:48:42 GMT</pubDate><content:encoded>&lt;p&gt;
-														A lightweight framework for product and project management
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/scrum/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Scaled Agile Framework (SAFe)]]></title><description><![CDATA[A product and project management framework for large enterprises]]></description><link>https://www.jamestharpe.com/safe-framework/</link><guid isPermaLink="false">https://www.jamestharpe.com/safe-framework/</guid><pubDate>Thu, 24 Jun 2021 17:48:42 GMT</pubDate><content:encoded>&lt;p&gt;
 														A product and project management framework for large enterprises
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/safe-framework/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Scrum]]></title><description><![CDATA[A lightweight framework for product and project management]]></description><link>https://www.jamestharpe.com/scrum/</link><guid isPermaLink="false">https://www.jamestharpe.com/scrum/</guid><pubDate>Thu, 24 Jun 2021 17:48:42 GMT</pubDate><content:encoded>&lt;p&gt;
+														A lightweight framework for product and project management
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/scrum/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[RACI: Responsible, Accountable, Consulted, Informed]]></title><description><![CDATA[An roles and responsibilities model]]></description><link>https://www.jamestharpe.com/raci/</link><guid isPermaLink="false">https://www.jamestharpe.com/raci/</guid><pubDate>Thu, 24 Jun 2021 17:12:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														An roles and responsibilities model
 													&lt;/p&gt;
@@ -1303,16 +1323,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Organizations dedicated to open-source
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-software/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Organizations dedicated to open-source
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source]]></title><description><![CDATA[Information and resources about open-source]]></description><link>https://www.jamestharpe.com/open-source/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Information and resources about open-source
 													&lt;/p&gt;
@@ -1328,11 +1348,6 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/interquartile-range/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Machine Learning (ML)]]></title><description><![CDATA[Machine learning terms, processes, and methods]]></description><link>https://www.jamestharpe.com/machine-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/machine-learning/</guid><pubDate>Thu, 03 Dec 2020 13:18:46 GMT</pubDate><content:encoded>&lt;p&gt;
-														Machine learning terms, processes, and methods
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/machine-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Standard Deviation]]></title><description><![CDATA[How to define, find, and use the standard deviation]]></description><link>https://www.jamestharpe.com/standard-deviation/</link><guid isPermaLink="false">https://www.jamestharpe.com/standard-deviation/</guid><pubDate>Wed, 02 Dec 2020 21:02:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														How to define, find, and use the standard deviation
 													&lt;/p&gt;
@@ -1548,16 +1563,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/aws-cloudformation/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														A Bash emulator and terminal for Windows
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/git-bash/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Command-line shortcuts for Git
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/git-aliases/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														A Bash emulator and terminal for Windows
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/git-bash/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A technique to version-control and automate the deployment of database schemas
 													&lt;/p&gt;
