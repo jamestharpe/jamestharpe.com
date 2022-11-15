@@ -103,12 +103,19 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 								width="22px"
 								src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg"
 							/>
-						</a>
+						</a>{" "}
 						<a href="https://gitlab.com/jamestharpe">
 							<img
 								alt="James Tharpe's GitLab"
 								width="22px"
 								src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gitlab.svg"
+							/>
+						</a>{" "}
+						<a rel="me" href="https://toot.community/@jamestharpe">
+							<img
+								alt="James Tharpe's Mastodon"
+								width="22px"
+								src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/mastodon.svg"
 							/>
 						</a>
 					</section>
