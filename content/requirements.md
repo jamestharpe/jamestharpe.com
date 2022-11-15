@@ -27,4 +27,4 @@ For example, the marketing requirement for a camera might be: "The photo quality
 
 ## Constraints
 
-**Constraints** are design decisions that are imposed by the environment in which the solution is being developed or delivered to and typically violate.
+**Constraints** are design decisions that are imposed by the environment in which the solution is being developed or delivered to.
