@@ -27,4 +27,4 @@ For example, the marketing requirement for a camera might be: "The photo quality
 
 ## Constraints
 
-**Constraints** are design decisions that are imposed by the environment in which the solution is being developed or delivered to.
+**Constraints** are design decisions that are imposed by the environment in which the solution is being developed or delivered to. Constraints may be properties of the process or materials used, such as size, conductivity, or elasticity; or they may be limitations intentionally imposed on the build such as time, budget, or design (e.g. branding). Constraints often seed creativity. In a world of unlimited possibilities, _time_ can be one of the most useful constraints to apply. Time constraints, even when artificial, can force decisions to be made and foster creative solutions.
