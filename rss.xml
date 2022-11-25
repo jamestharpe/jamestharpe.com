@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Nov 2022 22:04:50 GMT</lastBuildDate><item><title><![CDATA[Types of Machine Learning]]></title><description><![CDATA[An overview of the types of machine learning]]></description><link>https://www.jamestharpe.com/ml-types/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-types/</guid><pubDate>Fri, 25 Nov 2022 20:19:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Nov 2022 22:24:29 GMT</lastBuildDate><item><title><![CDATA[Types of Machine Learning]]></title><description><![CDATA[An overview of the types of machine learning]]></description><link>https://www.jamestharpe.com/ml-types/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-types/</guid><pubDate>Fri, 25 Nov 2022 20:19:00 GMT</pubDate><content:encoded>&lt;p&gt;
 														An overview of the types of machine learning
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -8,6 +8,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-batch-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Online Learning]]></title><description><![CDATA[Machine learning that requires a complete dataset for training]]></description><link>https://www.jamestharpe.com/ml-online-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-online-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning that requires a complete dataset for training
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-online-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Semisupervised Learning]]></title><description><![CDATA[Machine learning that uses partially labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-semisupervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-semisupervised/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
 														Machine learning that uses partially labeled input as training data
 													&lt;/p&gt;
@@ -18,11 +23,6 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-reinforcement-learning/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Online Learning]]></title><description><![CDATA[Machine learning that requires a complete dataset for training]]></description><link>https://www.jamestharpe.com/ml-online-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-online-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
-														Machine learning that requires a complete dataset for training
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-online-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source JavaScript and TypScript Libraries]]></title><description><![CDATA[Popular open-source libraries used in JavaScript and TypeScript development]]></description><link>https://www.jamestharpe.com/js-libs/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-libs/</guid><pubDate>Fri, 25 Nov 2022 19:14:58 GMT</pubDate><content:encoded>&lt;p&gt;
 														Popular open-source libraries used in JavaScript and TypeScript development
 													&lt;/p&gt;
@@ -193,16 +193,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/1r-algorithm/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Regression Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-regression-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-regression-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
-														A type of machine learning that classifies entities based on their characteristics
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-regression-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Classification Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-classification-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-classification-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
 														A type of machine learning that classifies entities based on their characteristics
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-classification-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Regression Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-regression-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-regression-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
+														A type of machine learning that classifies entities based on their characteristics
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-regression-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Data Mining]]></title><description><![CDATA[A guide to finding patterns and relationships in data]]></description><link>https://www.jamestharpe.com/data-mining/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-mining/</guid><pubDate>Fri, 22 Jul 2022 14:27:13 GMT</pubDate><content:encoded>&lt;p&gt;
 														A guide to finding patterns and relationships in data
 													&lt;/p&gt;
@@ -483,16 +483,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pipenv/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pip: Python's Package Manager]]></title><description><![CDATA[Python's default package manager]]></description><link>https://www.jamestharpe.com/python-pip/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-pip/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
-														Python&apos;s default package manager
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/python-pip/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Virtual Environments]]></title><description><![CDATA[How to manage virtual environments with Python, Pip, and VEnv]]></description><link>https://www.jamestharpe.com/python-venvs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-venvs/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														How to manage virtual environments with Python, Pip, and VEnv
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/python-venvs/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pip: Python's Package Manager]]></title><description><![CDATA[Python's default package manager]]></description><link>https://www.jamestharpe.com/python-pip/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-pip/</guid><pubDate>Mon, 22 Nov 2021 17:00:54 GMT</pubDate><content:encoded>&lt;p&gt;
+														Python&apos;s default package manager
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/python-pip/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python (Programming Language)]]></title><description><![CDATA[An object-oriented and functional programing language where whitespace matters]]></description><link>https://www.jamestharpe.com/python/</link><guid isPermaLink="false">https://www.jamestharpe.com/python/</guid><pubDate>Mon, 22 Nov 2021 16:39:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														An object-oriented and functional programing language where whitespace matters
 													&lt;/p&gt;
@@ -1448,16 +1448,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/watts-law/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
-														Overview of folders in the root of most Linux distributions
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/linux-file-system/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														A free and open-source operating system
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/linux/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
+														Overview of folders in the root of most Linux distributions
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/linux-file-system/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[A small, reliable 3D printer appropriate for home use]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														A small, reliable 3D printer appropriate for home use
 													&lt;/p&gt;
@@ -1628,16 +1628,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/aws-cloudformation/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Command-line shortcuts for Git
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/git-aliases/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A Bash emulator and terminal for Windows
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/git-bash/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Command-line shortcuts for Git
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/git-aliases/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A technique to version-control and automate the deployment of database schemas
 													&lt;/p&gt;
@@ -1663,16 +1663,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/mysql/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Amazon Web Services (AWS)]]></title><description><![CDATA[The hosted cloud platform provided by Amazon]]></description><link>https://www.jamestharpe.com/aws/</link><guid isPermaLink="false">https://www.jamestharpe.com/aws/</guid><pubDate>Sun, 15 Nov 2020 23:22:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														The hosted cloud platform provided by Amazon
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/aws/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Microsoft Azure]]></title><description><![CDATA[The hosted cloud platform provided by Microsoft]]></description><link>https://www.jamestharpe.com/azure/</link><guid isPermaLink="false">https://www.jamestharpe.com/azure/</guid><pubDate>Sun, 15 Nov 2020 23:22:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														The hosted cloud platform provided by Microsoft
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/azure/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Amazon Web Services (AWS)]]></title><description><![CDATA[The hosted cloud platform provided by Amazon]]></description><link>https://www.jamestharpe.com/aws/</link><guid isPermaLink="false">https://www.jamestharpe.com/aws/</guid><pubDate>Sun, 15 Nov 2020 23:22:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														The hosted cloud platform provided by Amazon
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/aws/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Computer Languages]]></title><description><![CDATA[Computer Languages: How humans tell computers what to do]]></description><link>https://www.jamestharpe.com/computer-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/computer-languages/</guid><pubDate>Sun, 15 Nov 2020 22:31:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														Computer Languages: How humans tell computers what to do
 													&lt;/p&gt;
@@ -1738,16 +1738,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/functional-programming/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[RxJS]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/rxjs/</link><guid isPermaLink="false">https://www.jamestharpe.com/rxjs/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>&lt;p&gt;
-														A library to create state machines and state charts written in JavaScript
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/rxjs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Reactive Programming]]></title><description><![CDATA[A declarative programming paradigm for extracting and transforming data from streams]]></description><link>https://www.jamestharpe.com/reactive-programming/</link><guid isPermaLink="false">https://www.jamestharpe.com/reactive-programming/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>&lt;p&gt;
 														A declarative programming paradigm for extracting and transforming data from streams
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/reactive-programming/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[RxJS]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/rxjs/</link><guid isPermaLink="false">https://www.jamestharpe.com/rxjs/</guid><pubDate>Sat, 25 Jan 2020 12:39:26 GMT</pubDate><content:encoded>&lt;p&gt;
+														A library to create state machines and state charts written in JavaScript
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/rxjs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;p&gt;
 														Learn Angular
 													&lt;/p&gt;
