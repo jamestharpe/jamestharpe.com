@@ -19,6 +19,8 @@ graph LR
     Model --> Output(("Output<br/>(prediction)"))
 ```
 
+An example of this is a spam filter: It takes inputs of an email's headers, subject, and body and determines whether the message is spam or not. A machine learning approach to spam detection will automatically learn new patterns with new data, making it difficult for spammers to defeat the filter except in the short-term. This is more efficient than traditional programming in which each rule would have to be developed by hand in response to new patterns as they emerge, allowing for longer periods between the emergence of a new pattern and a solution to detect it.
+
 ## What are features?
 
 Inputs to a machine learning model are called **features** and consist of [statistical data types](statistical-data-types.md). Types of features include:
