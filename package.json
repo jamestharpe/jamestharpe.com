@@ -47,7 +47,7 @@
 		"@types/pluralize": "^0.0.29",
 		"@types/react-helmet": "^6.1.5",
 		"@types/react-test-renderer": "^18.0.0",
-		"@typescript-eslint/eslint-plugin": "^5.9.0",
+		"@typescript-eslint/eslint-plugin": "5.44",
 		"@typescript-eslint/parser": "^5.9.0",
 		"@xstate/cli": "^0.2.1",
 		"babel-jest": "^28.1.3",
