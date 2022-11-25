@@ -1,7 +1,7 @@
 ---
 date: 2021-11-16T14:39:25-04:00
 description: "Visualizations that generate insights"
-tags: [ "data-analysis", "data-products", "business-intelligence" ]
+tags: [ "data-analysis", "business-intelligence" ]
 title: "Data Visualizations"
 ---
 
