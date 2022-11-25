@@ -1,7 +1,7 @@
 ---
 date: 2022-08-23T09:38:58-04:00
 description: "An open source data analysis and manipulation library for Python"
-tags: [ "python-data-libs", "open-source-software" ]
+tags: [ "python-data-libs" ]
 title: "Pandas Python Library"
 ---
 

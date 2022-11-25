@@ -1,6 +1,7 @@
 ---
 date: 2020-11-15T19:57:18-05:00
 tags: ["java", "spring-framework", "open-source-software"]
+description: "A Java framework for developing REST APIs"
 title: "Spring Boot"
 ---
 

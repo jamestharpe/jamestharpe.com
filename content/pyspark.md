@@ -1,7 +1,7 @@
 ---
 date: 2022-09-09T10:53:58-04:00
 description: "The open-source library used to access Apache Spark"
-tags: [ "python-data-libs", "open-source-software", "data-analysis", "data-science", "data-engineering" ]
+tags: [ "python-data-libs" ]
 title: "PySpark"
 ---
 

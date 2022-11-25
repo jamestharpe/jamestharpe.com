@@ -1,13 +1,13 @@
 ---
 date: 2020-12-30T14:03:46-04:00
 description: "A library to create state machines and state charts written in JavaScript"
-tags: [ "javascript", "open-source-software", "state-machines", "statecharts", "actor-model" ]
-title: "XState (JavaScript Library)"
+tags: [ "js-libs", "state-machines", "statecharts", "actor-model" ]
+title: "XState JavaScript Library"
 ---
 
 # XState
 
-[XState](https://xstate.js.org/) is an [open-source](open-source-software.md) [JavaScript](javascript.md) framework by [Stately](https://stately.ai/) for managing [state machines](state-machines.md) and [statecharts](statecharts.md) and includes the ability to treat them as [actors](actor-model.md).
+[XState](https://xstate.js.org/) is an [open-source](open-source-software.md) [JavaScript](javascript.md)/[TypeScript](typescript.md) [framework](js-libs.md) by [Stately](https://stately.ai/) for managing [state machines](state-machines.md) and [statecharts](statecharts.md) and includes the ability to treat them as [actors](actor-model.md).
 
 ## Using XState with [TypeScript](typescript.md)
 

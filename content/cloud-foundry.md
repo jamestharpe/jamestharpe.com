@@ -1,6 +1,6 @@
 ---
 date: 2020-11-15T19:39:30-04:00
-description: "Could Foundry: An open-source, on-premise cloud platform for enterprise IT organizations"
+description: "An open-source, on-premise cloud platform for enterprise IT organizations"
 tags: ["open-source-software", "cloud-platforms"]
 title: "Cloud Foundry"
 ---
