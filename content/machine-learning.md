@@ -33,7 +33,9 @@ Inputs to a machine learning model are called **features** and consist of [stati
 
 [**Supervised learning**](ml-supervised.md) uses labeled input, meaning the input model training data includes the output value to be predicted by the model. An example of supervised learning would be training a model to recognize animals by feeding it pictures of animals that are already labeled (e.g. dog, cat, giraffe...)
 
-**Unsupervised learning** uses unlabeled input to find patterns within the data. For example, unsupervised learning might be used to identify market segments from existing customer data.
+[**Unsupervised learning**](ml-unsupervised.md) uses unlabeled input to find patterns within the data. For example, unsupervised learning might be used to identify market segments from existing customer data.
+
+[**Semisupervised learning**](ml-semisupervised.md) combines supervised and unsupervised learning.
 
 **Reinforcement learning** uses "rewards" and "penalties" in an interactive environment to train specific behaviors. An example of reinforcement learning is teaching a computer to play a video game.
 

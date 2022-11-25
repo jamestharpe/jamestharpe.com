@@ -7,4 +7,4 @@ title: "JavaScript and TypScript Libraries"
 
 # JavaScript and TypScript Libraries
 
-[JavaScript](javascript.md.md) nad [TypeScript](typescript.md) are popular languages for web, desktop, and mobile application development.
+[JavaScript](javascript.md) nad [TypeScript](typescript.md) are popular languages for web, desktop, and mobile application development.
