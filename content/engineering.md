@@ -77,10 +77,6 @@ Once requirements are reasonably well defined, it's time to think about how each
 
 <!-- Todo: Requirements process diagram - ->
 
-#### ⧩ Constraints
-
-Constraints may be properties of the process or materials used, such as size, conductivity, or elasticity; or they may be limitations intentionally imposed on the build such as time, budget, or design (e.g. branding). Constraints often seed creativity. In a world of unlimited possibilities, _time_ can be one of the most useful constraints to apply. Time constraints, even when artificial, can force decisions to be made and foster creative solutions.
-
 #### 🧪 Experimentation
 
 Some questions can't be answered by looking up information. These questions tend to be highly contextual to the product you're building and require experimentation to find answers.
