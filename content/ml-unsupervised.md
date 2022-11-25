@@ -1,7 +1,7 @@
 ---
 date: 2022-11-03T17:02:20-04:00
 description: "Machine learning that uses unlabeled input as training data"
-tags: [ "machine-learning" ]
+tags: [ "ml-types" ]
 title: "Unsupervised Machine Learning"
 ---
 

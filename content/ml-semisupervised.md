@@ -1,7 +1,7 @@
 ---
 date: 2022-11-25T16:04:20-04:00
 description: "Machine learning that uses partially labeled input as training data"
-tags: [ "ml-unsupervised", "ml-supervised" ]
+tags: [ "ml-types", "ml-supervised", "ml-unsupervised" ]
 title: "Semisupervised Machine Learning"
 ---
 

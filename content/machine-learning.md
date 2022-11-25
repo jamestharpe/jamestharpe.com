@@ -29,32 +29,6 @@ Inputs to a machine learning model are called **features** and consist of [stati
 * **Categorical features**, also known as **qualitative features**, consists of descriptive data that does not have a mathematical meaning. For example: Gender, color, and favorite food are all types of categorical data. Qualitative/categorical features are input into models using **one-hot encoding**.
 * **Ordinal features** are a mix of categorical and numerical data, where the data fall into numerical categories. For example: a 5-points scale for product reviews.
 
-## Types of machine learning
-
-[**Supervised learning**](ml-supervised.md) uses labeled input, meaning the input model training data includes the output value to be predicted by the model. An example of supervised learning would be training a model to recognize animals by feeding it pictures of animals that are already labeled (e.g. dog, cat, giraffe...)
-
-[**Unsupervised learning**](ml-unsupervised.md) uses unlabeled input to find patterns within the data. For example, unsupervised learning might be used to identify market segments from existing customer data.
-
-[**Semisupervised learning**](ml-semisupervised.md) combines supervised and unsupervised learning.
-
-**Reinforcement learning** uses "rewards" and "penalties" in an interactive environment to train specific behaviors. An example of reinforcement learning is teaching a computer to play a video game.
-
-<!-- TODO:
-
-Clustering - Group objects together based on similarities in data. For example, identifying marketing segments based on customer demographics.
-
-Anomaly detection - Find observations that are different than the "normal" data. e.g. a spike in negative social media comments after a new product release
-
-Association learning - ...
-
-Numeric estimation - ...
-
------
-
-Deep learning - a form of machine learning that stacks multiple ML models on top of each other to form a hierarchy. e.g. Face -> Gemoetric primitives -> Objects (eyes, nose, mouth) -> Faces -> Person name prediction
-
- -->
-
 ## Machine Learning Terminology
 
 | Word              | Definition                                                                                                                                                                                                           |
