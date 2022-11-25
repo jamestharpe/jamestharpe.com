@@ -7,7 +7,7 @@ title: "Supervised Machine Learning"
 
 # Supervised machine learning
 
-**Supervised machine learning** is a type of [machine learning](machine-learning.md) in which the input is pre-labeled with the output to be predicted by the model. Supervised learning consists of [classification learning](ml-supervised-classification-learning.md), which predict qualitative/categorical values, and [regression learning](ml-supervised-regression-learning.md), which predict continuous values.
+**Supervised machine learning** is a [type](ml-types.md) of [machine learning](machine-learning.md) in which the input is pre-labeled with the output to be predicted by the model. Supervised learning consists of [classification learning](ml-supervised-classification-learning.md), which predict qualitative/categorical values, and [regression learning](ml-supervised-regression-learning.md), which predict continuous values.
 
 <!-- There are three types of datasets involved in training a model using supervised learning:
 

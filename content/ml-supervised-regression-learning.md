@@ -8,4 +8,4 @@ title: "Regression Learning"
 
 # Regression learning
 
-**Regression learning** is a type of [supervised machine learning](ml-supervised.md) that seeks to predict continuous values, such as predicting the price of oil or the temperature tomorrow.
+**Regression learning** is a [type](ml-types.md) of [supervised machine learning](ml-supervised.md) that seeks to predict continuous values, such as predicting the price of oil or the temperature tomorrow.
