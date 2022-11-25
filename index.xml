@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 16 Nov 2022 14:34:13 GMT</lastBuildDate><item><title><![CDATA[Statistical data types]]></title><description><![CDATA[Types of data used in statistics: Numerical/quantitative, categorical/qualitative, and ordinal]]></description><link>https://www.jamestharpe.com/statistical-data-types/</link><guid isPermaLink="false">https://www.jamestharpe.com/statistical-data-types/</guid><pubDate>Fri, 11 Nov 2022 21:43:35 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 25 Nov 2022 20:04:47 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><link>https://www.jamestharpe.com/keras/</link><guid isPermaLink="false">https://www.jamestharpe.com/keras/</guid><content:encoded>&lt;p&gt;
+														
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/keras/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[TensorFlow Python Library]]></title><description><![CDATA[An open source machine learning library for distributed computation in Python]]></description><link>https://www.jamestharpe.com/tensorflow/</link><guid isPermaLink="false">https://www.jamestharpe.com/tensorflow/</guid><pubDate>Fri, 25 Nov 2022 18:56:58 GMT</pubDate><content:encoded>&lt;p&gt;
+														An open source machine learning library for distributed computation in Python
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/tensorflow/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Scikit-learn Python Library]]></title><description><![CDATA[An open source machine learning library for Python]]></description><link>https://www.jamestharpe.com/scikit-learn/</link><guid isPermaLink="false">https://www.jamestharpe.com/scikit-learn/</guid><pubDate>Fri, 25 Nov 2022 18:49:58 GMT</pubDate><content:encoded>&lt;p&gt;
+														An open source machine learning library for Python
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/scikit-learn/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[K-Nearest Neighbors (KNN)]]></title><description><![CDATA[A classification algorithm based on proximity]]></description><link>https://www.jamestharpe.com/k-nearest-neighbors/</link><guid isPermaLink="false">https://www.jamestharpe.com/k-nearest-neighbors/</guid><pubDate>Sat, 12 Nov 2022 18:10:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														A classification algorithm based on proximity
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/k-nearest-neighbors/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Statistical data types]]></title><description><![CDATA[Types of data used in statistics: Numerical/quantitative, categorical/qualitative, and ordinal]]></description><link>https://www.jamestharpe.com/statistical-data-types/</link><guid isPermaLink="false">https://www.jamestharpe.com/statistical-data-types/</guid><pubDate>Fri, 11 Nov 2022 21:43:35 GMT</pubDate><content:encoded>&lt;p&gt;
 														Types of data used in statistics: Numerical/quantitative, categorical/qualitative, and ordinal
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -13,16 +33,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/code-recipes/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipe: Drop single-value columns]]></title><description><![CDATA[How to drop columns in a dataframe that contain only a single value or all nulls]]></description><link>https://www.jamestharpe.com/pyspark-drop-single-value-columns/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark-drop-single-value-columns/</guid><pubDate>Mon, 07 Nov 2022 16:26:22 GMT</pubDate><content:encoded>&lt;p&gt;
-														How to drop columns in a dataframe that contain only a single value or all nulls
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/pyspark-drop-single-value-columns/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipe: Conditionally replace a column's values]]></title><description><![CDATA[How to Conditionally replace a column's values in PySpark]]></description><link>https://www.jamestharpe.com/pyspark-conditionally-replace-column-values/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark-conditionally-replace-column-values/</guid><pubDate>Mon, 07 Nov 2022 16:26:22 GMT</pubDate><content:encoded>&lt;p&gt;
 														How to Conditionally replace a column&apos;s values in PySpark
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pyspark-conditionally-replace-column-values/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipe: Drop single-value columns]]></title><description><![CDATA[How to drop columns in a dataframe that contain only a single value or all nulls]]></description><link>https://www.jamestharpe.com/pyspark-drop-single-value-columns/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark-drop-single-value-columns/</guid><pubDate>Mon, 07 Nov 2022 16:26:22 GMT</pubDate><content:encoded>&lt;p&gt;
+														How to drop columns in a dataframe that contain only a single value or all nulls
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/pyspark-drop-single-value-columns/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipe: Select rows where any column contains a null value]]></title><description><![CDATA[A PySpark recipe to select rows with a null value in any column]]></description><link>https://www.jamestharpe.com/pyspark-select-rows-with-nulls/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark-select-rows-with-nulls/</guid><pubDate>Mon, 07 Nov 2022 16:26:22 GMT</pubDate><content:encoded>&lt;p&gt;
 														A PySpark recipe to select rows with a null value in any column
 													&lt;/p&gt;
@@ -98,6 +118,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/python-data-libs/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Open-Source Machine Learning Libraries]]></title><description><![CDATA[Python libraries used for machine learning]]></description><link>https://www.jamestharpe.com/python-ml-libs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-ml-libs/</guid><pubDate>Tue, 23 Aug 2022 14:25:58 GMT</pubDate><content:encoded>&lt;p&gt;
+														Python libraries used for machine learning
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/python-ml-libs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Seaborn Python Library]]></title><description><![CDATA[An open source data visualization library for Python]]></description><link>https://www.jamestharpe.com/seaborn/</link><guid isPermaLink="false">https://www.jamestharpe.com/seaborn/</guid><pubDate>Tue, 23 Aug 2022 14:07:58 GMT</pubDate><content:encoded>&lt;p&gt;
 														An open source data visualization library for Python
 													&lt;/p&gt;
@@ -128,16 +153,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/1r-algorithm/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Regression Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-regression-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-regression-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
-														A type of machine learning that classifies entities based on their characteristics
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-regression-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Classification Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-classification-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-classification-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
 														A type of machine learning that classifies entities based on their characteristics
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-classification-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Regression Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-regression-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-regression-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
+														A type of machine learning that classifies entities based on their characteristics
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-regression-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Data Mining]]></title><description><![CDATA[A guide to finding patterns and relationships in data]]></description><link>https://www.jamestharpe.com/data-mining/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-mining/</guid><pubDate>Fri, 22 Jul 2022 14:27:13 GMT</pubDate><content:encoded>&lt;p&gt;
 														A guide to finding patterns and relationships in data
 													&lt;/p&gt;
@@ -743,16 +768,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/json/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Hash-based Message Authentication Codes (HMAC)]]></title><description><![CDATA[Hash-based Message Authentication Codes]]></description><link>https://www.jamestharpe.com/hmacs/</link><guid isPermaLink="false">https://www.jamestharpe.com/hmacs/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>&lt;p&gt;
-														Hash-based Message Authentication Codes
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/hmacs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JSON Web Signatures (JWS)]]></title><description><![CDATA[A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515]]></description><link>https://www.jamestharpe.com/jws/</link><guid isPermaLink="false">https://www.jamestharpe.com/jws/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>&lt;p&gt;
 														A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/jws/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Hash-based Message Authentication Codes (HMAC)]]></title><description><![CDATA[Hash-based Message Authentication Codes]]></description><link>https://www.jamestharpe.com/hmacs/</link><guid isPermaLink="false">https://www.jamestharpe.com/hmacs/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>&lt;p&gt;
+														Hash-based Message Authentication Codes
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/hmacs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[chmod Linux Command]]></title><description><![CDATA[A Linux command used to change the mode of a file or directory]]></description><link>https://www.jamestharpe.com/chmod/</link><guid isPermaLink="false">https://www.jamestharpe.com/chmod/</guid><pubDate>Tue, 31 Aug 2021 13:07:52 GMT</pubDate><content:encoded>&lt;p&gt;
 														A Linux command used to change the mode of a file or directory
 													&lt;/p&gt;
@@ -1268,16 +1293,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/visjs/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;p&gt;
-														An end-to-end DevOps tool chain centered on Git
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/gitlab-ci-cd-tips/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[GitLab CI/CD]]></title><description><![CDATA[Tips for working in GitLab CI/CD]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														Tips for working in GitLab CI/CD
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/gitlab-ci-cd/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[GitLab CI/CD Tips]]></title><description><![CDATA[An end-to-end DevOps tool chain centered on Git]]></description><link>https://www.jamestharpe.com/gitlab-ci-cd-tips/</link><guid isPermaLink="false">https://www.jamestharpe.com/gitlab-ci-cd-tips/</guid><pubDate>Sun, 20 Dec 2020 15:19:46 GMT</pubDate><content:encoded>&lt;p&gt;
+														An end-to-end DevOps tool chain centered on Git
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/gitlab-ci-cd-tips/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Software Pipelines (CI/CD)]]></title><description><![CDATA[Continuous Integration and Continuous Deployment (CI/CD)]]></description><link>https://www.jamestharpe.com/ci-cd/</link><guid isPermaLink="false">https://www.jamestharpe.com/ci-cd/</guid><pubDate>Mon, 14 Dec 2020 18:20:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														Continuous Integration and Continuous Deployment (CI/CD)
 													&lt;/p&gt;
@@ -1313,6 +1338,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-initiative/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Useful open source software projects
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-hardware/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A list of open-source programming languages I&apos;ve learned (at least a little bit)
 													&lt;/p&gt;
@@ -1323,21 +1353,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Useful open source software projects
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-software/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source]]></title><description><![CDATA[Information and resources about open-source]]></description><link>https://www.jamestharpe.com/open-source/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Information and resources about open-source
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
 													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-hardware/&quot;&gt;Read the article&lt;/a&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-software/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Apache Software Foundation (ASF)]]></title><description><![CDATA[Overview of the Apache Software Foundation (ASF)]]></description><link>https://www.jamestharpe.com/apache/</link><guid isPermaLink="false">https://www.jamestharpe.com/apache/</guid><pubDate>Tue, 08 Dec 2020 12:44:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Overview of the Apache Software Foundation (ASF)
 													&lt;/p&gt;
