@@ -2,7 +2,7 @@
 date: 2022-11-25T14:49:58-04:00
 description: "An open source machine learning library for Python"
 tags: [ "python-ml-libs" ]
-title: "Scikit-learn (Python Library)"
+title: "Scikit-learn Python Library"
 ---
 
 # Scikit-learn
