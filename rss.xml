@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Nov 2022 00:13:59 GMT</lastBuildDate><item><title><![CDATA[Types of Machine Learning]]></title><description><![CDATA[An overview of the types of machine learning]]></description><link>https://www.jamestharpe.com/ml-types/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-types/</guid><pubDate>Fri, 25 Nov 2022 20:19:00 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 26 Nov 2022 00:27:06 GMT</lastBuildDate><item><title><![CDATA[Types of Machine Learning]]></title><description><![CDATA[An overview of the types of machine learning]]></description><link>https://www.jamestharpe.com/ml-types/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-types/</guid><pubDate>Fri, 25 Nov 2022 20:19:00 GMT</pubDate><content:encoded>&lt;p&gt;
 														An overview of the types of machine learning
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-types/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Semisupervised Learning]]></title><description><![CDATA[Machine learning that uses partially labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-semisupervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-semisupervised/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
-														Machine learning that uses partially labeled input as training data
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-semisupervised/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Reinforcement Learning]]></title><description><![CDATA[Machine learning that uses penalties and rewards to train agents in interactive environments]]></description><link>https://www.jamestharpe.com/ml-reinforcement-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-reinforcement-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
-														Machine learning that uses penalties and rewards to train agents in interactive environments
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-reinforcement-learning/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Online Learning]]></title><description><![CDATA[Machine learning that requires a complete dataset for training]]></description><link>https://www.jamestharpe.com/ml-online-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-online-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
-														Machine learning that requires a complete dataset for training
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-online-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Batch and Offline Learning]]></title><description><![CDATA[Machine learning that requires a complete dataset for training]]></description><link>https://www.jamestharpe.com/ml-batch-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-batch-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
 														Machine learning that requires a complete dataset for training
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-batch-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Semisupervised Learning]]></title><description><![CDATA[Machine learning that uses partially labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-semisupervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-semisupervised/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning that uses partially labeled input as training data
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-semisupervised/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Online Learning]]></title><description><![CDATA[Machine learning that requires a complete dataset for training]]></description><link>https://www.jamestharpe.com/ml-online-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-online-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning that requires a complete dataset for training
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-online-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Reinforcement Learning]]></title><description><![CDATA[Machine learning that uses penalties and rewards to train agents in interactive environments]]></description><link>https://www.jamestharpe.com/ml-reinforcement-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-reinforcement-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning that uses penalties and rewards to train agents in interactive environments
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-reinforcement-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source JavaScript and TypScript Libraries]]></title><description><![CDATA[Popular open-source libraries used in JavaScript and TypeScript development]]></description><link>https://www.jamestharpe.com/js-libs/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-libs/</guid><pubDate>Fri, 25 Nov 2022 19:14:58 GMT</pubDate><content:encoded>&lt;p&gt;
 														Popular open-source libraries used in JavaScript and TypeScript development
 													&lt;/p&gt;
@@ -38,7 +38,7 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/tensorflow/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Scikit-learn (Python Library)]]></title><description><![CDATA[An open source machine learning library for Python]]></description><link>https://www.jamestharpe.com/scikit-learn/</link><guid isPermaLink="false">https://www.jamestharpe.com/scikit-learn/</guid><pubDate>Fri, 25 Nov 2022 18:49:58 GMT</pubDate><content:encoded>&lt;p&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Scikit-learn Python Library]]></title><description><![CDATA[An open source machine learning library for Python]]></description><link>https://www.jamestharpe.com/scikit-learn/</link><guid isPermaLink="false">https://www.jamestharpe.com/scikit-learn/</guid><pubDate>Fri, 25 Nov 2022 18:49:58 GMT</pubDate><content:encoded>&lt;p&gt;
 														An open source machine learning library for Python
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -153,16 +153,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/azure-synapse-analytics/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Open-Source Machine Learning Libraries]]></title><description><![CDATA[Python libraries used for machine learning]]></description><link>https://www.jamestharpe.com/python-ml-libs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-ml-libs/</guid><pubDate>Tue, 23 Aug 2022 14:25:58 GMT</pubDate><content:encoded>&lt;p&gt;
-														Python libraries used for machine learning
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/python-ml-libs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Open-Source Data Libraries]]></title><description><![CDATA[Python libraries commonly used in data science and analysis]]></description><link>https://www.jamestharpe.com/python-data-libs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-data-libs/</guid><pubDate>Tue, 23 Aug 2022 14:25:58 GMT</pubDate><content:encoded>&lt;p&gt;
 														Python libraries commonly used in data science and analysis
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/python-data-libs/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Python Open-Source Machine Learning Libraries]]></title><description><![CDATA[Python libraries used for machine learning]]></description><link>https://www.jamestharpe.com/python-ml-libs/</link><guid isPermaLink="false">https://www.jamestharpe.com/python-ml-libs/</guid><pubDate>Tue, 23 Aug 2022 14:25:58 GMT</pubDate><content:encoded>&lt;p&gt;
+														Python libraries used for machine learning
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/python-ml-libs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Seaborn Python Library]]></title><description><![CDATA[An open source data visualization library for Python]]></description><link>https://www.jamestharpe.com/seaborn/</link><guid isPermaLink="false">https://www.jamestharpe.com/seaborn/</guid><pubDate>Tue, 23 Aug 2022 14:07:58 GMT</pubDate><content:encoded>&lt;p&gt;
 														An open source data visualization library for Python
 													&lt;/p&gt;
@@ -193,16 +193,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/1r-algorithm/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Classification Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-classification-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-classification-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
-														A type of machine learning that classifies entities based on their characteristics
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-classification-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Regression Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-regression-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-regression-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
 														A type of machine learning that classifies entities based on their characteristics
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-regression-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Classification Learning]]></title><description><![CDATA[A type of machine learning that classifies entities based on their characteristics]]></description><link>https://www.jamestharpe.com/ml-supervised-classification-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised-classification-learning/</guid><pubDate>Fri, 22 Jul 2022 14:27:40 GMT</pubDate><content:encoded>&lt;p&gt;
+														A type of machine learning that classifies entities based on their characteristics
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised-classification-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Data Mining]]></title><description><![CDATA[A guide to finding patterns and relationships in data]]></description><link>https://www.jamestharpe.com/data-mining/</link><guid isPermaLink="false">https://www.jamestharpe.com/data-mining/</guid><pubDate>Fri, 22 Jul 2022 14:27:13 GMT</pubDate><content:encoded>&lt;p&gt;
 														A guide to finding patterns and relationships in data
 													&lt;/p&gt;
@@ -673,16 +673,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/js-get-last-array-element/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[SMART Goals]]></title><description><![CDATA[How to set goals that are specific, measurable, achievable, relevant, timely]]></description><link>https://www.jamestharpe.com/smart-goals/</link><guid isPermaLink="false">https://www.jamestharpe.com/smart-goals/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>&lt;p&gt;
-														How to set goals that are specific, measurable, achievable, relevant, timely
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/smart-goals/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[You Aren't Gonna Need it (YAGNI)]]></title><description><![CDATA[A simple mnemonic to help limit project scope]]></description><link>https://www.jamestharpe.com/yagni/</link><guid isPermaLink="false">https://www.jamestharpe.com/yagni/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>&lt;p&gt;
 														A simple mnemonic to help limit project scope
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/yagni/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[SMART Goals]]></title><description><![CDATA[How to set goals that are specific, measurable, achievable, relevant, timely]]></description><link>https://www.jamestharpe.com/smart-goals/</link><guid isPermaLink="false">https://www.jamestharpe.com/smart-goals/</guid><pubDate>Mon, 11 Oct 2021 13:27:56 GMT</pubDate><content:encoded>&lt;p&gt;
+														How to set goals that are specific, measurable, achievable, relevant, timely
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/smart-goals/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Architectural Decision Records (ARDs)]]></title><description><![CDATA[A method for capturing architectural decisions]]></description><link>https://www.jamestharpe.com/adrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/adrs/</guid><pubDate>Mon, 11 Oct 2021 13:04:39 GMT</pubDate><content:encoded>&lt;p&gt;
 														A method for capturing architectural decisions
 													&lt;/p&gt;
@@ -1228,16 +1228,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/electrical-engineering/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
-														A visual formalism for complex systems
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/statecharts/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[State Machines]]></title><description><![CDATA[Abstract representations of system state at a given point in time]]></description><link>https://www.jamestharpe.com/state-machines/</link><guid isPermaLink="false">https://www.jamestharpe.com/state-machines/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														Abstract representations of system state at a given point in time
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/state-machines/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Statecharts]]></title><description><![CDATA[A visual formalism for complex systems]]></description><link>https://www.jamestharpe.com/statecharts/</link><guid isPermaLink="false">https://www.jamestharpe.com/statecharts/</guid><pubDate>Wed, 30 Dec 2020 18:07:46 GMT</pubDate><content:encoded>&lt;p&gt;
+														A visual formalism for complex systems
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/statecharts/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[XState JavaScript Library]]></title><description><![CDATA[A library to create state machines and state charts written in JavaScript]]></description><link>https://www.jamestharpe.com/xstate/</link><guid isPermaLink="false">https://www.jamestharpe.com/xstate/</guid><pubDate>Wed, 30 Dec 2020 18:03:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														A library to create state machines and state charts written in JavaScript
 													&lt;/p&gt;
@@ -1383,26 +1383,26 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-hardware/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														A list of open-source programming languages I&apos;ve learned (at least a little bit)
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-software/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Organizations dedicated to open-source
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														A list of open-source programming languages I&apos;ve learned (at least a little bit)
 													&lt;/p&gt;
 													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source]]></title><description><![CDATA[Information and resources about open-source]]></description><link>https://www.jamestharpe.com/open-source/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Information and resources about open-source
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Organizations dedicated to open-source
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Apache Software Foundation (ASF)]]></title><description><![CDATA[Overview of the Apache Software Foundation (ASF)]]></description><link>https://www.jamestharpe.com/apache/</link><guid isPermaLink="false">https://www.jamestharpe.com/apache/</guid><pubDate>Tue, 08 Dec 2020 12:44:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Overview of the Apache Software Foundation (ASF)
 													&lt;/p&gt;
@@ -1748,16 +1748,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/rxjs/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;p&gt;
-														Learn Angular
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/angular-cli/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Angular (TypeScript Framework)]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;p&gt;
 														Learn Angular
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/angular/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Angular CLI]]></title><description><![CDATA[Learn Angular]]></description><link>https://www.jamestharpe.com/angular-cli/</link><guid isPermaLink="false">https://www.jamestharpe.com/angular-cli/</guid><pubDate>Sun, 12 Jan 2020 13:05:10 GMT</pubDate><content:encoded>&lt;p&gt;
+														Learn Angular
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/angular-cli/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Torque]]></title><description><![CDATA[Learn about torque: Force that causes an object to rotate around an axis.]]></description><link>https://www.jamestharpe.com/torque/</link><guid isPermaLink="false">https://www.jamestharpe.com/torque/</guid><pubDate>Thu, 09 Jan 2020 15:21:47 GMT</pubDate><content:encoded>&lt;p&gt;
 														Learn about torque: Force that causes an object to rotate around an axis.
 													&lt;/p&gt;
