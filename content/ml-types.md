@@ -19,6 +19,6 @@ Numeric estimation - ...
 
 -----
 
-Deep learning - a form of machine learning that stacks multiple ML models on top of each other to form a hierarchy. e.g. Face -> Gemoetric primitives -> Objects (eyes, nose, mouth) -> Faces -> Person name prediction
+Deep learning - a form of machine learning that stacks multiple ML models on top of each other to form a hierarchy. e.g. Face -> Geometric primitives -> Objects (eyes, nose, mouth) -> Faces -> Person name prediction
 
  -->
