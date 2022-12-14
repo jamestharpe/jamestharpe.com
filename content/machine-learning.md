@@ -41,6 +41,11 @@ Inputs to a machine learning model are called **features** and consist of [stati
 | One-hot encoding  | Assignment of a bit-mapped binary value to a set of categorical values, e.g. a "color" category with potential values of "red", "green", and "blue" could be mapped to three bits of 100, 010, and 001, respectively |
 | Outcome variable  | The value to be predicted by a Machine Learning Model                                                                                                                                                                |
 | Outlier           | A observation significantly different from other observations of the same data                                                                                                                                       |
+| Overfitting       | When a model performs well on training data but does not generalize well when the model encounters new data                                                                                                          |
+| Regularization    | Simplification of a model to avoid overfitting                                                                                                                                                                       |
+| Underfitting      | When a model performs poorly because it is too simple. The reverse of overfitting.                                                                                                                                   |
+
+Additional terminology can be found on [types of machine learning](ml-types.md).
 
 ## The Machine Learning Process
 
