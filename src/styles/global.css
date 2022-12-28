@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap");
 
+:root {
+	--primary-color: #411811;
+	--secondary-color: #e73111;
+	--tertiary-color: #fab84c;
+	--text-color: #ffffff;
+	--background-color: #ffffff;
+  }
+
 /* Small Screens (Default) */
 
 * {
@@ -20,6 +28,7 @@ kbd {
 
 body {
 	background-color: #f1f5f8;
+	background: linear-gradient(to right, #d3e5ee, #f1f5f8, #f1f5f8, #f1f5f8, #f1f5f8, #f1f5f8, #d3e5ee);
 	font-family: "Ubuntu", sans-serif;
 	font-weight: 300;
 	font-size: 18px;
@@ -33,7 +42,7 @@ blockquote {
 	padding-left: 1em;
 	/* margin-right: 1em;
   padding-right: 1em; */
-	border-left: 0.3em solid #411811;
+	border-left: 0.3em solid var(--primary-color);
 	/* border-right: 3px solid #ccc; */
 	background-color: #f8e6cb;
 }
@@ -51,7 +60,8 @@ strong {
 }
 
 header {
-	background-color: #411811;
+	background-color: var(--primary-color);
+	background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
 	color: #e4ebf1;
 }
 
@@ -73,7 +83,8 @@ header h1 {
 }
 
 header nav {
-	background-color: #fab84c;
+	background-color: var(--secondary-color);
+	background: linear-gradient(to top, var(--secondary-color), var(--tertiary-color));
 	color: #141414;
 }
 
@@ -86,13 +97,13 @@ header nav div div {
 }
 
 footer {
-	background-color: #411811;
+	background: linear-gradient(to left, var(--primary-color), var(--secondary-color));
 	color: #e4ebf1;
 	font-size: 1.2em;
 }
 
 footer a {
-	color: #7ccb7d;
+	color: #91f093;
 }
 
 footer a:hover {
@@ -100,7 +111,7 @@ footer a:hover {
 }
 
 footer h2 {
-	color: #fab84c;
+	color: var(--primary-color);
 	font-style: italic;
 	margin: 1rem 0 0.3rem 0;
 }
@@ -132,7 +143,7 @@ table th {
 }
 
 table thead {
-	background: #411811;
+	background: var(--primary-color);
 	color: #e4ebf1;
 }
 
