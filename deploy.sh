@@ -11,7 +11,7 @@ npm run clean
 npm run lint:fix
 npm run lint
 npm run test
-# npm run test:links # TODO: npm test
+npm run test:links # TODO: npm test
 
 echo "Deleting old publication from $PUBLISH_DIR"
 rm -rf "$PUBLISH_DIR"
