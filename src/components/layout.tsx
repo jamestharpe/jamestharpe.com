@@ -41,10 +41,10 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 				</div>
 				<nav className="clearfix" aria-label="Primary">
 					<div className="row">
-						<div className="column small-6 medium-6 large-6">
+						<div className="column small-8 medium-8 large-6">
 							<Search />
 						</div>
-						<div className="column small-6 medium-6 large-6">
+						<div className="column small-3 medium-3 large-4 right">
 							<Link to="/browse" className="active">
 								Browse
 							</Link>
@@ -56,7 +56,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 			<footer className="clearfix">
 				<div className="row">
 					{/* About */}
-					<section className="column small-12 medium-6 large-3">
+					<section className="column small-12 medium-6 large-4">
 						<h2>About James</h2>
 						<p>
 							James is a father at home, VP of Data Science &amp; Analytics at work,
@@ -67,7 +67,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 						</p>
 					</section>
 					{/* Social */}
-					<section className="column small-12 medium-6 large-3">
+					<section className="column small-12 medium-6 large-4 center">
 						<h2>Social</h2>
 						<a href={data.site.siteMetadata.siteUrl}>
 							<img
@@ -121,7 +121,7 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 					</section>
 					{/* Copyright */}
 					<section
-						className="column small-12 medium-6 large-3"
+						className="column small-12 medium-12 large-4"
 						aria-label="Copyright and Licensing"
 					>
 						<p

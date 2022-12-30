@@ -184,6 +184,15 @@ iframe {
 		padding: 0.5rem 0 0 0;
 		font-size: 2.85rem;
 	}
+	header div, main {
+		margin: auto;
+		max-width: min(90%, 680px);
+	}
+	footer div {
+		/* max-width: min(90%, 680px); */
+		margin: auto;
+		max-width: 90%
+	}
 }
 
 /* Large Screens */
@@ -193,8 +202,8 @@ iframe {
 	nav div,
 	main,
 	footer div {
-		max-width: 1024px;
 		margin: auto;
+		max-width: min(90%, 1024px);
 	}
 	main {
 		margin-bottom: 1em;
