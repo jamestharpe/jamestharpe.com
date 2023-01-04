@@ -14,7 +14,7 @@ The following solution to permanently unpin items from the Windows taskbar was t
 1. Press <kbd>Win</kbd>+<kbd>R</kbd> keys
 1. Type `%LOCALAPPDATA%\Microsoft\Windows\Shell\` and press <kbd>Enter</kbd>
 1. Open `LayoutModification.xml` in an editor (notepad works fine, I prefer Visual Studio Code)
-1. Remove the unwanted `taskbar:DesktopApp` elements from the `LayoutModificationTemplate/CustomTaskbarLayoutCollection/defaultlayout:TaskbarLayout/taskbar:TaskbarPinList` element
+1. Remove the unwanted `taskbar:DesktopApp` elements from the `LayoutModificationTemplate` ➡ `CustomTaskbarLayoutCollection` ➡ `defaultlayout:TaskbarLayout` ➡ `taskbar:TaskbarPinList` element
 1. Save the file
 
 You can now remove the unwanted items from the taskbar and they will not return upon reboot.
