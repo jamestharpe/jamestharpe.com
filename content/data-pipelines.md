@@ -7,4 +7,6 @@ title: "Data Pipelines"
 
 # Data Pipelines
 
-A **data pipeline**, sometimes referred to as an **[ETL](etls.md) pipeline**, is a process that ingests raw [data](data.md) and transforms it to be useful to an organization as [information](information.md) consumable by one or more [data products](data-products.md). Data pipelines may be chained together where the output from one pipeline is passed as input to another.
+A **data pipeline**, sometimes referred to as an **[ETL](etls.md) pipeline**, is a sequence of ETL jobs that work together to transforms [data](data.md) and [information](information.md) to be consumable by one or more [data products](data-products.md).
+
+Generally, each ETL in a data pipeline will extract data from one or more data sources, transform it for some particular purpose, then load it to a new [data store](databases.md). Subsequent ETLs will consume data from that store, then transform and load it to their own data store, and so on.

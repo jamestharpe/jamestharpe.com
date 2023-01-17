@@ -7,4 +7,4 @@ title: "Reinforcement Learning"
 
 # Reinforcement machine learning
 
-**Reinforcement machine learning** is a [type](ml-types.md) of [machine learning](machine-learning.md) that uses "rewards" and "penalties" in an interactive environment to train specific behaviors into an **agent**. An example of reinforcement learning is teaching a computer to play a video game.
+**Reinforcement machine learning** is a [type of machine learning](ml-types.md) that uses "rewards" and "penalties" in an interactive environment to train specific behaviors into an **agent**. An example of reinforcement learning is teaching a computer to play a video game.
