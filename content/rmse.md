@@ -13,6 +13,6 @@ $$$
 RMSE(X, h) = \sqrt{\frac{1}{m}\sum_{i=1}^{m}(h(x^{(i)}) - y^{(i)})^{2}}
 $$$
 
-Where $X$ is a matrix containing all of the feature values (excluding labels) in the test dataset with one row per instance, $h$ is the prediction function, $m$ is the number of records in the validation dataset, $X^{(i)}$ is a vector of all feature values of the i<sup>th</sup> instance (within $X$), $y^{(i)}$ is a vector of all the desired outputs (the labels).
+Where $X$ is a matrix containing all of the feature values (excluding labels) in the test dataset with one row per instance, $h$ is the prediction function, $m$ is the number of records in the validation dataset, $X^{(i)}$ is a vector of all feature values of the i<sup>th</sup> instance (within $X$), and $y^{(i)}$ is a vector of all the desired outputs (the labels).
 
 <!-- TODO: Example https://learn.64bitdragon.com/articles/mathematics/statistics/root-mean-squared-error -->
