@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Feb 2023 15:56:16 GMT</lastBuildDate><item><title><![CDATA[Structured Query Language (SQL)]]></title><description><![CDATA[How to learn SQL: The language of relational data]]></description><link>https://www.jamestharpe.com/sql/</link><guid isPermaLink="false">https://www.jamestharpe.com/sql/</guid><pubDate>Mon, 30 Jan 2023 18:14:24 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 03 Feb 2023 16:34:24 GMT</lastBuildDate><item><title><![CDATA[Structured Query Language (SQL)]]></title><description><![CDATA[How to learn SQL: The language of relational data]]></description><link>https://www.jamestharpe.com/sql/</link><guid isPermaLink="false">https://www.jamestharpe.com/sql/</guid><pubDate>Mon, 30 Jan 2023 18:14:24 GMT</pubDate><content:encoded>&lt;p&gt;
 														How to learn SQL: The language of relational data
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -23,11 +23,6 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-types/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Semisupervised Learning]]></title><description><![CDATA[Machine learning that uses partially labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-semisupervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-semisupervised/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
-														Machine learning that uses partially labeled input as training data
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-semisupervised/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Batch and Offline Learning]]></title><description><![CDATA[Machine learning that requires a complete dataset for training]]></description><link>https://www.jamestharpe.com/ml-batch-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-batch-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
 														Machine learning that requires a complete dataset for training
 													&lt;/p&gt;
@@ -38,6 +33,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-reinforcement-learning/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Semisupervised Learning]]></title><description><![CDATA[Machine learning that uses partially labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-semisupervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-semisupervised/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning that uses partially labeled input as training data
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-semisupervised/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Online Learning]]></title><description><![CDATA[Machine learning that requires a complete dataset for training]]></description><link>https://www.jamestharpe.com/ml-online-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-online-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
 														Machine learning that requires a complete dataset for training
 													&lt;/p&gt;
@@ -1393,11 +1393,6 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-initiative/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														A list of open-source programming languages I&apos;ve learned (at least a little bit)
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Hardware]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-hardware/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-hardware/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
@@ -1408,6 +1403,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														A list of open-source programming languages I&apos;ve learned (at least a little bit)
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
@@ -1463,16 +1463,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/watts-law/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
-														Overview of folders in the root of most Linux distributions
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/linux-file-system/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux]]></title><description><![CDATA[A free and open-source operating system]]></description><link>https://www.jamestharpe.com/linux/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														A free and open-source operating system
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/linux/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Linux File System]]></title><description><![CDATA[Overview of folders in the root of most Linux distributions]]></description><link>https://www.jamestharpe.com/linux-file-system/</link><guid isPermaLink="false">https://www.jamestharpe.com/linux-file-system/</guid><pubDate>Tue, 24 Nov 2020 15:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
+														Overview of folders in the root of most Linux distributions
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/linux-file-system/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Ender 3 Pro 3D Printer]]></title><description><![CDATA[A small, reliable 3D printer appropriate for home use]]></description><link>https://www.jamestharpe.com/3d-printer-ender-3-pro/</link><guid isPermaLink="false">https://www.jamestharpe.com/3d-printer-ender-3-pro/</guid><pubDate>Tue, 24 Nov 2020 13:13:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														A small, reliable 3D printer appropriate for home use
 													&lt;/p&gt;
