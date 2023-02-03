@@ -79,18 +79,20 @@ title: "Structured Query Language (SQL)"
 		</td>
 	</tr>
 	<tr>
-		<td>Refine skills and <a href="/dreyfus-model-of-skill-acquisition">build proficiency</a> with interactive challenges and puzzles</td>
+		<td>Refine skills and build proficiency with interactive challenges and puzzles</td>
 		<td>As much as possible, ongoing (i.e. 1 hour per day most days while actively building SQL skills)</td>
 		<td>
-			<li>
-				<a href="https://www.hackerrank.com/domains/sql">HackerRank SQL Challenges</a>
-			</li>
-			<li>
-				<a href="https://leetcode.com/study-plan/sql/">LeetCode progressive challenges study plan</a>
-			</li>
-			<li>
-				<a href="https://www.sql-ex.com/">SQL exercises (includes optional certification)</a>
-			</li>
+			<ul>
+				<li>
+					<a href="https://www.hackerrank.com/domains/sql">HackerRank SQL Challenges</a>
+				</li>
+				<li>
+					<a href="https://leetcode.com/study-plan/sql/">LeetCode progressive challenges study plan</a>
+				</li>
+				<li>
+					<a href="https://www.sql-ex.com/">SQL exercises (includes optional certification)</a>
+				</li>
+			</ul>
 		</td>
 	</tr>
 	<tr>
