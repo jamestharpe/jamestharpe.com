@@ -1,5 +1,5 @@
 ---
-date: 2022-04-01T11:26:32-04:00
+date: 2023-03-06T14:01:52-04:00
 description: "Secured and closely controlled environments used to analyze sensitive data"
 tags: ["data-governance", "data-analysis"]
 title: "Data Clear Room"
