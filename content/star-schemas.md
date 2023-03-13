@@ -1,13 +1,17 @@
 ---
 date: 2021-12-22T08:54:25-04:00
 description: "Schemas to organize data by facts and dimensions for analysis"
-tags: [ "data-warehouses", "olap" ]
+tags: [ "dimensional-modeling", "olap" ]
 title: "Star Schemas"
 ---
 
 # Star schemas
 
-A **star schemas** organizes [relational data](relational-databases.md) into fact and dimension tables, typically to store data in a [data warehouse](data-warehouses.md). **Fact tables** consist of measurements and metrics (e.g. sales) while **dimension tables** consist of related data that can be used for filtering and categorization (e.g. which products were sold).
+A **star schemas** is a specific implementation of a [dimensional model](dimensional-modeling.md) that organizes [relational data](relational-databases.md) into fact and dimension tables, typically to store data in a [data warehouse](data-warehouses.md).  In a typical star schema, there is one central **fact table** that contains all of the data related to a particular business process (such as sales, support request, defect reports, etc.), and several **dimension tables** that contain descriptive information about the various dimensions that are used to analyze that process (such as time, location, and product). The fact table and dimension tables are joined together using foreign keys to create a complete picture of the data.
+
+## Example start schema for Sales
+
+Here's a simple example of a star schema, organized around sales:
 
 ```mermaid
 erDiagram
@@ -123,3 +127,8 @@ A **junk dimension** is a very dimension (without many details) that is stored i
 
 ### Shrunken
 -->
+
+## Star schema modeling resources
+
+* [Kimball Dimensional Modeling Techniques](https://www.kimballgroup.com/data-warehouse-business-intelligence-resources/kimball-techniques/dimensional-modeling-techniques/)
+* [GitLab Enterprise Dimensional Model](https://about.gitlab.com/handbook/business-technology/data-team/platform/edw/)
