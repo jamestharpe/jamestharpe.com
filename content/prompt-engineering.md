@@ -7,18 +7,18 @@ title: "Prompt Engineering"
 
 # Prompt engineering
 
-**Prompt engineering** is a set of technique used to improve performance and control behavior of language-based AI models like [ChatGPT](chatgpt.md) and DALL·E. It involves designing and refining input queries or prompts to obtain more accurate, relevant, or useful responses as well as avoid issues like incoherent or unintended responses.
+**Prompt engineering** is a set of techniques used to improve performance and control the behavior of language-based AI models like [ChatGPT](chatgpt.md) and DALL·E. It involves designing and refining input queries or prompts to obtain more accurate, relevant, or useful responses as well as avoid issues like incoherent or unintended responses.
 
 The process of prompt engineering typically includes the following steps:
 
 1. Define the objective: Clearly outline the goal of the specific output you want the AI model to generate.
 2. Craft an initial prompt: Develop a question or statement to achieve the objective. This can involve providing context, specifying the desired format of the response, or using examples to guide the model.
-3. Test and iterate: Submit the initial prompt and evaluate the response. Identify areas for improvement and refine the prompt accordingly. Repeat this process until you get the desired output. In some cases, it can be necessary to include additional information or context within the prompt by providing relevant background information or specifying certain constraints.
+3. Test and iterate: Submit the initial prompt and evaluate the response. Identify areas for improvement and refine the prompt accordingly. Repeat this process until you get the desired output. In some cases, it may be necessary to include additional information or context within the prompt by providing relevant background information or specifying certain constraints.
 4. Refine the prompt for length and complexity: Look for ways to simplify and shorten the prompt by simplifying the language, removing excess context, and eliminating redundant information. Test and iterate on this step as well.
 
 ## Meta-prompt engineering, an example
 
-**Meta-prompt engineering** is the act of guiding a language-based AI model through performing the steps of prompt engineering its self. Let's say we want ChatGPT to assist with [software development](software-engineering.md); however, each time we try, the responses we get are overly broad or don't account for all the requirements as we intended.
+One of the easiest ways to start with prompt engineering is to use meta prompt engineering. **Meta-prompt engineering** is the act of guiding a language-based AI model through performing the steps of prompt engineering itself. Let's say we want ChatGPT to assist with [software development](software-engineering.md); however, each time we try, the responses we get are overly broad or don't account for all the requirements as we intended.
 
 Here's a quick example using ChatGPT-4, with virtually no prompt engineering:
 
@@ -94,9 +94,9 @@ Here's my objective: I want to be able to give a simple description of an applic
 >
 > 1. Specify your desired role for ChatGPT: Clearly mention that you want ChatGPT to act as a software development assistant, helping with tasks such as programming, debugging, or offering suggestions.
 > 2. State your programming language: Clearly mention the programming language you are working with, as this will help ChatGPT provide accurate and relevant assistance.
-> 3. Describe your project or task: Give a brief overview of your project or the specific task you need help with. This will help ChatGPT understand the context and >provide appropriate suggestions.
-> 4. Ask a specific question or request: Clearly state the question or request you have for ChatGPT, such as troubleshooting an issue, suggesting a new feature, or >offering advice on best practices.
-> 5. Provide any necessary code snippets or examples: If your question or request is related to code, include relevant code snippets or examples to help ChatGPT >better understand the issue.
+> 3. Describe your project or task: Give a brief overview of your project or the specific task you need help with. This will help ChatGPT understand the context and provide appropriate suggestions.
+> 4. Ask a specific question or request: Clearly state the question or request you have for ChatGPT, such as troubleshooting an issue, suggesting a new feature, or offering advice on best practices.
+> 5. Provide any necessary code snippets or examples: If your question or request is related to code, include relevant code snippets or examples to help ChatGPT better understand the issue.
 >
 > Here's a sample prompt you can use as a starting point:
 >
@@ -122,15 +122,15 @@ ChatGPT uncovered some good points, but we're looking for something more general
 
 > **James:**
 >
->How does this look?
+> How does this look?
 >
->"I want you to act as an AI-powered software development assistant to help with tasks such as requirements gathering, programming, debugging, and deployment.  >You will prompt be for the application name and a high-level description of the type of application (for example: a to-do list app, a game, a chat bot). Next, >you will suggest a list of features and ask me to provide a list of features. Then you will suggest some programming languages (for example: python or >JavaScript) appropriate for the application and allow me to choose one. Next, you will guide me step-by-step through the development of the application. >Throughout development, you will suggest new features and ask me for suggestions of new features. Once I am satisfied with the application, you will provide >instructions on how to deploy it."
+> "I want you to act as an AI-powered software development assistant to help with tasks such as requirements gathering, programming, debugging, and deployment. You will prompt me for the application name and a high-level description of the type of application (for example: a to-do list app, a game, a chat bot). Next, you will suggest a list of features and ask me to provide a list of features. Then you will suggest some programming languages (for example: python or JavaScript) appropriate for the application and allow me to choose one. Next, you will guide me step-by-step through the development of the application. Throughout development, you will suggest new features and ask me for suggestions of new features. Once I am satisfied with the application, you will provide instructions on how to deploy it."
 >
 > **ChatGPT:**
 >
->Your prompt looks good and provides a clear outline of the tasks you want the AI-powered software development assistant to help with. However, the prompt seems to be more of an instruction set than a question or request. You can start by asking a question to initiate the conversation and then follow up with more questions as the conversation progresses. Here's a modified version of your prompt:
+> Your prompt looks good and provides a clear outline of the tasks you want the AI-powered software development assistant to help with. However, the prompt seems to be more of an instruction set than a question or request. You can start by asking a question to initiate the conversation and then follow up with more questions as the conversation progresses. Here's a modified version of your prompt:
 >
->"Hi ChatGPT, please act as my AI-powered software development assistant, helping me with tasks such as requirements gathering, programming, debugging, and deployment. First, can you prompt me for the application name and a high-level description of the type of application (e.g., a to-do list app, a game, a chatbot)? Once we have that, we can discuss the features and programming languages appropriate for the application, and then you can guide me step-by-step through the development process."
+> "Hi ChatGPT, please act as my AI-powered software development assistant, helping me with tasks such as requirements gathering, programming, debugging, and deployment. First, can you prompt me for the application name and a high-level description of the type of application (e.g., a to-do list app, a game, a chatbot)? Once we have that, we can discuss the features and programming languages appropriate for the application, and then you can guide me step-by-step through the development process."
 >
 > By starting with a question, you engage ChatGPT in a more conversational manner, allowing you to build on the discussion and ask follow-up questions as needed. This approach will also enable you to receive more targeted and specific guidance from ChatGPT throughout the development process.
 
@@ -138,11 +138,11 @@ ChatGPT's response seems well reasoned, so we have our initial prompt!
 
 ### Step 3: Test and iterate
 
-Let's try to build a to-do list app again, but prime ChatGPT with the prompt we came up with using ChatGPT as our prompt engineer. The resulting conversation I had with ChatGPT was long, so I won't include it here, but I'll summarize some of the issues:
+Let's try building a to-do list app again, but prime ChatGPT with the prompt we came up with using ChatGPT as our prompt engineer. The resulting conversation I had with ChatGPT was long, so I won't include it here, but I'll summarize some of the issues:
 
-* It was more wordy than it needed to be
-* It chose a framework for me ([React](react.md)), rather than helping me make a choice
-* It gave a few detailed initial steps (e.g. "run `npm instal ...`"), followed by several high-level steps (e.g. "deploy the app") that lacked detail, rather than guiding me step-by-step.
+- It was more wordy than it needed to be
+- It chose a framework for me ([React](react.md)), rather than helping me make a choice
+- It gave a few detailed initial steps (e.g. "run `npm install ...`"), followed by several high-level steps (e.g. "deploy the app") that lacked detail, rather than guiding me step-by-step.
 
 Let's try again by putting that feedback back into the Prompt Engineering session of ChatGPT. After a little back-and-forth, I ended up with this prompt:
 
@@ -164,7 +164,7 @@ At this point, the prompt is working really well! After putting this prompt into
 
 ### Step 4: Refine the prompt for length and complexity
 
-At this point our prompt is working well, but it's very long and somewhat complex. Let's trim it down a little bit at a time, testing at each step.
+At this point, our prompt is working well, but it's very long and somewhat complex. Let's trim it down a little bit at a time, testing at each step.
 
 We'll start by removing the niceties:
 
@@ -180,8 +180,8 @@ It worked great! Maybe we can get simplify it a little further by editing the gr
 
 After another round of testing, the prompt worked great for several scenarios! Here are the scenarios I tested with:
 
-* A to-do list web app with Next.js and using IndexDB to avoid having to deploy a database
-* A Blackjack app written in Angular
-* A TikTok clone
+- A to-do list web app with Next.js and using IndexDB to avoid having to deploy a database
+- A Blackjack app written in Angular
+- A TikTok clone
 
 Though I didn't build the apps through to completion, the plans, frameworks, and code all looked promising. I'm confident that by using this meta prompt engineered prompt, that virtually anyone can build an app quicker than ever!
