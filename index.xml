@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 13 Mar 2023 14:38:38 GMT</lastBuildDate><item><title><![CDATA[High Brand Loyalty (HBL) Consumers]]></title><description><![CDATA[High Brand Loyalty (HBL) Consumers are customers that repeatedly purchases products or services from a particular brand]]></description><link>https://www.jamestharpe.com/hbl-consumers/</link><guid isPermaLink="false">https://www.jamestharpe.com/hbl-consumers/</guid><pubDate>Mon, 13 Mar 2023 14:11:07 GMT</pubDate><content:encoded>&lt;p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Mar 2023 23:43:11 GMT</lastBuildDate><item><title><![CDATA[Prompt Engineering]]></title><description><![CDATA[The art of guiding AI language models]]></description><link>https://www.jamestharpe.com/prompt-engineering/</link><guid isPermaLink="false">https://www.jamestharpe.com/prompt-engineering/</guid><pubDate>Fri, 17 Mar 2023 18:59:52 GMT</pubDate><content:encoded>&lt;p&gt;
+														The art of guiding AI language models
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/prompt-engineering/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[ChatGPT: Introduction and Examples]]></title><description><![CDATA[An overview of ChatGPT and common use cases]]></description><link>https://www.jamestharpe.com/chatgpt/</link><guid isPermaLink="false">https://www.jamestharpe.com/chatgpt/</guid><pubDate>Fri, 17 Mar 2023 17:43:52 GMT</pubDate><content:encoded>&lt;p&gt;
+														An overview of ChatGPT and common use cases
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/chatgpt/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Generative Pre-trained Transformer (GPT)]]></title><description><![CDATA[An architecture to use unsupervised learning to generate human-like language]]></description><link>https://www.jamestharpe.com/gpt/</link><guid isPermaLink="false">https://www.jamestharpe.com/gpt/</guid><pubDate>Fri, 17 Mar 2023 17:43:52 GMT</pubDate><content:encoded>&lt;p&gt;
+														An architecture to use unsupervised learning to generate human-like language
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/gpt/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[High Brand Loyalty (HBL) Consumers]]></title><description><![CDATA[High Brand Loyalty (HBL) Consumers are customers that repeatedly purchases products or services from a particular brand]]></description><link>https://www.jamestharpe.com/hbl-consumers/</link><guid isPermaLink="false">https://www.jamestharpe.com/hbl-consumers/</guid><pubDate>Mon, 13 Mar 2023 14:11:07 GMT</pubDate><content:encoded>&lt;p&gt;
 														High Brand Loyalty (HBL) Consumers are customers that repeatedly purchases products or services from a particular brand
 													&lt;/p&gt;
 													&lt;p&gt;
@@ -48,16 +63,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-online-learning/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Reinforcement Learning]]></title><description><![CDATA[Machine learning that uses penalties and rewards to train agents in interactive environments]]></description><link>https://www.jamestharpe.com/ml-reinforcement-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-reinforcement-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
-														Machine learning that uses penalties and rewards to train agents in interactive environments
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-reinforcement-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Semisupervised Learning]]></title><description><![CDATA[Machine learning that uses partially labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-semisupervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-semisupervised/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
 														Machine learning that uses partially labeled input as training data
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-semisupervised/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Reinforcement Learning]]></title><description><![CDATA[Machine learning that uses penalties and rewards to train agents in interactive environments]]></description><link>https://www.jamestharpe.com/ml-reinforcement-learning/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-reinforcement-learning/</guid><pubDate>Fri, 25 Nov 2022 20:04:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning that uses penalties and rewards to train agents in interactive environments
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-reinforcement-learning/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source JavaScript and TypScript Libraries]]></title><description><![CDATA[Popular open-source libraries used in JavaScript and TypeScript development]]></description><link>https://www.jamestharpe.com/js-libs/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-libs/</guid><pubDate>Fri, 25 Nov 2022 19:14:58 GMT</pubDate><content:encoded>&lt;p&gt;
 														Popular open-source libraries used in JavaScript and TypeScript development
 													&lt;/p&gt;
@@ -123,16 +138,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pyspark-recipes/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Supervised Machine Learning]]></title><description><![CDATA[Machine learning that uses pre-labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-supervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised/</guid><pubDate>Thu, 03 Nov 2022 21:02:20 GMT</pubDate><content:encoded>&lt;p&gt;
-														Machine learning that uses pre-labeled input as training data
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Unsupervised Machine Learning]]></title><description><![CDATA[Machine learning that uses unlabeled input as training data]]></description><link>https://www.jamestharpe.com/ml-unsupervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-unsupervised/</guid><pubDate>Thu, 03 Nov 2022 21:02:20 GMT</pubDate><content:encoded>&lt;p&gt;
 														Machine learning that uses unlabeled input as training data
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ml-unsupervised/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Supervised Machine Learning]]></title><description><![CDATA[Machine learning that uses pre-labeled input as training data]]></description><link>https://www.jamestharpe.com/ml-supervised/</link><guid isPermaLink="false">https://www.jamestharpe.com/ml-supervised/</guid><pubDate>Thu, 03 Nov 2022 21:02:20 GMT</pubDate><content:encoded>&lt;p&gt;
+														Machine learning that uses pre-labeled input as training data
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/ml-supervised/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[SMOTE: Synthetic Minority Oversampling Technique]]></title><description><![CDATA[Synthetic Minority Oversampling Technique: An approach to compensating for severe class imbalance in machine learning]]></description><link>https://www.jamestharpe.com/smote/</link><guid isPermaLink="false">https://www.jamestharpe.com/smote/</guid><pubDate>Tue, 01 Nov 2022 13:22:20 GMT</pubDate><content:encoded>&lt;p&gt;
 														Synthetic Minority Oversampling Technique: An approach to compensating for severe class imbalance in machine learning
 													&lt;/p&gt;
@@ -473,16 +488,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/apps/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Distributed Systems]]></title><description><![CDATA[Software systems distributed and coordinated over a network]]></description><link>https://www.jamestharpe.com/distributed-systems/</link><guid isPermaLink="false">https://www.jamestharpe.com/distributed-systems/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>&lt;p&gt;
-														Software systems distributed and coordinated over a network
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/distributed-systems/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Command Query Responsibility Segregation (CQRS)]]></title><description><![CDATA[A software engineering design pattern to separate responsibility between commands and queries]]></description><link>https://www.jamestharpe.com/cqrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/cqrs/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														A software engineering design pattern to separate responsibility between commands and queries
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/cqrs/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Distributed Systems]]></title><description><![CDATA[Software systems distributed and coordinated over a network]]></description><link>https://www.jamestharpe.com/distributed-systems/</link><guid isPermaLink="false">https://www.jamestharpe.com/distributed-systems/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>&lt;p&gt;
+														Software systems distributed and coordinated over a network
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/distributed-systems/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Apache Kafka]]></title><description><![CDATA[A distributed event streaming platform for data-pipelines and analytics]]></description><link>https://www.jamestharpe.com/apache-kafka/</link><guid isPermaLink="false">https://www.jamestharpe.com/apache-kafka/</guid><pubDate>Sat, 27 Nov 2021 15:19:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														A distributed event streaming platform for data-pipelines and analytics
 													&lt;/p&gt;
@@ -543,16 +558,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/big-data/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Research]]></title><description><![CDATA[The systematic process of gathering data to establish facts]]></description><link>https://www.jamestharpe.com/research/</link><guid isPermaLink="false">https://www.jamestharpe.com/research/</guid><pubDate>Sun, 21 Nov 2021 18:28:45 GMT</pubDate><content:encoded>&lt;p&gt;
-														The systematic process of gathering data to establish facts
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/research/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Epistemology]]></title><description><![CDATA[Theories of knowledge]]></description><link>https://www.jamestharpe.com/epistemology/</link><guid isPermaLink="false">https://www.jamestharpe.com/epistemology/</guid><pubDate>Sun, 21 Nov 2021 18:28:45 GMT</pubDate><content:encoded>&lt;p&gt;
 														Theories of knowledge
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/epistemology/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Research]]></title><description><![CDATA[The systematic process of gathering data to establish facts]]></description><link>https://www.jamestharpe.com/research/</link><guid isPermaLink="false">https://www.jamestharpe.com/research/</guid><pubDate>Sun, 21 Nov 2021 18:28:45 GMT</pubDate><content:encoded>&lt;p&gt;
+														The systematic process of gathering data to establish facts
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/research/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Sociology]]></title><description><![CDATA[The balance of opportunity and wealth distribution in a society]]></description><link>https://www.jamestharpe.com/sociology/</link><guid isPermaLink="false">https://www.jamestharpe.com/sociology/</guid><pubDate>Sun, 21 Nov 2021 17:51:43 GMT</pubDate><content:encoded>&lt;p&gt;
 														The balance of opportunity and wealth distribution in a society
 													&lt;/p&gt;
@@ -863,16 +878,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/containers/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
-														A system to conduct an orchestra of containers
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/kubernetes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes CLI: kubectl]]></title><description><![CDATA[The CLI interface for Kubernetes]]></description><link>https://www.jamestharpe.com/kubectl/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubectl/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
 														The CLI interface for Kubernetes
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/kubectl/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Kubernetes (k8s)]]></title><description><![CDATA[A system to conduct an orchestra of containers]]></description><link>https://www.jamestharpe.com/kubernetes/</link><guid isPermaLink="false">https://www.jamestharpe.com/kubernetes/</guid><pubDate>Wed, 18 Aug 2021 11:13:14 GMT</pubDate><content:encoded>&lt;p&gt;
+														A system to conduct an orchestra of containers
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/kubernetes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[SCARF Model: Status, Certainty, Autonomy, Relatedness, Fairness]]></title><description><![CDATA[The opportunity for fair representation within a group]]></description><link>https://www.jamestharpe.com/scarf-model/</link><guid isPermaLink="false">https://www.jamestharpe.com/scarf-model/</guid><pubDate>Fri, 23 Jul 2021 14:11:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														The opportunity for fair representation within a group
 													&lt;/p&gt;
@@ -1413,16 +1428,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-hardware/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														A list of open-source programming languages I&apos;ve learned (at least a little bit)
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Organizations dedicated to open-source
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Programming Languages]]></title><description><![CDATA[A list of open-source programming languages I've learned (at least a little bit)]]></description><link>https://www.jamestharpe.com/open-source-languages/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-languages/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														A list of open-source programming languages I&apos;ve learned (at least a little bit)
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Useful open source software projects
 													&lt;/p&gt;
@@ -1658,16 +1673,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/aws-cloudformation/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														A Bash emulator and terminal for Windows
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/git-bash/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Aliases]]></title><description><![CDATA[Command-line shortcuts for Git]]></description><link>https://www.jamestharpe.com/git-aliases/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-aliases/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Command-line shortcuts for Git
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/git-aliases/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Git Bash]]></title><description><![CDATA[A Bash emulator and terminal for Windows]]></description><link>https://www.jamestharpe.com/git-bash/</link><guid isPermaLink="false">https://www.jamestharpe.com/git-bash/</guid><pubDate>Mon, 16 Nov 2020 00:04:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														A Bash emulator and terminal for Windows
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/git-bash/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Database as Code]]></title><description><![CDATA[A technique to version-control and automate the deployment of database schemas]]></description><link>https://www.jamestharpe.com/database-as-code/</link><guid isPermaLink="false">https://www.jamestharpe.com/database-as-code/</guid><pubDate>Sun, 15 Nov 2020 23:41:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														A technique to version-control and automate the deployment of database schemas
 													&lt;/p&gt;
