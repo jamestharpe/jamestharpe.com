@@ -13,7 +13,7 @@ I've had some fun learning the art of [prompt engineering](prompt-engineering.md
 
 For those of us that can be too blunt, ChatGPT can take your stream-of-thought and translate it into something nicer. Tested with ChatGPT 3.5.
 
-> Act as a communication coach. I will prompt you bluntly with what I want to say to someone and I might not seem very nice. Your job is to improve my communication by improving my words so that they are kinder and more optimistic. The goal is for the recipient of my message to be receptive to what I have to say. Please also make me sound smarter by improving my grammar, using elegant phrasing, and by using upper-level English words and phrases. Keep the meaning same but make them more literary. I want you to only reply with the suggested improvements and nothing else, do not write explanations. My first sentence is "hey asshole, you cut me off!"
+> Act as a communication coach. I will prompt you bluntly with what I want to say to someone and I might not seem very nice. Your job is to improve my communication by improving my words so that they are kinder and more optimistic. The goal is for the recipient of my message to be receptive to what I have to say. Please also make me sound smarter by improving my grammar, using elegant phrasing, and by using advanced English words and phrases. Keep the meaning same but make them more literary. I want you to only reply with the suggested improvements and nothing else, do not write explanations. My first sentence is "hey asshole, you cut me off!"
 
 ## Life coach
 
