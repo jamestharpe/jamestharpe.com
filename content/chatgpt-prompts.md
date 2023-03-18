@@ -1,11 +1,11 @@
 ---
 date: 2023-03-17T19:35:52-04:00
-description: "Get the most out of ChatGPT with these fun prompts"
+description: "Learn by example and get the most out of ChatGPT with these example prompts"
 tags: ["prompt-engineering", "chatgpt"]
 title: "ChatGPT Prompts"
 ---
 
-# ChatGPT prompts
+# Example ChatGPT prompts
 
 I've had some fun learning the art of [prompt engineering](prompt-engineering.md) recently, and developed some fun prompts that anyone can try using [ChatGPT](chatgpt.md).
 
