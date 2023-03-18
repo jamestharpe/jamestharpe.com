@@ -88,6 +88,7 @@ language descriptions of the desired functionality. It can also review and sugge
 existing code. Here's an example of a ChatGPT-based code review:
 
 > **James:**
+>
 > Please review the following Python code and suggest improvements:
 >
 > from pyspark.sql.functions import col, when
@@ -104,7 +105,7 @@ existing code. Here's an example of a ChatGPT-based code review:
 >         )
 >     )
 > ```
-
+>
 > **ChatGPT:**
 >
 > The provided Python code appears to be a function that replaces values in a given DataFrame using PySpark. The function takes four arguments: the input DataFrame (in_df), the name of the column to replace values in (in_column_name), the condition to apply the replacement (on_condition), and the value to replace with (with_value).
@@ -159,7 +160,7 @@ existing code. Here's an example of a ChatGPT-based code review:
 >				col(column_to_replace)
 >			)
 >		)
->```
+> ```
 >
 > This version of the function includes type validation for its inputs, a docstring explaining what the function does and how to use it, and more descriptive parameter names.
 
