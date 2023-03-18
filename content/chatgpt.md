@@ -166,6 +166,6 @@ existing code. Here's an example of a ChatGPT-based code review:
 
 ## ChatGPT Resources
 
-* [ChatGPT App](https://chat.openai.com/chat)
+* [ChatGPT App](https://chat.openai.com/)
 * [ChatGPT Documentation](https://platform.openai.com/docs/models/chatgpt)
 * [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)
