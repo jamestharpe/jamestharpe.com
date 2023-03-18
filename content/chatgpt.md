@@ -61,6 +61,7 @@ ChatGPT can translate between most languages. Here's an example of using ChatGPT
 In a separate session:
 
 > **James:**
+>
 > Translate the following message to English:
 >
 > Привіт Андрію,
@@ -72,6 +73,7 @@ In a separate session:
 > Джеймс
 >
 > **ChatGPT:**
+>
 > Hello Andrew,
 >
 > In the past, translating from English to Ukrainian and from Ukrainian to English was difficult because Google Translate doesn't know Ukrainian very well. I wonder if ChatGPT does better with this. If you have a minute, I would be interested to know if this message is clear or if it sounds like "English-Ukrainian mess".
