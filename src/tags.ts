@@ -39,7 +39,10 @@ export function useKnowledgeNetworkQuery(
 ) {
 	const { allMdx }: KnowledgeNetworkQueryResult = useStaticQuery(graphql`
 		query KnowledgeNetworkQuery {
-			allMdx(filter: { frontmatter: { draft: { ne: true } } }) {
+			allMdx(
+				filter: { frontmatter: { draft: { ne: true } } }
+				sort: { fields: [frontmatter___date], order: DESC }
+			) {
 				nodes {
 					excerpt
 					frontmatter {

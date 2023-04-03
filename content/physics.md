@@ -1,11 +1,11 @@
 ---
 date: 2020-12-26T19:26:46-04:00
 description: "The fundamental nature and properties of matter, energy, and motion"
-tags: [ "science" ]
+tags: [ "natural-sciences" ]
 title: "Physics"
 ---
 
-# Fundamental Terms of Physics
+# Fundamental terms of physics
 
 ## Energy, Work, and Displacement
 
