@@ -28,3 +28,4 @@ A **histogram** shows the distribution of a single variable across all values fo
 <!-- ## Data Visualization Resources -->
 
 * [Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
+* [Visual Capitalist](https://www.visualcapitalist.com/)
