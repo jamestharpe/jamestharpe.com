@@ -7,9 +7,8 @@ title: "React (JavaScript Library)"
 
 # React (JavaScript Library)
 
-[React](https://reactjs.org/) is a declarative, component-based [JavaScript](javascript.md) library for building user interfaces, particularly [web applications](web-dev.md).
+[React](https://reactjs.org/) is a declarative, component-based [JavaScript](javascript.md) library for building user interfaces, particularly [web applications](web-dev.md) and [mobile applications](react-native.md).
 
 ## React Resources
 
 * [React Official Website](https://reactjs.org/)
-* [Create React App](https://create-react-app.dev/)
