@@ -1,7 +1,7 @@
 ---
 date: 2020-12-26T11:29:11-04:00
 description: "How businesses manage relationships with customers"
-tags: [ "marketing", "advertizing" ]
+tags: [ "marketing", "advertising" ]
 title: "Customer Relationship Management (CRM)"
 ---
 
