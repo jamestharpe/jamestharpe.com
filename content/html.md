@@ -1,7 +1,7 @@
 ---
 date: 2021-09-05T16:38:41-04:00
 description: "The standard markup language for content on the web"
-tags: [ "computer-languages" ]
+tags: [ "computer-languages", "web-dev" ]
 title: "HyperText Markup Language (HTML)"
 ---
 
