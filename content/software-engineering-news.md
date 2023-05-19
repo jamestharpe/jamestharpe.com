@@ -3,6 +3,7 @@ date: 2021-07-19T13:17:26-04:00
 description: "News sources to help stay up-to-date with Software Engineering"
 tags: [ "engineering", "computer-science" ]
 title: "Software Engineering News Sources"
+draft: true
 ---
 
 # Software Engineering News Sources
