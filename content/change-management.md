@@ -37,4 +37,3 @@ A classic example of the typical transition curve is roadway construction. Durin
 
 * [HBR: 3 Things You’re Getting Wrong About Organizational Change](https://hbr.org/2020/06/3-things-youre-getting-wrong-about-organizational-change)
 * [McKinsey: Personalizing change management in the smartphone era](https://www.mckinsey.com/business-functions/organization/our-insights/personalizing-change-management-in-the-smartphone-era)
-* [Change management Tweeters](https://twitter.com/i/lists/1409262959881244677)
