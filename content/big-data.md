@@ -9,7 +9,7 @@ title: "Big Data"
 
 **Big data** is a blanket term for the [data engineering](data-engineering.md) and [data analysis](data-analysis.md) challenges that arise from working with extremely large datasets over [distributed systems](distributed-systems.md).
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;big data&quot; is when the size of the data itself becomes part of the problem</p>&mdash; Jeff Xiong (@gigix) <a href="https://twitter.com/gigix/status/174086466950021120?ref_src=twsrc%5Etfw">February 27, 2012</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;big data&quot; is when the size of the data itself becomes part of the problem</p>&mdash; Jeff Xiong (@gigix) February 27, 2012</blockquote>
 
 In other words, if you ask an analytics team for a report and the report takes too long to run, will slow down a production system, requires too many steps to complete, or if the data is too difficult to identify and access, then it's probably a "big data" problem.
 
