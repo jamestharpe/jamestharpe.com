@@ -9,7 +9,7 @@ title: "Linus's Law"
 
 > Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
 
-This law was coined by Eric Raymond in [The Cathedral and The Bazaar](https://cse.unl.edu/~cbourke/ComputerScienceII/docs/CathedralAndBazaar.pdf) and named in honor of Linus Torvalds.
+This law was coined by Eric Raymond in [The Cathedral and The Bazaar](https://monoskop.org/images/e/e0/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf) and named in honor of Linus Torvalds.
 
 It is more succinctly and less formally stated as:
 
