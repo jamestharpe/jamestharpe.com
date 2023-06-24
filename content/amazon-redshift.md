@@ -3,6 +3,7 @@ date: 2021-12-04T16:19:30-04:00
 description: "A columnar data warehouse solution on AWS"
 redirect_from: ["/tools/cloudformation/"]
 tags: ["aws", "data-warehouses", "columnar-databases"]
+thumbnail: "/img/amazon-redshift_256x256.jpg"
 title: "Amazon Redshift"
 ---
 

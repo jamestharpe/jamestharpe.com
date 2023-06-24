@@ -2,12 +2,13 @@
 date: 2021-09-07T11:49:45-04:00
 description: "Little-a agile, like in the manifesto"
 tags: [ "project-management", "product-management", "sdlc"]
-title: "Agile"
+thumbnail: "/img/agile-software-development_256x256.jpg"
+title: "Agile Software Development"
 ---
 
 # Agile
 
-**Agile** is a set of four values based on 12 principles intended to create better software [products](product-management.md) through people-centric [project management](project-management.md).
+**Agile** is a set of four values based on 12 principles intended to create better [software](software-engineering.md) [products](product-management.md) through people-centric [project management](project-management.md).
 
 ## The Agile Manifesto
 

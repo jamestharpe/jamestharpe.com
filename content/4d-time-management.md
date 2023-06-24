@@ -2,6 +2,7 @@
 date: 2020-12-24T12:04:11-04:00
 description: "A triage scheme for new tasks: Delegate, Do, Defer, Drop"
 tags: [ "personal-productivity" ]
+thumbnail: "/img/4d-time-management_256x256.jpg"
 title: "4D Time Management"
 ---
 

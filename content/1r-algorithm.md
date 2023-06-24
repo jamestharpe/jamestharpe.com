@@ -2,6 +2,7 @@
 date: 2022-07-22T12:46:40-04:00
 description: "A simple classification machine learning algorithm"
 tags: [ "ml-supervised-classification-learning" ]
+thumbnail: "/img/1r-algorithm_256x256.jpg"
 title: "1R Classification Algorithm"
 ---
 

@@ -3,6 +3,7 @@ date: 2020-05-26T09:13:11-04:00
 description: "Learn to 3D print"
 tags: [ ]
 title: "3D printing"
+thumbnail: "/img/3d-printing_256x256.jpg"
 ---
 
 # 3D Printing

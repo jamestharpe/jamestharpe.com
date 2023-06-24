@@ -3,6 +3,7 @@ date: 2020-01-25T08:41:26-04:00
 description: "The study of algorithms, data structures, information, and computation"
 tags: [ "formal-sciences" ]
 title: "Computer Science"
+thumbnail: "/img/computer-science_256x256.jpg"
 ---
 
 # Computer Science

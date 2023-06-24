@@ -3,6 +3,7 @@ date: 2022-10-26T14:28:14-04:00
 description: "Database transactions that are atomic, consistent, isolated, and durable"
 tags: ["databases"]
 title: "ACID Transactions"
+thumbnail: "/img/acid-transactions_256x256.jpg"
 ---
 
 # ACID Transactions

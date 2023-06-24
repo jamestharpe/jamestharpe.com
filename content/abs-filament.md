@@ -2,6 +2,7 @@
 date: 2022-09-02T11:22:46-04:00
 description: "3d printing with ABS filament"
 tags: [ "3d-printing" ]
+thumbnail: "/img/abs-filament_256x256.jpg"
 title: "Acrylonitrile Butadiene Styrene (ABS) Filament"
 ---
 

@@ -26,6 +26,7 @@ type KnowledgeNetworkQueryResult = {
 			};
 			frontmatter: {
 				description?: string;
+				thumbnail?: string;
 				title?: string;
 				tags?: string[];
 			};
@@ -46,6 +47,7 @@ export function useKnowledgeNetworkQuery(
 				nodes {
 					excerpt
 					frontmatter {
+						thumbnail
 						title
 						tags
 						description
