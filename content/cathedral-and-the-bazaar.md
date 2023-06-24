@@ -9,4 +9,4 @@ title: "The Cathedral and the Bazaar"
 
 ## Resources
 
-* [Cathedral and the Bazaar PDF](https://cse.unl.edu/~cbourke/ComputerScienceII/docs/CathedralAndBazaar.pdf)
+* [Cathedral and the Bazaar PDF](https://monoskop.org/images/e/e0/Raymond_Eric_S_The_Cathedral_and_the_Bazaar_rev_ed.pdf)
