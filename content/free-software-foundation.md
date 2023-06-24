@@ -11,5 +11,4 @@ The [**Free Software Foundation (FSF)**](https://www.fsf.org/) is a nonprofit ac
 
 ## Resources
 
-* [FSF on Twitter](https://twitter.com/fsf)
 * [Free Software Definition](http://www.gnu.org/philosophy/free-sw.html)
