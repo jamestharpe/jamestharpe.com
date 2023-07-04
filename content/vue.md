@@ -1,5 +1,5 @@
 ---
-date: 2020-12-20T15:30:11-04:00
+date: 2022-12-20T15:30:11-04:00
 description: "Learn Vue"
 tags: [ "javascript", "web-dev" ]
 title: "Vue (JavaScript Framework)"
