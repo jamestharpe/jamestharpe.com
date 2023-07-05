@@ -11,15 +11,15 @@ title: "Core Web Vitals"
 
 ## Largest Contentful Paint (LCP)
 
-**Largest Contentful Paint (LCP)** measures how quickly the largest block of content on a webpage loads. Generally, LCP should occur within 2.5 seconds of when the page first starts loading.
+**Largest Contentful Paint (LCP)** measures how quickly the largest block of content on a webpage loads. Generally, LCP should occur within 2.5 seconds of when the page first starts loading. More information can be found on [web.dev/lcp](https://web.dev/lcp/) site.
 
 ## First Input Delay (FID)
 
-**First Input Delay (FID)** measures the time it takes from when the page contents are downloaded until the browser is first able to process user input. Generally, FID should be 100 milliseconds or less.
+**First Input Delay (FID)** measures the time it takes from when the page contents are downloaded until the browser is first able to process user input. Generally, FID should be 100 milliseconds or less.  More information can be found on [web.dev/fid](https://web.dev/fid/).
 
 ## Cumulative Layout Shift (CLS)
 
-**Cumulative Layout Shift (CLS)** measures the largest visible element position change during rendering. Generally, CLS should be 0.1 or less.
+**Cumulative Layout Shift (CLS)** measures the largest visible element position change during rendering. Generally, CLS should be 0.1 or less. More information can be found on [web.dev/cls](https://web.dev/cls/).
 
 ## Resources
 
