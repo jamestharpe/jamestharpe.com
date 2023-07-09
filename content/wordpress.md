@@ -19,3 +19,12 @@ WordPress includes **roles based access controls (RBAC)** which  allow for granu
 ## Notable WordPress Plugins
 
 * [ManageWP](https://managewp.com/) enables users to control multiple WordPress websites from a single interface. It is an especially useful tool for agencies or anyone managing multiple WordPress sites because it simplified tasks such as updates, backups, performance monitoring, security scans, uptime monitoring, and more.
+
+## Official WordPress resources
+
+* [WordPress Official Website](https://wordpress.com/)
+* [WordPress YouTube Channel](https://www.youtube.com/wordpressdotcom)
+
+## Additional WordPress Resources
+
+* [Local WordPress](https://localwp.com/) is a tool to quickly setup local WordPress development environments
