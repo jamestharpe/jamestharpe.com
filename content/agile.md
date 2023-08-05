@@ -7,7 +7,7 @@ title: "Agile"
 
 # Agile
 
-**Agile** is a set of four values based on 12 principles intended to create better software [products](product-management.md) through people-centric [project management](project-management.md).
+**Agile** is a set of four values based on 12 principles intended to create better [software](software-engineering.md) [products](product-management.md) through people-centric [project management](project-management.md).
 
 ## The Agile Manifesto
 
@@ -22,7 +22,7 @@ title: "Agile"
 >
 > That is, while there is value in the items on the right, we value the items on the left more.
 >
-> [Kent Beck](https://twitter.com/KentBeck), [Mike Beedle](https://twitter.com/mikebeedle), Arie van Bennekum, Alistair Cockburn, [Ward Cunningham](http://c2.com/), [Martin Fowler](https://www.martinfowler.com/), James Grenning, Jim Highsmith, [Andrew Hunt](https://toolshed.com/), Ron Jeffries, Jon Kern, Brian Marick, [Robert C. Martin](http://cleancoder.com/), Steve Mellor, Ken Schwaber, Jeff Sutherland, [Dave Thomas](https://pragdave.me/)
+> Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, [Ward Cunningham](http://c2.com/), [Martin Fowler](https://www.martinfowler.com/), James Grenning, Jim Highsmith, [Andrew Hunt](https://toolshed.com/), Ron Jeffries, Jon Kern, Brian Marick, [Robert C. Martin](http://cleancoder.com/), Steve Mellor, Ken Schwaber, Jeff Sutherland, [Dave Thomas](https://pragdave.me/)
 >
 > © 2001, the above authors this declaration may be freely copied in any form, but only in its entirety through this notice.
 

@@ -5,4 +5,6 @@ tags: [ "open-source" ]
 title: "Open-Source Hardware"
 ---
 
-# Open-source hardware
+# Open-source hardware (OSHW)
+
+**Open Source Hardware (OSHW)** is hardware for which the designs are publicly accessible. This access enables individuals to study, modify, distribute, create, and sell hardware based on the original designs.  

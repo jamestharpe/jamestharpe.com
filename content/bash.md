@@ -8,7 +8,7 @@ redirect_from: ["/languages/bash/"]
 
 # Bash
 
-Bash is a Unix shell
+**Bash** is a Unix [shell](shell.md).
 
 ## Bash Command Shortcuts
 

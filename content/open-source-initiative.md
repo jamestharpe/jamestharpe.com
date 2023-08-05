@@ -9,9 +9,8 @@ title: "Open Source Initiative (OSI)"
 
 The **Open Source Initiative (OSI)** is a nonprofit corporation that helps promote, guide, and protect [open-source](open-source.md) projects.
 
-## Resources
+## OSI Resources
 
-* [Open Source Initiative on Twitter](https://twitter.com/OpenSourceOrg)
 * [OSI supported Licenses](https://opensource.org/licenses)
 * [Frequently Asked Questions](https://opensource.org/faq)
 * [Open-source definition](https://opensource.org/osd)

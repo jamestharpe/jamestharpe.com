@@ -1,8 +1,13 @@
 {
 	"replacementPatterns": [
-    {
-      "pattern": "^\/img\/",
-      "replacement": "../static/img/"
-    }
-  ]
+		{
+			"pattern": "^\/img\/",
+			"replacement": "../static/img/"
+		}
+	],
+	"ignorePatterns": [
+		{
+			"pattern": "^https://www.linkedin.com/in/jamestharpe/"
+		}
+	]
 }
