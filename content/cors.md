@@ -7,7 +7,11 @@ title: "Cross-Origin Resource Sharing (CORS)"
 
 # Cross-Origin Resource Sharing (CORS)
 
-**Cross-Origin Resource Sharing**, or simply **CORS**, is a security mechanism that allows servers to use HTTP headers to indicate to clients origins it deems valid. Client applications, typically web browsers, then permit or deny loading resources from origins.
+**Cross-Origin Resource Sharing**, or simply **CORS**, is a security mechanism that allows servers to use HTTP headers to indicate to clients origins it deems valid.  Client applications, typically web browsers, then permit or deny web apps running on one origin from loading resources from other origins. Without CORS, malicious websites could make requests to another site on your behalf without your consent, possibly leading to security vulnerabilities.
+
+## What is an origin?
+
+An **origin** is a combination of a scheme (http, https), host (for example, jamestharpe.com), and port (80, 443). Two URLs with the same origin have the same scheme, host, and port.
 
 ## CORS Resources
 
