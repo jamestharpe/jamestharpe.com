@@ -58,7 +58,9 @@ const Layout: React.FC<LayoutProps> = ({ location, children }) => {
 					{/* About */}
 					<section className="column small-12 medium-6 large-4">
 						<h2>About James</h2>
-						<p>James is a father at home and a Principal Consultant at work.</p>
+						<p>
+							James is a husband, father, hiker, atiismist, and Principal Consultant
+						</p>
 						<p>{/* <Link to="/contact">Contact James</Link> */}</p>
 					</section>
 					{/* Social */}

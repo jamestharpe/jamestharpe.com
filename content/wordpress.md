@@ -2,7 +2,7 @@
 date: 2023-06-24T15:34:57-04:00
 description: "WordPress"
 tags: [ "content-management-systems", "web-dev", "open-source-software" ]
-title: "Microsoft Windows"
+title: "WordPress"
 thumbnail: "/img/computer-printing-press_256x256.jpg"
 ---
 
