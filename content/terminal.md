@@ -27,4 +27,3 @@ Terminals are text-based applications read and write to a [shell](shell.md). A "
 
 * [Terminal Cheat Sheet for Mac](https://github.com/0nn0/terminal-mac-cheatsheet)
 * [Difference Between a Console and a Terminal and a Shell by Scott Hanselman](https://www.hanselman.com/blog/whats-the-difference-between-a-console-a-terminal-and-a-shell)
-* [Julia Evans's Twitter Feed](https://twitter.com/b0rk)
