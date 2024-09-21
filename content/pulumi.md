@@ -7,7 +7,7 @@ title: "Publish/Subscribe Pattern (Pub-sub)"
 
 # Pulumi
 
-**Pulumi** is an [open-source software](open-source.md) tool to manage [infrastructure as code](infrastructure-as-code.md) through a variety of [languages](computer-languages.md), including [TypeScript](typescript.md), [Python](python.md), [Go](golang.md), and C#. 
+**Pulumi** is an [open-source software](open-source.md) tool to manage [infrastructure as code](infrastructure-as-code.md) through a variety of [languages](computer-languages.md), including [TypeScript](typescript.md), [Python](python.md), [Go](golang.md), and C#.
 
 ## Core Concepts in Pulumi
 
@@ -17,7 +17,7 @@ A **stack** represents a single instance of an infrastructure, often mapped to e
 
 ### Resources
 
-**Resources** are the fundamental building blocks of infrastructure in Pulumi and represent things like virtual machines, databases, networks, and storage. These map to real-world cloud services from AWS, Azure, GCP, or Kubernetes clusters. 
+**Resources** are the fundamental building blocks of infrastructure in Pulumi and represent things like virtual machines, databases, networks, and storage. These map to real-world cloud services from AWS, Azure, GCP, or Kubernetes clusters.
 
 Resources include:
 
