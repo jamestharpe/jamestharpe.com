@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 21 Sep 2024 09:42:45 GMT</lastBuildDate><item><title><![CDATA[Publish/Subscribe Pattern (Pub-sub)]]></title><description><![CDATA[Pulumi Pulumi  is an  open-source software  tool to manage  infrastructure as code  through a variety of  languages , including  TypeScript…]]></description><link>https://www.jamestharpe.com/pulumi/</link><guid isPermaLink="false">https://www.jamestharpe.com/pulumi/</guid><pubDate>Sat, 21 Sep 2024 09:01:25 GMT</pubDate><content:encoded>&lt;p&gt;
-														Pulumi Pulumi  is an  open-source software  tool to manage  infrastructure as code  through a variety of  languages , including  TypeScript…
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[James Tharpe's Knowledge Feed]]></title><description><![CDATA[This website captures knowledge so I can refer to it later.]]></description><link>https://www.jamestharpe.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 21 Sep 2024 10:01:06 GMT</lastBuildDate><item><title><![CDATA[Serverless Stack Toolkit (SST)]]></title><description><![CDATA[An open-source framework to build, deploy, and manage full-stack applications on AWS]]></description><link>https://www.jamestharpe.com/sst/</link><guid isPermaLink="false">https://www.jamestharpe.com/sst/</guid><pubDate>Sat, 21 Sep 2024 09:01:25 GMT</pubDate><content:encoded>&lt;p&gt;
+														An open-source framework to build, deploy, and manage full-stack applications on AWS
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/sst/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Pulumi]]></title><description><![CDATA[An open source tool to manage infrastructure as code using the language of your choice]]></description><link>https://www.jamestharpe.com/pulumi/</link><guid isPermaLink="false">https://www.jamestharpe.com/pulumi/</guid><pubDate>Sat, 21 Sep 2024 09:01:25 GMT</pubDate><content:encoded>&lt;p&gt;
+														An open source tool to manage infrastructure as code using the language of your choice
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pulumi/&quot;&gt;Read the article&lt;/a&gt;
@@ -28,16 +33,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/ux/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Core Web Vitals]]></title><description><![CDATA[An overview of Google's quality signal metrics]]></description><link>https://www.jamestharpe.com/core-web-vitals/</link><guid isPermaLink="false">https://www.jamestharpe.com/core-web-vitals/</guid><pubDate>Tue, 04 Jul 2023 13:18:11 GMT</pubDate><content:encoded>&lt;p&gt;
-														An overview of Google&apos;s quality signal metrics
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/core-web-vitals/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[AVIF Images]]></title><description><![CDATA[Basics of the AVIF image file format applications]]></description><link>https://www.jamestharpe.com/avif/</link><guid isPermaLink="false">https://www.jamestharpe.com/avif/</guid><pubDate>Tue, 04 Jul 2023 13:18:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														Basics of the AVIF image file format applications
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/avif/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Core Web Vitals]]></title><description><![CDATA[An overview of Google's quality signal metrics]]></description><link>https://www.jamestharpe.com/core-web-vitals/</link><guid isPermaLink="false">https://www.jamestharpe.com/core-web-vitals/</guid><pubDate>Tue, 04 Jul 2023 13:18:11 GMT</pubDate><content:encoded>&lt;p&gt;
+														An overview of Google&apos;s quality signal metrics
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/core-web-vitals/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Content Management Systems (CMS)]]></title><description><![CDATA[Software systems to manage your content]]></description><link>https://www.jamestharpe.com/content-management-systems/</link><guid isPermaLink="false">https://www.jamestharpe.com/content-management-systems/</guid><pubDate>Sun, 25 Jun 2023 19:34:57 GMT</pubDate><content:encoded>&lt;p&gt;
 														Software systems to manage your content
 													&lt;/p&gt;
@@ -108,16 +113,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/formal-sciences/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[ChatGPT as a Software Development Assistant]]></title><description><![CDATA[A useful ChatGPT prompt to guide software development]]></description><link>https://www.jamestharpe.com/chatgpt-prompt-software-developer-assistant/</link><guid isPermaLink="false">https://www.jamestharpe.com/chatgpt-prompt-software-developer-assistant/</guid><pubDate>Mon, 03 Apr 2023 17:22:52 GMT</pubDate><content:encoded>&lt;p&gt;
-														A useful ChatGPT prompt to guide software development
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/chatgpt-prompt-software-developer-assistant/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[ChatGPT as a Teacher or Tutor]]></title><description><![CDATA[An educational ChatGPT prompt to build and guide you through a full syllabus]]></description><link>https://www.jamestharpe.com/chatgpt-prompt-teacher-tutor/</link><guid isPermaLink="false">https://www.jamestharpe.com/chatgpt-prompt-teacher-tutor/</guid><pubDate>Mon, 03 Apr 2023 17:22:52 GMT</pubDate><content:encoded>&lt;p&gt;
 														An educational ChatGPT prompt to build and guide you through a full syllabus
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/chatgpt-prompt-teacher-tutor/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[ChatGPT as a Software Development Assistant]]></title><description><![CDATA[A useful ChatGPT prompt to guide software development]]></description><link>https://www.jamestharpe.com/chatgpt-prompt-software-developer-assistant/</link><guid isPermaLink="false">https://www.jamestharpe.com/chatgpt-prompt-software-developer-assistant/</guid><pubDate>Mon, 03 Apr 2023 17:22:52 GMT</pubDate><content:encoded>&lt;p&gt;
+														A useful ChatGPT prompt to guide software development
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/chatgpt-prompt-software-developer-assistant/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Happiness]]></title><description><![CDATA[The catch-all positive emotional state]]></description><link>https://www.jamestharpe.com/happiness/</link><guid isPermaLink="false">https://www.jamestharpe.com/happiness/</guid><pubDate>Mon, 03 Apr 2023 16:13:52 GMT</pubDate><content:encoded>&lt;p&gt;
 														The catch-all positive emotional state
 													&lt;/p&gt;
@@ -283,16 +288,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/code-recipes/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipe: Drop single-value columns]]></title><description><![CDATA[How to drop columns in a dataframe that contain only a single value or all nulls]]></description><link>https://www.jamestharpe.com/pyspark-drop-single-value-columns/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark-drop-single-value-columns/</guid><pubDate>Mon, 07 Nov 2022 16:26:22 GMT</pubDate><content:encoded>&lt;p&gt;
-														How to drop columns in a dataframe that contain only a single value or all nulls
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/pyspark-drop-single-value-columns/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipe: Conditionally replace a column's values]]></title><description><![CDATA[How to Conditionally replace a column's values in PySpark]]></description><link>https://www.jamestharpe.com/pyspark-conditionally-replace-column-values/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark-conditionally-replace-column-values/</guid><pubDate>Mon, 07 Nov 2022 16:26:22 GMT</pubDate><content:encoded>&lt;p&gt;
 														How to Conditionally replace a column&apos;s values in PySpark
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/pyspark-conditionally-replace-column-values/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipe: Drop single-value columns]]></title><description><![CDATA[How to drop columns in a dataframe that contain only a single value or all nulls]]></description><link>https://www.jamestharpe.com/pyspark-drop-single-value-columns/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark-drop-single-value-columns/</guid><pubDate>Mon, 07 Nov 2022 16:26:22 GMT</pubDate><content:encoded>&lt;p&gt;
+														How to drop columns in a dataframe that contain only a single value or all nulls
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/pyspark-drop-single-value-columns/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[PySpark Recipe: Select rows where any column contains a null value]]></title><description><![CDATA[A PySpark recipe to select rows with a null value in any column]]></description><link>https://www.jamestharpe.com/pyspark-select-rows-with-nulls/</link><guid isPermaLink="false">https://www.jamestharpe.com/pyspark-select-rows-with-nulls/</guid><pubDate>Mon, 07 Nov 2022 16:26:22 GMT</pubDate><content:encoded>&lt;p&gt;
 														A PySpark recipe to select rows with a null value in any column
 													&lt;/p&gt;
@@ -343,16 +348,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-datasets/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Dispersions: Measures of Spread]]></title><description><![CDATA[Usage and calculations for range, standard deviation, and variance on a set of numbers]]></description><link>https://www.jamestharpe.com/dispersions/</link><guid isPermaLink="false">https://www.jamestharpe.com/dispersions/</guid><pubDate>Fri, 02 Sep 2022 17:00:19 GMT</pubDate><content:encoded>&lt;p&gt;
-														Usage and calculations for range, standard deviation, and variance on a set of numbers
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/dispersions/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Averages: Measures of Central Tendency]]></title><description><![CDATA[Usage and calculations for mean, median, and mode on a set of numbers]]></description><link>https://www.jamestharpe.com/averages/</link><guid isPermaLink="false">https://www.jamestharpe.com/averages/</guid><pubDate>Fri, 02 Sep 2022 17:00:19 GMT</pubDate><content:encoded>&lt;p&gt;
 														Usage and calculations for mean, median, and mode on a set of numbers
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/averages/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Dispersions: Measures of Spread]]></title><description><![CDATA[Usage and calculations for range, standard deviation, and variance on a set of numbers]]></description><link>https://www.jamestharpe.com/dispersions/</link><guid isPermaLink="false">https://www.jamestharpe.com/dispersions/</guid><pubDate>Fri, 02 Sep 2022 17:00:19 GMT</pubDate><content:encoded>&lt;p&gt;
+														Usage and calculations for range, standard deviation, and variance on a set of numbers
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/dispersions/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Acrylonitrile Butadiene Styrene (ABS) Filament]]></title><description><![CDATA[3d printing with ABS filament]]></description><link>https://www.jamestharpe.com/abs-filament/</link><guid isPermaLink="false">https://www.jamestharpe.com/abs-filament/</guid><pubDate>Fri, 02 Sep 2022 15:22:46 GMT</pubDate><content:encoded>&lt;p&gt;
 														3d printing with ABS filament
 													&lt;/p&gt;
@@ -623,16 +628,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/content-addressed-storage/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Columnar Databases]]></title><description><![CDATA[Columnar databases Columnar databases , also knowns as  column-oriented databases , are  databases  that store  data  on disk as columns, as…]]></description><link>https://www.jamestharpe.com/columnar-databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/columnar-databases/</guid><pubDate>Sun, 28 Nov 2021 09:46:25 GMT</pubDate><content:encoded>&lt;p&gt;
-														Columnar databases Columnar databases , also knowns as  column-oriented databases , are  databases  that store  data  on disk as columns, as…
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/columnar-databases/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Insert-only Databases]]></title><description><![CDATA[A database design approach that requires deletes and updates to be performed as inserts]]></description><link>https://www.jamestharpe.com/insert-only-databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/insert-only-databases/</guid><pubDate>Sun, 28 Nov 2021 09:46:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														A database design approach that requires deletes and updates to be performed as inserts
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/insert-only-databases/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Columnar Databases]]></title><description><![CDATA[Columnar databases Columnar databases , also knowns as  column-oriented databases , are  databases  that store  data  on disk as columns, as…]]></description><link>https://www.jamestharpe.com/columnar-databases/</link><guid isPermaLink="false">https://www.jamestharpe.com/columnar-databases/</guid><pubDate>Sun, 28 Nov 2021 09:46:25 GMT</pubDate><content:encoded>&lt;p&gt;
+														Columnar databases Columnar databases , also knowns as  column-oriented databases , are  databases  that store  data  on disk as columns, as…
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/columnar-databases/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Tombstone Design Pattern]]></title><description><![CDATA[A software design pattern for immutable data deletes]]></description><link>https://www.jamestharpe.com/tombstone-pattern/</link><guid isPermaLink="false">https://www.jamestharpe.com/tombstone-pattern/</guid><pubDate>Sat, 27 Nov 2021 19:37:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														A software design pattern for immutable data deletes
 													&lt;/p&gt;
@@ -648,6 +653,11 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/swe-design-patterns/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Useful Apps]]></title><description><![CDATA[Apps with good utility]]></description><link>https://www.jamestharpe.com/apps/</link><guid isPermaLink="false">https://www.jamestharpe.com/apps/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>&lt;p&gt;
+														Apps with good utility
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/apps/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Command Query Responsibility Segregation (CQRS)]]></title><description><![CDATA[A software engineering design pattern to separate responsibility between commands and queries]]></description><link>https://www.jamestharpe.com/cqrs/</link><guid isPermaLink="false">https://www.jamestharpe.com/cqrs/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														A software engineering design pattern to separate responsibility between commands and queries
 													&lt;/p&gt;
@@ -658,11 +668,6 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/distributed-systems/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Useful Apps]]></title><description><![CDATA[Apps with good utility]]></description><link>https://www.jamestharpe.com/apps/</link><guid isPermaLink="false">https://www.jamestharpe.com/apps/</guid><pubDate>Sat, 27 Nov 2021 17:16:25 GMT</pubDate><content:encoded>&lt;p&gt;
-														Apps with good utility
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/apps/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Apache Kafka]]></title><description><![CDATA[A distributed event streaming platform for data-pipelines and analytics]]></description><link>https://www.jamestharpe.com/apache-kafka/</link><guid isPermaLink="false">https://www.jamestharpe.com/apache-kafka/</guid><pubDate>Sat, 27 Nov 2021 15:19:54 GMT</pubDate><content:encoded>&lt;p&gt;
 														A distributed event streaming platform for data-pipelines and analytics
 													&lt;/p&gt;
@@ -738,16 +743,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/sociology/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Economics]]></title><description><![CDATA[The dismal science]]></description><link>https://www.jamestharpe.com/economics/</link><guid isPermaLink="false">https://www.jamestharpe.com/economics/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>&lt;p&gt;
-														The dismal science
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/economics/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Interpretive Research]]></title><description><![CDATA[Research that attempts to derive theories from data that is too contextual, incomplete, or subjective for quantitative analysis]]></description><link>https://www.jamestharpe.com/interpretive-research/</link><guid isPermaLink="false">https://www.jamestharpe.com/interpretive-research/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>&lt;p&gt;
 														Research that attempts to derive theories from data that is too contextual, incomplete, or subjective for quantitative analysis
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/interpretive-research/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Economics]]></title><description><![CDATA[The dismal science]]></description><link>https://www.jamestharpe.com/economics/</link><guid isPermaLink="false">https://www.jamestharpe.com/economics/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>&lt;p&gt;
+														The dismal science
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/economics/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Social Sciences]]></title><description><![CDATA[The study of human social relationships]]></description><link>https://www.jamestharpe.com/social-sciences/</link><guid isPermaLink="false">https://www.jamestharpe.com/social-sciences/</guid><pubDate>Sun, 21 Nov 2021 17:44:45 GMT</pubDate><content:encoded>&lt;p&gt;
 														The study of human social relationships
 													&lt;/p&gt;
@@ -843,16 +848,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/programmatic-advertising/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Data]]></title><description><![CDATA[Facts, statistics, and references to information]]></description><link>https://www.jamestharpe.com/data/</link><guid isPermaLink="false">https://www.jamestharpe.com/data/</guid><pubDate>Mon, 15 Nov 2021 12:51:19 GMT</pubDate><content:encoded>&lt;p&gt;
-														Facts, statistics, and references to information
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/data/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Information]]></title><description><![CDATA[Data put into useful context]]></description><link>https://www.jamestharpe.com/information/</link><guid isPermaLink="false">https://www.jamestharpe.com/information/</guid><pubDate>Mon, 15 Nov 2021 12:51:19 GMT</pubDate><content:encoded>&lt;p&gt;
 														Data put into useful context
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/information/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Data]]></title><description><![CDATA[Facts, statistics, and references to information]]></description><link>https://www.jamestharpe.com/data/</link><guid isPermaLink="false">https://www.jamestharpe.com/data/</guid><pubDate>Mon, 15 Nov 2021 12:51:19 GMT</pubDate><content:encoded>&lt;p&gt;
+														Facts, statistics, and references to information
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/data/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Statistical Hypothesis Testing]]></title><description><![CDATA[The art and science of stimulating demand]]></description><link>https://www.jamestharpe.com/statistical-hypothesis-testing/</link><guid isPermaLink="false">https://www.jamestharpe.com/statistical-hypothesis-testing/</guid><pubDate>Mon, 15 Nov 2021 12:48:27 GMT</pubDate><content:encoded>&lt;p&gt;
 														The art and science of stimulating demand
 													&lt;/p&gt;
@@ -913,21 +918,21 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/windows-unpinned-items-return-on-restart/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[CSS recipes]]></title><description><![CDATA[Quick and easy to copy recipes for CSS]]></description><link>https://www.jamestharpe.com/css-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/css-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>&lt;p&gt;
-														Quick and easy to copy recipes for CSS
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/css-recipes/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JavaScript and TypeScript recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>&lt;p&gt;
-														Quick and easy to copy recipes for JavaScript and TypeScript
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/js-recipes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JavaScript Recipe: Get the unique elements from an array]]></title><description><![CDATA[Recipe to get the unique elements from a JavaScript Array]]></description><link>https://www.jamestharpe.com/js-get-unique-array-elements/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-get-unique-array-elements/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>&lt;p&gt;
 														Recipe to get the unique elements from a JavaScript Array
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/js-get-unique-array-elements/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JavaScript and TypeScript recipes]]></title><description><![CDATA[Quick and easy to copy recipes for JavaScript and TypeScript]]></description><link>https://www.jamestharpe.com/js-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/js-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>&lt;p&gt;
+														Quick and easy to copy recipes for JavaScript and TypeScript
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/js-recipes/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[CSS recipes]]></title><description><![CDATA[Quick and easy to copy recipes for CSS]]></description><link>https://www.jamestharpe.com/css-recipes/</link><guid isPermaLink="false">https://www.jamestharpe.com/css-recipes/</guid><pubDate>Sun, 26 Sep 2021 18:32:47 GMT</pubDate><content:encoded>&lt;p&gt;
+														Quick and easy to copy recipes for CSS
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/css-recipes/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Unsplash: Royalty-free Photos]]></title><description><![CDATA[Royalty free, high-resolution photos]]></description><link>https://www.jamestharpe.com/unsplash/</link><guid isPermaLink="false">https://www.jamestharpe.com/unsplash/</guid><pubDate>Tue, 21 Sep 2021 14:52:10 GMT</pubDate><content:encoded>&lt;p&gt;
 														Royalty free, high-resolution photos
 													&lt;/p&gt;
@@ -973,16 +978,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/transitive-closure/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JSON Web Encryption (JWE)]]></title><description><![CDATA[A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516]]></description><link>https://www.jamestharpe.com/jwe/</link><guid isPermaLink="false">https://www.jamestharpe.com/jwe/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>&lt;p&gt;
-														A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/jwe/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JSON Object Signing and Encryption (JOSE)]]></title><description><![CDATA[A set of technologies used to encrypt and sign content]]></description><link>https://www.jamestharpe.com/jose/</link><guid isPermaLink="false">https://www.jamestharpe.com/jose/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>&lt;p&gt;
 														A set of technologies used to encrypt and sign content
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/jose/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JSON Web Encryption (JWE)]]></title><description><![CDATA[A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516]]></description><link>https://www.jamestharpe.com/jwe/</link><guid isPermaLink="false">https://www.jamestharpe.com/jwe/</guid><pubDate>Sun, 05 Sep 2021 21:52:27 GMT</pubDate><content:encoded>&lt;p&gt;
+														A format to represent encrypted data as base64url encoded JSON, defined by RFC 7516
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/jwe/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Asymmetric (public-key) Cryptography]]></title><description><![CDATA[A cryptographic system]]></description><link>https://www.jamestharpe.com/asymmetric-cryptography/</link><guid isPermaLink="false">https://www.jamestharpe.com/asymmetric-cryptography/</guid><pubDate>Sun, 05 Sep 2021 21:28:27 GMT</pubDate><content:encoded>&lt;p&gt;
 														A cryptographic system
 													&lt;/p&gt;
@@ -1023,16 +1028,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/json/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Hash-based Message Authentication Codes (HMAC)]]></title><description><![CDATA[Hash-based Message Authentication Codes]]></description><link>https://www.jamestharpe.com/hmacs/</link><guid isPermaLink="false">https://www.jamestharpe.com/hmacs/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>&lt;p&gt;
-														Hash-based Message Authentication Codes
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/hmacs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[JSON Web Signatures (JWS)]]></title><description><![CDATA[A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515]]></description><link>https://www.jamestharpe.com/jws/</link><guid isPermaLink="false">https://www.jamestharpe.com/jws/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>&lt;p&gt;
 														A method to represent content secured with digital signatures or MACs using JSON, defined by RFC 7515
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/jws/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Hash-based Message Authentication Codes (HMAC)]]></title><description><![CDATA[Hash-based Message Authentication Codes]]></description><link>https://www.jamestharpe.com/hmacs/</link><guid isPermaLink="false">https://www.jamestharpe.com/hmacs/</guid><pubDate>Wed, 01 Sep 2021 12:09:27 GMT</pubDate><content:encoded>&lt;p&gt;
+														Hash-based Message Authentication Codes
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/hmacs/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[chmod Linux Command]]></title><description><![CDATA[A Linux command used to change the mode of a file or directory]]></description><link>https://www.jamestharpe.com/chmod/</link><guid isPermaLink="false">https://www.jamestharpe.com/chmod/</guid><pubDate>Tue, 31 Aug 2021 13:07:52 GMT</pubDate><content:encoded>&lt;p&gt;
 														A Linux command used to change the mode of a file or directory
 													&lt;/p&gt;
@@ -1098,16 +1103,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/jira-align/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Cynefin Framework]]></title><description><![CDATA[A framework for making sense out of chaotic or complex situations]]></description><link>https://www.jamestharpe.com/cynefin/</link><guid isPermaLink="false">https://www.jamestharpe.com/cynefin/</guid><pubDate>Sat, 26 Jun 2021 19:01:25 GMT</pubDate><content:encoded>&lt;p&gt;
-														A framework for making sense out of chaotic or complex situations
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/cynefin/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Change Management]]></title><description><![CDATA[The practice of implementing and communicating changes in organizations]]></description><link>https://www.jamestharpe.com/change-management/</link><guid isPermaLink="false">https://www.jamestharpe.com/change-management/</guid><pubDate>Sat, 26 Jun 2021 19:01:25 GMT</pubDate><content:encoded>&lt;p&gt;
 														The practice of implementing and communicating changes in organizations
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/change-management/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Cynefin Framework]]></title><description><![CDATA[A framework for making sense out of chaotic or complex situations]]></description><link>https://www.jamestharpe.com/cynefin/</link><guid isPermaLink="false">https://www.jamestharpe.com/cynefin/</guid><pubDate>Sat, 26 Jun 2021 19:01:25 GMT</pubDate><content:encoded>&lt;p&gt;
+														A framework for making sense out of chaotic or complex situations
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/cynefin/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Scaled Agile Framework (SAFe)]]></title><description><![CDATA[A product and project management framework for large enterprises]]></description><link>https://www.jamestharpe.com/safe-framework/</link><guid isPermaLink="false">https://www.jamestharpe.com/safe-framework/</guid><pubDate>Thu, 24 Jun 2021 17:48:42 GMT</pubDate><content:encoded>&lt;p&gt;
 														A product and project management framework for large enterprises
 													&lt;/p&gt;
@@ -1603,16 +1608,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-languages/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
-														Useful open source software projects
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/open-source-software/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Organizations]]></title><description><![CDATA[Organizations dedicated to open-source]]></description><link>https://www.jamestharpe.com/open-source-orgs/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-orgs/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Organizations dedicated to open-source
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/open-source-orgs/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source Software]]></title><description><![CDATA[Useful open source software projects]]></description><link>https://www.jamestharpe.com/open-source-software/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source-software/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
+														Useful open source software projects
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/open-source-software/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Open-Source]]></title><description><![CDATA[Information and resources about open-source]]></description><link>https://www.jamestharpe.com/open-source/</link><guid isPermaLink="false">https://www.jamestharpe.com/open-source/</guid><pubDate>Tue, 08 Dec 2020 12:49:30 GMT</pubDate><content:encoded>&lt;p&gt;
 														Information and resources about open-source
 													&lt;/p&gt;
@@ -1693,16 +1698,16 @@
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/mermaid/&quot;&gt;Read the article&lt;/a&gt;
-													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Five Whys]]></title><description><![CDATA[A method for root-cause analysis and problem solving]]></description><link>https://www.jamestharpe.com/five-whys/</link><guid isPermaLink="false">https://www.jamestharpe.com/five-whys/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
-														A method for root-cause analysis and problem solving
-													&lt;/p&gt;
-													&lt;p&gt;
-														&lt;a href=&quot;https://www.jamestharpe.com/five-whys/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Lean]]></title><description><![CDATA[A method for methodically maximizing with progressively fewer resources]]></description><link>https://www.jamestharpe.com/lean/</link><guid isPermaLink="false">https://www.jamestharpe.com/lean/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														A method for methodically maximizing with progressively fewer resources
 													&lt;/p&gt;
 													&lt;p&gt;
 														&lt;a href=&quot;https://www.jamestharpe.com/lean/&quot;&gt;Read the article&lt;/a&gt;
+													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Five Whys]]></title><description><![CDATA[A method for root-cause analysis and problem solving]]></description><link>https://www.jamestharpe.com/five-whys/</link><guid isPermaLink="false">https://www.jamestharpe.com/five-whys/</guid><pubDate>Mon, 23 Nov 2020 17:33:11 GMT</pubDate><content:encoded>&lt;p&gt;
+														A method for root-cause analysis and problem solving
+													&lt;/p&gt;
+													&lt;p&gt;
+														&lt;a href=&quot;https://www.jamestharpe.com/five-whys/&quot;&gt;Read the article&lt;/a&gt;
 													&lt;/p&gt;&quot;</content:encoded></item><item><title><![CDATA[Reinhold Niebuhr Quotes]]></title><description><![CDATA[A theologian and ethicist, notable for originating the serenity prayer (among other things)]]></description><link>https://www.jamestharpe.com/reinhold-niebuhr/</link><guid isPermaLink="false">https://www.jamestharpe.com/reinhold-niebuhr/</guid><pubDate>Mon, 23 Nov 2020 17:25:11 GMT</pubDate><content:encoded>&lt;p&gt;
 														A theologian and ethicist, notable for originating the serenity prayer (among other things)
 													&lt;/p&gt;
