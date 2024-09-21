@@ -7,4 +7,4 @@ title: "jq"
 
 # jq
 
-[jq](https://stedolan.github.io/jq/) can slice, filter, map, and transform structured [JSON](https://www.json.org/) data similar to how [`sed`](https://linux.die.net/man/1/sed), [`awk`](https://linux.die.net/man/1/awk), [`grep`](https://www.man7.org/linux/man-pages/man1/grep.1.html) is used for plain text.
+[jq](https://stedolan.github.io/jq/) can slice, filter, map, and transform structured [JSON](https://www.json.org/) data similar to how `sed`, `awk`, and `grep` are used for plain text.

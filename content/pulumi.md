@@ -38,3 +38,6 @@ Pulumi ensures that resources are created in the right order through inputs (e.g
 
 * [Pulumi homepage](https://www.pulumi.com/)
 * [Pulumi IaC documentation](https://www.pulumi.com/docs/iac/get-started/)
+* [Pulumi Examples Git Repository](https://github.com/pulumi/examples)
+* [Pulumi Tutorials](https://www.pulumi.com/tutorials/)
+* [Pulumi on YouTube](https://www.youtube.com/c/PulumiTV)
