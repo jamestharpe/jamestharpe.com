@@ -1,8 +1,8 @@
 ---
 date: 2024-09-21T05:01:25-04:00
-description: ""
+description: "An open source tool to manage infrastructure as code using the language of your choice"
 tags: ["infrastructure-as-code", "open-source-software"]
-title: "Publish/Subscribe Pattern (Pub-sub)"
+title: "Pulumi"
 ---
 
 # Pulumi
