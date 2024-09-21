@@ -134,6 +134,7 @@
 		"Prioritizable",
 		"prioritizer",
 		"prismjs",
+		"Pulumi",
 		"pyspark",
 		"Quora",
 		"RACI",
@@ -201,8 +202,8 @@
 	"editor.insertSpaces": false,
 	"editor.detectIndentation": false,
 	"editor.codeActionsOnSave": {
-		"source.organizeImports": true,
-		"source.fixAll": true,
+		"source.organizeImports": "explicit",
+		"source.fixAll": "explicit"
 	},
 	"eslint.validate": [
 		"javascript",
