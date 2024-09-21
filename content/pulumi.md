@@ -24,6 +24,8 @@ Resources include:
 * Managed resources: Resources that are managed by Pulumi (like an EC2 instance or an S3 bucket).
 * Component resources: Resources composed of other resources that can be reused.
 
+Pulumi ensures that resources are created in the right order through inputs (e.g. the type of EC2 instance to create) and outputs (e.g. an EC2 instance ID).
+
 ### Providers
 
 **Providers** are plugins that allow Pulumi to interact with different cloud platforms.
