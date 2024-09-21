@@ -1,14 +1,14 @@
 ---
 date: 2022-01-14T10:13:30-04:00
 description: "An open-source infrastructure-as-code software tool to declaratively manage cloud services"
-tags: [ "open-source-software", "infrastructure-as-code" ]
+tags: [ "infrastructure-as-code" ]
 title: "Terraform"
 draft: true
 ---
 
 # Terraform
 
-**Terraform** is an [open-source software](open-source-software.md) tool written by HashiCorp to manage [infrastructure as code](infrastructure-as-code.md) automatically through human-readable declarative configuration files.
+**Terraform** is an software tool written by HashiCorp to manage [infrastructure as code](infrastructure-as-code.md) automatically through human-readable declarative configuration files.
 
 The core components of Terraform are: the executable, configuration files (`*.tf` files), provider plugins, and state data. The terraform executable reads configuration files that define the desired infrastructure, reads the state data of the current infrastructure, calculates the changes required for the state to match the configuration, and applies those changes through the provider plugins. Provider plugins manage the specific API calls to the target infrastructure provider (AWS, Azure, etc.) and are the mechanism that allows Terraform to be cloud-agnostic.
 
