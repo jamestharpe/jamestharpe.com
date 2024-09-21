@@ -9,7 +9,7 @@ title: "Arduino Programming"
 
 Code for Arduino is typically written in [C++](cpp.md) in the [Arduino IDE](https://www.arduino.cc/en/software) or [Arduino Cloud Editor](https://docs.arduino.cc/learn/starting-guide/the-arduino-web-editor/).
 
-The web editor is preferred over the IDE because it is always current and makes code sharing easier. To enable communication from the browser to a local Arduino device requires installation of the Arduino Create Plugin.
+The web editor is preferred over the IDE because it is always current and makes code sharing easier. To enable communication from the browser to a local Arduino device requires installation of the [installation of the Arduino Create Plugin](https://create.arduino.cc/getting-started/plugin/).
 
 ## Enable Serial Logging
 

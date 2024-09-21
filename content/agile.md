@@ -23,7 +23,7 @@ title: "Agile Software Development"
 >
 > That is, while there is value in the items on the right, we value the items on the left more.
 >
-> Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, [Ward Cunningham](http://c2.com/), [Martin Fowler](https://www.martinfowler.com/), James Grenning, Jim Highsmith, [Andrew Hunt](https://toolshed.com/), Ron Jeffries, Jon Kern, Brian Marick, [Robert C. Martin](http://cleancoder.com/), Steve Mellor, Ken Schwaber, Jeff Sutherland, [Dave Thomas](https://pragdave.me/)
+> Kent Beck, Mike Beedle, Arie van Bennekum, Alistair Cockburn, [Ward Cunningham](http://c2.com/), [Martin Fowler](https://www.martinfowler.com/), James Grenning, Jim Highsmith, [Andrew Hunt](https://toolshed.com/), Ron Jeffries, Jon Kern, Brian Marick, <!--TODO: Restore when link works again [Robert C. Martin](http://cleancoder.com/) --> Robert C. Martin, Steve Mellor, Ken Schwaber, Jeff Sutherland, [Dave Thomas](https://pragdave.me/)
 >
 > © 2001, the above authors this declaration may be freely copied in any form, but only in its entirety through this notice.
 

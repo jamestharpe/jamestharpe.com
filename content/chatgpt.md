@@ -163,3 +163,8 @@ existing code. Here's an example of a ChatGPT-based code review:
 > ```
 >
 > This version of the function includes type validation for its inputs, a docstring explaining what the function does and how to use it, and more descriptive parameter names.
+
+## ChatGPT Resources
+<!-- * [ChatGPT App](https://chat.openai.com/) -->
+* [ChatGPT Documentation](https://platform.openai.com/docs/models/chatgpt)
+* [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts)

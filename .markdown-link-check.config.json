@@ -1,13 +1,55 @@
 {
 	"replacementPatterns": [
 		{
-			"pattern": "^\/img\/",
+			"pattern": "^/img/",
 			"replacement": "../static/img/"
 		}
 	],
 	"ignorePatterns": [
 		{
-			"pattern": "^https://www.linkedin.com/in/jamestharpe/"
+			"pattern": "^https://www.feynmanlectures.caltech.edu"
+		},
+		{
+			"pattern": "^https://azure.microsoft.com"
+		},
+		{
+			"pattern": "^https://platform.openai.com"
+		},
+		{
+			"pattern": "^https://linux.die.net"
+		},
+		{
+			"pattern": "^https://leetcode.com"
+		},
+		{
+			"pattern": "^https://www.linkedin.com"
+		},
+		{
+			"pattern": "^https://www.fs.usda.gov"
+		},
+		{
+			"pattern": "^https://app.arduino.cc/sketches/3ef73b15-330f-4a70-ab8f-b24697ef66d5"
+		}
+	],
+	"httpHeaders": [
+		{
+			"urls": ["https://create.arduino.cc", "https://web.dev/", "https://www.tutorialspoint.com/"],
+			"headers": {
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+				"accept-language": "en-US,en;q=0.9",
+				"cache-control": "no-cache",
+				"pragma": "no-cache",
+				"priority": "u=0, i",
+				"sec-ch-ua": "\"Chromium\";v=\"129\", \"Not=A?Brand\";v=\"8\"",
+				"sec-ch-ua-mobile": "?0",
+				"sec-ch-ua-platform": "\"Windows\"",
+				"sec-fetch-dest": "document",
+				"sec-fetch-mode": "navigate",
+				"sec-fetch-site": "none",
+				"sec-fetch-user": "?1",
+				"upgrade-insecure-requests": "1",
+				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+			}
 		}
 	]
 }

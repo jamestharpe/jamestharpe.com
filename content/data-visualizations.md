@@ -27,5 +27,6 @@ A **histogram** shows the distribution of a single variable across all values fo
 
 <!-- ## Data Visualization Resources -->
 
-* [Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html)
+* [The Periodic Table of Visualization Methods](https://www.visual-literacy.org/periodic_table/periodic_table.html) suggests various visualization techniques based on purpose
+* [YouGov](https://today.yougov.com/) provides effective visualizations of US government and poll related data
 <!-- TODO: * [Visual Capitalist](https://www.visualcapitalist.com/) -->
